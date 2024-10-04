@@ -1,0 +1,14 @@
+ent-ADTClothingHeadHuraskaIlisium = фуражка
+    .desc = Ilisium
+ent-ADTClothingHeadHelmetSolderIlisium = шлем Ilisium
+    .desc = Ilisium
+ent-ADTClothingHeadHelmetIlisium = шлем Ilisium
+    .desc = Ilisium
+ent-ADTClothingMaskGasIlisium = противогаз Ilisium
+    .desc = Закрывающая лицо маска, которую можно подключить к дыхательному баллону.
+ent-ADTClothingOuterHardsuitIlisium = скафандр Ilisium
+    .desc = скафандр Ilisium
+ent-ADTClothingOuterCoatIlisium = куртка Ilisium
+    .desc = Ilisium
+ent-ADTClothingUniformIlisium = комбинезон Ilisiom
+    .desc = Suit Ilisiom

@@ -1,0 +1,56 @@
+# Jumpsuit
+- type: loadout
+  id: BoxerShorts
+  equipment:
+    jumpsuit: UniformShortsRed
+
+- type: loadout
+  id: BoxerShortsWithTop
+  equipment:
+    jumpsuit: UniformShortsRedWithTop
+
+# Gloves
+- type: loadout
+  id: RedBoxingGloves
+  equipment:
+    gloves: ClothingHandsGlovesBoxingRed
+
+- type: loadout
+  id: BlueBoxingGloves
+  equipment:
+    gloves: ClothingHandsGlovesBoxingBlue
+
+- type: loadout
+  id: GreenBoxingGloves
+  equipment:
+    gloves: ClothingHandsGlovesBoxingGreen
+
+- type: loadout
+  id: YellowBoxingGloves
+  equipment:
+    gloves: ClothingHandsGlovesBoxingYellow
+
+# Underwear
+- type: loadout
+  id: UnderwearBottomBoxersBoxer
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MaleUnderwear
+  equipment:
+    underwearb: ClothingUnderwearBottomBoxersBoxer
+
+- type: loadout
+  id: UnderwearBottomPantiesBoxer
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: FemaleUnderwear
+  equipment:
+    underwearb: ClothingUnderwearBottomPantiesBoxer
+
+- type: loadout
+  id: UnderwearTopBraBoxer
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: FemaleUnderwear
+  equipment:
+    underweart: ClothingUnderwearTopBraBoxer

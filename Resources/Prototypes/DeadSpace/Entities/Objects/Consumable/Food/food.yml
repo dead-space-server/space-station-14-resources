@@ -1,0 +1,109 @@
+- type: entity
+  name: лазанья
+  parent: FoodBurgerBase
+  id: Lasanga
+  components:
+  - type: FlavorProfile
+    flavors:
+      - bun
+      - egg
+  - type: Food
+    transferAmount: 5
+  - type: Sprite
+    sprite: /Textures/DeadSpace/Objects/Consumable/Food/lasagna.rsi
+    state: icon
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 20
+        reagents:
+        - ReagentId: Egg
+          Quantity: 5
+        - ReagentId: Nutriment
+          Quantity: 7
+        - ReagentId: Vitamin
+          Quantity: 3
+  - type: Item
+    sprite: /Textures/DeadSpace/Objects/Consumable/Food/lasagna.rsi
+
+- type: entity
+  name: точно не сэндвич
+  parent: FoodBurgerBase
+  id: NotSandwich
+  components:
+  - type: FlavorProfile
+    flavors:
+      - bun
+  - type: Food
+    transferAmount: 5
+  - type: Sprite
+    state: icon
+    sprite: /Textures/DeadSpace/Objects/Consumable/Food/notsandwich.rsi
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 15
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 7
+        - ReagentId: Vitamin
+          Quantity: 3
+  - type: Item
+    sprite: /Textures/DeadSpace/Objects/Consumable/Food/notsandwich.rsi
+
+- type: entity
+  name: яйца на пару
+  parent: FoodBurgerBase
+  id: Chawanmushi
+  components:
+  - type: FlavorProfile
+    flavors:
+      - bun
+      - egg
+  - type: Food
+    transferAmount: 5
+  - type: Sprite
+    sprite: /Textures/DeadSpace/Objects/Consumable/Food/chawanmushi.rsi
+    state: icon
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 15
+        reagents:
+        - ReagentId: Egg
+          Quantity: 4
+        - ReagentId: Nutriment
+          Quantity: 3
+        - ReagentId: Vitamin
+          Quantity: 3
+  - type: Item
+    sprite: /Textures/DeadSpace/Objects/Consumable/Food/chawanmushi.rsi
+
+- type: entity
+  parent: FoodBowlBase
+  id: FoodSoupBone
+  name: суп из костей
+  description: Никогда не спрашивайте как его приготовили.
+  components:
+  - type: FlavorProfile
+    flavors:
+      - bitter
+      - terrible
+  - type: Sprite
+    sprite: /Textures/DeadSpace/Objects/Consumable/Food/bonesoup.rsi
+    layers:
+    - state: bowl
+    - state: bone-soup
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 15
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 5
+        - ReagentId: Vitamin
+          Quantity: 1
+  - type: Tag
+    tags:
+    - Meat
+    - Soup

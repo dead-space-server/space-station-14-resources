@@ -1,0 +1,23 @@
+- type: damageModifierSet
+  id: Demon
+  coefficients:
+    Blunt: 1
+    Slash: 1
+    Piercing: 1
+    Shock: 0.2
+    Cold: 1
+    Heat: 0.2
+    Poison: 0.25
+    Radiation: 0
+
+- type: damageModifierSet
+  id: SlaughterDemon
+  coefficients:
+    Blunt: 1
+    Slash: 1
+    Piercing: 1
+    Shock: 0.2
+    Cold: 1
+    Heat: 0.2
+    Poison: 0.25
+    Radiation: 0

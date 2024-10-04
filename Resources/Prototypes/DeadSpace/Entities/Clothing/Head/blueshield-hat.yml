@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeretBlueShield
+  name: берет офицера "Синий Щит"
+  description: Серый берет, с кокардой подразделения "Синий Щит".
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Clothing/Head/Hats/beret_blueshield.rsi
+  - type: Clothing
+    sprite: DeadSpace/Clothing/Head/Hats/beret_blueshield.rsi

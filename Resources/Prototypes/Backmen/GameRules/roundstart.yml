@@ -1,0 +1,13 @@
+﻿- type: entity
+  id: BlobGameMode
+  parent: BaseGameRule
+  noSpawn: true
+  components:
+  - type: BlobGameRule
+
+- type: entity
+  id: Blob
+  parent: BaseGameRule
+  noSpawn: true
+  components:
+  - type: BlobRule

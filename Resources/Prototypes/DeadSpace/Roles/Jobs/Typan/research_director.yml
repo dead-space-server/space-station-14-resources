@@ -1,0 +1,34 @@
+- type: job
+  id: TypanRD
+  name: Директор исследований Синдиката
+  playTimeTracker: TypanRD
+  description: Научный Директор из далёкого космоса
+  startingGear: SyndicateRD
+  icon: "JobIconSyndicateRD"
+  supervisors: job-supervisors-captain-syndicate
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Science
+      time: 60000
+    - !type:OverallPlaytimeRequirement
+      time: 150000
+    - !type:AgeRequirement
+      requiredAge: 28
+  access:
+  - SyndicateAgent
+  - NuclearOperative
+  accessGroups:
+  - AllAccess
+
+- type: startingGear
+  id: SyndicateRD
+  equipment:
+    eyes: ClothingEyesGlassesHiddenSecurity
+    ears: ClothingHeadsetAltTypan
+    shoes: ClothingShoesBootsCombat
+    outerClothing: ClothingOuterCoatRDTypan
+    gloves: ClothingHandsRDTypan
+    id: TypanIDCardRd
+    back: ClothingBackpackSyndicate
+    jumpsuit: ClothingUniformJumpsuitSyndieFormal
+    belt: ClothingBeltAssaultTypan

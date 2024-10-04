@@ -1,0 +1,46 @@
+- type: radioChannel
+  id: DeathSquad
+  name: chat-radio-deathsquad
+  keycode: 'а' # DS14-Localization
+  frequency: 2707
+  color: "#CF1CFF"
+  longRange: true
+
+- type: radioChannel
+  id: Law
+  name: chat-radio-law
+  keycode: 'ю' # DS14-Localization
+  frequency: 1305
+  color: "#d98b71"
+
+- type: radioChannel
+  id: Merc
+  name: chat-radio-merc
+  keycode: 'ч' # DS14-Localization
+  frequency: 1306
+  color: "#ff144b"
+  longRange: true
+
+- type: radioChannel
+  id: SOC
+  name: chat-radio-soc
+  keycode: 'е' # DS14-Localization
+  frequency: 1307
+  color: "#00fa9a"
+  longRange: true
+
+- type: radioChannel
+  id: Typan
+  name: chat-radio-typan
+  keycode: 'й' # DS14-Localization
+  frequency: 6542
+  color: "#8f0d4b"
+  longRange: true
+
+- type: radioChannel
+  id: Unitolog
+  name: chat-radio-unitolog
+  keycode: 'ь' # DS14-Localization
+  frequency: 1666
+  color: "#2F4F4F"
+  longRange: true

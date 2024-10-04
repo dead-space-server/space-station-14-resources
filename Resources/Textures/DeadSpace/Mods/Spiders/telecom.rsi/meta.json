@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-4.0",
+  "copyright": "Made by KloopRe (discord)",
+  "size": {
+    "x": 64,
+    "y": 38
+  },
+  "states": [
+    {
+      "name": "norka"
+    }
+  ]
+}

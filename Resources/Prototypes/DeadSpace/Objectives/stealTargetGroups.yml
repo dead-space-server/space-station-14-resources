@@ -1,0 +1,6 @@
+- type: stealTargetGroup
+  id: AnimalPoly
+  name: Poly
+  sprite:
+    sprite: Mobs/Animals/parrot.rsi
+    state: parrot

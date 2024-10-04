@@ -1,0 +1,103 @@
+- type: entity
+  id: BoneBullet
+  name: костяной шип
+  parent: BaseBullet
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      groups:
+        Brute: 20
+  - type: Sprite
+    sprite: DeadSpace/Effects/bone_bullet.rsi
+    layers:
+      - state: bone_bullet
+  - type: Ammo
+
+- type: entity
+  id: MobNecromant
+  parent: NecromorfMobBase
+  components:
+  - type: MindContainer
+  - type: InputMover
+  - type: MobMover
+  - type: Tool
+    speedModifier: 3
+    qualities:
+      - Prying
+    useSound:
+      path: /Audio/Items/crowbar.ogg
+  - type: Reactive
+    groups:
+      Flammable: [Touch]
+      Extinguish: [Touch]
+  - type: NpcFactionMember
+    factions:
+    - Necromorfs
+  - type: Hands
+  - type: Speech
+    speechVerb: LargeMob
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: DeadSpace/Mods/Necromorfs/necromant.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: necromant
+  - type: MobState
+    allowedStates:
+    - Alive
+    - Dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      250: Dead
+  - type: Stamina
+  - type: MeleeWeapon
+    damage:
+      groups:
+          Brute: 20
+  - type: Gun
+    fireRate: 0.3
+    useKey: false
+    selectedMode: SemiAuto
+    availableModes:
+      - SemiAuto
+    soundGunshot: /Audio/DeadSpace/Necromorfs/bone.ogg
+  - type: BallisticAmmoProvider
+    proto: BoneBullet
+    capacity: 500
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: running
+      Critical:
+        Base: crit
+      Dead:
+        Base: dead
+  - type: GhostRole
+    makeSentient: true
+    name: ghost-role-information-necromant-name
+    description: ghost-role-information-necromant-description
+    rules: ghost-role-information-necromant-rules
+    requirements:
+      - !type:OverallPlaytimeRequirement
+        time: 86400 # 24 hours
+  - type: GhostTakeoverAvailable
+  - type: TypingIndicator
+    proto: alien
+  - type: Temperature
+    heatDamageThreshold: 360
+    coldDamageThreshold: -150
+    currentTemperature: 310.15
+  - type: Tag
+    tags:
+      - CannotSuicide
+      - DoorBumpOpener
+      - FootstepSound
+  - type: NoSlip
+  - type: Perishable #Ummmm the acid kills a lot of the bacteria or something
+    molsPerSecondPerUnitMass: 0.0005
+  - type: PointLight
+    color: MediumPurple
+    radius: 2
+    softness: 1

@@ -1,0 +1,268 @@
+- type: entity
+  parent: BaseItem
+  id: ObeliskStoper
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Items/stoper.rsi
+    layers:
+    - state: ano01
+  - type: Damageable
+  - type: Physics
+    bodyType: Dynamic
+  - type: CollisionWake
+    enabled: false
+  - type: InteractionOutline
+  - type: Reactive
+    groups:
+      Acidic: [Touch]
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.25,-0.25,0.25,0.25"
+        density: 20
+        mask:
+        - ItemMask
+        layer:
+        - Opaque
+        restitution: 0.3
+        friction: 0.2
+  - type: Item
+    size: Normal
+    sprite: DeadSpace/Items/stoper.rsi
+    heldPrefix: ano01
+  - type: NecroobeliskStoper
+
+- type: latheRecipe
+  id: ObeliskStoper
+  result: ObeliskStoper
+  completetime: 5
+  materials:
+    Plastic: 500
+    Glass: 500
+    Gold: 1000
+    Plasma: 1500
+
+- type: cargoProduct
+  id: ObeliskStoperProduct
+  icon:
+    sprite: DeadSpace/Items/stoper.rsi
+    state: ano01
+  product: CrateObeliskStoper
+  cost: 10000
+  category: Science
+  group: market
+
+- type: cargoProduct
+  id: ZetaOneMedipenProduct
+  icon:
+    sprite: Objects/Specific/Medical/medipen.rsi
+    state: medipen
+  product: CrateZetaOneMedipen
+  cost: 2000
+  category: Medical
+  group: market
+
+- type: entity
+  id: CrateObeliskStoper
+  parent: CrateScienceSecure
+  components:
+  - type: StorageFill
+    contents:
+      - id: ObeliskStoper
+
+- type: entity
+  parent: CrateMedicalSecure
+  id: CrateZetaOneMedipen
+  components:
+    - type: StorageFill
+      contents:
+        - id: ZetaOneMedipen
+          amount: 5
+
+- type: entity
+  parent: BaseSyringe
+  id: SyringeExtractInfectorDead
+  components:
+    - type: SolutionContainerManager
+      solutions:
+        injector:
+          maxVol: 15
+          reagents:
+            - ReagentId: ExtractInfectorDead
+              Quantity: 15
+
+- type: entity
+  parent: ChemicalMedipen
+  id: ZetaOneMedipen
+  components:
+  - type: Sprite
+    sprite: Objects/Specific/Medical/medipen.rsi
+    layers:
+    - state: hypovolemic
+      map: [ "enum.SolutionContainerLayers.Fill" ]
+  - type: Appearance
+  - type: SolutionContainerVisuals
+    maxFillLevels: 1
+    changeColor: false
+    emptySpriteName: hypovolemic_empty
+  - type: Hypospray
+    solutionName: pen
+    transferAmount: 30
+  - type: SolutionContainerManager
+    solutions:
+      pen:
+        maxVol: 30
+        reagents:
+          - ReagentId: ZetaOne
+            Quantity: 15
+          - ReagentId: Phalanximine
+            Quantity: 15
+  - type: Tag
+    tags: []
+
+- type: entity
+  parent: ChemicalMedipen
+  id: ZetaTwoMedipen
+  components:
+  - type: Sprite
+    sprite: Objects/Specific/Medical/medipen.rsi
+    layers:
+    - state: medipen
+      map: [ "enum.SolutionContainerLayers.Fill" ]
+  - type: SolutionContainerVisuals
+    maxFillLevels: 1
+    changeColor: false
+    emptySpriteName: medipen_empty
+  - type: Hypospray
+    solutionName: pen
+    transferAmount: 25
+  - type: SolutionContainerManager
+    solutions:
+      pen:
+        maxVol: 25
+        reagents:
+          - ReagentId: ZetaOne
+            Quantity: 15
+          - ReagentId: Impedrezene
+            Quantity: 10
+  - type: Tag
+    tags: []
+
+- type: tile
+  id: NecroFlesh
+  name: tiles-necro-floor
+  sprite: /Textures/Tiles/necrotile.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: BarestepCarpet
+  itemDrop: FloorNecroTileItemFlesh
+  friction: 0.05 #slippy
+  heatCapacity: 10000
+
+- type: entity
+  id: FloorNecroTileItemFlesh
+  parent: FloorTileItemBase
+  components:
+  - type: Sprite
+    state: necromeat
+  - type: Item
+    heldPrefix: necrotile
+  - type: FloorTile
+    outputs:
+    - Plating
+    - NecroFlesh
+  - type: Stack
+    stackType: FloorTileNecro
+  - type: Construction
+    graph: TileFlesh
+    node: fleshTile
+
+- type: stack
+  id: FloorTileNecro
+  name: tiles-necro-floor
+  spawn: FloorNecroTileItemFlesh
+  maxCount: 30
+
+- type: entity
+  name: ядро некроманта
+  description: Пусти меня и получишь огромную силу!
+  parent: BaseItem
+  id: CoreNecromant
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Items/necro_core.rsi
+    layers:
+    - state: core
+    - state: pulse
+      map: ["decay"]
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.AnomalyCoreVisuals.Decaying:
+        decay:
+          True: { visible: true }
+          False: { visible: false }
+  - type: Item
+    size: Normal
+  - type: EmitSoundOnUse
+    sound:
+      collection: RadiationPulse
+  - type: NecroCore
+
+- type: entity
+  parent: BaseItem
+  id: ObeliskSplinter
+  name: Осколок обелиска
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Mods/Necromorfs/splinter.rsi
+    layers:
+    - state: splinter
+  - type: Damageable
+  - type: Physics
+    bodyType: Dynamic
+  - type: CollisionWake
+    enabled: false
+  - type: InteractionOutline
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.25,-0.25,0.25,0.25"
+        density: 20
+        mask:
+        - ItemMask
+        layer:
+        - Opaque
+        restitution: 0.3
+        friction: 0.2
+  - type: Item
+    size: Normal
+    sprite: DeadSpace/Mods/Necromorfs/splinter.rsi
+    heldPrefix: splinter
+  - type: Necroobelisk
+    sanityDamage: 0.5
+    warn: false
+    active: false
+    canConvergence: false
+    cudzu: false
+    tile: false
+
+- type: entity
+  id: CrateObeliskSplinter
+  parent: CrateGenericSteel
+  components:
+  - type: StorageFill
+    contents:
+      - id: ObeliskStoper
+      - id: ObeliskSplinter

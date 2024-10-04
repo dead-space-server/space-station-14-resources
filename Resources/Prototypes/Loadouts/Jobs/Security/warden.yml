@@ -1,0 +1,57 @@
+# Head
+- type: loadout
+  id: WardenHead
+  equipment:
+    head: ClothingHeadHatWarden
+
+- type: loadout
+  id: WardenBeret
+  equipment:
+    head: ClothingHeadHatBeretWarden
+
+# Jumpsuit
+- type: loadout
+  id: WardenJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitWarden
+
+- type: loadout
+  id: WardenJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtWarden
+
+# OuterClothing
+- type: loadout
+  id: WardenCoat
+  equipment:
+    outerClothing: ClothingOuterCoatWarden
+
+- type: loadout
+  id: WardenArmoredWinterCoat
+  equipment:
+    outerClothing: ClothingOuterWinterWarden
+
+# Underwear
+- type: loadout
+  id: UnderwearBottomBoxersWarden
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MaleUnderwear
+  equipment:
+    underwearb: ClothingUnderwearBottomBoxersWarden
+
+- type: loadout
+  id: UnderwearBottomPantiesWarden
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: FemaleUnderwear
+  equipment:
+    underwearb: ClothingUnderwearBottomPantiesWarden
+
+- type: loadout
+  id: UnderwearTopBraWarden
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: FemaleUnderwear
+  equipment:
+    underweart: ClothingUnderwearTopBraWarden

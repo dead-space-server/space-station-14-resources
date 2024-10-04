@@ -1,0 +1,36 @@
+- type: job
+  id: SeniorPhysician
+  name: job-name-senior-physician
+  description: job-description-senior-physician
+  playTimeTracker: JobSeniorPhysician
+  requirements:
+    - !type:RoleTimeRequirement
+      role: JobChemist
+      time: 36000 # 10 hours
+    - !type:DepartmentTimeRequirement
+      department: Medical
+      time: 288000 # 80 hours
+    - !type:AgeRequirement
+      requiredAge: 28
+  startingGear: SeniorPhysicianGear
+  icon: "JobIconSeniorPhysician"
+  supervisors: job-supervisors-cmo
+  access:
+  - Medical
+  - Maintenance
+  - Chemistry
+  - Paramedic
+  - Coroner
+  #start-backmen: currency
+  minBankBalance: 150
+  maxBankBalance: 250
+  wageDepartment: Medical
+  wage: 50
+  #end-backmen: currency
+
+- type: startingGear
+  id: SeniorPhysicianGear
+  equipment:
+    shoes: ClothingShoesColorBlack
+    ears: ClothingHeadsetMedical
+    belt: ClothingBeltMedicalFilled

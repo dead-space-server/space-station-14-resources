@@ -1,0 +1,19 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ADTClothingHeadHatRacoon
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Head/Misc/racoonhead.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Head/Misc/racoonhead.rsi
+  - type: IngestionBlocker
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ADTClothingHeadHatFox
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Head/Misc/foxhead.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Head/Misc/foxhead.rsi
+  - type: IngestionBlocker

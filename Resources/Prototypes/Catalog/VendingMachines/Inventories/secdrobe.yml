@@ -1,0 +1,33 @@
+- type: vendingMachineInventory
+  id: SecDrobeInventory
+  startingInventory:
+    ClothingBackpackSecurity: 4
+    ClothingBackpackSatchelSecurity: 4
+    ClothingBackpackDuffelSecurity: 4
+    ClothingUniformJumpsuitSec: 4
+    ClothingShoesBootsJack: 4
+    ClothingHeadHatBeretSecurity: 4
+    ClothingHeadHatSecsoft: 4
+    ClothingHeadBandRed: 4
+    ClothingHandsGlovesColorBlack: 8
+    ClothingHandsGlovesFingerless: 6
+    ClothingUniformJumpskirtSec: 4
+    ClothingUniformJumpsuitSecGrey: 6
+    ClothingUniformJumpskirtSecGrey: 6
+    ClothingUniformJumpsuitSecBlue: 4
+    ClothingHeadsetSecurity: 4
+    ClothingOuterWinterSec: 4
+    ClothingOuterArmorBasic: 4
+    ClothingNeckScarfStripedRed: 3
+    ClothingOuterArmorBasicSlim: 4
+    ClothingEyesBlindfold: 2
+    ClothingOuterCoatSecurityOvercoat: 6
+    ClothingMaskNeckGaiter: 2
+    ClothingMaskNeckGaiterRed: 2
+    ClothingShoesBootsWinterSec: 2
+    ClothingShoesBootsCowboyBlack: 1
+    ClothingHeadHatCowboyBlack: 1
+    HyperLinkBookCorporateLaw: 2
+    HyperLinkBookSOPSecurity: 2
+  contrabandInventory:
+    ClothingMaskClownSecurity: 1

@@ -1,0 +1,13 @@
+- type: soundCollection
+  id: LobbyMusic
+  files:
+    - /Audio/DeadSpace/Lobby/Bubblegum.ogg
+    - /Audio/DeadSpace/Lobby/endless_space_remix.ogg
+    - /Audio/DeadSpace/Lobby/Flip_flap_remix.ogg
+    - /Audio/DeadSpace/Lobby/Phoron_will_make_us_rich.ogg
+    - /Audio/DeadSpace/Lobby/Space_Asshole.ogg
+    - /Audio/DeadSpace/Lobby/Spaced.ogg
+    - /Audio/DeadSpace/Lobby/THUNDERDOME.ogg
+    - /Audio/DeadSpace/Lobby/THUNDERDOME_remix.ogg
+    - /Audio/DeadSpace/Lobby/Tin_Tin_on_Moon.ogg
+    - /Audio/DeadSpace/Lobby/Traitor.ogg

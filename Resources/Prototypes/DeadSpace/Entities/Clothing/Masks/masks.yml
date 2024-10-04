@@ -1,0 +1,15 @@
+- type: entity
+  parent: ClothingMaskPullableBase
+  id: ClothingMaskRedNeckGaiter
+  name: red neck gaiter
+  description: Stylish neck gaiter for your neck, can protect from the cosmic wind?...
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Clothing/Mask/redneckgaiter.rsi
+  - type: Clothing
+    sprite: DeadSpace/Clothing/Mask/redneckgaiter.rsi
+  - type: IdentityBlocker
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+  - type: IngestionBlocker

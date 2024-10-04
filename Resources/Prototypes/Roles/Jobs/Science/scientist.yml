@@ -1,0 +1,26 @@
+- type: job
+  id: Scientist
+  name: job-name-scientist
+  description: job-description-scientist
+  playTimeTracker: JobScientist
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Science
+      time: 18000 # 5 hours
+  startingGear: ScientistGear
+  icon: "JobIconScientist"
+  supervisors: job-supervisors-rd
+  access:
+  - Research
+  - Maintenance
+  #start-backmen: currency
+  minBankBalance: 150
+  maxBankBalance: 250
+  wageDepartment: Science
+  wage: 75
+  #end-backmen: currency
+
+- type: startingGear
+  id: ScientistGear
+  equipment:
+    ears: ClothingHeadsetScience

@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingBackpack
+  id: ADTClothingBackpackSatchelninja
+  name: satchel
+  description: A trendy looking satchel.
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Back/ninjasatchel.rsi
+  - type: Storage
+    maxItemSize: Huge

@@ -1,0 +1,23 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ADTClothingHeadHatBlackOrientalEars
+  name: чёрные ушки ориентала
+  description: НЯ!!!
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Head/Hats/orientalears.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Head/Hats/orientalears.rsi
+  - type: AddAccentClothing
+    accent: OwOAccent
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ADTClothingHeadHatOktyabrinaOrientalEars
+  name: подарок для Октябрины
+  description: На внутренней стороне нацарапано "Для той, чьи волосы цвета сирени". Это пахнет радостью и счастьем.
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Head/Hats/orientalears.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Head/Hats/orientalears.rsi

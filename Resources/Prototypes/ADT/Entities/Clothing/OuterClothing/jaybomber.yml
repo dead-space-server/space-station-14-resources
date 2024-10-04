@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingOuterBase
+  id: ADTJayBomber
+  name: бомбер Джея
+  description: Сделанно из лучшей ткани в этом секторе.
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/OuterClothing/Coats/jaybomber.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/OuterClothing/Coats/jaybomber.rsi

@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "license": "CC-BY-NC-ND 4.0",
+  "copyright": "Space Station 14 server Dead Space",
+  "size": {
+    "x": 248,
+    "y": 324
+  },
+  "states": [
+    {
+      "name": "moon",
+	  "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+		  0.2,
+		  0.2
+        ]
+      ]
+    }
+  ]
+}

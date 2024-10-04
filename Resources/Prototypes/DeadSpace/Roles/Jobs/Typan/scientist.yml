@@ -1,0 +1,28 @@
+- type: job
+  id: TypanScience
+  name: Учёный Синдиката
+  playTimeTracker: TypanScience
+  description: Учёный из далёкого космоса
+  startingGear: SyndicateScience
+  icon: "JobIconSyndicateScience"
+  supervisors: job-supervisors-rd-syndicate
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Science
+      time: 6000
+  access:
+  - SyndicateAgent
+  - NuclearOperative
+  accessGroups:
+  - AllAccess
+
+- type: startingGear
+  id: SyndicateScience
+  equipment:
+    ears: ClothingHeadsetAltTypan
+    jumpsuit: ClothingUniformScienceTypan
+    outerClothing: ClothingOuterCoatLabOpened
+    gloves: ClothingHandsScienceTypan
+    shoes: ClothingShoesBootsCombat
+    back: ClothingBackpackSyndicate
+    id: TypanIDCardScience

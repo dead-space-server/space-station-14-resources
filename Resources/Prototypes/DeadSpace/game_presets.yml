@@ -1,0 +1,27 @@
+- type: gamePreset
+  id: Unitology
+  alias:
+    - uni
+  name: uni-title
+  description: uni-description
+  showInVote: true
+  rules:
+    - Unitology
+    - BasicStationEventScheduler
+    - BasicRoundstartVariation
+    - SubGamemodesRule
+    - WageScheduler #backmen: currency
+
+- type: gamePreset
+  id: SecretUnitology
+  alias:
+    - uniSecret
+  name: secret-title
+  description: secret-description
+  showInVote: false
+  rules:
+    - Unitology
+    - BasicStationEventScheduler
+    - BasicRoundstartVariation
+    - SubGamemodesRule
+    - WageScheduler #backmen: currency

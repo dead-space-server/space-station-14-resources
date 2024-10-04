@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "license": "CC-BY-NC-ND-4.0",
+  "copyright": "Space Station 14 server Dead Space",
+  "size": {
+    "x": 48,
+    "y": 48
+  },
+  "states": [
+    {
+      "name": "running",
+      "directions": 4
+    },
+    {
+      "name": "dead"
+    },
+    {
+      "name": "crit"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+# - type: job
+#   id: ADTInvestigator
+#   name: job-name-ADTInvestigator
+#   description: job-description-ADTInvestigator
+#   playTimeTracker: JobADTInvestigator
+#   requirements:
+#   - !type:RoleTimeRequirement
+#       role: JobWarden
+#       time: 10800 # 3 hours
+#   - !type:RoleTimeRequirement
+#       role: JobIAA
+#       time: 10800 # 3 hours
+#   - !type:DepartmentTimeRequirement
+#     department: Security
+#     time: 108000 # 30 hours
+#   startingGear: ADTInvestigatorGear
+#   icon: "JobIconADTInvestigator"
+#   supervisors: job-supervisors-hos
+#   canBeAntag: false
+#   access:
+#   - Security
+#   - Brig
+#   - Maintenance
+#   - Service
+#   - Detective
+
+# - type: startingGear
+#   id: ADTInvestigatorGear
+#   equipment:
+#     shoes: ClothingShoesBootsJackSecFilled # Corvax-Resprite-MRP
+#     eyes: ClothingEyesGlassesSecurity
+#     head: ADTClothingHeadHatsInvestigatorCap
+#     outerClothing: ADTClothingOuterCoatInvestigator
+#     id: ADTInvestigatorPDA
+#     ears: ClothingHeadsetSecurity
+#     pocket1: ADTtelescopicBaton
+#     pocket2: ForensicScanner
+#     gloves: ClothingHandsGlovesForensic
+
+# - type: entity
+#   parent: IDCardStandard
+#   id: ADTInvestigatorIDCard
+#   name: investigator ID card
+#   components:
+#   - type: Sprite
+#     layers:
+#     - state: default
+#     - state: idinvestigator
+#   - type: PresetIdCard
+#     job: ADTInvestigator
+
+# - type: entity
+#   parent: BasePDA
+#   id: ADTInvestigatorPDA
+#   name: investigator PDA
+#   description: It smells like ink and the case is prematurely closed due to the death of a suspect at work.
+#   components:
+#   - type: Pda
+#     id: ADTInvestigatorIDCard
+#     state: pda-investigator
+#   - type: PdaBorderColor
+#     borderColor: "#774705"
+#   - type: Icon
+#     state: pda-investigator

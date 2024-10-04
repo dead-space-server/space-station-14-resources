@@ -1,0 +1,144 @@
+- type: entity
+  abstract: true
+  parent: Clothing
+  id: ClothingUnderwearSocksBase
+  name: based socks
+  description: "You should not see this. If you see it, let Neko Dar#8948 know."
+  components:
+  - type: Sprite
+    state: icon
+  - type: Item
+    size: Small
+  - type: Clothing
+    slots: [socks]
+  - type: Food
+    requiresSpecialDigestion: true
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 5
+        reagents:
+        - ReagentId: Fiber
+          Quantity: 5
+  - type: Tag
+    tags:
+      - ClothMade
+
+# Sirena
+- type: entity
+  parent: ClothingUnderwearSocksBase
+  id: ClothingUnderwearSocksHigh
+  name: high socks
+  description: Nanotrasen high socks for station employees. Painted white.
+  components:
+  - type: Sprite
+    sprite: Sirena/Clothing/Underwear/Socks/socksknee.rsi
+
+- type: entity
+  parent: ClothingUnderwearSocksBase
+  id: ClothingUnderSocksBee
+  name: bee socks
+  description: Make them loins buzz!
+  components:
+  - type: Sprite
+    sprite: Clothing/Under/Socks/bee.rsi
+
+- type: entity
+  parent: ClothingUnderwearSocksBase
+  id: ClothingUnderSocksCoder
+  name: coder socks
+  description: It's time to code sisters!!11!
+  components:
+  - type: Sprite
+    sprite: Clothing/Under/Socks/coder.rsi
+
+- type: entity
+  parent: ClothingUnderwearSocksBase
+  id: ClothingUnderwearSocksNormal
+  name: socks
+  description: Standard Nanotrasen socks for station employees. Dyed white.
+  components:
+  - type: Sprite
+    sprite: Sirena/Clothing/Underwear/Socks/socksnorm.rsi
+
+- type: entity
+  parent: ClothingUnderwearSocksBase
+  id: ClothingUnderwearSocksShort
+  name: short socks
+  description: Nanotrasen short socks for station employees. Dyed white.
+  components:
+  - type: Sprite
+    sprite: Sirena/Clothing/Underwear/Socks/socksshort.rsi
+
+- type: entity
+  parent: ClothingUnderwearSocksBase
+  id: ClothingUnderwearSocksThigh
+  name: stockings
+  description: Standard Nanotrasen stockings for station employees. Dyed white.
+  components:
+  - type: Sprite
+    sprite: Sirena/Clothing/Underwear/Socks/socksthigh.rsi
+
+# DS14
+- type: entity
+  parent: ClothingUnderwearSocksBase
+  id: ClothingUnderwearSocksQuartermaster
+  name: носки квартирмейстера
+  description: Стандартные носки квартирмейстера.
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Clothing/Underwear/Cargo/quartermaster/socks.rsi
+
+- type: entity
+  parent: ClothingUnderwearSocksBase
+  id: ClothingUnderwearSocksHeadofPersonnel
+  name: носки главы персонала
+  description: Стандартные носки главы персонала.
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Clothing/Underwear/Civilian/head_of_personnel/socks.rsi
+
+- type: entity
+  parent: ClothingUnderwearSocksBase
+  id: ClothingUnderwearSocksCaptain
+  name: носки капитана
+  description: Стандартные носки капитана.
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Clothing/Underwear/Command/captain/socks.rsi
+
+- type: entity
+  parent: ClothingUnderwearSocksBase
+  id: ClothingUnderwearSocksChiefEngineer
+  name: носки старшего инженера
+  description: Стандартные носки старшего инженера.
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Clothing/Underwear/Engineering/chief_engineer/socks.rsi
+
+- type: entity
+  parent: ClothingUnderwearSocksBase
+  id: ClothingUnderwearSocksCMO
+  name: носки главного врача
+  description: Стандартные носки главного врача.
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Clothing/Underwear/Medical/cmo/socks.rsi
+
+- type: entity
+  parent: ClothingUnderwearSocksBase
+  id: ClothingUnderwearSocksResearchDirector
+  name: носки научного руководителя
+  description: Стандартные носки научного руководителя.
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Clothing/Underwear/Science/research_director/socks.rsi
+
+- type: entity
+  parent: ClothingUnderwearSocksBase
+  id: ClothingUnderwearSocksHeadOfSecurity
+  name: носки главы службы безопасности
+  description: Стандартные носки главы службы безопасности.
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Clothing/Underwear/Security/head_of_security/socks.rsi

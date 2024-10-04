@@ -1,0 +1,42 @@
+- type: job
+  id: TypanTelecommunicationsOfficer
+  name: Офицер телекомуникаций Синдиката
+  playTimeTracker: TypanTelecommunicationsOfficer
+  description: job-description-science-syndicate
+  startingGear: SyndicateFormal
+  icon: "JobIconSyndicateFormal"
+  supervisors: job-supervisors-captain-syndicate
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Science
+      time: 60000
+    - !type:DepartmentTimeRequirement
+      department: Medical
+      time: 60000
+    - !type:DepartmentTimeRequirement
+      department: Command
+      time: 108000
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 108000
+    - !type:OverallPlaytimeRequirement
+      time: 360000
+  access:
+  - SyndicateAgent
+  - NuclearOperative
+  accessGroups:
+  - AllAccess
+
+- type: startingGear
+  id: SyndicateFormal
+  equipment:
+    eyes: ClothingEyesHudTypan
+    ears: ClothingHeadsetAltTypan
+    shoes: ClothingShoesBootsCombat
+    jumpsuit: ClothingUniformJumpsuitSyndieFormal
+    gloves: ClothingHandsGlovesCombat
+    id: TypanIDCardCom
+    back: ClothingBackpackSyndicate
+    belt: ClothingBeltAssaultTypan
+    pocket1: SyndicateWhistle
+    pocket2: ClothingMaskGasSyndicate

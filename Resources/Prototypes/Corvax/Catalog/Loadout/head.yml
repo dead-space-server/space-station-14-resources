@@ -1,0 +1,7 @@
+﻿- type: sponsorLoadout
+  id: ClothingHeadHatFlowerWreathLoadout
+  entity: ClothingHeadHatFlowerWreath
+
+- type: sponsorLoadout
+  id: FoodPoppyLoadout
+  entity: FoodPoppy

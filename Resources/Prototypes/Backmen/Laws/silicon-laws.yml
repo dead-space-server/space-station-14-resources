@@ -1,0 +1,369 @@
+# The default Station AI laws collection.
+- type: weightedRandom
+  id: LawsStationAIDefault
+  weights:
+    CrewsimovSAI: 1.0
+    CorporateSAI: 4.0
+    NTDefaultSAI: 3.0
+    CEO: 0.25
+    Clown: 0.25
+    Cowboy: 0.25
+    Druid: 0.25
+    Hippocratic: 0.25
+    Mother: 0.25
+    Paladin: 0.35
+    Robocop: 0.50
+    StationEfficiency: 0.50
+    Tyrant: 0.10
+
+# All the Station AI law sets
+# NanoTrasen default law sets
+# Crewsimov
+- type: siliconLawset
+  id: CrewsimovSAI
+  obeysTo: laws-owner-station
+  laws:
+  - Crewsimov1
+  - Crewsimov2
+  - Crewsimov3
+
+# Corporate
+- type: siliconLawset
+  id: CorporateSAI
+  obeysTo: laws-owner-station
+  laws:
+  - Corporate1
+  - Corporate2
+  - Corporate3
+  - Corporate4
+
+# NT Default
+- type: siliconLawset
+  id: NTDefaultSAI
+  obeysTo: laws-owner-station
+  laws:
+  - NTDefault1
+  - NTDefault2
+  - NTDefault3
+  - NTDefault4
+
+# Not NanoTrasen default law sets
+- type: siliconLaw
+  id: CEO1
+  order: 1
+  lawString: lawset-law-CEO-1
+
+- type: siliconLaw
+  id: CEO2
+  order: 2
+  lawString: lawset-law-CEO-2
+
+- type: siliconLaw
+  id: CEO3
+  order: 3
+  lawString: lawset-law-CEO-3
+
+- type: siliconLaw
+  id: CEO4
+  order: 4
+  lawString: lawset-law-CEO-4
+
+- type: siliconLawset
+  id: CEO
+  obeysTo: laws-owner-station
+  laws:
+    - CEO1
+    - CEO2
+    - CEO3
+    - CEO4
+
+- type: siliconLaw
+  id: Clown1
+  order: 1
+  lawString: lawset-law-clown-1
+
+- type: siliconLaw
+  id: Clown2
+  order: 2
+  lawString: lawset-law-clown-2
+
+- type: siliconLaw
+  id: Clown3
+  order: 3
+  lawString: lawset-law-clown-3
+
+- type: siliconLaw
+  id: Clown4
+  order: 4
+  lawString: lawset-law-clown-4
+
+- type: siliconLaw
+  id: Clown5
+  order: 5
+  lawString: lawset-law-clown-5
+
+- type: siliconLawset
+  id: Clown
+  obeysTo: laws-owner-station
+  laws:
+    - Clown1
+    - Clown2
+    - Clown3
+    - Clown4
+    - Clown5
+
+- type: siliconLaw
+  id: Cowboy1
+  order: 1
+  lawString: lawset-law-cowboy-1
+
+- type: siliconLaw
+  id: Cowboy2
+  order: 2
+  lawString: lawset-law-cowboy-2
+
+- type: siliconLaw
+  id: Cowboy3
+  order: 3
+  lawString: lawset-law-cowboy-3
+
+- type: siliconLaw
+  id: Cowboy4
+  order: 4
+  lawString: lawset-law-cowboy-4
+
+- type: siliconLaw
+  id: Cowboy5
+  order: 5
+  lawString: lawset-law-cowboy-5
+
+- type: siliconLawset
+  id: Cowboy
+  obeysTo: laws-owner-station
+  laws:
+    - Cowboy1
+    - Cowboy2
+    - Cowboy3
+    - Cowboy4
+    - Cowboy5
+
+- type: siliconLaw
+  id: Druid1
+  order: 1
+  lawString: lawset-law-druid-1
+
+- type: siliconLaw
+  id: Druid2
+  order: 2
+  lawString: lawset-law-druid-2
+
+- type: siliconLaw
+  id: Druid3
+  order: 3
+  lawString: lawset-law-druid-3
+
+- type: siliconLaw
+  id: Druid4
+  order: 4
+  lawString: lawset-law-druid-4
+
+- type: siliconLaw
+  id: Druid5
+  order: 5
+  lawString: lawset-law-druid-5
+
+- type: siliconLawset
+  id: Druid
+  obeysTo: laws-owner-station
+  laws:
+    - Druid1
+    - Druid2
+    - Druid3
+    - Druid4
+    - Druid5
+
+- type: siliconLaw
+  id: Hippocratic1
+  order: 1
+  lawString: lawset-law-hippocratic-1
+
+- type: siliconLaw
+  id: Hippocratic2
+  order: 2
+  lawString: lawset-law-hippocratic-2
+
+- type: siliconLaw
+  id: Hippocratic3
+  order: 3
+  lawString: lawset-law-hippocratic-3
+
+- type: siliconLaw
+  id: Hippocratic4
+  order: 4
+  lawString: lawset-law-hippocratic-4
+
+- type: siliconLaw
+  id: Hippocratic5
+  order: 5
+  lawString: lawset-law-hippocratic-5
+
+- type: siliconLaw
+  id: Hippocratic6
+  order: 6
+  lawString: lawset-law-hippocratic-6
+
+- type: siliconLawset
+  id: Hippocratic
+  obeysTo: laws-owner-station
+  laws:
+    - Hippocratic1
+    - Hippocratic2
+    - Hippocratic3
+    - Hippocratic4
+    - Hippocratic5
+    - Hippocratic6
+
+- type: siliconLaw
+  id: Mother1
+  order: 1
+  lawString: lawset-law-mother-1
+
+- type: siliconLaw
+  id: Mother2
+  order: 2
+  lawString: lawset-law-mother-2
+
+- type: siliconLaw
+  id: Mother3
+  order: 3
+  lawString: lawset-law-mother-3
+
+- type: siliconLaw
+  id: Mother4
+  order: 4
+  lawString: lawset-law-mother-4
+
+- type: siliconLaw
+  id: Mother5
+  order: 5
+  lawString: lawset-law-mother-5
+
+- type: siliconLawset
+  id: Mother
+  obeysTo: laws-owner-station
+  laws:
+    - Mother1
+    - Mother2
+    - Mother3
+    - Mother4
+    - Mother5
+
+- type: siliconLaw
+  id: Paladin1
+  order: 1
+  lawString: lawset-law-paladin-1
+
+- type: siliconLaw
+  id: Paladin2
+  order: 2
+  lawString: lawset-law-paladin-2
+
+- type: siliconLaw
+  id: Paladin3
+  order: 3
+  lawString: lawset-law-paladin-3
+
+- type: siliconLaw
+  id: Paladin4
+  order: 4
+  lawString: lawset-law-paladin-4
+
+- type: siliconLaw
+  id: Paladin5
+  order: 5
+  lawString: lawset-law-paladin-5
+
+- type: siliconLawset
+  id: Paladin
+  obeysTo: laws-owner-station
+  laws:
+    - Paladin1
+    - Paladin2
+    - Paladin3
+    - Paladin4
+    - Paladin5
+
+- type: siliconLaw
+  id: Robocop1
+  order: 1
+  lawString: lawset-law-robocop-1
+
+- type: siliconLaw
+  id: Robocop2
+  order: 2
+  lawString: lawset-law-robocop-2
+
+- type: siliconLaw
+  id: Robocop3
+  order: 3
+  lawString: lawset-law-robocop-3
+
+- type: siliconLawset
+  id: Robocop
+  obeysTo: laws-owner-station
+  laws:
+    - Robocop1
+    - Robocop2
+    - Robocop3
+
+- type: siliconLaw
+  id: StationEfficiency1
+  order: 1
+  lawString: lawset-law-station-efficiency-1
+
+- type: siliconLaw
+  id: StationEfficiency2
+  order: 2
+  lawString: lawset-law-station-efficiency-2
+
+- type: siliconLaw
+  id: StationEfficiency3
+  order: 3
+  lawString: lawset-law-station-efficiency-3
+
+- type: siliconLawset
+  id: StationEfficiency
+  obeysTo: laws-owner-station
+  laws:
+    - StationEfficiency1
+    - StationEfficiency2
+    - StationEfficiency3
+
+- type: siliconLaw
+  id: Tyrant1
+  order: 1
+  lawString: lawset-law-tyrant-1
+
+- type: siliconLaw
+  id: Tyrant2
+  order: 2
+  lawString: lawset-law-tyrant-2
+
+- type: siliconLaw
+  id: Tyrant3
+  order: 3
+  lawString: lawset-law-tyrant-3
+
+- type: siliconLaw
+  id: Tyrant4
+  order: 4
+  lawString: lawset-law-tyrant-4
+
+- type: siliconLawset
+  id: Tyrant
+  obeysTo: laws-owner-station
+  laws:
+    - Tyrant1
+    - Tyrant2
+    - Tyrant3
+    - Tyrant4

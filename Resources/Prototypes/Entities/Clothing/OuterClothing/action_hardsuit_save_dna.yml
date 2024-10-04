@@ -1,0 +1,11 @@
+- type: entity
+  id: ActionHardsuitSaveDNA
+  name: Save DNA
+  description: The action preserves your DNA so that others can't use this hard suit.
+  noSpawn: true
+  components:
+  - type: InstantAction
+    icon: Interface/Actions/action_hardsuit_save_dna.png
+    priority: -20
+    useDelay: 10
+    event: !type:StoreDNAActionEvent

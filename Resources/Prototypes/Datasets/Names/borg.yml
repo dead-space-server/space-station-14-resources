@@ -1,0 +1,23 @@
+# only used roundstart, names can be changed after
+- type: dataset
+  id: names_borg
+  values:
+  - Боб
+  - Джо
+  - Бип
+  - Бип II
+  - Бип III
+  - Бумбокс
+  - Тур Гайд-о-трон
+  - Тэффи
+  - Буп
+  - Буп II
+  - Буп III
+  - Базз
+  - Базз II
+  - Базз III
+  - Тостер
+  - Глава роботов
+  - ЕВА 1
+  - ЕВА 2
+  - ЕВА 3

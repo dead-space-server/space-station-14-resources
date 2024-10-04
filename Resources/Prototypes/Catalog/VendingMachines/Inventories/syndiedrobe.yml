@@ -1,0 +1,26 @@
+- type: vendingMachineInventory
+  id: SyndieDrobeInventory
+  startingInventory:
+    ClothingHeadHatOutlawHat: 4
+    ClothingHeadHatSyndie: 4
+    ClothingHeadHatSyndieMAA: 2
+    ClothingMaskNeckGaiter: 6
+    ClothingOuterCoatLettermanS: 4
+    ClothingOuterWinterSyndie: 6
+    ClothingOuterWinterSyndieCap: 2
+    ClothingOuterCoatSyndieCap: 2
+    ClothingUniformJumpsuitSyndieFormal: 6
+    ClothingUniformJumpskirtSyndieFormalDress: 6
+    ClothingUniformJumpsuitOperative: 6
+    ClothingUniformJumpskirtOperative: 6
+    ClothingNeckScarfStripedSyndieGreen: 2
+    ClothingNeckScarfStripedSyndieRed: 2
+    ADTClothingNeckSyndicateCloak: 2
+    ClothingShoesBootsWinterSyndicate: 2
+  emaggedInventory:
+    ClothingOuterCoatSyndieCapArmored: 1
+    ClothingOuterWinterSyndieCapArmored: 1
+    ClothingHeadHatTacticalMaidHeadband: 2
+    ClothingUniformJumpskirtTacticalMaid: 4
+    ClothingHandsTacticalMaidGloves: 4
+    ADTClothingNeckNukeOpsCloak: 2

@@ -1,0 +1,264 @@
+- type: sponsorLoadout
+  id: DragonFox
+  entity: ClothingBackpackDragonFox
+  sponsorOnly: true
+
+- type: sponsorLoadout
+  id: WeaponDragonFoxBolter
+  entity: WeaponDragonFoxBolter
+  sponsorOnly: true
+
+# Backpack
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackDragonFox
+  name: однолямочный блюспейс рюкзак
+  description: Однолямочный рюкзак использующий технологию блюспейса для увелечения своего максимального объёма. Окрашен в зелёный хаки.
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/DragonFox/backpack.rsi
+  - type: Storage
+    maxItemSize: Huge
+    grid:
+    - 0,0,13,5
+  - type: StorageFill
+    contents:
+      - id: ClothingBeltDragonFoxFilled
+      - id: ClothingNeckCloakDragonFox
+      - id: ClothingHandsGlovesDragonFox
+      - id: ClothingHeadHatDragonFox
+      - id: ClothingShoesBootsMagDragonFox
+      - id: ClothingUnderSocksDragonFox
+      - id: JetpackVoidFilled
+      - id: DominatorMedkitAdvanced
+      - id: ADTtelescopicBaton
+      - id: ToySword
+      - id: SpaceCash1000
+      - id: WeaponDisablerToySponsor
+      - id: ADTSpaceMarinne
+      - id: WeaponDragonFoxBolter
+      - id: СhainswordDragonFox
+      - id: PaperLawdragon_fox
+
+# Belt
+- type: entity
+  parent: ClothingBeltChiefEngineer
+  id: ClothingBeltDragonFoxFilled
+  name: зелёный украшенный пояс
+  description: Пояс окрашенный в зелёный цвет.
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/vjlados/belt.rsi
+  - type: Clothing
+    sprite: DeadSpace/Sponsor/vjlados/belt.rsi
+  - type: Item
+    size: Huge
+  - type: StorageFill
+    contents:
+      - id: PowerDrill
+      - id: JawsOfLife
+      - id: WelderExperimental
+      - id: Multitool
+
+# Cloak
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakDragonFox
+  name: зелёный украшенный плащ
+  description: Накидка в зелёном цвете. Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации.
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/vjlados/cloak.rsi
+
+# Gloves
+- type: entity
+  parent: ClothingHandsGlovesCombat
+  id: ClothingHandsGlovesDragonFox
+  name: белые боевые перчатки
+  description: Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации. Изолированны.
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/vjlados/gloves.rsi
+  - type: Clothing
+    sprite: DeadSpace/Sponsor/vjlados/gloves.rsi
+  - type: Fiber
+    fiberMaterial: fibers-insulative
+    fiberColor: fibers-white
+
+# Head
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatDragonFox
+  name: бантиковая лента
+  description: Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/vjlados/head.rsi
+  - type: Clothing
+    sprite: DeadSpace/Sponsor/vjlados/head.rsi
+
+# Magboots
+- type: entity
+  parent: ClothingShoesBootsMag
+  id: ClothingShoesBootsMagDragonFox
+  name: зелёные украшенные магнитные ботинки
+  description: Магнитные ботинки в зелёном цвете. Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации.
+  noSpawn: true
+  components:
+    - type: Sprite
+      sprite: DeadSpace/Sponsor/vjlados/magboots.rsi
+      layers:
+      - state: icon
+        map: [ "enum.ToggleVisuals.Layer" ]
+    - type: Clothing
+      sprite: DeadSpace/Sponsor/vjlados/magboots.rsi
+    - type: ClothingSpeedModifier
+      walkModifier: 1
+      sprintModifier: 1
+
+# Socks
+- type: entity
+  parent: ClothingUnderwearSocksBase
+  id: ClothingUnderSocksDragonFox
+  name: полосатые чулки
+  description: Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации.
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/vjlados/socks.rsi
+
+# Bolter gun
+- type: entity
+  parent: BaseWeaponRifle
+  id: WeaponDragonFoxBolter
+  name: болтер
+  description: Вид ствольного огнестрельного оружия, стреляющего саморазгоняющимися на траектории болтами. Ввиду политики NanoTrasen калибр был изменён на .44 магнум.
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/DragonFox/boltgun.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: DeadSpace/Sponsor/DragonFox/boltgun.rsi
+  - type: GunWieldBonus
+    minAngle: -43
+    maxAngle: -43
+  - type: Wieldable
+  - type: Gun
+    fireRate: 2.8
+    angleDecay: 45
+    minAngle: 44
+    maxAngle: 45
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/sniper.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineDragonFoxBolter
+        insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineDragonFoxBolter
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeMagnum
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeMagnum
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+
+- type: entity
+  parent: BaseItem
+  id: BaseMagazineDragonFoxBolter
+  name: магазин (.44 магнум)
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+      - MagazineDragonFoxBolter
+  - type: Item
+    size: Small
+  - type: BallisticAmmoProvider
+    mayTransfer: true
+    whitelist:
+      tags:
+        - CartridgeMagnum
+    capacity: 15
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle_mag.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: false
+  - type: Appearance
+
+- type: entity
+  parent: BaseMagazineDragonFoxBolter
+  id: MagazineDragonFoxBolter
+  name: магазин (.44 магнум)
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeMagnum
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: Tag
+  id: MagazineDragonFoxBolter
+
+- type: entity
+  parent: PaperPrintedCentcomm
+  id: PaperLawdragon_fox
+  name: распечатанный документ
+  description: Лист бумаги с заголовком центкома. Страшно даже смотреть на него.
+  noSpawn: true
+  components:
+  - type: Paper
+    stampState: paper_stamp-centcom
+    stampedBy:
+    - stampedColor: '#006600FF'
+      stampedName: Центральное Командование
+    - stampedColor: '#00BE00FF'
+      stampedName: Одобрено
+    content: paper-law-dragon_fox
+
+#Backpack для ивент отдела
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackSingleStrapКhaki
+  name: однолямочный  рюкзак
+  description: Однолямочный рюкзак для хранения вещей. Окрашен в зелёный хаки. 
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/DragonFox/backpack.rsi

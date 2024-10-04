@@ -1,0 +1,73 @@
+# Jumpsuit
+- type: loadout
+  id: AtmosphericTechnicianJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitAtmos
+
+- type: loadout
+  id: AtmosphericTechnicianJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtAtmos
+
+- type: loadout
+  id: AtmosphericTechnicianJumpsuitCasual
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitAtmosCasual
+
+# Back
+- type: loadout
+  id: AtmosphericTechnicianBackpack
+  equipment:
+    back: ClothingBackpackAtmospherics
+
+- type: loadout
+  id: AtmosphericTechnicianSatchel
+  equipment:
+    back: ClothingBackpackSatchelAtmospherics
+
+- type: loadout
+  id: AtmosphericTechnicianDuffel
+  equipment:
+    back: ClothingBackpackDuffelAtmospherics
+
+# OuterClothing
+- type: loadout
+  id: AtmosphericTechnicianWintercoat
+  equipment:
+    outerClothing: ClothingOuterWinterAtmos
+
+- type: loadout
+  id: AtmosphericTechnicianCoatWorking
+  equipment:
+    outerClothing: ClothingOuterCoatAtmosWorking
+
+# Shoes
+- type: loadout
+  id: WhiteShoes
+  equipment:
+    shoes: ClothingShoesColorWhite
+
+# Underwear
+- type: loadout
+  id: UnderwearBottomBoxersAtmosphericTechnician
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MaleUnderwear
+  equipment:
+    underwearb: ClothingUnderwearBottomBoxersAtmosphericTechnician
+
+- type: loadout
+  id: UnderwearBottomPantiesAtmosphericTechnician
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: FemaleUnderwear
+  equipment:
+    underwearb: ClothingUnderwearBottomPantiesAtmosphericTechnician
+
+- type: loadout
+  id: UnderwearTopBraAtmosphericTechnician
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: FemaleUnderwear
+  equipment:
+    underweart: ClothingUnderwearTopBraAtmosphericTechnician

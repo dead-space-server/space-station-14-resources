@@ -1,0 +1,286 @@
+# Species
+- type: loadoutEffectGroup
+  id: NitrogenBreather
+  effects:
+  - !type:SpeciesLoadoutEffect
+    species:
+    - SlimePerson
+    - Vox
+
+- type: loadoutEffectGroup
+  id: OxygenBreather
+  effects:
+  - !type:SpeciesLoadoutEffect
+    species:
+    - Arachnid
+    - Diona
+    - Dwarf
+    - Human
+    - Moth
+    - Reptilian
+    # DS14-species-start
+    - DemonSpecies
+    - SharkSpecies
+    - TajaranSpecies
+    - VulpkaninSpecies
+    - Felinid
+    - KoboltSpecies
+    # DS14-species-end
+
+- type: loadoutEffectGroup
+  id: NonBreather
+  effects:
+  - !type:SpeciesLoadoutEffect
+    species:
+    # DS14-species-start
+    - XenoSponsor
+    # DS14-species-end
+
+- type: loadoutEffectGroup
+  id: RobotNonBreather
+  effects:
+  - !type:SpeciesLoadoutEffect
+    species:
+    # DS14-species-start
+    - IPC
+    - IPS
+    # DS14-species-end
+
+- type: loadoutEffectGroup
+  id: EffectSpeciesVox
+  effects:
+  - !type:SpeciesLoadoutEffect
+    species:
+    - Vox
+
+# Basic
+- type: loadout
+  id: EmergencyOxygen
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: OxygenBreather
+  storage:
+    back:
+    - BoxSurvival
+
+- type: loadout
+  id: EmergencyNitrogen
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: NitrogenBreather
+  storage:
+    back:
+    - BoxSurvivalNitrogen
+
+- type: loadout
+  id: EmergencyNonBreather
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: NonBreather
+  storage:
+    back:
+    - BoxSurvivalNonBreather
+
+- type: loadout
+  id: EmergencyRobotNonBreather
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: RobotNonBreather
+  storage:
+    back:
+    - BoxSurvivalRobotNonBreather
+
+# Clown
+- type: loadout
+  id: EmergencyOxygenClown
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: OxygenBreather
+  storage:
+    back:
+    - BoxHug
+
+- type: loadout
+  id: EmergencyNitrogenClown
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: NitrogenBreather
+  storage:
+    back:
+    - BoxHugNitrogen
+
+# Mime
+- type: loadout
+  id: EmergencyOxygenMime
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: OxygenBreather
+  storage:
+    back:
+    - BoxMime
+
+- type: loadout
+  id: EmergencyNitrogenMime
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: NitrogenBreather
+  storage:
+    back:
+    - BoxMimeNitrogen
+
+
+# Engineering / Extended
+- type: loadout
+  id: EmergencyOxygenExtended
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: OxygenBreather
+  storage:
+    back:
+    - BoxSurvivalEngineering
+
+- type: loadout
+  id: EmergencyNitrogenExtended
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: NitrogenBreather
+  storage:
+    back:
+    - BoxSurvivalEngineeringNitrogen
+
+# Medical
+- type: loadout
+  id: EmergencyOxygenMedical
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: OxygenBreather
+  storage:
+    back:
+    - BoxSurvivalMedical
+
+- type: loadout
+  id: EmergencyNitrogenMedical
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: NitrogenBreather
+  storage:
+    back:
+    - BoxSurvivalMedicalNitrogen
+
+# Security
+- type: loadout
+  id: EmergencyOxygenSecurity
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: OxygenBreather
+  storage:
+    back:
+    - BoxSurvivalSecurity
+
+- type: loadout
+  id: EmergencyNitrogenSecurity
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: NitrogenBreather
+  storage:
+    back:
+    - BoxSurvivalSecurityNitrogen
+
+- type: loadout
+  id: EmergencyOxygenBrigmedic
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: OxygenBreather
+  storage:
+    back:
+    - BoxSurvivalBrigmedic
+
+- type: loadout
+  id: EmergencyNitrogenBrigmedic
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: NitrogenBreather
+  storage:
+    back:
+    - BoxSurvivalBrigmedicNitrogen
+
+# Syndicate
+- type: loadout
+  id: EmergencyOxygenSyndicate
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: OxygenBreather
+  storage:
+    back:
+    - BoxSurvivalSyndicate
+
+- type: loadout
+  id: EmergencyNitrogenSyndicate
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: NitrogenBreather
+  storage:
+    back:
+    - BoxSurvivalSyndicateNitrogen
+
+# Pre-equipped species gear
+
+# Full tank for vox as part of any Survival loadout
+- type: loadout
+  id: LoadoutSpeciesVoxNitrogen
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: EffectSpeciesVox
+  equipment:
+    suitstorage: NitrogenTankFilled
+
+# Full EVA Tank, Any Species
+- type: loadout
+  id: LoadoutSpeciesEVANitrogen
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: NitrogenBreather
+  equipment:
+    suitstorage: NitrogenTankFilled
+
+- type: loadout
+  id: LoadoutSpeciesEVAOxygen
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: OxygenBreather
+  equipment:
+    suitstorage: OxygenTankFilled
+
+# Tank Harness
+- type: loadout
+  id: LoadoutTankHarness
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: EffectSpeciesVox
+  equipment:
+    outerClothing: ClothingOuterVestTank
+
+# Breath Tool On Face
+- type: loadout
+  id: LoadoutSpeciesBreathTool
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: EffectSpeciesVox
+  equipment:
+    mask: ClothingMaskBreath
+
+- type: loadout
+  id: LoadoutSpeciesBreathToolMedical
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: EffectSpeciesVox
+  equipment:
+    mask: ClothingMaskBreathMedical
+
+- type: loadout
+  id: LoadoutSpeciesBreathToolSecurity
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: EffectSpeciesVox
+  equipment:
+    mask: ClothingMaskGasSecurity

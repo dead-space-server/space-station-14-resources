@@ -1,0 +1,11 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckTieWhite
+  name: белый галстук
+  description: Кому могут нравиться белые галстуки?
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Clothing/Neck/Ties/whitetie.rsi
+  - type: Clothing
+    sprite: DeadSpace/Clothing/Neck/Ties/whitetie.rsi
+

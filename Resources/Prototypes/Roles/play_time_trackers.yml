@@ -1,0 +1,230 @@
+# Overall play time, across all roles.
+# This tracker must exist, it is used directly by PlayTimeTrackingManager
+- type: playTimeTracker
+  id: Overall
+
+# Jobs
+- type: playTimeTracker
+  id: JobAtmosphericTechnician
+
+- type: playTimeTracker
+  id: JobBartender
+
+- type: playTimeTracker # Used as a tracker for all borgs and midround borging.
+  id: JobBorg
+
+- type: playTimeTracker # Used as a tracker for all borgs and midround borging.
+  id: JobBorgSecurity
+
+- type: playTimeTracker
+  id: JobBotanist
+
+- type: playTimeTracker
+  id: JobCaptain
+
+- type: playTimeTracker
+  id: JobCargoTechnician
+
+- type: playTimeTracker
+  id: JobCentralCommandOfficial
+
+- type: playTimeTracker
+  id: JobChaplain
+
+- type: playTimeTracker
+  id: JobChef
+
+- type: playTimeTracker
+  id: JobChemist
+
+- type: playTimeTracker
+  id: JobChiefEngineer
+
+- type: playTimeTracker
+  id: JobChiefMedicalOfficer
+
+- type: playTimeTracker
+  id: JobClown
+
+- type: playTimeTracker
+  id: JobDetective
+
+- type: playTimeTracker
+  id: JobERTEngineerAmber
+
+- type: playTimeTracker
+  id: JobERTEngineerRed
+
+- type: playTimeTracker
+  id: JobERTEngineerGamma
+
+- type: playTimeTracker
+  id: JobERTJanitorAmber
+
+- type: playTimeTracker
+  id: JobERTJanitorRed
+
+- type: playTimeTracker
+  id: JobERTJanitorGamma
+
+- type: playTimeTracker
+  id: JobERTLeaderAmber
+
+- type: playTimeTracker
+  id: JobERTLeaderRed
+
+- type: playTimeTracker
+  id: JobERTLeaderGamma
+
+- type: playTimeTracker
+  id: JobERTMedicalAmber
+
+- type: playTimeTracker
+  id: JobERTMedicalRed
+
+- type: playTimeTracker
+  id: JobERTMedicalGamma
+
+- type: playTimeTracker
+  id: JobERTSecurityAmber
+
+- type: playTimeTracker
+  id: JobERTSecurityRed
+
+- type: playTimeTracker
+  id: JobERTSecurityGamma
+
+- type: playTimeTracker
+  id: JobCBURNLeader
+
+- type: playTimeTracker
+  id: JobCBURNSierraLeader
+
+- type: playTimeTracker
+  id: JobCBURNAgent
+
+- type: playTimeTracker
+  id: JobCBURNSierraAgent
+
+- type: playTimeTracker
+  id: JobHeadOfPersonnel
+
+- type: playTimeTracker
+  id: JobHeadOfSecurity
+
+- type: playTimeTracker
+  id: JobBrigmedic
+
+- type: playTimeTracker
+  id: JobJanitor
+
+- type: playTimeTracker
+  id: JobLawyer
+
+- type: playTimeTracker
+  id: JobLibrarian
+
+- type: playTimeTracker
+  id: JobMedicalDoctor
+
+- type: playTimeTracker
+  id: JobMedicalIntern
+
+- type: playTimeTracker
+  id: JobMime
+
+- type: playTimeTracker
+  id: JobMusician
+
+- type: playTimeTracker
+  id: JobPassenger
+
+- type: playTimeTracker
+  id: JobParamedic
+
+- type: playTimeTracker
+  id: JobPsychologist
+
+- type: playTimeTracker
+  id: JobQuartermaster
+
+- type: playTimeTracker
+  id: JobReporter
+
+- type: playTimeTracker
+  id: JobResearchAssistant
+
+- type: playTimeTracker
+  id: JobResearchDirector
+
+- type: playTimeTracker
+  id: JobSalvageSpecialist
+
+- type: playTimeTracker
+  id: JobScientist
+
+- type: playTimeTracker
+  id: JobSecurityCadet
+
+- type: playTimeTracker
+  id: JobSecurityOfficer
+
+- type: playTimeTracker
+  id: JobSeniorEngineer
+
+- type: playTimeTracker
+  id: JobSeniorOfficer
+
+- type: playTimeTracker
+  id: JobSeniorPhysician
+
+- type: playTimeTracker
+  id: JobSeniorResearcher
+
+- type: playTimeTracker
+  id: JobServiceWorker
+
+- type: playTimeTracker
+  id: JobStationEngineer
+
+- type: playTimeTracker
+  id: JobTechnicalAssistant
+
+- type: playTimeTracker
+  id: JobVisitor
+
+- type: playTimeTracker
+  id: JobWarden
+
+- type: playTimeTracker
+  id: JobBoxer
+
+- type: playTimeTracker
+  id: JobZookeeper
+
+- type: playTimeTracker
+  id: JobMagistrat
+
+# - type: playTimeTracker
+#   id: JobADTInvestigator
+
+- type: playTimeTracker
+  id: JobADTBlueShieldOfficer
+
+- type: playTimeTracker
+  id: JobCoroner
+
+- type: playTimeTracker
+  id: JobSeniorSalvageSpecialist
+
+- type: playTimeTracker
+  id: JobSeniorAdministrator
+
+- type: playTimeTracker
+  id: JobSecurityPilot
+
+- type: playTimeTracker
+  id: JobClownSponsor
+
+- type: playTimeTracker
+  id: JobDeathSquadUnit

@@ -1,0 +1,13 @@
+﻿- type: entity
+  noSpawn: true
+  parent: BaseObjective
+  id: BankNote
+  components:
+  - type: Objective
+    difficulty: 0
+    unique: true
+    issuer: SpaceBank
+    icon:
+      sprite: Backmen/Objects/Tools/rimbank.rsi
+      state: icon
+  - type: MindNoteCondition
