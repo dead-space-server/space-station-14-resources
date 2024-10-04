@@ -1,0 +1,4 @@
+dead-space-server/space-station-14:
+  - source: Resources/
+    dest: Resources/
+    deleteOrphaned: true
