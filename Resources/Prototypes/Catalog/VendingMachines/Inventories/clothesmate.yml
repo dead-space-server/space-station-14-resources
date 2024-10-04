@@ -1,0 +1,150 @@
+- type: vendingMachineInventory
+  id: ClothesMateInventory
+  startingInventory:
+    ClothingBackpack: 4
+    ClothingBackpackDuffel: 4
+    ClothingBackpackSatchel: 4
+    ClothingBackpackSatchelLeather: 2
+    ClothingRandomSpawner: 8
+    ClothingHeadHatBeret: 4
+    ClothingHeadBandBlack: 2
+    ClothingHeadBandBlue: 2
+    ClothingHeadBandGreen: 2
+    ClothingHeadBandRed: 2
+    ClothingHeadBandSkull: 2
+    ClothingOuterCoatLetterman: 4 # DS14
+    ClothingOuterCoatLettermanN: 4 # DS14
+    ClothingOuterCoatLettermanRed: 4 # DS14
+    ClothingUniformJumpskirtPencilBlack: 4 # DS14
+    ClothingUniformJumpskirtPencilBurgandy: 4 # DS14
+    ClothingUniformJumpskirtPencilCheckered: 4 # DS14
+    ClothingUniformJumpskirtPencilNavy: 4 # DS14
+    ClothingUniformJumpskirtPencilTan: 4 # DS14
+    ClothingHeadHatGreyFlatcap: 4
+    ClothingHeadHatBrownFlatcap: 4
+    ClothingUniformJumpsuitColorGrey: 4
+    ClothingUniformJumpskirtColorGrey: 4
+    ClothingUniformJumpsuitColorWhite: 4
+    ClothingUniformJumpskirtColorWhite: 4
+    ClothingUniformJumpsuitColorBlack: 4
+    ClothingUniformJumpskirtColorBlack: 4
+    ClothingUniformJumpsuitColorBlue: 2
+    ClothingUniformJumpskirtColorBlue: 2
+    ClothingUniformJumpsuitColorYellow: 2
+    ClothingUniformJumpskirtColorYellow: 2
+    ClothingUniformJumpsuitColorGreen: 2
+    ClothingUniformJumpskirtColorGreen: 2
+    ClothingUniformJumpsuitColorOrange: 2
+    ClothingUniformJumpskirtColorOrange: 2
+    ClothingUniformJumpsuitColorRed: 2
+    ClothingUniformJumpskirtColorRed: 2
+    ClothingUniformJumpsuitColorPurple: 2
+    ClothingUniformJumpskirtColorPurple: 2
+    ClothingUniformJumpsuitColorPink: 2
+    ClothingUniformJumpskirtColorPink: 2
+    ClothingUniformJumpsuitColorDarkBlue: 2
+    ClothingUniformJumpskirtColorDarkBlue: 2
+    ClothingUniformJumpsuitColorDarkGreen:  2
+    ClothingUniformJumpskirtColorDarkGreen: 2
+    ClothingUniformJumpsuitColorTeal: 2
+    ClothingUniformJumpskirtColorTeal: 2
+    ClothingUniformJumpsuitHawaiBlack: 2
+    ClothingUniformJumpsuitHawaiBlue: 2
+    ClothingUniformJumpsuitHawaiRed: 2
+    ClothingUniformJumpsuitHawaiYellow: 2
+    ClothingUniformJumpsuitFlannel: 2
+    ClothingUniformJumpsuitCasualBlue: 2
+    ClothingUniformJumpskirtCasualBlue: 2
+    ClothingUniformJumpsuitCasualPurple: 2
+    ClothingUniformJumpskirtCasualPurple: 2
+    ClothingUniformJumpsuitCasualRed: 2
+    ClothingUniformJumpskirtCasualRed: 2
+    ClothingUniformJumpsuitSuitCheckered: 4 # DS14
+    ClothingUniformJumpsuitSuitTan: 4 # DS14
+    ClothingUniformJumpsuitSuitWaiter: 4 # DS14
+    ClothingShoesColorBlack: 4
+    ClothingShoesColorBrown: 4
+    ClothingShoesColorWhite: 4
+    ClothingShoesColorBlue: 2
+    ClothingShoesColorYellow: 2
+    ClothingShoesColorGreen: 2
+    ClothingShoesColorOrange: 2
+    ClothingShoesColorRed: 2
+    ClothingShoesColorPurple: 2
+    ADTClothingFootWrapsWhite: 4
+    ADTClothingFootWrapsBlack: 4
+    ADTClothingFootWrapsHighWhite: 4
+    ADTClothingFootWrapsHighBlack: 4
+    ClothingHeadHatGreysoft: 4
+    ClothingHeadHatMimesoft: 4
+    ClothingHeadHatBluesoft: 2
+    ClothingHeadHatYellowsoft: 2
+    ClothingHeadHatGreensoft: 2
+    ClothingHeadHatOrangesoft: 2
+    ClothingHeadHatRedsoft: 2
+    # DO NOT ADD MORE, USE UNIFORM DYING
+    ClothingHeadHatBlacksoft: 2
+    ClothingHeadHatPurplesoft: 2
+    ClothingHeadHatCorpsoft: 2
+    ClothingHeadFishCap: 2
+    ClothingHeadRastaHat: 2
+    ClothingNeckScarfStripedRed: 4
+    ClothingNeckScarfStripedBlue: 4
+    ClothingNeckScarfStripedGreen: 4
+    ClothingHeadHatFez: 2
+    ClothingBeltStorageWaistbag: 4
+    ClothingEyesGlasses: 4
+    ClothingEyesGlassesBigSunglasses: 2 # DS14
+    ADTClothingSandals: 2
+    ADTClothingUniformTurleneckBlack: 2
+    ADTClothingUniformTurleneckBlackWomen: 2
+    ADTClothingUniformTurleneckBlue: 2
+    ADTClothingUniformTurleneckBlueBlack: 2
+    ADTClothingUniformTurleneckBlueWomen: 2
+    ADTClothingUniformTurleneckGolub: 2
+    ADTClothingUniformTurleneckGolubBlack: 2
+    ADTClothingUniformTurleneckGolubWomen: 2
+    ADTClothingUniformTurleneckGreen: 2
+    ADTClothingUniformTurleneckGreenBlack: 2
+    ADTClothingUniformTurleneckGreenWomen: 2
+    ADTClothingUniformTurleneckOrange: 2
+    ADTClothingUniformTurleneckOrangeBlack: 2
+    ADTClothingUniformTurleneckOrangeWomen: 2
+    ADTClothingUniformTurleneckPurpur: 2
+    ADTClothingUniformTurleneckPurpurBlack: 2
+    ADTClothingUniformTurleneckPurpurWomen: 2
+    ADTClothingUniformTurleneckRed: 2
+    ADTClothingUniformTurleneckRedBlack: 2
+    ADTClothingUniformTurleneckRedWomen: 2
+    ADTClothingUniformTurleneckSalat: 2
+    ADTClothingUniformTurleneckSalatBlack: 2
+    ADTClothingUniformTurleneckSalatWomen: 2
+    ADTClothingUniformTurleneckWhite: 2
+    ADTClothingUniformTurleneckWhiteBlack: 2
+    ADTClothingUniformTurleneckWhiteWomen: 2
+    ADTClothingUniformTurleneckBlackSleeveless: 2
+    ADTClothingUniformTurleneckBlackWomenSleeveless: 2
+    ADTClothingUniformTurleneckWhiteSleeveless: 2
+    ADTClothingUniformTurleneckWhiteBlackSleeveless: 2
+    ADTClothingUniformTurleneckWhiteWomenSleeveless: 2
+    ADTClothingNeckGothicCloak: 2
+    ADTClothingNeckDarkGreyCloak: 2
+    ClothingNeckMantleMaid: 2 # DS14
+    ClothingHandsGlovesColorBlack: 2
+    ClothingHandsGlovesColorGray: 2
+    ClothingHandsGlovesColorBrown: 1
+    ClothingHandsGlovesColorWhite: 1
+    ClothingHandsGlovesColorRed: 1
+    ClothingHandsGlovesColorBlue: 1
+    ClothingHandsGlovesColorGreen: 1
+    ClothingHandsGlovesColorOrange: 1
+    ClothingHandsGlovesColorPurple: 1
+    ClothingNeckWingsAngel: 1 # DS14
+    ClothingNeckWingsSkeleton: 1 # DS14
+    ClothingNeckWingsSkeletonBlack: 1 # DS14
+  emaggedInventory:
+    ClothingMaskNeckGaiter: 2
+    ClothingUniformJumpsuitTacticool: 1
+    ClothingUniformJumpskirtTacticool: 1
+    ADTClothingNeckSyndicateCloak: 1
+    ClothingOuterCoatLettermanS: 4 # DS14

@@ -1,0 +1,29 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Made by pyfya (discord) for Space Station 14 server Dead Space",
+    "size": {
+      "x": 32,
+      "y": 32
+    },
+    "states": [
+      {
+        "name": "plushie_hos"
+      },
+      {
+        "name": "plushie_instructor"
+      },
+      {
+        "name": "plushie_officer"
+      },
+      {
+        "name": "plushie_cap"
+      },
+      {
+        "name": "plushie_lera"
+      },
+      {
+        "name": "plushie_kel"
+      }
+    ]
+  }

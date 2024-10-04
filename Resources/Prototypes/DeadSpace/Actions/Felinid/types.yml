@@ -1,0 +1,25 @@
+- type: entity
+  id: EatMouseAction
+  name: action-name-eat-mouse
+  description: action-description-eat-mouse
+  noSpawn: true
+  components:
+  - type: InstantAction
+    icon: DeadSpace/Icons/verbiconfangs.png
+    event: !type:EatMouseActionEvent
+    checkCanInteract: false
+
+- type: entity
+  id: HairballAction
+  name: hairball-action
+  description: hairball-action-desc
+  noSpawn: true
+  components:
+  - type: InstantAction
+    icon:
+      sprite: DeadSpace/Objects/Specific/Species/felinid.rsi
+      state: icon
+    charges: 1
+    useDelay: 30
+    event: !type:HairballActionEvent
+    checkCanInteract: false

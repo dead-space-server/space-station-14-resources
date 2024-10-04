@@ -1,0 +1,194 @@
+- type: factionIcon
+  id: UnitologyHeadFaction
+  priority: 11
+  showTo:
+    components:
+      - ShowAntagIcons
+      - Unitology
+      - UnitologyEnslaved
+      - UnitologyHead
+  icon:
+    sprite: /Textures/DeadSpace/Interface/Misc/antag_icons.rsi
+    state: UnitologyHead
+
+- type: factionIcon
+  id: UnitologyFaction
+  priority: 11
+  showTo:
+    components:
+      - ShowAntagIcons
+      - Unitology
+      - UnitologyEnslaved
+      - UnitologyHead
+  icon:
+    sprite: /Textures/DeadSpace/Interface/Misc/antag_icons.rsi
+    state: Unitology
+
+- type: factionIcon
+  id: UnitologyEnslavedFaction
+  priority: 11
+  showTo:
+    components:
+      - ShowAntagIcons
+      - Unitology
+      - UnitologyEnslaved
+      - UnitologyHead
+  icon:
+    sprite: /Textures/DeadSpace/Interface/Misc/antag_icons.rsi
+    state: UnitologyEnslaved
+
+- type: startingGear
+  id: TravelingDoctor
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMedicalDoctor
+    shoes: ClothingShoesColorWhite
+    id: MedicalPDA
+    back: ClothingBackpackSatchel
+    ears: ClothingHeadsetService
+    belt: ClothingBeltMedicalFilled
+
+- type: startingGear
+  id: TravelingDoctorUnitology
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMedicalDoctor
+    shoes: ClothingShoesColorWhite
+    id: MedicalPDA
+    back: ClothingBackpackSatchel
+    ears: ClothingHeadsetService
+    belt: ClothingBeltMedicalFilled
+    pocket1: UplinkRadioUnitology
+
+- type: randomHumanoidSettings
+  id: TravelingDoctor
+  parent: EventHumanoid
+  components:
+  - type: GhostRole
+    name: ghost-role-information-traveling-doctor-name
+    description: ghost-role-information-traveling-doctor-description
+    rules: ghost-role-information-nonantagonist-rules
+    raffle:
+      settings: short
+  - type: Loadout
+    prototypes: [ TravelingDoctor ]
+    roleLoadout: [ RoleSurvivalMedical ]
+
+- type: randomHumanoidSettings
+  id: TravelingDoctorUnitology
+  parent: EventHumanoid
+  components:
+  - type: Unitology
+  - type: ImmunNecroobelisk
+  - type: NpcFactionMember
+    factions:
+    - Necromorfs
+  - type: GhostRole
+    name: ghost-role-information-traveling-doctor-unitolog-name
+    description: ghost-role-information-traveling-doctor-unitolog-description
+    rules: ghost-role-information-antagonist-rules
+    raffle:
+      settings: short
+  - type: Loadout
+    prototypes: [ TravelingDoctorUnitology ]
+    roleLoadout: [ RoleSurvivalSyndicate ]
+
+- type: entity
+  id: RandomHumanoidTravelingDoctor
+  name: роль призрака странствующего врача
+  components:
+  - type: Sprite
+    sprite: Objects/Specific/Chemistry/syringe.rsi
+    state: syringe1
+  - type: RandomHumanoidSpawner
+    settings: TravelingDoctor
+
+- type: entity
+  name: странствующий врач, spawner
+  id: TravelingDoctorSpawner
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    sprite: Markers/jobs.rsi
+    layers:
+    - state: green
+    - state: doctor
+  - type: RandomSpawner
+    prototypes:
+    - RandomHumanoidTravelingDoctor
+
+- type: entity
+  id: RandomHumanoidTravelingDoctorUnitology
+  name: роль призрака странствующего врача
+  components:
+  - type: Sprite
+    sprite: Objects/Specific/Chemistry/syringe.rsi
+    state: syringe1
+  - type: RandomHumanoidSpawner
+    settings: TravelingDoctorUnitology
+
+- type: entity
+  name: странствующий врач юнитолог, spawner
+  id: TravelingDoctorSpawnerUnitology
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    sprite: Markers/jobs.rsi
+    layers:
+    - state: green
+    - state: doctor
+  - type: RandomSpawner
+    prototypes:
+    - RandomHumanoidTravelingDoctorUnitology
+
+- type: startingGear
+  id: TravelingChefUnitology
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitChef
+    shoes: ClothingShoesColorWhite
+    id: ChefPDA
+    back: ClothingBackpackSatchel
+    ears: ClothingHeadsetService
+    belt: ClothingBeltChef
+    pocket1: UplinkRadioUnitology
+
+- type: randomHumanoidSettings
+  id: TravelingChefUnitology
+  parent: EventHumanoid
+  components:
+  - type: ImmunNecroobelisk
+  - type: NpcFactionMember
+    factions:
+    - Necromorfs
+  - type: Unitology
+  - type: GhostRole
+    name: ghost-role-information-traveling-chef-unitolog-name
+    description: ghost-role-information-traveling-chef-unitolog-description
+    rules: ghost-role-information-antagonist-rules
+    raffle:
+      settings: short
+  - type: Loadout
+    prototypes: [ TravelingChefUnitology ]
+    roleLoadout: [ RoleSurvivalSyndicate ]
+
+- type: entity
+  id: RandomHumanoidTravelingChefUnitology
+  name: повар юнитолог, ghost role
+  components:
+    - type: Sprite
+      sprite: Objects/Tools/appraisal-tool.rsi
+      state: icon
+    - type: RandomHumanoidSpawner
+      settings: TravelingChefUnitology
+
+- type: entity
+  name: повар юнитолог, spawner
+  id: TravelingChefSpawnerUnitology
+  parent: MarkerBase
+  components:
+    - type: Sprite
+      layers:
+        - state: red
+        - sprite: Objects/Weapons/Melee/kitchen_knife.rsi
+          state: icon
+    - type: RandomSpawner
+      prototypes:
+      - RandomHumanoidTravelingChefUnitology

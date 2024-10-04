@@ -1,0 +1,37 @@
+- type: listing
+  id: UplinkEnergyCrossbow
+  name: Энергетический арбалет
+  description: Маленькое, тихое оружие, которое можно спрятать в карман. Отрявляет и изнемождает жертв. 
+  productEntity: WeaponEnergyCrossbow
+  cost:
+    Telecrystal: 10
+  categories:
+  - UplinkWeaponry
+  conditions:
+    - !type:StoreWhitelistCondition
+      blacklist:
+        tags:
+          - NukeOpsUplink
+    - !type:BuyerWhitelistCondition
+      blacklist:
+        components:
+          - SurplusBundle
+
+- type: listing
+  id: UplinkEnergyCrossbowNuke
+  name: Энергетический арбалет
+  description: Маленькое, тихое оружие, которое можно спрятать в карман. Отрявляет и изнемождает жертв. 
+  productEntity: WeaponEnergyCrossbow
+  cost:
+    Telecrystal: 15
+  categories:
+  - UplinkWeaponry
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
+  - !type:BuyerWhitelistCondition
+    blacklist:
+      components:
+      - SurplusBundle

@@ -1,0 +1,50 @@
+- type: job
+  id: Clown
+  name: job-name-clown
+  description: job-description-clown
+  playTimeTracker: JobClown
+  requirements:
+    - !type:OverallPlaytimeRequirement
+        time: 144000 # 40 hours
+  startingGear: ClownGear
+  icon: "JobIconClown"
+  supervisors: job-supervisors-hop
+  access:
+  - Theatre
+  - Maintenance
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: CustomNameOnSpawn
+    - type: ClownBibleUser #Lets them honk with bibles
+    - type: Clumsy
+      clumsyDamage:
+        types: #literally just picked semi random valus. i tested this once and tweaked it.
+          Blunt: 5
+          Piercing: 4
+        groups:
+          Burn: 3
+    - type: SleepEmitSound
+      snore: /Audio/Voice/Misc/silly_snore.ogg
+      interval: 10
+  - !type:AddImplantSpecial
+    implants: [ SadTromboneImplant ]
+  #start-backmen: currency
+  minBankBalance: 150
+  maxBankBalance: 250
+  wageDepartment: Civilian
+  wage: 50
+  #end-backmen: currency
+
+- type: startingGear
+  id: ClownGear
+  equipment:
+    mask: ClothingMaskClown
+    pocket1: BikeHorn
+    pocket2: ClownRecorder
+    id: ClownPDA
+    ears: ClothingHeadsetService
+  storage:
+    back:
+    - RubberStampClown
+    - CrayonRainbow

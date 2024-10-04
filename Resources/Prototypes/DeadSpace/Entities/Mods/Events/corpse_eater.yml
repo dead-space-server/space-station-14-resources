@@ -1,0 +1,105 @@
+- type: entity
+  id: ActionLayEggs
+  name: Отложить жучиные яйца
+  description: Откладывает яйца в разлагающуюся плоть.
+  noSpawn: true
+  components:
+  - type: EntityTargetAction
+    useDelay: 1
+    icon: DeadSpace/Mods/Other/corpse_eater/larva.png
+    event: !type:LayEggsActionEvent
+
+- type: entity
+  name: жук кровопийца
+  parent:
+  - MobRespirator
+  - MobAtmosStandard
+  - BaseSimpleMob
+  - MobBloodstream
+  - MobFlammable
+  - MobCombat
+  id: MobCorpseEater
+  description: Фу, какая гадость!
+  components:
+  - type: Item
+    size: Tiny
+    heldPrefix: 1
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: running
+      Dead:
+        Base: dead
+  - type: MeleeWeapon
+    attackRate: 1
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/Effects/bite.ogg
+    damage:
+      types:
+        Piercing: 2
+  - type: GhostRole
+    makeSentient: true
+    name: ghost-role-information-CorpseEater-name
+    description: ghost-role-information-CorpseEater-description
+    rules: ghost-role-information-CorpseEater-rules
+  - type: GhostTakeoverAvailable
+  - type: MovementSpeedModifier
+    baseWalkSpeed : 6
+    baseSprintSpeed : 6
+  - type: Physics
+  - type: Sprite
+    drawdepth: SmallMobs
+    scale: 0.5, 0.5
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: running
+      sprite: DeadSpace/Mods/Other/corpse_eater/mob.rsi
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.1
+        density: 7.5
+        mask:
+        - SmallMobMask
+        layer:
+        - SmallMobLayer
+  - type: MobState
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      20: Dead
+  - type: Temperature
+    heatDamageThreshold: 1000
+    coldDamageThreshold: 285
+    currentTemperature: 310.15
+  - type: CorpseEater
+  - type: Bloodstream
+    bloodReagent: Blood
+    bloodMaxVolume: 10
+    bloodlossThreshold: 0.4
+  - type: Muted
+  - type: NightVision
+  - type: Bloodsucker
+    maxCountReagent: 5 #Емкость
+    countReagent: 0 #Сколько реагента при спавне
+    duration: 3 #Длительность сосания
+    howMuchWillItSuck: 1 #Сколько высосет за один укус
+  - type: HTN
+    rootTask:
+      task: XenoCompound
+    blackboard:
+      NavClimb: !type:Bool
+        true
+      NavInteract: !type:Bool
+        true
+      NavPry: !type:Bool
+        true
+      NavSmash: !type:Bool
+        true
+  - type: NpcFactionMember
+    factions:
+    - Zombie # Чтобы зомби не обращали внимание на букашек, чтобы не создавать новую фракцию, чтобы все были врагами.
+  - type: PreventSpiller

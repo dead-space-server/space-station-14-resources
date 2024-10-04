@@ -1,0 +1,19 @@
+﻿{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Created mally0352 for Space Station 14 server Dead Space",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "tail_small",
+            "directions": 4
+        },
+        {
+            "name": "tail_wight",
+            "directions": 4
+        }
+    ]
+}

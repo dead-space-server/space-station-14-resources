@@ -1,0 +1,8 @@
+- type: entity
+  name: чрезвычайный приказ I
+  parent: Paper
+  id: PaperSecOrderEmergencyOrderOne
+  description: 'A plain sheet of office paper.'
+  components:
+  - type: Paper
+    content: book-cnc-sheet

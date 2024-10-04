@@ -1,0 +1,10 @@
+- type: soundCollection
+  id: RoundEnd
+  files:
+  - /Audio/DeadSpace/Announcements/RoundEnd/1.ogg
+  - /Audio/DeadSpace/Announcements/RoundEnd/2.ogg
+  - /Audio/DeadSpace/Announcements/RoundEnd/3.ogg
+  - /Audio/DeadSpace/TauCeti/admin_cap_gone.ogg
+  - /Audio/DeadSpace/TauCeti/admin_hos_gone.ogg
+  - /Audio/DeadSpace/TauCeti/aimalf.ogg
+  - /Audio/DeadSpace/TauCeti/animes.ogg

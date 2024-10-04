@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "license": "CC-BY-NC-SA 4.0",
+  "copyright": "sprite made by KloopRe (discord) for dead space 14",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "splinter"
+    },
+    {
+      "name": "splinter-inhand-left",
+	  "directions": 4
+    },
+    {
+      "name": "splinter-inhand-right",
+	  "directions": 4
+    }
+  ]
+}

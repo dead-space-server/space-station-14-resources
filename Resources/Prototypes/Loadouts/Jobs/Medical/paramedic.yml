@@ -1,0 +1,58 @@
+# Head
+- type: loadout
+  id: ParamedicHead
+  equipment:
+    head: ClothingHeadHatParamedicsoft
+
+# Jumpsuit
+- type: loadout
+  id: ParamedicJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitParamedic
+
+- type: loadout
+  id: ParamedicJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtParamedic
+
+# Outer clothing
+- type: loadout
+  id: ParamedicWindbreaker
+  equipment:
+    outerClothing: ClothingOuterCoatParamedicWB
+
+- type: loadout
+  id: ParamedicWintercoat
+  equipment:
+    outerClothing: ClothingOuterWinterPara
+
+# Shoes
+- type: loadout
+  id: BlueShoes
+  equipment:
+    shoes: ClothingShoesColorBlue
+
+# Underwear
+- type: loadout
+  id: UnderwearBottomBoxersParamedic
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MaleUnderwear
+  equipment:
+    underwearb: ClothingUnderwearBottomBoxersParamedic
+
+- type: loadout
+  id: UnderwearBottomPantiesParamedic
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: FemaleUnderwear
+  equipment:
+    underwearb: ClothingUnderwearBottomPantiesParamedic
+
+- type: loadout
+  id: UnderwearTopBraParamedic
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: FemaleUnderwear
+  equipment:
+    underweart: ClothingUnderwearTopBraParamedic

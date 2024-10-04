@@ -1,0 +1,84 @@
+- type: stationGoal
+  id: StationGoalShuttle
+  name: station-goal-shuttle
+  text: "/Paperwork/StationGoal/Shuttle.xml"
+
+# - type: stationGoal
+#   id: StationGoalBoom
+#   name: station-goal-boom
+#   text: "/Paperwork/StationGoal/Boom.xml"
+
+- type: stationGoal
+  id: StationGoalSolarPanels
+  name: station-goal-solarpanels
+  text: "/Paperwork/StationGoal/SolarPanels.xml"
+
+- type: stationGoal
+  id: StationGoalArtifacts
+  name: station-goal-artifacts
+  text: "/Paperwork/StationGoal/Artifacts.xml"
+
+- type: stationGoal
+  id: StationGoalBank
+  name: station-goal-bank
+  text: "/Paperwork/StationGoal/Bank.xml"
+
+- type: stationGoal
+  id: StationGoalZoo
+  name: station-goal-zoo
+  text: "/Paperwork/StationGoal/Zoo.xml"
+
+- type: stationGoal
+  id: StationGoalBiggerDorms
+  name: station-goal-biggerdorms
+  text: "/Paperwork/StationGoal/BiggerDorms.xml"
+
+- type: stationGoal
+  id: StationGoalFight
+  name: station-goal-fight
+  text: "/Paperwork/StationGoal/Fight.xml"
+
+- type: stationGoal
+  id: StationGoalObservationPoint
+  name: station-goal-observationpoint
+  text: "/Paperwork/StationGoal/ObservationPoint.xml"
+
+- type: stationGoal
+  id: StationGoalBornToKill
+  name: station-goal-borntokill
+  text: "/Paperwork/StationGoal/BornToKill.xml"
+
+- type: stationGoal
+  id: StationGoalCensus
+  name: station-goal-census
+  text: "/Paperwork/StationGoal/Census.xml"
+
+# - type: stationGoal
+#   id: StationGoalSecOutpost
+#   name: station-goal-secoutpost
+#   text: "/Paperwork/StationGoal/SecOutpost.xml"
+
+- type: stationGoal
+  id: StationGoalChill
+  name: station-goal-chill
+  text: "/Paperwork/StationGoal/Chill.xml"
+
+- type: stationGoal
+  id: StationGoalChillAlt
+  name: station-goal-chill
+  text: "/Paperwork/StationGoal/Chill.xml"
+
+- type: stationGoal
+  id: StationGoalBorgs
+  name: station-goal-borgs
+  text: "/Paperwork/StationGoal/Borgs.xml"
+
+- type: stationGoal
+  id: StationGoalBar
+  name: station-goal-bar
+  text: "/Paperwork/StationGoal/Bar.xml"
+
+- type: stationGoal
+  id: StationGoalMiningOutpost
+  name: station-goal-miningoutpost
+  text: "/Paperwork/StationGoal/MiningOutpost.xml"

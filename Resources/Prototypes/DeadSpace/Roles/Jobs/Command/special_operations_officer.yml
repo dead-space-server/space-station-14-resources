@@ -1,0 +1,48 @@
+- type: startingGear
+  id: CentcomSpecialOperationsOfficerGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCentcomOfficerBlack
+    back: ClothingBackpackERTLeaderFilledSOO
+    shoes: ClothingShoesCentcomBlack
+    head: ClothingHeadCapCentcomBlack
+    eyes: ClothingEyesGlassesSecurity
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterVestWeb
+    neck: ClothingNeckCloakCentcomBlack
+    id: CentcomPDA
+    ears: ClothingHeadsetSOC
+    pocket1: MacroBombImplanter
+  #   underwearb: ClothingUnderwearBottomBoxersWhite # DS14-Underwear
+  # underweart: ClothingUnderwearTopBraWhite # DS14-Underwear
+  # underwearb: ClothingUnderwearBottomPantiesWhite # DS14-Underwear
+  # innerClothingSkirt: ClothingUniformJumpskirtPencilSpecialOperationsOfficer
+
+- type: entity
+  parent: ClothingBackpackERTLeader
+  id: ClothingBackpackERTLeaderFilledSOO
+  name: рюкзак офицера специальных операций
+  description: Вместительный рюкзак с множеством карманов. Ради вашей же безопасности, вам не следует знать что внутри него.
+  components:
+    - type: StorageFill
+      contents:
+        - id: BoxSurvival
+        - id: RubberStampCentcom
+        - id: BoxFolderBlueFilled
+
+- type: entity
+  parent: BoxFolderBase
+  id: BoxFolderBlueFilled
+  suffix: Blue
+  name: папка с секретными документами
+  description: Вам точно не следует знать что там написано. В любом случае, текст написан особыми невидимыми чернилами.
+  components:
+    - type: StorageFill
+      contents:
+      - id: Paper
+        amount: 8
+    - type: Sprite
+      sprite: Objects/Misc/bureaucracy.rsi
+      layers:
+      - state: folder-colormap
+        color: "#2365FF"
+      - state: folder-base

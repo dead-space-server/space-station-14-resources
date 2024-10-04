@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "license": "CC-BY-NC-SA-4.0",
+  "copyright": "made by:inspector_jeleshka (discord)",
+  "size": {
+    "x": 64,
+    "y": 64
+  },
+  "states": [
+      {
+		"name": "lvl1",
+		"directions": 4
+      },
+      {
+		"name": "lvl2",
+		"directions": 4
+      },
+      {
+		"name": "lvl3",
+		"directions": 4
+      },
+      {
+		"name": "dead"
+      }
+  ]
+}

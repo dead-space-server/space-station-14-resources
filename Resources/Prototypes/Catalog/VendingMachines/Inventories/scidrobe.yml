@@ -1,0 +1,16 @@
+- type: vendingMachineInventory
+  id: SciDrobeInventory
+  startingInventory:
+    ClothingBackpackScience: 4
+    ClothingBackpackSatchelScience: 4
+    ClothingBackpackDuffelScience: 4
+    ClothingUniformJumpsuitScientist: 8
+    ClothingUniformJumpskirtScientist: 8
+    ClothingUniformJumpsuitScientistFormal: 4
+    ClothingOuterCoatRnd: 4
+    ClothingShoesColorWhite: 4
+    ClothingNeckTieSci: 4
+    ClothingHeadsetScience: 4
+    ClothingMaskGas: 4
+    ClothingOuterWinterSci: 4
+    ClothingNeckScarfStripedPurple: 4

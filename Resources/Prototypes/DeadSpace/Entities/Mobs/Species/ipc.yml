@@ -1,0 +1,21 @@
+- type: entity
+  parent: BaseMobSpeciesComputer
+  id: BaseMobIPC
+  name: "КПБ"
+  abstract: true
+  components:
+  - type: Body
+    prototype: IPC
+    requiredLegs: 2
+  - type: HumanoidAppearance
+    species: IPC
+  - type: DamageVisuals
+    damageOverlayGroups:
+      Brute:
+        sprite: Mobs/Effects/brute_damage.rsi
+        color: "#525252"
+
+- type: entity
+  parent: BaseSpeciesDummy
+  id: MobIPCDummy
+  noSpawn: true

@@ -1,0 +1,119 @@
+- type: job
+  id: ADTBlueShieldOfficer
+  name: job-name-ADTBlueShieldOfficer
+  description: job-description-ADTBlueShieldOfficer
+  playTimeTracker: JobADTBlueShieldOfficer
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Engineering
+      time: 36000 # 10 hours
+    - !type:DepartmentTimeRequirement
+      department: Medical
+      time: 36000 # 10 hours
+    - !type:RoleTimeRequirement
+      role: JobHeadOfSecurity
+      time: 36000 # 10 hours
+    - !type:DepartmentTimeRequirement
+      department: Command
+      time: 36000 # 10 hours
+    - !type:OverallPlaytimeRequirement
+      time: 324000 # 90 hours
+    - !type:AgeRequirement
+      requiredAge: 28
+  startingGear: BlueShieldOfficerGear
+  icon: "JobIconADTBlueShieldOfficer"
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  access:
+  - Captain
+  - Command
+  - Brig
+  - Security
+  - Armory
+  - Maintenance
+  - Service
+  - External
+  - Research
+  - Medical
+  - Engineering
+  - Cargo
+  #start-backmen: currency
+  minBankBalance: 800
+  maxBankBalance: 1200
+  wageDepartment: Specific
+  wage: 400
+  #end-backmen: currency
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: BlueShieldOfficerGear
+  equipment:
+    head: ClothingHeadHatBeretBlueShield
+    back: ClothingBackpackBlueShield
+    eyes: ClothingEyesGlassesSecurity
+    ears: ClothingHeadsetAltCommand
+    shoes: ClothingShoesBootsJackSecFilled # Corvax-Resprite-MRP
+    outerClothing: ClothingOuterArmorBasicBlueShield
+    belt: ClothingBeltMilitaryWebbingBlueShieldFilled
+    gloves: ClothingHandsGlovesCombat
+    id: BlueShieldOfficerPDA
+    pocket1: PistolBlueShield
+
+- type: entity
+  parent: BasePDA
+  id: BlueShieldOfficerPDA
+  components:
+    - type: Pda
+      id: ADTBlueShieldOfficerIDCard
+      state: pda-ert
+    - type: PdaBorderColor
+      borderColor: "#A32D26"
+      accentVColor: "#114773"
+    - type: Icon
+      state: pda-ert
+    - type: HealthAnalyzer
+      scanDelay: 1
+
+- type: entity
+  parent: IDCardStandard
+  id: ADTBlueShieldOfficerIDCard
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: ert_security
+    - type: PresetIdCard
+      job: ADTBlueShieldOfficer
+
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackBlueShield
+  name: модифицированный рюкзак офицера "Синий Щит"
+  description: Рюкзак офицера "Синий Щит" с функцией РИГ.
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Clothing/Back/blueshield.rsi
+  - type: Storage
+    grid:
+    - 0,0,7,5
+  - type: ClothingSpeedModifier
+    walkModifier: 1
+    sprintModifier: 1
+  - type: ToggleableClothing
+    clothingPrototype: ClothingOuterHardsuitBlueShield
+    requiredSlot: BACK
+    slot: outerClothing
+  - type: StorageFill
+    contents:
+      - id: BoxSurvivalSecurity
+      - id: Zipties
+        amount: 3
+      - id: ADTtelescopicBaton # ADT
+      - id: MagazinePistolSubMachineGun
+        amount: 4
+      - id: WeaponSubMachineGunDrozd
+      - id: HandheldCrewMonitor
+  - type: ExplosionResistance
+    damageCoefficient: 0.6

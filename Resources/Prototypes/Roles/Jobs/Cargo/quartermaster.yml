@@ -1,0 +1,58 @@
+- type: job
+  id: Quartermaster
+  name: job-name-qm
+  description: job-description-qm
+  playTimeTracker: JobQuartermaster
+  requirements:
+    - !type:RoleTimeRequirement
+      role: JobCargoTechnician
+      time: 18000 # 5 hours
+    - !type:RoleTimeRequirement
+      role: JobSalvageSpecialist
+      time: 36000 # 10 hours
+    - !type:DepartmentTimeRequirement
+      department: Cargo
+      time: 36000 # 10 hours
+    - !type:OverallPlaytimeRequirement
+      time: 144000 # 40 hours
+    - !type:AgeRequirement
+      requiredAge: 28
+  weight: 10
+  startingGear: QuartermasterGear
+  icon: "JobIconQuarterMaster"
+  supervisors: job-supervisors-captain
+  canBeAntag: false
+  access:
+  - Cargo
+  - Salvage
+  - Quartermaster
+  - Maintenance
+  - Command
+  - Brig
+  - Cryogenics
+  - External
+  #start-backmen: currency
+  minBankBalance: 150
+  maxBankBalance: 250
+  wageDepartment: Cargo
+  wage: 50
+  #end-backmen: currency
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+
+- type: startingGear
+  id: QuartermasterGear
+  equipment:
+    id: QuartermasterPDA
+    eyes: ClothingEyesGlassesSunglasses
+    ears: ClothingHeadsetQM
+    belt: BoxFolderClipboard
+    socks: ClothingUnderwearSocksQuartermaster
+    pocket1: AppraisalTool
+  storage:
+    back:
+    - Flash

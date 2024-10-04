@@ -1,0 +1,27 @@
+- type: job
+  id: TypanChef
+  name: Повар Синдиката
+  playTimeTracker: TypanChef
+  description: Повар из далёкого космоса
+  startingGear: SyndicateChef
+  icon: "JobIconTypanChef"
+  supervisors: job-supervisors-hop
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Civilian
+      time: 6000
+  access:
+  - SyndicateAgent
+  - NuclearOperative
+  accessGroups:
+  - AllAccess
+
+- type: startingGear
+  id: SyndicateChef
+  equipment:
+    ears: ClothingHeadsetAltTypan
+    jumpsuit: ClothingUniformJumpsuitTypanChef
+    back: ClothingBackpackSyndicate
+    outerClothing: ClothingOuterApronTypanChef
+    shoes: ClothingShoesColorBlack
+    id: TypanIDCardChef

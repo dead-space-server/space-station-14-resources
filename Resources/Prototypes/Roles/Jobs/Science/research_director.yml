@@ -1,0 +1,49 @@
+- type: job
+  id: ResearchDirector
+  name: job-name-rd
+  description: job-description-rd
+  playTimeTracker: JobResearchDirector
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Science
+      time: 72000 # 20 hours
+    - !type:OverallPlaytimeRequirement
+      time: 216000 # 60 hours
+    - !type:AgeRequirement
+      requiredAge: 34
+  weight: 10
+  startingGear: ResearchDirectorGear
+  icon: "JobIconResearchDirector"
+  requireAdminNotify: true
+  supervisors: job-supervisors-captain
+  canBeAntag: false
+  access:
+  - Research
+  - Command
+  - Maintenance
+  - ResearchDirector
+  - Brig
+  - Cryogenics
+  #start-backmen: currency
+  minBankBalance: 400
+  maxBankBalance: 600
+  wageDepartment: Command
+  wage: 100
+  #end-backmen: currency
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+
+- type: startingGear
+  id: ResearchDirectorGear
+  equipment:
+    id: RnDPDA
+    eyes: ClothingEyesGlassesSunglasses
+    ears: ClothingHeadsetRD
+    socks: ClothingUnderwearSocksResearchDirector
+  storage:
+    back:
+    - Flash

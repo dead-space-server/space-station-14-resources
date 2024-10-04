@@ -1,0 +1,35 @@
+# Jumpsuit
+- type: loadout
+  id: YellowJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitColorYellow
+
+- type: loadout
+  id: YellowJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtColorYellow
+
+# Underwear
+- type: loadout
+  id: UnderwearBottomBoxersTechnicalAssistant
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MaleUnderwear
+  equipment:
+    underwearb: ClothingUnderwearBottomBoxersTechnicalAssistant
+
+- type: loadout
+  id: UnderwearBottomPantiesTechnicalAssistant
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: FemaleUnderwear
+  equipment:
+    underwearb: ClothingUnderwearBottomPantiesTechnicalAssistant
+
+- type: loadout
+  id: UnderwearTopBraTechnicalAssistant
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: FemaleUnderwear
+  equipment:
+    underweart: ClothingUnderwearTopBraTechnicalAssistant

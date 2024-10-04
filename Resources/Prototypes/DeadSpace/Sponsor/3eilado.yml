@@ -1,0 +1,597 @@
+- type: sponsorLoadout
+  id: 3eilado
+  entity: ClothingBackpack3eilado
+  sponsorOnly: true
+
+- type: sponsorLoadout
+  id: 3eiladoBelt
+  entity: ClothingBelt3eiladoFilled
+  sponsorOnly: true
+
+# Backpack
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpack3eilado
+  name: карманный демон Ainnetel
+  description: Провористый карманный демон, выглядит не особо дружелюбно. На его рожках виднеется гравировка Ван'Астрея.
+  noSpawn: false # По запросу
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/3eilado/backpack.rsi
+    scale: "0.5, 0.5"
+  - type: Clothing
+    sprite: DeadSpace/Sponsor/3eilado/backpack.rsi
+    clothingVisuals:
+      back: 
+      - state: equipped-BACKPACK
+        scale: 0.5, 0.5
+      - state: eyes
+        scale: 0.5, 0.5
+        shader: unshaded
+  - type: Storage
+    maxItemSize: Huge
+    grid:
+    - 0,0,15,5
+  - type: StorageFill
+    contents:
+      - id: ClothingNeckCloak3eilado
+      - id: ClothingOuterHardsuit3eilado
+      - id: ClothingShoesBootsMag3eilado
+      - id: PaperLaw3eilado
+      - id: ToyBall3eilado
+      - id: ToyScythe3eilado
+      - id: ClothingEyesGlassesMeson3eilado
+      - id: PlushieMoth3eilado
+      - id: PDA3eilado
+      - id: GoldenPlunger3eilado
+      - id: JetpackVoidFilled3eilado
+      - id: DominatorMedkitAdvanced
+      - id: ADTtelescopicBaton
+      - id: SpaceCash1000
+      - id: WeaponDisablerToySponsor
+      - id: ClothingHeadset3eilado
+      - id: ClothingUniformJumpsuit3eilado
+      - id: ClothingHeadHat3eilado
+      - id: ClothingOuterCoat3eilado
+      - id: ClothingNeckCloak3eiladoBlack
+      - id: ClothingNeckCloak3eiladoWhite
+      - id: ClothingHandsRing3eilado
+      - id: FoodIris3eilado
+
+# Belt
+- type: entity
+  parent: ClothingBeltChiefEngineer
+  id: ClothingBelt3eiladoFilled
+  name: белый пояс для инструментов 
+  description: Удобный пояс для инструментов.
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/3eilado/belt.rsi
+  - type: Clothing
+    sprite: DeadSpace/Sponsor/3eilado/belt.rsi
+  - type: Item
+    size: Huge
+  - type: StorageFill
+    contents:
+      - id: PowerDrill3eilado
+      - id: SyndicateJawsOfLife3eilado
+      - id: WelderExperimental3eilado
+      - id: Multitool
+
+# Cloak
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloak3eilado
+  name: пурпурно-синий плащ
+  description: От этого плаща не оторвать глаз.
+  noSpawn: true
+  components:
+  - type: Foldable
+    canFoldInsideContainer: true
+    unfoldVerbText: fold-zip-verb
+    foldVerbText: fold-unzip-verb
+    folded: true
+  - type: FoldableClothing
+    foldedEquippedPrefix: open
+    foldedHeldPrefix: open
+  - type: Item
+    heldPrefix: open
+  - type: Clothing
+    equippedPrefix: open
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/3eilado/cloak.rsi
+    layers:
+    - state: icon
+      map: [ "unfoldedLayer" ]
+      visible: true
+    - state: icon-open
+      map: ["foldedLayer"]
+      visible: false
+
+# Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitAtmos
+  id: ClothingOuterHardsuit3eilado
+  name: скафандр «Aurora»
+  description: Скафандр модификации «Полярное сияние». Глядя на него вы ощущаете мороз по коже. На скафандре есть гравировка "собственность Ван’Астрея"
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/3eilado/hardsuit.rsi
+  - type: Clothing
+    sprite: DeadSpace/Sponsor/3eilado/hardsuit.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuit3eilado
+  - type: Item
+    size: Huge
+
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuit3eilado
+  name: шлем скафандра «Aurora» 
+  description: Шлем модификации «Полярное сияние». Ледяные рожки имеют переливающуюся гравировку "Jeleshka".
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/3eilado/helmet.rsi
+  - type: Clothing
+    sprite: DeadSpace/Sponsor/3eilado/helmet.rsi
+  - type: PointLight
+    color: "#a0dfff"
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+
+# Magboots
+- type: entity
+  parent: ClothingShoesBootsMag
+  id: ClothingShoesBootsMag3eilado
+  name: серые украшенные магнитные ботинки
+  description: Магнитные ботинки серого цвета.
+  noSpawn: true
+  components:
+    - type: Sprite
+      sprite: DeadSpace/Sponsor/3eilado/magboots.rsi
+      layers:
+      - state: icon
+        map: [ "enum.ToggleVisuals.Layer" ]
+    - type: Clothing
+      sprite: DeadSpace/Sponsor/3eilado/magboots.rsi
+    - type: ClothingSpeedModifier
+      walkModifier: 1
+      sprintModifier: 1
+
+# Law
+- type: entity
+  parent: PaperPrintedCentcomm
+  id: PaperLaw3eilado
+  name: распечатанный документ
+  description: Лист бумаги с заголовком центкома. Страшно даже смотреть на него.
+  noSpawn: true
+  components:
+  - type: Paper
+    stampState: paper_stamp-centcom
+    stampedBy:
+    - stampedColor: '#006600FF'
+      stampedName: Центральное Командование
+    - stampedColor: '#00BE00FF'
+      stampedName: Одобрено
+    content: paper-law-3eilado
+
+# Tools
+- type: entity
+  parent: WelderExperimental
+  id: WelderExperimental3eilado
+  name: серый экспериментальный сварочный аппарат
+  description: Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/3eilado/welder_experimental.rsi
+  - type: Item
+    sprite: DeadSpace/Sponsor/3eilado/welder_experimental.rsi
+
+- type: entity
+  name: серые челюсти жизни
+  description: Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
+  parent: SyndicateJawsOfLife
+  id: SyndicateJawsOfLife3eilado
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/3eilado/jaws_of_life.rsi
+    state: jaws_pry
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+      right:
+      - state: inhand-right
+    size: Normal
+  - type: MultipleTool
+    entries:
+      - behavior: Prying
+        sprite:
+          sprite: DeadSpace/Sponsor/3eilado/jaws_of_life.rsi
+          state: jaws_pry
+        useSound: /Audio/Items/jaws_pry.ogg
+        changeSound: /Audio/Items/change_jaws.ogg
+      - behavior: Cutting
+        sprite:
+          sprite: DeadSpace/Sponsor/3eilado/jaws_of_life.rsi
+          state: jaws_cutter
+        useSound: /Audio/Items/jaws_cut.ogg
+        changeSound: /Audio/Items/change_jaws.ogg
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 14
+
+- type: entity
+  parent: PowerDrill
+  id: PowerDrill3eilado
+  name: серая дрель
+  description: Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/3eilado/drill.rsi
+    state: drill_screw
+  - type: Item
+    sprite: DeadSpace/Sponsor/3eilado/drill.rsi
+    size: Small
+  - type: MultipleTool
+    statusShowBehavior: true
+    entries:
+      - behavior: Screwing
+        sprite:
+          sprite: DeadSpace/Sponsor/3eilado/drill.rsi
+          state: drill_screw
+        useSound:
+          path: /Audio/Items/drill_use.ogg
+        changeSound:
+          path: /Audio/Items/change_drill.ogg
+      - behavior: Anchoring
+        sprite:
+          sprite: DeadSpace/Sponsor/3eilado/drill.rsi
+          state: drill_bolt
+        useSound:
+          path: /Audio/Items/drill_use.ogg
+        changeSound:
+          path: /Audio/Items/change_drill.ogg
+
+# Ball
+- type: entity
+  parent: BaseItem
+  id: ToyBall3eilado
+  name: кроваво-красная сфера
+  description: Сгусток странной энергии неизвестного происхождения.
+  noSpawn: true
+  components:
+  - type: EnergySword
+    colorOptions:
+      - Red
+  - type: ItemToggle
+    soundActivate:
+      path: /Audio/Weapons/ebladeon.ogg
+    soundDeactivate:
+      path: /Audio/Weapons/ebladeoff.ogg
+  - type: ItemToggleActiveSound
+    activeSound:
+      path: /Audio/Ambience/anomaly_scary.ogg
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/3eilado/ball.rsi
+    layers:
+      - state: e_sword
+        shader: unshaded
+      - state: e_sword_blade
+        visible: false
+        shader: unshaded
+        map: [ "blade" ]
+  - type: Item
+    size: Small
+    sprite: DeadSpace/Sponsor/3eilado/ball.rsi
+  - type: PointLight
+    enabled: false
+    radius: 2
+    energy: 2
+    color: red
+    netsync: false
+  - type: Appearance
+  - type: ToggleableLightVisuals
+    spriteLayer: blade
+    inhandVisuals:
+      left:
+        - state: inhand-left-blade
+          shader: unshaded
+      right:
+        - state: inhand-right-blade
+          shader: unshaded
+  - type: ItemToggleMeleeWeapon
+    activatedSoundOnHit:
+      path: /Audio/Weapons/eblade1.ogg
+      params:
+        variation: 0.250
+    activatedSoundOnHitNoDamage:
+      path: /Audio/Weapons/eblade1.ogg
+      params:
+        variation: 0.250
+    activatedSoundOnSwing:
+      path: /Audio/Weapons/eblademiss.ogg
+      params:
+        variation: 0.125
+  - type: UseDelay
+    delay: 1.0
+
+
+# E_Scythe
+- type: entity
+  parent: ToySword
+  id: ToyScythe3eilado
+  name: игручешная кроваво-красная коса
+  description: Удобная технологичная коса, будь та настоящей, ей было бы весело наказывать врагов.
+  noSpawn: true
+  components:
+  - type: EnergySword
+    colorOptions:
+      - Red
+  - type: ItemToggle
+    soundActivate:
+      path: /Audio/Weapons/ebladeon.ogg
+    soundDeactivate:
+      path: /Audio/Weapons/ebladeoff.ogg
+  - type: ItemToggleActiveSound
+    activeSound:
+      path: /Audio/Weapons/ebladehum.ogg
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/3eilado/e_scythe.rsi
+    layers:
+      - state: e_sword
+        shader: unshaded
+      - state: e_sword_blade
+        color: "#FFFFFF"
+        visible: false
+        shader: unshaded
+        map: [ "blade" ]
+  - type: Item
+    size: Normal
+    sprite: DeadSpace/Sponsor/3eilado/e_scythe.rsi
+  - type: PointLight
+    enabled: false
+    radius: 2
+    energy: 2
+    color: red
+    netsync: false
+  - type: Appearance
+  - type: ToggleableLightVisuals
+    spriteLayer: blade
+    inhandVisuals:
+      left:
+        - state: inhand-left-blade
+          shader: unshaded
+      right:
+        - state: inhand-right-blade
+          shader: unshaded
+  - type: ItemToggleMeleeWeapon
+    activatedSoundOnHit:
+      path: /Audio/Weapons/eblade1.ogg
+      params:
+        variation: 0.250
+    activatedSoundOnHitNoDamage:
+      path: /Audio/Weapons/eblade1.ogg
+      params:
+        variation: 0.250
+    activatedSoundOnSwing:
+      path: /Audio/Weapons/eblademiss.ogg
+      params:
+        variation: 0.125
+  - type: UseDelay
+    delay: 1.0
+
+#glasses
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesGlassesMeson3eilado
+  name: визор модификации «Полярное сияния»
+  description: Удобный технологичный визор.
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/3eilado/hud.rsi
+  - type: Clothing
+    sprite: DeadSpace/Sponsor/3eilado/hud.rsi
+  - type: EyeProtection
+  - type: Tag
+    tags:
+    - HudMedical
+
+#Plushie
+- type: entity
+  parent: PlushieMoth
+  id: PlushieMoth3eilado
+  name: ниан Кемлухт
+  description: Милый и пушистый плюшевый ниан. Приятного аппетита, bz!
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/3eilado/moth.rsi
+    state: plushie_moth
+
+#Tail
+- type: marking
+  id: 3eiladoTail
+  bodyPart: Tail
+  markingCategory: Tail
+  name: хвост кицунэ
+  sponsorOnly: true
+  sprites:
+  - sprite: DeadSpace/Sponsor/3eilado/tail.rsi
+    state: tail
+  - sprite: DeadSpace/Sponsor/3eilado/tail.rsi
+    state: tail-tip
+  - sprite: DeadSpace/Sponsor/3eilado/tail.rsi
+    state: stars
+
+# PDA
+- type: entity
+  parent: BaseMedicalPDA
+  id: PDA3eilado
+  name: КПК модификации «Домашний демон»
+  description: Этот КПК выглядит уютно
+  noSpawn: true
+  components:
+  - type: Icon
+    sprite: DeadSpace/Sponsor/3eilado/pda.rsi 
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/3eilado/pda.rsi
+  
+# GoldenPlunger
+- type: entity
+  parent: GoldenPlunger
+  id: GoldenPlunger3eilado
+  name: золотой вантуз
+  description: Золотой вантуз, украшенный драгоценными камнями. Подарен одним из Адмиралов Центрального Командования. К тому же, это отличный головной убор.
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/3eilado/golden_plunger.rsi
+    state: plunger
+  - type: Item
+    sprite: DeadSpace/Sponsor/3eilado/golden_plunger.rsi
+    heldPrefix: plunger
+  - type: Clothing
+    sprite: DeadSpace/Sponsor/3eilado/golden_plunger.rsi
+
+# Jetpack
+- type: entity
+  id: JetpackVoidFilled3eilado
+  parent: JetpackVoidFilled
+  name: пустотный джетпак модификации «Северный олень» 
+  description: Он поможет добраться куда-то молниеносно, погладьте его за хорошую работу.
+  noSpawn: true
+  components:
+  - type: Item
+    sprite: DeadSpace/Sponsor/3eilado/jetpack.rsi
+    size: Huge
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/3eilado/jetpack.rsi
+  - type: Clothing
+    sprite: DeadSpace/Sponsor/3eilado/jetpack.rsi
+    slots:
+      - Back
+      - suitStorage
+      - Belt
+
+# HeadSet
+- type: entity
+  parent: ClothingHeadset
+  id: ClothingHeadset3eilado
+  name: гарнитура модификации «Aurora»
+  description: Эта гарнитура странно сияет
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/3eilado/headset.rsi
+  - type: Clothing
+    sprite: DeadSpace/Sponsor/3eilado/headset.rsi
+    
+# Uniform
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuit3eilado
+  name: белая рубашка
+  description: Удобная белая рубашка для комплекта «полярная ночь»
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/3eilado/jumpsuit.rsi
+  - type: Clothing
+    sprite: DeadSpace/Sponsor/3eilado/jumpsuit.rsi
+
+# Hat
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHat3eilado
+  name: шляпа полярной ночи
+  description: Удобный головной убор.
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/3eilado/hat.rsi
+  - type: Clothing
+    sprite: DeadSpace/Sponsor/3eilado/hat.rsi
+
+# Coat
+- type: entity
+  parent: ClothingOuterCoatDetectiveDark
+  id: ClothingOuterCoat3eilado
+  name: пальто полярной ночи
+  description: Это пальто выглядит удобно.
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/3eilado/coat.rsi
+  - type: Clothing
+    sprite: DeadSpace/Sponsor/3eilado/coat.rsi
+
+# Cloak_white
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloak3eiladoWhite
+  name: плащ полярной ночи
+  description: На этом плаще значок юридического департамента.
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/3eilado/cloak_black.rsi
+
+# Cloak_black
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloak3eiladoBlack
+  name: белый плащ полярного дня 
+  description: На этом плаще значок юридического департамента.
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/3eilado/cloak_white.rsi
+
+# Ring
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsRing3eilado
+  name: обсидиановое кольцо 1’А
+  description: Внутри драгоценного камня виден целый космос.
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/3eilado/ring.rsi
+  - type: Clothing
+    sprite: DeadSpace/Sponsor/3eilado/ring.rsi
+  - type: Item
+    size: Tiny
+
+# Iris
+- type: entity
+  parent: FoodProduceBase
+  id: FoodIris3eilado
+  name: цветок ириса
+  description: Его можно подарить особенному гуманоиду, хорошо оставляет запах на одежде.
+  components:
+  - type: FlavorProfile
+    flavors:
+      - grass
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/3eilado/iris_flower.rsi
+    state: icon
+  - type: Clothing
+    slots:
+    - HEAD
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 7
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 7

@@ -1,0 +1,9 @@
+- type: entity
+  save: false
+  name: Урист МакКПБ
+  parent: BaseMobIPC
+  id: MobIPC
+  components:
+  - type: Icon
+    sprite: Redspace/Mobs/Species/IPC/parts.rsi
+    state: full

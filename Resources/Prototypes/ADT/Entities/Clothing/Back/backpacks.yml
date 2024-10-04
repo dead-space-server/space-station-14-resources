@@ -1,0 +1,49 @@
+- type: entity
+  parent: Clothing
+  id: ADTClothingBackpackUSSPattaked
+  name: Shtormed backpack
+  description: A large duffel bag for holding extra things.
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Back/ussp_attaked_backpack.rsi
+    state: icon
+  - type: Item
+    size: Huge
+  - type: Clothing
+    quickEquip: false
+    slots:
+    - back
+  - type: Storage
+    maxItemSize: Huge
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: []
+  - type: ClothingSpeedModifier
+    walkModifier: 1
+    sprintModifier: 0.8
+  - type: UserInterface
+    interfaces:
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
+  # to prevent bag open/honk spam
+  - type: UseDelay
+    delay: 0.5
+
+- type: entity
+  parent: ClothingBackpack
+  id: ADTClothingBackpackHeartSatchel
+  name: heart satchel
+  description: Satchel for storage. Wow, whats there? A stolen hearts?
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Back/heart_satchel.rsi
+
+- type: entity
+  parent: ClothingBackpack
+  id: ADTClothingBackpackHeart
+  name: heart backpack
+  description: Backpack for storage. Wow, whats there? A stolen hearts?
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Back/heart_backpack.rsi

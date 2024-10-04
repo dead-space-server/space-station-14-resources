@@ -1,0 +1,15 @@
+- type: startingGear
+  id: CentcomOfficerCommand
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCentcomOfficer
+    back: ClothingBackpackERTMedical
+    shoes: ClothingShoesBootsMagAdv
+    mask: ClothingMaskGasAtmosian
+    outerClothing: ClothingOuterArmorHeavyGreen
+    eyes: ClothingEyesGlassesSecurity
+    id: CentcomPDA
+    gloves: ClothingHandsGlovesCombat
+    ears: ClothingHeadsetCentCom
+  #   underwearb: ClothingUnderwearBottomBoxersWhite # DS14-Underwear
+  # underweart: ClothingUnderwearTopBraWhite # DS14-Underwear
+  # underwearb: ClothingUnderwearBottomPantiesWhite # DS14-Underwear

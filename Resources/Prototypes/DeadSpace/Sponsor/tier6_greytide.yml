@@ -1,0 +1,107 @@
+- type: sponsorLoadout
+  id: ClothingBackpackTier6SponsorLoadout
+  entity: ClothingBackpackTier6Sponsor
+  sponsorOnly: true
+
+- type: entity
+  parent: ClothingBackpackDuffelMilitary
+  id: ClothingBackpackTier6Sponsor
+  name: расширенный вещмешок
+  description: Вещмешок использующий технологию микро блюспейс карманов для увеличения общего объёма.
+  suffix: Набор вещей спонсора, Грейтайдер
+  noSpawn: true
+  components:
+  - type: Storage
+    maxItemSize: Huge
+    grid:
+    - 0,0,9,5
+  - type: StorageFill
+    contents:
+      - id: ClothingHandsWatchDivine
+      - id: ClothingMaskSkull
+      - id: ClothingOuterHoodiePink
+      - id: ClothingNeckWingsBlackVampire
+      - id: ClothingNeckWingsPegas
+      - id: ClothingNeckWingsSkeletonRed
+      - id: ClothingOuterWizard
+      - id: ClothingHeadHatWizardFake
+      - id: BedsheetWiz
+      - id: ClothingUniformJumpsuitSkeleton
+      - id: ClothingNeckWingsMagic
+      - id: ClothingOuterAtmosianBomberJacket
+      - id: ClothingMaskGasAtmosian
+      - id: ClothingCloakAtmosian
+      - id: ClothingHeadHatFancyCrown
+      - id: ClothingCloakGamer
+      - id: ClothingNeckWingsViolet
+      - id: ClothingOuterWinterKirasCloak
+      # - id: VehicleKeyATV
+      - id: ClothingMaskFawkesSponsor
+      - id: ClothingOuterBlueTrenchSponsor
+
+- type: sponsorLoadout
+  id: ClothingBackpackTier6HOSIAASponsorLoadout
+  entity: ClothingBackpackTier6HOSIAASponsor
+  sponsorOnly: true
+  whitelistJobs: [HeadOfSecurity, IAA]
+
+- type: entity
+  parent: ClothingBackpackDuffelSyndicate
+  id: ClothingBackpackTier6HOSIAASponsor
+  name: вещмешок
+  description: Вещмешок в необычной расцветке. Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
+  suffix: Набор вещей спонсора, Грейтайдер, ГСБ АВД
+  noSpawn: true
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingHandsGlovesLeatherUSSPBlack
+      - id: ClothingHeadHatCapUSSPBlack
+      - id: ClothingOuterCoatUSSPOvercoatBlack
+      - id: ClothingShoesUSSPBlack
+      - id: ClothingUniformJumpsuitUSSPBlack
+
+- type: sponsorLoadout
+  id: ClothingBackpackTier6HOSSponsorLoadout
+  entity: ClothingBackpackTier6HOSSponsor
+  sponsorOnly: true
+  whitelistJobs: [HeadOfSecurity]
+
+- type: entity
+  parent: ClothingBackpackDuffelSyndicate
+  id: ClothingBackpackTier6HOSSponsor
+  name: вещмешок
+  description: Вещмешок в необычной расцветке. Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
+  suffix: Набор вещей спонсора, Грейтайдер, ГСБ
+  noSpawn: true
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingUniformJumpsuitHoSOld
+      - id: ClothingOuterCoatHoSOvercoat
+      - id: ClothingHeadHatCapHoS
+      - id: CigarGoldCase
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskFawkesSponsor
+  name: маска Гая Фокса
+  description: V — значит вендетта.
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/Greytide/fawkes.rsi
+  - type: Clothing
+    sprite: DeadSpace/Sponsor/Greytide/fawkes.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterBlueTrenchSponsor
+  name: синий тренч
+  description: Изысканный тренч, воплощение безупречного стиля и утонченной элегантности. Его насыщенный оттенок создает яркую гармонию с классическим кроем, подчеркивая современный взгляд на стиль и придавая образу неповторимую свежесть.
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/Greytide/bluecoat.rsi
+  - type: Clothing
+    sprite: DeadSpace/Sponsor/Greytide/bluecoat.rsi

@@ -1,0 +1,55 @@
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconTypanBotanist
+  icon:
+    sprite: DeadSpace/Interface/Misc/job_icons.rsi
+    state: botanist
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconTypanCargotech
+  icon:
+    sprite: DeadSpace/Interface/Misc/job_icons.rsi
+    state: cargo_technician
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconTypanChef
+  icon:
+    sprite: DeadSpace/Interface/Misc/job_icons.rsi
+    state: chef
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconSyndicateAtmos
+  icon:
+    sprite: DeadSpace/Interface/Misc/job_icons.rsi
+    state: atmospheric_technician
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconSyndicateParamedic
+  icon:
+    sprite: DeadSpace/Interface/Misc/job_icons.rsi
+    state: medical_doctor
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconSyndicateRD
+  icon:
+    sprite: DeadSpace/Interface/Misc/job_icons.rsi
+    state: research_director
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconSyndicateScience
+  icon:
+    sprite: DeadSpace/Interface/Misc/job_icons.rsi
+    state: scientist
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconSyndicateFormal
+  icon:
+    sprite: DeadSpace/Interface/Misc/job_icons.rsi
+    state: security_officer

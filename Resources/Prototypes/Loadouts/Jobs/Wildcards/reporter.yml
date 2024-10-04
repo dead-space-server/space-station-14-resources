@@ -1,0 +1,35 @@
+# Jumpsuit
+- type: loadout
+  id: ReporterJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitReporter
+
+- type: loadout
+  id: JournalistJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitJournalist
+
+# Underwear
+- type: loadout
+  id: UnderwearBottomBoxersReporter
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MaleUnderwear
+  equipment:
+    underwearb: ClothingUnderwearBottomBoxersReporter
+
+- type: loadout
+  id: UnderwearBottomPantiesReporter
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: FemaleUnderwear
+  equipment:
+    underwearb: ClothingUnderwearBottomPantiesReporter
+
+- type: loadout
+  id: UnderwearTopBraReporter
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: FemaleUnderwear
+  equipment:
+    underweart: ClothingUnderwearTopBraReporter

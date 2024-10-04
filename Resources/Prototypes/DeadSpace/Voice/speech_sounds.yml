@@ -1,0 +1,8 @@
+- type: speechSounds
+  id: Vulpkanin
+  saySound:
+    path: /Audio/DeadSpace/Voice/Talk/vulp.ogg
+  askSound:
+    path: /Audio/DeadSpace/Voice/Talk/vulp_ask.ogg
+  exclaimSound:
+    path: /Audio/DeadSpace/Voice/Talk/vulp_exclaim.ogg
