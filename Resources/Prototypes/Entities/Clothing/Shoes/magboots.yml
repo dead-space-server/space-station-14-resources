@@ -107,6 +107,23 @@
     size: Normal
 
 - type: entity
+  parent: [ClothingShoesBootsMag]
+  id: ClothingShoesBootsCaptain
+  name: captain magboots
+  description: dark-blue magnetic boot with gold plated compartment at the end. Especially for the captain.
+  components:
+  - type: Sprite
+    sprite: Clothing/Shoes/Boots/captain_magboots.rsi
+    state: icon
+  - type: Clothing
+    sprite: Clothing/Shoes/Boots/captain_magboots.rsi
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: StaticPrice
+    price: 750
+
+- type: entity
   parent: ClothingShoesBootsMag
   id: ADTClothingShoesBootsMagERT
   components:
