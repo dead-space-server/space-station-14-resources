@@ -1,0 +1,1 @@
+magboots-name-captain = магнитные сапоги капитана
