@@ -108,7 +108,7 @@
 
 - type: entity
   parent: [ClothingShoesBootsMag]
-  id: ClothingShoesBootsCaptain
+  id: ClothingShoesBootsMagCaptain
   name: captain magboots
   description: dark-blue magnetic boot with gold plated compartment at the end. Especially for the captain.
   components:
