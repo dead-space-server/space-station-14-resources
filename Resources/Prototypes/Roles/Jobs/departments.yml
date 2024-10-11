@@ -57,6 +57,7 @@
   - MedicalDoctor
   - MedicalIntern
   - Psychologist
+  - MedicalSurgeon
   accountNumber: 1319 #backmen: currency
 
 - type: department
