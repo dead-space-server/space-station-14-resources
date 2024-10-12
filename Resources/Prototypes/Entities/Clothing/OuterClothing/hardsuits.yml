@@ -126,15 +126,15 @@
 
 - type: entity
   parent: ClothingOuterHardsuitSalvage
-  id: ClothingOuterHardsuitLeadSalvage
-  name: lead salvage hardsuit
+  id: ClothingOuterHardsuitSeniorSalvage
+  name: senior salvage hardsuit
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/leadsalvage.rsi
+    sprite: Clothing/OuterClothing/Hardsuits/seniorsalvage.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/leadsalvage.rsi
+    sprite: Clothing/OuterClothing/Hardsuits/seniorsalvage.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitLeadSalvage
+    clothingPrototype: ClothingHeadHelmetHardsuitSeniorSalvage
 
 #Salvage Hardsuit
 - type: entity

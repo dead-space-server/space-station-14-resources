@@ -48,7 +48,7 @@
         prob: 0.3
 
 - type: entity
-  id: LockerLeadSalvageSpecialistFilledHardsuit
+  id: LockerSeniorSalvageSpecialistFilledHardsuit
   suffix: Filled, Hardsuit
   parent: LockerSalvageSpecialist
   components:

@@ -17,7 +17,7 @@
   - Salvage
   - Maintenance
   - External
-  - LeadSalvage
+  - SeniorSalvageSpecialist
   #start-backmen: currency
   minBankBalance: 150
   maxBankBalance: 250
