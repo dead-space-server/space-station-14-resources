@@ -151,3 +151,14 @@
   conditions:
     - !type:ListingLimitedStockCondition
       stock: 10
+
+- type: listing
+  id: CigaretteMachineInventory15
+  productEntity: Ashtray
+  cost:
+    SpaceCash: 50
+  categories:
+    - CigaretteMachineInventory
+  conditions:
+    - !type:ListingLimitedStockCondition
+      stock: 2
