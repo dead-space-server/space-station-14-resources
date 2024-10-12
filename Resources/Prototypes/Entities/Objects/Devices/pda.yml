@@ -548,8 +548,8 @@
 - type: entity
   parent: BaseMedicalPDA
   id: SurgeonPDA
-  name: кпк хирурга
-  description: Красные пятна остались после очередной операции.
+  name: surgeon PDA
+  description: Red spots remained after one of the operations.
   components:
   - type: Pda
     id: SurgeonIDCard
