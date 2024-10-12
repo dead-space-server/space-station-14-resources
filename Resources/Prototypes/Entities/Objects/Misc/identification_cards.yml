@@ -882,7 +882,7 @@
 - type: entity
   parent: MedicalIDCard
   id: SurgeonIDCard
-  name: айди карта хирурга
+  name: surgeon ID сard
   components:
   - type: Sprite
     layers:
