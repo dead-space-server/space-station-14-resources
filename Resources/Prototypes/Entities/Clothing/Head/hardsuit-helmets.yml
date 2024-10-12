@@ -119,7 +119,6 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSalvage
   id: ClothingHeadHelmetHardsuitSeniorSalvage
-  name: senior salvage hardsuit helmet
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/seniorsalvage.rsi
