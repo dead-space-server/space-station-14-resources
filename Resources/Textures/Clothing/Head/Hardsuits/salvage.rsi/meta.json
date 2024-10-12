@@ -11,6 +11,9 @@
       "name": "icon"
     },
     {
+      "name": "icon-flash"
+    },
+    {
       "name": "equipped-OUTERCLOTHING",
       "directions": 4
     },

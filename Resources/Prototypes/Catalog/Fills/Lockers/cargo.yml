@@ -54,7 +54,7 @@
   components:
   - type: StorageFill
     contents:
-      - id: ClothingOuterHardsuitLeadSalvage
+      - id: ClothingOuterHardsuitSeniorSalvage
       - id: ClothingShoesBootsMag
       - id: ClothingMaskGasExplorer
       - id: ClothingBeltUtilityFilled
