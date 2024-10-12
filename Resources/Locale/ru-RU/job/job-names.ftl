@@ -14,6 +14,7 @@ job-name-intern = Интерн
 job-name-doctor = Врач
 job-name-paramedic = Парамедик
 job-name-cmo = Главный врач
+job-name-surgeon = Хирург
 job-name-chemist = Химик
 job-name-technical-assistant = Инженер-стажёр
 job-name-engineer = Инженер
