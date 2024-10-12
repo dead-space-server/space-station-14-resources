@@ -124,6 +124,18 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitSpatio
 
+- type: entity
+  parent: ClothingOuterHardsuitSalvage
+  id: ClothingOuterHardsuitLeadSalvage
+  name: lead salvage hardsuit
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Hardsuits/leadsalvage.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Hardsuits/leadsalvage.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitLeadSalvage
+
 #Salvage Hardsuit
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseCargoContraband]

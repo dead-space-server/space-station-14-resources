@@ -25,6 +25,7 @@
   access:
   - Cargo
   - Salvage
+  - LeadSalvage
   - Quartermaster
   - Maintenance
   - Command

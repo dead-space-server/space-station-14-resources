@@ -58,6 +58,20 @@
   - type: AccessReader
     access: [["Salvage"]]
 
+- type: entity
+  id: LockerLeadSalvageSpecialist
+  parent: LockerBase
+  name: lead salvage specialist's equipment
+  description: Nevermind the pickaxe.
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: mining
+    stateDoorOpen: mining_open
+    stateDoorClosed: mining_door
+  - type: AccessReader
+    access: [["Salvage"]]
+
 # Command
 - type: entity
   id: LockerCaptain

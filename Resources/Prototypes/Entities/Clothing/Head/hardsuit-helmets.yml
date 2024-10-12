@@ -136,6 +136,15 @@
     energy: 3
 
 - type: entity
+  parent: ClothingHeadHelmetHardsuitLeadSalvage
+  name: lead salvage hardsuit helmet
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hardsuits/leadsalvage.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hardsuits/leadsalvage.rsi
+
+- type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitMaxim
   categories: [ HideSpawnMenu ]

@@ -32,6 +32,7 @@
   access:
   - Command
   - HeadOfPersonnel
+  - LeadSalvage
   - Bar
   - Service
   - Maintenance
