@@ -32,7 +32,7 @@
   access:
   - Command
   - HeadOfPersonnel
-  - SeniorSalvageSpecialist
+  - SeniorSalvage
   - Bar
   - Service
   - Maintenance
