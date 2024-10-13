@@ -12,6 +12,11 @@ ent-SecurityCadetPDA = КПК кадета СБ
     .desc = Почему он не синий?
 ent-ResearchAssistantPDA = КПК лаборанта
     .desc = Почему он не фиолетовый?
+<<<<<<< HEAD
+=======
+ent-SurgeonPDA = КПК хирурга
+    .desc = Красные пятна остались после одной из операций
+>>>>>>> b488849853b77057f0004e321945206d727fada8
 ent-ServiceWorkerPDA = КПК сервисного работника
     .desc = Почему он не серый?
 ent-ChefPDA = КПК повара
