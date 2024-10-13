@@ -262,8 +262,9 @@
   components:
   - type: StorageFill
     contents:
-      - id: ClothingOuterHardsuitSeniorSalvage
+      - id: OxygenTankFilled
       - id: ClothingShoesBootsMag
+      - id: ClothingOuterHardsuitSeniorSalvage
       - id: ClothingMaskGasExplorer
   - type: Access
     access: [["SeniorSalvage"]]
