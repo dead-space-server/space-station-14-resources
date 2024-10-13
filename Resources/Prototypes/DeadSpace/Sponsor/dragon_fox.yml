@@ -153,22 +153,6 @@
   - type: IdentityBlocker
     coverage: EYES
 
-# Gloves
-- type: entity
-  parent: ClothingHandsGlovesCombat
-  id: ClothingHandsGlovesDragonFox
-  name: белые боевые перчатки
-  description: Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации. Изолированны.
-  noSpawn: true
-  components:
-  - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/gloves.rsi
-  - type: Clothing
-    sprite: DeadSpace/Sponsor/vjlados/gloves.rsi
-  - type: Fiber
-    fiberMaterial: fibers-insulative
-    fiberColor: fibers-white
-
 # Head
 - type: entity
   parent: ClothingHeadBase
