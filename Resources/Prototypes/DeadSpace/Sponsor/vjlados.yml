@@ -26,18 +26,20 @@
     contents:
       - id: ClothingBeltVjladosFilled
       - id: ClothingNeckCloakVjlados
-      - id: ClothingHandsGlovesVjlados
+      - id: ClothingHandsGlovesCaptain
       - id: ClothingOuterHardsuitVjlados
       - id: ClothingHeadHatVjlados
       - id: ClothingUniformJumpsuitVjlados
       - id: ClothingShoesBootsMagVjlados
       - id: ClothingUnderwearBottomVjlados
       - id: ClothingShoesVjlados
+      - id: ClothingMaskVjlados
       - id: ClothingUnderSocksVjlados
       - id: JetpackVoidFilled
       - id: MedkitAdvancedFilled
       - id: ADTtelescopicBaton
       - id: ToySword
+      - id: ClothingEyesHudMedicalVjlados
       - id: SpaceCash1000
       - id: PaperLawsvjlados
 
@@ -66,14 +68,14 @@
 - type: entity
   parent: ClothingBeltChiefEngineer
   id: ClothingBeltVjladosFilled
-  name: зелёный украшенный пояс
-  description: Пояс окрашенный в зелёный цвет.
+  name: золотой украшенный РПС
+  description: РПС окрашенный в золотой цвет.
   noSpawn: true
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/belt.rsi
+    sprite: DeadSpace/Sponsor/DragonFox/belt.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/vjlados/belt.rsi
+    sprite: DeadSpace/Sponsor/DragonFox/belt.rsi
   - type: Item
     size: Huge
   - type: StorageFill
@@ -82,6 +84,35 @@
       - id: JawsOfLife
       - id: WelderExperimental
       - id: Multitool
+
+# Mask
+- type: entity
+  parent: ClothingMaskGasSyndicate
+  id: ClothingMaskVjlados
+  name: золотой противогаз
+  description: Изготовлен на заказ, хорошо защищает владельца от вредных паров.
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/DragonFox/gas.rsi
+  - type: Clothing
+    sprite: DeadSpace/Sponsor/DragonFox/gas.rsi
+
+# Eyes
+- type: entity
+  parent: ClothingEyesHudMultiversal
+  id: ClothingEyesHudMedicalVjlados
+  name: золотой визор
+  description: Изготовленый на заказ золотой визор, его владелец влиятельный человек.
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/DragonFox/hud.rsi
+  - type: Clothing
+    sprite: DeadSpace/Sponsor/DragonFox/hud.rsi
+  - type: EyeProtection
+  - type: IdentityBlocker
+    coverage: EYES
 
 - type: entity
   parent: [ClothingBeltBase, ClothingSlotBase]
@@ -149,14 +180,14 @@
 - type: entity
   parent: ClothingOuterHardsuitAtmos
   id: ClothingOuterHardsuitVjlados
-  name: зелёный украшенный скафандр
+  name: королевский украшенный скафандр
   description: Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации. Характеристики идентичны скафандру атмос-техника.
   noSpawn: true
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/hardsuit.rsi
+    sprite: DeadSpace/Sponsor/DragonFox/suit.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/vjlados/hardsuit.rsi
+    sprite: DeadSpace/Sponsor/DragonFox/suit.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitVjlados
   - type: Item
@@ -166,13 +197,13 @@
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitVjlados
   noSpawn: true
-  name: зелёный шлем
+  name: королевский шлем
   description: Шлем изолирующий владельца от страшного вакуума снаружи.
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/helmet.rsi
+    sprite: DeadSpace/Sponsor/DragonFox/helmet_suit.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/vjlados/helmet.rsi
+    sprite: DeadSpace/Sponsor/DragonFox/helmet_suit.rsi
   - type: PointLight
     color: "#daffad"
   - type: PressureProtection
@@ -208,14 +239,14 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitVjlados
-  name: костюм с морским воротником
-  description: Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
+  name: чёрный нано-костюм
+  description: Черный нано-костюм, выполненый из очень дорогих тканей.
   noSpawn: true
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/jumpsuit.rsi
+    sprite: DeadSpace/Sponsor/DragonFox/jumpsuit.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/vjlados/jumpsuit.rsi
+    sprite: DeadSpace/Sponsor/DragonFox/jumpsuit.rsi
 
 - type: entity
   parent: ClothingUniformBase
