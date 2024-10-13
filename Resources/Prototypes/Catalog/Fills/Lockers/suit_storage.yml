@@ -254,6 +254,20 @@
   - type: AccessReader
     access: [["Salvage"]]
 
+#Senior Salvage Hardsuit
+- type: entity
+  id: SuitStorageSeniorSalvageSpecialistFilled
+  suffix: Filled
+  parent: SuitStorageBase
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingOuterHardsuitSeniorSalvage
+      - id: ClothingShoesBootsMag
+      - id: ClothingMaskGasExplorer
+  - type: Access
+    access: [["SeniorSalvage"]]
+
 #Blood-red hardsuit
 - type: entity
   id: SuitStorageSyndie
