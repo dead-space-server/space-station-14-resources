@@ -46,16 +46,3 @@
         prob: 0.3
       - id: Flare
         prob: 0.3
-
-- type: entity
-  id: SuitStorageSeniorSalvageSpecialistFilled
-  suffix: Filled
-  parent: SuitStorageBase
-  components:
-  - type: StorageFill
-    contents:
-      - id: ClothingOuterHardsuitSeniorSalvage
-      - id: ClothingShoesBootsMag
-      - id: ClothingMaskGasExplorer
-  - type: Access
-    access: [["SeniorSalvage"]]
