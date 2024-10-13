@@ -118,3 +118,4 @@
   conditions:
     - !type:ListingLimitedStockCondition
       stock: 3
+
