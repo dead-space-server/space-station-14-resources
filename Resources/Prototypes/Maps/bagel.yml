@@ -41,6 +41,7 @@
             MedicalDoctor: [ 3, 3 ]
             Paramedic: [ 1, 1 ]
             MedicalIntern: [ 4, 4 ]
+            MedicalSurgeon: [ 1, 1 ]
             #science
             ResearchDirector: [ 1, 1 ]
             SeniorResearcher: [ 1, 1 ]
