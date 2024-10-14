@@ -107,3 +107,35 @@
     tags:
     - Meat
     - Soup
+
+- type: flavor 
+  id: sawdust
+  flavorType: Base
+  description: flavor-complex-sawdust #Ради 4х строчек создавать новый файл? да камон, нафиг надо
+
+- type: entity
+  parent: FoodBowlBase
+  id: FoodSoupSawdust
+  name: суп с опилками
+  description: Старый, всеми забытый рецепт из Ебенграда.
+  components:
+  - type: FlavorProfile
+    flavors:
+      - sawdust
+  - type: Sprite
+    sprite: /Textures/DeadSpace/Objects/Consumable/Food/sawdustsoup.rsi
+    layers:
+    - state: bowl
+    - state: sawdust
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 30
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 5
+        - ReagentId: Water
+          Quantity: 20
+  - type: Tag
+    tags:
+    - Soup
