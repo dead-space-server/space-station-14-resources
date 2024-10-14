@@ -1,3 +1,13 @@
+# Effects
+- type: loadoutEffectGroup
+  id: SeniorOff
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobSeniorOfficer
+      time: 72000 #20 hrs
+
 # Jumpsuit
 - type: loadout
   id: SeniorOfficerJumpsuit
@@ -55,3 +65,12 @@
     proto: FemaleUnderwear
   equipment:
     underweart: ClothingUnderwearTopBraSeniorOfficer
+
+# neck
+- type: loadout
+  id: SeniorOfficerNeckMantle
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorOff
+  equipment: 
+    neck: ClothingSeniorOfficerNeckMantle

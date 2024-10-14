@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingBeltHolster
+  id: ClothingSeniorOfficerNeckMantle
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Clothing/Neck/senior_officer.rsi
+  - type: Clothing
+    sprite: DeadSpace/Clothing/Neck/senior_officer.rsi
+    slots: 
+    - neck

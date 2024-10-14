@@ -184,6 +184,13 @@
   - UnderwearBottomPantiesSeniorOfficer
 
 - type: loadoutGroup
+  id: SeniorOfficerNeck
+  name: loadout-group-senior-officer-neck
+  hidden: true
+  loadouts:
+  - SeniorOfficerNeckMantle
+
+- type: loadoutGroup
   id: SurvivalBrigmedic
   name: loadout-group-survival-security
   minLimit: 2

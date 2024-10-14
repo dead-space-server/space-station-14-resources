@@ -125,6 +125,7 @@
   - Trinkets
   - GroupSpeciesBreathTool
   - SeniorOfficerUnderwear # DS14-Underwear
+  - SeniorOfficerNeck
 
 - type: roleLoadout
   id: JobSecurityPilot
