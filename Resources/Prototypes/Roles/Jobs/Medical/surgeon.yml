@@ -25,6 +25,7 @@
   wage: 50
   #end-backmen: currency
 
+  
 - type: startingGear
   id: SurgeonGear
   equipment:
