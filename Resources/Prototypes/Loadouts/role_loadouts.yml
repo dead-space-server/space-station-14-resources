@@ -471,6 +471,24 @@
   - MedicalInternUnderwear # DS14-Underwear
 
 - type: roleLoadout
+  id: SurgeonGear
+  groups:
+  - GroupTankHarness
+  - MedicalDoctorHead
+  - MedicalMask
+  - MedicalDoctorJumpsuit
+  - MedicalGloves
+  - MedicalBackpack
+  - MedicalDoctorOuterClothing
+  - MedicalShoes
+  - MedicalDoctorPDA
+  - Glasses
+  - SurvivalMedical
+  - Trinkets
+  - GroupSpeciesBreathToolMedical
+  - MedicalDoctorUnderwear
+
+- type: roleLoadout
   id: JobChemist
   groups:
   - GroupTankHarness
