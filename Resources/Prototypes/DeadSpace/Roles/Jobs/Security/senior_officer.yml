@@ -45,6 +45,7 @@
     head: ClothingHeadHatBeretSecurity
     ears: ClothingHeadsetSecurity
     pocket1: WeaponRevolverDeckard
+    socks: ClothingUnderwearSocksSeniorOfficer
   storage:
     back:
     - Flash
