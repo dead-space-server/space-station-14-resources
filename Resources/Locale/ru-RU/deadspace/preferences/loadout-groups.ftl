@@ -29,7 +29,6 @@ loadout-group-brigmedic-underwear = Бригмедик, нижнее бельё
 loadout-group-senior-officer-jumpsuit = Инструктор СБ, комбинезон
 loadout-group-senior-officer-backpack = Инструктор СБ, рюкзак
 loadout-group-senior-officer-underwear = Инструктор СБ, нижнее бельё
-loadout-group-senior-officer-neck = Инструктор СБ, шея
 # Medical
 loadout-group-senior-physician-head = Ведущий врач, голова
 loadout-group-senior-physician-jumpsuit = Ведущий врач, комбинезон
