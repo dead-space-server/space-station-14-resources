@@ -47,6 +47,14 @@
 
 - type: jobIcon
   parent: JobIcon
+  id: JobIconMedicalSurgeon
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: Surgeon
+  jobName: job-name-surgeon
+
+- type: jobIcon
+  parent: JobIcon
   id: JobIconAtmosphericTechnician
   icon:
     sprite: /Textures/Interface/Misc/job_icons.rsi
