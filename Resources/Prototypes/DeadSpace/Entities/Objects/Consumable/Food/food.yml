@@ -108,11 +108,6 @@
     - Meat
     - Soup
 
-- type: flavor 
-  id: sawdust
-  flavorType: Base
-  description: flavor-complex-sawdust #Ради 4х строчек создавать новый файл? да камон, нафиг надо
-
 - type: entity
   parent: FoodBowlBase
   id: FoodSoupSawdust
