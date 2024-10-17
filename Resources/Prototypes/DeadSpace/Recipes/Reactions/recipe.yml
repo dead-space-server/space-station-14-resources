@@ -115,3 +115,14 @@
       amount: 1
   products:
     UplinkDrink: 4
+
+- type: microwaveMealRecipe
+  id: RecipeSawdustSoup
+  name: sawdust soup recipe
+  result: FoodSoupSawdust
+  time: 20
+  reagents:
+    Water: 30
+    Cellulose: 20
+  solids:
+    FoodBowlBig: 1
