@@ -32,6 +32,7 @@
   access:
   - Command
   - HeadOfPersonnel
+  - SeniorSalvage
   - Bar
   - Service
   - Maintenance
