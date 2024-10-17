@@ -792,6 +792,14 @@
     Durathread: 200
 
 - type: latheRecipe
+  id: ClothingOuterWinterClownDownjacket
+  result: ClothingOuterWinterClownDownjacket
+  completetime: 3.2
+  materials:
+    Cloth: 500
+    Durathread: 200
+
+- type: latheRecipe
   id: ClothingOuterWinterMime
   result: ClothingOuterWinterMime
   completetime: 3.2

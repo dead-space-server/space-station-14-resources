@@ -524,6 +524,7 @@
   loadouts:
   - ClownRobes
   - ClownWintercoat
+  - ClownDownjacket
 
 - type: loadoutGroup
   id: ClownShoes
