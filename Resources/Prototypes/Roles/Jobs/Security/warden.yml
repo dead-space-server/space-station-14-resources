@@ -38,6 +38,7 @@
     eyes: ClothingEyesGlassesSecurity
     id: WardenPDA
     ears: ClothingHeadsetSecurity
+    socks: ClothingUnderwearSocksWarden
   storage:
     back:
     - Flash

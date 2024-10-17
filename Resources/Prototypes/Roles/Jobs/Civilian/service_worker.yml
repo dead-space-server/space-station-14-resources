@@ -32,3 +32,4 @@
     shoes: ClothingShoesColorBlack
     id: ServiceWorkerPDA
     ears: ClothingHeadsetService
+    socks: ClothingUnderwearSocksService

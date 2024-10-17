@@ -39,6 +39,7 @@
     outerClothing: ClothingOuterWinterSec
     id: SecurityPilotPDA
     ears: ClothingHeadsetSecurity
+    socks: ClothingUnderwearSocksSecurityPilot
   storage:
     back:
     - Flash

@@ -30,3 +30,4 @@
     shoes: ClothingShoesColorBlack
     id: BartenderPDA
     ears: ClothingHeadsetService
+    socks: ClothingUnderwearSocksBartender

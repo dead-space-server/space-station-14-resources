@@ -67,6 +67,7 @@
     id: SeniorServicePDA
     ears: ClothingHeadsetService
     belt: BoxFolderClipboard
+    socks: ClothingUnderwearSocksCurator
   storage:
     back:
     - RubberStampSeniorAdministrator
