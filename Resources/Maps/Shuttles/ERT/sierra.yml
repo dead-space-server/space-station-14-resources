@@ -715,7 +715,8 @@ entities:
           0,4:
             1: 226
           1,0:
-            0: 64977
+            0: 63953
+            2: 1024
           1,1:
             0: 56733
           1,2:
@@ -5972,6 +5973,47 @@ entities:
           showEnts: False
           occludes: True
           ent: null
+  - uid: 1980
+    components:
+    - type: Transform
+      pos: 6.5,2.5
+      parent: 1
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14673
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+    - type: ContainerContainer
+      containers:
+        entity_storage: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 1988
+          - 1987
+          - 1986
+          - 1985
+          - 1984
+          - 1983
+          - 1982
+          - 1981
+        paper_label: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
 - proto: CrateObeliskStoper
   entities:
   - uid: 917
@@ -9016,6 +9058,8 @@ entities:
     - type: Transform
       pos: 9.5,-9.5
       parent: 1
+    - type: PowerSupplier
+      supplyRate: 25000
   - uid: 1278
     components:
     - type: Transform
@@ -9026,6 +9070,8 @@ entities:
     - type: Transform
       pos: 9.5,-10.5
       parent: 1
+    - type: PowerSupplier
+      supplyRate: 25000
 - proto: GravityGeneratorMini
   entities:
   - uid: 1280
@@ -9436,6 +9482,12 @@ entities:
       rot: 3.141592653589793 rad
       pos: 8.5,-10.5
       parent: 1
+  - uid: 1979
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 3.5,-9.5
+      parent: 1
 - proto: HolofanProjector
   entities:
   - uid: 1353
@@ -9571,6 +9623,22 @@ entities:
     - type: Transform
       pos: 11.375289,3.535492
       parent: 1
+- proto: MaterialCloth
+  entities:
+  - uid: 1985
+    components:
+    - type: Transform
+      parent: 1980
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+  - uid: 1986
+    components:
+    - type: Transform
+      parent: 1980
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: MedicalBed
   entities:
   - uid: 1373
@@ -10738,6 +10806,20 @@ entities:
     - type: Transform
       pos: -2.6135278,9.618885
       parent: 1
+  - uid: 1987
+    components:
+    - type: Transform
+      parent: 1980
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+  - uid: 1988
+    components:
+    - type: Transform
+      parent: 1980
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: SheetPlasma
   entities:
   - uid: 1368
@@ -10789,6 +10871,20 @@ entities:
     - type: Transform
       pos: -2.1365342,9.582193
       parent: 1
+  - uid: 1983
+    components:
+    - type: Transform
+      parent: 1980
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+  - uid: 1984
+    components:
+    - type: Transform
+      parent: 1980
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: SheetSteel
   entities:
   - uid: 900
@@ -10815,6 +10911,20 @@ entities:
     - type: Transform
       pos: -2.748064,9.631115
       parent: 1
+  - uid: 1981
+    components:
+    - type: Transform
+      parent: 1980
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+  - uid: 1982
+    components:
+    - type: Transform
+      parent: 1980
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: SheetUranium
   entities:
   - uid: 890

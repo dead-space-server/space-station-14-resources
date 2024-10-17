@@ -104,7 +104,7 @@ entities:
     - type: NavMap
 - proto: AirlockShuttle
   entities:
-  - uid: 2
+  - uid: 33
     components:
     - type: Transform
       pos: 0.5,-2.5
@@ -117,9 +117,9 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 1.5,-0.5
       parent: 1
-- proto: AtmosDeviceFanDirectional
+- proto: AtmosDeviceFanTiny
   entities:
-  - uid: 4
+  - uid: 2
     components:
     - type: Transform
       pos: 0.5,-2.5
@@ -201,8 +201,8 @@ entities:
         immutable: False
         temperature: 293.14673
         moles:
-        - 1.7459903
-        - 6.568249
+        - 1.8856695
+        - 7.0937095
         - 0
         - 0
         - 0
@@ -219,10 +219,10 @@ entities:
           showEnts: False
           occludes: True
           ents:
-          - 8
+          - 7
           - 9
           - 6
-          - 7
+          - 8
 - proto: ClothingOuterSuitEmergency
   entities:
   - uid: 7
@@ -252,6 +252,13 @@ entities:
     components:
     - type: Transform
       pos: -0.5,-1.5
+      parent: 1
+- proto: Grille
+  entities:
+  - uid: 4
+    components:
+    - type: Transform
+      pos: 0.5,0.5
       parent: 1
 - proto: Gyroscope
   entities:
