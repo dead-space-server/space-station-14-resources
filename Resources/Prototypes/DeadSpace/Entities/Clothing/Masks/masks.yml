@@ -21,9 +21,9 @@
   description: Для пожилых и мудрых существ, на 100% состоит из синтепона.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Head/Mask/FakeWizHat.rsi
+    sprite: DeadSpace/Clothing/Head/Mask/wizard_fake_beard.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Head/Mask/FakeWizHat.rsi
+    sprite: DeadSpace/Clothing/Head/Mask/wizard_fake_beard.rsi
   - type: IngestionBlocker
   - type: IdentityBlocker
   - type: Tag
