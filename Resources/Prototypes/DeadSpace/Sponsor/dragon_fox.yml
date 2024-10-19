@@ -323,3 +323,50 @@
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/DragonFox/backpack.rsi
+
+#Сестра битв
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitDragonFox
+  name: скафандр Адепта Сороритас
+  description: Скафандр Адепта Сороритас является не только средством защиты, но и символом веры и преданности Сестёр своему делу преданность и готовность защищать Империум от любых угроз.
+  components:
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.4
+        Heat: 0.5
+        Radiation: 0.5
+        Caustic: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/DragonFox/SisterOfBattle/hardsuit.rsi
+  - type: Clothing
+    sprite: DeadSpace/Sponsor/DragonFox/SisterOfBattle/hardsuit.rsi
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitSecurityRed
+  - type: Item
+    size: Huge
+
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuitDragonFox
+  name: шлем Адепта Сороритас
+  description: Шлем оснащён системами фильтрации которые обеспечивают сёстрам чистый воздух. Дизайн шлема отражает его функциональность и эстетику, сочетая в себе элементы футуризма и религиозного символизма.
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/DragonFox/SisterOfBattle/head.rsi
+  - type: Clothing
+    sprite: DeadSpace/Sponsor/DragonFox/SisterOfBattle/head.rsi
+  - type: PointLight
+    color: "#ff1929"
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
