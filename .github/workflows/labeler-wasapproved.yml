@@ -5,7 +5,7 @@ on:
     types: [submitted]
 
 jobs:
-  add_label:
+  add_label_approved:
     if: github.event.review.state == 'approved'
     runs-on: ubuntu-latest
     steps:
