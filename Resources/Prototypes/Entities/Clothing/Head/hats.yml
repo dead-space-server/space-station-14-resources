@@ -562,6 +562,8 @@
     sprite: Clothing/Head/Hats/wizard_fake.rsi
   - type: Clothing
     sprite: Clothing/Head/Hats/wizard_fake.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingMaskFakeWizHatBeard
 
 - type: entity
   abstract: true
