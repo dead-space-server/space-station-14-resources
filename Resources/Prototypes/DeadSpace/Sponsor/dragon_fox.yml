@@ -333,7 +333,6 @@
   id: ClothingOuterHardsuitDragonFox
   name: скафандр Адепта Сороритас
   description: Скафандр Адепта Сороритас является не только средством защиты, но и символом веры и преданности Сестёр своему делу преданность и готовность защищать Империум от любых угроз.
-  noSpawn: true
   components:
   - type: Armor
     modifiers:
@@ -362,7 +361,6 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitDragonFox
-  noSpawn: true
   name: шлем Адепта Сороритас
   description: Шлем оснащён системами фильтрации которые обеспечивают сёстрам чистый воздух. Дизайн шлема отражает его функциональность и эстетику, сочетая в себе элементы футуризма и религиозного символизма.
   components:
