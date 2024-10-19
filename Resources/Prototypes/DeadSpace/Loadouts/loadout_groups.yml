@@ -182,7 +182,7 @@
   - UnderwearBottomBoxersSeniorOfficer
   - UnderwearTopBraSeniorOfficer
   - UnderwearBottomPantiesSeniorOfficer
-
+  
 - type: loadoutGroup
   id: SurvivalBrigmedic
   name: loadout-group-survival-security
