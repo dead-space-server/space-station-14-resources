@@ -1,0 +1,22 @@
+- type: sponsorLoadout
+  id: fffgfgggg
+  entity: ClothingBackpackfffgfgggg
+  sponsorOnly: true
+
+# Backpack
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackfffgfgggg
+  name: блюспейс рюкзак Банши
+  description: Рюкзак использующий технологию блюспейса для увелечения своего максимального объёма. Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации.
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/drippenwagen/backpack.rsi
+  - type: Storage
+    maxItemSize: Huge
+    grid:
+    - 0,0,13,5
+  - type: StorageFill
+    contents:
+      - id: 
