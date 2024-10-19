@@ -13,3 +13,24 @@
     tags:
     - WhitelistChameleon
   - type: IngestionBlocker
+
+- type: entity
+  parent: ClothingMaskPullableBase
+  id: ClothingMaskFakeWizHatBeard
+  name: мудрая борода
+  description: Для пожилых и мудрых существ, на 100% состоит из синтепона.
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Clothing/Head/Mask/FakeWizHat.rsi
+  - type: Clothing
+    sprite: DeadSpace/Clothing/Head/Mask/FakeWizHat.rsi
+  - type: IngestionBlocker
+  - type: IdentityBlocker
+  - type: Tag
+    tags:
+    - FakeWizMask
+    - WhitelistChameleon
+  - type: HideLayerClothing
+    slots:
+    - Snout
+    hideOnToggle: true
