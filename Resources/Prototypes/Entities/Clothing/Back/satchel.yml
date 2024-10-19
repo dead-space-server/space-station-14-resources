@@ -181,3 +181,15 @@
     maxItemSize: Huge
     grid:
     - 0,0,19,9
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingSatchelBlueCat
+  name: Кошачья сумка
+  description: Мягкая и пушистая сумка в виде умилительного голубого котёнка. Стоп, кто мяукает?!
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Satchels/bluecat.rsi
+  - type: Storage
+    storageOpenSound:
+        path: /Audio/Animals/cat_meow.ogg

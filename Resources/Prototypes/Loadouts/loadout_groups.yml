@@ -1470,6 +1470,7 @@
   loadouts:
   - MedicalDoctorBackpack
   - MedicalDoctorSatchel
+  - MedicalDoctorSatchelBlueCat
   - MedicalDoctorDuffel
 
 - type: loadoutGroup
