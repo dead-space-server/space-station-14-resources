@@ -165,8 +165,8 @@
 - type: entity
   parent: ClothingBackpackMilitarySatchel
   id: ClothingBackpackFSCPRecruitFilled
-  name: рюкзак рядового бойца КПСК
-  description: Вместительный рюкзак с множеством карманов, который носят рядовые бойцы КПСК. Пропитан кровью капиталистов.
+  name: сумка рядового бойца КПСК
+  description: Вместительная сумка с множеством карманов, который носят рядовые бойцы КПСК. Пропитан кровью капиталистов.
   suffix: Заполненный
   components:
     - type: StorageFill
@@ -268,8 +268,8 @@
 - type: entity
   parent: ClothingBackpackMilitarySatchel
   id: ClothingBackpackFSCPCorporalFilled
-  name: рюкзак ефрейтора КПСК
-  description: Вместительный рюкзак с множеством карманов, который носят рядовые бойцы КПСК. Пропитан кровью капиталистов.
+  name: сумка ефрейтора КПСК
+  description: Вместительная сумка с множеством карманов, который носят рядовые бойцы КПСК. Пропитан кровью капиталистов.
   suffix: Заполненный
   components:
     - type: StorageFill
@@ -374,8 +374,8 @@
 - type: entity
   parent: ClothingBackpackMilitarySatchel
   id: ClothingBackpackFSCPSergeantFilled
-  name: рюкзак сержанта КПСК
-  description: Вместительный рюкзак с множеством карманов, который носят сержанты бойцы КПСК. Пропитан кровью капиталистов.
+  name: сумка сержанта КПСК
+  description: Вместительная сумка с множеством карманов, который носят сержанты бойцы КПСК. Пропитан кровью капиталистов.
   suffix: Заполненный
   components:
     - type: StorageFill

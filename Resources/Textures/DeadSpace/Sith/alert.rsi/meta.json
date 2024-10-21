@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "license": "CC-BY-SA-3.0",
+  "copyright": "By KloopRe (discord) for Space Station 14 server Dead Space",
+  "states": [
+    {
+      "name": "blue"
+    },
+    {
+      "name": "red"
+    }
+  ]
+}

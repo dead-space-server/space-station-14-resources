@@ -13,7 +13,7 @@
     autoRechargeRate: 60
 
 - type: entity
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   parent: ClothingBackpackMerc
   id: ClothingBackpackBlackLightningFilledLeader
   components:
@@ -25,7 +25,7 @@
         - id: AirTank
 
 - type: entity
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   parent: ClothingBackpackMerc
   id: ClothingBackpackBlackLightningFilled
   components:
@@ -37,7 +37,7 @@
         - id: AirTank
 
 - type: entity
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   parent: ClothingBeltSecurityWebbing
   id: ClothingBeltBlackLightningLeaderWebbingFilled
   components:
@@ -50,7 +50,7 @@
         - id: WeaponAdvancedLaserBlackLightning
 
 - type: entity
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   parent: ClothingBeltSecurityWebbing
   id: ClothingBeltBlackLightningWebbingFilled
   components:
@@ -58,7 +58,6 @@
       contents:
         - id: MedicatedSuture
         - id: RegenerativeMesh
-        - id: CombatKnife
         - id: ExGrenade
 
 - type: entity

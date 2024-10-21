@@ -35,7 +35,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ADTSpaceMarinneHead
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: шлем скафандра чемпиона
   description: И не знает он страха.
   components:

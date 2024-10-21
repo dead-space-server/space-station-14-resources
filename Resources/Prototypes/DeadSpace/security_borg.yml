@@ -129,14 +129,14 @@
   id: IdBorgSec
   name: киборг службы безопасности
   description: Карта, необходимая для доступа в различные области станции.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: /Textures/DeadSpace/SecurityBorg/id_borg_sec.rsi
     layers:
     - state: icon
   - type: IdCard
-    jobTitle: Киборг службы безопасности
+    jobTitle: job-name-borg-security
   - type: Item
     heldPrefix: blue
   - type: Unremoveable
@@ -148,7 +148,7 @@
   id: WeaponLaserGunBorg
   name: лазерная установка киборга
   description: Установка созданная специально для боргов службы безопасности.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: /Textures/DeadSpace/SecurityBorg/borglaser.rsi
@@ -176,7 +176,7 @@
   id: WeaponDisablerBorg
   name: станнер киборга
   description: Оружие для самозащиты, которое изнуряет органические цели, пока они не свалятся с ног.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: /Textures/DeadSpace/SecurityBorg/stannerborg.rsi
@@ -191,7 +191,7 @@
   id: StunbatonBorg
   name: дубинка-шокер киборга
   description: Электрошоковая дубинка для обездвиживания людей. Слишком усердное причинение вреда с помощью этого предмета считается дурным тоном.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: BatterySelfRecharger
     autoRecharge: true
@@ -242,7 +242,7 @@
   name: челюсти жизни киборга СБ
   parent: JawsOfLife
   id: BorgSecJawsOfLife
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   description: Набор челюстей жизни, скомпонованных при помощи магии науки.
   components:
   - type: Sprite

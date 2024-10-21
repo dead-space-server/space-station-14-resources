@@ -15,7 +15,7 @@
   id: ClothingBackpackdrippenwagen
   name: блюспейс рюкзак Банши
   description: Рюкзак использующий технологию блюспейса для увелечения своего максимального объёма. Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/drippenwagen/backpack.rsi
@@ -44,7 +44,7 @@
   id: ClothingBeltdrippenwagenFilled
   name: пояс Банши
   description: Пояс который принадлежат члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/drippenwagen/belt.rsi
@@ -65,7 +65,7 @@
   id: ClothingNeckCloakdrippenwagen
   name: плащ Банши
   description: Кровавя накидка. Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/drippenwagen/cloak.rsi
@@ -76,7 +76,7 @@
   id: ClothingHandsGlovesdrippenwagen
   name: белые боевые перчатки
   description: Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации. Изолированны.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/gloves.rsi
@@ -92,7 +92,7 @@
   id: ClothingOuterHardsuitdrippenwagen
   name: скафандр Банши
   description: Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/drippenwagen/hardsuit.rsi
@@ -125,7 +125,7 @@
   id: ClothingHeadHelmetHardsuitdrippenwagen
   name: шлем скафандра Банши
   description: Шлем изолирующий владельца от страшного вакуума снаружи.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/drippenwagen/helmet.rsi
@@ -143,7 +143,7 @@
   id: ClothingShoesBootsMagdrippenwagen
   name: магнитные ботинки Банши
   description: Магнитные сапоги, используемые во время работы вне корабля, чтобы оставаться надёжно прикреплённым к поверхности.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
       sprite: DeadSpace/Sponsor/drippenwagen/magboots.rsi
@@ -162,7 +162,7 @@
   id: JetpackVoiddrippenwagen
   name: джетпак Банши
   description: Это реактивный ранец - джетпак. Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Item
     sprite: DeadSpace/Sponsor/drippenwagen/jetpack.rsi
@@ -189,7 +189,7 @@
   id: WeaponProtoKineticAcceleratordrippenwagen
   name: протокинетическое копьё
   description: Аналог протокинетического ускорителя. Стреляет кинетическими зарядами с низким уроном на короткое расстояние.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/drippenwagen/gun.rsi
@@ -238,7 +238,7 @@
   id: ClothingMaskBreathMedicalSecuritydrippenwagen
   name: медицинская маска Банши
   description: Плотно прилегающая стерильная маска, которую можно подключить к дыхательному баллону.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Item
     size: Tiny
@@ -252,7 +252,7 @@
   id: PaperLawdrippenwagen
   name: распечатанный документ
   description: Лист бумаги с заголовком центкома. Страшно даже смотреть на него.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Paper
     stampState: paper_stamp-centcom

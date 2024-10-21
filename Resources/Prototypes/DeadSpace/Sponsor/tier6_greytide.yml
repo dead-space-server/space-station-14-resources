@@ -9,7 +9,7 @@
   name: расширенный вещмешок
   description: Вещмешок использующий технологию микро блюспейс карманов для увеличения общего объёма.
   suffix: Набор вещей спонсора, Грейтайдер
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Storage
     maxItemSize: Huge
@@ -51,7 +51,7 @@
   name: вещмешок
   description: Вещмешок в необычной расцветке. Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
   suffix: Набор вещей спонсора, Грейтайдер, ГСБ АВД
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
@@ -73,7 +73,7 @@
   name: вещмешок
   description: Вещмешок в необычной расцветке. Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
   suffix: Набор вещей спонсора, Грейтайдер, ГСБ
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
@@ -87,7 +87,7 @@
   id: ClothingMaskFawkesSponsor
   name: маска Гая Фокса
   description: V — значит вендетта.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/Greytide/fawkes.rsi
@@ -99,7 +99,7 @@
   id: ClothingOuterBlueTrenchSponsor
   name: синий тренч
   description: Изысканный тренч, воплощение безупречного стиля и утонченной элегантности. Его насыщенный оттенок создает яркую гармонию с классическим кроем, подчеркивая современный взгляд на стиль и придавая образу неповторимую свежесть.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/Greytide/bluecoat.rsi

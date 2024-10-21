@@ -49,7 +49,7 @@
     - HudMedical
 
 - type: entity
-  parent: [ClothingEyesBase, ShowSecurityIcons, BaseSecurityCommandContraband]
+  parent: [ClothingEyesBase, ShowSecurityIcons, BaseRestrictedContraband]
   id: ClothingEyesHudSecurity
   name: security hud
   description: A heads-up display that scans the humanoids in view and provides accurate data about their ID status and security records.
@@ -68,23 +68,16 @@
     - HudSecurity
 
 - type: entity
-  parent: [ClothingEyesBase, ShowSecurityIcons, ShowMedicalIcons]
-  id: ADTClothingEyesHudAdvanced
-  name: Advanced hud
-  description: A heads-up display that scans the humanoids in view and provides accurate data about their ID status and security records.
+  parent: [ClothingEyesBase, BaseCommandContraband]
+  id: ClothingEyesHudCommand
+  name: administration hud
+  description: A heads-up display that scans the humanoids in view and provides accurate data about their ID status.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Eyes/HUD/advanced_hud.rsi
+    sprite: Clothing/Eyes/Hud/command.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Eyes/HUD/advanced_hud.rsi
-  - type: ShowHealthBars
-    damageContainers:
-    - Biological
-    - Inorganic
-    - Silicon
-  - type: FlashImmunity
-  - type: EyeProtection
-    protectionTime: 5
+    sprite: Clothing/Eyes/Hud/command.rsi
+  - type: ShowJobIcons
 
 - type: entity
   parent: ClothingEyesBase
@@ -308,3 +301,22 @@
   parent: [ClothingEyesEyepatchHudDiag, ClothingHeadEyeBaseFlipped]
   id: ClothingEyesEyepatchHudDiagFlipped
   name: diagnostic hud eyepatch
+
+- type: entity
+  parent: [ClothingEyesBase, ShowSecurityIcons, ShowMedicalIcons, BaseCommandContraband]
+  id: ClothingEyesHudAdvanced
+  name: Advanced hud
+  description: A heads-up display that scans the humanoids in view and provides accurate data about their ID status and security records.
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Eyes/HUD/advanced_hud.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Eyes/HUD/advanced_hud.rsi
+  - type: ShowHealthBars
+    damageContainers:
+    - Biological
+    - Inorganic
+    - Silicon
+  - type: FlashImmunity
+  - type: EyeProtection
+    protectionTime: 5

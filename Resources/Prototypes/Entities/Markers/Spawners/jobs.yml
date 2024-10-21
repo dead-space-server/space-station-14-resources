@@ -599,12 +599,12 @@
         - state: magistrat
 
 - type: entity
-  id: SpawnPointADTBlueShieldOfficer
+  id: SpawnPointBlueShieldOfficer
   parent: SpawnPointJobBase
   name: blue shield spawn
   components:
     - type: SpawnPoint
-      job_id: ADTBlueShieldOfficer
+      job_id: BlueShieldOfficer
     - type: Sprite
       layers:
         - state: green

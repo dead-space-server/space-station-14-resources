@@ -2,7 +2,7 @@
   id: EatMouseAction
   name: action-name-eat-mouse
   description: action-description-eat-mouse
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
     icon: DeadSpace/Icons/verbiconfangs.png
@@ -13,7 +13,7 @@
   id: HairballAction
   name: hairball-action
   description: hairball-action-desc
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
     icon:

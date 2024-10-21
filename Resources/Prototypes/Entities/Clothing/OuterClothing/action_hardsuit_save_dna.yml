@@ -2,7 +2,7 @@
   id: ActionHardsuitSaveDNA
   name: Save DNA
   description: The action preserves your DNA so that others can't use this hard suit.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
     icon: Interface/Actions/action_hardsuit_save_dna.png

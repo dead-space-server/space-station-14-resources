@@ -8,7 +8,7 @@
       role: JobSalvageSpecialist
       time: 216000 # 60 hours
     - !type:AgeRequirement
-      requiredAge: 28
+      requiredAge: 24
   startingGear: SeniorSalvageSpecialistGear
   icon: "JobIconSeniorSalvageSpecialist"
   supervisors: job-supervisors-qm

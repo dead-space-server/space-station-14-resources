@@ -24,8 +24,9 @@
       allowNonHumans: true
       multiAntagSetting: NotExclusive
       startingGear: ThiefGear
-      mindComponents:
-      - type: ThiefRole
-        prototype: Thief
+      # components:
+      # - type: Pacified # DS14 no pacified thiefs
+      mindRoles:
+      - MindRoleThief
       briefing:
         sound: "/Audio/Misc/thief_greeting.ogg"

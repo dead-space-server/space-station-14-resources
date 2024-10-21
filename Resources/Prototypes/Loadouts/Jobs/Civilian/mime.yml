@@ -63,6 +63,17 @@
   equipment:
     outerClothing: ClothingOuterWinterMime
 
+# Belt
+- type: loadout
+  id: MimeSuspendersRed
+  equipment:
+    belt: ClothingBeltSuspendersRed
+
+- type: loadout
+  id: MimeSuspendersBlack
+  equipment:
+    belt: ClothingBeltSuspendersBlack
+
 # Underwear
 - type: loadout
   id: UnderwearBottomBoxersMime

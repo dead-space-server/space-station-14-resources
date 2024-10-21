@@ -9,7 +9,8 @@
   - type: Clothing
     sprite: ADT/Clothing/OuterClothing/Hardsuits/cybersunbodyguard.rsi
   - type: TemperatureProtection
-    coefficient: 0.001
+    heatingCoefficient: 0.001
+    coolingCoefficient: 0.001
   - type: PressureProtection
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
@@ -47,7 +48,8 @@
   - type: Clothing
     sprite: ADT/Clothing/OuterClothing/Hardsuits/cybersun_crysis_hardsuit.rsi
   - type: TemperatureProtection
-    coefficient: 0.001
+    heatingCoefficient: 0.001
+    coolingCoefficient: 0.001
   - type: PressureProtection
     highPressureMultiplier: 0.2
     lowPressureMultiplier: 1000

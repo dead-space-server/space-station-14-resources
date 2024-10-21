@@ -29,6 +29,18 @@
   id: JobCentralCommandOfficial
 
 - type: playTimeTracker
+  id: JobCentralCommandAdministrator
+
+- type: playTimeTracker
+  id: JobCentralCommandOperator
+
+- type: playTimeTracker
+  id: JobCentralCommandSpecialOperationsOfficer
+
+- type: playTimeTracker
+  id: JobCentralCommandOfficer
+
+- type: playTimeTracker
   id: JobChaplain
 
 - type: playTimeTracker
@@ -105,6 +117,15 @@
 
 - type: playTimeTracker
   id: JobCBURNSierraAgent
+
+- type: playTimeTracker
+  id: JobDeathSquad
+
+- type: playTimeTracker
+  id: JobCBURN
+
+- type: playTimeTracker
+  id: JobERTChaplain
 
 - type: playTimeTracker
   id: JobHeadOfPersonnel
@@ -185,6 +206,9 @@
   id: JobServiceWorker
 
 - type: playTimeTracker
+  id: JobStationAi
+
+- type: playTimeTracker
   id: JobStationEngineer
 
 - type: playTimeTracker
@@ -209,7 +233,7 @@
 #   id: JobADTInvestigator
 
 - type: playTimeTracker
-  id: JobADTBlueShieldOfficer
+  id: JobBlueShieldOfficer
 
 - type: playTimeTracker
   id: JobCoroner
@@ -225,6 +249,3 @@
 
 - type: playTimeTracker
   id: JobClownSponsor
-
-- type: playTimeTracker
-  id: JobDeathSquadUnit

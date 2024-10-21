@@ -14,7 +14,7 @@
   id: ClothingBackpackDragonFox
   name: однолямочный блюспейс рюкзак
   description: Однолямочный рюкзак использующий технологию блюспейса для увелечения своего максимального объёма. Окрашен в зелёный хаки.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/DragonFox/backpack.rsi
@@ -48,7 +48,7 @@
   id: ClothingBeltDragonFoxFilled
   name: золотой украшенный РПС
   description: РПС окрашенный в золотой цвет.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/DragonFox/belt.rsi
@@ -69,7 +69,7 @@
   id: ClothingUniformJumpsuitDragonFox
   name: чёрный нано-костюм
   description: Черный нано-костюм, выполненый из очень дорогих тканей.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/DragonFox/jumpsuit.rsi
@@ -82,7 +82,7 @@
   id: ClothingOuterHardsuitDragonFox
   name: королевский украшенный скафандр
   description: Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации. Характеристики идентичны скафандру атмос-техника.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/DragonFox/suit.rsi
@@ -96,7 +96,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitDragonFox
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: королевский шлем
   description: Шлем изолирующий владельца от страшного вакуума снаружи.
   components:
@@ -116,7 +116,7 @@
   id: ClothingMaskDragonFox
   name: золотой противогаз
   description: Изготовлен на заказ, хорошо защищает владельца от вредных паров.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/DragonFox/gas.rsi
@@ -129,7 +129,7 @@
   id: ClothingNeckCloakDragonFox
   name: зелёный украшенный плащ
   description: Накидка в зелёном цвете. Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/cloak.rsi
@@ -140,7 +140,7 @@
   id: ClothingEyesHudMedicalDragonFox
   name: золотой визор
   description: Изготовленый на заказ золотой визор, его владелец влиятельный человек.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/DragonFox/hud.rsi
@@ -156,7 +156,7 @@
   id: ClothingHeadHatDragonFox
   name: бантиковая лента
   description: Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/head.rsi
@@ -169,7 +169,7 @@
   id: ClothingShoesBootsMagDragonFox
   name: зелёные украшенные магнитные ботинки
   description: Магнитные ботинки в зелёном цвете. Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
       sprite: DeadSpace/Sponsor/vjlados/magboots.rsi
@@ -188,7 +188,7 @@
   id: ClothingUnderSocksDragonFox
   name: полосатые чулки
   description: Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/socks.rsi
@@ -303,7 +303,7 @@
   id: PaperLawdragon_fox
   name: распечатанный документ
   description: Лист бумаги с заголовком центкома. Страшно даже смотреть на него.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Paper
     stampState: paper_stamp-centcom
@@ -327,7 +327,7 @@
 #Сестра битв
 - type: entity
   parent: ClothingOuterHardsuitBase
-  id: ClothingOuterHardsuitDragonFox
+  id: ClothingOuterHardsuitDragonFoxAlt
   name: скафандр Адепта Сороритас
   description: Скафандр Адепта Сороритас является не только средством защиты, но и символом веры и преданности Сестёр своему делу преданность и готовность защищать Империум от любых угроз.
   components:
@@ -351,13 +351,13 @@
     sprite: DeadSpace/Sponsor/DragonFox/SisterOfBattle/hardsuit.rsi
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitSecurityRed
+    clothingPrototype: ClothingHeadHelmetHardsuitDragonFoxAlt
   - type: Item
     size: Huge
 
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
-  id: ClothingHeadHelmetHardsuitDragonFox
+  id: ClothingHeadHelmetHardsuitDragonFoxAlt
   name: шлем Адепта Сороритас
   description: Шлем оснащён системами фильтрации которые обеспечивают сёстрам чистый воздух. Дизайн шлема отражает его функциональность и эстетику, сочетая в себе элементы футуризма и религиозного символизма.
   components:

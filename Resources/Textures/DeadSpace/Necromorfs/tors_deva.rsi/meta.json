@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "license": "CC BY-NC-ND 4.0",
+  "copyright": "Space station 14 server Dead Space (Мёртвый Космос)",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+      {
+		"name": "deva_close",
+		"directions": 4
+      },
+      {
+		"name": "deva_open",
+		"directions": 4
+      }
+  ]
+}

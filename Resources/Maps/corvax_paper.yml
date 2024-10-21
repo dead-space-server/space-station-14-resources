@@ -88303,7 +88303,7 @@ entities:
     - type: Transform
       pos: 16.5,4.5
       parent: 2
-- proto: SpawnPointADTBlueShieldOfficer
+- proto: SpawnPointBlueShieldOfficer
   entities:
   - uid: 12600
     components:

@@ -135388,7 +135388,7 @@ entities:
     - type: Transform
       pos: -42.5,8.5
       parent: 2
-- proto: SpawnPointADTBlueShieldOfficer
+- proto: SpawnPointBlueShieldOfficer
   entities:
   - uid: 19779
     components:

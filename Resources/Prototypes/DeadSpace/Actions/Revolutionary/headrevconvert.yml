@@ -2,7 +2,7 @@
   id: ActionHeadRevConvert
   name: Convert person to revolutionary
   description: Attempt to convert person to revolutionar.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: EntityTargetAction
     useDelay: 30
