@@ -15,6 +15,7 @@ loadout-group-survival-syndicate = Github заставил меня переве
 loadout-group-breath-tool = Расозависимое дыхательное снаряжение
 loadout-group-tank-harness = Расозависимое снаряжение для выживания
 loadout-group-EVA-tank = Расозависимый газовый баллон
+loadout-group-pocket-tank-double = Расозависимый двойной аварийный газовый баллон в кармане
 loadout-group-survival-mime = Мимский аварийный запас
 # Command
 loadout-group-captain-head = Капитан, голова
@@ -81,6 +82,7 @@ loadout-group-mime-mask = Мим, маска
 loadout-group-mime-jumpsuit = Мим, комбинезон
 loadout-group-mime-backpack = Мим, рюкзак
 loadout-group-mime-outerclothing = Мим, верхняя одежда
+loadout-group-mime-belt = Мим, пояс
 loadout-group-mime-underwear = Мим, нижнее бельё
 loadout-group-musician-jumpsuit = Музыкант, комбинезон
 loadout-group-musician-outerclothing = Музыкант, верхняя одежда

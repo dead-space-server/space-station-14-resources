@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "license": "CC-BY-NC-SA 4.0",
+  "copyright": "Sprite made by KloopRe (discord) for Space Station 14 server Dead Space",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "splinter"
+    },
+    {
+      "name": "splinter-inhand-left",
+	  "directions": 4
+    },
+    {
+      "name": "splinter-inhand-right",
+	  "directions": 4
+    }
+  ]
+}

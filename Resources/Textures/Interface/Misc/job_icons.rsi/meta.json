@@ -1,7 +1,7 @@
 {
     "version": 1,
     "license": "CC-BY-SA-3.0",
-    "copyright": "Taken from https://github.com/vgstation-coders/vgstation13/blob/e71d6c4fba5a51f99b81c295dcaec4fc2f58fb19/icons/mob/screen1.dmi | Brigmedic icon made by PuroSlavKing (Github) | Zombie icon made by RamZ | Zookeper by netwy (discort) | Rev and Head Rev icon taken from https://tgstation13.org/wiki/HUD and edited by coolmankid12345 (Discord) | Mindshield icon made by Psychpsyo (Github), security resprite by inspector_jeleshka (discord) for Space Station 14 server Dead Space | Admin recolored from MedicalIntern by TsjipTsjip",
+    "copyright": "Taken from https://github.com/vgstation-coders/vgstation13/blob/e71d6c4fba5a51f99b81c295dcaec4fc2f58fb19/icons/mob/screen1.dmi | BlueShieldOfficer, ADTInvestigator and Magistrat taken from https://github.com/AdventureTimeSS14/space_station/tree/master/Resources/Textures/Interface/Misc/job_icons.rsi | Brigmedic icon made by PuroSlavKing (Github) | Zombie icon made by RamZ | Zookeper by netwy (discort) | Rev and Head Rev icon taken from https://tgstation13.org/wiki/HUD and edited by coolmankid12345 (Discord) | Mindshield icon made by Psychpsyo (Github), security resprite by inspector_jeleshka (discord) for Space Station 14 server Dead Space | Admin recolored from MedicalIntern by TsjipTsjip | StationAi resprite to 8x8 size by lunarcomets",
 
     "size": {
         "x": 8,
@@ -171,7 +171,7 @@
             "name": "SeniorOfficer"
         },
         {
-            "name": "ADTBlueShieldOfficer"
+            "name": "BlueShieldOfficer"
         },
         {
             "name": "ADTInvestigator"
@@ -197,6 +197,9 @@
             [
                 [1.0,1.0]
             ]
+        },
+        {
+            "name": "StationAi"
         },
         {
             "name": "Syndicate"

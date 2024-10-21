@@ -9,7 +9,7 @@
   id: ClothingBackpack0black_cat0
   name: рюкзак темного воителя
   description: Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
-  # noSpawn: true
+  # categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/0black_cat0/backpack.rsi
@@ -38,7 +38,7 @@
 - type: entity
   name: аптечка тёмного воителя
   description: Продвинутый набор для оказания помощи при продвинутых ранах. Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   parent: MedkitAdvancedFilled
   id: 0black_cat0MedkitAdvanced
   components:
@@ -54,7 +54,7 @@
   id: ClothingBelt0black_cat0Filled
   name: пояс инструментов темного воителя
   description: Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/0black_cat0/belt.rsi
@@ -75,7 +75,7 @@
   id: ClothingHandsGloves0black_cat0
   name: съёмная шерсть в виде лапок феленидов
   description: Cделано специально для феленидов, которые потеряли свои лапки. Данные протезы по мимо внешнего вида имеют и другие свойства.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/0black_cat0/gloves.rsi
@@ -88,7 +88,7 @@
   id: ClothingOuterHardsuit0black_cat0
   name: скафандр тёмного воителя
   description: Изысканные доспехи. Имеют хорошую прочность, а так же сделаны более удобными для передвижения. Характеристики идентичны скафандру атмос-техника.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/0black_cat0/hardsuit.rsi
@@ -102,7 +102,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuit0black_cat0
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: шлем скафандра тёмного воителя
   description: Изысканные доспехи. Имеют хорошую прочность, а так же сделаны более удобными для передвижения.
   components:
@@ -122,7 +122,7 @@
   id: ClothingUniformJumpsuit0black_cat0
   name: костюм темного воителя
   description: Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/0black_cat0/jumpsuit.rsi
@@ -135,7 +135,7 @@
   id: ClothingShoesBootsMag0black_cat0
   name: магнитные сапоги темного воителя
   description: Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
       sprite: DeadSpace/Sponsor/0black_cat0/magboots.rsi
@@ -154,7 +154,7 @@
   id: WeaponDisabler0black_cat0
   name: станнер темного воителя
   description: Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
       sprite: DeadSpace/Sponsor/0black_cat0/disabler.rsi
@@ -168,7 +168,7 @@
   id: JetpackVoid0black_cat0
   parent: JetpackVoid
   name: джетпак темного воителя
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Item
     sprite: DeadSpace/Sponsor/0black_cat0/jetpack.rsi
@@ -181,7 +181,7 @@
   parent: JetpackVoid0black_cat0
   id: JetpackVoidFilled0black_cat0
   name: джетпак темного воителя
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: GasTank
     outputPressure: 42.6
@@ -199,7 +199,7 @@
   id: ClothingMask0black_cat0
   name: противогаз тёмного воителя
   description: Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/0black_cat0/gasmask.rsi
@@ -212,7 +212,7 @@
   id: ClothingOuterCoat0black_cat0
   name: бронированный тренч тёмного воителя
   description: Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/0black_cat0/coat.rsi
@@ -225,7 +225,7 @@
   id: ClothingBeltSheath0black_cat0
   name: ножны катаны тёмного воителя
   description: Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/0black_cat0/sheath.rsi
@@ -244,7 +244,7 @@
   parent: Katana
   id: Katana0black_cat0
   description: Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/0black_cat0/katana.rsi
@@ -266,7 +266,7 @@
   id: ClothingNeckCloak0black_cat0
   name: плащ тёмного воителя
   description: Накидка в чёрном цвете. Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/0black_cat0/cloak.rsi
@@ -277,7 +277,7 @@
   id: PDA0black_cat0
   name: кпк тёмного воителя
   description: Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Icon
     sprite: DeadSpace/Sponsor/0black_cat0/pda.rsi
@@ -293,7 +293,7 @@
   parent: Pen
   id: Pen0black_cat0
   description: Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/0black_cat0/pen.rsi

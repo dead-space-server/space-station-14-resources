@@ -23,6 +23,10 @@ job-name-hop = Глава персонала
 job-name-captain = Капитан
 job-name-serviceworker = Сервисный работник
 job-name-centcomoff = Представитель Центрального Командования
+job-name-centcom-administrator = Администратор станции Центрального Командования
+job-name-centcom-operator = Оператор Центрального Командования
+job-name-soo = Офицер Специальных Операций
+job-name-centcom-officer = Офицер Центрального Командования
 job-name-reporter = Репортёр
 job-name-musician = Музыкант
 job-name-librarian = Библиотекарь
@@ -55,6 +59,7 @@ job-name-ertmedic-gamma = Медик ОБР (Гамма)
 job-name-ertjanitor-amber = Уборщик ОБР (Эмбер)
 job-name-ertjanitor-red = Уборщик ОБР (Красный)
 job-name-ertjanitor-gamma = Уборщик ОБР (Гамма)
+job-name-ertchaplain = Священник ОБР
 job-name-cburn-leader = Лидер РХБЗЗ
 job-name-cburn-agent = Боец РХБЗЗ
 job-name-boxer = Боксёр
@@ -63,15 +68,15 @@ job-name-senior-engineer = Ведущий инженер
 job-name-senior-researcher = Ведущий учёный
 job-name-senior-physician = Ведущий врач
 job-name-senior-officer = Инструктор СБ
-job-name-ADTBlueShieldOfficer = Офицер "Синий Щит"
+job-name-blue-shield-officer = Офицер "Синий Щит"
 job-name-magistrat = Магистрат
 job-name-coroner = Коронер
 job-name-security-pilot = Пилот СБ
 job-name-senior-salvagespec = Ведущий утилизатор
 job-name-senior-administrator = Администратор сервисного отдела
+job-name-station-ai = Станционный ИИ
 job-name-visitor = Турист
-job-name-sai = Искусственный Интеллект Станции
-job-name-sai-ship = Искусственный Интеллект Судна
+
 # unused jobs
 # these are required for the agent ID job icon tooltips
 # I am keeping them for roleplaying opportunities
@@ -84,6 +89,11 @@ job-name-unknown = неизвестно
 job-name-virologist = вирусолог
 job-name-zombie = зомби
 
+# Job titles
+job-title-visitor = Турист
+job-title-cluwne = Клувень
+job-title-universal = Администратор
+
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = Атмосферный техник
 JobBartender = Бармен
@@ -92,6 +102,10 @@ JobBotanist = Ботаник
 JobCaptain = Капитан
 JobCargoTechnician = Грузчик
 JobCentralCommandOfficial = Представитель Центрального Командования
+JobCentralCommandAdministrator = Администратор станции Центрального Командования
+JobCentralCommandOperator = Оператор Центрального Командования
+JobCentralCommandSpecialOperationsOfficer = Офицер Специальных Операций
+JobCentralCommandOfficer = Офицер Центрального Командования
 JobChaplain = Священник
 JobChef = Шеф-повар
 JobChemist = Химик
@@ -116,6 +130,7 @@ JobERTMedicalGamma = Медик ОБР (Гамма)
 JobERTSecurityAmber = Офицер безопасности ОБР (Эмбер)
 JobERTSecurityRed = Офицер безопасности ОБР (Красный)
 JobERTSecurityGamma = Офицер безопасности ОБР (Гамма)
+JobERTChaplain = Священник ОБР
 JobCBURNLeader = Лидер РХБЗЗ
 JobCBURNAgent = Боец РХБЗЗ
 JobHeadOfPersonnel = Глава персонала
@@ -148,12 +163,11 @@ JobTechnicalAssistant = Инженер-стажёр
 JobWarden = Смотритель
 JobBoxer = Боксёр
 JobZookeeper = Зоотехник
-JobADTBlueShieldOfficer = Офицер "Синий Щит"
+JobBlueShieldOfficer = Офицер "Синий Щит"
 JobMagistrat = Магистрат
 JobCoroner = Коронер
 JobSecurityPilot = Пилот СБ
 JobSeniorSalvageSpecialist = Ведущий утилизатор
 JobSeniorAdministrator = Администратор сервисного отдела
+JobStationAi = Станционный ИИ
 JobVisitor = Турист
-JobSAI = Искусственный Интеллект Станции
-JobSAIShip = Искусственный Интеллект Судна

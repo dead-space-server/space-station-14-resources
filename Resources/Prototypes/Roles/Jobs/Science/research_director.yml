@@ -10,7 +10,7 @@
     - !type:OverallPlaytimeRequirement
       time: 216000 # 60 hours
     - !type:AgeRequirement
-      requiredAge: 34
+      requiredAge: 24
   weight: 10
   startingGear: ResearchDirectorGear
   icon: "JobIconResearchDirector"

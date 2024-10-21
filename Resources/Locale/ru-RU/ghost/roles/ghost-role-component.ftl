@@ -1,9 +1,9 @@
 # also used in MakeGhostRuleWindow and MakeGhostRoleCommand
 ghost-role-component-default-rules =
     Вы не помните ничего из своей предыдущей жизни, если администратор не сказал вам обратное.
-    Вы не помните ничего из своей предыдущей жизни и не помните ничего из того, что узнали, будучи призраком.
-    Вам разрешается помнить знания об игре в целом, например, как готовить, как использовать предметы и т.д.
-    Вам [color=red]НЕ[/color] разрешается помнить, имя, внешность и т.д. вашего предыдущего персонажа.
+                                     Вы не помните ничего из своей предыдущей жизни и не помните ничего из того, что узнали, будучи призраком.
+                                     Вам разрешается помнить знания об игре в целом, например, как готовить, как использовать предметы и т.д.
+                                     Вам [color=red]НЕ[/color] разрешается помнить, имя, внешность и т.д. вашего предыдущего персонажа.
 ghost-role-information-nonantagonist-rules =
     Вы - [color=green][bold]Неантагонист[/bold][/color]. Поэтому вы не должны стремиться причинить вред станции и её экипажу.
     Вы не помните ничего из своей предыдущей жизни и не помните ничего из того, что узнали, будучи призраком.
@@ -19,6 +19,12 @@ ghost-role-information-antagonist-rules =
     Вы не помните ничего из своей предыдущей жизни и не помните ничего из того, что узнали, будучи призраком.
     Вам разрешено помнить знания об игре в целом, например, как готовить, как использовать предметы и т. д.
     Вам абсолютно [color=red]НЕ[/color] разрешено помнить, скажем, имя, внешность и т. д. вашего предыдущего персонажа.
+ghost-role-information-rules-team-antagonist =
+    You are a [color=red][bold]Team Antagonist[/bold][/color]. Your intentions are clear, and harmful to the station and its crew.
+    You must [bold]work with your team[/bold] or follow reasonable directions from your team leaders.
+    You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
+    You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
+    You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
 ghost-role-information-familiar-rules =
     Вы - [color=#6495ed][bold]Фамильяр[/bold][/color]. Служите интересам своего хозяина, какими бы они ни были.
     Вы не помните ничего из своей предыдущей жизни и не помните ничего из того, что узнали, будучи призраком.
@@ -33,6 +39,12 @@ ghost-role-information-mouse-name = Мышь
 ghost-role-information-mouse-description = Голодная и озорная мышь.
 ghost-role-information-mothroach-name = Таракамоль
 ghost-role-information-mothroach-description = Милая озорная таракамоль.
+ghost-role-information-snail-name = Улитка
+ghost-role-information-snail-description = Маленькая улитка, которая не против немного побыть на свободе. Только не убегай за пределы клетки!
+ghost-role-information-snailspeed-name = Улитка
+ghost-role-information-snailspeed-description = Маленькая улитка с турбоулиточными ускорителями.
+ghost-role-information-snoth-name = Молитка
+ghost-role-information-snoth-description = Маленькая молитка, которая не против немного побыть на свободе. Только не убегай за пределы клетки!
 ghost-role-information-giant-spider-name = Гигантский паук
 ghost-role-information-giant-spider-description = Обитатели этой станции выглядят очень аппетитно, а ваша липкая паутина идеально подходит для их ловли!
 ghost-role-information-giant-spider-rules = Вы [color=red][bold]Командный антагонист[/bold][/color], в команде с другими гигантскими пауками.
@@ -206,3 +218,5 @@ ghost-role-information-artifact-name = Разумный артефакт
 ghost-role-information-artifact-description = Осуществляйте свои инопланетные прихоти. Принудительно активируйте свои узлы во благо или во зло.
 ghost-role-information-syndie-assaultborg-name = Штурмовой киборг Синдиката
 ghost-role-information-syndie-assaultborg-description = Ядерным оперативникам требуется подкрепление. Вы, хладнокремниевая машина для убийств, будете им помогать. Больше дакки!
+ghost-role-information-tomatokiller-name = Томат-убийца
+ghost-role-information-tomatokiller-description = Этот маленький помидор будет служить ботанику до конца своей жизни... то есть пару минут.

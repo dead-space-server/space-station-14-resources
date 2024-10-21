@@ -22,7 +22,7 @@
     - !type:OverallPlaytimeRequirement
       time: 504000 # 140 hours
     - !type:AgeRequirement
-      requiredAge: 34
+      requiredAge: 26
   weight: 20
   startingGear: CaptainGear
   icon: "JobIconCaptain"
@@ -57,3 +57,4 @@
   storage:
     back:
     - Flash
+    # - StationCharter

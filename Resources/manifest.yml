@@ -1,3 +1,5 @@
-﻿defaultWindowTitle: DEAD SPACE 14
-windowIconSet: /Textures/Logo/icon-ru # DS14 theme
-splashLogo: /Textures/Logo/logo-ru.png # DS14 theme
+﻿defaultWindowTitle: Мёртвый Космос
+windowIconSet: /Textures/Logo/icon
+splashLogo: /Textures/Logo/logo-ds.png
+
+# PJB PLEASE

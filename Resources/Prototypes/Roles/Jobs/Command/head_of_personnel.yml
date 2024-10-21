@@ -22,7 +22,7 @@
     - !type:OverallPlaytimeRequirement
       time: 216000 # 60 hours
     - !type:AgeRequirement
-      requiredAge: 34
+      requiredAge: 26
   weight: 15
   startingGear: HoPGear
   icon: "JobIconHeadOfPersonnel"
@@ -32,6 +32,7 @@
   access:
   - Command
   - HeadOfPersonnel
+  - SeniorSalvage
   - Bar
   - Service
   - Maintenance
