@@ -436,7 +436,7 @@
   - MedicalMask
   - ChiefMedicalOfficerJumpsuit
   - MedicalGloves
-  - MedicalBackpack
+  - ChiefMedicalOfficerBackpack
   - ChiefMedicalOfficerOuterClothing
   - ChiefMedicalOfficerNeck
   - ChiefMedicalOfficerShoes
@@ -477,7 +477,7 @@
   - MedicalInternUnderwear # DS14-Underwear
 
 - type: roleLoadout
-  id: SurgeonGear
+  id: JobMedicalSurgeon
   groups:
   - GroupTankHarness
   - MedicalDoctorHead

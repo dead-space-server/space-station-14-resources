@@ -264,7 +264,7 @@
       - id: ClothingShoesBootsMag
       - id: ClothingOuterHardsuitSeniorSalvage
       - id: ClothingMaskGasExplorer
-  - type: Access
+  - type: AccessReader
     access: [["SeniorSalvage"]]
 
 #Blood-red hardsuit
