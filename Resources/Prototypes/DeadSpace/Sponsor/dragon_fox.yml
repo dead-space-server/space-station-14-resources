@@ -47,12 +47,15 @@
 
 # Belt
 - type: entity
-  parent: ClothingBeltChiefEngineer
+  parent: ClothingBeltStorageBase
   id: ClothingBeltDragonFoxFilled
   name: золотой украшенный РПС
   description: РПС окрашенный в золотой цвет.
   noSpawn: true
   components:
+  - type: Storage
+    grid:
+    - 0,0,9,1
   - type: Sprite
     sprite: DeadSpace/Sponsor/DragonFox/belt.rsi
   - type: Clothing
