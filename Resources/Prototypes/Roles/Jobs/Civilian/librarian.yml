@@ -29,6 +29,7 @@
     pocket1: d20Dice
     belt: BooksBag
     pocket2: HandLabeler # for making named bestsellers
+    socks: ClothingUnderwearSocksLibrarian
   inhand:
     - BriefcaseBrownFilled
   storage:

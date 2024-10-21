@@ -26,3 +26,4 @@
   id: SeniorResearcherGear
   equipment:
     ears: ClothingHeadsetScience
+    socks: ClothingUnderwearSocksSeniorResearcher

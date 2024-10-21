@@ -49,6 +49,7 @@
     head: ClothingHeadHatPwig
     id: MagistratPDA
     ears: ClothingHeadsetMagistrat
+    socks: ClothingUnderwearSockMagistrat
   inhand:
     - BriefcaseMagistratFilled
   storage:
