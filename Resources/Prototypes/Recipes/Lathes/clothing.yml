@@ -650,6 +650,11 @@
 
 - type: latheRecipe
   parent: BaseCoatRecipe
+  id: ClothingOuterWinterClownDownjacket
+  result: ClothingOuterWinterClownDownjacket
+
+- type: latheRecipe
+  parent: BaseCoatRecipe
   id: ClothingOuterWinterMime
   result: ClothingOuterWinterMime
 

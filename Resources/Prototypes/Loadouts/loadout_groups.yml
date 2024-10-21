@@ -552,6 +552,7 @@
   loadouts:
   - ClownRobes
   - ClownWintercoat
+  - ClownDownjacket
 
 - type: loadoutGroup
   id: ClownShoes
@@ -1507,6 +1508,7 @@
   loadouts:
   - MedicalDoctorBackpack
   - MedicalDoctorSatchel
+  - MedicalDoctorSatchelBlueCat
   - MedicalDoctorDuffel
 
 - type: loadoutGroup
