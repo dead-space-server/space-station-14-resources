@@ -92,7 +92,7 @@
   - type: Clothing
     sprite: DeadSpace/Sponsor/DragonFox/suit.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitVjlados
+    clothingPrototype: ClothingHeadHelmetHardsuitDragonFox
   - type: Item
     size: Huge
 
