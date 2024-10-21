@@ -4,11 +4,6 @@
   sponsorOnly: true
 
 - type: sponsorLoadout
-  id: WeaponDragonFoxBolter
-  entity: WeaponDragonFoxBolter
-  sponsorOnly: true
-
-- type: sponsorLoadout
   id: DragonFoxJetpackVoidFilled
   entity: JetpackVoidFilled
   sponsorOnly: true
