@@ -79,9 +79,8 @@
   - type: Sprite
     sprite: Sirena/Clothing/Underwear/Socks/socksthigh.rsi
 
-# DS14
-
-# Cargo
+# DS14 socks
+## Cargo
 - type: entity
   parent: ClothingUnderwearSocksBase
   id: ClothingUnderwearSocksQuartermaster
@@ -118,7 +117,7 @@
   - type: Sprite
     sprite: DeadSpace/Clothing/Underwear/Cargo/senior_salvage/socks.rsi
 
-#Service
+## Civilian
 - type: entity
   parent: ClothingUnderwearSocksBase
   id: ClothingUnderwearSocksHeadofPersonnel
@@ -166,7 +165,7 @@
 
 - type: entity
   parent: ClothingUnderwearSocksBase
-  id: ClothingUnderwearSocksСhaplain
+  id: ClothingUnderwearSocksChaplain
   name: носки священника
   description: Стандартные носки священника.
   components:
@@ -263,7 +262,7 @@
   - type: Sprite
     sprite: DeadSpace/Clothing/Underwear/Command/captain/socks.rsi
 
-#engi
+## Engineering
 - type: entity
   parent: ClothingUnderwearSocksBase
   id: ClothingUnderwearSocksChiefEngineer
@@ -309,7 +308,7 @@
   - type: Sprite
     sprite: DeadSpace/Clothing/Underwear/Engineering/technical_assistant/socks.rsi
 
-#Med
+## Medical
 - type: entity
   parent: ClothingUnderwearSocksBase
   id: ClothingUnderwearSocksCMO
@@ -382,7 +381,7 @@
   - type: Sprite
     sprite: DeadSpace/Clothing/Underwear/Medical/senior_physician/socks.rsi
 
-#RND
+## Science
 - type: entity
   parent: ClothingUnderwearSocksBase
   id: ClothingUnderwearSocksResearchDirector
@@ -392,7 +391,7 @@
   - type: Sprite
     sprite: DeadSpace/Clothing/Underwear/Science/research_director/socks.rsi
 
-  - type: entity
+- type: entity
   parent: ClothingUnderwearSocksBase
   id: ClothingUnderwearSocksScientist
   name: носки учёного
@@ -401,7 +400,7 @@
   - type: Sprite
     sprite: DeadSpace/Clothing/Underwear/Science/scientist/socks.rsi
 
-  - type: entity
+- type: entity
   parent: ClothingUnderwearSocksBase
   id: ClothingUnderwearSocksResearchAssistant
   name: носки научного ассистента
@@ -410,7 +409,7 @@
   - type: Sprite
     sprite: DeadSpace/Clothing/Underwear/Science/research_assistant/socks.rsi
 
-  - type: entity
+- type: entity
   parent: ClothingUnderwearSocksBase
   id: ClothingUnderwearSocksSeniorResearcher
   name: носки ведущего учёного
@@ -419,7 +418,7 @@
   - type: Sprite
     sprite: DeadSpace/Clothing/Underwear/Science/senior_researcher/socks.rsi
 
-#Sec
+## Security
 - type: entity
   parent: ClothingUnderwearSocksBase
   id: ClothingUnderwearSocksHeadOfSecurity
@@ -440,7 +439,7 @@
 
 - type: entity
   parent: ClothingUnderwearSocksBase
-  id: ClothingUnderwearSocksСadet
+  id: ClothingUnderwearSocksCadet
   name: носки кадета СБ
   description: Стандартные носки кадета СБ.
   components:
@@ -492,7 +491,7 @@
   - type: Sprite
     sprite: DeadSpace/Clothing/Underwear/Security/warden/socks.rsi
 
-#Law
+## Law
 - type: entity
   parent: ClothingUnderwearSocksBase
   id: ClothingUnderwearSockIAA
@@ -500,7 +499,7 @@
   description: Стандартные носки агента внутренних дел.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Security/iaa/socks.rsi
+    sprite: DeadSpace/Clothing/Underwear/Law/iaa/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -509,7 +508,7 @@
   description: Стандартные носки юриста.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Security/lawyer/socks.rsi
+    sprite: DeadSpace/Clothing/Underwear/Law/lawyer/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -518,4 +517,4 @@
   description: Стандартные носки магистрата.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Security/magistrat/socks.rsi
+    sprite: DeadSpace/Clothing/Underwear/Law/magistrat/socks.rsi

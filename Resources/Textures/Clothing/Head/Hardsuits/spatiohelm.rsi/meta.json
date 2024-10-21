@@ -14,19 +14,19 @@
       "name": "icon-flash"
     },
     {
-      "name": "equipped-head-unshaded",
+      "name": "off-equipped-HELMET",
       "directions": 4
     },
     {
-      "name": "equipped-head",
+      "name": "on-equipped-HELMET",
       "directions": 4
     },
     {
-      "name": "equipped-head-vox-unshaded",
+      "name": "off-equipped-HELMET-vox",
       "directions": 4
     },
     {
-      "name": "equipped-head-vox",
+      "name": "on-equipped-HELMET-vox",
       "directions": 4
     }
   ]
