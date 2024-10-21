@@ -1444,6 +1444,15 @@
   - ChiefMedicalOfficerWintercoat
 
 - type: loadoutGroup
+  id: ChiefMedicalOfficerBackpack
+  name: loadout-group-chief-medical-officer-backpack
+  loadouts:
+  - MedicalDoctorBackpack
+  - MedicalDoctorSatchel
+  - MedicalDoctorDuffel
+  - MedicalDoctorSatchelBlueCat
+
+- type: loadoutGroup
   id: ChiefMedicalOfficerNeck
   name: loadout-group-chief-medical-officer-neck
   minLimit: 0
@@ -1508,7 +1517,6 @@
   loadouts:
   - MedicalDoctorBackpack
   - MedicalDoctorSatchel
-  - MedicalDoctorSatchelBlueCat
   - MedicalDoctorDuffel
 
 - type: loadoutGroup

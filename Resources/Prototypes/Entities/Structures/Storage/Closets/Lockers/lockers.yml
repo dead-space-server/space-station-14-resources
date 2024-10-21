@@ -58,20 +58,6 @@
   - type: AccessReader
     access: [["Salvage"]]
 
-- type: entity
-  id: LockerSeniorSalvageSpecialist
-  parent: LockerBase
-  name: senior salvage specialist's equipment
-  description: Nevermind the pickaxe.
-  components:
-  - type: Appearance
-  - type: EntityStorageVisuals
-    stateBaseClosed: mining
-    stateDoorOpen: mining_open
-    stateDoorClosed: mining_door
-  - type: AccessReader
-    access: [["SeniorSalvage"]]
-
 # Command
 - type: entity
   id: LockerCaptain
