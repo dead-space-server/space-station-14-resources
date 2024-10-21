@@ -26,6 +26,7 @@
   access:
   - Cargo
   - Salvage
+  - SeniorSalvage
   - Quartermaster
   - Maintenance
   - External
