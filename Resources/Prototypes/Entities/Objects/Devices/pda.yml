@@ -612,6 +612,24 @@
 
 - type: entity
   parent: BaseMedicalPDA
+  id: SurgeonPDA
+  name: surgeon PDA
+  description: Red spots remained after one of the operations.
+  components:
+  - type: Pda
+    id: SurgeonIDCard
+    state: pda-surgeon
+  - type: PdaBorderColor
+    borderColor: "#d7d7d0"
+    accentVColor: "#447987"
+  - type: Icon
+    state: pda-surgeon
+  - type: GuideHelp
+    guides:
+    - Medical Doctor
+
+- type: entity
+  parent: BaseMedicalPDA
   id: ParamedicPDA
   name: paramedic PDA
   description: Shiny and sterile.

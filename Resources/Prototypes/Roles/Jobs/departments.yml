@@ -164,6 +164,23 @@
   accountNumber: 1320  #backmen: currency
 
 - type: department
+  id: Medical
+  name: department-Medical
+  description: department-Medical-description
+  color: "#57b8f0"
+  roles:
+  - ChiefMedicalOfficer
+  - SeniorPhysician
+  - Chemist
+  - Paramedic
+  - Coroner
+  - MedicalDoctor
+  - MedicalIntern
+  - Psychologist
+  - MedicalSurgeon
+  accountNumber: 1319 #backmen: currency
+
+- type: department
   id: Science
   name: department-Science
   description: department-Science-description

@@ -1001,6 +1001,18 @@
     job: SeniorOfficer
 
 - type: entity
+  parent: MedicalIDCard
+  id: SurgeonIDCard
+  name: surgeon ID сard
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idsurgeon
+  - type: PresetIdCard
+    job: MedicalSurgeon
+
+- type: entity
   parent: IDCardStandard
   id: UniversalIDCard
   name: universal ID card

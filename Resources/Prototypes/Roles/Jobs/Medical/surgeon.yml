@@ -1,0 +1,32 @@
+- type: job
+  id: MedicalSurgeon
+  name: job-name-surgeon
+  description: job-description-surgeon
+  playTimeTracker: JobMedicalSurgeon
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Medical
+      time: 18000 # 5 hours
+      role: JobMedicalDoctor
+      time: 18000 # 5 hours
+  startingGear: SurgeonGear
+  icon: "JobIconMedicalSurgeon"
+  supervisors: job-supervisors-cmo
+  access:
+  - Medical
+  - Maintenance
+  extendedAccess:
+  - Paramedic
+  - Coroner
+  #start-backmen: currency
+  minBankBalance: 150
+  maxBankBalance: 250
+  wageDepartment: Medical
+  wage: 50
+  #end-backmen: currency
+
+- type: startingGear
+  id: SurgeonGear
+  equipment:
+    ears: ClothingHeadsetMedical
+    belt: ClothingBeltMedicalFilled
