@@ -1,12 +1,4 @@
 - type: loadoutGroup
-  id: PsychologistBackpack
-  name: loadout-group-psychologist-backpack
-  loadouts:
-  - PsychologistBackpack
-  - PsychologistSatchel
-  - PsychologistDuffel
-
-- type: loadoutGroup
   id: PsychologistUnderwear
   name: loadout-group-psychologist-underwear
   minLimit: 2

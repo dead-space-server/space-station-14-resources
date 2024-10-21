@@ -2,7 +2,7 @@
   id: BulletEnergyCrossbow
   name: bullet(crossbow)
   parent: BaseBullet
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
     damage:

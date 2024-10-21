@@ -2,7 +2,7 @@
   parent: BaseWeaponBatterySmall
   id: PistolDominator
   name: доминатор
-  description: Высокотехнологичное оружие созданное правоохранительной организацией Sibyl System, предназначенное специально для борьбы с преступностью. Имеет два режима стрельбы, перед использованием необходимо предварительно привязать его к ID карте.
+  description: Высокотехнологичное оружие созданное правоохранительной организацией Sibyl System, предназначенное специально для борьбы с преступностью. Имеет два режима стрельбы, перед использованием необходимо предварительно привязать его к ID карте и иметь её при себе для стерельбы.
   suffix: Пистолет
   components:
   - type: Sprite
@@ -43,6 +43,9 @@
     delay: 3.1
   - type: AccessReader
     access: [["Armory"]]
+  - type: Tag
+    tags:
+    - BatteryWeaponFireModesSprites
   - type: StaticPrice
     price: 750
   - type: Battery
@@ -53,7 +56,7 @@
   name: лазерный заряд
   id: DominatorBullet
   parent: EmitterBolt
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Objects/Weapons/Guns/Projectiles/dominator.rsi

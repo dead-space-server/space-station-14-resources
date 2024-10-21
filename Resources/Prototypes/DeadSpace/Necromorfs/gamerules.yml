@@ -1,0 +1,158 @@
+- type: startingGear
+  id: UnitologGear
+  storage:
+    back:
+    - UplinkRadioUnitology
+
+- type: startingGear
+  id: UnitologLeaderGear
+  storage:
+    back:
+    - UplinkRadioLeaderUnitology
+
+- type: antag
+  id: UniHead
+  name: roles-antag-uni-head-name
+  antagonist: true
+  setPreference: true
+  objective: roles-antag-uni-head-objective
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 432000 # 120 hours
+
+- type: antag
+  id: Uni
+  name: roles-antag-uni-name
+  antagonist: true
+  setPreference: true
+  objective: roles-antag-uni-objective
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 86400 # 24 hours
+
+- type: antag
+  id: UniEnslaved
+  name: roles-antag-uni-enslaved-name
+  antagonist: true
+  setPreference: false
+  objective: roles-antag-uni-enslaved-objective
+
+- type: entity
+  parent: BaseGameRule
+  id: Unitology
+  components:
+  - type: GameRule
+    minPlayers: 50
+  - type: UnitologyRule
+  - type: AntagSelection
+    definitions:
+    - prefRoles: [ UniHead ]
+      fallbackRoles: [ Uni, UniEnslaved ]
+      max: 1
+      playerRatio: 15
+      briefing:
+        text: uni-head-role-greeting
+        color: CornflowerBlue
+        sound: "/Audio/DeadSpace/Necromorfs/unitolog_start.ogg"
+      startingGear: UnitologLeaderGear
+      components:
+      - type: IntrinsicRadioTransmitter
+        channels:
+        - Unitolog
+      - type: ActiveRadio
+        channels:
+        - Unitolog
+      - type: IntrinsicRadioReceiver
+      - type: Unitology
+      - type: UnitologyObeliskSpawnAbility
+      - type: UnitologyHead
+      - type: AutoImplant
+        implants:
+        - StorageImplant
+        - DnaScramblerImplant
+        - FreedomImplant
+      - type: NpcFactionMember
+        factions:
+        - Necromorfs
+      mindRoles:
+      - MindRoleHeadUnitology
+    - prefRoles: [ Uni ]
+      fallbackRoles: [ UniHead, UniEnslaved ]
+      max: 4
+      playerRatio: 15
+      briefing:
+        text: uni-role-greeting
+        color: CornflowerBlue
+        sound: "/Audio/DeadSpace/Necromorfs/unitolog_start.ogg"
+      startingGear: UnitologGear
+      components:
+      - type: IntrinsicRadioTransmitter
+        channels:
+        - Unitolog
+      - type: ActiveRadio
+        channels:
+        - Unitolog
+      - type: IntrinsicRadioReceiver
+      - type: Unitology
+      - type: NpcFactionMember
+        factions:
+        - Necromorfs
+      mindRoles:
+      - MindRoleUnitology
+    - prefRoles: [ UniEnslaved ]
+      fallbackRoles: [ UniHead, Uni ]
+      max: 0
+      min: 0
+      briefing:
+        text: uni-enslaved-role-greeting
+        color: CornflowerBlue
+        sound: "/Audio/DeadSpace/Necromorfs/unitolog_start.ogg"
+      components:
+      - type: IntrinsicRadioTransmitter
+        channels:
+        - Unitolog
+      - type: ActiveRadio
+        channels:
+        - Unitolog
+      - type: IntrinsicRadioReceiver
+      - type: Unitology
+      - type: UnitologyObeliskSpawnAbility
+      mindRoles:
+      - MindRoleEnslavedUnitology
+
+- type: preloadedGrid
+  id: TravelingMedWard
+  path: /Maps/Shuttles/ShuttleEvent/traveling_medical_ward.yml
+  copies: 1
+
+- type: preloadedGrid
+  id: TravelingMedWardUnitology
+  path: /Maps/Shuttles/ShuttleEvent/traveling_medical_ward_unitology.yml
+  copies: 1
+
+- type: preloadedGrid
+  id: TravelingCuisineUnitology
+  path: /Maps/Shuttles/ShuttleEvent/traveling_china_cuisine_unitology.yml
+  copies: 1
+
+- type: entity
+  parent: BaseUnknownShuttleRule
+  id: UnknownShuttleTravelingMedWard
+  components:
+  - type: LoadMapRule
+    preloadedGrid: TravelingMedWard
+
+- type: entity
+  parent: BaseUnknownShuttleRule
+  id: UnknownShuttleTravelingMedWardUnitology
+  components:
+  - type: LoadMapRule
+    preloadedGrid: TravelingMedWardUnitology
+
+- type: entity
+  parent: BaseUnknownShuttleRule
+  id: UnknownShuttleTravelingCuisineUnitology
+  components:
+  - type: LoadMapRule
+    preloadedGrid: TravelingCuisineUnitology
+

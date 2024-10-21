@@ -1,0 +1,84 @@
+- type: startingGear
+  id: DeathSquadGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitDeathSquad
+    back: ClothingDeathSquadronBackpack
+    mask: ClothingMaskGasDeathSquad
+    eyes: ClothingEyesHudAdvanced
+    ears: ClothingHeadsetDeathSquad
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterHardsuitDeathsquad
+    shoes: ClothingShoesBootsMagAdv
+    id: DeathsquadPDA
+    pocket1: EnergySword
+    belt: ClothingBeltDeathSquadWebbingFilled
+    underwearb: ClothingUnderwearBottomBoxersDeathSquad # DS14-Underwear
+  storage:
+    back:
+    - CombatMedipen
+    - CombatMedipen
+    - CombatMedipen
+    - CombatMedipen
+    - CombatMedipen
+    - CombatMedipen
+    - C4
+    - C4
+    - C4
+    - C4
+    - WeaponPulseRifle
+    - WeaponRevolverMatebaAP
+    - SpeedLoaderMagnumAP
+    - SpeedLoaderMagnumAP
+    - SpeedLoaderMagnumAP
+    - SpeedLoaderMagnumAP
+    - SpeedLoaderMagnumAP
+    - SpeedLoaderMagnumAP
+    - SpeedLoaderMagnumAP
+    - SpeedLoaderMagnumAP
+    - PinpointerNuclear
+    - BoxHandcuff
+    - EnergyShield
+    - JawsOfLife
+    - NukeCodePaper
+  
+- type: entity
+  parent: WeaponRevolverMateba
+  id: WeaponRevolverMatebaAP
+  name: Матеба
+  description: Знаковое оружие ужасающих эскадронов смерти. Использует патроны калибра .44 магнум.
+  suffix: Револьвер, Бронебойный, Эскадрон смерти
+  components:
+  - type: RevolverAmmoProvider
+    whitelist:
+      tags:
+        - CartridgeMagnum
+        - SpeedLoaderMagnum
+    proto: CartridgeMagnumAP
+
+- type: entity
+  parent: ClothingBeltSecurityWebbing
+  id: ClothingBeltDeathSquadWebbingFilled
+  name: РПС эскадрона смерти
+  description: РПС члена отряда элитной эвакуации.
+
+- type: entity
+  parent: ClothingHeadset
+  id: ClothingHeadsetDeathSquad
+  name: мастер гарнитура
+  description: Уникальный образец гарнитуры c доступом во все каналы.
+  suffix: Эскадрон смерти
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeySOC
+      - EncryptionKeyCentCom
+      - EncryptionKeyStationMaster
+      - EncryptionKeyFreelance
+      - EncryptionKeyDeathSquad
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/base.rsi
+  - type: Clothing
+    sprite: Clothing/Ears/Headsets/base.rsi
+  - type: Headset
+    color: "#CF1CFF"

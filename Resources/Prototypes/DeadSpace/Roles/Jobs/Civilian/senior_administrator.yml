@@ -40,7 +40,7 @@
     - !type:OverallPlaytimeRequirement
       time: 216000 # 60 hours
     - !type:AgeRequirement
-      requiredAge: 28
+      requiredAge: 24
   startingGear: SeniorAdministratorGear
   icon: "JobIconSeniorAdministrator"
   supervisors: job-supervisors-hop

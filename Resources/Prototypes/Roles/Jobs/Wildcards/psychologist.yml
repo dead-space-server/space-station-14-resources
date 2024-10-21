@@ -29,3 +29,6 @@
     id: PsychologistPDA
     ears: ClothingHeadsetMedical
     socks: ClothingUnderwearSocksPsychologist
+  storage:
+    back:
+    - RubberStampPsychologist
