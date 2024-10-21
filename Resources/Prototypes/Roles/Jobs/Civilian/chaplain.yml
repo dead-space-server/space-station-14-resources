@@ -30,7 +30,7 @@
     shoes: ClothingShoesColorBlack
     id: ChaplainPDA
     ears: ClothingHeadsetService
-    socks: ClothingUnderwearSocksСhaplain
+    socks: ClothingUnderwearSocksChaplain
   storage:
     back:
     - Bible

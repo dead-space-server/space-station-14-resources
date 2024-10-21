@@ -39,7 +39,7 @@
     id: SecurityCadetPDA
     ears: ClothingHeadsetSecurity
     belt: ClothingBeltSecurityFilled
-    socks: ClothingUnderwearSocksСadet
+    socks: ClothingUnderwearSocksCadet
   storage:
     back:
     - HyperLinkBookCorporateLaw

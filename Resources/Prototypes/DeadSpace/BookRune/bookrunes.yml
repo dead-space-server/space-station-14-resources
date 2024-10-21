@@ -4,8 +4,9 @@
   suffix: ExplosionRune
   components:
   - type: SpawnItemsOnUse
-    items: ExplosionRune
-    uses: 999
+    items:
+      - id: ExplosionRune
+    uses: 20
 
 - type: entity
   parent: BookRandom
@@ -13,5 +14,6 @@
   id: IgniteRuneBook
   components:
   - type: SpawnItemsOnUse
-    items: IgniteRune
-    uses: 999
+    items: 
+      - id: IgniteRune
+    uses: 20

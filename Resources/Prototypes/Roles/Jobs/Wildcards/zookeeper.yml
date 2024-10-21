@@ -26,6 +26,3 @@
     ears: ClothingHeadsetService
     pocket1: HandheldHealthAnalyzer
     socks: ClothingUnderwearSocksZoo
-  #   underwearb: ClothingUnderwearBottomBoxersZoo # DS14-Underwear
-  # underweart: ClothingUnderwearTopBraZoo # DS14-Underwear
-  # underwearb: ClothingUnderwearBottomPantiesZoo # DS14-Underwear
