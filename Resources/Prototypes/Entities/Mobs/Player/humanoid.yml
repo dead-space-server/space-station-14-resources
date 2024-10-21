@@ -17,6 +17,50 @@
     - type: AntagImmune
 
 - type: randomHumanoidSettings
+  id: EventHumanoidMindShieldedHuman
+  parent: EventHumanoidMindShielded
+  speciesBlacklist:
+    - Arachnid
+    - Diona
+    - Dwarf
+    # - Human
+    - Moth
+    - Reptilian
+    - SlimePerson
+    - Vox
+    - DemonSpecies
+    - SharkSpecies
+    - TajaranSpecies
+    - VulpkaninSpecies
+    - Felinid
+    - KoboltSpecies
+    - XenoSponsor
+    - IPC
+    - IPS
+
+- type: randomHumanoidSettings
+  id: EventHumanoidMindShieldedCentcom
+  parent: EventHumanoidMindShielded
+  speciesBlacklist:
+    # - Arachnid
+    - Diona
+    # - Dwarf
+    # - Human
+    # - Moth
+    # - Reptilian
+    # - SlimePerson
+    - Vox
+    # - DemonSpecies
+    # - SharkSpecies
+    # - TajaranSpecies
+    # - VulpkaninSpecies
+    - Felinid
+    - KoboltSpecies
+    # - XenoSponsor
+    - IPC
+    - IPS
+
+- type: randomHumanoidSettings
   id: EventHumanoidERT
   parent: EventHumanoidMindShielded
   # Nanotrasen are a bit racist, but FSCP more racist
@@ -104,7 +148,7 @@
       raffle:
         settings: short
     - type: Loadout
-      prototypes: [ DeathSquadUnitGear ]
+      prototypes: [ DeathSquadGear ]
       roleLoadout: [ RoleSurvivalEVA ]
     - type: RandomMetadata
       nameSegments:
@@ -152,7 +196,7 @@
           time: 36000 # 10 hours
       raffle:
         settings: short
-    - type: GhostTakeoverAvailable
+      job: ERTLeaderAmber
     - type: Loadout
       prototypes: [ ERTLeaderGearAmber ]
     - type: RandomMetadata
@@ -192,7 +236,7 @@
           time: 36000 # 10 hours
       raffle:
         settings: short
-    - type: GhostTakeoverAvailable
+      job: ERTLeaderRed
     - type: Loadout
       prototypes: [ ERTLeaderGearRed ]
     - type: RandomMetadata
@@ -232,7 +276,7 @@
           time: 36000 # 10 hours
       raffle:
         settings: short
-    - type: GhostTakeoverAvailable
+      job: ERTLeaderGamma
     - type: Loadout
       prototypes: [ ERTLeaderGearGamma ]
     - type: RandomMetadata
@@ -272,13 +316,14 @@
           time: 36000 # 10 hours
       raffle:
         settings: short
-    - type: GhostTakeoverAvailable
-    - type: Loadout
-      prototypes: [ CBURNLeaderGear ]
+      job: CBURNLeader
     - type: RandomMetadata
       nameSegments:
       - NamesFirstERTLeader
       - NamesLastERT
+    - type: Loadout
+      prototypes: [ CBURNLeaderGear ]
+      roleLoadout: [ RoleSurvivalExtended ]
 
 ### CBURN Sierra
 - type: entity
@@ -312,7 +357,7 @@
           time: 36000 # 10 hours
       raffle:
         settings: short
-    - type: GhostTakeoverAvailable
+      job: CBURNLeader
     - type: Loadout
       prototypes: [ CBURNSierraLeaderGear ]
     - type: RandomMetadata
@@ -354,7 +399,7 @@
           time: 72000 # 20 hours
       raffle:
         settings: short
-    - type: GhostTakeoverAvailable
+      job: ERTSecurityAmber
     - type: RandomMetadata
       nameSegments:
       - NamesFirstERT
@@ -388,11 +433,7 @@
           time: 72000 # 20 hours
       raffle:
         settings: short
-    - type: GhostTakeoverAvailable
-    - type: RandomMetadata
-      nameSegments:
-      - NamesFirstERT
-      - NamesLastERT
+      job: ERTSecurityRed
     - type: Loadout
       prototypes: [ ERTSecurityGearRed ]
 
@@ -422,11 +463,7 @@
           time: 72000 # 20 hours
       raffle:
         settings: short
-    - type: GhostTakeoverAvailable
-    - type: RandomMetadata
-      nameSegments:
-      - NamesFirstERT
-      - NamesLastERT
+      job: ERTSecurityGamma
     - type: Loadout
       prototypes: [ ERTSecurityGearGamma ]
 
@@ -464,7 +501,7 @@
           time: 36000 # 10 hours
       raffle:
         settings: short
-    - type: GhostTakeoverAvailable
+      job: ERTMedicalAmber
     - type: RandomMetadata
       nameSegments:
       - NamesFirstERT
@@ -498,11 +535,7 @@
           time: 36000 # 10 hours
       raffle:
         settings: short
-    - type: GhostTakeoverAvailable
-    - type: RandomMetadata
-      nameSegments:
-      - NamesFirstERT
-      - NamesLastERT
+      job: ERTMedicalRed
     - type: Loadout
       prototypes: [ ERTMedicalGearRed ]
 
@@ -532,11 +565,7 @@
           time: 36000 # 10 hours
       raffle:
         settings: short
-    - type: GhostTakeoverAvailable
-    - type: RandomMetadata
-      nameSegments:
-      - NamesFirstERT
-      - NamesLastERT
+      job: ERTMedicalGamma
     - type: Loadout
       prototypes: [ ERTMedicalGearGamma ]
 
@@ -571,7 +600,7 @@
           time: 36000 # 10 hours
       raffle:
         settings: short
-    - type: GhostTakeoverAvailable
+      job: ERTJanitorAmber
     - type: RandomMetadata
       nameSegments:
       - NamesFirstERT
@@ -602,11 +631,7 @@
           time: 36000 # 10 hours
       raffle:
         settings: short
-    - type: GhostTakeoverAvailable
-    - type: RandomMetadata
-      nameSegments:
-      - NamesFirstERT
-      - NamesLastERT
+      job: ERTJanitorRed
     - type: Loadout
       prototypes: [ ERTJanitorGearRed ]
 
@@ -633,11 +658,7 @@
           time: 36000 # 10 hours
       raffle:
         settings: short
-    - type: GhostTakeoverAvailable
-    - type: RandomMetadata
-      nameSegments:
-      - NamesFirstERT
-      - NamesLastERT
+      job: ERTJanitorGamma
     - type: Loadout
       prototypes: [ ERTJanitorGearGamma ]
 
@@ -675,7 +696,7 @@
           time: 36000 # 10 hours
       raffle:
         settings: short
-    - type: GhostTakeoverAvailable
+      job: ERTEngineerAmber
     - type: RandomMetadata
       nameSegments:
       - NamesFirstERT
@@ -709,11 +730,7 @@
           time: 36000 # 10 hours
       raffle:
         settings: short
-    - type: GhostTakeoverAvailable
-    - type: RandomMetadata
-      nameSegments:
-      - NamesFirstERT
-      - NamesLastERT
+      job: ERTEngineerRed
     - type: Loadout
       prototypes: [ ERTEngineerGearRed ]
 
@@ -743,11 +760,7 @@
           time: 36000 # 10 hours
       raffle:
         settings: short
-    - type: GhostTakeoverAvailable
-    - type: RandomMetadata
-      nameSegments:
-      - NamesFirstERT
-      - NamesLastERT
+      job: ERTEngineerGamma
     - type: Loadout
       prototypes: [ ERTEngineerGearGamma ]
 
@@ -784,7 +797,7 @@
           time: 50400 # 14 hours
       raffle:
         settings: short
-    - type: GhostTakeoverAvailable
+      job: CBURNAgent
     - type: RandomMetadata
       nameSegments:
       - NamesFirstERT
@@ -825,7 +838,7 @@
           time: 50400 # 14 hours
       raffle:
         settings: short
-    - type: GhostTakeoverAvailable
+      job: CBURNAgent
     - type: RandomMetadata
       nameSegments:
       - NamesFirstERT
@@ -835,7 +848,6 @@
 
 # Central Command
 - type: entity
-  name: CentCom official
   id: RandomHumanoidSpawnerCentcomOfficial
   components:
     - type: Sprite
@@ -846,7 +858,7 @@
 
 - type: randomHumanoidSettings
   id: CentcomOfficial
-  parent: EventHumanoidMindShielded
+  parent: EventHumanoidMindShieldedHuman
   components:
     - type: GhostRole
       name: ghost-role-information-centcom-official-name
@@ -857,12 +869,86 @@
           time: 756000 # 210 hours
       raffle:
         settings: short
-    - type: GhostTakeoverAvailable
     - type: Loadout
       prototypes: [ CentcomGear ]
       roleLoadout: [ RoleSurvivalStandard ]
+    - type: AutoImplant
+      implants:
+      - MacroBombImplant # not DeathAcidifierImplant because lame gear
 
-# Syndicate
+- type: entity
+  id: RandomHumanoidSpawnerCentcomAdministrator
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      state: centcom
+    - type: RandomHumanoidSpawner
+      settings: CentcomAdministrator
+
+- type: randomHumanoidSettings
+  id: CentcomAdministrator
+  parent: EventHumanoidMindShieldedHuman
+  components:
+    - type: Loadout
+      prototypes: [ CentcomAdministratorGear ]
+      roleLoadout: [ RoleSurvivalStandard ]
+
+- type: entity
+  id: RandomHumanoidSpawnerCentcomOperator
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      state: centcom
+    - type: RandomHumanoidSpawner
+      settings: CentcomOperator
+
+- type: randomHumanoidSettings
+  id: CentcomOperator
+  parent: EventHumanoidMindShieldedCentcom
+  components:
+    - type: Loadout
+      prototypes: [ CentcomOperatorGear ]
+      roleLoadout: [ RoleSurvivalStandard ]
+
+- type: entity
+  id: RandomHumanoidSpawnerCentcomSpecialOperationsOfficer
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      state: centcom
+    - type: RandomHumanoidSpawner
+      settings: CentcomSpecialOperationsOfficer
+    - type: AutoImplant
+      implants:
+      - MacroBombImplant # not DeathAcidifierImplant because lame gear
+
+- type: randomHumanoidSettings
+  id: CentcomSpecialOperationsOfficer
+  parent: EventHumanoidMindShieldedHuman
+  components:
+    - type: Loadout
+      prototypes: [ CentcomSpecialOperationsOfficerGear ]
+      roleLoadout: [ RoleSurvivalStandard ]
+
+- type: entity
+  id: RandomHumanoidSpawnerCentcomOfficer
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      state: centcom
+    - type: RandomHumanoidSpawner
+      settings: CentcomOfficer
+
+- type: randomHumanoidSettings
+  id: CentcomOfficer
+  parent: EventHumanoidMindShieldedCentcom
+  components:
+    - type: Loadout
+      prototypes: [ CentcomOfficerGear ]
+      roleLoadout: [ RoleSurvivalStandard ]
+
+## Syndicate
+
 - type: entity
   id: RandomHumanoidSpawnerSyndicateAgent
   name: syndicate agent
@@ -924,384 +1010,3 @@
         settings: default
     - type: GhostTakeoverAvailable
     - type: Cluwne
-
-
-## Shuttle roles
-
-## Lost Cargo technician
-
-- type: entity
-  name: lost cargo technician spawner
-  id: LostCargoTechnicianSpawner
-  parent: MarkerBase
-  components:
-    - type: Sprite
-      layers:
-        - state: red
-        - sprite: Objects/Tools/appraisal-tool.rsi
-          state: icon
-    - type: RandomSpawner
-      prototypes:
-      - RandomHumanoidLostCargoTechnician
-      chance: 1
-
-- type: entity
-  id: RandomHumanoidLostCargoTechnician
-  name: lost cargo technician ghost role
-  components:
-    - type: Sprite
-      sprite: Objects/Tools/appraisal-tool.rsi
-      state: icon
-    - type: RandomHumanoidSpawner
-      settings: LostCargoTechnician
-
-- type: randomHumanoidSettings
-  id: LostCargoTechnician
-  parent: EventHumanoid
-  components:
-    - type: GhostRole
-      name: ghost-role-information-lost-cargo-technical-name
-      description: ghost-role-information-lost-cargo-technical-description
-      rules: ghost-role-information-nonantagonist-rules
-      raffle:
-        settings: short
-    - type: GhostTakeoverAvailable
-    - type: Loadout
-      prototypes: [ LostCargoTechGearSuit, LostCargoTechGearCoat ]
-      roleLoadout: [ RoleSurvivalStandard ]
-
-# Clown troupe
-
-- type: entity
-  name: clown troupe spawner
-  id: ClownTroupeSpawner
-  parent: MarkerBase
-  components:
-    - type: Sprite
-      layers:
-        - state: red
-        - sprite: Objects/Fun/bikehorn.rsi
-          state: icon
-    - type: RandomSpawner
-      prototypes:
-      - RandomHumanoidClownTroupe
-      rarePrototypes:
-      - RandomHumanoidClownTroupeBanana
-      rareChance: 0.3
-
-- type: entity
-  id: RandomHumanoidClownTroupe
-  name: clown troupe ghost role
-  components:
-    - type: Sprite
-      sprite: Objects/Tools/appraisal-tool.rsi
-      state: icon
-    - type: RandomHumanoidSpawner
-      settings: ClownTroupe
-
-- type: entity
-  id: RandomHumanoidClownTroupeBanana
-  name: banana clown troupe
-  parent: RandomHumanoidClownTroupe
-  components:
-    - type: RandomHumanoidSpawner
-      settings: ClownTroupeBanana
-
-- type: randomHumanoidSettings
-  id: ClownTroupe
-  parent: EventHumanoid
-  randomizeName: false
-  components:
-    - type: GhostRole
-      name: ghost-role-information-clown-troupe-name
-      description: ghost-role-information-clown-troupe-description
-      rules: ghost-role-information-nonantagonist-rules
-      raffle:
-        settings: short
-    - type: GhostTakeoverAvailable
-    - type: Loadout
-      prototypes: [ ClownTroupe ]
-      roleLoadout: [ RoleSurvivalStandard ]
-    - type: RandomMetadata
-      nameSegments:
-      - names_clown
-
-- type: randomHumanoidSettings
-  id: ClownTroupeBanana
-  parent: ClownTroupe
-  randomizeName: false
-  components:
-    - type: GhostRole
-      name: ghost-role-information-clown-troupe-name
-      description: ghost-role-information-clown-troupe-description
-      rules: ghost-role-information-clown-troupe-rules
-    - type: GhostTakeoverAvailable
-    - type: Loadout
-      prototypes: [ BananaClown ]
-      roleLoadout: [ RoleSurvivalStandard ]
-    - type: RandomMetadata
-      nameSegments:
-      - names_clown
-
-# Traveling exotic chef
-
-- type: entity
-  name: traveling chef spawner
-  id: TravelingChefSpawner
-  parent: MarkerBase
-  components:
-    - type: Sprite
-      layers:
-        - state: red
-        - sprite: Objects/Weapons/Melee/kitchen_knife.rsi
-          state: icon
-    - type: RandomSpawner
-      prototypes:
-      - RandomHumanoidTravelingChef
-
-- type: entity
-  id: RandomHumanoidTravelingChef
-  name: traveling chef ghost role
-  components:
-    - type: Sprite
-      sprite: Objects/Tools/appraisal-tool.rsi
-      state: icon
-    - type: RandomHumanoidSpawner
-      settings: TravelingChef
-
-- type: randomHumanoidSettings
-  id: TravelingChef
-  parent: EventHumanoid
-  components:
-    - type: GhostRole
-      name: ghost-role-information-traveling-chef-name
-      description: ghost-role-information-traveling-chef-description
-      rules: ghost-role-information-nonantagonist-rules
-      raffle:
-        settings: short
-    - type: GhostTakeoverAvailable
-    - type: Loadout
-      prototypes: [ TravelingChef ]
-      roleLoadout: [ RoleSurvivalStandard ]
-
-# Disaster victim
-
-- type: entity
-  name: disaster victim spawner
-  id: DisasterVictimSpawner
-  parent: MarkerBase
-  components:
-  - type: Sprite
-    layers:
-      - state: red
-      - sprite: Clothing/OuterClothing/Hardsuits/basic.rsi
-        state: icon
-  - type: RandomSpawner
-    prototypes:
-    - RandomHumanoidDisasterVictimRD
-    - RandomHumanoidDisasterVictimCMO
-    - RandomHumanoidDisasterVictimCaptain
-    - MobSkeletonCloset
-
-- type: entity
-  id: RandomHumanoidDisasterVictimRD
-  name: disaster victim RD ghost role
-  components:
-    - type: Sprite
-      sprite: Clothing/OuterClothing/Hardsuits/basic.rsi
-      state: icon
-    - type: RandomHumanoidSpawner
-      settings: DisasterVictimResearchDirector
-
-- type: entity
-  id: RandomHumanoidDisasterVictimCMO
-  parent: RandomHumanoidDisasterVictimRD
-  name: disaster victim CMO ghost role
-  components:
-    - type: RandomHumanoidSpawner
-      settings: DisasterVictimCMO
-
-- type: entity
-  id: RandomHumanoidDisasterVictimCaptain
-  parent: RandomHumanoidDisasterVictimRD
-  name: disaster victim Captain ghost role
-  components:
-    - type: RandomHumanoidSpawner
-      settings: DisasterVictimCaptain
-
-- type: randomHumanoidSettings
-  id: DisasterVictimResearchDirector
-  parent: EventHumanoidMindShielded
-  speciesBlacklist:
-    - Arachnid
-    - Diona
-    - Dwarf
-    # - Human
-    - Moth
-    - Reptilian
-    - SlimePerson
-    - Vox
-    - DemonSpecies
-    - SharkSpecies
-    - TajaranSpecies
-    - VulpkaninSpecies
-    - Felinid
-    - KoboltSpecies
-    - XenoSponsor
-    - IPC
-    - IPS
-  components:
-    - type: GhostRole
-      name: ghost-role-information-disaster-victim-name
-      description: ghost-role-information-disaster-victim-description
-      rules: ghost-role-information-nonantagonist-rules
-      raffle:
-        settings: default
-    - type: GhostTakeoverAvailable
-    - type: Loadout
-      prototypes: [ DisasterVictimRD, DisasterVictimRDAlt ]
-      roleLoadout: [ RoleSurvivalStandard ]
-    - type: RandomMetadata
-      nameSegments:
-      - names_first
-      - names_last_male
-
-- type: randomHumanoidSettings
-  id: DisasterVictimCMO
-  parent: EventHumanoidMindShielded
-  speciesBlacklist:
-    - Arachnid
-    - Diona
-    - Dwarf
-    # - Human
-    - Moth
-    - Reptilian
-    - SlimePerson
-    - Vox
-    - DemonSpecies
-    - SharkSpecies
-    - TajaranSpecies
-    - VulpkaninSpecies
-    - Felinid
-    - KoboltSpecies
-    - XenoSponsor
-    - IPC
-    - IPS
-  components:
-    - type: GhostRole
-      name: ghost-role-information-disaster-victim-name
-      description: ghost-role-information-disaster-victim-description
-      rules: ghost-role-information-disaster-victim-rules
-      raffle:
-        settings: default
-    - type: GhostTakeoverAvailable
-    - type: Loadout
-      prototypes: [ DisasterVictimCMO, DisasterVictimCMOAlt ]
-      roleLoadout: [ RoleSurvivalStandard ]
-    - type: RandomMetadata
-      nameSegments:
-      - names_first
-      - names_last_male
-
-- type: randomHumanoidSettings
-  id: DisasterVictimCaptain
-  parent: EventHumanoidMindShielded
-  speciesBlacklist:
-    - Arachnid
-    - Diona
-    - Dwarf
-    # - Human
-    - Moth
-    - Reptilian
-    - SlimePerson
-    - Vox
-    - DemonSpecies
-    - SharkSpecies
-    - TajaranSpecies
-    - VulpkaninSpecies
-    - Felinid
-    - KoboltSpecies
-    - XenoSponsor
-    - IPC
-    - IPS
-  components:
-    - type: GhostRole
-      name: ghost-role-information-disaster-victim-name
-      description: ghost-role-information-disaster-victim-description
-      rules: ghost-role-information-disaster-victim-rules
-      raffle:
-        settings: default
-    - type: GhostTakeoverAvailable
-    - type: Loadout
-      prototypes: [ DisasterVictimCaptain, DisasterVictimCaptainAlt ]
-      roleLoadout: [ RoleSurvivalStandard ]
-    - type: RandomMetadata
-      nameSegments:
-      - names_first
-      - names_last_male
-
-# Syndie Disaster Victim
-
-- type: entity
-  name: syndie disaster victim spawner
-  id: SyndieDisasterVictimSpawner
-  parent: MarkerBase
-  components:
-  - type: Sprite
-    layers:
-      - state: red
-      - sprite: Structures/Decoration/banner.rsi
-        state: banner_syndicate
-  - type: RandomSpawner
-    prototypes:
-    - RandomHumanoidSyndieDisasterVictim
-
-- type: entity
-  id: RandomHumanoidSyndieDisasterVictim
-  name: syndie disaster victim ghost role
-  components:
-    - type: Sprite
-      sprite: Structures/Decoration/banner.rsi
-      state: banner_syndicate
-    - type: RandomHumanoidSpawner
-      settings: SyndieDisasterVictim
-
-- type: randomHumanoidSettings
-  id: SyndieDisasterVictim
-  randomizeName: false
-  speciesBlacklist:
-    - Arachnid
-    - Diona
-    - Dwarf
-    # - Human
-    - Moth
-    - Reptilian
-    - SlimePerson
-    - Vox
-    - DemonSpecies
-    - SharkSpecies
-    - TajaranSpecies
-    - VulpkaninSpecies
-    - Felinid
-    - KoboltSpecies
-    - XenoSponsor
-    - IPC
-    - IPS
-  components:
-    - type: NpcFactionMember
-      factions:
-      - Syndicate
-    - type: GhostRole
-      name: ghost-role-information-syndie-disaster-victim-name
-      description: ghost-role-information-syndie-disaster-victim-description
-      rules: ghost-role-information-nonantagonist-rules
-      raffle:
-        settings: short
-    - type: GhostTakeoverAvailable
-    - type: Loadout
-      prototypes: [ SyndicateOperativeGearCivilian ]
-      roleLoadout: [ RoleSurvivalStandard ]
-    - type: RandomMetadata
-      nameSegments:
-      - names_first
-      - names_last_male

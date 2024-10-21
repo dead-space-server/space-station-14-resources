@@ -119,3 +119,46 @@
     - !type:ListingLimitedStockCondition
       stock: 3
 
+- type: listing
+  id: CigaretteMachineInventory12
+  productEntity: FlippoLighter
+  cost:
+    SpaceCash: 80
+  categories:
+    - CigaretteMachineInventory
+  conditions:
+    - !type:ListingLimitedStockCondition
+      stock: 2
+
+- type: listing
+  id: CigaretteMachineInventory13
+  productEntity: CigPackMixed
+  cost:
+    SpaceCash: 50
+  categories:
+    - CigaretteMachineInventory
+  conditions:
+    - !type:ListingLimitedStockCondition
+      stock: 3
+
+- type: listing
+  id: CigaretteMachineInventory14
+  productEntity: GroundTobacco
+  cost:
+    SpaceCash: 25
+  categories:
+    - CigaretteMachineInventory
+  conditions:
+    - !type:ListingLimitedStockCondition
+      stock: 10
+
+- type: listing
+  id: CigaretteMachineInventory15
+  productEntity: Ashtray
+  cost:
+    SpaceCash: 50
+  categories:
+    - CigaretteMachineInventory
+  conditions:
+    - !type:ListingLimitedStockCondition
+      stock: 2

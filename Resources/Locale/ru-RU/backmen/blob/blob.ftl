@@ -9,7 +9,6 @@ blob-target-already-produce-blobbernaut = Данная фабрика уже п�
 blob-cant-split = Вы не можете разделить ядро.
 blob-not-have-nodes = У вас нету узлов.
 blob-not-enough-resources = Не хватает ресурсов для действия.
-blob-help = Вам поможет только бог.
 blob-swap-chem = В разработке.
 blob-mob-attack-blob = Вы не можете атаковать блоба.
 blob-get-resource = +{ $point }
@@ -76,8 +75,6 @@ blob-create-node-action-name = Создать блоб узел (50)
 blob-create-node-action-desc =
     Превращает выбраного нормального блоба в блоб узел.
     Узел будет активировать эфекты других блобов, лечить и расширяться в пределах своего действия уничтожая стены и создавая нормальные блобы.
-blob-help-action-name = Помощь
-blob-help-action-desc = Получите базовую информацию по игра за блоба.
 blob-swap-chem-action-name = Сменить химикат блоба (40)
 blob-swap-chem-action-desc = Позволяет вам сменить текущий химикат на один из 4 случайных.
 blob-carrier-transform-to-blob-action-name = Превратиться в блоба
@@ -118,7 +115,7 @@ blob-round-end-result =
 blob-user-was-a-blob = [color=gray]{ $user }[/color] был блобом.
 blob-user-was-a-blob-named = [color=White]{ $name }[/color] ([color=gray]{ $user }[/color]) был блобом.
 blob-was-a-blob-named = [color=White]{ $name }[/color] был блобом.
-preset-blob-objective-issuer-blob = [color=#33cc00]Блоб[/color]
+objective-issuer-blob = [color=#33cc00]Блоб[/color]
 blob-user-was-a-blob-with-objectives = [color=gray]{ $user }[/color] был блобом и имел следующие цели:
 blob-user-was-a-blob-with-objectives-named = [color=White]{ $name }[/color] ([color=gray]{ $user }[/color]) был блобом и имел следующие цели:
 blob-was-a-blob-with-objectives-named = [color=White]{ $name }[/color] был блобом и имел следующие цели:

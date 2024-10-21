@@ -18,4 +18,4 @@
 - type: entity
   parent: BaseSpeciesDummy
   id: MobIPCDummy
-  noSpawn: true
+  categories: [ HideSpawnMenu ]

@@ -1,3 +1,1 @@
-﻿
-speak-vv-blob = Блоб
-speak-vv-xeno = Ксено
+﻿speak-vv-blob = Блоб

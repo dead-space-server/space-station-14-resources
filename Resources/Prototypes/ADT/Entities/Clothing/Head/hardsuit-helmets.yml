@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ADTClothingHeadHelmetHardsuitCybersunBodyGuard
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: cybersun bodyguard helmet
   description: A variant of the blood red helmet designed by the gorlax marauders to be exceptionally fireproof and pressure proof.
   components:
@@ -15,7 +15,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.005
+    coolingCoefficient: 0.005
   - type: Armor
     modifiers:
       coefficients:
@@ -28,7 +29,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ADTClothingHeadHelmetHardsuitCybersunCrysis
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: cybersun crysis helmet
   components:
   - type: Sprite
@@ -43,7 +44,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.005
+    coolingCoefficient: 0.005
   - type: Armor
     modifiers:
       coefficients:
@@ -56,7 +58,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ADTClothingHeadFemHelmetHardsuitSyndieCommander
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: женский шлем командира синдиката
   description: Шлем женского скафандра синдиката, разработанный специально для командиров отряда
   components:
@@ -81,7 +83,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ADTClothingFemHeadHelmetHardsuitSyndieElite
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: женский элитный шлем
   description: Вариант женского кроваво-красного шлема, разработанного Мародёрами Горлекса и обладающего исключительной огнеупорностью и устойчивостью к давлению.
   components:
@@ -95,7 +97,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.005
+    coolingCoefficient: 0.005
   - type: Armor
     modifiers:
       coefficients:
@@ -108,7 +111,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ADTClothingFemHeadHelmetHardsuitSyndie
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: кроваво-красный женский шлем синдиката
   description: Женский продвинутый красный шлем скафандра, предназначенный для работы в специальных операциях.
   components:
@@ -133,7 +136,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ADTClothingHeadHelmetHardsuitCerber
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: Cerber helmet
   description: Special hardsuit helmet, made for the chief engineer of the station.
   components:
@@ -158,7 +161,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ADTClothingHeadHelmetHardsuitSaibaSain
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: Saiba Sain elite hardsuit helm
   components:
   - type: Sprite
@@ -173,7 +176,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.005
+    coolingCoefficient: 0.005
   - type: Armor
     modifiers:
       coefficients:

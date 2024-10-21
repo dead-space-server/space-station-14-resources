@@ -4,7 +4,7 @@
   id: BaseBlobObjective
   components:
     - type: Objective
-      issuer: blob
+      issuer: objective-issuer-blob
       unique: true
       difficulty: 1
       icon:
@@ -16,7 +16,7 @@
           - BlobRole
 
 - type: entity
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   parent: BaseBlobObjective
   id: BlobCaptureObjective
   components:
