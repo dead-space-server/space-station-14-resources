@@ -1,8 +1,8 @@
 - type: job
-  id: ADTBlueShieldOfficer
-  name: job-name-ADTBlueShieldOfficer
-  description: job-description-ADTBlueShieldOfficer
-  playTimeTracker: JobADTBlueShieldOfficer
+  id: BlueShieldOfficer
+  name: job-name-blue-shield-officer
+  description: job-description-blue-shield-officer
+  playTimeTracker: JobBlueShieldOfficer
   requirements:
     - !type:DepartmentTimeRequirement
       department: Engineering
@@ -19,9 +19,9 @@
     - !type:OverallPlaytimeRequirement
       time: 324000 # 90 hours
     - !type:AgeRequirement
-      requiredAge: 28
+      requiredAge: 24
   startingGear: BlueShieldOfficerGear
-  icon: "JobIconADTBlueShieldOfficer"
+  icon: "JobIconBlueShieldOfficer"
   supervisors: job-supervisors-centcom
   canBeAntag: false
   access:
@@ -66,7 +66,7 @@
   id: BlueShieldOfficerPDA
   components:
     - type: Pda
-      id: ADTBlueShieldOfficerIDCard
+      id: BlueShieldOfficerIDCard
       state: pda-ert
     - type: PdaBorderColor
       borderColor: "#A32D26"
@@ -78,14 +78,14 @@
 
 - type: entity
   parent: IDCardStandard
-  id: ADTBlueShieldOfficerIDCard
+  id: BlueShieldOfficerIDCard
   components:
     - type: Sprite
       layers:
         - state: default
         - state: ert_security
     - type: PresetIdCard
-      job: ADTBlueShieldOfficer
+      job: BlueShieldOfficer
 
 - type: entity
   parent: ClothingBackpack

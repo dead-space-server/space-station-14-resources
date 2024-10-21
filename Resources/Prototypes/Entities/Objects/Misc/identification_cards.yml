@@ -448,6 +448,21 @@
 
 - type: entity
   parent: IDCardStandard
+  id: VisitorIDCard
+  name: visitor ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idvisitor
+  - type: IdCard
+    jobTitle: job-title-visitor
+    jobIcon: JobIconVisitor
+  - type: PresetIdCard
+    job: Visitor
+
+- type: entity
+  parent: IDCardStandard
   id: BrigmedicIDCard
   name: brigmedic ID card
   components:
@@ -517,17 +532,51 @@
     - state: idcentcom
   - type: Item
     heldPrefix: blue
-  - type: IdCard
-    jobTitle: Сотрудник ЦК
-    jobIcon: JobIconNanotrasen
-  - type: Access
-    groups:
-    - AllAccess
-    tags:
-    - CentralCommand
+  - type: PresetIdCard
+    job: CentralCommandOfficer # DS14
+
+# DS14-centcom-jobs-start
 
 - type: entity
   parent: CentcomIDCard
+  id: CentcomOfficialIDCard
+  components:
+  - type: PresetIdCard
+    job: CentralCommandOfficial
+
+- type: entity
+  parent: CentcomIDCard
+  id: CentcomAdministratorIDCard
+  components:
+  - type: Sprite
+    layers:
+    - state: gold
+    - state: idcentcom
+  - type: PresetIdCard
+    job: CentralCommandAdministrator
+
+- type: entity
+  parent: CentcomIDCard
+  id: CentcomOperatorIDCard
+  components:
+  - type: PresetIdCard
+    job: CentralCommandOperator
+
+- type: entity
+  parent: CentcomIDCard
+  id: CentcomSpecialOperationsOfficerIDCard
+  components:
+  - type: Sprite
+    layers:
+    - state: silver
+    - state: idcentcom
+  - type: PresetIdCard
+    job: CentralCommandSpecialOperationsOfficer
+
+# DS14-centcom-jobs-end
+
+- type: entity
+  parent: IDCardStandard
   id: ERTLeaderIDCard
   name: ERT leader ID card
   components:
@@ -535,13 +584,13 @@
     layers:
     - state: gold
     - state: ert_commander
-  - type: IdCard
-    jobTitle: Лидер ОБР
+  - type: PresetIdCard
+    job: ERTLeaderAmber # DS14
   - type: Item
     heldPrefix: gold
 
 - type: entity
-  parent: ERTLeaderIDCard
+  parent: IDCardStandard
   id: ERTChaplainIDCard
   name: ERT chaplain ID card
   components:
@@ -549,13 +598,13 @@
     layers:
     - state: gold
     - state: ert_chaplain # we have the sprite for the id but dont have chaplain ERT equipment for now.
-  - type: IdCard
-    jobTitle: СпПА ОБР
+  - type: PresetIdCard
+    job: ERTChaplain
   - type: Item
     heldPrefix: blue
 
 - type: entity
-  parent: ERTChaplainIDCard
+  parent: IDCardStandard
   id: ERTEngineerIDCard
   name: ERT engineer ID card
   components:
@@ -563,11 +612,11 @@
     layers:
     - state: gold
     - state: ert_engineer
-  - type: IdCard
-    jobTitle: Инженер ОБР
+  - type: PresetIdCard
+    job: ERTEngineerAmber # DS14
 
 - type: entity
-  parent: ERTChaplainIDCard
+  parent: IDCardStandard
   id: ERTJanitorIDCard
   name: ERT janitor ID card
   components:
@@ -575,11 +624,11 @@
     layers:
     - state: gold
     - state: ert_janitor
-  - type: IdCard
-    jobTitle: Уборщик ОБР
+  - type: PresetIdCard
+    job: ERTJanitorAmber # DS14
 
 - type: entity
-  parent: ERTChaplainIDCard
+  parent: IDCardStandard
   id: ERTMedicIDCard
   name: ERT medic ID card
   components:
@@ -587,11 +636,11 @@
     layers:
     - state: gold
     - state: ert_medic
-  - type: IdCard
-    jobTitle: Медик ОБР
+  - type: PresetIdCard
+    job: ERTMedicalAmber # DS14
 
 - type: entity
-  parent: ERTChaplainIDCard
+  parent: IDCardStandard
   id: ERTSecurityIDCard
   name: ERT security ID card
   components:
@@ -599,26 +648,82 @@
     layers:
     - state: gold
     - state: ert_security
-  - type: IdCard
-    jobTitle: Офицер ОБР
+  - type: PresetIdCard
+    job: ERTSecurityAmber # DS14
+
+# DS14-ert-start
+
+- type: entity
+  parent: ERTLeaderIDCard
+  id: ERTLeaderRedIDCard
+  components:
+  - type: PresetIdCard
+    job: ERTLeaderRed
 
 - type: entity
   parent: IDCardStandard
-  id: CentcomIDCardSyndie
-  name: command officer ID card
-  suffix: Fake
+  id: ERTLeaderGammaIDCard
   components:
-  - type: Sprite
-    layers:
-    - state: centcom
-    - state: idcentcom
-  - type: Item
-    heldPrefix: blue
-  - type: IdCard
-    jobTitle: Сотрудник ЦК
-  - type: Access
-    tags:
-    - Maintenance
+  - type: PresetIdCard
+    job: ERTLeaderGamma
+
+- type: entity
+  parent: ERTEngineerIDCard
+  id: ERTEngineerRedIDCard
+  components:
+  - type: PresetIdCard
+    job: ERTEngineerRed
+
+- type: entity
+  parent: ERTEngineerIDCard
+  id: ERTEngineerGammaIDCard
+  components:
+  - type: PresetIdCard
+    job: ERTEngineerGamma
+
+- type: entity
+  parent: ERTJanitorIDCard
+  id: ERTJanitorRedIDCard
+  components:
+  - type: PresetIdCard
+    job: ERTJanitorRed
+
+- type: entity
+  parent: ERTJanitorIDCard
+  id: ERTJanitorGammaIDCard
+  components:
+  - type: PresetIdCard
+    job: ERTJanitorGamma
+
+- type: entity
+  parent: ERTMedicIDCard
+  id: ERTMedicRedIDCard
+  components:
+  - type: PresetIdCard
+    job: ERTMedicalRed
+
+- type: entity
+  parent: ERTMedicIDCard
+  id: ERTMedicGammaIDCard
+  components:
+  - type: PresetIdCard
+    job: ERTMedicalGamma
+
+- type: entity
+  parent: ERTSecurityIDCard
+  id: ERTSecurityRedIDCard
+  components:
+  - type: PresetIdCard
+    job: ERTSecurityRed
+
+- type: entity
+  parent: ERTSecurityIDCard
+  id: ERTSecurityGammaIDCard
+  components:
+  - type: PresetIdCard
+    job: ERTSecurityGamma
+
+# DS14-ert-end
 
 - type: entity
   parent: IDCardStandard
@@ -633,7 +738,7 @@
       job: Musician
 
 - type: entity
-  parent: CentcomIDCard
+  parent: IDCardStandard
   id: CentcomIDCardDeathsquad
   name: death squad ID card
   components:
@@ -642,8 +747,8 @@
     - state: centcom
   - type: Item
     heldPrefix: blue
-  - type: IdCard
-    jobTitle: КСО
+  - type: PresetIdCard
+    job: DeathSquad
 
 - type: entity
   name: passenger ID card
@@ -790,21 +895,6 @@
 
 - type: entity
   parent: CentcomIDCard
-  id: CBURNLeaderIDcard
-  name: CBURN ID card
-  components:
-  - type: Sprite
-    layers:
-    - state: gold
-    - state: idcentcom
-  - type: IdCard
-    jobTitle: Лидер РХБЗЗ
-    jobIcon: JobIconNanotrasenRed
-  - type: Item
-    heldPrefix: gold
-
-- type: entity
-  parent: CentcomIDCard
   id: CBURNIDcard
   name: CBURN ID card
   suffix: CBURN
@@ -814,8 +904,39 @@
     - state: centcom
   - type: Item
     heldPrefix: blue
-  - type: IdCard
-    jobTitle: Боец РХБЗЗ
+  - type: PresetIdCard
+    job: CBURNAgent
+
+# DS14-cburn-start
+
+- type: entity
+  parent: CentcomIDCard
+  id: CBURNLeaderIDcard
+  components:
+  - type: Sprite
+    layers:
+    - state: gold
+    - state: idcentcom
+  - type: Item
+    heldPrefix: gold
+  - type: PresetIdCard
+    job: CBURNLeader
+
+- type: entity
+  parent: CBURNIDcard
+  id: CBURNSierraIDcard
+  components:
+  - type: PresetIdCard
+    job: CBURNSierraAgent
+
+- type: entity
+  parent: CBURNLeaderIDcard
+  id: CBURNSierraLeaderIDcard
+  components:
+  - type: PresetIdCard
+    job: CBURNSierraLeader
+
+# DS14-cburn-end
 
 - type: entity
   parent: IDCardStandard
@@ -828,7 +949,7 @@
     - state: default
     - state: idcluwne
   - type: IdCard
-    jobTitle: Клувень
+    jobTitle: job-title-cluwne
   - type: Unremoveable
 
 - type: entity
@@ -896,7 +1017,7 @@
   - type: Item
     heldPrefix: green
   - type: IdCard
-    jobTitle: Universal
+    jobTitle: job-title-universal
     jobIcon: JobIconAdmin
   - type: Access
     groups:

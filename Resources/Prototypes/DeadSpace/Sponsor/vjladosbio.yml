@@ -9,7 +9,7 @@
   id: ClothingBackpackVjladosBio
   name: блюспейс органический рюкзак
   description: Рюкзак использующий технологию блюспейса для увелечения своего максимального объёма. Состоит из органических компонентов. Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
-  # noSpawn: true
+  # categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/bio/backpack.rsi
@@ -45,7 +45,7 @@
   id: ClothingBeltVjladosBioFilled
   name: органический пояс
   description: Пояс состоящий из биологических компонентов.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/bio/belt.rsi
@@ -66,7 +66,7 @@
   id: ClothingNeckCloakVjladosBio
   name: модифицированный органический плащ
   description: Накидка тёмного цвета. Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/bio/cloak.rsi
@@ -77,7 +77,7 @@
   id: ClothingHandsGlovesVjladosBio
   name: модифицированные перчатки
   description: Перчатки, сконструированные специально для представителей расы ксеноидов. Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации. Изолированны.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/bio/gloves.rsi
@@ -90,7 +90,7 @@
   id: ClothingOuterHardsuitVjladosBio
   name: модифицированный биологический скафандр
   description: Скафандр, разработанный специально для представителей расы ксеноидов. Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации. Характеристики идентичны скафандру атмос-техника.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/bio/hardsuit.rsi
@@ -104,7 +104,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitVjladosBio
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: шлем биологического скафандра
   description: Шлем изолирующий владельца от страшного вакуума снаружи.
   components:
@@ -124,7 +124,7 @@
   id: ClothingUniformJumpsuitVjladosBio
   name: практичная спортивная форма
   description: Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/bio/jumpsuit.rsi
@@ -137,7 +137,7 @@
   id: ClothingShoesBootsMagVjladosBio
   name: биологические магнитные ботинки
   description: Магнитные ботинки имеющие продвинутую технологию магнетизма.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
       sprite: DeadSpace/Sponsor/vjlados/bio/magboots.rsi
@@ -156,7 +156,7 @@
   id: ClothingOuterHoodieVjladosBio
   name: органический бронированный тренч
   description: Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/bio/coat.rsi
@@ -187,7 +187,7 @@
   id: ClothingUnderwearBottomVjladosBio
   name: классические стринги
   description: Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/bio/under/women/panties.rsi
@@ -198,7 +198,7 @@
   id: ClothingUnderSocksVjladosBio
   name: полосатые чулки
   description: Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/bio/socks.rsi
@@ -209,7 +209,7 @@
   id: ToySwordDoubleVjlados
   name: игрушечный двойной энергетический меч
   description: Новый пластиковый меч от компании Sandy-Cat! Поставляется с реалистичным звуком и насыщенным цветом! Выглядит почти как настоящий!
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/bio/e_sword_double.rsi
@@ -230,7 +230,7 @@
   id: PaperLawsvjladosbio
   name: распечатанный документ
   description: Лист бумаги с заголовком центкома. Страшно даже смотреть на него.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Paper
     stampState: paper_stamp-centcom
@@ -246,7 +246,7 @@
   id: JetpackVoidVjlados
   parent: JetpackVoid
   name: джетпак ксеноида
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Item
     sprite: DeadSpace/Sponsor/vjlados/bio/jetpack.rsi
@@ -261,7 +261,7 @@
   id: ClothingMaskVjlados
   name: противогаз ксеноида
   description: Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/bio/gasmask.rsi
@@ -274,7 +274,7 @@
   id: PDAVjlados
   name: кпк ксено-органика
   description: Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Icon
     sprite: DeadSpace/Sponsor/vjlados/bio/pda.rsi
@@ -290,7 +290,7 @@
   parent: Pen
   id: PenVjlados
   description: Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/bio/pen.rsi

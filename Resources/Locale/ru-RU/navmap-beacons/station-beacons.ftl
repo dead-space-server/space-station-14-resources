@@ -3,9 +3,9 @@ station-beacon-general = Общий
 station-beacon-command = Командование
 station-beacon-bridge = Мостик
 station-beacon-vault = Хранилище
+station-beacon-gateway = Врата
 station-beacon-captain = Каюта капитана
 station-beacon-hop = Каюта главы персонала
-
 station-beacon-security = Служба безопасности
 station-beacon-brig = Бриг
 station-beacon-warden = Комната смотрителя

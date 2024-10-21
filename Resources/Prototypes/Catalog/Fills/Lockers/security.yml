@@ -20,6 +20,8 @@
       - id: ClothingOuterHardsuitWarden
       - id: HoloprojectorSecurity
       # - id: BookSpaceLaw # DS14-disabled
+      - id: ClothingHeadHatCapWardenAlt # Corvax-SecFashion
+      - id: ClothingOuterCoatWardenAlt # Corvax-SecFashion
       - id: ClothingBackpackElectropack
         amount: 2
       - id: RemoteSignaller
@@ -277,7 +279,7 @@
       - id: MedkitCombatFilled
       - id: MedkitAdvancedFilled
       - id: ClothingNeckCloakNanotrasen
-      - id: ADTClothingEyesHudAdvanced
+      - id: ClothingEyesHudAdvanced
       - id: RubberStampBlueShield
       - id: WeaponDisabler
       - id: ClothingHeadHelmetSwat

@@ -1,0 +1,22 @@
+- type: entity
+  id: CrateWeaponArtefact
+  name: ящик с древним оружием
+  parent: CrateSecure
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponLaserArtifact
+    - id: ArtifactWeaponStone
+
+- type: entity
+  id: WeaponArtifactSpawn
+  parent: BaseStationEventShortDelay
+  components:
+  - type: StationEvent
+    startAnnouncement: station-event-weapon-artifact-discovered-announcement
+    startAudio:
+      path: /Audio/Announcements/attention.ogg
+    weight: 5
+    duration: 50
+  - type: RandomSpawnRule
+    prototype: CrateWeaponArtefact

@@ -2,7 +2,7 @@
   id: Bullet357
   name: bullet (.357 magnum)
   parent: BaseBullet
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
     damage:
@@ -13,7 +13,7 @@
   id: Bullet357Practice
   name: bullet (.357 magnum practice)
   parent: BaseBulletPractice
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
     damage:
@@ -24,7 +24,7 @@
   id: Bullet357Incendiary
   parent: BaseBulletIncendiary
   name: bullet (.357 magnum incendiary)
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
     damage:
@@ -35,7 +35,7 @@
   id: Bullet357AP
   name: bullet (.357 magnum armor-piercing)
   parent: BaseBulletAP
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
     damage:

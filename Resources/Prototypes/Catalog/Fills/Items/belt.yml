@@ -61,6 +61,27 @@
       storagebase: !type:NestedSelector
         tableId: BeltSecurityEntityTable
 
+- type: entityTable
+  id: BeltERTSecurityEntityTable
+  table: !type:AllSelector
+    children:
+    - id: Stunbaton
+    - id: GrenadeFlashBang
+    - id: Handcuffs
+    - id: Handcuffs
+    - id: Handcuffs
+    - id: Handcuffs
+
+- type: entity
+  id: ClothingBeltERTSecurityFilled
+  parent: ClothingBeltSecurity
+  suffix: Filled
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:NestedSelector
+        tableId: BeltERTSecurityEntityTable
+
 - type: entity
   id: ClothingBeltSecurityWebbingFilled
   parent: ClothingBeltSecurityWebbing

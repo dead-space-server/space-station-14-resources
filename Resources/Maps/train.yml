@@ -93772,7 +93772,7 @@ entities:
     - type: Transform
       pos: -8.5,-303.5
       parent: 2
-- proto: SpawnPointADTBlueShieldOfficer
+- proto: SpawnPointBlueShieldOfficer
   entities:
   - uid: 13816
     components:

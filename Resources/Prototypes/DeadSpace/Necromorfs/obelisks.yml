@@ -1,0 +1,101 @@
+- type: entity
+  parent: BaseStructure
+  id: StructureObelisk
+  components:
+  - type: RangedDamageSound
+    soundGroups:
+      Brute:
+        collection:
+          MetalBulletImpact
+    soundTypes:
+      Heat:
+        collection:
+          MetalLaserImpact
+  - type: Tag
+    tags:
+    - Wall
+  - type: Physics
+    bodyType: Static
+  - type: Sprite
+    noRot: true
+    sprite: DeadSpace/Necromorfs/obelisk.rsi
+    layers:
+    - state: active
+      map: [ "enum.DamageStateVisualLayers.Base" ]
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.45,-1,0.45,0.50"
+        density: 85
+        mask:
+        - FullTileMask
+        layer:
+        - WallLayer
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: Metallic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 2250
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          ObeliskSplinter:
+            min: 3
+            max: 3
+  - type: Appearance
+  - type: DamageVisuals
+    thresholds: [4, 8, 12]
+    damageDivisor: 100
+    trackAllDamage: true
+    damageOverlay:
+      sprite: DeadSpace/Structures/obelisk_cracks.rsi
+  - type: Necroobelisk
+
+- type: entity
+  parent: StructureObelisk
+  id: StructureBlackObelisk
+  components:
+  - type: Sprite
+    noRot: true
+    sprite: DeadSpace/Necromorfs/blackobelisk.rsi
+    layers:
+    - state: active
+      map: [ "enum.DamageStateVisualLayers.Base" ]
+  - type: Necroobelisk
+    sound: /Audio/DeadSpace/Necromorfs/marker_black.ogg
+    stoper: false
+
+- type: entity
+  parent: StructureObelisk
+  id: StructureBlackObelisk2
+  components:
+  - type: Sprite
+    noRot: true
+    sprite: DeadSpace/Necromorfs/blackobelisk.rsi
+    layers:
+    - state: active
+      map: [ "enum.DamageStateVisualLayers.Base" ]
+  - type: Necroobelisk
+    sound: /Audio/DeadSpace/Necromorfs/marker_black.ogg
+    stoper: false
+    warn: false
+
+- type: entity
+  parent: StructureObelisk
+  id: StructureObelisk2
+  components:
+  - type: Sprite
+    noRot: true
+    sprite: DeadSpace/Necromorfs/obelisk.rsi
+    layers:
+    - state: active
+      map: [ "enum.DamageStateVisualLayers.Base" ]
+  - type: Necroobelisk
+    warn: false

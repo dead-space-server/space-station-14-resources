@@ -1,9 +1,0 @@
-- type: department
-  id: Silicons
-  name: department-Silicons
-  description: department-Silicons-description
-  color: "#191e9e"
-  roles:
-  - SAI
-  - Borg
-  - BorgSecurity

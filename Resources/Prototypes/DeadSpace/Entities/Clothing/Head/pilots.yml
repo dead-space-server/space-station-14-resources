@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSecurity
   id: ClothingHeadHelmetHardsuitPilot
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: pilot hardsuit helmet
   description: The steering wheel is imprinted in the visor of this helmet.
   components:
@@ -15,7 +15,7 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSecurity
   id: ClothingHeadHelmetHardsuitSecurityPilot
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: security pilot hardsuit helmet
   description: Looks like something that inspires order.
   components:

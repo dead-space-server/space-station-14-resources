@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitFSCP
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: шлем штурмового cкафандра армии КПСК
   description: Бронированный шлем скафандра для нужд армии КПСК.
   components:

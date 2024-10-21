@@ -19,7 +19,6 @@
           availableJobs:
             #service
             Captain: [ 1, 1 ]
-            IAA: [ 1, 1 ]
             HeadOfPersonnel: [ 1, 1 ]
             Bartender: [ 2, 2 ]
             Botanist: [ 3, 3 ]
@@ -46,7 +45,6 @@
             SeniorResearcher: [ 1, 1 ]
             Scientist: [ 4, 4 ]
             ResearchAssistant: [ 4, 4 ]
-            Borg: [ 2, 2 ]
             #security
             HeadOfSecurity: [ 1, 1 ]
             Warden: [ 1, 1 ]
@@ -63,15 +61,19 @@
             Clown: [ 1, 1 ]
             Mime: [ 1, 1 ]
             Musician: [ 1, 1 ]
-            # DS14
-            ADTBlueShieldOfficer: [ 1, 1 ]
-            BorgSecurity: [ 1, 1 ]
+            # law
             Magistrat: [ 1, 1 ]
+            IAA: [ 1, 1 ]
             Lawyer: [ 2, 2 ]
+            # silicon
+            StationAi: [ 1, 1 ]
+            Borg: [ 2, 2 ]
+            BorgSecurity: [ 1, 1 ]
+            # DS14
+            BlueShieldOfficer: [ 1, 1 ]
             Brigmedic: [ 1, 1 ]
             ClownSponsor: [ 0, 2 ]
             Coroner: [ 1, 1 ]
             SeniorSalvageSpecialist: [ 1, 1 ]
             SeniorAdministrator: [ 1, 1 ]
             SecurityPilot: [ 1, 1 ]
-            SAI: [ 1, 1 ] # backmen-SAI

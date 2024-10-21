@@ -435,6 +435,13 @@ ADTClothingBackpackERTLeaderFilledL: null
 # 2024-06-03
 AirlockServiceCaptainLocked: AirlockCaptainLocked
 
+#2024-06-05
+DisasterVictimSpawner: CommandVisitorSpawner
+LostCargoTechnicianSpawner: VisitorCargoTechnicianSpawner
+ClownTroupeSpawner: VisitorClownSpawner
+TravelingChefSpawner: VisitorChefSpawner
+SyndieDisasterVictimSpawner: SyndieVisitorSpawner
+
 # 2024-06-09 - DS14
 ClothingBackpackSatchelClownFilled: ClothingBackpackSatchelClown
 
@@ -504,8 +511,62 @@ FoodMeatHawaiianKebab: FoodKebabSkewer
 FoodMeatKebab: FoodKebabSkewer
 FoodMeatFiestaKebab: FoodKebabSkewer
 
+#2024-08-14
+ClothingBeltSuspenders: ClothingBeltSuspendersRed
+
 # 2024-08-19
 ClothingNeckShockCollar: ClothingBackpackElectropack
 
 #2024-09-01 - DS14
 WeaponDrippenwagenAltIceCrusher: null
+
+# 2024-08-22
+ComputerShuttleSalvage: null
+SalvageShuttleConsoleCircuitboard: null
+SalvageShuttleCircuitboardStealObjective: null
+
+# 2024-08-28
+ClothingBackpackDuffelSyndicateCostumeCentcom: null
+ClothingHeadsetAltCentComFake: null
+CentcomPDAFake: null
+CentcomIDCardSyndie: null
+
+# 2024-09-06
+AntimovCircuitBoard: null
+OverlordCircuitBoard: null
+
+# 2024-09-08
+HatBase: null
+
+# 2024-09-19
+BlueprintFlare: null
+
+# 2024-10-04
+BaseAdvancedPen: Pen
+
+# 2024-10-08 - DS14
+WeaponTurretNanoSAI: WeaponTurretLaserNanoTrasen
+WeaponTurretLaserOnestar: WeaponTurretLaserHostile
+WeaponTurretLaserNanoTrasenAI: WeaponTurretLaserNanoTrasen
+ClothingDeathSquadBackpackFilled: ClothingDeathSquadronBackpack
+ClothingBackpackPsychologistFilled: ClothingBackpackMedical
+ClothingBackpackDuffelPsychologistFilled: ClothingBackpackDuffelMedical
+ClothingBackpackSatchelPsychologistFilled: ClothingBackpackSatchelMedical
+SpawnPointADTBlueShieldOfficer: SpawnPointBlueShieldOfficer
+ADTBlueShieldOfficerIDCard: BlueShieldOfficerIDCard
+ClothingBackpackFilledCentcomRepresentative: ClothingBackpack
+BoxFolderRedFilled: BoxFolderBase
+SpawnPointStationAI: PlayerStationAi
+ADTWeaponPistolX01: WeaponPistolX01
+
+# 2024-10-13 - DS14
+ClothingHandsGlovesDragonFox: null
+
+# 2024-10-18 - DS14
+ADTClothingEyesHudAdvanced: ClothingEyesHudAdvanced
+
+# 2024-10-21 - DS14
+FoodBakedVulpkaninPlate: null
+LootSpawnerContraband: null
+LootSpawnerContrabandHigh: null
+LootSpawnerContrabandLow: null
