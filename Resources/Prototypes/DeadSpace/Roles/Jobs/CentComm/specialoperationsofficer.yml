@@ -42,16 +42,15 @@
   components:
     - type: StorageFill
       contents:
-        - id: BoxSurvival
         - id: RubberStampCentcom
         - id: BoxFolderBlueFilled
 
 - type: entity
   parent: BoxFolderBase
   id: BoxFolderBlueFilled
-  suffix: Blue
   name: папка с секретными документами
   description: Вам точно не следует знать что там написано. В любом случае, текст написан особыми невидимыми чернилами.
+  suffix: НЕ МАППИТЬ, СОБСТВЕННОСТЬ ОСО
   components:
     - type: StorageFill
       contents:

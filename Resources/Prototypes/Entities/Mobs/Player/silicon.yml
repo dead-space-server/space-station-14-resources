@@ -16,6 +16,7 @@
     - Security
     - Service
     - Supply
+    - Law
   - type: ActiveRadio
     channels:
     - Binary
@@ -27,6 +28,7 @@
     - Security
     - Service
     - Supply
+    - Law
   - type: IgnoreUIRange
   - type: StationAiHeld
   - type: StationAiOverlay
@@ -51,13 +53,13 @@
   - type: IntrinsicUI
     uis:
       enum.RadarConsoleUiKey.Key:
-        toggleAction: ActionAGhostShowRadar
+        toggleAction: AIActionAGhostShowRadar
       enum.CrewMonitoringUIKey.Key:
-        toggleAction: ActionAGhostShowCrewMonitoring
+        toggleAction: AIActionAGhostShowCrewMonitoring
       enum.GeneralStationRecordConsoleKey.Key:
-        toggleAction: ActionAGhostShowStationRecords
+        toggleAction: AIActionAGhostShowStationRecords
       enum.CommunicationsConsoleUiKey.Key:
-        toggleAction: ActionAGhostShowCommunications
+        toggleAction: AIActionAGhostShowCommunications
   - type: CrewMonitoringConsole
   - type: GeneralStationRecordConsole
   - type: DeviceNetwork
@@ -71,7 +73,8 @@
     canCallERT: false
     title: comms-console-announcement-title-station-ai
     color: "#2ed2fd"
-
+  - type: TTS
+    voice: Glados
 
 # Ai
 - type: entity

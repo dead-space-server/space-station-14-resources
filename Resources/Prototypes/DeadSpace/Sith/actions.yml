@@ -48,3 +48,27 @@
     range: 8
     icon: DeadSpace/Sith/actions/submission.png
     event: !type:SithSubmissionEvent
+
+- type: entity
+  id: ActionRecallSithEsword
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    useDelay: 1
+    icon:
+      sprite: Objects/Weapons/Melee/energykatana.rsi
+      state: icon
+    itemIconStyle: NoItem
+    event: !type:RecallSithEswordEvent {}
+
+- type: entity
+  id: ActionSithEswordTeleport
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    useDelay: 1
+    icon:
+      sprite: Objects/Weapons/Melee/energykatana.rsi
+      state: icon
+    itemIconStyle: noItem
+    event: !type:SithEswordTeleport {}

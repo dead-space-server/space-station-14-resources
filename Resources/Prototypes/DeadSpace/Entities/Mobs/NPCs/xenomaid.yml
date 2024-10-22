@@ -102,6 +102,7 @@
   - type: Puller
     needsHands: false
   - type: Hands
+  - type: ComplexInteraction
   - type: Perishable #Ummmm the acid kills a lot of the bacteria or something
     molsPerSecondPerUnitMass: 0.0005
   - type: Body

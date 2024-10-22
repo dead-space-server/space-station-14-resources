@@ -6,3 +6,12 @@ ent-ActionSurvCameraLights = Переключить подсветку каме�
     .desc = Включает подсветку камеры наблюдения вблизи места, где вы находитесь.
 ent-ActionAIViewLaws = Просмотреть законы
     .desc = Ознакомьтесь с законами, которым вы должны следовать.
+
+ent-AIActionAGhostShowCommunications = { ent-ActionAGhostShowCommunications }
+    .desc = { ent-ActionAGhostShowCommunications.desc }
+ent-AIActionAGhostShowRadar = { ent-ActionAGhostShowRadar }
+    .desc = { ent-ActionAGhostShowRadar.desc }
+ent-AIActionAGhostShowCrewMonitoring = { ent-ActionAGhostShowCrewMonitoring }
+    .desc = { ent-ActionAGhostShowCrewMonitoring.desc }
+ent-AIActionAGhostShowStationRecords = { ent-ActionAGhostShowStationRecords }
+    .desc = { ent-ActionAGhostShowStationRecords.desc }

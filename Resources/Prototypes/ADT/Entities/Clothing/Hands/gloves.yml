@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: ADTClothingHandsLongRedGloves
-  name: Long Red Gloves
-  description: Silk, soft gloves. Your touch will be remembered by everyone.
+  name: длинные красные перчатки
+  description: Шелковые, мягкие перчатки.
   components:
   - type: Sprite
     sprite: ADT/Clothing/Hands/Gloves/long-red-gloves.rsi
@@ -15,8 +15,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: ADTClothingHandsRabbitGloves
-  name: Rabbit Gloves
-  description: Shhh. Furry.
+  name: кроличьи перчатки
+  description: Ох. Фурри.
   components:
   - type: Sprite
     sprite: ADT/Clothing/Hands/Gloves/rabbit_gloves.rsi

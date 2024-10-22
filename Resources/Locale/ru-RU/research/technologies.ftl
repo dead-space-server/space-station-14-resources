@@ -13,6 +13,7 @@ research-technology-power-generation = Генерация электроэнер
 research-technology-atmospheric-tech = Атмосферные технологии
 research-technology-shuttlecraft = Шаттлостроение
 research-technology-ripley-aplu = Рипли АВП
+research-technology-hud = Технология визоров
 research-technology-advanced-atmospherics = Продвинутые атмос-технологии
 research-technology-advanced-tools = Продвинутые инструменты
 research-technology-super-powercells = Супербатареи
