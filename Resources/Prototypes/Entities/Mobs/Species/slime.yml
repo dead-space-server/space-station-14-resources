@@ -90,7 +90,7 @@
         scaleByQuantity: true
         damage:
           types:
-            Heat: 0.1
+            Heat: 1
       - !type:PopupMessage
         type: Local
         visualType: Large

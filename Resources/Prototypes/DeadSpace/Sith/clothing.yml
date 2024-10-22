@@ -42,7 +42,6 @@
   id: ClothingShoesBootsSith
   parent: ClothingShoesBootsCombatFilled
   components:
-  - type: NoSlip
   - type: Sprite
     sprite: DeadSpace/Sith/bondrewd_boots.rsi
   - type: Clothing
@@ -127,6 +126,6 @@
         Piercing: 0.65
         Caustic: 0.6
   - type: ClothingSpeedModifier
-    walkModifier: 1.05
-    sprintModifier: 1.05
+    walkModifier: 1
+    sprintModifier: 1
   - type: HeldSpeedModifier

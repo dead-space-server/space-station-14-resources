@@ -24,6 +24,7 @@
     id: CentcomOperatorPDA
     ears: ClothingHeadsetCentCom
     neck: ClothingNeckTieDet
+    belt: BoxFolderCentComClipboard
     pocket1: RubberStampCentcom
     pocket2: ClothingMaskGasCentcom
   #   underwearb: ClothingUnderwearBottomBoxersCentcomm # DS14-Underwear

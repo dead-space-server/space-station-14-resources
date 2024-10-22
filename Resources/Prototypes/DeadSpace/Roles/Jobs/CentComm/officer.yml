@@ -16,7 +16,7 @@
 - type: startingGear
   id: CentcomOfficerGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitCentcomOfficer
+    jumpsuit: ADTClothingUniformTurleneckGreenBlack
     back: ClothingBackpack
     shoes: ClothingShoesBootsJack
     outerClothing: ClothingOuterVestWeb

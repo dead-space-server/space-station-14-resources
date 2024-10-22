@@ -1,4 +1,4 @@
-roles-antag-sith-name = Ситх
+roles-antag-sith-name = Ренегат
 roles-antag-sith-objective = С помощью силы вы можете уничтожить импланты защиты разума. Подчините кмандование станции.
 
 sith-break-control = { $name } { $gender ->
@@ -13,12 +13,11 @@ sith-sub-name-user = [color=#5e9cff]{ $name }[/color] ([color=gray]{ $username }
        *[other] членов
     } командования
 
-sith-round-end-agent-name = Ситх
-objective-issuer-sith = [color=#33cc00]Орден Ностор[/color]
+sith-round-end-agent-name = Ренегат
+objective-issuer-sith = [color=#ff0000]Орден Ностор[/color]
 sith-role-greeting =
     Я — верный слуга бога Ренды, воин ордена Ностор.
     Гнев — моё оружие. Сила — моя броня. Без них я ничто.
-
     Захватите станцию, подчиняя глав с помощью силы, после вызовете шаттл эвакуации. 
     Очистись или умри, пытаясь!
 

@@ -17,6 +17,7 @@
   id: CentcomGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitCentcomOfficial
+    back: ClothingBackpackSatchelOfficial
     shoes: ClothingShoesBootsLaceup
     head: ClothingHeadHatCentcom
     eyes: ClothingEyesGlassesSunglasses
@@ -34,3 +35,9 @@
   # storage:
   #   back:
   #   - 
+
+- type: entity
+  parent: ClothingBackpackSatchelHoS
+  id: ClothingBackpackSatchelOfficial
+  name: чёрная сумка
+  description: Стильная чёрная кожаная сумка.
