@@ -110,9 +110,16 @@
   description: A ballistic riot shield built for withstanding bullets, but not much else.
   components:
     - type: Sprite
-      state: riot_bullet-icon
+      sprite: Objects/Weapons/Melee/riot_bullet-shield.rsi
+      state: icon
     - type: Item
-      heldPrefix: riot_bullet
+      sprite: Objects/Weapons/Melee/riot_bullet-shield.rsi
+      heldPrefix: icon
+    - type: Clothing
+      sprite: Objects/Weapons/Melee/riot_bullet-shield.rsi
+      quickEquip: false
+      slots:
+      - suitStorage
     - type: Blocking
       passiveBlockModifier:
         coefficients:
