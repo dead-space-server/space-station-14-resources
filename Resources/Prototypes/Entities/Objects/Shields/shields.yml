@@ -90,9 +90,16 @@
   description: A riot shield built for withstanding lasers, but not much else.
   components:
     - type: Sprite
-      state: riot_laser-icon
+      sprite: Objects/Weapons/Melee/riot_laser-shield.rsi
+      state: icon
     - type: Item
-      heldPrefix: riot_laser
+      sprite: Objects/Weapons/Melee/riot_laser-shield.rsi
+      heldPrefix: icon
+    - type: Clothing
+      sprite: Objects/Weapons/Melee/riot_laser-shield.rsi
+      quickEquip: false
+      slots:
+      - suitStorage
     - type: Blocking
       passiveBlockModifier:
         coefficients:
