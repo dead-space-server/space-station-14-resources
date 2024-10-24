@@ -36,7 +36,7 @@
     makeSentient: true
     name: ghost-role-information-revenant-name
     description: ghost-role-information-revenant-description
-    rules: ghost-role-information-antagonist-rules
+    rules: ghost-role-information-revenant-rules
     raffle:
       settings: default
   - type: GhostTakeoverAvailable

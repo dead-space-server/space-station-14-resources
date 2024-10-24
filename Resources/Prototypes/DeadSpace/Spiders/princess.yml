@@ -12,7 +12,7 @@
     baseWalkSpeed: 2
     baseSprintSpeed: 2
   - type: Sprite
-    scale: 2, 2
+    scale: 1.5, 1.5
     drawdepth: Mobs
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
@@ -50,20 +50,20 @@
     bloodlossThreshold: 0.4
   - type: SpawnAgainst
     duration: 30
-    spawnAgainstAction: ActionSpawnAgainst #действие
+    spawnAgainstAction: ActionSpawnAgainst
     spawnedEntities:
-      - CocoonSpider #Что спавнить
+      - CocoonSpider # Что спавнить
     spawnSound:
-      collection: SpiderHatches #Звуки спавна
+      collection: SpiderHatches # Звуки спавна
   - type: Bloodsucker
-    maxCountReagent: 500 #Емкость
-    countReagent: 500 #Сколько реагента при спавне
-    duration: 2 #Длительность сосания
-    howMuchWillItSuck: 20 #Сколько высосет за один укус
+    maxCountReagent: 500 # Ёмкость
+    countReagent: 500 # Сколько реагента при спавне
+    duration: 2 # Длительность сосания
+    howMuchWillItSuck: 20 # Сколько высосет за один укус
     injectSound:
-      collection: SpiderHatches #Звуки после высасывания
-  - type: NeededBloodForSpawnAgainst #Пример
-    defaultCost: 50 #Стандартная цена на не заданный результат
+      collection: SpiderHatches # Звуки после высасывания
+  - type: NeededBloodForSpawnAgainst # Пример
+    defaultCost: 50 # Стандартная цена на не заданный результат
   - type: Puller
     needsHands: false
   - type: SpideKing

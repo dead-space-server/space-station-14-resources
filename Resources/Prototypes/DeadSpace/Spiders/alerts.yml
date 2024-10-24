@@ -45,12 +45,12 @@
   - sprite: /Textures/DeadSpace/Spiders/vampire_hunger.rsi
     state: blood100
   name: Кровь
-  description: Если вы не будете поглощать кровь, вы не сможете использовать свои способности.
+  description: Показывает процент крови. Если вы не будете поглощать кровь, вы не сможете использовать свои способности.
   minSeverity: 0
   maxSeverity: 20
 
 - type: alert
   id: SpiderGuard
   icons: [ /Textures/DeadSpace/Spiders/guardian/guard.png ]
-  name: на защите!
-  description: вы охраняете королевскую особу.
+  name: На защите!
+  description: Вы охраняете королевскую особу.

@@ -28,12 +28,12 @@
   - type: Appearance
   - type: Egg
     eggSound:
-      collection: SpiderHatches #Звуки яйца
-    duration: 360 #Время до вылупления
-    durationPlayEggSound: 10 #Интервалы между звуками яйца
+      collection: SpiderHatches # Звуки яйца
+    duration: 360 # Время до вылупления
+    durationPlayEggSound: 10 # Интервалы между звуками яйца
     spawned:
-    - id: MobSpiderTerrorGuardian #Что вылупилось
-      amount: 2 #Колличество
+    - id: MobSpiderTerrorGuardian # Что вылупилось
+      amount: 2 # Колличество
 
 - type: entity
   name: королевский паучий кокон
@@ -65,12 +65,12 @@
   - type: Appearance
   - type: Egg
     eggSound:
-      collection: SpiderHatches #Звуки яйца
-    duration: 360 #Время до вылупления
-    durationPlayEggSound: 10 #Интервалы между звуками яйца
+      collection: SpiderHatches # Звуки яйца
+    duration: 360 # Время до вылупления
+    durationPlayEggSound: 10 # Интервалы между звуками яйца
     spawned:
-    - id: MobSpiderTerrorGuardianKingBlood #Что вылупилось
-      amount: 1 #Колличество
+    - id: MobSpiderTerrorGuardianKingBlood # Что вылупилось
+      amount: 1 # Колличество
 
 - type: entity
   id: SpiderCocoon

@@ -1,5 +1,5 @@
 - type: entity
-  name: паук войн
+  name: паук воин
   parent: BaseMobSpiderTerror
   id: MobSpiderTerrorWarrior
   description: Прочный, выглядит пугающе.
@@ -51,22 +51,22 @@
   - type: Puller
     needsHands: false
   - type: Bloodsucker
-    maxCountReagent: 200 #Емкость
-    countReagent: 0 #Сколько реагента при спавне
-    duration: 2 #Длительность сосания
-    howMuchWillItSuck: 20 #Сколько высосет за один укус
+    maxCountReagent: 200 # Емкость
+    countReagent: 0 # Сколько реагента при спавне
+    duration: 2 # Длительность сосания
+    howMuchWillItSuck: 20 # Сколько высосет за один укус
     injectSound:
-      collection: SpiderHatches #Звуки после высасывания
+      collection: SpiderHatches # Звуки после высасывания
   - type: Evolution
-    duration: 360 #Время до получения возможности эволюционировать
-    spawnedEntities: #В кого можно эволюционировать
+    duration: 360 # Время до получения возможности эволюционировать
+    spawnedEntities: # В кого можно эволюционировать
       - MobSpiderTerrorKnight
       - MobSpiderTerrorVdova
       - MobSpiderTerrorReaper
       - MobSpiderTerrorInfector
-  - type: NeededBloodForEvolution #Пример
-    defaultCost: 200 #Стандартная цена на не заданный результат
-    bloodCosts: #цены
+  - type: NeededBloodForEvolution # Пример
+    defaultCost: 200 # Стандартная цена на не заданный результат
+    bloodCosts:
       MobSpiderTerrorKnight: 150
       MobSpiderTerrorVdova: 150
       MobSpiderTerrorReaper: 200
@@ -124,10 +124,10 @@
   - type: Puller
     needsHands: false
   - type: Bloodsucker
-    maxCountReagent: 100 #Емкость
-    countReagent: 30 #Сколько реагента при спавне
-    duration: 2 #Длительность сосания
-    howMuchWillItSuck: 20 #Сколько высосет за один укус
+    maxCountReagent: 100 # Ёмкость
+    countReagent: 30 # Сколько реагента при спавне
+    duration: 2 # Длительность сосания
+    howMuchWillItSuck: 20 # Сколько высосет за один укус
     injectSound:
-      collection: SpiderHatches #Звуки после высасывания
+      collection: SpiderHatches # Звуки после высасывания
   - type: SpiderKnight

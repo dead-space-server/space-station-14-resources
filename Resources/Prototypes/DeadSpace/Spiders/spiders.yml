@@ -34,7 +34,7 @@
     - id: FoodMeatSpider
       amount: 1
   - type: Sprite
-    scale: 0.5, 0.5
+    scale: 0.65, 0.65
     drawdepth: SmallMobs
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
@@ -100,9 +100,9 @@
   - type: Puller
   - type: GhostRole
     makeSentient: true
-    name: Паук
-    description: Защитите свою принцессу
-    rules: Вы антагонист
+    name: Паук страж ужаса
+    description: Защитите свою принцессу.
+    rules: ghost-role-information-rules-team-antagonist
   - type: GhostTakeoverAvailable
   - type: Vocal
     sounds:
@@ -169,31 +169,31 @@
   description: Маленький ядовитый паучок.
   components:
   - type: Sprite
-    scale: 0.5, 0.5
+    scale: 0.65, 0.65
     drawdepth: SmallMobs
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: running
       sprite: DeadSpace/Spiders/pauchok_major_terror.rsi
   - type: Evolution
-    duration: 100 #Время до получения возможности эволюционировать
-    spawnedEntities: #В кого можно эволюционировать
+    duration: 100 # Время до получения возможности эволюционировать
+    spawnedEntities: # В кого можно эволюционировать
       - MobSpiderTerrorRoyalGuard
       - MobSpiderTerrorPrincess
   - type: Bloodsucker
-    maxCountReagent: 150 #Емкость
-    countReagent: 0 #Сколько реагента при спавне
-    duration: 2 #Длительность сосания
-    howMuchWillItSuck: 10 #Сколько высосет за один укус
+    maxCountReagent: 150 # Ёмкость
+    countReagent: 0 # Сколько реагента при спавне
+    duration: 2 # Длительность сосания
+    howMuchWillItSuck: 10 # Сколько высосет за один укус
     injectSound:
-      collection: SpiderHatches #Звуки после высасывания
+      collection: SpiderHatches # Звуки после высасывания
   - type: GhostRole
     name: Паук королевской крови
-    description: Паук Ужаса.
-    rules: Вы антагонист.
+    description: Паук ужаса
+    rules: ghost-role-information-rules-team-antagonist
   - type: NeededBloodForEvolution #Пример
-    defaultCost: 100 #Стандартная цена на не заданный результат
-    bloodCosts: #цены
+    defaultCost: 100 # Стандартная цена на не заданный результат
+    bloodCosts: # Цены
       MobSpiderTerrorRoyalGuard: 100
       MobSpiderTerrorPrincess: 150
 
@@ -204,29 +204,29 @@
   description: Маленький ядовитый паучок.
   components:
   - type: Sprite
-    scale: 0.5, 0.5
+    scale: 0.65, 0.65
     drawdepth: SmallMobs
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: running
       sprite: DeadSpace/Spiders/pauchok_major_terror.rsi
   - type: Evolution
-    duration: 300 #Время до получения возможности эволюционировать
-    spawnedEntities: #В кого можно эволюционировать
+    duration: 300 # Время до получения возможности эволюционировать
+    spawnedEntities: # В кого можно эволюционировать
       - MobSpiderTerrorKing
   - type: Bloodsucker
-    maxCountReagent: 200 #Емкость
-    countReagent: 0 #Сколько реагента при спавне
-    duration: 2 #Длительность сосания
-    howMuchWillItSuck: 10 #Сколько высосет за один укус
+    maxCountReagent: 200 # Ёмкость
+    countReagent: 0 # Сколько реагента при спавне
+    duration: 2 # Длительность сосания
+    howMuchWillItSuck: 10 # Сколько высосет за один укус
     injectSound:
-      collection: SpiderHatches #Звуки после высасывания
+      collection: SpiderHatches # Звуки после высасывания
   - type: NeededBloodForEvolution #Пример
-    defaultCost: 200 #Стандартная цена на не заданный результат
+    defaultCost: 200 # Стандартная цена на не заданный результат
   - type: GhostRole
-    name: Героический паук королевской крови
+    name: Героический паук ужаса королевской крови
     description: Паук Ужаса.
-    rules: Вы антагонист.
+    rules: ghost-role-information-rules-team-antagonist
 
 - type: entity
   name: паук страж
@@ -249,21 +249,21 @@
       groups:
         Brute: 10
   - type: Evolution
-    duration: 150 #Время до получения возможности эволюционировать
-    spawnedEntities: #В кого можно эволюционировать
+    duration: 150 # Время до получения возможности эволюционировать
+    spawnedEntities: # В кого можно эволюционировать
       - MobSpiderTerrorWarrior
       - MobSpiderTerrorDrone
       - MobSpiderTerrorMedic
   - type: Bloodsucker
-    maxCountReagent: 50 #Емкость
-    countReagent: 0 #Сколько реагента при спавне
-    duration: 2 #Длительность сосания
-    howMuchWillItSuck: 10 #Сколько высосет за один укус
+    maxCountReagent: 50 # Ёмкость
+    countReagent: 0 # Сколько реагента при спавне
+    duration: 2 # Длительность сосания
+    howMuchWillItSuck: 10 # Сколько высосет за один укус
     injectSound:
-      collection: SpiderHatches #Звуки после высасывания
+      collection: SpiderHatches # Звуки после высасывания
   - type: NeededBloodForEvolution #Пример
-    defaultCost: 100 #Стандартная цена на не заданный результат
-    bloodCosts: #цены
+    defaultCost: 100 # Стандартная цена на не заданный результат
+    bloodCosts: # Цены
       MobSpiderTerrorWarrior: 50
       MobSpiderTerrorDrone: 50
       MobSpiderTerrorMedic: 50
@@ -288,20 +288,20 @@
         layer:
         - MobLayer
   - type: Evolution
-    duration: 100 #Время до получения возможности эволюционировать
-    spawnedEntities: #В кого можно эволюционировать
+    duration: 100 # Время до получения возможности эволюционировать
+    spawnedEntities: # В кого можно эволюционировать
       - MobSpiderTerrorDestroyer
       - MobSpiderTerrorLurker
   - type: Bloodsucker
-    maxCountReagent: 100 #Емкость
-    countReagent: 0 #Сколько реагента при спавне
-    duration: 2 #Длительность сосания
-    howMuchWillItSuck: 10 #Сколько высосет за один укус
+    maxCountReagent: 100 # Ёмкость
+    countReagent: 0 # Сколько реагента при спавне
+    duration: 2 # Длительность сосания
+    howMuchWillItSuck: 10 # Сколько высосет за один укус
     injectSound:
-      collection: SpiderHatches #Звуки после высасывания
+      collection: SpiderHatches # Звуки после высасывания
   - type: NeededBloodForEvolution #Пример
-    defaultCost: 100 #Стандартная цена на не заданный результат
-    bloodCosts: #цены
+    defaultCost: 100 # Стандартная цена на не заданный результат
+    bloodCosts: # Цены
       MobSpiderTerrorDestroyer: 100
       MobSpiderTerrorLurker: 100
   - type: Sprite
@@ -361,11 +361,11 @@
     bloodMaxVolume: 180
     bloodlossThreshold: 0.4
   - type: HipoHand
-    quantity: 5 #Сколько впрыскивать
-    countReagent: 20 #Сколько при спавне
+    quantity: 5 # Сколько впрыскивать
+    countReagent: 20 # Сколько при спавне
     maxCountReagent: 20 #Хранилище реагента
-    durationRegenReagent: 10 #Время регена
-    reagent: Omnizine #Что в хранилище
+    durationRegenReagent: 10 # Время регена
+    reagent: Omnizine # Что в хранилище
   - type: Puller
     needsHands: false
   - type: SpawnAgainst
@@ -374,14 +374,14 @@
     spawnedEntities:
       - JeleSpider
   - type: Bloodsucker
-    maxCountReagent: 50 #Емкость
-    countReagent: 50 #Сколько реагента при спавне
-    duration: 2 #Длительность сосания
-    howMuchWillItSuck: 10 #Сколько высосет за один укус
+    maxCountReagent: 50 # Ёмкость
+    countReagent: 50 # Сколько реагента при спавне
+    duration: 2 # Длительность сосания
+    howMuchWillItSuck: 10 # Сколько высосет за один укус
     injectSound:
-      collection: SpiderHatches #Звуки после высасывания
+      collection: SpiderHatches # Звуки после высасывания
   - type: NeededBloodForSpawnAgainst #Пример
-    defaultCost: 5 #Стандартная цена на не заданный результат
+    defaultCost: 5 # Стандартная цена на не заданный результат
   - type: ShowHealthBars
     damageContainers:
     - Biological
@@ -451,21 +451,21 @@
     spawnedEntities:
       - WallWebSpiderTerror
       - AirlockWebTerror
-    duration: 10 #Время спавна
+    duration: 10 # Время спавна
     spawnSound:
-      collection: SpiderHatches #Звуки спавна
+      collection: SpiderHatches # Звуки спавна
   - type: Puller
     needsHands: false
   - type: Bloodsucker
-    maxCountReagent: 100 #Емкость
-    countReagent: 0 #Сколько реагента при спавне
-    duration: 2 #Длительность сосания
-    howMuchWillItSuck: 10 #Сколько высосет за один укус
+    maxCountReagent: 100 # Ёмкость
+    countReagent: 0 # Сколько реагента при спавне
+    duration: 2 # Длительность сосания
+    howMuchWillItSuck: 10 # Сколько высосет за один укус
     injectSound:
-      collection: SpiderHatches #Звуки после высасывания
+      collection: SpiderHatches # Звуки после высасывания
   - type: NeededBloodForSpawnAgainst #Пример
-    defaultCost: 5 #Стандартная цена на не заданный результат
-    bloodCosts: #цены
+    defaultCost: 5 # Стандартная цена на не заданный результат
+    bloodCosts: # Цены
       WallWebSpiderTerror: 5
       AirlockWebTerror: 5
   - type: Gun
@@ -587,23 +587,23 @@
     bloodMaxVolume: 250
     bloodlossThreshold: 0.4
   - type: Bloodsucker
-    maxCountReagent: 100 #Емкость
-    countReagent: 50 #Сколько реагента при спавне
-    duration: 2 #Длительность сосания
-    howMuchWillItSuck: 10 #Сколько высосет за один укус
+    maxCountReagent: 100 # Ёмкость
+    countReagent: 50 # Сколько реагента при спавне
+    duration: 2 # Длительность сосания
+    howMuchWillItSuck: 10 # Сколько высосет за один укус
     injectSound:
-      collection: SpiderHatches #Звуки после высасывания
+      collection: SpiderHatches # Звуки после высасывания
   - type: Puller
     needsHands: false
   - type: Invisibility
   - type: NeededBloodForInvisibility
     costPerSecond: 1
   - type: HipoBite
-    quantity: 5 #Сколько впрыскивать
-    countReagent: 10 #Сколько при спавне
+    quantity: 5 # Сколько впрыскивать
+    countReagent: 10 # Сколько при спавне
     maxCountReagent: 10 #Хранилище реагента
-    durationRegenReagent: 30 #Время регена
-    reagent: Toxin #Что в хранилище
+    durationRegenReagent: 30 # Время регена
+    reagent: Toxin # Что в хранилище
 
 - type: entity
   name: паук жнец
@@ -657,32 +657,32 @@
     bloodMaxVolume: 250
     bloodlossThreshold: 0.4
   - type: Bloodsucker
-    maxCountReagent: 90 #Емкость
-    countReagent: 30 #Сколько реагента при спавне
-    duration: 2 #Длительность сосания
-    howMuchWillItSuck: 10 #Сколько высосет за один укус
+    maxCountReagent: 90 # Ёмкость
+    countReagent: 30 # Сколько реагента при спавне
+    duration: 2 # Длительность сосания
+    howMuchWillItSuck: 10 # Сколько высосет за один укус
     injectSound:
-      collection: SpiderHatches #Звуки после высасывания
+      collection: SpiderHatches # Звуки после высасывания
   - type: Puller
     needsHands: false
   - type: AutoInjectReagent
-    reagents: #Что впрыскивать
+    reagents: # Что впрыскивать
       Stimulants: 5
       SpiderReaperExtract: 10
       Bicaridine: 10
       TranexamicAcid: 2
-  - type: AutoInjectReagentOnAllowedState #Автоиньектор при смене состояния сущности
-    durationRegenReagents: 120 #кд способности
-    allowedStates: #При каких состояниях
+  - type: AutoInjectReagentOnAllowedState # Автоиньектор при смене состояния сущности
+    durationRegenReagents: 120 # КД способности
+    allowedStates: # При каких состояниях
     - Critical
-    reagents: #Что впрыскивать
+    reagents: # Что впрыскивать
       DexalinPlus: 5
       Epinephrine: 5
       Puncturase: 5
       Omnizine: 10
       TranexamicAcid: 10
   - type: NeededBloodForAutoInject
-    cost: 20 #Цена крови за действие
+    cost: 20 # Цена крови за действие
 
 - type: entity
   name: король пауков
@@ -698,15 +698,15 @@
       - WallWebSpiderTerror
       - AirlockWebTerror
   - type: Bloodsucker
-    maxCountReagent: 200 #Емкость
-    countReagent: 200 #Сколько реагента при спавне
-    duration: 2 #Длительность сосания
-    howMuchWillItSuck: 20 #Сколько высосет за один укус
+    maxCountReagent: 200 # Ёмкость
+    countReagent: 200 # Сколько реагента при спавне
+    duration: 2 # Длительность сосания
+    howMuchWillItSuck: 20 # Сколько высосет за один укус
     injectSound:
-      collection: SpiderHatches #Звуки после высасывания
+      collection: SpiderHatches # Звуки после высасывания
   - type: NeededBloodForSpawnAgainst #Пример
-    defaultCost: 50 #Стандартная цена на не заданный результат
-    bloodCosts: #цены
+    defaultCost: 50 # Стандартная цена на не заданный результат
+    bloodCosts: # Цены
       SpiderTomb: 100
       WallWebSpiderTerror: 5
       AirlockWebTerror: 5
@@ -758,12 +758,12 @@
     bloodlossThreshold: 0.4
   - type: StunRadius
     actionStunRadius: ActionStunRadiusSpider
-    paralyzeTime: 3 #Время стана
-    launchForwardsMultiplier: 1 #Длинна слодьжения после стана
-    rangeStun: 5 #Радиус способности
-    ignorAlien: true #Не трогать союзников
+    paralyzeTime: 3 # Время стана
+    launchForwardsMultiplier: 1 # Длинна слодьжения после стана
+    rangeStun: 5 # Радиус способности
+    ignorAlien: true # Не трогать союзников
     stunRadiusSound:
-      path: /Audio/Animals/space_dragon_roar.ogg #Звуки способности
+      path: /Audio/Animals/space_dragon_roar.ogg # Звуки способности
   - type: Puller
     needsHands: false
   - type: SpideKing
@@ -829,7 +829,7 @@
   name: переносчик заразы
   parent: BaseMobSpiderTerror
   id: MobSpiderTerrorInfector
-  description: Паук, распространитель заразы.
+  description: Паук, распространитель яиц пауков ужаса.
   components:
   - type: Sprite
     scale: 0.6, 0.6

@@ -561,12 +561,9 @@ ADTWeaponPistolX01: WeaponPistolX01
 
 # 2024-10-13 - DS14
 ClothingHandsGlovesDragonFox: null
-
-# 2024-10-18 - DS14
 ADTClothingEyesHudAdvanced: ClothingEyesHudAdvanced
-
-# 2024-10-21 - DS14
 FoodBakedVulpkaninPlate: null
 LootSpawnerContraband: null
 LootSpawnerContrabandHigh: null
 LootSpawnerContrabandLow: null
+BoxFolderWhiteFilled: null
