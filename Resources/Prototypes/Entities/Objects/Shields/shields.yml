@@ -305,9 +305,16 @@
   description: Ratvar oyrffrf lbh jvgu uvf cebgrpgvba.
   components:
     - type: Sprite
-      state: ratvarian-icon
+      sprite: Objects/Weapons/Melee/ratvarian-shield.rsi
+      state: icon
     - type: Item
-      heldPrefix: ratvarian
+      sprite: Objects/Weapons/Melee/ratvarian-shield.rsi
+      heldPrefix: icon
+    - type: Clothing
+      sprite: Objects/Weapons/Melee/ratvarian-shield.rsi
+      quickEquip: false
+      slots:
+      - suitStorage
     - type: Blocking
       passiveBlockModifier:
         coefficients:
