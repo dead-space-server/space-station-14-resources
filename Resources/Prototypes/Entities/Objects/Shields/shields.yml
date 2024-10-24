@@ -6,12 +6,12 @@
   abstract: true
   components:
     - type: Sprite
-      sprite: Objects/Weapons/Melee/shields.rsi
-      state: riot-icon
+      sprite: Objects/Weapons/Melee/riot-shield.rsi
+      state: icon
     - type: Item
-      sprite: Objects/Weapons/Melee/shields.rsi
+      sprite: Objects/Weapons/Melee/riot-shield.rsi
+      heldPrefix: icon
       size: Ginormous
-      heldPrefix: riot
     - type: Blocking
       passiveBlockModifier:
         coefficients:
@@ -70,6 +70,11 @@
   components:
     - type: StaticPrice
       price: 90
+    - type: Clothing
+      sprite: Objects/Weapons/Melee/riot-shield.rsi
+      quickEquip: false
+      slots:
+      - suitStorage
     - type: Blocking
       passiveBlockModifier:
         coefficients:
