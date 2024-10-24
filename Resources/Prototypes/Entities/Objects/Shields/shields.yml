@@ -134,9 +134,16 @@
   description: A small round wooden makeshift shield.
   components:
     - type: Sprite
-      state: buckler-icon
+      sprite: Objects/Weapons/Melee/buckler-shield.rsi
+      state: icon
     - type: Item
-      heldPrefix: buckler
+      sprite: Objects/Weapons/Melee/buckler-shield.rsi
+      heldPrefix: icon
+    - type: Clothing
+      sprite: Objects/Weapons/Melee/buckler-shield.rsi
+      quickEquip: false
+      slots:
+      - suitStorage
     - type: Blocking
       passiveBlockModifier:
         coefficients:
