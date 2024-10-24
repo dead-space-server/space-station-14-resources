@@ -5,7 +5,7 @@
   description: Sends your eye back to the core.
   components:
   - type: InstantAction
-    priority: -9
+    priority: -8
     itemIconStyle: BigAction
     icon:
       sprite: Interface/Actions/actions_ai.rsi
@@ -18,7 +18,7 @@
   description: Shows job icons for crew members.
   components:
   - type: InstantAction
-    priority: -3
+    priority: -2
     itemIconStyle: BigAction
     icon:
       sprite: Interface/Actions/actions_ai.rsi
@@ -33,7 +33,7 @@
   description: Enable surveillance camera lights near wherever you're viewing.
   components:
   - type: InstantAction
-    priority: -8
+    priority: -7
     itemIconStyle: BigAction
     icon:
       sprite: Interface/Actions/actions_ai.rsi
@@ -59,7 +59,7 @@
   description: View the laws that you must follow.
   components:
   - type: InstantAction
-    priority: -4
+    priority: -3
     itemIconStyle: NoItem
     icon:
       sprite: Interface/Actions/actions_ai.rsi
@@ -86,7 +86,7 @@
     icon:
       sprite: Interface/Actions/actions_ai.rsi
       state: crew_monitor
-    priority: -7
+    priority: -6
     event: !type:ToggleIntrinsicUIEvent { key: enum.CrewMonitoringUIKey.Key }
 
 - type: entity
@@ -97,7 +97,7 @@
     icon:
       sprite: Interface/Actions/actions_ai.rsi
       state: station_records
-    priority: -6
+    priority: -5
     event: !type:ToggleIntrinsicUIEvent { key: enum.GeneralStationRecordConsoleKey.Key }
 
 - type: entity
@@ -108,5 +108,16 @@
     icon:
       sprite: Interface/Actions/actions_ai.rsi
       state: mass_scanner
-    priority: -5
+    priority: -4
     event: !type:ToggleIntrinsicUIEvent { key: enum.RadarConsoleUiKey.Key }
+
+- type: entity
+  id: AIEyeCamAction
+  components:
+  - type: InstantAction
+    itemIconStyle: BigAction
+    icon:
+      sprite: Interface/Actions/actions_ai.rsi
+      state: camera
+    priority: -9
+    event: !type:AIEyeCamerasActionEvent

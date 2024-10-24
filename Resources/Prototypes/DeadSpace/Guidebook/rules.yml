@@ -241,7 +241,7 @@
   text: "/ServerInfo/DeadSpace/Guidebook/ServerRules/DeadSpaceDefaultRule91.xml"
 
 - type: guideEntry
-  id: DeadSpaceDefaultRule91
+  id: DeadSpaceDefaultRule92
   name: Правило 9.2
   priority: 31
   ruleEntry: true

@@ -28,7 +28,7 @@
   objective: roles-antag-spider-terror-quin-objective
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 345600 # 4 суток
+      time: 345600 # 4 days
 
 - type: antag
   id: SpiderTerrorKing
@@ -38,7 +38,7 @@
   objective: roles-antag-spider-terror-king-objective
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 345600 # 4 суток
+      time: 345600 # 4 days
 
 - type: antag
   id: SpiderTerrorKingBlood
@@ -71,7 +71,7 @@
       - type: Egg
         duration: 650
         spawned:
-        - id: MobSpiderTerrorQuin
+        - id: MobSpiderTerrorQueen
           amount: 1
       - type: NpcFactionMember
         factions:
@@ -91,7 +91,7 @@
         duration: 600
         spawned:
         - id: MobSpiderTerrorGuardianHeroicKingBlood
-          amount: 1 #Колличество
+          amount: 1 # Колличество
       - type: NpcFactionMember
         factions:
         - SpiderTerror
@@ -111,7 +111,7 @@
         duration: 700
         spawned:
         - id: MobSpiderTerrorGuardianKingBlood
-          amount: 1 #Колличество
+          amount: 1 # Колличество
       mindRoles:
       - MindRoleSpiderTettorKingBlood
 
@@ -142,12 +142,12 @@
   parent: CargoGiftsBase
   components:
   - type: StationEvent
-    weight: 3
+    weight: 0
     duration: 120
     earliestStart: 20
     minimumPlayers: 50
   - type: CargoGiftsRule
-    description: cargo-gift-security-guns
+    description: cargo-gift-spider-terror-guns
     dest: cargo-gift-dest-sec
     gifts:
       CrateKarachnocidGrenadeProduct: 1
@@ -161,12 +161,12 @@
   parent: CargoGiftsBase
   components:
   - type: StationEvent
-    weight: 8
+    weight: 0
     duration: 120
     earliestStart: 20
     minimumPlayers: 30
   - type: CargoGiftsRule
-    description: cargo-gift-medical-supply
+    description: cargo-gift-spider-terror-medical-supply
     dest: cargo-gift-dest-med
     gifts:
       MedicalSupplies: 4

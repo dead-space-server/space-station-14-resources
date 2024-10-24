@@ -2,7 +2,7 @@
   parent: BaseItem
   id: JeleSpider
   name: паучье желе
-  description: Склизкое.
+  description: Склизкое желе которое содержит экстракт пауков ужаса излечивающий их.
   components:
   - type: Sprite
     sprite: DeadSpace/Spiders/jelespider.rsi

@@ -1,12 +1,12 @@
 - type: entity
   name: королева пауков
   parent: BaseMobSpiderTerror
-  id: MobSpiderTerrorQuin
+  id: MobSpiderTerrorQueen
   suffix: уровень 1
   description: Выглядит величественно.
   components:
   - type: Sprite
-    scale: 0.5, 0.5
+    scale: 0.65, 0.65
     drawdepth: SmallMobs
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
@@ -46,15 +46,15 @@
     bloodMaxVolume: 250
     bloodlossThreshold: 0.4
   - type: Evolution
-    duration: 360 #Время до получения возможности эволюционировать
-    spawnedEntities: #В кого можно эволюционировать
-      - MobSpiderTerrorQuinLvl2
+    duration: 360 # Время до получения возможности эволюционировать
+    spawnedEntities: # В кого можно эволюционировать
+      - MobSpiderTerrorQueenLvl2
   - type: SpideKing
 
 - type: entity
   name: королева пауков
   parent: BaseMobSpiderTerror
-  id: MobSpiderTerrorQuinLvl2
+  id: MobSpiderTerrorQueenLvl2
   suffix: уровень 2
   description: Выглядит величественно.
   components:
@@ -99,34 +99,34 @@
     bloodMaxVolume: 250
     bloodlossThreshold: 0.4
   - type: Evolution
-    duration: 500 #Время до получения возможности эволюционировать
-    spawnedEntities: #В кого можно эволюционировать
-      - MobSpiderTerrorQuinLvl3
+    duration: 500 # Время до получения возможности эволюционировать
+    spawnedEntities: # В кого можно эволюционировать
+      - MobSpiderTerrorQueenLvl3
   - type: SpawnAgainst
     duration: 60
-    spawnAgainstAction: ActionSpawnAgainst #действие
+    spawnAgainstAction: ActionSpawnAgainst
     spawnedEntities:
-      - CocoonSpider #Что спавнить
+      - CocoonSpider # Что спавнить
     spawnSound:
-      collection: SpiderHatches #Звуки спавна
+      collection: SpiderHatches # Звуки спавна
   - type: Puller
     needsHands: false
   - type: Bloodsucker
-    maxCountReagent: 300 #Емкость
-    countReagent: 300 #Сколько реагента при спавне
-    duration: 2 #Длительность сосания
-    howMuchWillItSuck: 20 #Сколько высосет за один укус
+    maxCountReagent: 300 # Ёмкость
+    countReagent: 300 # Сколько реагента при спавне
+    duration: 2 # Длительность сосания
+    howMuchWillItSuck: 20 # Сколько высосет за один укус
     injectSound:
-      collection: SpiderHatches #Звуки после высасывания
-  - type: NeededBloodForSpawnAgainst #Пример
-    defaultCost: 50 #Стандартная цена на не заданный результат
+      collection: SpiderHatches # Звуки после высасывания
+  - type: NeededBloodForSpawnAgainst # Пример
+    defaultCost: 50 # Стандартная цена на не заданный результат
   - type: SpideKing
 
 - type: entity
   name: королева пауков
   parent: BaseMobSpiderTerror
   suffix: уровень 3
-  id: MobSpiderTerrorQuinLvl3
+  id: MobSpiderTerrorQueenLvl3
   description: Выглядит величественно.
   components:
   - type: Sprite
@@ -172,34 +172,34 @@
     bloodlossThreshold: 0.4
   - type: SpawnAgainst
     duration: 20
-    spawnAgainstAction: ActionSpawnAgainst #действие
+    spawnAgainstAction: ActionSpawnAgainst
     spawnedEntities:
       - SpiderTomb
       - TelecomServerSpiderTerror
-      - CocoonSpider #Что спавнить
+      - CocoonSpider # Что спавнить
       - CocoonKingBloodSpider
     spawnSound:
-      collection: SpiderHatches #Звуки спавна
+      collection: SpiderHatches # Звуки спавна
   - type: StunRadius
     actionStunRadius: ActionStunRadiusSpider
-    paralyzeTime: 3 #Время стана
-    launchForwardsMultiplier: 1 #Длинна слодьжения после стана
-    rangeStun: 5 #Радиус способности
-    ignorAlien: true #Не трогать союзников
+    paralyzeTime: 3 # Время стана
+    launchForwardsMultiplier: 1 # Длинна слодьжения после стана
+    rangeStun: 5 # Радиус способности
+    ignorAlien: true # Не трогать союзников
     stunRadiusSound:
       path: /Audio/Animals/space_dragon_roar.ogg #Звуки способности
   - type: Puller
     needsHands: false
   - type: Bloodsucker
-    maxCountReagent: 500 #Емкость
-    countReagent: 500 #Сколько реагента при спавне
-    duration: 2 #Длительность сосания
-    howMuchWillItSuck: 20 #Сколько высосет за один укус
+    maxCountReagent: 500 # Емкость
+    countReagent: 500 # Сколько реагента при спавне
+    duration: 2 # Длительность сосания
+    howMuchWillItSuck: 20 # Сколько высосет за один укус
     injectSound:
-      collection: SpiderHatches #Звуки после высасывания
-  - type: NeededBloodForSpawnAgainst #Пример
-    defaultCost: 25 #Стандартная цена на не заданный результат
-    bloodCosts: #цены
+      collection: SpiderHatches # Звуки после высасывания
+  - type: NeededBloodForSpawnAgainst # Пример
+    defaultCost: 25 # Стандартная цена на не заданный результат
+    bloodCosts: # Цены
       SpiderTomb: 100
       TelecomServerSpiderTerror: 200
       CocoonKingBloodSpider: 100

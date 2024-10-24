@@ -51,6 +51,9 @@
 		},
 		{
 			"name": "door_overcharge_off"
+		},
+		{
+			"name": "camera"
 		}
 	]
 }

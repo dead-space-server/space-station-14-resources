@@ -1,4 +1,3 @@
-
 - type: entity
   id: ActionExplosionAbility
   name: Взрыв
@@ -133,8 +132,8 @@
   - type: EntityTargetAction
     useDelay: 10
     icon:
-      sprite: Objects/Misc/handcuffs.rsi
-      state: handcuff
+      sprite: DeadSpace/Spiders/cocoon.rsi
+      state: cocoon
     event: !type:LockCocoonEvent
     checkCanAccess: false
     range: 2
