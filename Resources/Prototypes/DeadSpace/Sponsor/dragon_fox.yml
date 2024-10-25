@@ -3,11 +3,6 @@
   entity: ClothingBackpackDragonFox
   sponsorOnly: true
 
-- type: sponsorLoadout
-  id: DragonFoxJetpackVoidFilled
-  entity: JetpackVoidFilled
-  sponsorOnly: true
-
 # Backpack
 - type: entity
   parent: ClothingBackpack
@@ -28,6 +23,7 @@
       - id: ClothingNeckCloakDragonFox
       - id: ClothingEyesHudMedicalDragonFox
       - id: ClothingMaskDragonFox
+      - id: JetpackVoidFilled
       - id: ClothingHandsGlovesCaptain
       - id: ClothingOuterHardsuitDragonFox
       - id: ClothingUniformJumpsuitDragonFox
@@ -38,7 +34,6 @@
       - id: ADTtelescopicBaton
       - id: ToySword
       - id: WeaponDisablerToySponsor
-      - id: ADTSpaceMarinne
       - id: ChainswordDragonFox
       - id: PaperLawdragon_fox
 
