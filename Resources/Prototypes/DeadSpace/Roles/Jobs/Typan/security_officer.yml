@@ -35,7 +35,7 @@
     shoes: ClothingShoesBootsCombat
     jumpsuit: ClothingUniformJumpsuitSyndieFormal
     gloves: ClothingHandsGlovesCombat
-    id: TypanIDCardCom
+    id: SyndiPDACom
     back: ClothingBackpackSyndicate
     belt: ClothingBeltAssaultTypan
     pocket1: SyndicateWhistle
