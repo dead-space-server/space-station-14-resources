@@ -111,6 +111,23 @@
     # if ce flies a shittle to centcom you better find a way onto it
     requireDead: true
 
+- type: entity
+  parent: [BaseTraitorObjective, BaseKillObjective]
+  id: KillRandomAgentObjective
+  description: We need this agent gone and you probably know why. Good luck, agent.
+  components:
+  - type: Objective
+    # technically its still possible for KillRandomPersonObjective to roll an agent but this is guaranteed, so higher difficulty
+    difficulty: 3.0
+    # killing 1 agent is enough
+    unique: true
+  - type: TargetObjective
+    title: objective-condition-kill-agent-title
+  - type: PickRandomAgent
+  - type: KillPersonCondition
+    # don't count missing evac as killing as agents are higher profile, so you really need to do the dirty work
+    requireDead: true
+
 # social
 
 - type: entity
