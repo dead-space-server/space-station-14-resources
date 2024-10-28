@@ -215,8 +215,10 @@
   description: A rundown looking shield, not good for much.
   components:
     - type: Sprite
+      sprite: Objects/Weapons/Melee/shields.rsi
       state: makeshift-icon
     - type: Item
+      sprite: Objects/Weapons/Melee/shields.rsi
       heldPrefix: metal
     - type: Blocking
       passiveBlockModifier:
@@ -360,8 +362,10 @@
   description: Eerily glows red... you hear the geometer whispering
   components:
     - type: Sprite
+      sprite: Objects/Weapons/Melee/shields.rsi
       state: mirror-icon
     - type: Item
+      sprite: Objects/Weapons/Melee/shields.rsi
       heldPrefix: mirror
     - type: Reflect
       reflectProb: 0.95

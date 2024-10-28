@@ -4,8 +4,10 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
+    sprite: Objects/Weapons/Melee/shields.rsi
     state: force-icon
   - type: Item
+    sprite: Objects/Weapons/Melee/shields.rsi
     heldPrefix: force
   - type: Reflect
     reflectProb: 0.8

@@ -455,24 +455,24 @@
   categories:
   - UplinkExplosives
 
-- type: listing
-  id: UplinkSyndicateBomb
-  name: uplink-exploding-syndicate-bomb-name
-  description: uplink-exploding-syndicate-bomb-desc
-  productEntity: SyndicateBomb
-  discountCategory: usualDiscounts
-  discountDownTo:
-    Telecrystal: 5
-  cost:
-    Telecrystal: 11
-  categories:
-    - UplinkExplosives
-  restockTime: 1800
-  conditions:
-  - !type:StoreWhitelistCondition
-    blacklist:
-      tags:
-      - NukeOpsUplink
+# - type: listing
+#   id: UplinkSyndicateBomb
+#   name: uplink-exploding-syndicate-bomb-name
+#   description: uplink-exploding-syndicate-bomb-desc
+#   productEntity: SyndicateBomb
+#   discountCategory: usualDiscounts
+#   discountDownTo:
+#     Telecrystal: 5
+#   cost:
+#     Telecrystal: 11
+#   categories:
+#     - UplinkExplosives
+#   restockTime: 1800
+#   conditions:
+#   - !type:StoreWhitelistCondition
+#     blacklist:
+#       tags:
+#       - NukeOpsUplink
 
 - type: listing
   id: UplinkSyndicateBombNukie
@@ -1131,11 +1131,11 @@
   name: uplink-antimov-law-name
   description: uplink-antimov-law-desc
   productEntity: AntimovCircuitBoard
-  discountCategory: usualDiscounts
+  discountCategory: rareDiscounts
   discountDownTo:
     Telecrystal: 10
   cost:
-    Telecrystal: 14
+    Telecrystal: 20
   categories:
   - UplinkDisruption
   conditions:
