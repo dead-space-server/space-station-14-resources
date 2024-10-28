@@ -16,17 +16,20 @@
     - !type:OverallPlaytimeRequirement
       time: 144000 # 40 hours
     - !type:AgeRequirement
-      requiredAge: 28
+      requiredAge: 24
   weight: 10
   startingGear: QuartermasterGear
   icon: "JobIconQuarterMaster"
+  requireAdminNotify: true
   supervisors: job-supervisors-captain
   canBeAntag: false
   access:
   - Cargo
   - Salvage
+  - SeniorSalvage
   - Quartermaster
   - Maintenance
+  - External
   - Command
   - Brig
   - Cryogenics

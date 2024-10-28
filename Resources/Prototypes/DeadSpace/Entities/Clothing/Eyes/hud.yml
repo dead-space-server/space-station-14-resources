@@ -2,7 +2,7 @@
   id: ActionToggleNightVision
   name: Переключить ночное зрение
   description: Включает и выключает ночное зрение.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
     useDelay: 2.5
@@ -14,7 +14,7 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesHudCMO
-  name: визор главного врача
+  name: очки главного врача
   description: Особые очки главного врача, оснащенные специальным индикатором, который сканирует гуманоидов в поле зрения и предоставляет точные данные о состоянии их здоровья, также имеют полимерное покрытие защищающее от вспышек.
   components:
   - type: Sprite

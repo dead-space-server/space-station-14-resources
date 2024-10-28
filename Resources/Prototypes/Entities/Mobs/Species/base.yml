@@ -3,6 +3,7 @@
   parent:
   - BaseMob
   - MobDamageable
+  - MobPolymorphable
   - MobCombat
   - StripableInventoryBase
   id: BaseMobSpecies
@@ -139,6 +140,7 @@
     - Flashed
     - RadiationProtection
     - Drowsiness
+    - Adrenaline
   - type: Body
     prototype: Human
     requiredLegs: 2
@@ -186,8 +188,6 @@
   - type: Stripping
   - type: UserInterface
     interfaces:
-      enum.VoiceMaskUIKey.Key:
-        type: VoiceMaskBoundUserInterface
       enum.HumanoidMarkingModifierKey.Key:
         type: HumanoidMarkingModifierBoundUserInterface
       enum.StrippingUiKey.Key:
@@ -215,7 +215,8 @@
     - CanPilot
     - FootstepSound
     - DoorBumpOpener
-  - type: EmoteAnimation
+    - AnomalyHost
+  - type: EmoteAnimation # ADT-Emotes
   - type: EmotePanel # DS14-Emote-panel
 
 - type: entity
@@ -259,9 +260,9 @@
         Heat: 1.5 #per second, scales with temperature & other constants
   - type: TemperatureSpeed
     thresholds:
-      293: 0.8
-      280: 0.6
-      260: 0.4
+      293: 0.9
+      280: 0.7
+      260: 0.5
   - type: ThermalRegulator
     metabolismHeat: 800
     radiatedHeat: 100
@@ -283,14 +284,14 @@
     damageRecovery:
       types:
         Asphyxiation: -1.0
-  - type: EmoteOnDamage
+  - type: EmoteOnDamage # DS14: scream on damage
     withChat: true
     hiddenFromChatWindow: false
     emotes:
     - ScreamOnDamage
   - type: FireVisuals
     alternateState: Standing
-  - type: ExamineBlood # DS14: kloopre
+  - type: ExamineBlood # DS14
   - type: HumanoidDamageSequence # DS14: for coroner job
 
 - type: entity

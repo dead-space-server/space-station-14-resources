@@ -1,0 +1,213 @@
+
+- type: npcFaction
+  id: SpiderTerror
+  hostile:
+  - Revolutionary
+  - NanoTrasen
+  - SimpleNeutral
+  - SimpleHostile
+  - Syndicate
+  - Passive
+  - PetsNT
+  - Zombie
+  - Xeno
+  - Necromorfs
+
+- type: antag
+  id: SpiderTerror
+  name: Паук ужаса
+  antagonist: true
+  setPreference: false
+  objective: Ваша цель захватить станцию.
+
+- type: antag
+  id: SpiderTerrorQuin
+  name: roles-antag-spider-terror-quin-name
+  antagonist: true
+  setPreference: true
+  objective: roles-antag-spider-terror-quin-objective
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 345600 # 4 days
+
+- type: antag
+  id: SpiderTerrorKing
+  name: roles-antag-spider-terror-king-name
+  antagonist: true
+  setPreference: true
+  objective: roles-antag-spider-terror-king-objective
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 345600 # 4 days
+
+- type: antag
+  id: SpiderTerrorKingBlood
+  name: roles-antag-spider-terror-kingblood-name
+  antagonist: true
+  setPreference: true
+  objective: roles-antag-spider-terror-kingblood-name
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 86400 # 24 hours
+
+- type: entity
+  parent: BaseGameRule
+  id: SpiderTerror
+  components:
+  - type: GameRule
+    minPlayers: 50
+  - type: SpiderTerrorRule
+  - type: AntagSelection
+    definitions:
+    - prefRoles: [ SpiderTerrorQuin ]
+      fallbackRoles: [ SpiderTerrorKingBlood, SpiderTerrorKing ]
+      max: 2
+      min: 2
+      briefing:
+        text: spider-terror-quin-briefing-greeting
+        color: CornflowerBlue
+        sound: "/Audio/DeadSpace/Spiders/brif.ogg"
+      components:
+      - type: Egg
+        duration: 650
+        spawned:
+        - id: MobSpiderTerrorQueen
+          amount: 1
+      - type: NpcFactionMember
+        factions:
+        - SpiderTerror
+      mindRoles:
+      - MindRoleSpiderTettorQuin
+    - prefRoles: [ SpiderTerrorKing ]
+      fallbackRoles: [ SpiderTerrorQuin, SpiderTerrorKingBlood ]
+      max: 2
+      min: 2
+      briefing:
+        text: spider-terror-king-briefing-greeting
+        color: CornflowerBlue
+        sound: "/Audio/DeadSpace/Spiders/brif.ogg"
+      components:
+      - type: Egg
+        duration: 600
+        spawned:
+        - id: MobSpiderTerrorGuardianHeroicKingBlood
+          amount: 1 # Колличество
+      - type: NpcFactionMember
+        factions:
+        - SpiderTerror
+      mindRoles:
+      - MindRoleSpiderTettorKing
+    - prefRoles: [ SpiderTerrorKingBlood ]
+      fallbackRoles: [ SpiderTerrorQuin, SpiderTerrorKing ]
+      max: 2
+      min: 2
+      playerRatio: 10
+      briefing:
+        text: spider-terror-kingblood-briefing-greeting
+        color: CornflowerBlue
+        sound: "/Audio/DeadSpace/Spiders/brif.ogg"
+      components:
+      - type: Egg
+        duration: 700
+        spawned:
+        - id: MobSpiderTerrorGuardianKingBlood
+          amount: 1 # Колличество
+      mindRoles:
+      - MindRoleSpiderTettorKingBlood
+
+- type: entity
+  id: SpiderTerrorSpawn
+  parent: BaseStationEventShortDelay
+  components:
+  - type: StationEvent
+    startAnnouncement: station-event-vent-creatures-start-announcement
+    startAudio:
+      path: /Audio/DeadSpace/Announcements/lifesigns.ogg # DeadSpace-Announcements
+    earliestStart: 50
+    weight: 6
+    duration: 60
+    minimumPlayers: 30
+  - type: VentCrittersRule
+    entries:
+    - id: MobSpiderTerrorGuardian
+      prob: 0.05
+    - id: MobMouse
+      prob: 0.02
+    specialEntries:
+    - id: MobSpiderTerrorGuardianKingBlood
+      prob: 0.001
+
+- type: entity
+  id: GiftsGunsSpiderTerror
+  parent: CargoGiftsBase
+  components:
+  - type: StationEvent
+    weight: 0
+    duration: 120
+    earliestStart: 20
+    minimumPlayers: 50
+  - type: CargoGiftsRule
+    description: cargo-gift-spider-terror-guns
+    dest: cargo-gift-dest-sec
+    gifts:
+      CrateKarachnocidGrenadeProduct: 1
+      SecurityArmor: 3
+      ArmorySmg: 2
+      ArmoryShotgun: 2
+      ArmoryLaser: 2
+
+- type: entity
+  id: GiftsMedicalSpiderTerror
+  parent: CargoGiftsBase
+  components:
+  - type: StationEvent
+    weight: 0
+    duration: 120
+    earliestStart: 20
+    minimumPlayers: 30
+  - type: CargoGiftsRule
+    description: cargo-gift-spider-terror-medical-supply
+    dest: cargo-gift-dest-med
+    gifts:
+      MedicalSupplies: 4
+      EmergencyBruteKit: 4
+      EmergencyAdvancedKit: 4
+
+- type: preloadedGrid
+  id: CBURNSCSTShuttle
+  path: /Maps/Shuttles/ShuttleEvent/cburn_scst.yml
+  copies: 1
+
+- type: preloadedGrid
+  id: DeathSquadShuttle
+  path: /Maps/Shuttles/ShuttleEvent/deathsquad.yml
+  copies: 1
+
+- type: entity
+  parent: BaseGameRule
+  id: BaseErtShuttleRule
+  components:
+  - type: StationEvent
+    startAnnouncement: station-event-response-team-arrival
+    startAudio:
+      path: /Audio/Announcements/attention.ogg
+    weight: 0
+    reoccurrenceDelay: 30
+    duration: 1
+  - type: RuleGrids
+  - type: LoadMapRule
+
+- type: entity
+  parent: BaseErtShuttleRule
+  id: ShuttleCBURNSCST
+  components:
+  - type: LoadMapRule
+    preloadedGrid: CBURNSCSTShuttle
+
+- type: entity
+  parent: BaseGameRule
+  id: ShuttleDeathSquad
+  components:
+  - type: RuleGrids
+  - type: LoadMapRule
+    preloadedGrid: DeathSquadShuttle

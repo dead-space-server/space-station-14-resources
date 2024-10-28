@@ -1,0 +1,8 @@
+- type: entity
+  id: ActionWeaponArtifact
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    useDelay: 2
+    icon: Interface/Actions/eyeopen.png
+    event: !type:ActionWeaponArtifactAimEvent

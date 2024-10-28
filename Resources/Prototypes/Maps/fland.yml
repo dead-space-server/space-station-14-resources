@@ -42,12 +42,12 @@
             MedicalDoctor: [ 5, 5 ]
             Paramedic: [ 2, 2 ]
             MedicalIntern: [ 4, 4 ]
+            MedicalSurgeon: [ 1, 1 ]
             #science
             ResearchDirector: [ 1, 1 ]
             SeniorResearcher: [ 1, 1 ]
             Scientist: [ 4, 4 ]
             ResearchAssistant: [ 6, 6 ]
-            Borg: [ 2, 2 ]
             #security
             HeadOfSecurity: [ 1, 1 ]
             Warden: [ 1, 1 ]
@@ -64,8 +64,11 @@
             Clown: [ 1, 1 ]
             Mime: [ 1, 1 ]
             Musician: [ 1, 1 ]
+            #silicon
+            StationAi: [ 1, 1 ]
+            Borg: [ 2, 2 ]
             # DS14
-            ADTBlueShieldOfficer: [ 1, 1 ]
+            BlueShieldOfficer: [ 1, 1 ]
             BorgSecurity: [ 1, 1 ]
             Magistrat: [ 1, 1 ]
             Lawyer: [ 3, 3 ]
@@ -75,4 +78,3 @@
             SeniorSalvageSpecialist: [ 1, 1 ]
             SeniorAdministrator: [ 1, 1 ]
             SecurityPilot: [ 1, 1 ]
-            SAI: [ 1, 1 ] # backmen-SAI

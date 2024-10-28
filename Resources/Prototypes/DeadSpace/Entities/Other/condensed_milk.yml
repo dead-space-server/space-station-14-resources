@@ -49,9 +49,6 @@
         reagents:
         - ReagentId: CondensedMilk
           Quantity: 30
-  - type: SolutionContainerVisuals
-    maxFillLevels: 6
-    fillBaseName: fill
   - type: TrashOnSolutionEmpty
     solution: drink
 

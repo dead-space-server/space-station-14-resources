@@ -46,16 +46,6 @@
     color: "#2681a5"
 
 - type: entity
-  parent: ClothingHeadsetAltCentCom
-  id: ClothingHeadsetAltCentComFake
-  suffix: Fake
-  components:
-  - type: ContainerFill
-    containers:
-      key_slots:
-      - EncryptionKeyCommon
-
-- type: entity
   parent: [ClothingHeadsetAlt, BaseCommandContraband]
   id: ClothingHeadsetAltCommand
   name: command over-ear headset

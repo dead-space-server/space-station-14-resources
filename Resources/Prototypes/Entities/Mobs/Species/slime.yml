@@ -28,8 +28,6 @@
     interfaces:
       enum.StorageUiKey.Key:
         type: StorageBoundUserInterface
-      enum.VoiceMaskUIKey.Key:
-        type: VoiceMaskBoundUserInterface
       enum.HumanoidMarkingModifierKey.Key:
         type: HumanoidMarkingModifierBoundUserInterface
       enum.StrippingUiKey.Key:
@@ -92,7 +90,7 @@
         scaleByQuantity: true
         damage:
           types:
-            Heat: 0.1
+            Heat: 1
       - !type:PopupMessage
         type: Local
         visualType: Large

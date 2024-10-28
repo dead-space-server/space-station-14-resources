@@ -15,7 +15,7 @@
     - !type:OverallPlaytimeRequirement
       time: 144000 # 40 hours
     - !type:AgeRequirement
-      requiredAge: 28
+      requiredAge: 24
   weight: 10
   startingGear: CMOGear
   icon: "JobIconChiefMedicalOfficer"

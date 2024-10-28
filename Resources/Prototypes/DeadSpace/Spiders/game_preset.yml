@@ -1,0 +1,27 @@
+- type: gamePreset
+  id: SpiderTerror
+  alias:
+    - ST
+  name: spider-terror-title
+  description: spider-terror-description
+  showInVote: true
+  rules:
+    - SpiderTerror
+    - BasicStationEventScheduler
+    - BasicRoundstartVariation
+    - SubGamemodesRule
+    - WageScheduler #backmen: currency
+
+- type: gamePreset
+  id: SecretSpiderTerror
+  alias:
+    - SpiderTerrorSecret
+  name: secret-title
+  description: secret-description
+  showInVote: false
+  rules:
+    - SpiderTerror
+    - BasicStationEventScheduler
+    - BasicRoundstartVariation
+    - SubGamemodesRule
+    - WageScheduler #backmen: currency

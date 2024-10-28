@@ -1,11 +1,12 @@
 - type: vendingMachineInventory
   id: TankDispenserEVAInventory
   startingInventory:
-    OxygenTankFilled: 5
-    NitrogenTankFilled: 5 
+    OxygenTankFilled: 6
+    NitrogenTankFilled: 6
 
 - type: vendingMachineInventory
   id: TankDispenserEngineeringInventory
   startingInventory:
-    PlasmaTankFilled: 5
-    OxygenTankFilled: 5
+    PlasmaTankFilled: 8
+    NitrogenTankFilled: 8
+    OxygenTankFilled: 8
