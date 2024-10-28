@@ -1215,6 +1215,7 @@
   loadouts:
   - HeadofSecurityCloak
   - HeadofSecurityMantle
+  - HeadofSecurityMantleShoulder
 
 - type: loadoutGroup
   id: HeadofSecurityOuterClothing
