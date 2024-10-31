@@ -28,7 +28,7 @@
     shoes: ClothingShoesBootsCombat
     outerClothing: ClothingOuterCoatRDTypan
     gloves: ClothingHandsRDTypan
-    id: TypanIDCardRd
+    id: SyndiPDARD
     back: ClothingBackpackSyndicate
     jumpsuit: ClothingUniformJumpsuitSyndieFormal
     belt: ClothingBeltAssaultTypan
