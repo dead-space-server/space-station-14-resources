@@ -1741,11 +1741,11 @@
   description: uplink-hardsuit-syndieelite-desc
   icon: { sprite: /Textures/Clothing/OuterClothing/Hardsuits/syndieelite.rsi, state: icon }
   productEntity: ClothingBackpackDuffelSyndicateEliteHardsuitBundle
-  discountCategory: rareDiscounts
+  discountCategory: usualDiscounts
   discountDownTo:
     Telecrystal: 8
   cost:
-    Telecrystal: 14
+    Telecrystal: 10
   categories:
   - UplinkWearables
 

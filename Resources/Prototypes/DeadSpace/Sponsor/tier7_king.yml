@@ -35,8 +35,9 @@
       - id: ClothingCloakGamer
       - id: ClothingNeckWingsViolet
       - id: ClothingOuterWinterKirasCloak
-      # - id: VehicleKeyATV
       - id: ClothingOuterCoatPineappleTrenchSponsor
+      - id: ClothingNeckCloakBoneKing
+      - id: ClothingNeckMantleWhiteKing
 
 - type: sponsorLoadout
   id: ClothingBackpackTier7HOSIAASponsorLoadout
@@ -92,3 +93,27 @@
     sprite: DeadSpace/Sponsor/King/pineappletrench.rsi
   - type: Clothing
     sprite: DeadSpace/Sponsor/King/pineappletrench.rsi
+
+# Cloak
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakBoneKing
+  name: костяной плащ
+  description: Накидка, похожая на сочетание костей и сосудов... Завораживает!
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/King/cloak.rsi
+
+# Mantle
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckMantleWhiteKing
+  name: белая наплечная мантия
+  description: Наплечная мантия в белом цвете.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/King/mantle.rsi
+  - type: Clothing
+    sprite: DeadSpace/Sponsor/King/mantle.rsi

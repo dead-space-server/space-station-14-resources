@@ -191,6 +191,8 @@
 
 - type: entity
   id: CrateObeliskSplinter
+  name: стальной ящик
+  description: Большой контейнер для предметов.
   parent: CrateGenericSteel
   components:
   - type: StorageFill

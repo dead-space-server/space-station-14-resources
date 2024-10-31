@@ -518,7 +518,7 @@
         Heat: 0.5
         Radiation: 0.5
         Caustic: 0.5
-        Stun: 0.75
+        Stun: 0.65 # DS14: 5 stunbaton hits for stun
   - type: ClothingSpeedModifier
     walkModifier: 0.9
     sprintModifier: 0.9
@@ -587,7 +587,7 @@
         Heat: 0.2
         Radiation: 0.05
         Caustic: 0.5
-        Stun: 0.65
+        Stun: 0.5 # DS14: 6 stunbaton hits for stun
   - type: Item
     size: Huge
   - type: ClothingSpeedModifier
@@ -626,7 +626,7 @@
         Heat: 0.5
         Radiation: 0.25
         Caustic: 0.4
-        Stun: 0.4
+        Stun: 0.5 # DS14: 6 stunbaton hits for stun
   - type: ClothingSpeedModifier
     walkModifier: 1.0
     sprintModifier: 1.0
