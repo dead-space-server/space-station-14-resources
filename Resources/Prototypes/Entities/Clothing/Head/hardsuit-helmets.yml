@@ -89,6 +89,8 @@
   name: spationaut hardsuit helmet
   description: A sturdy helmet designed for complex industrial operations in space.
   components:
+  - type: Clothing
+    sprite: Clothing/Head/Hardsuits/spatiohelm.rsi
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/spatiohelm.rsi
   - type: HandheldLight
