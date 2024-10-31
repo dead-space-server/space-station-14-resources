@@ -14,19 +14,19 @@
       "name": "icon-flash"
     },
     {
-      "name": "equipped-OUTERCLOTHING",
+      "name": "off-equipped-HELMET",
       "directions": 4
     },
     {
-      "name": "equipped-OUTERCLOTHING-vox",
+      "name": "on-equipped-HELMET",
       "directions": 4
     },
     {
-      "name": "inhand-left",
+      "name": "off-equipped-HELMET-vox",
       "directions": 4
     },
     {
-      "name": "inhand-right",
+      "name": "on-equipped-HELMET-vox",
       "directions": 4
     }
   ]
