@@ -218,6 +218,7 @@
     - AnomalyHost
   - type: EmoteAnimation # ADT-Emotes
   - type: EmotePanel # DS14-Emote-panel
+  - type: Falldown # DS14
 
 - type: entity
   save: false

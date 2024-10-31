@@ -12,7 +12,6 @@ criminal-records-status-wanted = Разыскивается
 criminal-records-status-detained = Под арестом
 criminal-records-status-suspected = Подозревается
 criminal-records-status-discharged = Освобождён
-criminal-records-status-paroled = Освобождён по УДО
 criminal-records-console-wanted-reason = [color=gray]Причина розыска[/color]
 criminal-records-console-suspected-reason = [color=gray]Причина подозрения[/color]
 criminal-records-console-reason = Причина
@@ -35,7 +34,6 @@ criminal-records-console-not-suspected = { $name } больше не являе�
 criminal-records-console-detained = { $name } арестовали, ответственный: { $officer }.
 criminal-records-console-released = { $name } отпустили, ответственный: { $officer }.
 criminal-records-console-not-wanted = { $name } больше не находится в розыске, ответственный: { $officer }.
-criminal-records-console-paroled = { $name } освободили по УДО, ответственный: { $officer }.
 criminal-records-console-not-parole = { $name } лишили права на УДО, ответственный: { $officer }.
 criminal-records-console-unknown-officer = <неизвестный>
 

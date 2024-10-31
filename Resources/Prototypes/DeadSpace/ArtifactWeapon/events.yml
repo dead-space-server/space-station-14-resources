@@ -15,8 +15,8 @@
   - type: StationEvent
     startAnnouncement: station-event-weapon-artifact-discovered-announcement
     startAudio:
-      path: /Audio/Announcements/attention.ogg
-    weight: 5
-    duration: 50
+      path: /Audio/DeadSpace/Announcements/centcomm.ogg # DeadSpace-Announcements
+    weight: 1
+    duration: 1
   - type: RandomSpawnRule
     prototype: CrateWeaponArtefact

@@ -5,7 +5,7 @@
   - type: SithRule
   - type: StationEvent
     weight: 3
-    duration: 120
+    duration: null
     earliestStart: 60
     reoccurrenceDelay: 60
     minimumPlayers: 30

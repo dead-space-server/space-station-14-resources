@@ -1,10 +1,11 @@
 ﻿- type: listing
   id: UnitologyCrateObeliskSplinterList
   name: Осколок обелиска
-  icon: { sprite: DeadSpace/Necromorfs/splinter.rsi, state: splinter }
+  description: Ящик с осколком обелиска.
+  icon: { sprite: Structures/Storage/Crates/generic.rsi, state: icon }
   productEntity: CrateObeliskSplinter
   cost:
-    Telecrystal: 30
+    Telecrystal: 5
   categories:
     - UplinkUnitologyInfection
 
@@ -15,7 +16,7 @@
   icon: { sprite: Objects/Specific/Chemistry/syringe.rsi, state: syringe1 }
   productEntity: SyringeExtractInfectorDead
   cost:
-    Telecrystal: 10
+    Telecrystal: 5
   categories:
     - UplinkUnitologyInfection
 
@@ -26,7 +27,7 @@
   icon: { sprite: Objects/Specific/Chemistry/syringe.rsi, state: syringe1 }
   productEntity: SyringeSerumEnslaved
   cost:
-    Telecrystal: 20
+    Telecrystal: 10
   categories:
     - UplinkUnitologyInfection
 
@@ -77,19 +78,19 @@
   id: UplinkRadioUnitology
   name: линия связи юнитологов
   description: Подозрительно выглядящее старое радио...
-  suffix: 30 тк
+  suffix: 10 тк
   components:
   - type: Store
     balance:
-      Telecrystal: 30
+      Telecrystal: 10
 
 - type: entity
   parent: BaseUplinkRadioUnitology
   id: UplinkRadioLeaderUnitology
   name: линия связи юнитологов
   description: Подозрительно выглядящее старое радио...
-  suffix: 50 тк
+  suffix: 25 тк
   components:
   - type: Store
     balance:
-      Telecrystal: 50
+      Telecrystal: 25
