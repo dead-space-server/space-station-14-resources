@@ -45,7 +45,7 @@
             MedicalDoctor: [ 5, 5 ]
             MedicalIntern: [ 3, 4 ]
             Psychologist: [ 1, 1 ]
-            MedicalSurgeon: [ 1, 1 ]
+            # MedicalSurgeon: [ 1, 1 ]
             # science
             ResearchDirector: [ 1, 1 ]
             Scientist: [ 5, 6 ]

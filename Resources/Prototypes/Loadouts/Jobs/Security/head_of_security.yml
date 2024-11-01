@@ -64,7 +64,7 @@
   - !type:GroupLoadoutEffect
     proto: MasterHoS
 
-- type: startingGear
+- type: loadout
   id: HeadofSecurityMantleShoulder
   equipment:
     neck: ClothingNeckMantleHOSShoulder

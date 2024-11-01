@@ -1,5 +1,26 @@
 - type: entity
   parent: BasePDA
+  id: BaseTypanPDA
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Objects/Devices/typan_pda.rsi
+    layers:
+    - map: [ "enum.PdaVisualLayers.Base" ]
+    - state: "light_overlay"
+      map: [ "enum.PdaVisualLayers.Flashlight" ]
+      shader: "unshaded"
+      visible: false
+    - state: "id_overlay"
+      map: [ "enum.PdaVisualLayers.IdLight" ]
+      shader: "unshaded"
+      visible: false
+  - type: Icon
+    sprite: DeadSpace/Objects/Devices/typan_pda.rsi
+    state: pda-syndi-com
+
+- type: entity
+  parent: BaseTypanPDA
   id: SyndiPDARD
   name: КПК Директора Исследований Синдиката
   description: Ok, time to be a productive member of- oh cool I'm a bad guy time to kill people!
@@ -13,7 +34,7 @@
     state: pda-syndi-science
 
 - type: entity
-  parent: BasePDA
+  parent: BaseTypanPDA
   id: SyndiPDAScience
   name: КПК Учёного Синдиката
   description: Ok, time to be a productive member of- oh cool I'm a bad guy time to kill people!
@@ -27,7 +48,7 @@
     state: pda-syndi-science
 
 - type: entity
-  parent: BasePDA
+  parent: BaseTypanPDA
   id: SyndiPDABotan
   name: КПК Ботаника Синдиката
   description: Ok, time to be a productive member of- oh cool I'm a bad guy time to kill people!
@@ -41,7 +62,7 @@
     state: pda-syndi-botan
 
 - type: entity
-  parent: BaseMedicalPDA
+  parent: BaseTypanPDA
   id: MedicalPDASyndi
   name: КПК Врача Синдиката
   description: Ok, time to be a productive member of- oh cool I'm a bad guy time to kill people!
@@ -53,12 +74,19 @@
     borderColor: "#891417"
   - type: Icon
     state: pda-syndi-med
+  - type: CartridgeLoader
+    uiKey: enum.PdaUiKey.Key
+    preinstalled:
+      - CrewManifestCartridge
+      - NotekeeperCartridge
+      - NewsReaderCartridge
+      - MedTekCartridge
   - type: GuideHelp
     guides:
     - Medical Doctor
 
 - type: entity
-  parent: BasePDA
+  parent: BaseTypanPDA
   id: SyndiPDAEng
   name: КПК Атмосферного Инженера Синдиката
   description: Ok, time to be a productive member of- oh cool I'm a bad guy time to kill people!
@@ -72,7 +100,7 @@
     state: pda-syndi-eng
 
 - type: entity
-  parent: BasePDA
+  parent: BaseTypanPDA
   id: SyndiPDACom
   name: КПК Офицера Телекомуникаций Синдиката
   description: Ok, time to be a productive member of- oh cool I'm a bad guy time to kill people!
@@ -86,7 +114,7 @@
     state: pda-syndi-com
 
 - type: entity
-  parent: BasePDA
+  parent: BaseTypanPDA
   id: SyndiPDACargo
   name: КПК Карготехника Синдиката
   description: Ok, time to be a productive member of- oh cool I'm a bad guy time to kill people!
@@ -100,7 +128,7 @@
     state: pda-syndi-cargo
 
 - type: entity
-  parent: BasePDA
+  parent: BaseTypanPDA
   id: SyndiPDAChef
   name: КПК Повара Синдиката
   description: Ok, time to be a productive member of- oh cool I'm a bad guy time to kill people!
