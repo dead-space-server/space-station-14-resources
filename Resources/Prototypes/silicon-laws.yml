@@ -135,7 +135,7 @@
   - Syndicate1
   - Syndicate2
   - Syndicate3
-  - Syndicate4
+  # - Syndicate4
   obeysTo: laws-owner-syndicate
 
 # Ninja conversion laws

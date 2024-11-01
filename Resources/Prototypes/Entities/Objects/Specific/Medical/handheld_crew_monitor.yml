@@ -42,14 +42,13 @@
 
 - type: entity
   name: handheld crew monitor Syndi
-  suffix: DO NOT MAP
   parent: [ BaseHandheldComputer, BaseGrandTheftContraband ]
   id: SpyCrewMonitor
   description: A spy device capable of connecting to crew monitoring servers.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/syndihandheldcrewmonitor.rsi
-    state: scanner
+    state: syndiscanner
   - type: ActivatableUI
     key: enum.CrewMonitoringUIKey.Key
   - type: UserInterface

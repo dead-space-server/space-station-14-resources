@@ -5,7 +5,8 @@
   description: Повар из далёкого космоса
   startingGear: SyndicateChef
   icon: "JobIconTypanChef"
-  supervisors: job-supervisors-hop
+  supervisors: job-supervisors-typan-telecommunications-officer
+  canBeAntag: false
   requirements:
     - !type:DepartmentTimeRequirement
       department: Civilian

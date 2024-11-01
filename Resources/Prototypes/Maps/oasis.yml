@@ -13,7 +13,7 @@
             !type:NanotrasenNameGenerator
             prefixCreator: 'B'
         - type: StationEmergencyShuttle
-          emergencyShuttlePath: /Maps/Shuttles/emergency_accordia.yml
+          emergencyShuttlePath: /Maps/Shuttles/emergency_oasis.yml
         - type: StationJobs
           availableJobs:
             #service
@@ -40,7 +40,7 @@
             Paramedic: [ 2, 2 ]
             MedicalIntern: [ 4, 4 ]
             Psychologist: [ 1, 1 ]
-            MedicalSurgeon: [ 1, 1 ]
+            # MedicalSurgeon: [ 1, 1 ]
             #science
             ResearchDirector: [ 1, 1 ]
             Scientist: [ 5, 5 ]

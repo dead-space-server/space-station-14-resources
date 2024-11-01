@@ -5,7 +5,8 @@
   description: Медик из далёкого космоса
   startingGear: SyndicateParamedic
   icon: "JobIconSyndicateParamedic"
-  supervisors: job-supervisors-cmo-syndicate
+  supervisors: job-supervisors-typan-telecommunications-officer
+  canBeAntag: false
   requirements:
     - !type:RoleTimeRequirement
       role: JobChemist

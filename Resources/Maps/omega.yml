@@ -72284,13 +72284,6 @@ entities:
     - type: Transform
       pos: -15.5,22.5
       parent: 4812
-- proto: SpawnMobGorillaLargo
-  entities:
-  - uid: 3281
-    components:
-    - type: Transform
-      pos: 17.5,19.5
-      parent: 4812
 - proto: SpawnMobMcGriff
   entities:
   - uid: 12632
@@ -72323,6 +72316,13 @@ entities:
     components:
     - type: Transform
       pos: -19.5,-16.5
+      parent: 4812
+- proto: SpawnMobRaccoonMorticia
+  entities:
+  - uid: 3281
+    components:
+    - type: Transform
+      pos: 17.5,19.5
       parent: 4812
 - proto: SpawnMobShiva
   entities:

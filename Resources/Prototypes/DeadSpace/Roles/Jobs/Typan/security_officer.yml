@@ -5,7 +5,8 @@
   description: job-description-science-syndicate
   startingGear: SyndicateFormal
   icon: "JobIconSyndicateFormal"
-  supervisors: job-supervisors-captain-syndicate
+  supervisors: job-supervisors-typan-syndicate
+  canBeAntag: false
   requirements:
     - !type:DepartmentTimeRequirement
       department: Science
