@@ -377,7 +377,7 @@
   id: WeaponDrippenwagenAltCrusher
   name: энергетический меч
   description: Крушитель больше похожий на меч, имеет функцию подсветки.
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/drippenwagenAlt/crusher.rsi

@@ -4565,6 +4565,7 @@
   name: tts-voice-name-sunboy_mannered
   sex: Male
   speaker: an_alt_girl_dlc_sunboy_n
+  roundStart: false # reserved for BaseMobSpiderTerror
 
 - type: ttsVoice
   id: Sunboy_kalm
