@@ -178,7 +178,7 @@
   suffix: Некроморф
   components:
   - type: ReleaseGasPerSecond
-    molesInfectionPerDuration: 30
+    molesInfectionPerDuration: 15
     gasID: 9
   - type: Clickable
   - type: InteractionOutline
@@ -190,9 +190,9 @@
           bounds: "-0.45,-0.45,0.45,0.45"
         density: 60
         mask:
-          - MachineMask
+          - MobMask
         layer:
-          - MachineLayer
+          - MobLayer
   - type: NpcFactionMember
     factions:
       - Necromorfs

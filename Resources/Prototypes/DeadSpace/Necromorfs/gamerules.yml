@@ -116,7 +116,6 @@
         - Unitolog
       - type: IntrinsicRadioReceiver
       - type: Unitology
-      - type: UnitologyObeliskSpawnAbility
       mindRoles:
       - MindRoleEnslavedUnitology
 
@@ -155,4 +154,3 @@
   components:
   - type: LoadMapRule
     preloadedGrid: TravelingCuisineUnitology
-
