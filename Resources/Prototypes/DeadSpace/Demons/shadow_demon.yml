@@ -34,7 +34,9 @@
     bloodlossThreshold: 0.2
   - type: Clickable
   - type: Sprite
-    drawdepth: Mobs
+    noRot: true
+    overrideContainerOcclusion: true
+    drawdepth: Ghosts
     sprite: DeadSpace/Demons/demon_shadow.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
@@ -45,6 +47,8 @@
         Base: running
       Dead:
         Base: running
+  - type: Input
+    context: "ghost"
   - type: Fixtures
     fixtures:
       fix1:

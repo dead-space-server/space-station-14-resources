@@ -88,6 +88,8 @@
 
 - type: entity
   id: ActionSpawnLeviathan
+  name: Стать левиафаном
+  description: Вы пожрали множество существ и готовы стать левиафаном.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -98,6 +100,7 @@
 
 - type: entity
   id: ActionSelectEntity
+    name: Выбрать сущность для появления
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction

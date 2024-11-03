@@ -6,11 +6,11 @@
   description: spider-terror-description
   showInVote: true
   rules:
+    - WageScheduler # backmen: currency
     - SpiderTerror
-    - BasicStationEventScheduler
+    # - BasicStationEventScheduler
     - BasicRoundstartVariation
     - SubGamemodesRule
-    - WageScheduler #backmen: currency
 
 - type: gamePreset
   id: SecretSpiderTerror
@@ -20,8 +20,8 @@
   description: secret-description
   showInVote: false
   rules:
+    - WageScheduler # backmen: currency
     - SpiderTerror
-    - BasicStationEventScheduler
+    # - BasicStationEventScheduler
     - BasicRoundstartVariation
     - SubGamemodesRule
-    - WageScheduler #backmen: currency
