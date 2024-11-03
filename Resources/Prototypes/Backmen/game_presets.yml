@@ -6,8 +6,8 @@
   showInVote: true
   description: blob-description
   rules:
+    - WageScheduler # backmen: currency
     - BlobGameMode
-    - BasicStationEventScheduler
+    # - BasicStationEventScheduler
     - BasicRoundstartVariation
     - SubGamemodesRule
-    - WageScheduler #backmen: currency
