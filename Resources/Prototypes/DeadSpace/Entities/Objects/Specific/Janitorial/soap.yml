@@ -1,24 +1,24 @@
-# - type: entity
-#   name: kriss soap
-#   id: SoapKriss
-#   parent: Soap
-#   description: Kriss droped this soap, but only once.
-#   components:
-#   - type: Sprite
-#     layers:
-#     - state: kriss-4
-#       map: ["enum.SolutionContainerLayers.Fill"]
-#   - type: SolutionContainerVisuals
-#     fillBaseName: kriss-
-#   - type: Slippery
-#     paralyzeTime: 2
-#     launchForwardsMultiplier: 14
-#   - type: SolutionContainerManager
-#     solutions:
-#       soap:
-#         maxVol: 240 #In the Greek alphabet, Omega is the 24th letter
-#         reagents:
-#         - ReagentId: SoapReagent
-#           Quantity: 240
-#   - type: Visibility
-#     layer: 2
+- type: entity
+  name: kriss soap
+  id: SoapKriss
+  parent: Soap
+  description: Kriss droped this soap, but only once.
+  components:
+  - type: Sprite
+    layers:
+    - state: kriss-4
+      map: ["enum.SolutionContainerLayers.Fill"]
+  - type: SolutionContainerVisuals
+    fillBaseName: kriss-
+  - type: Slippery
+    paralyzeTime: 2
+    launchForwardsMultiplier: 14
+  - type: SolutionContainerManager
+    solutions:
+      soap:
+        maxVol: 240 #In the Greek alphabet, Omega is the 24th letter
+        reagents:
+        - ReagentId: SoapReagent
+          Quantity: 240
+  - type: Visibility
+    layer: 2

@@ -161,6 +161,8 @@
     ignorFriends: false
     lockCocoon: ActionLockCocoon
     cocoon: SpiderCocoon
+  - type: TTS
+    voice: Sunboy_mannered
 
 - type: entity
   name: паук королевской крови

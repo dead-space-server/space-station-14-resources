@@ -288,12 +288,11 @@
   - type: Tag
     tags:
       - CannotSuicide
-  - type: GhostRole
-    makeSentient: true
-    name: Левиафан
-    description: Некроморф
-    rules: Вы антагонист
-  - type: GhostTakeoverAvailable
+  # - type: GhostRole
+  #   makeSentient: true
+  #   name: Левиафан
+  #   description: Некроморф
+  # - type: GhostTakeoverAvailable
   - type: Reactive
     groups:
       Flammable: [ Touch ]

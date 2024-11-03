@@ -169,30 +169,30 @@
   damageModifierSet: Necromorf
   isCanSpawnInfectionDead: false
   hardsuit: ClothingNecroInfector
-  components: #Доп. компоненты
+  components: # Доп. компоненты
   - type: InfectorDead
     spawned:
-    - id: InfectorGland #Что вылупилось
-      amount: 2 #Колличество
+    - id: InfectorGland # Что вылупилось
+      amount: 2 # Колличество
 
-- type: necromorf #Прототип некроморфа
-  id: NecroTwitcherLvl2 #Идентификатор
-  damage: #Урон наносимый некроморфом
+- type: necromorf # Прототип некроморфа
+  id: NecroTwitcherLvl2 # Идентификатор
+  damage: # Урон наносимый некроморфом
     groups:
       Brute: 20
     types:
       Structural: 15
-  damageModifierSet: Necromorf #Модификатор получаемого урона
-  claws: ClothingNecroClaws #Клешни
-  isCanSpawnInfectionDead: false #Может появиться с помощью зараженя, или нет
-  hardsuit: ClothingNecroRibs #Верхняя одежда некроморфа
-  movementSpeedMultiply: 3 #Модификатор скорости
-  components: #Доп. компоненты
+  damageModifierSet: Necromorf # Модификатор получаемого урона
+  claws: ClothingNecroClaws # Клешни
+  isCanSpawnInfectionDead: false # Может появиться с помощью зараженя, или нет
+  hardsuit: ClothingNecroRibs # Верхняя одежда некроморфа
+  movementSpeedMultiply: 1.5 # Модификатор скорости
+  components: # Доп. компоненты
   - type: StunAttack
     paralyzeTime: 1
 
-- type: necromorf #Прототип некроморфа
-  id: NecroCorpseCollector #Идентификатор
+- type: necromorf # Прототип некроморфа
+  id: NecroCorpseCollector # Идентификатор
   layersToHide:
   - Tail
   - Hair
@@ -214,23 +214,24 @@
   - Handcuffs
   - StencilMask
   - Ensnare
-  damage: #Урон наносимый некроморфом
+  damage: # Урон наносимый некроморфом
     groups:
       Brute: 15
     types:
       Structural: 15
-  damageModifierSet: Necromorf #Модификатор получаемого урона
-  isCanSpawnInfectionDead: false #Может появиться с помощью зараженя, или нет
-  hardsuit: ClothingCorpseCollectorLvl1 #Верхняя одежда некроморфа
-  movementSpeedMultiply: 1 #Модификатор скорости
-  components: #Доп. компоненты
+  damageModifierSet: Necromorf # Модификатор получаемого урона
+  useInventory: false
+  isCanSpawnInfectionDead: false # Может появиться с помощью зараженя, или нет
+  hardsuit: ClothingCorpseCollectorLvl1 # Верхняя одежда некроморфа
+  movementSpeedMultiply: 1 # Модификатор скорости
+  components: # Доп. компоненты
   - type: StunAttack
     paralyzeTime: 1
   - type: CorpseCollector
   - type: InfectorDead
     spawned:
-    - id: InfectorGland #Что вылупилось
-      amount: 2 #Колличество
+    - id: InfectorGland # Что вылупилось
+      amount: 2 # Колличество
 
 - type: randomHumanoidSettings
   id: Necromorf
