@@ -256,6 +256,7 @@
       - MobSpiderTerrorWarrior
       - MobSpiderTerrorDrone
       - MobSpiderTerrorMedic
+      - MobSpiderTerrorGuardianLvl2
   - type: Bloodsucker
     maxCountReagent: 50 # Ёмкость
     countReagent: 0 # Сколько реагента при спавне
@@ -269,6 +270,7 @@
       MobSpiderTerrorWarrior: 50
       MobSpiderTerrorDrone: 50
       MobSpiderTerrorMedic: 50
+      MobSpiderTerrorGuardianLvl2: 20
 
 - type: entity
   name: взрослый паук страж
@@ -295,7 +297,7 @@
       - MobSpiderTerrorDestroyer
       - MobSpiderTerrorLurker
   - type: Bloodsucker
-    maxCountReagent: 100 # Ёмкость
+    maxCountReagent: 50 # Ёмкость
     countReagent: 0 # Сколько реагента при спавне
     duration: 2 # Длительность сосания
     howMuchWillItSuck: 10 # Сколько высосет за один укус
@@ -304,8 +306,8 @@
   - type: NeededBloodForEvolution #Пример
     defaultCost: 100 # Стандартная цена на не заданный результат
     bloodCosts: # Цены
-      MobSpiderTerrorDestroyer: 100
-      MobSpiderTerrorLurker: 100
+      MobSpiderTerrorDestroyer: 50
+      MobSpiderTerrorLurker: 50
   - type: Sprite
     scale: 1, 1
     drawdepth: Mobs

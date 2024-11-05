@@ -8,7 +8,7 @@
   rules:
     - WageScheduler # backmen: currency
     - Unitology
-    # - BasicStationEventScheduler
+    - BasicStationEventScheduler
     - BasicRoundstartVariation
     - SubGamemodesRule
 
@@ -22,6 +22,6 @@
   rules:
     - WageScheduler # backmen: currency
     - Unitology
-    # - BasicStationEventScheduler
+    - BasicStationEventScheduler
     - BasicRoundstartVariation
     - SubGamemodesRule

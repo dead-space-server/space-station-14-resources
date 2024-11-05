@@ -76,7 +76,6 @@ job-name-security-pilot = Пилот СБ
 job-name-senior-salvagespec = Ведущий утилизатор
 job-name-senior-administrator = Администратор сервисного отдела
 job-name-station-ai = Станционный ИИ
-job-name-visitor = Турист
 
 # unused jobs
 # these are required for the agent ID job icon tooltips
@@ -91,7 +90,7 @@ job-name-virologist = вирусолог
 job-name-zombie = зомби
 
 # Job titles
-job-title-visitor = Турист
+job-title-visitor = Посетитель
 job-title-cluwne = Клувень
 job-title-universal = Администратор
 
@@ -172,4 +171,4 @@ JobSecurityPilot = Пилот СБ
 JobSeniorSalvageSpecialist = Ведущий утилизатор
 JobSeniorAdministrator = Администратор сервисного отдела
 JobStationAi = Станционный ИИ
-JobVisitor = Турист
+JobVisitor = Посетитель

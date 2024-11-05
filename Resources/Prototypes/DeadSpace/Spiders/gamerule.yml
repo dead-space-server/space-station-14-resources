@@ -55,7 +55,7 @@
   id: SpiderTerror
   components:
   - type: GameRule
-    minPlayers: 50
+    minPlayers: 40
   - type: SpiderTerrorRule
   - type: AntagSelection
     definitions:
@@ -124,7 +124,7 @@
     startAudio:
       path: /Audio/DeadSpace/Announcements/lifesigns.ogg # DeadSpace-Announcements
     earliestStart: 50
-    weight: 6
+    weight: 3
     duration: 60
     minimumPlayers: 30
   - type: VentCrittersRule
@@ -142,10 +142,7 @@
   parent: CargoGiftsBase
   components:
   - type: StationEvent
-    weight: 0
-    duration: 120
-    earliestStart: 20
-    minimumPlayers: 50
+    willNotStartRandomly: true
   - type: CargoGiftsRule
     description: cargo-gift-spider-terror-guns
     dest: cargo-gift-dest-sec
@@ -161,10 +158,7 @@
   parent: CargoGiftsBase
   components:
   - type: StationEvent
-    weight: 0
-    duration: 120
-    earliestStart: 20
-    minimumPlayers: 30
+    willNotStartRandomly: true
   - type: CargoGiftsRule
     description: cargo-gift-spider-terror-medical-supply
     dest: cargo-gift-dest-med
@@ -191,9 +185,7 @@
     startAnnouncement: station-event-response-team-arrival
     startAudio:
       path: /Audio/DeadSpace/Announcements/centcomm.ogg # DeadSpace-Announcements
-    weight: 0
-    reoccurrenceDelay: 30
-    duration: 1
+    willNotStartRandomly: true
   - type: RuleGrids
   - type: LoadMapRule
 

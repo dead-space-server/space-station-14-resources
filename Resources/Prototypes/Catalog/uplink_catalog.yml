@@ -1133,7 +1133,7 @@
   productEntity: AntimovCircuitBoard
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 10
+    Telecrystal: 15
   cost:
     Telecrystal: 20
   categories:
@@ -1153,7 +1153,7 @@
   discountDownTo:
     Telecrystal: 20
   cost:
-    Telecrystal: 24
+    Telecrystal: 25
   categories:
   - UplinkDisruption
   conditions:

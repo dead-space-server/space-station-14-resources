@@ -42,7 +42,7 @@
   id: Unitology
   components:
   - type: GameRule
-    minPlayers: 50
+    minPlayers: 40
   - type: UnitologyRule
   - type: AntagSelection
     definitions:

@@ -137,6 +137,7 @@
     minimumPlayers: 25
     weight: 3
     duration: 1
+    maxOccurrences: 1 # DS: can only happen once per round
   - type: BureaucraticErrorRule
     ignoredJobs:
     - StationAi
@@ -154,6 +155,7 @@
     minimumPlayers: 15
     weight: 3
     duration: 1
+    maxOccurrences: 1 # DS: can only happen once per round
   - type: ClericalErrorRule
 
 - type: entity
@@ -344,6 +346,7 @@
     - Security
     - Service
     - Supply
+    - Law
     extraCount: 2
     lightBreakChancePerSecond: 0.0003
     doorToggleChancePerSecond: 0.001

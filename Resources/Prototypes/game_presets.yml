@@ -7,8 +7,8 @@
   description: survival-description
   rules:
   - WageScheduler # backmen: currency
-  # - MeteorSwarmScheduler
-  # - RampingStationEventScheduler
+  - MeteorSwarmScheduler
+  - RampingStationEventScheduler
   - SpaceTrafficControlEventScheduler
   - SpaceTrafficControlFriendlyEventScheduler
   - BasicRoundstartVariation
@@ -24,8 +24,8 @@
   description: kessler-syndrome-description
   rules:
   - WageScheduler # backmen: currency
-  # - KesslerSyndromeScheduler
-  # - RampingStationEventScheduler
+  - KesslerSyndromeScheduler
+  - RampingStationEventScheduler
   - SpaceTrafficControlEventScheduler
   - BasicRoundstartVariation
 
@@ -42,35 +42,37 @@
   - Traitor
   - Revolutionary
   - Zombie
-  # - KesslerSyndromeScheduler
-  # - RampingStationEventScheduler
+  - BlobGameMode
+  - SpiderTerror
+  - KesslerSyndromeScheduler
+  - RampingStationEventScheduler
   - SpaceTrafficControlEventScheduler
   - BasicRoundstartVariation
 
-- type: gamePreset
-  id: AllerAtOnce
-  alias:
-  - allall
-  - aller
-  - badidea
-  - punishment
-  name: aller-at-once-title
-  description: aller-at-once-description
-  showInVote: false #Please god dont do this
-  rules:
-  - WageScheduler # backmen: currency
-  - Nukeops
-  - Traitor
-  - Revolutionary
-  - Zombie
-  # - BasicStationEventScheduler
-  # - KesslerSyndromeScheduler
-  # - MeteorSwarmMildScheduler
-  # - MeteorSwarmScheduler
-  # - RampingStationEventScheduler
-  - SpaceTrafficControlEventScheduler
-  - SpaceTrafficControlFriendlyEventScheduler
-  - BasicRoundstartVariation
+# - type: gamePreset
+#   id: AllerAtOnce
+#   alias:
+#   - allall
+#   - aller
+#   - badidea
+#   - punishment
+#   name: aller-at-once-title
+#   description: aller-at-once-description
+#   showInVote: false #Please god dont do this
+#   rules:
+#   - WageScheduler # backmen: currency
+#   - Nukeops
+#   - Traitor
+#   - Revolutionary
+#   - Zombie
+#   - BasicStationEventScheduler
+#   - KesslerSyndromeScheduler
+#   - MeteorSwarmMildScheduler
+#   - MeteorSwarmScheduler
+#   - RampingStationEventScheduler
+#   - SpaceTrafficControlEventScheduler
+#   - SpaceTrafficControlFriendlyEventScheduler
+#   - BasicRoundstartVariation
 
 - type: gamePreset
   id: Extended
@@ -81,8 +83,8 @@
   description: extended-description
   rules:
   - WageScheduler # backmen: currency
-  # - BasicStationEventScheduler
-  # - MeteorSwarmScheduler
+  - BasicStationEventScheduler
+  - MeteorSwarmScheduler
   - SpaceTrafficControlEventScheduler
   - BasicRoundstartVariation
   - SubGamemodesRule # DS14
@@ -118,8 +120,8 @@
   description: secret-description
   rules:
   - WageScheduler # backmen: currency
-  # - BasicStationEventScheduler
-  # - MeteorSwarmScheduler
+  - BasicStationEventScheduler
+  - MeteorSwarmScheduler
   - SpaceTrafficControlEventScheduler
   - BasicRoundstartVariation
   - SubGamemodesRule # DS14
@@ -159,8 +161,8 @@
   - WageScheduler # backmen: currency
   - Traitor
   - SubGamemodesRule
-  # - BasicStationEventScheduler
-  # - MeteorSwarmScheduler
+  - BasicStationEventScheduler
+  - MeteorSwarmScheduler
   - SpaceTrafficControlEventScheduler
   - BasicRoundstartVariation
 
@@ -186,8 +188,8 @@
   - WageScheduler # backmen: currency
   - Nukeops
   - SubGamemodesRule
-  # - BasicStationEventScheduler
-  # - MeteorSwarmScheduler
+  - BasicStationEventScheduler
+  - MeteorSwarmScheduler
   - SpaceTrafficControlEventScheduler
   - BasicRoundstartVariation
 
@@ -202,8 +204,8 @@
   - WageScheduler # backmen: currency
   - Revolutionary
   - SubGamemodesRule
-  # - BasicStationEventScheduler
-  # - MeteorSwarmScheduler
+  - BasicStationEventScheduler
+  - MeteorSwarmScheduler
   - SpaceTrafficControlEventScheduler
   - BasicRoundstartVariation
 
@@ -217,8 +219,8 @@
   rules:
   - WageScheduler # backmen: currency
   - Zombie
-  # - BasicStationEventScheduler
-  # - MeteorSwarmScheduler
+  - BasicStationEventScheduler
+  - MeteorSwarmScheduler
   - SpaceTrafficControlEventScheduler
   - BasicRoundstartVariation
   - SubGamemodesRule # DS14
@@ -235,8 +237,8 @@
   rules:
   - WageScheduler # backmen: currency
   - Zombie
-  # - BasicStationEventScheduler
-  # - KesslerSyndromeScheduler
+  - BasicStationEventScheduler
+  - KesslerSyndromeScheduler
   - SpaceTrafficControlEventScheduler
   - BasicRoundstartVariation
   - SubGamemodesRule # DS14

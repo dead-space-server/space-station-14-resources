@@ -4,8 +4,8 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: StationEvent
-    weight: 1
-    duration: 1
+    weight: 3
+    duration: 10
     earliestStart: 45
     reoccurrenceDelay: 60
     minimumPlayers: 20
@@ -18,8 +18,8 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: StationEvent
-    weight: 1
-    duration: 1
+    weight: 3
+    duration: 10
     earliestStart: 45
     reoccurrenceDelay: 60
     minimumPlayers: 20

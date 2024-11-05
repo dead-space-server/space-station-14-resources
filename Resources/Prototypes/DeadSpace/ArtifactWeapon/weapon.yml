@@ -36,6 +36,10 @@
     - state: mag-unshaded-4
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
+  - type: Item
+    size: Huge
+    shape:
+    - 0,0,3,5
   - type: Clothing
     sprite: DeadSpace/ArtifactWeapon/laser_gun.rsi
     quickEquip: true
@@ -66,7 +70,7 @@
     startingCharge: 0
   - type: ArtifactWeapon
     stepExtraHeal: 0.5
-    hits: 100
+    hits: 1
     soundAim:
       path: /Audio/DeadSpace/ArtifactWeapon/aim.ogg
     secondsUtilShot: 0.4

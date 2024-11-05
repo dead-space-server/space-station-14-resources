@@ -100,7 +100,7 @@
 
 - type: entity
   id: ActionSelectEntity
-    name: Выбрать сущность для появления
+  name: Выбрать сущность для появления
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction

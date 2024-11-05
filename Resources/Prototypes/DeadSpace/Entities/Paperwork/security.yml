@@ -20,13 +20,6 @@
   paperPrototype: PaperPrintedSecurity
 
 - type: paperworkForm
-  id: Security3
-  category: security
-  name: paperwork-form-title-security-3
-  text: "/Paperwork/Security/3.xml"
-  paperPrototype: PaperPrintedSecurity
-
-- type: paperworkForm
   id: Security4
   category: security
   name: paperwork-form-title-security-4
