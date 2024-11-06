@@ -417,7 +417,6 @@
       - id: JetpackVoidFilled
       - id: ClothingEyesHudMultiversalDragonFoxMedTech
       - id: ClothingUniformJumpsuitDragonFoxMedTech
-      - id: ClothingBeltWebbingDragonFoxMedTech
 
 - type: entity
   parent: ClothingOuterHardsuitBase
