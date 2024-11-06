@@ -335,14 +335,14 @@
     content: paper-law-dragon_fox
 
 #Backpack для ивент отдела
-  - type: entity
-    parent: ClothingBackpack
-    id: ClothingBackpackSingleStrapКhaki
-    name: однолямочный  рюкзак
-    description: Однолямочный рюкзак для хранения вещей. Окрашен в зелёный хаки. 
-    components:
-    - type: Sprite
-      sprite: DeadSpace/Sponsor/DragonFox/backpack.rsi
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackSingleStrapКhaki
+  name: однолямочный  рюкзак
+  description: Однолямочный рюкзак для хранения вещей. Окрашен в зелёный хаки. 
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/DragonFox/backpack.rsi
 
 #Сестра битв
 - type: entity
