@@ -148,6 +148,7 @@
     - trayScanner
     - AccessConfiguratorUniversal
     - Multitool
+    - AnomalyScanner
 
 #Gladiator with spear
 - type: startingGear

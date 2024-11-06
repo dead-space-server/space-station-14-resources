@@ -64,7 +64,6 @@
             ServiceWorker: [ 2, 2 ]
             Passenger: [ -1, -1 ]
             # silicon
-            StationAi: [ 1, 1 ]
             Borg: [ 1, 1 ]
             BorgSecurity: [ 1, 1 ]
             # law

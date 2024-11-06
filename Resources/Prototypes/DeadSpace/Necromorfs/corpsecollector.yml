@@ -60,7 +60,7 @@
 
 - type: entity
   parent: ClothingOuterBase
-  id: ClothingCorpseCollectoLvl3
+  id: ClothingCorpseCollectorLvl3
   categories: [ HideSpawnMenu ]
   name: собиратель трупов
   description: Собиратель трупов, поглощает поверженных собратьев.

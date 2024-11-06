@@ -58,9 +58,7 @@ paperwork-form-title-command-10 = Приказ об увольнении
 paperwork-form-title-command-11 = Приказ о лишении доступа
 paperwork-form-title-command-12 = Разрешение на передвижение при угрозе
 paperwork-form-title-command-13 = Приказ о поощрении
-paperwork-form-title-command-14 = Грамота
 paperwork-form-title-command-15 = Свидетельство о повышении квалификации
-paperwork-form-title-command-16 = Заявление на получение снаряжения
 paperwork-form-title-command-17 = Разрешение на использование снаряжения
 
 paperwork-form-title-engineering-0 = Стандартный шаблон документа
@@ -102,7 +100,6 @@ paperwork-form-title-science-5 = Запрос на проведение моде
 paperwork-form-title-security-0 = Стандартный шаблон документа
 paperwork-form-title-security-1 = Жалоба на правонарушение
 paperwork-form-title-security-2 = Приговор
-paperwork-form-title-security-3 = Свидетельство о правонарушении
 paperwork-form-title-security-4 = Обвинительное заключение
 paperwork-form-title-security-5 = Разрешение на обыск
 paperwork-form-title-security-6 = Приказ об УДО заключенного

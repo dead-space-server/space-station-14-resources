@@ -37,7 +37,7 @@
 - type: entity
   parent: BaseItem
   id: ArtifactWeaponStone
-  suffix: артефакт оружие
+  suffix: Артефакт оружие
   components:
   - type: StaticPrice
     price: 10000

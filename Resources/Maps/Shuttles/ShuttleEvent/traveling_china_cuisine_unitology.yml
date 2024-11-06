@@ -1169,8 +1169,6 @@ entities:
       pos: 1.5,-3.5
       parent: 1
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 256
 - proto: GeneratorWallmountAPU
