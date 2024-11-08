@@ -275,7 +275,7 @@
 - type: entity
   parent: BaseStructureDynamic
   id: BaseCardBin
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Items/cards/cardbin.rsi

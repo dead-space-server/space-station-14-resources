@@ -20,6 +20,7 @@ flavor-base-fishy = рыбно
 flavor-base-crabby = крабово
 flavor-base-cheesy = сырно
 flavor-base-funny = забавно
+flavor-base-strange = странно
 flavor-base-tingly = покалывающе
 flavor-base-acid = кислотно
 flavor-base-leafy = лиственно
@@ -50,6 +51,7 @@ flavor-base-horrible = ужасно
 # lmao
 flavor-base-terrible = ужасающе
 flavor-base-mindful = разумно
+flavor-base-chewy = жевательно
 
 # Complex flavors. Put a flavor here when you want something that's more
 # specific.
@@ -126,6 +128,7 @@ flavor-complex-vegetables = как овощи
 
 ## Complex foodstuffs (cooked foods, joke flavors, etc)
 
+flavor-complex-cherry = как вишня
 flavor-complex-pink = как розовый
 flavor-complex-curry = как карри
 flavor-complex-borsch-1 = как борщ
@@ -177,6 +180,11 @@ flavor-complex-violets = как фиалки
 flavor-complex-pyrotton = как горящий рот
 flavor-complex-mothballs = как нафталиновые шарики
 flavor-complex-paint-thinner = как растворитель для краски
+flavor-complex-numbing-tranquility = как оцепенелое спокойствие
+flavor-complex-true-nature = как истинная природа реальности
+flavor-complex-false-meat = как не совсем не мясо
+flavor-complex-paper = как кашеобразная масса
+flavor-complex-compressed-meat = как спрессованное мясо
 flavor-complex-alcohol = как алкоголь
 flavor-complex-soda = как газировка
 flavor-complex-juice = как сок
@@ -235,7 +243,7 @@ flavor-complex-root-beer-float = как мороженое в рутбире
 flavor-complex-black-russian = как алкогольный кофе
 flavor-complex-white-russian = как подслащённый алкогольный кофе
 flavor-complex-moonshine = как чистый алкоголь
-flavor-complex-tequila-sunrise = как накрутка онлайна
+flavor-complex-tequila-sunrise = как мексиканское утро
 flavor-complex-irish-coffee = как пробуждение алкоголика
 flavor-complex-iced-beer = как ледяная моча
 flavor-complex-gargle-blaster = как будто кто-то ударил вас по голове золотым слитком, покрытым лимоном.

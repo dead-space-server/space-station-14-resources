@@ -44,3 +44,11 @@
   frequency: 1666
   color: "#2F4F4F"
   longRange: true
+
+- type: radioChannel
+  id: SpiderTerrorChannel
+  name: chat-radio-spiders
+  keycode: 'я' # DS14-Localization
+  frequency: 3918
+  color: "#8539bf"
+  longRange: false

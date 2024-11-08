@@ -7,7 +7,7 @@
     issuer: objective-issuer-thief
   - type: RoleRequirement
     roles:
-      components:
+      mindRoles:
       - ThiefRole
 
 - type: entity
@@ -52,17 +52,6 @@
     difficulty: 2 # it's hard to hide
 
 # Collections
-
-- type: entity
-  parent: BaseThiefStealCollectionObjective
-  id: FigurineStealCollectionObjective
-  components:
-  - type: StealCondition
-    stealGroup: Figurines
-    minCollectionSize: 10
-    maxCollectionSize: 18 #will be limited to the number of figures on the station anyway.
-  - type: Objective
-    difficulty: 0.25
 
 - type: entity
   parent: BaseThiefStealCollectionObjective
@@ -128,8 +117,8 @@
   components:
   - type: StealCondition
     stealGroup: IDCard
-    minCollectionSize: 4
-    maxCollectionSize: 8
+    minCollectionSize: 4 # DS14 value
+    maxCollectionSize: 8 # DS14 value
     verifyMapExistence: false
   - type: Objective
     difficulty: 0.7
@@ -162,7 +151,7 @@
   - type: StealCondition
     stealGroup: ForensicScanner
   - type: Objective
-    difficulty: 0.5
+    difficulty: 1
 
 - type: entity
   parent: BaseThiefStealObjective
@@ -183,6 +172,15 @@
     stealGroup: ClothingHeadHatWarden
   - type: Objective
     difficulty: 1.2
+
+- type: entity
+  parent: BaseThiefStealObjective
+  id: WantedListCartridgeStealObjective
+  components:
+  - type: StealCondition
+    stealGroup: WantedListCartridge
+  - type: Objective
+    difficulty: 1
 
 - type: entity                                      #Medical subgroup
   parent: BaseThiefStealObjective
@@ -258,17 +256,6 @@
     job: CargoTechnician
   - type: StealCondition
     stealGroup: CargoShuttleConsoleCircuitboard
-  - type: Objective
-    difficulty: 0.7
-
-- type: entity
-  parent: BaseThiefStealObjective
-  id: SalvageShuttleCircuitboardStealObjective
-  components:
-  - type: NotJobRequirement
-    job: SalvageSpecialist
-  - type: StealCondition
-    stealGroup: SalvageShuttleConsoleCircuitboard
   - type: Objective
     difficulty: 0.7
 

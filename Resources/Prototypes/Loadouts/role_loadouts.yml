@@ -27,6 +27,11 @@
   - GroupSpeciesBreathTool
   - HoPUnderwear # DS14-Underwear
 
+# Silicons
+# - type: roleLoadout
+#   id: JobStationAi
+#   nameDataset: names_ai
+
 # Civilian
 - type: roleLoadout
   id: JobPassenger
@@ -180,6 +185,7 @@
   - MimeJumpsuit
   - MimeBackpack
   - MimeOuterClothing
+  - MimeBelt
   - Glasses
   - SurvivalMime
   - Trinkets
@@ -430,7 +436,7 @@
   - MedicalMask
   - ChiefMedicalOfficerJumpsuit
   - MedicalGloves
-  - MedicalBackpack
+  - ChiefMedicalOfficerBackpack
   - ChiefMedicalOfficerOuterClothing
   - ChiefMedicalOfficerNeck
   - ChiefMedicalOfficerShoes
@@ -469,6 +475,24 @@
   - Trinkets
   - GroupSpeciesBreathToolMedical
   - MedicalInternUnderwear # DS14-Underwear
+
+- type: roleLoadout
+  id: JobMedicalSurgeon
+  groups:
+  - GroupTankHarness
+  - MedicalDoctorHead
+  - MedicalMask
+  - MedicalDoctorJumpsuit
+  - MedicalGloves
+  - MedicalBackpack
+  - MedicalDoctorOuterClothing
+  - MedicalShoes
+  - MedicalDoctorPDA
+  - Glasses
+  - SurvivalMedical
+  - Trinkets
+  - GroupSpeciesBreathToolMedical
+  - MedicalDoctorUnderwear
 
 - type: roleLoadout
   id: JobChemist
@@ -531,7 +555,7 @@
   groups:
   - GroupTankHarness
   - PsychologistJumpsuit
-  - PsychologistBackpack # Corvax-MRP
+  - MedicalBackpack
   - Glasses
   - Survival
   - Trinkets
@@ -553,6 +577,12 @@
 
 # These loadouts are used for non-crew spawns, like off-station antags and event mobs
 # They will be used without player configuration, thus they will only ever apply what is forced by MinLimit
+
+- type: roleLoadout
+  id: RoleSurvivalVoxSupport
+  groups:
+  - GroupSpeciesBreathTool
+  - GroupTankHarness
 
 - type: roleLoadout
   id: RoleSurvivalStandard
@@ -594,6 +624,13 @@
   - SurvivalSyndicate
   - GroupSpeciesBreathTool
   - GroupTankHarness
+
+- type: roleLoadout
+  id: RoleSurvivalNukie
+  groups:
+  - SurvivalSyndicate
+  - GroupSpeciesBreathTool
+  - GroupPocketTankDouble
 
 - type: roleLoadout
   id: RoleSurvivalEVA

@@ -1,0 +1,15 @@
+- type: soundCollection
+  id: SithPush
+  files:
+  - /Audio/DeadSpace/Sith/sithpush1.ogg
+  - /Audio/DeadSpace/Sith/sithpush2.ogg
+  - /Audio/DeadSpace/Sith/sithpush3.ogg
+  - /Audio/DeadSpace/Sith/sithpush4.ogg
+
+- type: soundCollection
+  id: SithPull
+  files:
+  - /Audio/DeadSpace/Sith/sithpull1.ogg
+  - /Audio/DeadSpace/Sith/sithpull2.ogg
+  - /Audio/DeadSpace/Sith/sithpull3.ogg
+  - /Audio/DeadSpace/Sith/sithpull4.ogg

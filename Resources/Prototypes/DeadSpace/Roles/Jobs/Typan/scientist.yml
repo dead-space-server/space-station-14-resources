@@ -5,7 +5,8 @@
   description: Учёный из далёкого космоса
   startingGear: SyndicateScience
   icon: "JobIconSyndicateScience"
-  supervisors: job-supervisors-rd-syndicate
+  supervisors: job-supervisors-typan-rd
+  canBeAntag: false
   requirements:
     - !type:DepartmentTimeRequirement
       department: Science
@@ -25,4 +26,4 @@
     gloves: ClothingHandsScienceTypan
     shoes: ClothingShoesBootsCombat
     back: ClothingBackpackSyndicate
-    id: TypanIDCardScience
+    id: SyndiPDAScience

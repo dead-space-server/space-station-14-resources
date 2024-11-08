@@ -148,6 +148,23 @@ entities:
     - type: GasTileOverlay
     - type: RadiationGridResistance
     - type: NavMap
+  - uid: 257
+    components:
+    - type: MetaData
+      name: solution - food
+    - type: Transform
+      parent: 187
+    - type: Solution
+      solution:
+        maxVol: 1
+        name: food
+        reagents:
+        - data: []
+          ReagentId: Fiber
+          Quantity: 1
+    - type: ContainedSolution
+      containerName: food
+      container: 187
 - proto: AirAlarm
   entities:
   - uid: 256
@@ -1152,8 +1169,6 @@ entities:
       pos: 1.5,-3.5
       parent: 1
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 256
 - proto: GeneratorWallmountAPU
@@ -1405,6 +1420,99 @@ entities:
       parent: 242
     - type: Physics
       canCollide: False
+- proto: PaperPrintedCentcomm
+  entities:
+  - uid: 187
+    components:
+    - type: Transform
+      pos: 1.0737936,-6.3245206
+      parent: 1
+    - type: Paper
+      stampState: paper_stamp-centcom
+      stampedBy:
+      - stampedColor: '#006600FF'
+        stampedName: stamp-component-stamped-name-centcom
+      content: >+
+        ═════════════════════════════════════
+
+        [bold]РАЗРЕШЕНИЕ НА ПЕРЕМЕЩЕНИЕ[/bold]
+
+        ═════════════════════════════════════
+
+
+        Экипаж торгового судна SRV "Salami-Salami" обладает всеми правами на перемещение внутри юрисдикции корпорации NanoTrasen согласно подписанному контракту о коммерческой деятельности и прохождению всех необходимых процедур проверки. 
+
+
+        Данное разрешение будет аннулировано автоматически после нарушения следующих условий:
+
+        Нарушение статьи средней и выше тяжести Корпоративного Закона.
+
+        Неподчинение требованию Центрального Командования на стыковку к ближайшей научно-исследовательской станции во время кода угрозы "Сьерра".
+
+        Неподчинение требованиям Высшего Командного Состава научно-исследовательской станции.
+
+        Игнорирование требования в ознакомлении с данным разрешением действующего Капитана станции.
+
+        Пристыковка ко станции на которой действует код угрозы "Фиолетовый" более чем на 10 секунд. Отстыковка обязательна и последующая пристыковка будет считаться причиной аннулирования разрешения.
+
+        Перемещение по научно-исследовательским станциям после того, как срок разрешения истечёт (07.05.2714).
+
+
+        После аннулирования разрешения из-за нарушения одного из пунктов, весь экипаж будет считаться незарегистрированными лицами и будут подлежать аресту.
+
+        Любое должностное лицо имеет право запросить уточнение по данному разрешению.
+
+        Весь экипаж судна вправе рекламировать свои услуги и предоставлять их всему персоналу станции. Продавать или предлагать еду/припасы бесплатно. 
+
+        Допускается раздача визиток со своей печатью.
+
+
+        ═════════════════════════════════════
+
+        [italic]Место для печатей[/italic]
+
+    - type: SolutionContainerManager
+      solutions: null
+      containers:
+      - food
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.25,-0.25
+            - 0.25,-0.25
+            - 0.25,0.25
+            - -0.25,0.25
+          mask:
+          - Impassable
+          - HighImpassable
+          layer: []
+          density: 20
+          hard: True
+          restitution: 0.3
+          friction: 0.2
+        flammable:
+          shape: !type:PhysShapeCircle
+            radius: 0.35
+            position: 0,0
+          mask:
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          layer: []
+          density: 1
+          hard: False
+          restitution: 0
+          friction: 0.4
+    - type: ContainerContainer
+      containers:
+        solution@food: !type:ContainerSlot
+          ent: 257
 - proto: Pen
   entities:
   - uid: 232

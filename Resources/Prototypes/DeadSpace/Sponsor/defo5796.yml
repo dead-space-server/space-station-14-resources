@@ -9,7 +9,7 @@
   id: ClothingBackpackdefo5796
   name: сумка киберпсиха
   description: Рюкзак использующий технологию блюспейса для увелечения своего максимального объёма. Окрашен в зелёный цвет. Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/defo5796/satchel.rsi
@@ -38,7 +38,7 @@
   id: ClothingBeltdefo5796Filled
   name: пояс киберпсиха
   description: Пояс окрашенный в циановый цвет.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/defo5796/belt.rsi
@@ -59,7 +59,7 @@
   id: ClothingNeckCloakdefo5796
   name: плащ киберпсиха
   description: Накидка в циановом цвете. Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/defo5796/cloak.rsi
@@ -70,7 +70,7 @@
   id: ClothingHandsGlovesdefo5796
   name: белые боевые перчатки
   description: Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации. Изолированны.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/gloves.rsi
@@ -86,7 +86,7 @@
   id: ClothingOuterHardsuitdefo5796
   name: скафандр киберпсиха
   description: Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации. Характеристики идентичны максимальному скафандру утилизаторов.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/defo5796/hardsuit.rsi
@@ -100,7 +100,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitdefo5796
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: шлем скафандра киберпсиха
   description: Шлем изолирующий владельца от страшного вакуума снаружи.
   components:
@@ -120,7 +120,7 @@
   id: ClothingShoesBootsMagdefo5796
   name: магнитные ботинки киберпсиха
   description: Магнитные ботинки в фиолетовом цвете.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
       sprite: DeadSpace/Sponsor/defo5796/magboots.rsi
@@ -138,7 +138,7 @@
   id: PaperLawdefo5796
   name: распечатанный документ
   description: Лист бумаги с заголовком центкома. Страшно даже смотреть на него.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Paper
     stampState: paper_stamp-centcom

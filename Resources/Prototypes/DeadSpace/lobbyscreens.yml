@@ -195,3 +195,7 @@
 # - type: lobbyBackground
 #   id: moli_utilizatori
 #   background: /Textures/LobbyScreens/Soyuz/moli_utilizatori.png
+
+# - type: lobbyBackground
+#   id: moli_utilizatori
+#   background: /Textures/LobbyScreens/Soyuz/communist_banquet.png

@@ -20,7 +20,7 @@ entities:
   - uid: 1
     components:
     - type: MetaData
-      name: Хонкоматерь
+      name: Хонкомама
     - type: Transform
       pos: 1.212189,-1.7551664
       parent: invalid
@@ -321,25 +321,21 @@ entities:
             0: 476
             1: 8192
           1,0:
-            2: 49424
-            0: 3808
+            0: 53232
           1,-1:
-            3: 4112
-            0: 26400
-            2: 64
+            0: 30576
           2,0:
             0: 65535
           2,-1:
             0: 65520
           3,0:
-            0: 4371
-            4: 76
+            0: 546
+            2: 76
           3,-1:
-            0: 4368
-            4: 16384
+            0: 8704
+            2: 16384
           0,-2:
-            0: 43697
-            2: 2
+            0: 43699
           -1,-2:
             0: 48056
           -1,-1:
@@ -362,7 +358,7 @@ entities:
           -2,0:
             0: 32753
           -2,-1:
-            0: 57296
+            0: 56784
           -2,-2:
             1: 8740
             0: 34944
@@ -402,36 +398,6 @@ entities:
           - 0
           - 0
         - volume: 2500
-          temperature: 293.14975
-          moles:
-          - 20.078888
-          - 75.53487
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-        - volume: 2500
-          temperature: 293.15
-          moles:
-          - 21.6852
-          - 81.57766
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-        - volume: 2500
           temperature: 235
           moles:
           - 21.824879
@@ -449,6 +415,23 @@ entities:
         chunkSize: 4
     - type: GasTileOverlay
     - type: RadiationGridResistance
+  - uid: 621
+    components:
+    - type: MetaData
+      name: solution - food
+    - type: Transform
+      parent: 620
+    - type: Solution
+      solution:
+        maxVol: 1
+        name: food
+        reagents:
+        - data: []
+          ReagentId: Fiber
+          Quantity: 1
+    - type: ContainedSolution
+      containerName: food
+      container: 620
 - proto: AirAlarm
   entities:
   - uid: 518
@@ -627,11 +610,6 @@ entities:
       parent: 1
 - proto: BarricadeBlock
   entities:
-  - uid: 542
-    components:
-    - type: Transform
-      pos: -1.5,-5.5
-      parent: 1
   - uid: 556
     components:
     - type: Transform
@@ -1373,24 +1351,6 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClownTroupeSpawner
-  entities:
-  - uid: 14
-    components:
-    - type: Transform
-      pos: 5.5,-6.5
-      parent: 1
-  - uid: 399
-    components:
-    - type: Transform
-      pos: 5.5,-6.5
-      parent: 1
-  - uid: 401
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 3.5,-4.5
-      parent: 1
 - proto: CluwneHorn
   entities:
   - uid: 23
@@ -1987,7 +1947,7 @@ entities:
   - uid: 146
     components:
     - type: Transform
-      pos: 2.4518545,0.63915
+      pos: 2.4731963,0.58424675
       parent: 1
 - proto: FoodCondimentPacketHorseradish
   entities:
@@ -2764,8 +2724,6 @@ entities:
       pos: 0.5,0.5
       parent: 1
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 518
     - type: AtmosPipeColor
@@ -2777,8 +2735,6 @@ entities:
       pos: 10.5,-0.5
       parent: 1
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 518
     - type: AtmosPipeColor
@@ -2790,8 +2746,6 @@ entities:
       pos: 4.5,-5.5
       parent: 1
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 518
     - type: AtmosPipeColor
@@ -2821,8 +2775,6 @@ entities:
       pos: 10.5,-1.5
       parent: 1
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 518
   - uid: 511
@@ -2831,8 +2783,6 @@ entities:
       pos: 3.5,-5.5
       parent: 1
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 518
   - uid: 554
@@ -2842,8 +2792,6 @@ entities:
       pos: -0.5,0.5
       parent: 1
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 518
     - type: AtmosPipeColor
@@ -2855,8 +2803,6 @@ entities:
       pos: 1.5,0.5
       parent: 1
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 518
     - type: AtmosPipeColor
@@ -2880,7 +2826,7 @@ entities:
   - uid: 312
     components:
     - type: Transform
-      pos: 0.48006833,-0.33169234
+      pos: 0.5336256,-0.29075325
       parent: 1
 - proto: GravityGeneratorMini
   entities:
@@ -3127,6 +3073,92 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
+- proto: PaperPrintedCentcomm
+  entities:
+  - uid: 620
+    components:
+    - type: Transform
+      pos: 0.4094293,-0.3622502
+      parent: 1
+    - type: Paper
+      stampState: paper_stamp-centcom
+      stampedBy:
+      - stampedColor: '#006600FF'
+        stampedName: stamp-component-stamped-name-centcom
+      content: >+
+        ═════════════════════════════════════
+
+        [bold]РАЗРЕШЕНИЕ НА ПЕРЕМЕЩЕНИЕ[/bold]
+
+        ═════════════════════════════════════
+
+
+        Экипаж развлекательного судна клоунов "Хонкомама" обладает всеми правами на перемещение внутри юрисдикции корпорации NanoTrasen согласно подписанному контракту о некоммерческой деятельности и прохождению всех необходимых процедур проверки. 
+
+
+        Данное разрешение будет аннулировано автоматически после нарушения следующих условий:
+
+        Саботаж работы Службы Безопасности или неподчинение их законным требованиям.
+
+        Неподчинение требованию Центрального Командования на стыковку к ближайшей научно-исследовательской станции во время кода угрозы "Сьерра".
+
+        Неподчинение требованиям Высшего Командного состава научно-исследовательской станции.
+
+        Игнорирование требования в ознакомлении с данным разрешением действующего Капитана станции.
+
+        Пристыковка ко станции на которой действует код угрозы "Фиолетовый" более чем на 10 секунд. Отстыковка обязательна и последующая пристыковка будет считаться причиной аннулирования разрешения.
+
+        Перемещение по научно-исследовательским станциям после того, как срок разрешения истечёт (01.06.2710).
+
+
+        После аннулирования разрешения из-за нарушения одного из пунктов, весь экипаж будет считаться незарегистрированными лицами и будут подлежать аресту.
+
+        Любое должностное лицо имеет право запросить уточнение по данному разрешению.
+
+        Весь экипаж судна вправе проводить представления в любом месте станции, к которому имеют доступ, до тех пор, пока это не препятствует чьей-либо работе или не создаёт угрозу жизни.
+
+    - type: SolutionContainerManager
+      solutions: null
+      containers:
+      - food
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.25,-0.25
+            - 0.25,-0.25
+            - 0.25,0.25
+            - -0.25,0.25
+          mask:
+          - Impassable
+          - HighImpassable
+          layer: []
+          density: 20
+          hard: True
+          restitution: 0.3
+          friction: 0.2
+        flammable:
+          shape: !type:PhysShapeCircle
+            radius: 0.35
+            position: 0,0
+          mask:
+          - MidImpassable
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          layer: []
+          density: 1
+          hard: False
+          restitution: 0
+          friction: 0.4
+    - type: ContainerContainer
+      containers:
+        solution@food: !type:ContainerSlot
+          ent: 621
 - proto: PlasmaReinforcedWindowDirectional
   entities:
   - uid: 5
@@ -3698,6 +3730,8 @@ entities:
         - Pressed: Toggle
         253:
         - Pressed: Toggle
+        266:
+        - Pressed: Toggle
   - uid: 199
     components:
     - type: MetaData
@@ -3935,12 +3969,32 @@ entities:
     - type: Transform
       pos: 5.5,-0.5
       parent: 1
+    - type: AccessReader
+      access: []
 - proto: VendingMachineTankDispenserEVA
   entities:
   - uid: 329
     components:
     - type: Transform
       pos: -3.5,-0.5
+      parent: 1
+- proto: VisitorClownSpawner
+  entities:
+  - uid: 14
+    components:
+    - type: Transform
+      pos: 5.5,-6.5
+      parent: 1
+  - uid: 399
+    components:
+    - type: Transform
+      pos: 5.5,-6.5
+      parent: 1
+  - uid: 401
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 3.5,-4.5
       parent: 1
 - proto: WallClown
   entities:

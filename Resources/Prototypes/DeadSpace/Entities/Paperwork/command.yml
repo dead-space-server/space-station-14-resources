@@ -97,24 +97,10 @@
   paperPrototype: PaperPrintedCommand
 
 - type: paperworkForm
-  id: Command14
-  category: command
-  name: paperwork-form-title-command-14
-  text: "/Paperwork/Command/14.xml"
-  paperPrototype: PaperPrintedCommand
-
-- type: paperworkForm
   id: Command15
   category: command
   name: paperwork-form-title-command-15
   text: "/Paperwork/Command/15.xml"
-  paperPrototype: PaperPrintedCommand
-
-- type: paperworkForm
-  id: Command16
-  category: command
-  name: paperwork-form-title-command-16
-  text: "/Paperwork/Command/16.xml"
   paperPrototype: PaperPrintedCommand
 
 - type: paperworkForm

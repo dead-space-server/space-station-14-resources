@@ -6,11 +6,11 @@
   description: uni-description
   showInVote: true
   rules:
+    - WageScheduler # backmen: currency
     - Unitology
     - BasicStationEventScheduler
     - BasicRoundstartVariation
     - SubGamemodesRule
-    - WageScheduler #backmen: currency
 
 - type: gamePreset
   id: SecretUnitology
@@ -20,8 +20,8 @@
   description: secret-description
   showInVote: false
   rules:
+    - WageScheduler # backmen: currency
     - Unitology
     - BasicStationEventScheduler
     - BasicRoundstartVariation
     - SubGamemodesRule
-    - WageScheduler #backmen: currency

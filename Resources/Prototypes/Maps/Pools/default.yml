@@ -6,6 +6,7 @@
   - CorvaxDelta
   - CorvaxGate
   - CorvaxPaper
+  - CorvaxSilly
   - CorvaxSpectrum
   - Aspid
   - Bagel
@@ -18,7 +19,7 @@
   - Marathon
   - Meta
   - Oasis
-  - Omega
+  # - Omega # Until fix
   - Origin
   - Packed
   - Saltern

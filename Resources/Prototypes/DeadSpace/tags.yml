@@ -1,4 +1,7 @@
 - type: Tag
+  id: BatteryWeaponFireModesSprites
+
+- type: Tag
   id: BorgSecRLeg
 
 - type: Tag

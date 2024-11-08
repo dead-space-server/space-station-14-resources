@@ -1,11 +1,6 @@
-# короче, в игре есть вот это всё, но оно изначально с чаем.
-# чтобы не обломать автомат по разлитию кофе и некоторые карты, на которых спавнится чайник, я делаю это.
-
 - type: entity
   parent: DrinkBaseCup
   id: ADTDrinkTeacup
-  name: Teacup
-  description: A plain white porcelain teacup.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -25,8 +20,6 @@
 - type: entity
   parent: DrinkGlassBase
   id: ADTDrinkTeapot
-  name: teapot 
-  description: An elegant teapot. It simply oozes class.
   components:
   - type: SolutionContainerManager
     solutions:

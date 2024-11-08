@@ -1,12 +1,12 @@
 ﻿- type: entity
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   parent: BaseObjective
   id: BankNote
   components:
   - type: Objective
     difficulty: 0
     unique: true
-    issuer: SpaceBank
+    issuer: objective-issuer-space-bank
     icon:
       sprite: Backmen/Objects/Tools/rimbank.rsi
       state: icon

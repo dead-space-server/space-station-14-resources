@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ADTClothingHeadHatsBlackVeil
-  name: Black veil
-  description: Gothic, nice. For those who destroy traditions but not much
+  name: чёрная фата
+  description: Готично, красиво. Для тех кто рушит традиции, но не очень.
   components:
   - type: Sprite
     sprite: ADT/Clothing/Head/Hats/black_veil.rsi
@@ -18,8 +18,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ADTClothingHeadHatsWhiteVeil
-  name: White veil
-  description: For those who follow tradition
+  name: белая фата
+  description: Для тех кто следует традициям.
   components:
   - type: Sprite
     sprite: ADT/Clothing/Head/Hats/white_veil.rsi
