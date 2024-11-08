@@ -27,7 +27,7 @@ entities:
       name: NT-Incorporation
     - type: Transform
       pos: -0.5208333,-0.5104167
-      parent: 189
+      parent: invalid
     - type: MapGrid
       chunks:
         0,0:
@@ -582,18 +582,6 @@ entities:
         chunkSize: 4
     - type: GasTileOverlay
     - type: RadiationGridResistance
-  - uid: 189
-    components:
-    - type: MetaData
-      name: Map Entity
-    - type: Transform
-    - type: Map
-      mapPaused: True
-    - type: PhysicsMap
-    - type: GridTree
-    - type: MovedGrids
-    - type: Broadphase
-    - type: OccluderTree
 - proto: AirAlarm
   entities:
   - uid: 855
@@ -2651,33 +2639,6 @@ entities:
           occludes: True
           ents:
           - 411
-- proto: EncryptionKeyFreelance
-  entities:
-  - uid: 876
-    components:
-    - type: Transform
-      pos: 0.49999997,4.220806
-      parent: 1
-  - uid: 877
-    components:
-    - type: Transform
-      pos: -2.4583335,5.5749726
-      parent: 1
-  - uid: 878
-    components:
-    - type: Transform
-      pos: -0.55208343,7.6166396
-      parent: 1
-  - uid: 879
-    components:
-    - type: Transform
-      pos: 1.5,7.637473
-      parent: 1
-  - uid: 880
-    components:
-    - type: Transform
-      pos: 3.5104167,5.6791396
-      parent: 1
 - proto: ExtinguisherCabinetFilled
   entities:
   - uid: 774

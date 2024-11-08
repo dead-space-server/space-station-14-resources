@@ -447,7 +447,26 @@
     clothingPrototype: ClothingHeadHelmetHardsuitDragonFoxMedTech
   - type: Item
     size: Huge
-
+  - type: HardsuitSpeedBuff
+  - type: PowerCellDraw
+    drawRate: 3.6 # 100 seconds on the default cell
+    enabled: false
+  - type: PowerCellSlot
+    cellSlotId: cell_slot
+    # throwing in a recharger would bypass glove charging mechanic
+    fitsInCharger: false
+  - type: ContainerContainer
+    containers:
+      cell_slot: !type:ContainerSlot
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
+        startingItem: PowerCellSmall
+        disableEject: true
+        whitelist:
+          tags:
+            - PowerCell
 
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase

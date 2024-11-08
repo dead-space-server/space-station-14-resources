@@ -52,7 +52,7 @@
   parent: WeaponPulseCarbine
   categories: [ HideSpawnMenu ]
   id: WeaponPulseCarbineNecro
-  name: винтавка заражённого бойца
+  name: винтовка заражённого бойца
   description: Высокотехнологичный энергетический карабин, который предпочитают оперативники ОБР NanoTrasen.
   components:
   - type: Unremoveable
