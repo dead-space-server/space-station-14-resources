@@ -7,18 +7,25 @@
         "y": 32
     },
     "states": [
-        {
-            "name": "icon"
-        },
-        {
-            "name": "inhand-left"
-        },
-        {
-            "name": "inhand-right"
-        },
-        {
-            "name": "equipped-HELMET",
-            "directions": 4
-        }
+      {
+        "name": "icon"
+      },
+      {
+        "name": "equipped-HELMET",
+        "directions": 4
+      },
+      {
+        "name": "equipped-HELMET-hamster",
+        "directions": 4
+      },
+      {
+        "name": "inhand-left",
+        "directions": 4
+      },
+      {
+        "name": "inhand-right",
+        "directions": 4
+      }
     ]
 }
+  

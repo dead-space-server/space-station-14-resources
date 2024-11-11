@@ -23,7 +23,7 @@
   parent: BaseTypanPDA
   id: SyndiPDARD
   name: КПК Директора Исследований Синдиката
-  description: Ok, time to be a productive member of- oh cool I'm a bad guy time to kill people!
+  description: Сосредоточение наизлейших технологий! Пахнет дешёвым пластиком...
   components:
   - type: Pda
     id: TypanIDCardRd
@@ -37,7 +37,7 @@
   parent: BaseTypanPDA
   id: SyndiPDAScience
   name: КПК Учёного Синдиката
-  description: Ok, time to be a productive member of- oh cool I'm a bad guy time to kill people!
+  description: Похоже этот КПК был взломан.
   components:
   - type: Pda
     id: TypanIDCardScience
@@ -51,7 +51,7 @@
   parent: BaseTypanPDA
   id: SyndiPDABotan
   name: КПК Ботаника Синдиката
-  description: Ok, time to be a productive member of- oh cool I'm a bad guy time to kill people!
+  description: Весь разъеден ядами растительного происхождения.
   components:
   - type: Pda
     id: TypanIDCardBotanist
@@ -65,7 +65,7 @@
   parent: BaseTypanPDA
   id: MedicalPDASyndi
   name: КПК Врача Синдиката
-  description: Ok, time to be a productive member of- oh cool I'm a bad guy time to kill people!
+  description: Ходят легенды, что на нём отображается пульс главы НТ.
   components:
   - type: Pda
     id: TypanIDCardMed
@@ -89,7 +89,7 @@
   parent: BaseTypanPDA
   id: SyndiPDAEng
   name: КПК Атмосферного Инженера Синдиката
-  description: Ok, time to be a productive member of- oh cool I'm a bad guy time to kill people!
+  description: Крепкий КПК мастера на все руки.
   components:
   - type: Pda
     id: TypanIDCardEng
@@ -103,7 +103,7 @@
   parent: BaseTypanPDA
   id: SyndiPDACom
   name: КПК Офицера Телекомуникаций Синдиката
-  description: Ok, time to be a productive member of- oh cool I'm a bad guy time to kill people!
+  description: Оснащён всеми средствами и возможностями для получения наизлейших приказов.
   components:
   - type: Pda
     id: TypanIDCardCom
@@ -117,7 +117,7 @@
   parent: BaseTypanPDA
   id: SyndiPDACargo
   name: КПК Карготехника Синдиката
-  description: Ok, time to be a productive member of- oh cool I'm a bad guy time to kill people!
+  description: В слоту для ручки застрял зуб карпоакулы.
   components:
   - type: Pda
     id: TypanIDCardCargo
@@ -131,7 +131,7 @@
   parent: BaseTypanPDA
   id: SyndiPDAChef
   name: КПК Повара Синдиката
-  description: Ok, time to be a productive member of- oh cool I'm a bad guy time to kill people!
+  description: Ну так как оно будет? С кишками или без кишок?
   components:
   - type: Pda
     id: TypanIDCardChef
