@@ -32,7 +32,7 @@
   canBeAntag: false
   icon: JobIconBorg
   supervisors: job-supervisors-crew
-  jobEntity: PlayerBorgGeneric
+  jobEntity: PlayerBorgBattery
   applyTraits: false
   startingGear: RobotGear # for char preview only
 
