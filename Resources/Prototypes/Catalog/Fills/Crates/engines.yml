@@ -105,7 +105,9 @@
   - type: StorageFill
     contents:
       - id: SolarAssemblyFlatpack
-        amount: 6
+        amount: 10
+      - id: SheetGlass10
+        amount: 2
 
 - type: entity
   id: CrateEngineeringShuttle

@@ -275,7 +275,7 @@
 
 - type: entity
   id: LeftArmBorgSec
-  parent: BaseBorgArmLeft
+  parent: LeftArmBorg
   name: левая рука киборга службы безопасности
   components:
   - type: Sprite
@@ -292,7 +292,7 @@
 
 - type: entity
   id: RightArmBorgSec
-  parent: BaseBorgArmRight
+  parent: RightArmBorg
   name: правая рука киборга службы безопасности
   components:
   - type: Sprite
@@ -309,7 +309,7 @@
 
 - type: entity
   id: LeftLegBorgSec
-  parent: BaseBorgLegLeft
+  parent: LeftLegBorg
   name: левая нога киборга службы безопасности
   components:
   - type: Sprite
@@ -326,7 +326,7 @@
 
 - type: entity
   id: RightLegBorgSec
-  parent: BaseBorgLegRight
+  parent: RightLegBorg
   name: правая нога киборга службы безопасности
   components:
   - type: Sprite
@@ -343,7 +343,7 @@
 
 - type: entity
   id: HeadBorgSec
-  parent: BaseBorgHead
+  parent: LightHeadBorg
   name: голова киборга службы безопасности
   components:
   - type: Sprite
@@ -360,7 +360,7 @@
 
 - type: entity
   id: TorsoBorgSec
-  parent: BaseBorgTorso
+  parent: TorsoBorg
   name: туловище киборга службы безопасности
   components:
   - type: Sprite
