@@ -1,2 +1,2 @@
-sandbox-title = Песочница
-sandbox-description = Никакого стресса, только ваш креатив!
+sandbox-title = Дебаг
+sandbox-description = Никакого стресса, только ваш креатив и админ спавн для всех!
