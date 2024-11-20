@@ -41,13 +41,6 @@
   paperPrototype: PaperPrintedLaw
 
 - type: paperworkForm
-  id: Law6
-  category: law
-  name: paperwork-form-title-law-6
-  text: "/Paperwork/Law/6.xml"
-  paperPrototype: PaperPrintedLaw
-
-- type: paperworkForm
   id: Law8
   category: law
   name: paperwork-form-title-law-8
@@ -66,11 +59,4 @@
   category: law
   name: paperwork-form-title-law-10
   text: "/Paperwork/Law/10.xml"
-  paperPrototype: PaperPrintedLaw
-
-- type: paperworkForm
-  id: Law11
-  category: law
-  name: paperwork-form-title-law-11
-  text: "/Paperwork/Law/11.xml"
   paperPrototype: PaperPrintedLaw
