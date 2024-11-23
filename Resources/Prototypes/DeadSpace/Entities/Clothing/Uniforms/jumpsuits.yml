@@ -1,0 +1,21 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitMimeSexyWhite
+  name: Сексуальный костюм мима с белыми штанами
+  description: ...
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Clothing/Uniforms/Jumpsuit/sexy-mime.rsi
+  - type: Clothing
+    sprite: DeadSpace/Clothing/Uniforms/Jumpsuit/sexy-mime.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitMimeSexyBlack
+  name: Сексуальный костюм мима с чёрными штанами
+  description: ...
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Clothing/Uniforms/Jumpsuit/sexy-mime-black.rsi
+  - type: Clothing
+    sprite: DeadSpace/Clothing/Uniforms/Jumpsuit/sexy-mime-black.rsi
