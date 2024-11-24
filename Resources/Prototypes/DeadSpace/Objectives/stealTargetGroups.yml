@@ -4,3 +4,10 @@
   sprite:
     sprite: Mobs/Animals/parrot.rsi
     state: parrot
+
+- type: stealTargetGroup
+  id: PortableCameraMonitor
+  name: steal-target-groups-portable-camera-monitor
+  sprite:
+    sprite: Objects/Devices/portable_camera_monitor.rsi
+    state: portable_camera_monitor

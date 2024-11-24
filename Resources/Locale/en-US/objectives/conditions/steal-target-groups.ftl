@@ -8,6 +8,7 @@ steal-target-groups-box-folder-qm-clipboard = requisition digi-board
 steal-target-groups-food-meat-corgi = prime-cut corgi meat
 steal-target-groups-captain-id-card = captain ID card
 steal-target-groups-jetpack-captain-filled = captain's jetpack
+steal-target-groups-portable-camera-monitor = hos's camera monitor
 steal-target-groups-weapon-antique-laser = antique laser pistol
 steal-target-groups-nuke-disk = nuclear authentication disk
 steal-target-groups-weapon-energy-shot-gun = energy shotgun

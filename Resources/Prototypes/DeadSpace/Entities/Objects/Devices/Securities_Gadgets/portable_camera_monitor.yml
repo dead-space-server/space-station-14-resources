@@ -1,0 +1,30 @@
+- type: entity
+  id: PortableCameraMonitor
+  parent: [ BaseItem, BaseSecurityCommandContraband ]
+  name: portable camera monitor
+  description: A camera monitor for tracking your idiots.
+  components:
+  - type: Sprite
+    sprite: Objects/Devices/portable_camera_monitor.rsi
+    layers:
+    - state: portable_camera_monitor
+  - type: Item
+  - type: ActivatableUI
+    requireActiveHand: false
+    inHandsOnly: true
+    key: enum.SurveillanceCameraMonitorUiKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.SurveillanceCameraMonitorUiKey.Key:
+        type: SurveillanceCameraMonitorBoundUserInterface
+  - type: DeviceNetwork
+    deviceNetId: Wired
+    receiveFrequencyId: SurveillanceCamera
+    transmitFrequencyId: SurveillanceCamera
+  - type: WiredNetworkConnection
+  - type: SurveillanceCameraMonitor
+  - type: Tag
+    tags:
+    - HighRiskItem
+  - type: StealTarget
+    stealGroup: PortableCameraMonitor
