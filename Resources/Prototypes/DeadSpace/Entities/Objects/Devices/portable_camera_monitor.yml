@@ -1,8 +1,8 @@
 - type: entity
   id: PortableCameraMonitor
   parent: [ BaseItem, BaseSecurityCommandContraband ]
-  name: portable camera monitor
-  description: A camera monitor for tracking your idiots.
+  name: портативный монитор камер
+  description: Монитор камер, позволяющий следить за вашими идиотами.
   components:
   - type: Sprite
     sprite: Objects/Devices/portable_camera_monitor.rsi
