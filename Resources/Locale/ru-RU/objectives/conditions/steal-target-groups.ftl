@@ -8,6 +8,7 @@ steal-target-groups-box-folder-qm-clipboard = цифровой планшет з
 steal-target-groups-food-meat-corgi = первосортное мясо корги
 steal-target-groups-captain-id-card = ID-карта капитана
 steal-target-groups-jetpack-captain-filled = джетпак капитана
+steal-target-groups-portable-camera-monitor = монитор камер ГСБ
 steal-target-groups-weapon-antique-laser = антикварный лазерный пистолет
 steal-target-groups-nuke-disk = диск ядерной аутентификации
 steal-target-groups-weapon-energy-shot-gun = энергетический дробовик
