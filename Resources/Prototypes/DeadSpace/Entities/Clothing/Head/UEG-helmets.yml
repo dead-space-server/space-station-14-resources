@@ -2,6 +2,8 @@
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitUEG
   name: шлем скафандра солдата ОПЗ
+  suffix: ОПЗ
+  description: Шлем скафандра войск вооруженых сил Объединенного Правительства Земли. Точно не помешает.
   components:
     - type: Sprite
       sprite: DeadSpace/Clothing/Head/Hardsuits/UEGhardsuithelmet.rsi
@@ -24,6 +26,8 @@
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitUEGcommander
   name: шлем скафандра командира ОПЗ
+  suffix: ОПЗ
+  description: Шлема скафандра командира вооруженых сил Объединенного Правительства Земли. Защищает голову.
   components:
     - type: Sprite
       sprite: DeadSpace/Clothing/Head/Hardsuits/UEGcommandhardsuithelmet.rsi
