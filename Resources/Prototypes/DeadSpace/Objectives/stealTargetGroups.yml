@@ -6,7 +6,6 @@
     state: parrot
 
 - type: stealTargetGroup
-  parent: BaseStealObjective
   id: PortableCameraMonitor
   name: steal-target-groups-portable-camera-monitor
   sprite:
