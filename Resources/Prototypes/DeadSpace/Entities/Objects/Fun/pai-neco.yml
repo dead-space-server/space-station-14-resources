@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseItem
   id: PersonalNecoAI
-  name: Персональный ИИ кошкогорничная
-  description: Твоя персональная горничная!
+  name: персональный ИИ кошкогорничная
+  description: Твоя персональная неко-горничная!
   components:
   - type: Instrument
     allowPercussion: false
@@ -79,9 +79,9 @@
 
 - type: entity
   parent: [ PersonalAI, BaseSyndicateContraband]
-  id: SyndicatePersonalAI
-  name: syndicate personal ai device
-  description: Your Syndicate pal who's fun to be with!
+  id: SyndicatePersonalNecoAI
+  name: персональный ИИ кошкогорничная синдиката
+  description: Твоя персональная неко-горничная синдиката!
   components:
   - type: Sprite
     sprite: DeadSpace/Objects/Fun/pai-neco.rsi
