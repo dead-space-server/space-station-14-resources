@@ -134,9 +134,9 @@
     children:
     - id: StrangePill
       prob: 0.20
-    - id: PersonalNecoAI #DS14
+    - id: PersonalNecoAI # DS14
       prob: 0.10
-    - id: SyndicatePersonalNecoAI #DS14
+    - id: SyndicatePersonalNecoAI # DS14
       prob: 0.05
     # Tools
     - !type:NestedSelector
