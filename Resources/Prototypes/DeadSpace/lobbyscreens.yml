@@ -20,7 +20,7 @@
   id: Bartender
   background: /Textures/LobbyScreens/Fobos/arbuz_bartender.webp
 
-type: lobbyBackground
+- type: lobbyBackground
   id: Lawyer
   background: /Textures/LobbyScreens/Fobos/arbuz_lawyer.webp
 

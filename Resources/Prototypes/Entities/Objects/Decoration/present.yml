@@ -147,18 +147,6 @@
         orGroup: GiftPool
       - id: PlushieGhost
         orGroup: GiftPool
-      - id: PlushieOfficer
-        orGroup: GiftPool
-      - id: PlushieInstructor
-        orGroup: GiftPool
-      - id: PlushieGSB
-        orGroup: GiftPool
-      - id: PlushieKel
-        orGroup: GiftPool
-      - id: PlushieLera
-        orGroup: GiftPool
-      - id: PlushieCap
-        orGroup: GiftPool
       - id: PlushieFloran
         orGroup: GiftPool
       - id: PlushieJuggernaut
