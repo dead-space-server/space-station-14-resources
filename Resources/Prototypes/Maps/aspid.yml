@@ -1,6 +1,6 @@
 - type: gameMap
   id: Aspid
-  mapName: 'Dead Space Aspid Station'
+  mapName: 'DS Aspid Station'
   mapPath: /Maps/ds_aspid.yml
   minPlayers: 20
   maxPlayers: 60
