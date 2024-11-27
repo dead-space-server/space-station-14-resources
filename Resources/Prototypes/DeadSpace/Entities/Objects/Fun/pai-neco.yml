@@ -1,7 +1,7 @@
 # Placeholder PAIs, aka semi-automatic ghost roles
 
 - type: entity
-  parent: [BaseItem, PersonalAI]
+  parent: PersonalAI
   id: PersonalNecoAI
   name: персональный ИИ кошкогорничная
   description: Твоя персональная неко-горничная!
@@ -14,16 +14,16 @@
       shader: unshaded
       map: ["screen"]
   - type: ToggleableGhostRole
-    roleName: персональный ИИ кошкогорничная
-    roleDescription: станьте кошкогорничной!
+    roleName: pai-neco-system-role-name
+    roleDescription: pai-neco-system-role-description
     roleRules: ghost-role-information-familiar-rules
   - type: OwOAccent
 
 - type: entity
   parent: SyndicatePersonalAI
   id: SyndicatePersonalNecoAI
-  name: персональный ИИ кошкогорничная синдиката
-  description: Твоя персональная неко-горничная синдиката!
+  name: персональный ИИ кошкогорничная Синдиката
+  description: Твоя персональная неко-горничная Синдиката!
   components:
   - type: Sprite
     sprite: DeadSpace/Objects/Fun/pai-neco.rsi
@@ -33,7 +33,7 @@
       shader: unshaded
       map: ["screen"]
   - type: ToggleableGhostRole
-    roleName: персональный ИИ кошкогорничная синдиката
-    roleDescription: станьте кошкогорничной!
+    roleName: pai-neco-system-role-name-syndicate
+    roleDescription: pai-neco-system-role-description-syndicate
     roleRules: ghost-role-information-familiar-rules
   - type: OwOAccent
