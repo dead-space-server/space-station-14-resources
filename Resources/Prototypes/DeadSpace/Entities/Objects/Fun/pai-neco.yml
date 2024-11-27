@@ -1,5 +1,3 @@
-# Placeholder PAIs, aka semi-automatic ghost roles
-
 - type: entity
   parent: [BaseItem, PersonalAI]
   id: PersonalNecoAI
