@@ -124,7 +124,7 @@
   - type: Sharp
   - type: TTS
     voice: DrSezavo
-  - type: NightVision
+  - type: NightVision # DS14
 
 - type: entity
   id: MobRatKingBuff
@@ -202,7 +202,7 @@
     - map: [ "enum.DamageStateVisualLayers.BaseUnshaded"]
       state: eyes
       shader: unshaded
-    - type: NightVision
+    - type: NightVision # DS14
 
   - type: SpriteMovement
     movementLayers:
