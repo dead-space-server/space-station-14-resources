@@ -32,6 +32,39 @@
     sprite: Clothing/Uniforms/Jumpskirt/cargotech.rsi
 
 - type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtCargoFormal
+  name: formal cargo tech jumpskirt
+  description: Jumpskirt for business movers.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpskirt/cargoformal.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpskirt/cargoformal.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtCargoSalvage
+  name: salvage jumpskirt
+  description: Jumpskirt for salvage.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpskirt/salvage.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpskirt/salvage.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtCargoSalvageFormal
+  name: formal salvage jumpskirt
+  description: Jumpskirt for business salvage.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpskirt/salvageformal.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpskirt/salvageformal.rsi
+
+- type: entity
   parent: [ClothingUniformSkirtBase, BaseCommandContraband]
   id: ClothingUniformJumpskirtChiefEngineer
   name: chief engineer's jumpskirt

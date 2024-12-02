@@ -35,6 +35,39 @@
 
 - type: entity
   parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitCargo
+  name: cargo suit
+  description: A good suit for cargo workers.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/cargo.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/cargo.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitCargoformal
+  name: business cargo suit
+  description: Business suit for for cargo workers.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/cargoformal.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/cargoformal.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitSalvageformal
+  name: business suit salvage
+  description: Business suit for for salvage.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/salvageformal.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/salvageformal.rsi
+
+- type: entity
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitJacketMonkey
   name: bartender's jacket monkey
   description: A decent jacket, for a decent monkey.
