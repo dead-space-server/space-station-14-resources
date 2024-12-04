@@ -35,10 +35,8 @@
     belt: ClothingBeltERTSecurityFilled
   storage:
     back:
-    - WeaponLaserCannon
-    - WeaponSubMachineGunWt550
-    - MagazinePistolSubMachineGunTopMounted
-    - MagazinePistolSubMachineGunTopMounted
+    - ERTloadoutAmberSecondary
+    - ERTloadoutAmberPrimary
     - BoxMRE
     - WeaponDisabler
     - CrowbarRed
@@ -83,11 +81,8 @@
     belt: ClothingBeltSecurityWebbingFilled
   storage:
     back:
-    - WeaponXrayCannon
-    - WeaponSubMachineGunDrozd
-    - MagazinePistolSubMachineGun
-    - MagazinePistolSubMachineGun
-    - MagazinePistolSubMachineGun
+    - ERTloadoutRedPrimary
+    - ERTloadoutRedSecondary
     - BoxMRE
     - PinpointerNuclear
     - CrowbarRed
@@ -135,14 +130,10 @@
   storage:
     back:
     - WeaponLauncherMGL
-    - WeaponPulseCarbine
-    - WeaponSubMachineGunVector
+    - ERTloadoutGammaPrimary
+    - ERTloadoutGammaSecondary
     - PinpointerNuclear
     - CrowbarRed
-    - MagazinePistolSubMachineGun
-    - MagazinePistolSubMachineGun
-    - MagazinePistolSubMachineGun
-    - MagazinePistolSubMachineGun
     - EmergencyMedipen
     - BoxMRE
     - Flare
@@ -187,10 +178,8 @@
     - CrowbarRed
     - EmergencyMedipen
     - BoxMRE
-    - WeaponLaserCannon
-    - WeaponSubMachineGunWt550
-    - MagazinePistolSubMachineGunTopMounted
-    - MagazinePistolSubMachineGunTopMounted
+    - ERTloadoutAmberSecondary
+    - ERTloadoutAmberPrimary
     - Flare
     - Truncheon
 
@@ -228,13 +217,10 @@
     back:
     - TelescopicShield
     - WeaponDisabler
-    - WeaponXrayCannon
+    - ERTloadoutRedPrimary
     - EmergencyMedipen
     - BoxMRE
-    - WeaponSubMachineGunDrozd
-    - MagazinePistolSubMachineGun
-    - MagazinePistolSubMachineGun
-    - MagazinePistolSubMachineGun
+    - ERTloadoutRedSecondary
     - CrowbarRed
     - Flare
     - Truncheon
@@ -275,12 +261,8 @@
     - TelescopicShield
     - WeaponDisabler
     - CrowbarRed
-    - WeaponPulseCarbine
-    - WeaponSubMachineGunVector
-    - MagazinePistolSubMachineGun
-    - MagazinePistolSubMachineGun
-    - MagazinePistolSubMachineGun
-    - MagazinePistolSubMachineGun
+    - ERTloadoutGammaPrimary
+    - ERTloadoutGammaSecondary
     - EmergencyMedipen
     - BoxMRE
     - Flare
@@ -323,10 +305,8 @@
     back:
     - Defibrillator
     - BoxMRE
-    - WeaponPistolMk58
-    - MagazinePistol
-    - MagazinePistol
-    - WeaponLaserCarbine
+    - ERTloadoutAmberPrimary
+    - ERTloadoutAmberSecondary
     - Flare
     - WeaponDisabler
     - HandheldHealthAnalyzer
@@ -378,13 +358,10 @@
     - CrowbarRed
     - Flare
     - ADTCombatHypo
-    - WeaponLaserGun
+    - ERTloadoutRedSecondary
     - EmergencyMedipen
     - BoxMRE
-    - WeaponRevolverUnica
-    - SpeedLoader357
-    - SpeedLoader357
-    - SpeedLoader357
+    - ERTloadoutRedPrimary
     - DefibrillatorCompact
     - WeaponDisabler
     - HandheldHealthAnalyzer
@@ -430,15 +407,11 @@
     - Cautery
     - CrowbarRed
     - ADTCombatHypo
-    - WeaponPulsePistol
+    - ERTloadoutGammaPrimary
     - EmergencyMedipen
     - BoxMRE
     - DefibrillatorCompact
-    - WeaponPistolN1984
-    - MagazineMagnum
-    - MagazineMagnum
-    - MagazineMagnum
-    - MagazineMagnum
+    - ERTloadoutGammaSecondary
     - WeaponDisabler
     - HandheldHealthAnalyzer
     - PinpointerNuclear
@@ -481,10 +454,8 @@
     - WeaponDisabler
     - EmergencyMedipen
     - BoxMRE
-    - WeaponPistolMk58
-    - MagazinePistol
-    - MagazinePistol
-    - WeaponLaserCarbine
+    - ERTloadoutAmberSecondary
+    - ERTloadoutAmberPrimary
     - Flare
 
 ## Red
@@ -522,13 +493,10 @@
     - RCD
     - RCDAmmo
     - RCDAmmo
-    - WeaponLaserGun
+    - ERTloadoutRedSecondary
     - EmergencyMedipen
     - BoxMRE
-    - WeaponRevolverUnica
-    - SpeedLoader357
-    - SpeedLoader357
-    - SpeedLoader357
+    - ERTloadoutRedPrimary
     - RemoteSignaller
     - Flare
     - WeaponDisabler
@@ -574,14 +542,10 @@
     - C4
     - C4
     - RemoteSignallerAdvanced
-    - WeaponPulsePistol
+    - ERTloadoutGammaPrimary
     - EmergencyMedipen
     - BoxMRE
-    - WeaponPistolN1984
-    - MagazineMagnum
-    - MagazineMagnum
-    - MagazineMagnum
-    - MagazineMagnum
+    - ERTloadoutGammaSecondary
     - Flare
     - PinpointerNuclear
 
@@ -619,7 +583,7 @@
     belt: ClothingBeltJanitorFilled
   storage:
     back:
-    - WeaponLaserCarbine
+    - ERTloadoutAmberPrimary
     - SoapNT
     - MopItem
     - LightReplacer
@@ -627,9 +591,7 @@
     - CrowbarRed
     - EmergencyMedipen
     - BoxMRE
-    - WeaponPistolMk58
-    - MagazinePistol
-    - MagazinePistol
+    - ERTloadoutAmberSecondary
     - Flare
     - WeaponDisabler
 
@@ -670,13 +632,10 @@
     - LightReplacer
     - Holoprojector
     - CrowbarRed
-    - WeaponLaserGun
+    - ERTloadoutRedSecondary
     - EmergencyMedipen
     - BoxMRE
-    - WeaponRevolverUnica
-    - SpeedLoader357
-    - SpeedLoader357
-    - SpeedLoader357
+    - ERTloadoutRedPrimary
     - TrashBagBlue
     - Flare
     - WeaponDisabler
@@ -718,14 +677,10 @@
     - LightReplacer
     - Holoprojector
     - Zipties
-    - WeaponPulsePistol
+    - ERTloadoutGammaPrimary
     - EmergencyMedipen
     - BoxMRE
-    - WeaponPistolN1984
-    - MagazineMagnum
-    - MagazineMagnum
-    - MagazineMagnum
-    - MagazineMagnum
+    - ERTloadoutGammaSecondary
     - CrowbarRed
     - WeaponDisabler
     - TrashBagBlue
