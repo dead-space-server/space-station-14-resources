@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from https://github.com/ParadiseSS13/Paradise/blob/master/icons/obj/boxes.dmi and resprited by Annsanla (Discord) for Deadspace14",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+	    "name": "icon" 
+    }
+  ]
+}
