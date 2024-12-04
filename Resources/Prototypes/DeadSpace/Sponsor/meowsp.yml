@@ -9,7 +9,7 @@
   id: ClothingBackpackmeowsp
   name: чёрный блюспейс вещмешок
   description: Рюкзак использующий технологию блюспейса для увелечения своего максимального объёма. Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/meowsp/duffel.rsi
@@ -41,7 +41,7 @@
   id: ClothingBeltmeowspFilled
   name: чёрный пояс
   description: Пояс в котором можно носить небольшие предметы.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: Clothing/Belt/security.rsi
@@ -62,7 +62,7 @@
   id: ClothingHandsGlovesmeowsp
   name: белые боевые перчатки
   description: Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации. Изолированны.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/gloves.rsi
@@ -78,7 +78,7 @@
   id: ClothingOuterHardsuitmeowsp
   name: няно скафандр
   description: Очень дорогой скафандр сделанный на заказ. Встроенный экзоскелет увеличивает скорость передвижения владельца. Не фелиниду будет в нём крайне не удобно находится.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/meowsp/hardsuit.rsi
@@ -96,7 +96,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitmeowsp
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: шлем няно скафанда
   description: Милый шлем с ушками сделанный на заказ.
   components:
@@ -116,7 +116,7 @@
   id: ClothingHeadHatmeowsp
   name: бантиковая лента
   description: Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/head.rsi
@@ -129,7 +129,7 @@
   id: ClothingUniformJumpsuitmeowsp
   name: костюм с морским воротником
   description: Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/jumpsuit.rsi
@@ -142,7 +142,7 @@
   id: ClothingShoesBootsMagmeowsp
   name: улучшенные няно-магнитные ботинки
   description: Магнитные ботинки в чёрном цвете.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
       sprite: DeadSpace/Sponsor/meowsp/magboots.rsi
@@ -161,7 +161,7 @@
   id: ClothingUnderSocksmeowsp
   name: полосатые чулки
   description: Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/socks.rsi
@@ -171,7 +171,7 @@
   id: PaperLawmeowsp
   name: распечатанный документ
   description: Лист бумаги с заголовком центкома. Страшно даже смотреть на него.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Paper
     stampState: paper_stamp-centcom

@@ -21,7 +21,7 @@
       doAfterDuration: 4.0
   - type: ItemToggleHot
   - type: ItemToggleSize
-    activatedSize: Huge
+    activatedSize: Ginormous
   - type: ItemTogglePointLight
   - type: ItemToggleMeleeWeapon
     activatedSoundOnHit:

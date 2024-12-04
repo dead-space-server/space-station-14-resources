@@ -5,7 +5,8 @@
   description: Атмос из далёкого космоса
   startingGear: SyndicateAtmos
   icon: "JobIconSyndicateAtmos"
-  supervisors: job-supervisors-ce-syndicate
+  supervisors: job-supervisors-typan-telecommunications-officer
+  canBeAntag: false
   requirements:
     - !type:DepartmentTimeRequirement
       department: Engineering
@@ -24,4 +25,4 @@
     shoes: ClothingShoesBootsTypan
     back: ClothingBackpackSyndicate
     belt: ClothingBeltAssaultTypan
-    id: TypanIDCardRd
+    id: SyndiPDAEng

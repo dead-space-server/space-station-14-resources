@@ -9,7 +9,7 @@
   id: ClothingBackpackDominator
   name: зелёный украшенный рюкзак
   description: Вместительный рюкзак с множеством карманов. Окрашен в зелёный цвет. Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/backpack.rsi
@@ -33,7 +33,7 @@
 - type: entity
   name: продвинутая аптечка первой помощи
   description: Продвинутый набор для оказания помощи при продвинутых ранах.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   parent: MedkitAdvancedFilled
   id: DominatorMedkitAdvanced
   components:
@@ -48,7 +48,7 @@
   id: ClothingBeltDominatorFilled
   name: зелёный украшенный пояс
   description: Пояс окрашенный в зелёный цвет.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/belt.rsi
@@ -69,7 +69,7 @@
   id: ClothingNeckCloakDominator
   name: зелёный украшенный плащ
   description: Накидка в зелёном цвете. Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/cloak.rsi
@@ -80,7 +80,7 @@
   id: ClothingHandsGlovesDominator
   name: белые боевые перчатки
   description: Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации. Изолированны.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/gloves.rsi
@@ -96,7 +96,7 @@
   id: ClothingOuterHardsuitDominator
   name: зелёный украшенный скафандр
   description: Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации. Характеристики идентичны скафандру атмос-техника.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/hardsuit.rsi
@@ -110,7 +110,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitDominator
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: зелёный шлем
   description: Шлем изолирующий владельца от страшного вакуума снаружи.
   components:
@@ -130,7 +130,7 @@
   id: ClothingHeadHatDominator
   name: бантиковая лента
   description: Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/head.rsi
@@ -143,7 +143,7 @@
   id: ClothingUniformJumpsuitDominator
   name: костюм с морским воротником
   description: Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/jumpsuit.rsi
@@ -156,7 +156,7 @@
   id: ClothingShoesBootsMagDominator
   name: зелёные украшенные магнитные ботинки
   description: Магнитные сапоги, используемые во время работы вне корабля, чтобы оставаться надёжно прикреплённым к поверхности.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
       sprite: DeadSpace/Sponsor/vjlados/magboots.rsi
@@ -175,7 +175,7 @@
   id: ClothingUnderSocksDominator
   name: полосатые чулки
   description: Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/socks.rsi

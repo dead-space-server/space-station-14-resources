@@ -7,6 +7,7 @@
     ClothingUniformJumpsuitJesterAlt: 1
     ClothingShoesJester: 2
     ClothingOuterWinterClown: 1
+    ClothingOuterWinterClownDownjacket: 1
     ClothingOuterWinterMime: 1
     ClothingOuterWinterMusician: 1
     ClothingMaskJoy: 2
@@ -55,7 +56,6 @@
     ClothingShoesBootsCowboyBrown: 1
     ClothingShoesBootsCowboyBlack: 1
     ClothingShoesBootsCowboyWhite: 1
-    ClothingMaskNeckGaiterRed: 2
   emaggedInventory:
     ClothingShoesBling: 1
     ClothingShoesBootsCowboyFancy: 1

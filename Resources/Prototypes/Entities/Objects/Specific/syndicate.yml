@@ -47,8 +47,6 @@
   - type: Stack
     count: 10
 
-
-
 # Uplinks
 - type: entity
   parent: [BaseItem, StorePresetUplink, BaseSyndicateContraband]

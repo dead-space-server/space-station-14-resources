@@ -9,6 +9,7 @@
     ClothingHeadHatBeretSecurity: 4
     ClothingHeadHatSecsoft: 4
     ClothingHeadBandRed: 4
+    ClothingMaskNeckGaiterRed: 2
     ClothingHandsGlovesColorBlack: 8
     ClothingHandsGlovesFingerless: 6
     ClothingUniformJumpskirtSec: 4
@@ -23,11 +24,11 @@
     ClothingEyesBlindfold: 2
     ClothingOuterCoatSecurityOvercoat: 6
     ClothingMaskNeckGaiter: 2
-    ClothingMaskNeckGaiterRed: 2
     ClothingShoesBootsWinterSec: 2
     ClothingShoesBootsCowboyBlack: 1
     ClothingHeadHatCowboyBlack: 1
     HyperLinkBookCorporateLaw: 2
     HyperLinkBookSOPSecurity: 2
+    ClothingHeadHelmetJustice: 2
   contrabandInventory:
     ClothingMaskClownSecurity: 1

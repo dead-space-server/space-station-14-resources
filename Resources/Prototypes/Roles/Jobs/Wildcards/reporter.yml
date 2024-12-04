@@ -26,3 +26,4 @@
     shoes: ClothingShoesColorWhite
     id: ReporterPDA
     ears: ClothingHeadsetService
+    socks: ClothingUnderwearSocksReporter

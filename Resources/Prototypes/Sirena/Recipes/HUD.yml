@@ -19,10 +19,9 @@
     Plastic: 150
     Silver: 50
 
-# ADT
 - type: latheRecipe
-  id: ADTClothingEyesHudAdvanced
-  result: ADTClothingEyesHudAdvanced
+  id: ClothingEyesHudAdvanced
+  result: ClothingEyesHudAdvanced
   completetime: 30
   materials:
     Steel: 300

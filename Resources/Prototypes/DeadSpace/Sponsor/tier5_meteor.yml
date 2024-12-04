@@ -34,7 +34,6 @@
       - id: ClothingCloakGamer
       - id: ClothingNeckWingsViolet
       - id: ClothingOuterWinterKirasCloak
-      # - id: VehicleKeyATV
 
 - type: sponsorLoadout
   id: ClothingBackpackTier5HOSIAASponsorLoadout

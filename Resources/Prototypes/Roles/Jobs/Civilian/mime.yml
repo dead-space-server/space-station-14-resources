@@ -28,13 +28,13 @@
 - type: startingGear
   id: MimeGear
   equipment:
-    belt: ClothingBeltSuspenders
     gloves: ClothingHandsGlovesColorWhite
     shoes: ClothingShoesColorWhite
     pocket1: CrayonMime
     pocket2: Paper
     id: MimePDA
     ears: ClothingHeadsetService
+    socks: ClothingUnderwearSocksMime
   storage:
     back:
     - RubberStampMime

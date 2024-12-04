@@ -5,7 +5,8 @@
   description: Научный Директор из далёкого космоса
   startingGear: SyndicateRD
   icon: "JobIconSyndicateRD"
-  supervisors: job-supervisors-captain-syndicate
+  supervisors: job-supervisors-typan-syndicate
+  canBeAntag: false
   requirements:
     - !type:DepartmentTimeRequirement
       department: Science
@@ -13,7 +14,7 @@
     - !type:OverallPlaytimeRequirement
       time: 150000
     - !type:AgeRequirement
-      requiredAge: 28
+      requiredAge: 24
   access:
   - SyndicateAgent
   - NuclearOperative
@@ -28,7 +29,7 @@
     shoes: ClothingShoesBootsCombat
     outerClothing: ClothingOuterCoatRDTypan
     gloves: ClothingHandsRDTypan
-    id: TypanIDCardRd
+    id: SyndiPDARD
     back: ClothingBackpackSyndicate
     jumpsuit: ClothingUniformJumpsuitSyndieFormal
     belt: ClothingBeltAssaultTypan
