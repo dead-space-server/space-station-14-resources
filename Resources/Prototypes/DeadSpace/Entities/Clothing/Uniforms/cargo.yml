@@ -5,9 +5,9 @@
   description: Для сильных и независимых.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpskirt/cargoformal.rsi
+    sprite: DeadSpace/Clothing/Uniforms/Jumpskirt/cargoformal.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpskirt/cargoformal.rsi
+    sprite: DeadSpace/Clothing/Uniforms/Jumpskirt/cargoformal.rsi
 
 - type: entity
   parent: ClothingUniformSkirtBase
@@ -16,9 +16,9 @@
   description: Отлично сочитается с киркой.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpskirt/salvage.rsi
+    sprite: DeadSpace/Clothing/Uniforms/Jumpskirt/salvage.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpskirt/salvage.rsi
+    sprite: DeadSpace/Clothing/Uniforms/Jumpskirt/salvage.rsi
 
 - type: entity
   parent: ClothingUniformSkirtBase
@@ -27,9 +27,9 @@
   description: Отлично сочитается с киркой.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpskirt/salvageformal.rsi
+    sprite: DeadSpace/Clothing/Uniforms/Jumpskirt/salvageformal.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpskirt/salvageformal.rsi
+    sprite: DeadSpace/Clothing/Uniforms/Jumpskirt/salvageformal.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -38,9 +38,9 @@
   description: Хороший костюм для работников отдела снабжения.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/cargo.rsi
+    sprite: DeadSpace/Clothing/Uniforms/Jumpsuit/cargo.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/cargo.rsi
+    sprite: DeadSpace/Clothing/Uniforms/Jumpsuit/cargo.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -49,9 +49,9 @@
   description: Для модных показов на конвеерной ленте.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/cargoformal.rsi
+    sprite: DeadSpace/Clothing/Uniforms/Jumpsuit/cargoformal.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/cargoformal.rsi
+    sprite: DeadSpace/Clothing/Uniforms/Jumpsuit/cargoformal.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -60,6 +60,6 @@
   description: Если копать, то только стильно!
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/salvageformal.rsi
+    sprite: DeadSpace/Clothing/Uniforms/Jumpsuit/salvageformal.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/salvageformal.rsi
+    sprite: DeadSpace/Clothing/Uniforms/Jumpsuit/salvageformal.rsi
