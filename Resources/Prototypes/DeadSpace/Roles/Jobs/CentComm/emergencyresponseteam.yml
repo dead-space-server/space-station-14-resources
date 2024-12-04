@@ -29,7 +29,7 @@
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterArmorBulletproof
     suitstorage: AirTankFilled
-    shoes: ClothingShoesBootsJackSecFilled
+    shoes: ClothingShoesBootsJackFilled
     head: ClothingHeadHelmetERTLeader
     id: ERTLeaderPDA
     belt: ClothingBeltERTSecurityFilled
@@ -80,7 +80,7 @@
     suitstorage: AirTankFilled
     shoes: ADTClothingShoesBootsMagERT
     id: ERTLeaderRedPDA
-    belt: ClothingBeltERTSecurityFilled
+    belt: ClothingBeltSecurityWebbingFilled
   storage:
     back:
     - WeaponXrayCannon
@@ -129,7 +129,7 @@
     suitstorage: AirTankFilled
     shoes: ADTClothingShoesBootsMagERT
     id: ERTLeaderGammaPDA
-    belt: ClothingBeltERTSecurityFilled
+    belt: ClothingBeltSecurityWebbingFilled
     pocket1: WeaponDisabler
     pocket2: DoorRemoteAll
   storage:
@@ -223,7 +223,7 @@
     suitstorage: AirTankFilled
     shoes: ADTClothingShoesBootsMagERT
     id: ERTSecurityRedIDCard
-    belt: ClothingBeltERTSecurityFilled
+    belt: ClothingBeltSecurityWebbingFilled
   storage:
     back:
     - TelescopicShield
@@ -269,7 +269,7 @@
     suitstorage: AirTankFilled
     shoes: ADTClothingShoesBootsMagERT
     id: ERTSecurityGammaIDCard
-    belt: ClothingBeltERTSecurityFilled
+    belt: ClothingBeltSecurityWebbingFilled
   storage:
     back:
     - TelescopicShield
