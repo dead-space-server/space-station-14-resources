@@ -62,6 +62,7 @@ entities:
       gravityShakeSound: !type:SoundPathSpecifier
         path: /Audio/Effects/alert.ogg
     - type: DeviceNetwork
+      deviceNetId: Wireless
       configurators: []
       deviceLists: []
       transmitFrequencyId: ShuttleTimer
@@ -563,20 +564,11 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 15.5,12.5
       parent: 1
-    - type: DeviceLinkSource
-      linkedPorts:
-        420:
-        - DoorStatus: DoorBolt
-  - uid: 420
+  - uid: 583
     components:
     - type: Transform
-      rot: -1.5707963267948966 rad
       pos: 15.5,14.5
       parent: 1
-    - type: DeviceLinkSource
-      linkedPorts:
-        184:
-        - DoorStatus: DoorBolt
 - proto: AirlockMedical
   entities:
   - uid: 128
@@ -625,6 +617,13 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 0.5,-0.5
+      parent: 1
+- proto: AtmosDeviceFanTiny
+  entities:
+  - uid: 420
+    components:
+    - type: Transform
+      pos: 15.5,14.5
       parent: 1
 - proto: BookHowToSurvive
   entities:

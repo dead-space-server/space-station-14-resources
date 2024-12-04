@@ -30,7 +30,6 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ADTInquisitoryHead
-  noSpawn: false
   name: inquisitor hardsuit helmet
   description: You have been given power over destinies.
   components:

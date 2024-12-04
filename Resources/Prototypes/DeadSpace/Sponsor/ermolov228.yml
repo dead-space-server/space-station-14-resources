@@ -47,7 +47,7 @@
   id: ClothingBeltErmolov228
   name: пояс исследователя
   description: Универсальный пояс с множеством карманов и креплений, специально созданный для длительных экспедиций в бездне.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/ermolov228/belt.rsi
@@ -68,7 +68,7 @@
   id: ClothingNeckErmolov228
   name: кружевной воротник
   description: Каким образом он всегда остаётся чистым?
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/ermolov228/neck.rsi
@@ -79,7 +79,7 @@
   id: ClothingOuterHardsuitErmolov228
   name: купол Рассвета
   description: Герметичный костюм исследователя бездны, модифицированный для нахождения в открытом космосе.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/ermolov228/hardsuit.rsi
@@ -106,7 +106,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitErmolov228
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: купол Рассвета
   description: Герметичный костюм исследователя бездны, модифицированный для нахождения в открытом космосе.
   components:
@@ -126,7 +126,7 @@
   id: WhistleErmolov228
   name: молящиеся руки
   description: Свисток, являющийся одним из артефактов бездны, в виде сложенных в молитве ладоней.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/ermolov228/whistle.rsi
@@ -149,7 +149,7 @@
   name: прототип X-01
   description: Прыжковый ранец, модифицированный для открытого космоса.
   suffix: Filled
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Item
     sprite: Objects/Tanks/Jetpacks/black.rsi
@@ -168,7 +168,7 @@
   id: PDAErmolov228
   name: КПК исследователя
   description: Компактное устройство, содержащее всю необходимую информацию для любого исследователя.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Icon
     sprite: DeadSpace/Sponsor/ermolov228/pda.rsi
@@ -186,7 +186,7 @@
   id: ObjectsMugErmolov228
   name: кружка "Лучший отец в мире"
   description: Простая белая кружка с потёртой надписью, напоминающая о доме и важных моментах.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/ermolov228/mug.rsi
@@ -197,7 +197,7 @@
   id: ClothingHandsGlovesCombatErmolov228
   name: перчатки исследователя
   description: Укреплённые перчатки из высокопрочных материалов, обеспечивающие защиту в работе с опасными объектами.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/ermolov228/gloves.rsi
@@ -210,7 +210,7 @@
   id: ClothingShoesBootsMagErmolov228
   name: магнитные сапоги
   description: Сапоги с мощными магнитами, позволяющими передвигаться по поверхностям в условиях невесомости и нестабильной гравитации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/ermolov228/magboots.rsi
@@ -223,7 +223,7 @@
   id: PaperLawErmolov228
   name: распечатанный документ
   description: Лист бумаги с заголовком центкома. Страшно даже смотреть на него.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Paper
     stampState: paper_stamp-centcom
@@ -239,7 +239,7 @@
   parent: PrefilledSyringe
   id: SyringeUncookedAnimalProteinsErmolov228
   name: шприц с животными протеинами
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: SolutionContainerManager
     solutions:

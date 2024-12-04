@@ -41,6 +41,7 @@
             MedicalDoctor: [ 4, 4 ]
             MedicalIntern: [ 2, 4 ]
             Paramedic: [ 1, 1 ]
+            # MedicalSurgeon: [ 1, 1 ]
             #science
             ResearchDirector: [ 1, 1 ]
             SeniorResearcher: [ 1, 1 ]
@@ -63,9 +64,9 @@
             Mime: [ 1, 1 ]
             Musician: [ 1, 1 ]
             # DS14
-            ADTBlueShieldOfficer: [ 1, 1 ]
+            BlueShieldOfficer: [ 1, 1 ]
             BorgSecurity: [ 1, 1 ]
-            Magistrat: [ 1, 1 ]
+            # Magistrat: [ 1, 1 ]
             Lawyer: [ 2, 2 ]
             Brigmedic: [ 1, 1 ]
             ClownSponsor: [ 0, 2 ]

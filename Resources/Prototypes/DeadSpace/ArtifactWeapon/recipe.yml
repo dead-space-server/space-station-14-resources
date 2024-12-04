@@ -1,0 +1,9 @@
+- type: latheRecipe
+  id: ArtifactWeaponScanner
+  result: ArtifactWeaponScanner
+  category: Tools
+  completetime: 5
+  materials:
+    Steel: 300
+    Glass: 500
+    Gold: 200

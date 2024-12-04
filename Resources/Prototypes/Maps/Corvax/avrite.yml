@@ -26,7 +26,6 @@
             Janitor: [ 3, 3 ]
             Mime: [ 1, 1 ]
             Captain: [ 1, 1 ]
-            IAA: [ 1, 1 ]
             Reporter: [ 2, 2 ]
             HeadOfPersonnel: [ 1, 1 ]
             ChiefEngineer: [ 1, 1 ]
@@ -34,6 +33,7 @@
             ChiefMedicalOfficer: [ 1, 1 ]
             MedicalDoctor: [ 4, 4 ]
             Chemist: [ 3, 3 ]
+            # MedicalSurgeon: [ 1, 1 ]
             Zookeeper: [ 1, 1 ]
             ResearchDirector: [ 1, 1 ]
             Scientist: [ 6, 6 ]
@@ -55,19 +55,24 @@
             Detective: [ 1, 1 ]
             Boxer: [ 2, 2]
             Paramedic: [ 1, 1 ]
+            # seniors
             SeniorOfficer: [ 1, 1 ]
             SeniorResearcher: [ 1, 1 ]
             SeniorPhysician: [ 1, 1 ]
             SeniorEngineer: [ 1, 1 ]
-            # DS14
-            ADTBlueShieldOfficer: [ 1, 1 ]
-            BorgSecurity: [ 1, 1 ]
-            Magistrat: [ 1, 1 ]
+            SeniorSalvageSpecialist: [ 1, 1 ]
+            SeniorAdministrator: [ 1, 1 ]
+            # law
+            # Magistrat: [ 1, 1 ]
+            IAA: [ 1, 1 ]
             Lawyer: [ 4, 4 ]
+            # silicon
+            StationAi: [ 1, 1 ]
+            Borg: [ 2, 2 ]
+            BorgSecurity: [ 1, 1 ]
+            # DS14
+            BlueShieldOfficer: [ 1, 1 ]
             Brigmedic: [ 1, 1 ]
             ClownSponsor: [ 0, 2 ]
             Coroner: [ 1, 1 ]
-            SeniorSalvageSpecialist: [ 1, 1 ]
-            SeniorAdministrator: [ 1, 1 ]
             SecurityPilot: [ 1, 1 ]
-            SAI: [ 1, 1 ] # backmen-SAI

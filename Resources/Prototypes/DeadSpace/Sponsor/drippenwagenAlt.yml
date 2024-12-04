@@ -4,11 +4,6 @@
   sponsorOnly: true
 
 - type: sponsorLoadout
-  id: drippenwagenAltBelt
-  entity: ClothingBeltdrippenwagenAltFilled
-  sponsorOnly: true
-
-- type: sponsorLoadout
   id: drippenwagenAltCrusher
   entity: WeaponDrippenwagenAltCrusher
   sponsorOnly: true
@@ -20,6 +15,7 @@
   id: ClothingBackpackdrippenwagenAlt
   name: грузовой сервочереп
   description: Изготовлено на заказ организацией LaFleur Wear.
+  # categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/drippenwagenAlt/backpack.rsi
@@ -48,7 +44,7 @@
   id: ClothingBeltdrippenwagenAlt
   name: инструментальный сервочереп
   description: Изготовлено на заказ организацией LaFleur Wear.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/drippenwagenAlt/belt.rsi
@@ -70,7 +66,7 @@
   id: ClothingUniformJumpsuitdrippenwagenAlt
   name: экзоскелет
   description: Изготовлено на заказ организацией LaFleur Wear.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/drippenwagenAlt/suit.rsi
@@ -84,7 +80,7 @@
   name: прыжковый ранец X-01
   description: Прыжковый ранец, модифицированный для открытого космоса.
   suffix: Filled
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Item
     sprite: DeadSpace/Sponsor/drippenwagenAlt/void.rsi
@@ -103,7 +99,7 @@
   id: ClothingHandsGlovesdrippenwagenAlt
   name: перчатки
   description: Изготовлено на заказ организацией LaFleur Wear.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/drippenwagenAlt/gloves.rsi
@@ -116,7 +112,7 @@
   id: ClothingOuterHardsuitdrippenwagenAlt
   name: скафандр Инквизитора
   description: Изготовлено на заказ организацией LaFleur Wear.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/drippenwagenAlt/hardsuit.rsi
@@ -147,7 +143,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitdrippenwagenAlt
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: шлем Инквизитора
   description: Изготовлено на заказ организацией LaFleur Wear.
   components:
@@ -175,7 +171,7 @@
   id: ClothingEyesHudMedicaldrippenwagenAlt
   name: техновизор
   description: Изготовлено на заказ организацией LaFleur Wear.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/drippenwagenAlt/eyes.rsi
@@ -191,7 +187,7 @@
   id: ClothingMaskdrippenwagenAlt
   name: дыхательная маска
   description: Изготовлено на заказ организацией LaFleur Wear.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/drippenwagenAlt/mask.rsi
@@ -204,7 +200,7 @@
   id: ClothingShoesBootsMagdrippenwagenAlt
   name: черно-белые сапоги
   description: Изготовлено на заказ организацией LaFleur Wear.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
       sprite: DeadSpace/Sponsor/drippenwagenAlt/magboots.rsi
@@ -223,7 +219,7 @@
   id: ClothingOuterCoatdrippenwagenAlt
   name: одеяния Магоса
   description: Оно обвешено механическими манипуляторами. Изготовлено на заказ организацией LaFleur Wear.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/drippenwagenAlt/mantle.rsi
@@ -243,7 +239,7 @@
   id: ClothingHeadHatHooddrippenwagenAlt
   name: капюшон Магоса
   description: Изготовлено на заказ организацией LaFleur Wear.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/drippenwagenAlt/hood.rsi
@@ -259,7 +255,7 @@
   id: PDAdrippenwagenAlt
   name: кпк Магоса
   description: Изготовлено на заказ организацией LaFleur Wear.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Icon
     sprite: DeadSpace/Sponsor/drippenwagenAlt/pda.rsi 
@@ -272,7 +268,7 @@
   id: MultitooldrippenwagenAlt
   name: свиток
   description: На нем есть текст, но символы вам непонятны. Изготовлено на заказ организацией LaFleur Wear.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/drippenwagenAlt/multitool.rsi
@@ -283,7 +279,7 @@
   id: trayScannerdrippenwagenAlt
   name: благовоние
   description: Распространяет странные испарения, которые проявляет скрытые полом механизмы. Изготовлено на заказ организацией LaFleur Wear.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
       sprite: DeadSpace/Sponsor/drippenwagenAlt/t-ray.rsi
@@ -297,7 +293,7 @@
   id: SyndicateJawsOfLifedrippenwagenAlt
   name: челюсти жизни
   description: Изготовлено на заказ организацией LaFleur Wear.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/drippenwagenAlt/jaws_of_life.rsi
@@ -334,7 +330,7 @@
   id: WelderExperimentaldrippenwagenAlt
   name: сварочный аппарат
   description: Изготовлено на заказ организацией LaFleur Wear.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/drippenwagenAlt/welder_experimental.rsi
@@ -347,7 +343,7 @@
   id: PowerDrilldrippenwagenAlt
   name: дрель
   description: Изготовлено на заказ организацией LaFleur Wear.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/drippenwagenAlt/drill.rsi
@@ -381,7 +377,7 @@
   id: WeaponDrippenwagenAltCrusher
   name: энергетический меч
   description: Крушитель больше похожий на меч, имеет функцию подсветки.
-  noSpawn: true
+  # categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/drippenwagenAlt/crusher.rsi

@@ -10,16 +10,3 @@
       stampState: "paper_stamp-iaa"
     - type: Sprite
       state: stamp-chaplain
-
-- type: entity
-  name: psychologist's rubber stamp
-  parent: [RubberStampBase, BaseCommandContraband]
-  id: RubberStampPsychologist
-  suffix: DO NOT MAP
-  components:
-  - type: Stamp
-    stampedName: stamp-component-stamped-name-psychologist
-    stampedColor: "#0082AE"
-    stampState: "paper_stamp-psychologist"
-  - type: Sprite
-    state: stamp-psychologist

@@ -14,7 +14,7 @@
   id: ClothingBackpackVjlados
   name: зелёный украшенный блюспейс рюкзак
   description: Рюкзак использующий технологию блюспейса для увелечения своего максимального объёма. Окрашен в зелёный цвет. Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/backpack.rsi
@@ -38,7 +38,6 @@
       - id: MedkitAdvancedFilled
       - id: ADTtelescopicBaton
       - id: ToySword
-      - id: SpaceCash1000
       - id: PaperLawsvjlados
 
 - type: entity
@@ -46,7 +45,7 @@
   id: ClothingBackpackVjladosSilver
   name: чёрный рюкзак с шипами
   description: Этот аксессуар выражает непокорный дух и стиль.
-  # noSpawn: true
+  # categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/backpacksilver.rsi
@@ -68,7 +67,7 @@
   id: ClothingBeltVjladosFilled
   name: зелёный украшенный пояс
   description: Пояс окрашенный в зелёный цвет.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/belt.rsi
@@ -88,7 +87,7 @@
   id: ClothingBeltKatanaVjlados
   name: пояс для катаны
   description: Пояс для катаны подчеркивает стойкость и готовность к приключениям в стиле свэг.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/beltkatana.rsi
@@ -124,7 +123,7 @@
   id: ClothingNeckCloakVjlados
   name: зелёный украшенный плащ
   description: Накидка в зелёном цвете. Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/cloak.rsi
@@ -135,7 +134,7 @@
   id: ClothingHandsGlovesVjlados
   name: белые боевые перчатки
   description: Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации. Изолированны.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/gloves.rsi
@@ -151,7 +150,7 @@
   id: ClothingOuterHardsuitVjlados
   name: зелёный украшенный скафандр
   description: Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации. Характеристики идентичны скафандру атмос-техника.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/hardsuit.rsi
@@ -165,7 +164,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitVjlados
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: зелёный шлем
   description: Шлем изолирующий владельца от страшного вакуума снаружи.
   components:
@@ -185,7 +184,7 @@
   id: ClothingHeadHatVjlados
   name: бантиковая лента
   description: Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/head.rsi
@@ -197,7 +196,7 @@
   id: ClothingHeadHatBlackVjlados
   name: черная короткая шапка
   description: Создает решительный и свэговый стиль, ты не забрал ее у отца.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/hatblackshort.rsi
@@ -210,7 +209,7 @@
   id: ClothingUniformJumpsuitVjlados
   name: костюм с морским воротником
   description: Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/jumpsuit.rsi
@@ -222,7 +221,7 @@
   id: ClothingUniformJumpsuitGreyVjlados
   name: модный комбинезон
   description: Короткая футболка и джоггеры с оранжевыми вставками.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/jumpsuitvjlados.rsi
@@ -235,7 +234,7 @@
   id: ClothingShoesBootsMagVjlados
   name: зелёные украшенные магнитные ботинки
   description: Магнитные ботинки в зелёном цвете.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
       sprite: DeadSpace/Sponsor/vjlados/magboots.rsi
@@ -254,7 +253,7 @@
   id: ClothingOuterHoodieVjlados
   name: голубая худи
   description: Яркая голубая худи придает образу свэговости.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite:  DeadSpace/Sponsor/vjlados/outerhoodie.rsi
@@ -267,7 +266,7 @@
   id: ClothingUnderwearBottomVjlados
   name: класические стринги
   description: Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/panties.rsi
@@ -278,7 +277,7 @@
   id: ClothingShoesVjlados
   name: ботиночки морской флотилии
   description: Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/shoes.rsi
@@ -290,7 +289,7 @@
   id: ClothingShoesSwagVjlados
   name: модные кроссовки
   description: Кроссовки в стиле свэг, которые добавляют дерзости и энергии образу.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/shoesswag.rsi
@@ -303,7 +302,7 @@
   id: ClothingUnderSocksVjlados
   name: полосатые чулки
   description: Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/socks.rsi
@@ -314,7 +313,7 @@
   id: ToyKatanaVjlados
   name: игрушечная катана
   description: Придает игровому стилю серьзный акцент.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/swordkatana.rsi
@@ -344,7 +343,7 @@
   id: PaperLawsvjlados
   name: распечатанный документ
   description: Лист бумаги с заголовком центкома. Страшно даже смотреть на него.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Paper
     stampState: paper_stamp-centcom

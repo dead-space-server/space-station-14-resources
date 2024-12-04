@@ -1,11 +1,9 @@
 - type: entity
   parent: BaseItem
-  id: СhainswordDragonFox
+  id: ChainswordDragonFox
   name: цепной меч
-  description: Представляет собой ничто иное, как меч, оснащённый зубчатой цепью
+  description: Представляет собой ничто иное, как меч, оснащённый зубчатой цепью.
   components:
-  - type: Clothing
-    slots: [belt]
   - type: Sharp
   - type: Sprite
     sprite: DeadSpace/Objects/Weapons/Melee/chainsword.rsi

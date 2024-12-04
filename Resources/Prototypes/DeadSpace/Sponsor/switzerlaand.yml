@@ -33,7 +33,7 @@
   id: ClothingBackpackswitzerlaand
   name: бездонный вещмешок
   description: Вещмешок, открывающийся в локальный карман блюспейса.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
@@ -62,7 +62,7 @@
   id: ClothingBeltswitzerlaandFilled
   name: зелёный украшенный пояс
   description: Пояс окрашенный в зелёный цвет.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/belt.rsi
@@ -81,7 +81,7 @@
   id: ClothingBeltJanitorswitzerlaandFilled
   parent: ClothingBeltJanitor
   suffix: Filled
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
@@ -94,7 +94,7 @@
   id: ClothingNeckCloakswitzerlaand
   name: плащ Nanotrasen
   description: Величественный синий плащ, представляющий Nanotrasen.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/switzerlaand/cloak.rsi
@@ -105,7 +105,7 @@
   id: ClothingHandsGlovesswitzerlaand
   name: белые боевые перчатки
   description: Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации. Изолированны.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/vjlados/gloves.rsi
@@ -121,7 +121,7 @@
   id: ClothingOuterHardsuitswitzerlaand
   name: скафандр Nanotrasen
   description: Очень дорогой усиленный скафандр сделанный на заказ. Окрашен в фирменный синий цвет Nanotrasen.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/switzerlaand/hardsuit.rsi
@@ -153,7 +153,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitswitzerlaand
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: шлем скафандра Nanotrasen
   description: На внутренней стороне шлема нанесена гравировка "switzerlaand".
   components:
@@ -173,7 +173,7 @@
   id: ClothingHeadHatswitzerlaand
   name: синяя фуражка
   description: Фуражка окрашенная в фирменный синий цвет Nanotrasen.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/switzerlaand/head.rsi
@@ -186,7 +186,7 @@
   id: ClothingUniformJumpsuitswitzerlaand
   name: комбинезон Nanotrasen
   description: Комбинезон окрашенный в фирменный синий цвет Nanotrasen.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/switzerlaand/jumpsuit.rsi
@@ -199,7 +199,7 @@
   id: ClothingShoesBootsMagswitzerlaand
   name: магнитные сапоги
   description: Магнитные сапоги, используемые во время работы вне корабля, чтобы оставаться надёжно прикреплённым к поверхности.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
       sprite: DeadSpace/Sponsor/switzerlaand/magboots.rsi
@@ -218,7 +218,7 @@
   id: ClothingUnderSocksswitzerlaand
   name: синие носки
   description: Стандартные носки окрашенные в фирменный цвет Nanotrasen.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/switzerlaand/socks.rsi
@@ -229,7 +229,7 @@
   id: ClothingOuterArmorBasicswitzerlaand
   name: бронежилет
   description: Стандартный бронежилет типа I, обеспечивающий достойную защиту от большинства видов повреждений.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/switzerlaand/armor.rsi
@@ -242,7 +242,7 @@
   id: ClothingEyesGlassesswitzerlaand
   name: солнцезащитные очки
   description: Обычные солнцезащитные очки. Сделают вас крутым даже ночью... Подождите, какая ночь, мы же в космосе...
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/switzerlaand/sunglasses.rsi
@@ -258,7 +258,7 @@
   id: ClothingMaskGasswitzerlaand
   name: синий противогаз
   description: Закрывающая лицо маска, которую можно подключить к дыхательному баллону.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Item
     size: Tiny
@@ -275,7 +275,7 @@
   id: ClothingUnderwearTopBraswitzerlaand
   name: синие бра
   description: Стандартное нижнее бельё окрашенное в фирменный цвет Nanotrasen.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/switzerlaand/underwear/bra.rsi
@@ -286,7 +286,7 @@
   id: ClothingUnderwearBottomPantiesswitzerlaand
   name: синие стринги
   description: Стандартное нижнее бельё окрашенное в фирменный цвет Nanotrasen.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/switzerlaand/underwear/pants.rsi
@@ -327,7 +327,7 @@
   id: PaperLawswitzerlaand
   name: распечатанный документ
   description: Лист бумаги с заголовком центкома. Страшно даже смотреть на него.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Paper
     stampState: paper_stamp-centcom

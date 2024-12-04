@@ -23,7 +23,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ADTClothingHeadHelmetIlisium
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: helmet
   description: Ilisium
   components:
@@ -75,7 +75,8 @@
     walkModifier: 0.9
     sprintModifier: 0.9
   - type: TemperatureProtection
-    coefficient: 0.001
+    heatingCoefficient: 0.001
+    coolingCoefficient: 0.001
   - type: Armor
     modifiers:
       coefficients:

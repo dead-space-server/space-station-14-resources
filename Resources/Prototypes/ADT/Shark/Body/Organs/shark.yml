@@ -1,7 +1,7 @@
 - type: entity
   id: OrganSharkStomach
   parent: OrganAnimalStomach
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: SolutionContainerManager
     solutions:
