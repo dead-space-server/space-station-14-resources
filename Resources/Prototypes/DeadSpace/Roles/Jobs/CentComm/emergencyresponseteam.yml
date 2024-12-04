@@ -28,11 +28,11 @@
     neck: ClothingNeckMantleERTLeader
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterArmorBulletproof
-    suitstorage: AirTankFilled
     shoes: ClothingShoesBootsJackFilled
     head: ClothingHeadHelmetERTLeader
     id: ERTLeaderPDA
     belt: ClothingBeltERTSecurityFilled
+    pocket1: DoubleEmergencyOxygenTankFilled
   storage:
     back:
     - ERTloadoutAmberSecondary
@@ -75,10 +75,10 @@
     neck: ClothingNeckMantleERTLeader
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitERTLeader
-    suitstorage: AirTankFilled
     shoes: ADTClothingShoesBootsMagERT
     id: ERTLeaderRedPDA
     belt: ClothingBeltSecurityWebbingFilled
+    pocket1: DoubleEmergencyOxygenTankFilled
   storage:
     back:
     - ERTloadoutRedPrimary
@@ -121,11 +121,11 @@
     neck: ClothingNeckMantleERTLeader
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitERTLeader
-    suitstorage: AirTankFilled
+    suitstorage: JetpackMiniFilled
     shoes: ADTClothingShoesBootsMagERT
     id: ERTLeaderGammaPDA
     belt: ClothingBeltSecurityWebbingFilled
-    pocket1: WeaponDisabler
+    pocket1: DoubleEmergencyOxygenTankFilled
     pocket2: DoorRemoteAll
   storage:
     back:
@@ -137,6 +137,7 @@
     - EmergencyMedipen
     - BoxMRE
     - Flare
+    - WeaponDisabler
 
 # Security
 ## Amber
@@ -165,11 +166,11 @@
     ears: ClothingHeadsetSOC
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterArmorBulletproof
-    suitstorage: AirTankFilled
     shoes: ClothingShoesBootsJackSecFilled
     head: ClothingHeadHelmetERTSecurity
     id: ERTSecurityIDCard
     belt: ClothingBeltERTSecurityFilled
+    pocket1: DoubleEmergencyOxygenTankFilled
   storage:
     back:
     - TelescopicShield
@@ -209,10 +210,10 @@
     ears: ClothingHeadsetSOC
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitERTSecurity
-    suitstorage: AirTankFilled
     shoes: ADTClothingShoesBootsMagERT
     id: ERTSecurityRedIDCard
     belt: ClothingBeltSecurityWebbingFilled
+    pocket1: DoubleEmergencyOxygenTankFilled
   storage:
     back:
     - TelescopicShield
@@ -252,10 +253,11 @@
     ears: ClothingHeadsetSOC
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitERTSecurity
-    suitstorage: AirTankFilled
+    suitstorage: JetpackMiniFilled
     shoes: ADTClothingShoesBootsMagERT
     id: ERTSecurityGammaIDCard
     belt: ClothingBeltSecurityWebbingFilled
+    pocket1: DoubleEmergencyOxygenTankFilled
   storage:
     back:
     - TelescopicShield
@@ -296,11 +298,11 @@
     ears: ClothingHeadsetSOC
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterArmorBulletproof
-    suitstorage: AirTankFilled
     shoes: ClothingShoesColorWhite
     head: ClothingHeadHelmetERTMedic
     id: ERTMedicIDCard
     belt: ClothingBeltMedicalFilled
+    pocket1: DoubleEmergencyOxygenTankFilled
   storage:
     back:
     - Defibrillator
@@ -344,10 +346,10 @@
     ears: ClothingHeadsetSOC
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitERTMedical
-    suitstorage: AirTankFilled
     shoes: ADTClothingShoesBootsMagERT
     id: ERTMedicRedIDCard
-    belt: ClothingBeltMedicalFilled # Тут должен быть портативный дефибриллятор, которого пока нет.
+    belt: ClothingBeltMedicalFilled 
+    pocket1: DoubleEmergencyOxygenTankFilled
   storage:
     back:
     - OmnizineChemistryBottle
@@ -392,10 +394,11 @@
     ears: ClothingHeadsetSOC
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitERTMedical
-    suitstorage: AirTankFilled
+    suitstorage: JetpackMiniFilled
     shoes: ADTClothingShoesBootsMagERT
     id: ERTMedicGammaIDCard
     belt: ClothingBeltMedicalFilled
+    pocket1: DoubleEmergencyOxygenTankFilled
   storage:
     back:
     - OmnizineChemistryBottle
@@ -443,11 +446,11 @@
     ears: ClothingHeadsetSOC
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterArmorBulletproof
-    suitstorage: AirTankFilled
     shoes: ClothingShoesBootsWork
     head: ClothingHeadHelmetERTEngineer
     id: ERTEngineerIDCard
     belt: ClothingBeltUtilityEngineering
+    pocket1: DoubleEmergencyOxygenTankFilled
   storage:
     back:
     - FlashlightLantern
@@ -484,10 +487,10 @@
     ears: ClothingHeadsetSOC
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitERTEngineer
-    suitstorage: AirTankFilled
     shoes: ADTClothingShoesBootsMagERT
     id: ERTEngineerRedIDCard
     belt: ClothingBeltChiefEngineerFilled
+    pocket1: DoubleEmergencyOxygenTankFilled
   storage:
     back:
     - RCD
@@ -527,10 +530,11 @@
     ears: ClothingHeadsetSOC
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitERTEngineer
-    suitstorage: AirTankFilled
+    suitstorage: JetpackMiniFilled
     shoes: ADTClothingShoesBootsMagERT
     id: ERTEngineerGammaIDCard
     belt: ClothingBeltChiefEngineerFilled
+    pocket1: DoubleEmergencyOxygenTankFilled
   storage:
     back:
     - WeaponDisabler
@@ -576,11 +580,11 @@
     ears: ClothingHeadsetSOC
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterArmorBulletproof
-    suitstorage: AirTankFilled
     shoes: ClothingShoesGaloshes
     head: ClothingHeadHelmetERTJanitor
     id: ERTJanitorIDCard
     belt: ClothingBeltJanitorFilled
+    pocket1: DoubleEmergencyOxygenTankFilled
   storage:
     back:
     - ERTloadoutAmberPrimary
@@ -621,10 +625,10 @@
     ears: ClothingHeadsetSOC
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitERTJanitor
-    suitstorage: AirTankFilled
     shoes: ADTClothingShoesBootsMagERT
     id: ERTJanitorRedIDCard
     belt: ClothingBeltJanitorFilled
+    pocket1: DoubleEmergencyOxygenTankFilled
   storage:
     back:
     - SoapNT
@@ -666,10 +670,11 @@
     ears: ClothingHeadsetSOC
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitERTJanitor
-    suitstorage: AirTankFilled
+    suitstorage: JetpackMiniFilled
     shoes: ADTClothingShoesBootsMagERT
     id: ERTJanitorGammaIDCard
     belt: ClothingBeltJanitorFilled
+    pocket1: DoubleEmergencyOxygenTankFilled
   storage:
     back:
     - SoapOmega
