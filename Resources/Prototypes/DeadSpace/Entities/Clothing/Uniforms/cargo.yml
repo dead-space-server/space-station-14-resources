@@ -1,0 +1,65 @@
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtCargoFormal
+  name: официальная юбка-комбинезон грузчика.
+  description: Для сильных и независимых.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpskirt/cargoformal.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpskirt/cargoformal.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtCargoSalvage
+  name: юбка-комбинезон утилизатора
+  description: Отлично сочитается с киркой.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpskirt/salvage.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpskirt/salvage.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtCargoSalvageFormal
+  name: официальная юбка-комбинезон утилизатора
+  description: Отлично сочитается с киркой.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpskirt/salvageformal.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpskirt/salvageformal.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitCargo
+  name: костюм грузчика
+  description: Хороший костюм для работников отдела снабжения.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/cargo.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/cargo.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitCargoformal
+  name: официальная форма грузчика
+  description: Для модных показов на конвеерной ленте.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/cargoformal.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/cargoformal.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitSalvageformal
+  name: официальная форма утилизатора.
+  description: Если копать, то только стильно!
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/salvageformal.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/salvageformal.rsi
