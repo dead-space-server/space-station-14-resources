@@ -7,6 +7,8 @@
   suffix: ОБР, Эмбер, Основное
   parent: BaseItem
   components:
+  - type: Item
+    size: Large
   - type: Sprite
     sprite: DeadSpace/Other/ertloadouts/ertcases/amber.rsi
     state: icon
@@ -29,6 +31,10 @@
   suffix: ОБР, Эмбер, Вторичное
   parent: BaseItem
   components:
+  - type: Item
+    size: Large
+    shape:
+    - 0,0,2,1
   - type: Sprite
     sprite: DeadSpace/Other/ertloadouts/ertboxes/amber.rsi
     state: icon
@@ -51,6 +57,8 @@
   suffix: ОБР, Красный, Основное
   parent: BaseItem
   components:
+  - type: Item
+    size: Large
   - type: Sprite
     sprite: DeadSpace/Other/ertloadouts/ertcases/red.rsi
     state: icon
@@ -73,6 +81,10 @@
   suffix: ОБР, Красный, Вторичное
   parent: BaseItem
   components:
+  - type: Item
+    size: Large
+    shape:
+    - 0,0,2,1
   - type: Sprite
     sprite: DeadSpace/Other/ertloadouts/ertboxes/red.rsi
     state: icon
@@ -94,6 +106,8 @@
   suffix: ОБР, Гамма, Основное
   parent: BaseItem
   components:
+  - type: Item
+    size: Large
   - type: Sprite
     sprite: DeadSpace/Other/ertloadouts/ertcases/gamma.rsi
     state: icon
@@ -116,6 +130,10 @@
   suffix: ОБР, Гамма, Вторичное
   parent: BaseItem
   components:
+  - type: Item
+    size: Large
+    shape:
+    - 0,0,2,1
   - type: Sprite
     sprite: DeadSpace/Other/ertloadouts/ertboxes/gamma.rsi
     state: icon
@@ -139,6 +157,8 @@
   suffix: РХБЗЗ, Съерра, Основное
   parent: BaseItem
   components:
+  - type: Item
+    size: Large
   - type: Sprite
     sprite: DeadSpace/Other/ertloadouts/ertcases/cburn.rsi
     state: icon
@@ -161,6 +181,10 @@
   suffix: РХБЗЗ, Съерра, Вторичное
   parent: BaseItem
   components:
+  - type: Item
+    size: Large
+    shape:
+    - 0,0,2,1
   - type: Sprite
     sprite: DeadSpace/Other/ertloadouts/ertboxes/cburn.rsi
     state: icon
