@@ -128,7 +128,6 @@
       prob: 0.25
       # Fuck the HoP they don't deserve fucking cigars.
       # Yes they do fuck you.
-    - id: PetBowlWater
     - id: ClothingBackpackIan
       prob: 0.5
     - id: ClothingHeadsetCommand
@@ -143,6 +142,7 @@
     - id: ClothingEyesHudCommand
     - id: BoxPhotocopierToners # DS14
     - id: EftposCivilian # backmen-economy
+    - id: PetBowlWater # DS14
 
 - type: entity
   id: LockerHeadOfPersonnelFilled
@@ -347,7 +347,6 @@
     - id: DoorRemoteSecurity
     - id: HoloprojectorSecurity
     - id: RubberStampHos
-    - id: PetBowlWater
     - id: SecurityTechFabCircuitboard
     - id: WeaponDisabler
     - id: WantedListCartridge
@@ -359,6 +358,7 @@
     - id: ClothingNeckBodyCamera # DS14
     - id: EftposSecurity # backmen-economy
     - id: PortableCameraMonitor # DS14
+    - id: PetBowlWater # DS14
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
