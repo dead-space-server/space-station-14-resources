@@ -10,8 +10,8 @@
   - type: Item
     size: Large
   - type: Sprite
-    sprite: DeadSpace/Other/ertloadouts/ertcases/amber.rsi
-    state: icon
+    sprite: DeadSpace/Other/ertloadouts/ertcases.rsi
+    state: amber
   - type: ThiefUndeterminedBackpack
     possibleSets:
     - KammererSet
@@ -36,8 +36,8 @@
     shape:
     - 0,0,2,1
   - type: Sprite
-    sprite: DeadSpace/Other/ertloadouts/ertboxes/amber.rsi
-    state: icon
+    sprite: DeadSpace/Other/ertloadouts/ertboxes.rsi
+    state: amber
   - type: ThiefUndeterminedBackpack
     possibleSets:
     - Mk58Set
@@ -60,8 +60,8 @@
   - type: Item
     size: Large
   - type: Sprite
-    sprite: DeadSpace/Other/ertloadouts/ertcases/red.rsi
-    state: icon
+    sprite: DeadSpace/Other/ertloadouts/ertcases.rsi
+    state: red
   - type: ThiefUndeterminedBackpack
     possibleSets:
     - EnforcerSet
@@ -86,8 +86,8 @@
     shape:
     - 0,0,2,1
   - type: Sprite
-    sprite: DeadSpace/Other/ertloadouts/ertboxes/red.rsi
-    state: icon
+    sprite: DeadSpace/Other/ertloadouts/ertboxes.rsi
+    state: red
   - type: ThiefUndeterminedBackpack
     possibleSets:
     - MatebaSet
@@ -109,8 +109,8 @@
   - type: Item
     size: Large
   - type: Sprite
-    sprite: DeadSpace/Other/ertloadouts/ertcases/gamma.rsi
-    state: icon
+    sprite: DeadSpace/Other/ertloadouts/ertcases.rsi
+    state: gamma
   - type: ThiefUndeterminedBackpack
     possibleSets:
     - EnergyShotgunSet
@@ -135,8 +135,8 @@
     shape:
     - 0,0,2,1
   - type: Sprite
-    sprite: DeadSpace/Other/ertloadouts/ertboxes/gamma.rsi
-    state: icon
+    sprite: DeadSpace/Other/ertloadouts/ertboxes.rsi
+    state: gamma
   - type: ThiefUndeterminedBackpack
     possibleSets:
     - N1984Set
@@ -160,8 +160,8 @@
   - type: Item
     size: Large
   - type: Sprite
-    sprite: DeadSpace/Other/ertloadouts/ertcases/cburn.rsi
-    state: icon
+    sprite: DeadSpace/Other/ertloadouts/ertcases.rsi
+    state: cburn
   - type: ThiefUndeterminedBackpack
     possibleSets:
     - LecterSet
@@ -186,8 +186,8 @@
     shape:
     - 0,0,2,1
   - type: Sprite
-    sprite: DeadSpace/Other/ertloadouts/ertboxes/cburn.rsi
-    state: icon
+    sprite: DeadSpace/Other/ertloadouts/ertboxes.rsi
+    state: cburn
   - type: ThiefUndeterminedBackpack
     possibleSets:
     - LaserGunSet
