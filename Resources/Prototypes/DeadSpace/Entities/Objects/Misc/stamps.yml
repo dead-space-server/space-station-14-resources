@@ -57,7 +57,7 @@
   parent: [RubberStampBase, BaseCommandContraband]
   id: RubberStampLawyer
   suffix: DO NOT MAP
-  noSpawn: true # they actually can't map, ha-ha
+  categories: [ HideSpawnMenu ] # they actually can't map, ha-ha
   components:
   - type: Stamp
     stampedName: stamp-component-stamped-name-lawyer

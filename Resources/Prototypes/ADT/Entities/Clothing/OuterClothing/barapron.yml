@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ADTClothingOuterApronBar
-  name: bartender apron
-  description: An apron-jacket used by a bartender.
+  name: фартук бармена
+  description: Фартук, который используют лучшие бармены и баристы NanoTrasen.
   components:
   - type: Sprite
     sprite: ADT/Clothing/OuterClothing/Misc/apronbar.rsi

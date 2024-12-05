@@ -8,8 +8,6 @@
     sprite: ADT/Clothing/OuterClothing/Hardsuits/cybersunbodyguard.rsi
   - type: Clothing
     sprite: ADT/Clothing/OuterClothing/Hardsuits/cybersunbodyguard.rsi
-  - type: TemperatureProtection
-    coefficient: 0.001
   - type: PressureProtection
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
@@ -20,11 +18,11 @@
       coefficients:
         Blunt: 0.5
         Slash: 0.5
-        Piercing: 0.5
+        Piercing: 0.4
         Heat: 0.5
         Radiation: 0.5
         Caustic: 0.5
-        Stun: 0.75
+        Stun: 0.65 # DS14: 5 stunbaton hits for stun
   - type: ClothingSpeedModifier
     walkModifier: 0.9
     sprintModifier: 0.9
@@ -47,7 +45,8 @@
   - type: Clothing
     sprite: ADT/Clothing/OuterClothing/Hardsuits/cybersun_crysis_hardsuit.rsi
   - type: TemperatureProtection
-    coefficient: 0.001
+    heatingCoefficient: 0.001
+    coolingCoefficient: 0.001
   - type: PressureProtection
     highPressureMultiplier: 0.2
     lowPressureMultiplier: 1000

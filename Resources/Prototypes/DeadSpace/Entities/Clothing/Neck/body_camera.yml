@@ -9,15 +9,15 @@
   - type: Sprite
     sprite: DeadSpace/Clothing/Neck/body_camera.rsi
   - type: Eye
-  - type: WirelessNetworkConnection
-    range: 1200
+  - type: WiredNetworkConnection
   - type: UserInterface
     interfaces:
       enum.SurveillanceCameraSetupUiKey.Camera:
         type: SurveillanceCameraSetupBoundUi
   - type: DeviceNetwork
-    deviceNetId: Wireless
+    deviceNetId: Wired
     receiveFrequencyId: SurveillanceCameraSecurity
     transmitFrequencyId: SurveillanceCamera
   - type: SurveillanceCamera
     networkSet: true
+  - type: StationAiVision

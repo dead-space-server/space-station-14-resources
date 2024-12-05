@@ -9,7 +9,7 @@
   name: расширенный вещмешок
   description: Вещмешок использующий технологию микро блюспейс карманов для увеличения общего объёма.
   suffix: Набор вещей спонсора, Король
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Storage
     maxItemSize: Huge
@@ -35,8 +35,9 @@
       - id: ClothingCloakGamer
       - id: ClothingNeckWingsViolet
       - id: ClothingOuterWinterKirasCloak
-      # - id: VehicleKeyATV
       - id: ClothingOuterCoatPineappleTrenchSponsor
+      - id: ClothingNeckCloakBoneKing
+      - id: ClothingNeckMantleWhiteKing
 
 - type: sponsorLoadout
   id: ClothingBackpackTier7HOSIAASponsorLoadout
@@ -50,7 +51,7 @@
   name: вещмешок
   description: Вещмешок в необычной расцветке. Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
   suffix: Набор вещей спонсора, Король, ГСБ АВД
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
@@ -72,7 +73,7 @@
   name: вещмешок
   description: Вещмешок в необычной расцветке. Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
   suffix: Набор вещей спонсора, Король, ГСБ
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
@@ -86,9 +87,33 @@
   id: ClothingOuterCoatPineappleTrenchSponsor
   name: королевский тренч
   description: Элегантный и стильный, красный тренч выделяется своей утонченностью и смелостью. Сочетание классического дизайна с насыщенным оттенком красного создает неповторимый облик для тех, кто ценит изысканность и хочет подчеркнуть свою индивидуальность.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/King/pineappletrench.rsi
   - type: Clothing
     sprite: DeadSpace/Sponsor/King/pineappletrench.rsi
+
+# Cloak
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakBoneKing
+  name: костяной плащ
+  description: Накидка, похожая на сочетание костей и сосудов... Завораживает!
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/King/cloak.rsi
+
+# Mantle
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckMantleWhiteKing
+  name: белая наплечная мантия
+  description: Наплечная мантия в белом цвете.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/King/mantle.rsi
+  - type: Clothing
+    sprite: DeadSpace/Sponsor/King/mantle.rsi

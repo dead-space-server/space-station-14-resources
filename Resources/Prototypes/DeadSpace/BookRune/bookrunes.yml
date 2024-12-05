@@ -1,0 +1,19 @@
+- type: entity
+  parent: BookRandom
+  id: ExplosionRuneBook
+  suffix: ExplosionRune
+  components:
+  - type: SpawnItemsOnUse
+    items:
+      - id: ExplosionRune
+    uses: 20
+
+- type: entity
+  parent: BookRandom
+  suffix: IgniteRune
+  id: IgniteRuneBook
+  components:
+  - type: SpawnItemsOnUse
+    items: 
+      - id: IgniteRune
+    uses: 20

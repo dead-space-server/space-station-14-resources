@@ -14,7 +14,7 @@
   id: ClothingBackpackMaelstorm
   name: старая командирская сумка
   description: Старая командирская сумка красноармейца времён революций, однако получившая модернизацию блюспейс технологиями. Выглядит потрёпанной.
-  # noSpawn: true # попросил оставить в меню спавна
+  # categories: [ HideSpawnMenu ] # попросил оставить в меню спавна
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/maelstorm/backpack.rsi
@@ -53,7 +53,7 @@
   id: ClothingMaskGasMaelstorm
   name: старый красноармейский противогаз
   description: Старый, ничем не примечательный красноармейский противогаз. Прошлому владельцу он уже не понадобится.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/maelstorm/gasmask.rsi
@@ -66,7 +66,7 @@
   id: ClothingBeltMaelstorm
   name: портупея с ремнём
   description: Старая портупея с рёмнем, вся в потёртостях. Носите аккуратно.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/maelstorm/leatherbelt.rsi
@@ -81,7 +81,7 @@
   id: PDAmaelstorm
   name: старый красноармейский КПК
   description: КПК похожий на старое радио.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Icon
     sprite: DeadSpace/Sponsor/maelstorm/pda.rsi
@@ -94,7 +94,7 @@
   id: ClothingHeadsetMaelstorm
   name: военная гарнитура красноармейца
   description: Старая красно-серая гарнитура красноармейца, несмотря на возраст отлично функционирует.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/maelstorm/Ears/military.rsi
@@ -105,7 +105,7 @@
   id: ClothingUnderwearSocksMaelstorm
   name: красноармейские носки
   description: Стандартные носки красноармейца, в галактике их не сосчитать.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/maelstorm/footcloths.rsi
@@ -116,7 +116,7 @@
   parent: BaseSmokingPipe
   name: красноармейская курительная трубка
   description: С каждым вдохом процент коммунизма в организме возрастает.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/maelstorm/smokingpipe.rsi
@@ -138,7 +138,7 @@
   id: MaelstormWhistle
   name: красноармейский свисток
   description: "ВСЕ В ОКОП!!!"
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Item
     sprite: DeadSpace/Sponsor/maelstorm/whistles.rsi
@@ -164,7 +164,7 @@
   parent: [ BaseStorageItem, BaseBagOpenClose ]
   id: BoxMaelstorm
   description: Футляр с двумя красивыми кольцами.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/maelstorm/ringbox.rsi
@@ -190,7 +190,7 @@
   id: ClothingHandsRingMaelstorm
   name: коммунистическое кольцо
   description: На внутренней стороне кольца написано "Скованные одной цепью, связанные одной целью - все галактическим коммунизмом!".
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/maelstorm/ring.rsi
@@ -205,7 +205,7 @@
   id: ClothingUnderwearBottomBoxersMaelstorm
   name: красноармейские трусы
   description: Красноармейские трусы с красивой красной звездой.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/maelstorm/military_underwear.rsi
@@ -216,7 +216,7 @@
   id: ClothingHeadHatMaelstorm
   name: будёновка
   description: Теплая красноармейская шапка.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/maelstorm/budenovka.rsi
@@ -229,7 +229,7 @@
   id: ClothingOuterCoat1Maelstorm
   name: бронированная командармская шинель
   description: Старая шинель времён революции. Такую шинель носили командиры либо комиссары.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite:  DeadSpace/Sponsor/maelstorm/greatcoat.rsi
@@ -244,14 +244,15 @@
   - type: ExplosionResistance
     damageCoefficient: 0.90
   - type: TemperatureProtection
-    coefficient: 0.1
+    heatingCoefficient: 0.1
+    coolingCoefficient: 0.1
 
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoat3Maelstorm
   name: шинель красноармейца
   description: Шинель красноармейца времён революций. Выглядит как музейный экспонат.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite:  DeadSpace/Sponsor/maelstorm/coat3.rsi
@@ -266,7 +267,8 @@
   - type: ExplosionResistance
     damageCoefficient: 0.90
   - type: TemperatureProtection
-    coefficient: 0.1
+    heatingCoefficient: 0.1
+    coolingCoefficient: 0.1
 
 # Head
 - type: entity
@@ -274,7 +276,7 @@
   id: ClothingHeadHatUSSP
   name: визионерная фуражка
   description: Фуражка командующего армией и ниже времён революций. Выглядит как музейный экспонат.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/maelstorm/head.rsi
@@ -298,7 +300,7 @@
   id: ClothingHeadBudenovkaMaelstorm
   name: визионерная будёновка
   description: Фуражка командующего армией и ниже времён революций. Выглядит как музейный экспонат.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/maelstorm/helmet.rsi
@@ -328,7 +330,7 @@
   id: ClothingUniformJumpsuit1MaelstormAlt
   name: гимнастёрка с галифе
   description: Гимнастёрка с широкими штанами, красота.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/maelstorm/militaryshirt.rsi
@@ -340,7 +342,7 @@
   id: ClothingUniformJumpsuit2Maelstorm
   name: женская командармская форма
   description: Парадная форма командующего армией СССП и ниже. Выглядит сильно потрёпанной.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/maelstorm/jumpsuit2.rsi
@@ -352,7 +354,7 @@
   id: ClothingUniformJumpsuit3Maelstorm
   name: форма красноармейца
   description: Парадная форма красноармейца. Выглядит как музейный экспонат.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/maelstorm/jumpsuit3.rsi
@@ -365,7 +367,7 @@
   id: ClothingShoesMaelstorm
   name: старые комиссарские сапоги
   description: Похоже, что тот, кто прежде владел этими сапогами вместо того что бы сказать правду в глаза, стрелял из пистолета в лицо. Крове после сего отмыть не удалось.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/maelstorm/shoes.rsi
@@ -383,7 +385,7 @@
   id: WeaponRevolverMatebaMaelstorm
   name: почётное революционное оружие
   description: Великая награда героям СССП времён революций. На нем выгравировано "От КПСС - Отто фон Евпатоивичу". Использует патроны калибра .44 магнум.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/maelstorm/mateba.rsi
@@ -399,7 +401,7 @@
   id: WeaponRevolverMatebaUSSP
   name: советская Матеба
   description: Наградной пистолет СССП. Использует патроны калибра .44 магнум.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/maelstorm/mateba.rsi
@@ -415,7 +417,7 @@
   id: WeaponCaseUSSP
   name: футляр наградного оружия
   description: Футляр наградного оружия СССП.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/maelstorm/weaponcase.rsi
@@ -442,7 +444,7 @@
   id: WeaponCaseMaelstorm
   name: футляр набора почётного революционного оружия
   description: Выдавался за высокие заслуги перед СССП.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/maelstorm/weaponcase.rsi
@@ -470,7 +472,7 @@
   id: WeaponSniperMosinMaelstorm
   name: тактичная винтовка
   description: Легендарная винтовка, модернизированная для специальных операций. На прикладе выгравировано "За Синдикат". Использует патроны калибра 7.62х39 мм винтовочный.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/maelstorm/bolt_gun_wood.rsi
@@ -480,7 +482,7 @@
   id: MaelstormMedkitAdvanced
   name: боевая аптечка
   description: Для любителей больших пушек среди нас.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Item
     size: Normal
@@ -490,7 +492,7 @@
   id: BoxFolderRedMaelstormFilled
   name: папка
   description: Папка, заполненная документами.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: StorageFill
       contents:
@@ -502,7 +504,7 @@
   id: PaperGearMaelstorm
   name: распечатанный документ
   description: Лист бумаги с заголовком генерального штаба. Страшно даже смотреть на него.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Paper
     content: paper-gear-maelstorm
@@ -518,7 +520,7 @@
   id: PaperLawMaelstorm
   name: распечатанный документ
   description: Лист бумаги с заголовком генерального штаба. Страшно даже смотреть на него.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Paper
     content: paper-law-maelstorm
@@ -534,7 +536,7 @@
   id: PaperGunMaelstorm
   name: распечатанный документ
   description: Лист бумаги с заголовком генерального штаба. Страшно даже смотреть на него.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Paper
     content: paper-gun-maelstorm
@@ -550,7 +552,7 @@
   id: PaperPersonsMaelstorm
   name: распечатанный документ
   description: Лист бумаги с заголовком генерального штаба. Страшно даже смотреть на него.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Paper
     content: paper-persons-maelstorm

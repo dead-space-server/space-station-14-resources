@@ -49,16 +49,6 @@
   text: "/Paperwork/StationGoal/BornToKill.xml"
 
 - type: stationGoal
-  id: StationGoalCensus
-  name: station-goal-census
-  text: "/Paperwork/StationGoal/Census.xml"
-
-# - type: stationGoal
-#   id: StationGoalSecOutpost
-#   name: station-goal-secoutpost
-#   text: "/Paperwork/StationGoal/SecOutpost.xml"
-
-- type: stationGoal
   id: StationGoalChill
   name: station-goal-chill
   text: "/Paperwork/StationGoal/Chill.xml"

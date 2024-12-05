@@ -5,10 +5,11 @@ shuttle-console-in-ftl = Уже в БСС
 shuttle-console-mass = Слишком большой для БСС
 shuttle-console-prevent = Вы не можете пилотировать этот корабль
 shuttle-console-noftl = Данный корабль не может войти в БСС!
+shuttle-console-static = Грид статичный
 
 # NAV
 
-shuttle-console-display-label = Дисплей
+shuttle-console-display-label = Навигационные данные
 
 shuttle-console-position = Местоположение:
 shuttle-console-orientation = Азимут:
@@ -19,9 +20,15 @@ shuttle-console-unknown = Неизвестно
 shuttle-console-iff-label = { $name } ({ $distance } м)
 shuttle-console-exclusion = Зона отчуждения
 
-shuttle-console-nav-settings = Настройки
-shuttle-console-iff-toggle = Показ системы опознавания
-shuttle-console-dock-toggle = Показ стыковочных портов
+shuttle-console-nav-settings = Радар
+shuttle-console-iff-toggle = Система опознавания
+shuttle-console-dock-toggle = Стыковочные порты
+
+shuttle-console-thrust-title = Управление тягой
+shuttle-console-thrust-gyroscope = Мощность гироскопа
+shuttle-console-thrust-thrusters = Мощность двигателей
+shuttle-console-thrust-btn-text = Перезапустить систему тяги
+shuttle-console-thrust-btn-tooltip = Чтобы применить новые параметры, требуется перезапуск гироскопа и системы двигателей.
 
 # MAP
 

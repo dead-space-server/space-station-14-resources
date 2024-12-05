@@ -5,7 +5,8 @@
   description: job-description-science-syndicate
   startingGear: SyndicateFormal
   icon: "JobIconSyndicateFormal"
-  supervisors: job-supervisors-captain-syndicate
+  supervisors: job-supervisors-typan-syndicate
+  canBeAntag: false
   requirements:
     - !type:DepartmentTimeRequirement
       department: Science
@@ -21,6 +22,8 @@
       time: 108000
     - !type:OverallPlaytimeRequirement
       time: 360000
+    - !type:AgeRequirement
+      requiredAge: 26
   access:
   - SyndicateAgent
   - NuclearOperative
@@ -35,7 +38,7 @@
     shoes: ClothingShoesBootsCombat
     jumpsuit: ClothingUniformJumpsuitSyndieFormal
     gloves: ClothingHandsGlovesCombat
-    id: TypanIDCardCom
+    id: SyndiPDACom
     back: ClothingBackpackSyndicate
     belt: ClothingBeltAssaultTypan
     pocket1: SyndicateWhistle

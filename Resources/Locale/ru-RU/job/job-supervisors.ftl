@@ -1,5 +1,4 @@
-job-supervisors-centcom = Центральному Командованию
-job-supervisors-higher-command = высшему командному составу
+job-supervisors-centcom = центральному командованию
 job-supervisors-magistrat = магистрату
 job-supervisors-magistrat-iaa = магистрату и агенту внутренних дел
 job-supervisors-captain = капитану
@@ -17,4 +16,9 @@ job-supervisors-science = учёным, ведущему учёному, нау�
 job-supervisors-hire = своим нанимателям
 job-supervisors-everyone = вообще всем
 job-supervisors-crew = экипажу
-job-supervisors-sai = станционному Искусственному Интеллекту
+job-supervisors-security-borg = своим законам, офицерам, инструктору, смотрителю, и главе службы безопасности
+job-supervisors-centcom-administrator = администратору станции центрального командования
+job-supervisors-no-one = никому
+job-supervisors-typan-syndicate = командованию Синдиката
+job-supervisors-typan-telecommunications-officer = офицеру телекомуникаций Синдиката
+job-supervisors-typan-rd = директору исследований Синдиката

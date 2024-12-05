@@ -8,7 +8,7 @@
       role: JobSalvageSpecialist
       time: 216000 # 60 hours
     - !type:AgeRequirement
-      requiredAge: 28
+      requiredAge: 24
   startingGear: SeniorSalvageSpecialistGear
   icon: "JobIconSeniorSalvageSpecialist"
   supervisors: job-supervisors-qm
@@ -17,6 +17,7 @@
   - Salvage
   - Maintenance
   - External
+  - SeniorSalvage
   #start-backmen: currency
   minBankBalance: 150
   maxBankBalance: 250
@@ -31,3 +32,4 @@
     ears: ClothingHeadsetMining
     neck: ClothingNeckCloakMiner
     jumpsuit: ClothingUniformJumpsuitSalvageSpecialist
+    socks: ClothingUnderwearSocksSeniorSalvage

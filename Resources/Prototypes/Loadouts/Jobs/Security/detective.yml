@@ -47,6 +47,11 @@
   equipment:
     outerClothing: ClothingOuterCoatDetectiveLoadout
 
+- type: loadout
+  id: DetectiveCoatGrey
+  equipment:
+    outerClothing: ClothingOuterCoatDetectiveLoadoutGrey
+
 # Underwear
 - type: loadout
   id: UnderwearBottomBoxersDetective

@@ -56,3 +56,9 @@
 - type: tileAlias
   id: FloorRGlassAlt
   target: FloorRGlass
+
+# 2024-10-26 - DS14
+
+- type: tileAlias
+  id: NecroFlesh
+  target: Plating

@@ -1,5 +1,10 @@
 ﻿#ERT
 - type: siliconLaw
+  id: ERT0
+  order: 0
+  lawString: law-ert-0
+
+- type: siliconLaw
   id: ERT1
   order: 1
   lawString: law-ert-1
@@ -14,16 +19,11 @@
   order: 3
   lawString: law-ert-3
 
-- type: siliconLaw
-  id: ERT4
-  order: 4
-  lawString: law-ert-4
-
 - type: siliconLawset
   id: ERT
   laws:
+  - ERT0
   - ERT1
   - ERT2
   - ERT3
-  - ERT4
   obeysTo: laws-owner-beings

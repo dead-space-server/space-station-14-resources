@@ -3,7 +3,7 @@
   id: ClothingHeadHelmetHardsuitKloopRe
   name: ударопрочный шлем
   description: Устойчивый к давлению и ударостойкий шлем ОПНУ. Создано NanoTrasen.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: BreathMask
   - type: Sprite
