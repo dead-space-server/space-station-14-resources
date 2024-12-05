@@ -51,7 +51,8 @@ ert-loadout-category-lecter-description =
 
 ert-loadout-category-lasercarbine-name = Лазерная винтовка
 ert-loadout-category-lasercarbine-description =
-    Предпочитается службой безопасности NanoTrasen за дешевизну и простоту использования.
+    Предпочитается службой безопасности NanoTrasen 
+    за дешевизну и простоту использования.
     Для восполнения боезапаса потребуется зарядник энергооружия.
 
 ert-loadout-category-lasercannon-name = Лазерная пушка
@@ -83,8 +84,8 @@ ert-loadout-category-mateba-description =
 
 ert-loadout-category-dominator-name = Доминатор
 ert-loadout-category-dominator-description =
-    Выосокотехнологичное оружие, имеющее два режима стрельбы. 
-    Перед использованием необходимо предварительно привязать его к ID карте.
+    Имеет два режима стрельбы. Перед использованием 
+    необходимо предварительно привязать его к ID карте.
     Для восполнения боезапаса потребуется зарядник энергооружия.
 
 ert-loadout-category-lasergun-name = Старомодный лазерный пистолет
