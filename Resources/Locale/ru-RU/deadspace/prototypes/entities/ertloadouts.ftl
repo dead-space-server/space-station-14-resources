@@ -1,6 +1,3 @@
-
-# Sets
-
 ert-loadout-category-sawn-name = Обрез
 ert-loadout-category-sawn-description =
     Легендарное двуствольное ружьё, которое использовали 
