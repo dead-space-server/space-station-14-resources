@@ -53,6 +53,28 @@
     sprite: Objects/Consumable/Drinks/golden_cup.rsi
   - type: StaticPrice
     price: 125
+    
+- type: entity
+  parent: DrinkBaseCup
+  id: PetBowlWater
+  name: Pets water bowl
+  description: A bowl that holds water for your beloved pet!
+  components:
+  - type: Sprite
+    sprite: Objects/Consumable/Drinks/pet_bowl.rsi
+    layers:
+      - state: icon-0
+      - map: ["enum.SolutionContainerLayers.Fill"]
+        state: icon-3
+        visible: false
+  - type: Appearance
+  - type: SolutionContainerVisuals
+    maxFillLevels: 3
+    fillBaseName: icon-
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 40
 
 - type: entity
   parent: DrinkBaseCup
