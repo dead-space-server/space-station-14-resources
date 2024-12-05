@@ -38,6 +38,7 @@
     children:
     - id: CaptainIDCard
     - id: CigarGoldCase
+    - id: ClothingShoesBootsMagCaptain
       prob: 0.25
     - id: ClothingBeltSheathFilled
     - id: ClothingHeadsetAltCommand
@@ -74,7 +75,6 @@
     - id: ClothingMaskGasCaptain
     - id: JetpackCaptainFilled
     - id: OxygenTankFilled
-    - id: ClothingShoesBootsMagCaptain
 
 # No laser locker, used when the antique laser is placed in the special display crate
 - type: entity
