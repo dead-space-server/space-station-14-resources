@@ -28,7 +28,7 @@ thief-backpack-category-chemistry-name = Набор анатома
 thief-backpack-category-chemistry-description =
     Вы достигли пика физической формы... с небольшой помощью.
     В комплект входят: имплантер-хранилище, имплантер-миксер ДНК,
-    бутылочка эфедрина, шприц, пустой шейкер и омега мыло
+    инъектор дезоксиэфедрина, шприц, пустой шейкер и омега мыло
 thief-backpack-category-syndie-name = Набор Синдиката
 thief-backpack-category-syndie-description =
     Побрякушки из забытого прошлого или украденные у нерадивого агента?
