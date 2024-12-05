@@ -217,20 +217,15 @@
   - BoxShotgunIncendiary
 
 - type: thiefBackpackSet
-  id: BulldogSet
-  name: ert-loadout-category-bulldog-name
-  description: ert-loadout-category-bulldog-description
+  id: EnergyShotgunSet
+  name: ert-loadout-category-energyshotgun-name
+  description: ert-loadout-category-energyshotgun-description
   sprite:
-    sprite: Objects/Weapons/Guns/Shotguns/bulldog.rsi
+    sprite: Objects/Weapons/Guns/Battery/energy_shotgun.rsi
     state: icon
   content:
-  - WeaponShotgunBulldog
-  - MagazineShotgun # TO DO Может стоит добавить большие??? Дробь или зажигательные???
-  - MagazineShotgun
-  - MagazineShotgun
-  - MagazineShotgun
-  - MagazineShotgun
-  - MagazineShotgun
+  - WeaponEnergyShotgun
+  - PortableRecharger
 
 ### Автоматическое
 - type: thiefBackpackSet
@@ -312,18 +307,6 @@
   - WeaponLaserCannon
 
 - type: thiefBackpackSet
-  id: EnergyShotgunSet
-  name: ert-loadout-category-energyshotgun-name
-  description: ert-loadout-category-energyshotgun-description
-  sprite:
-    sprite: Objects/Weapons/Guns/Battery/energy_shotgun.rsi
-    state: icon
-  content:
-  - WeaponEnergyShotgun
-  - PortableRecharger
-
-
-- type: thiefBackpackSet
   id: PulseCarbineSet
   name: ert-loadout-category-pulsecarbine-name
   description: ert-loadout-category-pulsecarbine-description
@@ -377,22 +360,6 @@
   - MagazineMagnum
   - MagazineBoxMagnum
   - MagazineBoxMagnum
-
-- type: thiefBackpackSet
-  id: MatebaAPSet
-  name: ert-loadout-category-matebaap-name
-  description: ert-loadout-category-matebaap-description
-  sprite:
-    sprite: Objects/Weapons/Guns/Revolvers/mateba.rsi
-    state: icon
-  content:
-  - WeaponRevolverMatebaAP
-  - SpeedLoaderMagnumAP
-  - SpeedLoaderMagnumAP
-  - SpeedLoaderMagnumAP
-  - SpeedLoaderMagnumAP
-  - SpeedLoaderMagnumAP
-  - SpeedLoaderMagnumAP
 
 - type: thiefBackpackSet
   id: SawnSet
