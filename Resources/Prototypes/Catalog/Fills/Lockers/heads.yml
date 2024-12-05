@@ -39,7 +39,6 @@
     children:
     - id: CaptainIDCard
     - id: CigarGoldCase
-    - id: ClothingShoesBootsMagCaptain
       prob: 0.25
     - id: ClothingBeltSheathFilled
     - id: ClothingHeadsetAltCommand
