@@ -1,8 +1,6 @@
 - type: entity
   parent: ClothingOuterBase
   id: ADTImpmonk
-  name: inquisitor's robe
-  description: Crafted from the most technologically advanced fabric.
   components:
   - type: Sprite
     sprite: ADT/Clothing/OuterClothing/Armor/impmonk.rsi

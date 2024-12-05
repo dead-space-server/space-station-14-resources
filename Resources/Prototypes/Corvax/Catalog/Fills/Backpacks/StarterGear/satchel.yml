@@ -1,18 +1,8 @@
 - type: entity
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelIAAFilled
   components:
     - type: StorageFill
       contents:
         - id: BoxSurvival
-
-- type: entity
-  noSpawn: true
-  parent: ClothingBackpackSatchelMedical
-  id: ClothingBackpackSatchelPsychologistFilled
-  components:
-    - type: StorageFill
-      contents:
-        - id: BoxSurvivalMedical
-        - id: RubberStampPsychologist

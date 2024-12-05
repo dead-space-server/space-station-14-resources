@@ -68,6 +68,11 @@
   equipment:
     outerClothing: ClothingOuterWinterClown
 
+- type: loadout
+  id: ClownDownjacket                         
+  equipment:
+    outerClothing: ClothingOuterWinterClownDownjacket
+
 # Underwear
 - type: loadout
   id: UnderwearBottomBoxersClown

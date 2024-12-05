@@ -9,7 +9,7 @@
   id: ClothingBackpackTheQG
   name: белый украшенный вещмешок
   description: Вместительный вещмешок. Окрашен в белый цвет. Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/TheQG/duffel.rsi
@@ -41,7 +41,7 @@
   id: ClothingHeadHatBeretTheQG
   name: берет 51-десантной дивизии
   description: Берет, символизирующий принадлежность к элитному подразделению вооруженных сил, известному своей смелостью и высоким профессионализмом.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/TheQG/beret.rsi
@@ -54,7 +54,7 @@
   id: ClothingNeckMantleTheQG
   name: белая наплечная мантия
   description: Наплечная мантия в белом цвете. Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/TheQG/mantle_shoulder.rsi
@@ -67,7 +67,7 @@
   id: ClothingUniformJumpsuitTheQG
   name: белая тактическая юбка-костюм
   description: Белая юбка-костюм. Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/TheQG/jumpsuit.rsi
@@ -80,7 +80,7 @@
   id: ClothingWebbingTheQG
   name: РПС 51-десантной дивизии
   description: Ременно-плечевая система тактических ремней, которую носят представители 51-десантной дивизии.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/TheQG/webbing.rsi
@@ -96,7 +96,7 @@
   id: PaperLawsTheQG
   name: распечатанный документ
   description: Лист бумаги с заголовком центкома. Страшно даже смотреть на него.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Paper
     stampState: paper_stamp-centcom

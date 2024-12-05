@@ -24,3 +24,4 @@
   id: ScientistGear
   equipment:
     ears: ClothingHeadsetScience
+    socks: ClothingUnderwearSocksScientist

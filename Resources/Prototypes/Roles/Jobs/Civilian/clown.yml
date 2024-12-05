@@ -16,9 +16,9 @@
   - !type:AddComponentSpecial
     components:
     - type: CustomNameOnSpawn
-    - type: ClownBibleUser #Lets them honk with bibles
+    # - type: ClownBibleUser #Lets them honk with bibles
     - type: Clumsy
-      clumsyDamage:
+      gunShootFailDamage:
         types: #literally just picked semi random valus. i tested this once and tweaked it.
           Blunt: 5
           Piercing: 4
@@ -44,6 +44,7 @@
     pocket2: ClownRecorder
     id: ClownPDA
     ears: ClothingHeadsetService
+    socks: ClothingUnderwearSocksClown
   storage:
     back:
     - RubberStampClown

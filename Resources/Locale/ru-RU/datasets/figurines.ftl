@@ -27,6 +27,9 @@ figurines-mime-5 = ................
 figurines-musician-1 = Never gonna give you up!
 figurines-musician-2 = Never gonna let you down!
 figurines-boxer-1 = Первое правило бойцовского клуба...
+figurines-boxer-2 = Мы разберёмся на ринге, ясно?
+figurines-boxer-3 = Я. ЧЕМПИОН!!
+figurines-boxer-4 = Не смотрите на меня, в него стреляли, а не били.
 
 figurines-captain-1 = Слава НТ!
 figurines-captain-2 = Как я получил эту должность? Да.
@@ -38,7 +41,7 @@ figurines-hos-3 = Да, я застрелил клоуна. Нет, я не жа
 
 figurines-warden-1 = Казните его за проникновение!
 figurines-warden-2 = В перму ублюдка за оскорбление!
-figurines-warden-3 = Мы абсолютно справедливо относимся ко всем и НЕ допускаем грубого обращения с заключенными.
+figurines-warden-3 = Мы абсолютно справедливо относимся ко всем и НЕ допускаем грубого обращения с заключёнными.
 figurines-warden-4 = Бриг - мой дом. Мой дом - бриг. Мой бриг - дом. Стоп, что?
 
 figurines-detective-1 = Убийца был дворецкий.
@@ -133,7 +136,7 @@ figurines-nukie-elite-3 = Ребят, вы живы?
 
 figurines-nukie-commander-1 = ДОСТАНЬТЕ ЭТОТ ЧЁРТОВ ДИСК!
 
-figurines-footsoldier-1 = Я злой мальчик. С каждым днём всё меньше мальчик, с каждым днем всё больше злой.
+figurines-footsoldier-1 = Я злой мальчик. С каждым днём всё меньше мальчик, с каждым днём всё больше злой.
 figurines-footsoldier-2 = Кого ты выберешь? Их или нас? Нас или их?
 
 figurines-wizard-1 = Ei Nath!

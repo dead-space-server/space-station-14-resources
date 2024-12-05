@@ -1,6 +1,6 @@
 # Command
 - type: roleLoadout
-  id: JobADTBlueShieldOfficer
+  id: JobBlueShieldOfficer
   groups:
   - GroupTankHarness
   - BlueShieldOfficerJumpsuit

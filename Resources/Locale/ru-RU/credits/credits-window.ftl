@@ -1,6 +1,6 @@
 credits-window-title = Авторы
 credits-window-patrons-tab = Патроны билда официальных разработчиков WizardDen
-credits-window-ss14contributorslist-tab = Контрибьютеры
+credits-window-ss14contributorslist-tab = Контрибьютеры WizardDen
 credits-window-licenses-tab = Лицензии на открытый исходный код
 credits-window-become-patron-button = Стать спонсором
 credits-window-contributor-encouragement-label = Хотите попасть в этот список?

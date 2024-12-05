@@ -1,5 +1,5 @@
 ﻿- type: construction
-  name: Терминал безналичной оплаты
+  name: терминал безналичной оплаты
   id: eftpos
   graph: eftpos
   startNode: start
@@ -10,13 +10,13 @@
   objectType: Item
 
 - type: construction
-  name: Банкомат
+  name: банкомат
   id: ATM
   graph: ATM
   startNode: start
   targetNode: ATM
   category: construction-category-utilities
-  description: "Банкомат для работы с наличкой"
+  description: Банкомат для работы с наличкой.
   icon:
     sprite: Backmen/Structures/Wallmounts/atm.rsi
     state: off

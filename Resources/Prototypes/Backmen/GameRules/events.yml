@@ -1,11 +1,11 @@
 - type: entity
   id: BlobSpawn
   parent: BaseGameRule
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: StationEvent
     weight: 4
-    duration: 1
+    duration: 10
     earliestStart: 20
     minimumPlayers: 40
   - type: BlobSpawnRule
@@ -20,6 +20,6 @@
 - type: entity
   id: WageScheduler
   parent: BaseGameRule
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: WageSchedulerRule

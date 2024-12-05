@@ -1,5 +1,5 @@
 hairball-action = Откашляться
-hairball-action-desc = Откашляться, чтобы получить комок волос, застрявший в горле
+hairball-action-desc = Откашляться, чтобы получить комок волос, застрявший в горле.
 hairball-mask = Сперва сними {$mask}.
 hairball-cough = {CAPITALIZE(THE($name))} пытается откашляться!
 

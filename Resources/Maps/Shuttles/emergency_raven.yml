@@ -71,10 +71,10 @@ entities:
       gravityShakeSound: !type:SoundPathSpecifier
         path: /Audio/Effects/alert.ogg
     - type: DeviceNetwork
-      deviceNetId: Wireless
       configurators: []
       deviceLists: []
       transmitFrequencyId: ShuttleTimer
+      deviceNetId: Wireless
     - type: DecalGrid
       chunkCollection:
         version: 2
@@ -12537,13 +12537,6 @@ entities:
     components:
     - type: Transform
       pos: 5.5,-6.5
-      parent: 1
-- proto: RandomArtifactSpawner
-  entities:
-  - uid: 1877
-    components:
-    - type: Transform
-      pos: 17.5,-13.5
       parent: 1
 - proto: RandomInstruments
   entities:

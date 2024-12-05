@@ -9,7 +9,7 @@
   name: расширенный вещмешок
   description: Вещмешок использующий технологию микро блюспейс карманов для увеличения общего объёма.
   suffix: Набор вещей спонсора, Грейтайдер
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Storage
     maxItemSize: Huge
@@ -35,9 +35,10 @@
       - id: ClothingCloakGamer
       - id: ClothingNeckWingsViolet
       - id: ClothingOuterWinterKirasCloak
-      # - id: VehicleKeyATV
       - id: ClothingMaskFawkesSponsor
       - id: ClothingOuterBlueTrenchSponsor
+      - id: ClothingNeckCloakGreyFox
+      - id: ClothingNeckCloakRedGeytide
 
 - type: sponsorLoadout
   id: ClothingBackpackTier6HOSIAASponsorLoadout
@@ -51,7 +52,7 @@
   name: вещмешок
   description: Вещмешок в необычной расцветке. Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
   suffix: Набор вещей спонсора, Грейтайдер, ГСБ АВД
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
@@ -73,7 +74,7 @@
   name: вещмешок
   description: Вещмешок в необычной расцветке. Принадлежит члену экипажа, находящемуся под покровительством спонсорской организации.
   suffix: Набор вещей спонсора, Грейтайдер, ГСБ
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
@@ -87,7 +88,7 @@
   id: ClothingMaskFawkesSponsor
   name: маска Гая Фокса
   description: V — значит вендетта.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/Greytide/fawkes.rsi
@@ -99,9 +100,47 @@
   id: ClothingOuterBlueTrenchSponsor
   name: синий тренч
   description: Изысканный тренч, воплощение безупречного стиля и утонченной элегантности. Его насыщенный оттенок создает яркую гармонию с классическим кроем, подчеркивая современный взгляд на стиль и придавая образу неповторимую свежесть.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/Greytide/bluecoat.rsi
   - type: Clothing
     sprite: DeadSpace/Sponsor/Greytide/bluecoat.rsi
+
+# Cloak
+- type: entity
+  parent: ClothingNeckCloakGoliathCloak
+  id: ClothingNeckCloakGreyFox
+  name: плащ "Серебряной лисы"
+  description: Водонепроницаемый плащ с капюшоном. Обеспечивает защиту от дождя и сильного ветра.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/Greytide/cloak.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHatHoodGreyFox
+    requiredSlot:
+    - neck
+    slot: head
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatHoodGreyFox
+  name: накидка "Серебряной лисы"
+  description: Водонепроницаемый плащ с капюшоном. Обеспечивает защиту от дождя и сильного ветра.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/Greytide/cloakhead.rsi
+  - type: Clothing
+    sprite: DeadSpace/Sponsor/Greytide/cloakhead.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakRedGeytide
+  name: плащ Банши
+  description: Кровавя накидка.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/Greytide/red_cloak.rsi
