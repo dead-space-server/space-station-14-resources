@@ -1,7 +1,7 @@
 - type: entity
   parent: DrinkBaseCup
   id: PetBowlWater
-  name: Миска для питомцев
+  name: миска для питомцев
   description: Стильная и прочная миска для воды с удобным нескользящим основанием.
   components:
   - type: Sprite
