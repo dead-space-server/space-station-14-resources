@@ -1031,7 +1031,7 @@
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
-  - type: IgniteOnCollide # Deadspace14 modification
+  - type: IgniteOnCollide # DS14
     fireStacks: 1 
   - type: Reflective
     reflective:
