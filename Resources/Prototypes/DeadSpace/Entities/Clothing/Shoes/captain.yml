@@ -1,5 +1,5 @@
 - type: entity
-  parent: [ClothingShoesBootsMag]
+  parent: ClothingShoesBootsMag
   id: ClothingShoesBootsMagCaptain
   name: магнитные сапоги капитана
   description: Тёмно-синие магнитные сапоги с золотыми украшениями. Великолепно!
