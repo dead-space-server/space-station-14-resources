@@ -202,8 +202,7 @@
     - map: [ "enum.DamageStateVisualLayers.BaseUnshaded"]
       state: eyes
       shader: unshaded
-    - type: NightVision # DS14
-
+  - type: NightVision # DS14
   - type: SpriteMovement
     movementLayers:
       movement:
@@ -297,6 +296,8 @@
   - type: FireVisuals
     sprite: Mobs/Effects/onfire.rsi
     normalState: Mouse_burning
+  - type: NecromorfAfterInfection
+    necroPrototype: NecroSmall
 
 - type: weightedRandomEntity
   id: RatKingLoot

@@ -125,6 +125,16 @@
     range: 0
 
 - type: entity
+  id: ActionHiveRaiseArmy
+  name: Улей
+  description: Создать личинку!
+  components:
+  - type: InstantAction
+    useDelay: 1
+    icon: DeadSpace/Necromorfs/larva.png
+    event: !type:RatKingRaiseArmyActionEvent
+
+- type: entity
   id: ActionHiveDomain
   name: Пустить газ
   description: Выпускает некрогаз в пространство.
@@ -135,3 +145,59 @@
       sprite: Interface/Actions/actions_rat_king.rsi
       state: ratKingDomain
     event: !type:RatKingDomainActionEvent
+
+- type: entity
+  id: ActionHiveOrderStay
+  name: Остановить
+  description: Команда для подконтрольных существ.
+  components:
+  - type: InstantAction
+    useDelay: 1
+    icon: DeadSpace/Interface/Actions/stayOff.png
+    iconOn: DeadSpace/Interface/Actions/stay.png
+    event:
+      !type:RatKingOrderActionEvent
+        type: Stay
+    priority: 5
+
+- type: entity
+  id: ActionHiveOrderFollow
+  name: За мной
+  description: Команда для подконтрольных существ.
+  components:
+  - type: InstantAction
+    useDelay: 1
+    icon: DeadSpace/Interface/Actions/followOff.png
+    iconOn: DeadSpace/Interface/Actions/follow.png
+    event:
+      !type:RatKingOrderActionEvent
+      type: Follow
+    priority: 6
+
+- type: entity
+  id: ActionHiveOrderCheeseEm
+  name: Атака
+  description: Команда для подконтрольных существ.
+  components:
+  - type: InstantAction
+    useDelay: 1
+    icon: DeadSpace/Interface/Actions/attackOff.png
+    iconOn: DeadSpace/Interface/Actions/attack.png
+    event:
+      !type:RatKingOrderActionEvent
+      type: CheeseEm
+    priority: 7
+
+- type: entity
+  id: ActionHiveOrderLoose
+  name: Вольно
+  description: Команда для подконтрольных существ.
+  components:
+  - type: InstantAction
+    useDelay: 1
+    icon: DeadSpace/Interface/Actions/looseOff.png
+    iconOn: DeadSpace/Interface/Actions/loose.png
+    event:
+      !type:RatKingOrderActionEvent
+      type: Loose
+    priority: 8

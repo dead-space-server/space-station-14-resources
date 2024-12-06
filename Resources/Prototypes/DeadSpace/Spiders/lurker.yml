@@ -8,6 +8,7 @@
     size: Small
     storedRotation: 90
   - type: Handcuff
+    uncuffTime: 3600
     used: true
     breakOnRemove: true
     brokenPrototype: MaterialWebSilk1

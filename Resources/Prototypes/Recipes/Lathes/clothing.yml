@@ -405,6 +405,16 @@
   id: ClothingUniformJumpskirtMime
   result: ClothingUniformJumpskirtMime
 
+- type: latheRecipe
+  parent: BaseJumpsuitRecipe
+  id: ClothingUniformJumpsuitMimeSexyWhite
+  result: ClothingUniformJumpsuitMimeSexyWhite
+
+- type: latheRecipe
+  parent: BaseJumpsuitRecipe
+  id: ClothingUniformJumpsuitMimeSexyBlack
+  result: ClothingUniformJumpsuitMimeSexyBlack
+
 ## Musician
 
 - type: latheRecipe

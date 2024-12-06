@@ -73,9 +73,6 @@
         spawned:
         - id: MobSpiderTerrorQueen
           amount: 1
-      - type: NpcFactionMember
-        factions:
-        - SpiderTerror
       mindRoles:
       - MindRoleSpiderTettorQuin
     - prefRoles: [ SpiderTerrorKing ]
@@ -92,9 +89,6 @@
         spawned:
         - id: MobSpiderTerrorGuardianHeroicKingBlood
           amount: 1 # Колличество
-      - type: NpcFactionMember
-        factions:
-        - SpiderTerror
       mindRoles:
       - MindRoleSpiderTettorKing
     - prefRoles: [ SpiderTerrorKingBlood ]
@@ -166,6 +160,31 @@
       MedicalSupplies: 4
       EmergencyBruteKit: 4
       EmergencyAdvancedKit: 4
+
+- type: entity
+  id: GiftsSpiderTerror
+  parent: CargoGiftsBase
+  components:
+  - type: StationEvent
+    weight: 8
+    duration: 120
+    earliestStart: 20
+    minimumPlayers: 30
+  - type: CargoGiftsRule
+    description: cargo-gift-medical-supply
+    dest: cargo-gift-dest-med
+    gifts:
+      MedicalSupplies: 4
+      EmergencyBruteKit: 4
+      EmergencyAdvancedKit: 4
+      CrateKarachnocidGrenadeProduct: 1
+      SecurityArmor: 3
+      ArmorySmg: 2
+      ArmoryShotgun: 2
+      ArmoryLaser: 2
+      SecurityRiot: 2
+      SecurityRestraints: 2
+      SecurityNonLethal: 2
 
 - type: preloadedGrid
   id: CBURNSCSTShuttle
