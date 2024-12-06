@@ -57,3 +57,12 @@
     contents:
       - id: ADTExtMagazineRifle
         amount: 3
+
+- type: entity
+  parent: ClothingBackpackDuffelSyndicateAmmoBundle
+  id: ClothingBackpackDuffelSyndicateFilledAKAmmo
+  components:
+  - type: StorageFill
+    contents:
+      - id: MagazineLightRifle
+        amount: 4

@@ -8,7 +8,7 @@
   - type: Sprite
     sprite: DeadSpace/Objects/Weapons/Guns/Battery/dominator.rsi
     layers:
-    - state: base
+    - state: base-0
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-unshaded-3-0
       map: ["enum.GunVisualLayers.MagUnshaded"]
