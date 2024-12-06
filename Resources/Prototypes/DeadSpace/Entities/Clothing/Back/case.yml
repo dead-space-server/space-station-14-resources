@@ -1,0 +1,36 @@
+- type: entity
+  parent: [ClothingBeltBase, ClothingSlotBase ]
+  id: ClothingBackpackCase
+  name: Гитарный кейс
+  description: Обязательный атрибут бродячих музыкантов и тихих школьников.
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Clothing/Back/case.rsi
+    state: sheath
+  - type: Clothing
+    sprite: DeadSpace/Clothing/Back/case.rsi
+    quickEquip: false
+    slots:
+    - back
+  - type: Item
+    size: Ginormous
+  - type: ItemSlots
+    slots:
+      item:
+        name: String Instrument
+        insertVerbText: sheath-insert-verb
+        ejectVerbText: sheath-eject-verb
+        insertSound: /Audio/Items/sheath.ogg
+        ejectSound: /Audio/Items/unsheath.ogg
+        whitelist:
+          tags:
+          - StringInstrument
+          - SniperWeapon
+  - type: ItemMapper
+    mapLayers:
+      sheath-sabre:
+        whitelist:
+          tags:
+          - StringInstrument
+          - SniperWeapon
+  - type: Appearance

@@ -1163,6 +1163,9 @@
   id: RollingPin
 
 - type: Tag
+  id: SniperWeapon
+  
+- type: Tag
   id: SaltShaker
 
 - type: Tag
