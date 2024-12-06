@@ -75,8 +75,8 @@ uplink-Shotgun-magazine-name = Магазин для дробовика
 uplink-Shotgun-magazine-desc = Магазин с патронами 12-го калибра для дробовика "Бульдог"
 uplink-MachineGun-magazine-name = Магазин для пистолета-пулемета (9х19 мм)
 uplink-MachineGun-magazine-desc = Магазин с патронами калибра 9х19 мм, совместим с пистолетом-пулеметом C-20r
-uplink-LightRifle-magazine-name = Магазин для штурмовой винтовки (6.5х39 мм)
-uplink-LightRifle-magazine-desc = Магазин с патронами калибра 7.62 мм, совместим со штурмовой винтовкой "АКМС"
+uplink-LightRifle-magazine-name = Магазин для штурмовой винтовки (7.62x39 мм)
+uplink-LightRifle-magazine-desc = Магазин с патронами калибра 7.62x39 мм, совместим со штурмовой винтовкой АКМС
 
 # Utility
 uplink-holopara-kit-name = Набор "Голопаразит"
@@ -172,13 +172,13 @@ uplink-sniper-bundle-desc = Неприметный чемодан, в котор
 
 # Bundles
 uplink-c20r-bundle-name = Набор "C-20r"
-uplink-c20r-bundle-desc = Старый добрый: Классический пистолет-пулемёт C-20r в комплекте с тремя магазинами.
+uplink-c20r-bundle-desc = Старый добрый: Классический пистолет-пулемёт C-20r в комплекте с двумя дополнительными магазинами.
 uplink-buldog-bundle-name = Набор "Бульдог"
 uplink-buldog-bundle-desc = Простой и надёжный: Содержит популярный дробовик Бульдог, барабан пуль и 3 барабана дроби.
 uplink-grenade-launcher-bundle-name = Набор "China-Lake"
-uplink-grenade-launcher-bundle-desc = Старый гранатомёт China-Lake, снабжённый 11 гранатами различной поражающей способности.
+uplink-grenade-launcher-bundle-desc = Старый гранатомёт China-Lake, снабжённый шестью гранатами различной поражающей способности.
 uplink-l6-saw-bundle-name = Набор "L6 Saw"
-uplink-l6-saw-bundle-desc = Ещё больше дакки: культовый лёгкий пулемёт L6 в комплекте с 2 коробами патронов.
+uplink-l6-saw-bundle-desc = Культовый лёгкий пулемёт L6 в комплекте с одной дополнительной коробкой патронов.
 uplink-zombie-bundle-name = Зомби-набор Синдиката
 uplink-zombie-bundle-desc = Универсальный набор для создания зомби на станции.
 uplink-surplus-bundle-name = Ящик припасов Синдиката

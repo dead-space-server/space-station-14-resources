@@ -11,6 +11,7 @@
     shoes: ClothingShoesBootsMagAdv
     id: DeathsquadPDA
     pocket1: EnergySword
+    pocket2: DoubleEmergencyOxygenTankFilled
     belt: ClothingBeltDeathSquadWebbingFilled
     underwearb: ClothingUnderwearBottomBoxersDeathSquad # DS14-Underwear
   storage:

@@ -661,7 +661,7 @@
     job: ERTLeaderRed
 
 - type: entity
-  parent: IDCardStandard
+  parent: ERTLeaderIDCard
   id: ERTLeaderGammaIDCard
   components:
   - type: PresetIdCard

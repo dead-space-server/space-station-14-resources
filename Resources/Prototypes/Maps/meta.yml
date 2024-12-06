@@ -67,7 +67,7 @@
             # DS14
             BlueShieldOfficer: [ 1, 1 ]
             BorgSecurity: [ 1, 1 ]
-            Magistrat: [ 1, 1 ]
+            # # Magistrat: [ 1, 1 ]
             Lawyer: [ 3, 3 ]
             Brigmedic: [ 1, 1 ]
             ClownSponsor: [ 0, 2 ]

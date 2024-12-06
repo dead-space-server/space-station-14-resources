@@ -67,11 +67,11 @@
   speciesBlacklist:
     # - Arachnid
     - Diona
-    # - Dwarf
+    - Dwarf
     # - Human
     # - Moth
     # - Reptilian
-    # - SlimePerson
+    - SlimePerson
     - Vox
     # - DemonSpecies
     # - SharkSpecies

@@ -229,8 +229,8 @@
 - type: entity
   parent: ClothingUnderwearSocksBase
   id: ClothingUnderwearSocksCurator
-  name: носки администратора сервисного отдела
-  description: Стандартные носки администратора сервисного отдела.
+  name: носки менеджера
+  description: Стандартные носки менеджера.
   components:
   - type: Sprite
     sprite: DeadSpace/Clothing/Underwear/Civilian/reporter/socks.rsi  

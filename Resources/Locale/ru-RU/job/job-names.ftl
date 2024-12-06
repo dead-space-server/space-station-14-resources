@@ -74,7 +74,7 @@ job-name-magistrat = Магистрат
 job-name-coroner = Коронер
 job-name-security-pilot = Пилот СБ
 job-name-senior-salvagespec = Ведущий утилизатор
-job-name-senior-administrator = Администратор сервисного отдела
+job-name-senior-administrator = Менеджер
 job-name-station-ai = Станционный ИИ
 
 # unused jobs
@@ -169,6 +169,6 @@ JobMagistrat = Магистрат
 JobCoroner = Коронер
 JobSecurityPilot = Пилот СБ
 JobSeniorSalvageSpecialist = Ведущий утилизатор
-JobSeniorAdministrator = Администратор сервисного отдела
+JobSeniorAdministrator = Менеджер
 JobStationAi = Станционный ИИ
 JobVisitor = Посетитель
