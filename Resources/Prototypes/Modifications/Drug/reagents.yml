@@ -1,0 +1,52 @@
+- type: reagent
+  id: FlashDose
+  name: reagent-name-flash-dose
+  group: Narcotics
+  desc: reagent-desc-flash-dose
+  physicalDesc: reagent-physical-desc-syrupy
+  flavor: bitter
+  color: "#BDB76B"
+  metabolisms:
+    Narcotic:
+      effects:
+      - !type:GenericStatusEffect
+        key: SeeingRainbows
+        component: SeeingRainbows
+        type: Add
+        time: 5
+        refresh: false
+      - !type:DrugIntoxication
+        addictionEffect: 1
+        toleranceEffect: 0.001
+        drugStrenght: 4
+      - !type:MovespeedModifier
+        walkSpeedModifier: 1.45
+        sprintSpeedModifier: 1.45
+
+- type: reaction
+  id: FlashDose
+  minTemp: 400
+  reactants:
+    SpaceDrugs:
+      amount: 1
+    Dylovene:
+      amount: 1
+    Carbon:
+      amount: 1
+    Sugar:
+      amount: 1
+  products:
+    FlashDose: 4
+
+- type: entity
+  name: flash dose
+  parent: Pill
+  id: PillFlashDose
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 20
+        reagents:
+        - ReagentId: FlashDose
+          Quantity: 15
