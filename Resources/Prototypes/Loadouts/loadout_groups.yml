@@ -608,6 +608,8 @@
   loadouts:
   - MimeJumpsuit
   - MimeJumpskirt
+  - MimeJumpSexyWhite
+  - MimeJumpSexyBlack
 
 - type: loadoutGroup
   id: MimeBackpack

@@ -1,170 +1,116 @@
 ﻿# Fobos
 
 - type: lobbyBackground
-  id: ClownVsSec
-  background: /Textures/LobbyScreens/Fobos/clown_vs_sec.jpg
+  id: Oblomok
+  background: /Textures/LobbyScreens/Fobos/anomaly_il_cargo.webp
 
 - type: lobbyBackground
-  id: Clowns
-  background: /Textures/LobbyScreens/Fobos/clowns.png
-
-# - type: lobbyBackground
-#   id: NewYearArbuz
-#   background: /Textures/LobbyScreens/Fobos/ds_newyear_arbuz007_87158.png
-
-# - type: lobbyBackground
-#   id: NewYearSinelis
-#   background: /Textures/LobbyScreens/Fobos/ds_newyear_sinelis.png
-
-# - type: lobbyBackground
-#   id: NewYearVojner
-#   background: /Textures/LobbyScreens/Fobos/ds_newyear_vojner.png
+  id: Particle_accelerator
+  background: /Textures/LobbyScreens/Fobos/anomaly_il_engineering_scene.webp
 
 - type: lobbyBackground
-  id: Fleshanom
-  background: /Textures/LobbyScreens/Fobos/fleshanom.png
+  id: Rnd_reunmo
+  background: /Textures/LobbyScreens/Fobos/anomaly_il_rnd.webp
 
 - type: lobbyBackground
-  id: Nuke
-  background: /Textures/LobbyScreens/Fobos/nuke.jpg
+  id: Tango
+  background: /Textures/LobbyScreens/Fobos/anomaly_il_tango.webp
 
 - type: lobbyBackground
-  id: NukieDudes
-  background: /Textures/LobbyScreens/Fobos/nukie-dudes.png
-
-# - type: lobbyBackground
-#   id: Pharmacy
-#   background: /Textures/LobbyScreens/Fobos/pharmacy.webp
+  id: Bartender
+  background: /Textures/LobbyScreens/Fobos/arbuz_bartender.webp
 
 - type: lobbyBackground
-  id: Singu
-  background: /Textures/LobbyScreens/Fobos/singu.png
+  id: Lawyer
+  background: /Textures/LobbyScreens/Fobos/arbuz_lawyer.webp
 
 - type: lobbyBackground
-  id: SingulordCage
-  background: /Textures/LobbyScreens/Fobos/singulord_cage.png
+  id: Newyear
+  background: /Textures/LobbyScreens/Fobos/arbuz_newyear.webp
 
 - type: lobbyBackground
-  id: TemporaryFriends
-  background: /Textures/LobbyScreens/Fobos/temporaryfriends.png
+  id: Syndi
+  background: /Textures/LobbyScreens/Fobos/arbuz_syndi.webp
 
 - type: lobbyBackground
-  id: UnderTheTree
-  background: /Textures/LobbyScreens/Fobos/under_the_tree.png
+  id: Librarian
+  background: /Textures/LobbyScreens/Fobos/charon_librarian.webp
 
 - type: lobbyBackground
-  id: Warden
-  background: /Textures/LobbyScreens/Fobos/warden.webp
+  id: Scientist
+  background: /Textures/LobbyScreens/Fobos/charon_scientist.webp
 
 - type: lobbyBackground
-  id: Susstation
-  background: /Textures/LobbyScreens/Fobos/susstation.png
+  id: Ritoka
+  background: /Textures/LobbyScreens/Fobos/doner_alfred_and_tessie.webp
 
 - type: lobbyBackground
-  id: SkellyVsTheRev
-  background: /Textures/LobbyScreens/Fobos/skellyvstherev.png
+  id: End_of_round
+  background: /Textures/LobbyScreens/Fobos/doner_evelina_sleeping.webp
 
 - type: lobbyBackground
-  id: Doomed
-  background: /Textures/LobbyScreens/Fobos/doomed.png
-
-- type: lobbyBackground
-  id: KrissChui
-  background: /Textures/LobbyScreens/Fobos/krisschui.png
-
-# - type: lobbyBackground
-#   id: ClownMoth
-#   background: /Textures/LobbyScreens/Fobos/ds_clown_moth.png
-
-# - type: lobbyBackground
-#   id: 14February4726
-#   background: /Textures/LobbyScreens/Fobos/ds_14february_4726.png
-
-# - type: lobbyBackground
-#   id: 14FebruaryCkaf
-#   background: /Textures/LobbyScreens/Fobos/ds_14february_2yx_mytpobyj_ckaf.jpg
-
-# - type: lobbyBackground
-#   id: 14FebruaryArbuz
-#   background: /Textures/LobbyScreens/Fobos/ds_14february_arbuz007_87158.png
-
-- type: lobbyBackground
-  id: F_002
-  background: /Textures/LobbyScreens/Fobos/f_002.png
-
-- type: lobbyBackground
-  id: Tango_4k
-  background: /Textures/LobbyScreens/Fobos/tango_4k.png
-
-- type: lobbyBackground
-  id: SrochnikiYao
-  background: /Textures/LobbyScreens/Fobos/SrochnikiYao.jpg
-
-- type: lobbyBackground
-  id: hqdishka_qwewka
-  background: /Textures/LobbyScreens/Fobos/hqdishka_qwewka.png
-
-- type: lobbyBackground
-  id: meteorit
-  background: /Textures/LobbyScreens/Fobos/meteorit.png
-
-- type: lobbyBackground
-  id: Behonker
-  background: /Textures/LobbyScreens/Fobos/behonker.webp
-
-- type: lobbyBackground
-  id: TerminalStation
-  background: /Textures/LobbyScreens/Fobos/terminalstation.webp
-
-- type: lobbyBackground
-  id: JustAWeekAway
-  background: /Textures/LobbyScreens/Fobos/justaweekaway.webp
+  id: Boggart
+  background: /Textures/LobbyScreens/Fobos/doner_gerion_dart.webp
 
 - type: lobbyBackground
   id: Mia
-  background: /Textures/LobbyScreens/Fobos/mia.png
+  background: /Textures/LobbyScreens/Fobos/doner_mia.webp
 
 - type: lobbyBackground
-  id: Obed
-  background: /Textures/LobbyScreens/Fobos/obed.png
+  id: New_doctor
+  background: /Textures/LobbyScreens/Fobos/doner_new_doctor.webp
 
 - type: lobbyBackground
-  id: JaniShootout
-  background: /Textures/LobbyScreens/Fobos/janishootout.webp
+  id: Robot
+  background: /Textures/LobbyScreens/Fobos/doner_robot.webp
 
 - type: lobbyBackground
-  id: GerionDart
-  background: /Textures/LobbyScreens/Fobos/gerion_dart.png
+  id: Nukeops
+  background: /Textures/LobbyScreens/Fobos/doner_syndicate.webp
 
 - type: lobbyBackground
   id: Unity
-  background: /Textures/LobbyScreens/Fobos/unity.png
+  background: /Textures/LobbyScreens/Fobos/doner_unity_squish.webp
 
 - type: lobbyBackground
-  id: Engineering
-  background: /Textures/LobbyScreens/Fobos/engineering.png
+  id: Karpocargo
+  background: /Textures/LobbyScreens/Fobos/karp_cargo.webp
 
 - type: lobbyBackground
-  id: ParticleAccelerator
-  background: /Textures/LobbyScreens/Fobos/particle_accelerator.jpg
+  id: Cook
+  background: /Textures/LobbyScreens/Fobos/karp_cook.webp
 
 - type: lobbyBackground
-  id: SecAgaintsAll
-  background: /Textures/LobbyScreens/Fobos/sec_againts_all.png
+  id: Frontier
+  background: /Textures/LobbyScreens/Fobos/karp_frontier.webp
 
 - type: lobbyBackground
-  id: SvadbaXD
-  background: /Textures/LobbyScreens/Fobos/svadba_xd.webp
+  id: HoP
+  background: /Textures/LobbyScreens/Fobos/karp_hop.webp
 
 - type: lobbyBackground
-  id: IMG4743
-  background: /Textures/LobbyScreens/Fobos/img_4743.webp
+  id: Necro
+  background: /Textures/LobbyScreens/Fobos/karp_necro.webp
 
-# Titan
+- type: lobbyBackground
+  id: Priest
+  background: /Textures/LobbyScreens/Fobos/karp_priest.webp
 
-# - type: lobbyBackground
-#   id: ArtNaTitan
-#   background: /Textures/LobbyScreens/Fobos/art_na_titan.png
+- type: lobbyBackground
+  id: Security
+  background: /Textures/LobbyScreens/Fobos/karp_sec_range.webp
+
+- type: lobbyBackground
+  id: Seno
+  background: /Textures/LobbyScreens/Fobos/karp_sec_xeno.webp
+
+- type: lobbyBackground
+  id: Hero
+  background: /Textures/LobbyScreens/Fobos/taiga_cargo.webp
+
+- type: lobbyBackground
+  id: Advocate
+  background: /Textures/LobbyScreens/Fobos/taiga_lawyer.webp
 
 # Soyuz
 
@@ -197,5 +143,5 @@
 #   background: /Textures/LobbyScreens/Soyuz/moli_utilizatori.png
 
 # - type: lobbyBackground
-#   id: moli_utilizatori
+#   id: communist_banquet
 #   background: /Textures/LobbyScreens/Soyuz/communist_banquet.png

@@ -74,11 +74,9 @@ paperwork-form-title-law-2 = Отчёт о внутреннем расследо
 paperwork-form-title-law-3 = Решение о начале судебного процесса
 paperwork-form-title-law-4 = Постановление суда
 paperwork-form-title-law-5 = Запрос предоставления документов
-paperwork-form-title-law-6 = Юридическая неприкосновенность
 paperwork-form-title-law-8 = Доверенность
 paperwork-form-title-law-9 = Запрос на предоставление документов
 paperwork-form-title-law-10 = Отчёт о нарушении трудового порядка
-paperwork-form-title-law-11 = Распоряжение об отстранении
 
 paperwork-form-title-medical-0 = Стандартный шаблон документа
 paperwork-form-title-medical-1 = Заказ на производство продукта

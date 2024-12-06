@@ -58,7 +58,7 @@
   icon: { sprite: ADT/Clothing/Shoes/Boots/advanced.rsi, state: icon }
   productEntity: ADTClothingShoesBootsMagAdvSynd
   cost:
-    Telecrystal: 10
+    Telecrystal: 6
   categories:
   - UplinkWearables
   conditions:
@@ -133,8 +133,8 @@
 
 - type: listing
   id: ADTUplinkXC67AmmoBundle
-  name: uplink-xc67ammo-name
-  description: uplink-xc67ammo-description
+  name: uplink-xc67-ammo-bundle-name
+  description: uplink-xc67-ammo-bundle-description
   icon: { sprite: /Textures/ADT/Objects/Weapons/Guns/Ammunition/Magazine/ext_rifle_mag.rsi, state: base }
   productEntity: ADTClothingBackpackDuffelSyndicateFilledXC67Ammo
   cost:
@@ -166,6 +166,22 @@
     Telecrystal: 5
   categories:
   - UplinkPointless
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
+
+- type: listing
+  id: UplinkC20AmmoBundle
+  name: uplink-AK-ammo-bundle-name
+  description: uplink-AK-ammo-bundle-desc
+  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/light_rifle_mag.rsi, state: red }
+  productEntity: ClothingBackpackDuffelSyndicateFilledAKAmmo
+  cost:
+    Telecrystal: 10
+  categories:
+  - UplinkAmmo
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:

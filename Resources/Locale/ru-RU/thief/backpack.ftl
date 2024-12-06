@@ -1,4 +1,4 @@
-thief-backpack-window-title = Ящик воровских инструментов
+thief-backpack-window-title = Хранилище неопределённости
 thief-backpack-window-description =
     Внутри находятся ваши орудия труда, которые растворятся, когда вы будете готовы.
     Выберите { $maxCount } { $maxCount ->
@@ -28,7 +28,7 @@ thief-backpack-category-chemistry-name = Набор анатома
 thief-backpack-category-chemistry-description =
     Вы достигли пика физической формы... с небольшой помощью.
     В комплект входят: имплантер-хранилище, имплантер-миксер ДНК,
-    бутылочка эфедрина, шприц, пустой шейкер и омега мыло
+    инъектор дезоксиэфедрина, шприц, пустой шейкер и омега мыло
 thief-backpack-category-syndie-name = Набор Синдиката
 thief-backpack-category-syndie-description =
     Побрякушки из забытого прошлого или украденные у нерадивого агента?
