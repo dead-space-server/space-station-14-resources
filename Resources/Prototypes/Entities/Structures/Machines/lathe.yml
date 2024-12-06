@@ -316,6 +316,7 @@
       - WeaponSprayNozzle
       - ClothingBackpackWaterTank
       - MegaSprayBottle
+      - BagOfSummoningGarbage # DS14
       - TimerTrigger
       - ChemicalPayload
       - FlashPayload

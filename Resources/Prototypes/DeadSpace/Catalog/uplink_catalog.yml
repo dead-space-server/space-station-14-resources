@@ -23,7 +23,7 @@
   description: Маленькое, тихое оружие, которое можно спрятать в карман. Отрявляет и изнемождает жертв. 
   productEntity: WeaponEnergyCrossbow
   cost:
-    Telecrystal: 15
+    Telecrystal: 20
   categories:
   - UplinkWeaponry
   conditions:

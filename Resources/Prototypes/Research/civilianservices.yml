@@ -154,6 +154,7 @@
   recipeUnlocks:
   - AdvMopItem
   - MegaSprayBottle
+  - BagOfSummoningGarbage # DS14
 
 - type: technology
   id: HONKMech
