@@ -1,16 +1,64 @@
-# Предметы с комплектами
-## Эмбер
+# Loadout cases
+
+## Base
 - type: entity
-  id: ERTloadoutAmberPrimary
-  name: кейс неопределённости
-  description: Прочный военный кейс для оружия. Принадлежит отряду "Эмбер". 
-  suffix: ОБР, Эмбер, Основное
   parent: BaseItem
+  id: BaseERTloadoutPrimary
+  name: кейс неопределённости
+  description: Прочный военный кейс для оружия.
   components:
   - type: Item
     size: Large
   - type: Sprite
     sprite: DeadSpace/Other/ertloadouts/ertcases.rsi
+    state: amber
+  - type: ThiefUndeterminedBackpack
+    maxSelectedSets: 1
+    possibleSets:
+    - KammererSet
+    - DrozdSet
+    - LaserCarbineSet
+  - type: ActivatableUI
+    key: enum.ThiefBackpackUIKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.ThiefBackpackUIKey.Key:
+        type: ThiefBackpackBoundUserInterface
+
+- type: entity
+  parent: BaseItem
+  id: BaseERTloadoutSecondary
+  name: коробка неопределённости
+  description: Коробка с табельным оружием.
+  components:
+  - type: Item
+    size: Large
+    shape:
+    - 0,0,2,1
+  - type: Sprite
+    sprite: DeadSpace/Other/ertloadouts/ertboxes.rsi
+    state: amber
+  - type: ThiefUndeterminedBackpack
+    maxSelectedSets: 1
+    possibleSets:
+    - Mk58Set
+    - DominatorSet
+  - type: ActivatableUI
+    key: enum.ThiefBackpackUIKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.ThiefBackpackUIKey.Key:
+        type: ThiefBackpackBoundUserInterface
+
+## Amber
+- type: entity
+  id: ERTloadoutAmberPrimary
+  name: кейс неопределённости
+  description: Прочный военный кейс для оружия. Принадлежит отряду "Эмбер". 
+  suffix: ОБР, Эмбер, Основное
+  parent: BaseERTloadoutPrimary
+  components:
+  - type: Sprite
     state: amber
   - type: ThiefUndeterminedBackpack
     possibleSets:
@@ -29,14 +77,9 @@
   name: коробка неопределённости
   description: Коробка с табельным оружием. Принадлежит отряду "Эмбер".
   suffix: ОБР, Эмбер, Вторичное
-  parent: BaseItem
+  parent: BaseERTloadoutSecondary
   components:
-  - type: Item
-    size: Large
-    shape:
-    - 0,0,2,1
   - type: Sprite
-    sprite: DeadSpace/Other/ertloadouts/ertboxes.rsi
     state: amber
   - type: ThiefUndeterminedBackpack
     possibleSets:
@@ -49,18 +92,15 @@
       enum.ThiefBackpackUIKey.Key:
         type: ThiefBackpackBoundUserInterface
 
-## Красный
+## Red
 - type: entity
   id: ERTloadoutRedPrimary
   name: кейс неопределённости
   description: Прочный военный кейс для оружия. Принадлежит отряду "Красный".
   suffix: ОБР, Красный, Основное
-  parent: BaseItem
+  parent: BaseERTloadoutPrimary
   components:
-  - type: Item
-    size: Large
   - type: Sprite
-    sprite: DeadSpace/Other/ertloadouts/ertcases.rsi
     state: red
   - type: ThiefUndeterminedBackpack
     possibleSets:
@@ -79,14 +119,9 @@
   name: коробка неопределённости
   description: Коробка с табельным оружием. Принадлежит отряду "Красный".
   suffix: ОБР, Красный, Вторичное
-  parent: BaseItem
+  parent: BaseERTloadoutSecondary
   components:
-  - type: Item
-    size: Large
-    shape:
-    - 0,0,2,1
   - type: Sprite
-    sprite: DeadSpace/Other/ertloadouts/ertboxes.rsi
     state: red
   - type: ThiefUndeterminedBackpack
     possibleSets:
@@ -98,18 +133,16 @@
     interfaces:
       enum.ThiefBackpackUIKey.Key:
         type: ThiefBackpackBoundUserInterface
-## Гамма
+
+## Gamma
 - type: entity
   id: ERTloadoutGammaPrimary
   name: кейс неопределённости
   description: Прочный военный кейс для оружия. Принадлежит отряду "Гамма".
   suffix: ОБР, Гамма, Основное
-  parent: BaseItem
+  parent: BaseERTloadoutPrimary
   components:
-  - type: Item
-    size: Large
   - type: Sprite
-    sprite: DeadSpace/Other/ertloadouts/ertcases.rsi
     state: gamma
   - type: ThiefUndeterminedBackpack
     possibleSets:
@@ -128,14 +161,9 @@
   name: коробка неопределённости
   description: Коробка с табельным оружием. Принадлежит отряду "Гамма".
   suffix: ОБР, Гамма, Вторичное
-  parent: BaseItem
+  parent: BaseERTloadoutSecondary
   components:
-  - type: Item
-    size: Large
-    shape:
-    - 0,0,2,1
   - type: Sprite
-    sprite: DeadSpace/Other/ertloadouts/ertboxes.rsi
     state: gamma
   - type: ThiefUndeterminedBackpack
     possibleSets:
@@ -148,19 +176,15 @@
       enum.ThiefBackpackUIKey.Key:
         type: ThiefBackpackBoundUserInterface
 
-
-## РХБЗЗ
+## CBURN
 - type: entity
   id: ERTloadoutCBURNPrimary
   name: кейс неопределённости
   description: Прочный военный кейс для оружия. Принадлежит отряду РХБЗЗ. 
   suffix: РХБЗЗ, Съерра, Основное
-  parent: BaseItem
+  parent: BaseERTloadoutPrimary
   components:
-  - type: Item
-    size: Large
   - type: Sprite
-    sprite: DeadSpace/Other/ertloadouts/ertcases.rsi
     state: cburn
   - type: ThiefUndeterminedBackpack
     possibleSets:
@@ -179,14 +203,9 @@
   name: коробка неопределённости
   description: Коробка с табельным оружием. Принадлежит отряду РХБЗЗ.
   suffix: РХБЗЗ, Съерра, Вторичное
-  parent: BaseItem
+  parent: BaseERTloadoutSecondary
   components:
-  - type: Item
-    size: Large
-    shape:
-    - 0,0,2,1
   - type: Sprite
-    sprite: DeadSpace/Other/ertloadouts/ertboxes.rsi
     state: cburn
   - type: ThiefUndeterminedBackpack
     possibleSets:
@@ -199,8 +218,9 @@
       enum.ThiefBackpackUIKey.Key:
         type: ThiefBackpackBoundUserInterface
 
-# Комплекты
-## Основное
+# Sets
+
+## Primary
 ### Дробовики
 - type: thiefBackpackSet
   id: KammererSet
@@ -308,7 +328,6 @@
   - MagazineRifle
   - MagazineBoxRifle
 
-
 ### Лазеры
 - type: thiefBackpackSet
   id: LaserCarbineSet
@@ -341,7 +360,7 @@
   - WeaponPulseCarbine
   - PortableRecharger
 
-## Вторичное
+## Secondary
 ### Огнестрельное
 - type: thiefBackpackSet
   id: Mk58Set

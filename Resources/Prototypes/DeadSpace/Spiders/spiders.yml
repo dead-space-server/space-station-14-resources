@@ -161,6 +161,8 @@
     ignorFriends: false
     lockCocoon: ActionLockCocoon
     cocoon: SpiderCocoon
+  - type: Damageable
+    damageModifierSet: SpiderTerror
   - type: TTS
     voice: Sunboy_mannered
 
@@ -539,6 +541,9 @@
     maxTileIntensity: 5
   - type: Puller
     needsHands: false
+  # - type: ActionGun
+  #   action: ActionDragonsBreath
+  #   gunProto: DragonsBreathGun
 
 - type: entity
   name: паук вдова
@@ -561,13 +566,13 @@
     damage:
       types:
         Piercing: 3
-        Poison: 2
+        Poison: 5
       groups:
         Brute: 1
   - type: MobThresholds
     thresholds:
       0: Alive
-      150: Critical
+      200: Critical
       250: Dead
   - type: SlowOnDamage
     speedModifierThresholds:
@@ -584,12 +589,12 @@
         layer:
         - MobLayer
   - type: MovementSpeedModifier
-    baseWalkSpeed: 4
-    baseSprintSpeed: 4
+    baseWalkSpeed: 4.5
+    baseSprintSpeed: 4.5
   - type: Bloodstream
     bloodReagent: CopperBlood
     bloodMaxVolume: 250
-    bloodlossThreshold: 0.4
+    bloodlossThreshold: 0.2
   - type: Bloodsucker
     maxCountReagent: 100 # Ёмкость
     countReagent: 50 # Сколько реагента при спавне
@@ -659,7 +664,7 @@
   - type: Bloodstream
     bloodReagent: CopperBlood
     bloodMaxVolume: 250
-    bloodlossThreshold: 0.4
+    bloodlossThreshold: 0.3
   - type: Bloodsucker
     maxCountReagent: 90 # Ёмкость
     countReagent: 30 # Сколько реагента при спавне
@@ -756,10 +761,12 @@
   - type: MovementSpeedModifier
     baseWalkSpeed: 4
     baseSprintSpeed: 4
+  - type: StunAttack
+    paralyzeTime: 4
   - type: Bloodstream
     bloodReagent: CopperBlood
     bloodMaxVolume: 250
-    bloodlossThreshold: 0.4
+    bloodlossThreshold: 0.2
   - type: StunRadius
     actionStunRadius: ActionStunRadiusSpider
     paralyzeTime: 3 # Время стана
@@ -827,7 +834,7 @@
     speedModifierThresholds:
       150: 0.8
   - type: StunAttack
-    paralyzeTime: 1
+    paralyzeTime: 2.5
 
 - type: entity
   name: переносчик заразы
@@ -857,8 +864,8 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      200: Critical
-      300: Dead
+      250: Critical
+      350: Dead
   - type: Fixtures
     fixtures:
       fix1:
@@ -871,8 +878,8 @@
         layer:
         - MobLayer
   - type: MovementSpeedModifier
-    baseWalkSpeed: 3
-    baseSprintSpeed: 3
+    baseWalkSpeed: 4
+    baseSprintSpeed: 4
   - type: Bloodstream
     bloodReagent: CopperBlood
     bloodMaxVolume: 200
@@ -881,9 +888,9 @@
     needsHands: false
   - type: SlowOnDamage
     speedModifierThresholds:
-      100: 0.8
+      100: 0.9
   - type: SpiderInfector
     spawned:
     - id: MobSpiderTerrorGuardian
-      amount: 3
+      amount: 4
     infectDuration: 300

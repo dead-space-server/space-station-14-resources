@@ -129,3 +129,21 @@
   - type: FireVisuals
     sprite: Mobs/Effects/onfire.rsi
     normalState: Mouse_burning
+
+- type: entity
+  name: некроморф
+  parent:
+  - MobSmallNecro
+  id: MobSmallNecroHive
+  description: Маленький.
+  components:
+  - type: HTN
+    rootTask:
+      task: RatServantCompound
+    blackboard:
+      IdleRange: !type:Single
+        3.5
+      FollowCloseRange: !type:Single
+        2.0
+      FollowRange: !type:Single
+        3.0
