@@ -400,6 +400,7 @@
       - Truncheon
       - WeaponAdvancedLaser
       - WeaponLaserCannon
+      - WeaponLaserCarbineAuto
       - WeaponLaserCarbine
       - WeaponXrayCannon
       - JawsOfLife
@@ -806,6 +807,7 @@
       - WeaponDisabler
       - WeaponDisablerSMG
       - WeaponLaserCannon
+      - WeaponLaserRifle
       - WeaponLaserCarbine
       - WeaponXrayCannon
   - type: MaterialStorage
