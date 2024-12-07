@@ -1,0 +1,34 @@
+- type: entity
+  parent: [BaseWeaponBattery, BaseGunWieldable, BaseRestrictedContraband]
+  id: WeaponLaserRifle
+  name: лазерный автомат
+  description: Продвинутое лазерное оружие с автоматическим режимом стрельбы.
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Objects/Weapons/Guns/Battery/laser_rifle.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Clothing
+    sprite: DeadSpace/Objects/Weapons/Guns/Battery/laser_rifle.rsi
+  - type: StaticPrice
+    price: 1000
+  - type: Gun
+    fireRate: 6
+    soundGunshot:
+      path: /Audio/DeadSpace/Weapons/Guns/Gunshots/laser_rifle.ogg
+      params:
+        volume: 1
+    selectedMode: FullAuto
+    availableModes:
+    - FullAuto
+    - SemiAuto
+  - type: ProjectileBatteryAmmoProvider
+    proto: CarbineAutoBullet
+    fireCost: 80
+  - type: Battery
+    maxCharge: 2800
+    startingCharge: 2800

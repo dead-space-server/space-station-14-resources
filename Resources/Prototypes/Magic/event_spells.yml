@@ -117,6 +117,8 @@
         orGroup: Guns
       - id: WeaponLaserCannon
         orGroup: Guns
+      - id: WeaponLaserRifle
+        orGroup: Guns
       - id: WeaponParticleDecelerator
         orGroup: Guns
       - id: WeaponXrayCannon
