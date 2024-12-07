@@ -73,16 +73,6 @@
     - id: Handcuffs
 
 - type: entity
-  id: ClothingBeltERTSecurityFilled
-  parent: ClothingBeltSecurity
-  suffix: Filled
-  components:
-  - type: EntityTableContainerFill
-    containers:
-      storagebase: !type:NestedSelector
-        tableId: BeltERTSecurityEntityTable
-
-- type: entity
   id: ClothingBeltSecurityWebbingFilled
   parent: ClothingBeltSecurityWebbing
   suffix: Filled
@@ -122,6 +112,26 @@
       - id: Gauze
       - id: EmergencyMedipen #You never know what people are going to latejoin into
         amount: 2
+
+- type: entity
+  id: ClothingBeltMedicalFilledERT #DS14
+  parent: ClothingBeltMedical
+  suffix: Заполненный, ОБР
+  components:
+  - type: StorageFill
+    contents:
+      - id: MedicatedSuture
+        amount: 3
+      - id: RegenerativeMesh
+        amount: 1
+      - id: SyringeSaline
+        amount: 2
+      - id: EmergencyMedipen
+        amount: 2
+      - id: BruteAutoInjector 
+      - id: BurnAutoInjector
+      - id: PunctAutoInjector
+      - id: PyraAutoInjector
 
 - type: entity
   id: ClothingBeltMedicalEMTFilled
