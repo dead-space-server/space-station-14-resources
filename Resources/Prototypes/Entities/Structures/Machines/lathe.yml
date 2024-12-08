@@ -350,6 +350,11 @@
       - ClothingBackpackDuffelHolding
       - WelderExperimental
       - JawsOfLife
+      # - FauxTileAstroGrass # DS14: moved to CutterMachine recipes
+      # - FauxTileMowedAstroGrass # DS14: moved to CutterMachine recipes
+      # - FauxTileJungleAstroGrass # DS14: moved to CutterMachine recipes
+      # - FauxTileAstroIce # DS14: moved to CutterMachine recipes
+      # - FauxTileAstroSnow # DS14: moved to CutterMachine recipes
       - OreBagOfHolding
       - DeviceQuantumSpinInverter
       - ClothingEyesHudDiagnostic
@@ -450,6 +455,9 @@
     - CondenserMachineCircuitBoard
     - HotplateMachineCircuitboard
     - UniformPrinterMachineCircuitboard
+    # - FloorGreenCircuit # DS14: moved to CutterMachine recipes
+    # - FloorBlueCircuit # DS14: moved to CutterMachine recipes
+    # - FloorRedCircuit # DS14: moved to CutterMachine recipes
     - MicrowaveMachineCircuitboard
     - ReagentGrinderMachineCircuitboard
     - ElectricGrillMachineCircuitboard
@@ -1473,7 +1481,7 @@
       - FloorBlueCircuit
       - FloorRedCircuit
     dynamicRecipes:
-      - FauxTileAstroGrass
+      - 
       - FauxTileMowedAstroGrass
       - FauxTileJungleAstroGrass
       - FauxTileAstroIce
