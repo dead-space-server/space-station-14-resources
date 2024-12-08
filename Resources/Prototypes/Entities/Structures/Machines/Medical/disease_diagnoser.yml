@@ -6,7 +6,6 @@
   placement:
     mode: SnapgridCenter
   components:
-  - type: DrugInitializeMachine
   - type: Sprite
     sprite: Structures/Machines/diagnoser.rsi
     layers:
@@ -16,18 +15,6 @@
       shader: unshaded
       map: ["enum.DiseaseMachineVisualLayers.IsOn"]
   - type: Appearance
-  - type: GenericVisualizer
-    visuals:
-      enum.PowerDeviceVisuals.VisualState:
-        enum.DrugInitializeMachineVisualizerLayers.Base:
-          Idle: { state: "icon" }
-          Running: { state: "running" }
-        enum.DrugInitializeMachineVisualizerLayers.BaseUnlit:
-          Idle: { state: "unlit" }
-      enum.PowerDeviceVisuals.Powered:
-        enum.DrugInitializeMachineVisualizerLayers.BaseUnlit:
-          True: { visible: true }
-          False: { visible: false }
   - type: Machine
     board: DiagnoserMachineCircuitboard
 

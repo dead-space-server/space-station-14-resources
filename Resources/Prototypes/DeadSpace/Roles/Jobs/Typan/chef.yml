@@ -1,8 +1,8 @@
 - type: job
   id: TypanChef
-  name: Повар Синдиката
+  name: job-name-typan-chef
   playTimeTracker: TypanChef
-  description: Повар из далёкого космоса
+  description: Повар из далёкого космоса.
   startingGear: SyndicateChef
   icon: "JobIconTypanChef"
   supervisors: job-supervisors-typan-telecommunications-officer

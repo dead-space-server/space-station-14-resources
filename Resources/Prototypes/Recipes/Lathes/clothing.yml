@@ -113,10 +113,48 @@
   id: ClothingUniformJumpskirtCargo
   result: ClothingUniformJumpskirtCargo
 
+# DS14-start
+
+- type: latheRecipe
+  parent: BaseJumpsuitRecipe
+  id: ClothingUniformJumpsuitCargoAlt
+  result: ClothingUniformJumpsuitCargoAlt
+
+- type: latheRecipe
+  parent: BaseJumpsuitRecipe
+  id: ClothingUniformJumpsuitCargoFormal
+  result: ClothingUniformJumpsuitCargoFormal
+
+- type: latheRecipe
+  parent: BaseJumpsuitRecipe
+  id: ClothingUniformJumpskirtCargoFormal
+  result: ClothingUniformJumpskirtCargoFormal
+
+# DS14-end
+
 - type: latheRecipe
   parent: BaseJumpsuitRecipe
   id: ClothingUniformJumpsuitSalvageSpecialist
   result: ClothingUniformJumpsuitSalvageSpecialist
+
+# DS14-start
+
+- type: latheRecipe
+  parent: BaseJumpsuitRecipe
+  id: ClothingUniformJumpsuitSalvageFormal
+  result: ClothingUniformJumpsuitSalvageFormal
+
+- type: latheRecipe
+  parent: BaseJumpsuitRecipe
+  id: ClothingUniformJumpskirtCargoSalvage
+  result: ClothingUniformJumpskirtCargoSalvage
+
+- type: latheRecipe
+  parent: BaseJumpsuitRecipe
+  id: ClothingUniformJumpskirtCargoSalvageFormal
+  result: ClothingUniformJumpskirtCargoSalvageFormal
+
+# DS14-end
 
 - type: latheRecipe
   parent: BaseCommandJumpsuitRecipe

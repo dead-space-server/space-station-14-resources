@@ -1,8 +1,8 @@
 - type: job
   id: TypanAtmosTech
-  name: Атмосферный инженер Синдиката
+  name: job-name-typan-atmos-tech
   playTimeTracker: TypanAtmosTech
-  description: Атмос из далёкого космоса
+  description: Атмосферный инженер из далёкого космоса.
   startingGear: SyndicateAtmos
   icon: "JobIconSyndicateAtmos"
   supervisors: job-supervisors-typan-telecommunications-officer

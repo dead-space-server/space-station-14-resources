@@ -1,8 +1,8 @@
 - type: job
   id: TypanBotanist
-  name: Ботаник Синдиката
+  name: job-name-typan-botanist
   playTimeTracker: TypanBotanist
-  description: Ботаник из далёкого космоса
+  description: Ботаник из далёкого космоса.
   startingGear: SyndicateBotanist
   icon: "JobIconTypanBotanist"
   supervisors: job-supervisors-typan-telecommunications-officer

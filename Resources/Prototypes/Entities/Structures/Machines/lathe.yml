@@ -970,7 +970,17 @@
       - ClothingUniformJumpskirtCapFormalDress
       - ClothingUniformJumpsuitCargo
       - ClothingUniformJumpskirtCargo
+      # DS14-start
+      - ClothingUniformJumpsuitCargoAlt
+      - ClothingUniformJumpsuitCargoFormal
+      - ClothingUniformJumpskirtCargoFormal
+      # DS14-end
       - ClothingUniformJumpsuitSalvageSpecialist
+      # DS14-start
+      - ClothingUniformJumpsuitSalvageFormal
+      - ClothingUniformJumpskirtCargoSalvage
+      - ClothingUniformJumpskirtCargoSalvageFormal
+      # DS14-end
       - ClothingHeadHatBeretEngineering
       - ClothingUniformJumpsuitChiefEngineer
       - ClothingUniformJumpskirtChiefEngineer
@@ -980,8 +990,10 @@
       - ClothingUniformJumpskirtChaplain
       - ClothingUniformJumpsuitBrigmedic
       - ClothingUniformJumpskirtBrigmedic
+      # DS14-start
       - ClothingUniformJumpsuitCoroner
       - ClothingUniformJumpskirtCoroner
+      # DS14-end
       - ClothingUniformJumpsuitChef
       - ClothingUniformJumpskirtChef
       - ClothingUniformJumpsuitChemistry

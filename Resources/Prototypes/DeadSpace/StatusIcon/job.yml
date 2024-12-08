@@ -1,55 +1,63 @@
 - type: jobIcon
   parent: JobIcon
+  id: JobIconSyndicateAtmos
+  icon:
+    sprite: /Textures/DeadSpace/Interface/Misc/job_icons.rsi
+    state: atmospheric_technician
+  jobName: job-name-typan-atmos-tech
+
+- type: jobIcon
+  parent: JobIcon
   id: JobIconTypanBotanist
   icon:
-    sprite: DeadSpace/Interface/Misc/job_icons.rsi
+    sprite: /Textures/DeadSpace/Interface/Misc/job_icons.rsi
     state: botanist
+  jobName: job-name-typan-botanist
 
 - type: jobIcon
   parent: JobIcon
   id: JobIconTypanCargotech
   icon:
-    sprite: DeadSpace/Interface/Misc/job_icons.rsi
+    sprite: /Textures/DeadSpace/Interface/Misc/job_icons.rsi
     state: cargo_technician
+  jobName: job-name-typan-cargotech
 
 - type: jobIcon
   parent: JobIcon
   id: JobIconTypanChef
   icon:
-    sprite: DeadSpace/Interface/Misc/job_icons.rsi
+    sprite: /Textures/DeadSpace/Interface/Misc/job_icons.rsi
     state: chef
-
-- type: jobIcon
-  parent: JobIcon
-  id: JobIconSyndicateAtmos
-  icon:
-    sprite: DeadSpace/Interface/Misc/job_icons.rsi
-    state: atmospheric_technician
+  jobName: job-name-typan-chef
 
 - type: jobIcon
   parent: JobIcon
   id: JobIconSyndicateParamedic
   icon:
-    sprite: DeadSpace/Interface/Misc/job_icons.rsi
+    sprite: /Textures/DeadSpace/Interface/Misc/job_icons.rsi
     state: medical_doctor
+  jobName: job-name-typan-medic
 
 - type: jobIcon
   parent: JobIcon
   id: JobIconSyndicateRD
   icon:
-    sprite: DeadSpace/Interface/Misc/job_icons.rsi
+    sprite: /Textures/DeadSpace/Interface/Misc/job_icons.rsi
     state: research_director
+  jobName: job-name-typan-rd
 
 - type: jobIcon
   parent: JobIcon
   id: JobIconSyndicateScience
   icon:
-    sprite: DeadSpace/Interface/Misc/job_icons.rsi
+    sprite: /Textures/DeadSpace/Interface/Misc/job_icons.rsi
     state: scientist
+  jobName: job-name-typan-science
 
 - type: jobIcon
   parent: JobIcon
   id: JobIconSyndicateFormal
   icon:
-    sprite: DeadSpace/Interface/Misc/job_icons.rsi
+    sprite: /Textures/DeadSpace/Interface/Misc/job_icons.rsi
     state: security_officer
+  jobName: job-name-typan-telecommunications-officer

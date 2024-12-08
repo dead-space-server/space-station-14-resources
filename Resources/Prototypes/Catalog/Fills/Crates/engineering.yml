@@ -236,6 +236,9 @@
       - id: ClothingMaskGasExplorer
       - id: ClothingShoesBootsMag
       - id: ClothingUniformJumpsuitSalvageSpecialist
+      - id: ClothingUniformJumpsuitSalvageFormal
+      - id: ClothingUniformJumpskirtCargoSalvage
+      - id: ClothingUniformJumpskirtCargoSalvageFormal
       - id: ClothingBackpackSatchelSalvage
       - id: ClothingBackpackDuffelSalvage
       - id: ClothingBackpackSalvage

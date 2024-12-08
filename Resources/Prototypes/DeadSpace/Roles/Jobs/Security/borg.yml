@@ -13,4 +13,4 @@
   icon: JobIconBorg
   supervisors: job-supervisors-security-borg
   jobEntity: PlayerBorgChassisSecurity
-  startingGear: RobotGear # for char preview only
+  applyTraits: false

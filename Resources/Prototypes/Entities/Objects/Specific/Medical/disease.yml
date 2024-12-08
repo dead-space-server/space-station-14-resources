@@ -4,7 +4,6 @@
   name: sterile swab
   description: Used for taking and transferring samples. Sterile until open. Single use only.
   components:
-  - type: DrugTestStick
   - type: Item
     size: Tiny
   - type: Sprite

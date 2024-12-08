@@ -181,6 +181,8 @@
     maxItemSize: Huge
     grid:
     - 0,0,19,9
+  - type: ExplosionResistance
+    damageCoefficient: 0.1
 
 - type: entity
   parent: ClothingBackpackSatchel
