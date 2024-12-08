@@ -10,7 +10,6 @@
       - id: ClothingBeltSecurityFilled
       - id: Flash
       - id: ClothingEyesGlassesSecurity
-      # - id: ClothingHeadsetAltSecurity # DS14-disabled
       - id: ClothingHandsGlovesCombat
       # - id: ClothingShoesBootsJack # DS14-disabled
       # - id: ClothingOuterCoatWarden # DS14-disabled
@@ -45,7 +44,6 @@
       - id: ClothingBeltSecurityFilled
       - id: Flash
       - id: ClothingEyesGlassesSecurity
-      # - id: ClothingHeadsetAltSecurity # DS14-disabled
       - id: ClothingHandsGlovesCombat
       # - id: ClothingShoesBootsJack # DS14-disabled
       # - id: ClothingOuterCoatWarden # DS14-disabled
@@ -73,6 +71,10 @@
   - type: StorageFill
     contents:
       - id: FlashlightSeclite
+      #   prob: 0.8 # DS14-disabled
+      # - id: WeaponDisabler # DS14-disabled
+      # - id: ClothingUniformJumpsuitSecGrey # DS14-disabled
+      #   prob: 0.3 # DS14-disabled
       - id: ClothingHeadHelmetBasic
       - id: ClothingOuterArmorBasic
       - id: ClothingBeltSecurityFilled
@@ -81,11 +83,15 @@
       - id: ClothingEyesGlassesSecurity
       - id: ClothingHeadsetSecurity
       - id: ClothingHandsGlovesColorBlack
+      # - id: ClothingShoesBootsJack # DS14-disabled
+      # - id: WeaponMeleeNeedle # DS14-disabled
+      #   prob: 0.1 # DS14-disabled
       - id: HoloprojectorSecurity
         prob: 0.6
       - id: PistolDominator # DS14
       - id: WeaponPistolMk58 # DS14
-      - id: ClothingNeckBodyCamera # DS14-disabled
+      - id: ClothingNeckBodyCamera # DS14
+      - id: ClothingMaskGasSecurity # DS14
 
 - type: entity
   id: LockerBrigmedicFilled
@@ -130,6 +136,8 @@
   components:
   - type: StorageFill
     contents:
+      # - id: ClothingEyesGlassesSecurity # DS14-disabled
+      #   prob: 0.3 # DS14-disabled
       - id: ClothingHeadHatFedoraBrown
       - id: ClothingNeckTieDet
       - id: ClothingOuterVestDetective
@@ -138,7 +146,7 @@
       - id: ForensicScanner
       - id: LogProbeCartridge
       - id: BoxForensicPad
-        amount: 2
+        amount: 2 # DS14
       - id: DrinkDetFlask
       - id: ClothingHandsGlovesForensic
       - id: RubberStampDetective

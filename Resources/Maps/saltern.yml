@@ -835,7 +835,7 @@ entities:
             2: 57344
           8,5:
             0: 272
-            3: 17472
+            4: 17472
           8,6:
             2: 65345
           8,7:
@@ -876,10 +876,10 @@ entities:
             0: 53759
           11,2:
             0: 4319
-            4: 49152
+            3: 49152
           11,3:
             0: 61457
-            4: 204
+            3: 204
           11,-1:
             0: 30583
           11,4:
@@ -891,9 +891,9 @@ entities:
             0: 28791
           12,2:
             0: 119
-            4: 28672
+            3: 28672
           12,3:
-            4: 119
+            3: 119
             0: 61440
           12,-1:
             0: 29311
@@ -982,8 +982,7 @@ entities:
           -5,-7:
             0: 56785
           -4,-6:
-            5: 16
-            0: 65508
+            0: 65524
           -5,-6:
             0: 56793
           -5,-5:
@@ -1005,7 +1004,7 @@ entities:
           -2,-9:
             0: 12287
           -8,-8:
-            0: 3
+            0: 65283
             2: 8
           -8,-9:
             0: 12288
@@ -1013,7 +1012,7 @@ entities:
           -9,-8:
             0: 65295
           -8,-7:
-            0: 62192
+            0: 62207
           -9,-7:
             0: 46079
           -8,-6:
@@ -1029,7 +1028,7 @@ entities:
           -8,-4:
             0: 35771
           -7,-7:
-            0: 57588
+            0: 57583
           -7,-6:
             0: 61167
           -7,-5:
@@ -1037,15 +1036,14 @@ entities:
           -7,-8:
             0: 61164
           -7,-4:
-            6: 1
-            0: 36316
+            0: 36317
           -7,-9:
             0: 49152
             2: 447
           -6,-8:
             0: 48123
           -6,-7:
-            0: 47352
+            0: 47291
           -6,-6:
             0: 64507
           -6,-5:
@@ -1307,17 +1305,17 @@ entities:
           8,8:
             2: 65534
           9,5:
-            7: 4368
-            4: 17472
+            5: 4368
+            3: 17472
           9,6:
             2: 7936
           10,5:
-            4: 4368
-            8: 17472
+            3: 4368
+            6: 17472
           10,6:
             2: 3840
           11,5:
-            4: 21840
+            3: 21840
           11,6:
             2: 3856
           12,5:
@@ -1337,7 +1335,7 @@ entities:
           15,5:
             2: 35
           -4,-12:
-            2: 36608
+            2: 20224
           -5,-12:
             2: 35840
           -4,-11:
@@ -1353,13 +1351,15 @@ entities:
             2: 32768
           -3,-12:
             2: 256
-            0: 34816
+            0: 52416
           -3,-11:
             0: 45816
           -3,-10:
             0: 29375
+          -2,-12:
+            0: 4368
           -2,-11:
-            0: 47344
+            0: 47312
           -2,-10:
             0: 3003
           16,-3:
@@ -1498,52 +1498,22 @@ entities:
           temperature: 293.15
           moles:
           - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        - volume: 2500
+          temperature: 293.15
+          moles:
+          - 0
           - 6666.982
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-        - volume: 2500
-          temperature: 293.15
-          moles:
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-        - volume: 2500
-          temperature: 293.14975
-          moles:
-          - 20.078888
-          - 75.53487
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-        - volume: 2500
-          temperature: 293.15
-          moles:
-          - 20.078888
-          - 75.53487
           - 0
           - 0
           - 0
@@ -7753,7 +7723,7 @@ entities:
       pos: -18.5,33.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -129482.305
+      secondsUntilStateChange: -129651.71
       changeAirtight: False
       state: Opening
     - type: Docking
@@ -7769,7 +7739,7 @@ entities:
       pos: 0.5,-7.5
       parent: 13141
     - type: Door
-      secondsUntilStateChange: -91633.46
+      secondsUntilStateChange: -91802.87
       changeAirtight: False
       state: Opening
     - type: Docking
@@ -34777,6 +34747,30 @@ entities:
     - type: Transform
       pos: -13.5,-28.5
       parent: 2
+    - type: Lock
+      locked: False
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PhysShapeCircle
+            radius: 0.45
+            position: 0,0
+          mask:
+          - Impassable
+          - HighImpassable
+          - LowImpassable
+          layer:
+          - BulletImpassable
+          - Opaque
+          density: 50
+          hard: True
+          restitution: 0
+          friction: 0.4
+    - type: EntityStorage
+      open: True
+      removedMasks: 20
+    - type: PlaceableSurface
+      isPlaceable: True
 - proto: CrateEmptySpawner
   entities:
   - uid: 5188
@@ -40339,7 +40333,7 @@ entities:
       pos: -10.5,-1.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -46100.605
+      secondsUntilStateChange: -46270.008
       state: Closing
     - type: DeviceNetwork
       deviceLists:
@@ -40577,7 +40571,7 @@ entities:
       pos: -10.5,-0.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -46101.67
+      secondsUntilStateChange: -46271.074
       state: Closing
     - type: DeviceNetwork
       deviceLists:
@@ -66606,12 +66600,17 @@ entities:
       rot: 3.141592653589793 rad
       pos: 0.5,3.5
       parent: 13141
-- proto: RandomArtifactSpawner20
+- proto: RandomArtifactSpawner
   entities:
-  - uid: 9714
+  - uid: 5239
     components:
     - type: Transform
       pos: -15.5,-34.5
+      parent: 2
+  - uid: 9714
+    components:
+    - type: Transform
+      pos: -13.5,-28.5
       parent: 2
 - proto: RandomBoard
   entities:

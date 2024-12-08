@@ -608,6 +608,8 @@
   loadouts:
   - MimeJumpsuit
   - MimeJumpskirt
+  - MimeJumpSexyWhite
+  - MimeJumpSexyBlack
 
 - type: loadoutGroup
   id: MimeBackpack
@@ -788,6 +790,9 @@
   loadouts:
   - CargoTechnicianJumpsuit
   - CargoTechnicianJumpskirt
+  - CargoTechnicianSuit
+  - CargoTechnicianFormalSuit
+  - CargoTechnicianFormalJumpskirt
 
 - type: loadoutGroup
   id: CargoTechnicianBackpack
@@ -829,6 +834,15 @@
   - SalvageSpecialistSatchel
   - SalvageSpecialistDuffel
 
+- type: loadoutGroup
+  id: SalvageSpecialistJumpsuit
+  name: loadout-group-salvage-specialist-jumpsuit
+  loadouts:
+  - SalvageSpecialistJumpsuit
+  - SalvageSpecialistJumpsuitFormal
+  - SalvageSpecialistJumpskirt
+  - SalvageSpecialistJumpskirtFormal
+  
 - type: loadoutGroup
   id: SalvageSpecialistOuterClothing
   name: loadout-group-salvage-specialist-outerclothing

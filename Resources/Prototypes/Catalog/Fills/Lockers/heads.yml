@@ -142,6 +142,7 @@
     - id: ClothingEyesHudCommand
     - id: BoxPhotocopierToners # DS14
     - id: EftposCivilian # backmen-economy
+    - id: PetBowlWater # DS14
 
 - type: entity
   id: LockerHeadOfPersonnelFilled
@@ -357,6 +358,7 @@
     - id: ClothingNeckBodyCamera # DS14
     - id: EftposSecurity # backmen-economy
     - id: PortableCameraMonitor # DS14
+    - id: PetBowlWater # DS14
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
