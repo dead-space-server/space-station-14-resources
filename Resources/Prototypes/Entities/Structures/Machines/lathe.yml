@@ -1327,7 +1327,6 @@
     idleState: icon
     runningState: building
     staticRecipes:
-# Старые рецепты
       - FloorTileItemDark
       - FloorTileItemDarkDiagonalMini
       - FloorTileItemDarkDiagonal
@@ -1372,7 +1371,7 @@
       - FloorTileItemOldConcrete
       - FloorTileItemOldConcreteMono
       - FloorTileItemOldConcreteSmooth
-# Новые рецепты
+      # DS14-start
       - FloorTileItemSteelCheckerDark
       - FloorTileItemSteelCheckerLight
       - FloorTileItemDark
@@ -1469,7 +1468,7 @@
       - FloorTileItemOldConcreteSmooth
       - FloorTileItemGold
       - FloorTileItemSilver
-# Перенесённые рецепты
+      # Recipes from Protolathe
       - FloorGreenCircuit
       - FloorBlueCircuit
       - FloorRedCircuit
@@ -1479,6 +1478,7 @@
       - FauxTileJungleAstroGrass
       - FauxTileAstroIce
       - FauxTileAstroSnow
+      # DS14-end
   - type: MaterialStorage
     whitelist:
       tags:
