@@ -269,7 +269,6 @@
     state: icon
   content:
   - WeaponEnergyShotgun
-  - PortableRecharger
 
 ### Автоматическое
 - type: thiefBackpackSet
@@ -350,6 +349,16 @@
   - WeaponLaserCannon
 
 - type: thiefBackpackSet
+  id: XrayCannonSet
+  name: ert-loadout-category-xraycannon-name
+  description: ert-loadout-category-xraycannon-description
+  sprite:
+    sprite: Objects/Weapons/Guns/Battery/xray.rsi
+    state: icon
+  content:
+  - WeaponXrayCannon
+
+- type: thiefBackpackSet
   id: PulseCarbineSet
   name: ert-loadout-category-pulsecarbine-name
   description: ert-loadout-category-pulsecarbine-description
@@ -358,7 +367,6 @@
     state: icon
   content:
   - WeaponPulseCarbine
-  - PortableRecharger
 
 ## Secondary
 ### Огнестрельное
@@ -437,6 +445,16 @@
   - WeaponLaserGun
 
 - type: thiefBackpackSet
+  id: AdvancedLaserSet
+  name: ert-loadout-category-advancedlaser-name
+  description: ert-loadout-category-advancedlaser-description
+  sprite:
+    sprite: Objects/Weapons/Guns/Battery/advancedlasergun.rsi
+    state: icon
+  content:
+  - WeaponAdvancedLaser
+
+- type: thiefBackpackSet
   id: PulsePistolSet
   name: ert-loadout-category-pulsepistol-name
   description: ert-loadout-category-pulsepistol-description
@@ -445,4 +463,3 @@
     state: icon
   content:
   - WeaponPulsePistol
-  - PortableRecharger
