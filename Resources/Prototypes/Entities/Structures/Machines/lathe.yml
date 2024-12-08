@@ -1481,7 +1481,7 @@
       - FloorBlueCircuit
       - FloorRedCircuit
     dynamicRecipes:
-      - 
+      - FauxTileAstroGrass
       - FauxTileMowedAstroGrass
       - FauxTileJungleAstroGrass
       - FauxTileAstroIce
