@@ -20,8 +20,9 @@
 - type: entity
   parent: SyndicatePersonalAI
   id: SyndicatePersonalNecoAI
-  name: персональный ИИ кошкогорничная Синдиката
-  description: Твоя персональная неко-горничная Синдиката!
+  name: персональный ИИ кошкогорничная
+  description: Твоя персональная неко-горничная!
+  suffix: персональный ИИ кошкогорничная Синдиката
   components:
   - type: Sprite
     sprite: DeadSpace/Objects/Fun/pai-neco.rsi

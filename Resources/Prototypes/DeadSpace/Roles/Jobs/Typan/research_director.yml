@@ -1,8 +1,8 @@
 - type: job
   id: TypanRD
-  name: Директор исследований Синдиката
+  name: job-name-typan-rd
   playTimeTracker: TypanRD
-  description: Научный Директор из далёкого космоса
+  description: Директор исследований из далёкого космоса.
   startingGear: SyndicateRD
   icon: "JobIconSyndicateRD"
   supervisors: job-supervisors-typan-syndicate
