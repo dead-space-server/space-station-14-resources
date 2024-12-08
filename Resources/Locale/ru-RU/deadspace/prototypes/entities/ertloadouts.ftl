@@ -21,7 +21,7 @@ ert-loadout-category-energyshotgun-description =
     использующий различные конфигурации дробовика. 
     Оно позволяет совершать как смертельные, так и 
     несмертельные выстрелы, что делает его универсальным оружием.
-    В комплект включена новейшая, переносная версия зарядника.
+    Для восполнения боезапаса потребуется зарядник энергооружия.
 
 ert-loadout-category-wt550-name = WT550
 ert-loadout-category-wt550-description =
@@ -57,11 +57,16 @@ ert-loadout-category-lasercannon-description =
     Тяжёлое и сверхмощное лазерное оружие.
     Для восполнения боезапаса потребуется зарядник энергооружия.
 
+ert-loadout-category-xraycannon-name = Рентгеновская пушка
+ert-loadout-category-xraycannon-description =
+    Использует сконцентрированную энергию рентгеновского излучения.
+    Радиационный урон этого оружия лечится куда тяжелее ожогов.
+    Для восполнения боезапаса потребуется зарядник энергооружия.
+
 ert-loadout-category-pulsecarbine-name = Импульсный карабин
 ert-loadout-category-pulsecarbine-description =
     Высокотехнологичный энергетический карабин военного класса.
     Для восполнения боезапаса потребуется зарядник энергооружия.
-    В комплект включена новейшая, переносная версия зарядника.
 
 ert-loadout-category-mk58-name = MK 58
 ert-loadout-category-mk58-description =
@@ -90,9 +95,13 @@ ert-loadout-category-lasergun-description =
     Компактная версия лазерной винтовки.
     Для восполнения боезапаса потребуется зарядник энергооружия.
 
+ert-loadout-category-advancedlaser-name = Продвинутый лазерный пистолет
+ert-loadout-category-advancedlaser-description =
+    Экспериментальный лазерный пистолет. 
+    Его батарея со временем восполняет свой заряд.
+
 ert-loadout-category-pulsepistol-name = Импульсный пистолет
 ert-loadout-category-pulsepistol-description =
     Новейший энергетический пистолет военного класса.
     Для восполнения боезапаса потребуется зарядник энергооружия.
-    В комплект включена новейшая, переносная версия зарядника.
 
