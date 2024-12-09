@@ -17,11 +17,9 @@ ert-loadout-category-enforcer-description =
 
 ert-loadout-category-energyshotgun-name = Энергетический дробовик
 ert-loadout-category-energyshotgun-description =
-    Прототип энергетического оружия, 
-    использующий различные конфигурации дробовика. 
-    Оно позволяет совершать как смертельные, так и 
-    несмертельные выстрелы, что делает его универсальным оружием.
-    Для восполнения боезапаса потребуется зарядник энергооружия.
+    Огонь и молнии! Погодите-ка... только огонь.
+    Летальный режим, помимо нанесения урона,
+    способен поджечь цель.
 
 ert-loadout-category-wt550-name = WT550
 ert-loadout-category-wt550-description =

@@ -430,7 +430,7 @@
   description: ert-loadout-category-dominator-description
   sprite:
     sprite: DeadSpace/Objects/Weapons/Guns/Battery/dominator.rsi
-    state: icon
+    state: icon-0
   content:
   - PistolDominator
 

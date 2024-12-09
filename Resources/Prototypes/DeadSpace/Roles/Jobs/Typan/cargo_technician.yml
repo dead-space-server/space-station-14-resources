@@ -1,8 +1,8 @@
 - type: job
   id: TypanCargotech
-  name: Карготехник Синдиката
+  name: job-name-typan-cargotech
   playTimeTracker: TypanCargotech
-  description: Грузчик из далёкого космоса
+  description: Карготехник из далёкого космоса.
   startingGear: SyndicateCargotech
   icon: "JobIconTypanCargotech"
   supervisors: job-supervisors-typan-telecommunications-officer

@@ -255,3 +255,24 @@
       collection: VulpkaninFemaleHowl
     Growl:
       collection: VulpkaninFemaleGrowl
+
+- type: emoteSounds
+  id: MaleMed
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      collection: MedScreams
+    ScreamOnDamage:
+      collection: MedScreams
+    Laugh:
+      collection: MedLaugh
+    Sneeze:
+      collection: MedSneezes
+    Cough:
+      collection: MedCoughs
+    Crying:
+      collection: MedCry
+    Whistle:
+      collection: Whistles
+

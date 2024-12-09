@@ -102,6 +102,7 @@ loadout-group-cargo-technician-backpack = Грузчик, рюкзак
 loadout-group-cargo-technician-outerclothing = Грузчик, верхняя одежда
 loadout-group-cargo-technician-shoes = Грузчик, обувь
 loadout-group-cargo-technician-underwear = Грузчик, нижнее бельё
+loadout-group-salvage-specialist-jumpsuit = Утилизатор, комбинезон
 loadout-group-salvage-specialist-backpack = Утилизатор, рюкзак
 loadout-group-salvage-specialist-outerclothing = Утилизатор, верхняя одежда
 loadout-group-salvage-specialist-shoes = Утилизатор, обувь
