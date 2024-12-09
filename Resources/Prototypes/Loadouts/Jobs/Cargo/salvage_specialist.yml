@@ -7,7 +7,7 @@
 - type: loadout
   id: SalvageSpecialistJumpsuitFormal
   equipment:
-    jumpsuit: ClothingUniformJumpsuitSalvageformal
+    jumpsuit: ClothingUniformJumpsuitSalvageFormal
 
 - type: loadout
   id: SalvageSpecialistJumpskirt

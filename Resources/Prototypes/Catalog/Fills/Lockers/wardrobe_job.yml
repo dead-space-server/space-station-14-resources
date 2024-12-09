@@ -193,6 +193,12 @@
          amount: 2
        - id: ClothingUniformJumpsuitSalvageSpecialist
          amount: 2
+       - id: ClothingUniformJumpsuitSalvageFormal
+         amount: 2
+       - id: ClothingUniformJumpskirtCargoSalvage
+         amount: 2
+       - id: ClothingUniformJumpskirtCargoSalvageFormal
+         amount: 2
 
  - type: entity
    id: WardrobeAtmosphericsFilled
