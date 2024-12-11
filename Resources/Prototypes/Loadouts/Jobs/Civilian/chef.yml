@@ -1,3 +1,13 @@
+#Knife Timer
+- type: loadoutEffectGroup
+  id: ChefGoldenKnife
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobChef
+      time: 108000 #30 hours
+    # Таймер почему-то не работает, завтра как проснусь пофикшу
 # Head
 - type: loadout
   id: ChefHead
@@ -68,3 +78,4 @@
   - ChefGoldenKnife
   effect:
   - !type:GroupLoadoutEffect
+    proto: ChefGoldenKnife
