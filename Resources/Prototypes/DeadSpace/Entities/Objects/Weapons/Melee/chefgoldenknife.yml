@@ -1,7 +1,8 @@
 - type: entity
-  name: Chef Special knife
+  name: Наградной кухонный нож
   parent: KitchenKnife
   id: ChefGoldenKnife
+  description: Поварской нож который выдаётся за отличные блюда от Шеф-повара, отличная вещь для того кто способен приготовить отличные блюда..
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/chef_golden_knife.rsi
