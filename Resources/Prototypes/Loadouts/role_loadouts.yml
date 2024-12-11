@@ -90,6 +90,7 @@
   - Trinkets
   - GroupSpeciesBreathTool
   - ChefUnderwear # DS14-Underwear
+  - ChefHand # DS14-hand
 
 - type: roleLoadout
   id: JobLibrarian

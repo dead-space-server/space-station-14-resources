@@ -327,6 +327,13 @@
   - UnderwearBottomPantiesChef
 
 - type: loadoutGroup
+  id: ChefHand
+  name: loadout-group-chef-hand
+  minLimit: 0
+  loadouts:
+  - ChefGoldenKnife
+
+- type: loadoutGroup
   id: LibrarianJumpsuit
   name: loadout-group-librarian-jumpsuit
   loadouts:

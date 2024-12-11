@@ -1,0 +1,24 @@
+- type: entity
+  name: золотой поварской нож
+  parent: KitchenKnife
+  id: ChefGoldenKnife
+  description: Золотой поварской нож вручается лучшим поварам как знак их мастерства и вдохновения.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Melee/chef_golden_knife.rsi
+    state: icon
+  - type: Item
+    sprite: Objects/Weapons/Melee/chef_golden_knife.rsi
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+    attackRate: 1.5
+    damage:
+      types:
+        Slash: 12
+  - type: EmbeddableProjectile
+    sound: /Audio/Weapons/star_hit.ogg
+  - type: LandAtCursor
+  - type: DamageOtherOnHit
+    damage:
+      types:
+        Slash: 10
