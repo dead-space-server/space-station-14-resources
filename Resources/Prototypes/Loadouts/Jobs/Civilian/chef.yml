@@ -61,3 +61,10 @@
     proto: FemaleUnderwear
   equipment:
     underweart: ClothingUnderwearTopBraChef
+
+- type: loadout
+  id: ChefGoldenKnife
+  inhand:
+  - ChefGoldenKnife
+  effect:
+  - !type:GroupLoadoutEffect
