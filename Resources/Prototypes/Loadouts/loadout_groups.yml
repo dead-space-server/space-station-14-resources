@@ -328,7 +328,7 @@
 
 - type: loadoutGroup
   id: ChefHand
-  name: loadout-group-chef-hand
+  name: loadout-group-chef-special
   minLimit: 0
   loadouts:
   - ChefGoldenKnife

@@ -2,7 +2,7 @@
   name: золотой поварской нож
   parent: KitchenKnife
   id: ChefGoldenKnife
-  description: Золотой поварской нож вручается лучшим поварам как знак их мастерства и вдохновения.
+  description: Поварской нож который выдаётся за отличные блюда от Шеф-повара, отличная вещь для того кто способен приготовить отличные блюда..
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/chef_golden_knife.rsi

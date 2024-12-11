@@ -60,10 +60,10 @@
   - !type:GroupLoadoutEffect
     proto: FemaleUnderwear
   equipment:
-    underweart: ClothingUnderwearTopBraChef
+    underweart: ClothingUnderwearTopBraChef  
 
-- type: loadout
-  id: ChefGoldenKnife
+- type: loadout #DS14
+  id: ChefGoldenKnife 
   inhand:
   - ChefGoldenKnife
   effect:
