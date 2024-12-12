@@ -140,7 +140,6 @@
     roleLoadout: [ RoleSurvivalEVA ]
   - type: TTS
     voice: Garithos
-  - type: NightVision # DS14
 
 # ERT
 ## Leader
