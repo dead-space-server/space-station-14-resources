@@ -6,8 +6,8 @@
     requirement:
       !type:RoleTimeRequirement
       role: JobChef
-      time: 108000 #30 hours
-    # Таймер почему-то не работает, завтра как проснусь пофикшу
+      time: 108000 #30ч
+
 # Head
 - type: loadout
   id: ChefHead
@@ -76,6 +76,6 @@
   id: ChefGoldenKnife
   inhand:
   - ChefGoldenKnife
-  effect:
+  effects:
   - !type:GroupLoadoutEffect
     proto: ChefGoldenKnife
