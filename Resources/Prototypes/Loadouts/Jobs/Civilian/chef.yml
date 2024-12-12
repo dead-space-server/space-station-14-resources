@@ -1,4 +1,4 @@
-#Knife Timer
+# Knife Timer
 - type: loadoutEffectGroup
   id: ChefGoldenKnife
   effects:
@@ -6,7 +6,7 @@
     requirement:
       !type:RoleTimeRequirement
       role: JobChef
-      time: 108000 #30ч
+      time: 108000 # 30 hours
 
 # Head
 - type: loadout
