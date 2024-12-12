@@ -67,10 +67,11 @@
     children:
     - id: Stunbaton
     - id: GrenadeFlashBang
+    - id: HoloprojectorSecurity
     - id: Handcuffs
     - id: Handcuffs
     - id: Handcuffs
-    - id: Handcuffs
+    - id: RadioHandheldSecurity
 
 - type: entity
   id: ClothingBeltERTSecurityFilled
