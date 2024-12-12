@@ -67,10 +67,11 @@
     children:
     - id: Stunbaton
     - id: GrenadeFlashBang
+    - id: HoloprojectorSecurity
     - id: Handcuffs
     - id: Handcuffs
     - id: Handcuffs
-    - id: Handcuffs
+    - id: RadioHandheldSecurity
 
 - type: entity
   id: ClothingBeltERTSecurityFilled
@@ -121,6 +122,26 @@
         amount: 1
       - id: Gauze
       - id: EmergencyMedipen #You never know what people are going to latejoin into
+        amount: 2
+
+- type: entity
+  id: ClothingBeltMedicalFilledERT # DS14
+  parent: ClothingBeltMedical
+  suffix: Заполненный, ОБР
+  components:
+  - type: StorageFill
+    contents:
+      - id: MedicatedSuture
+        amount: 3
+      - id: RegenerativeMesh
+        amount: 1
+      - id: SyringeSaline
+        amount: 2
+      - id: EmergencyMedipen
+        amount: 2
+      - id: ADTObjectsSpecificBicaridineChemistryBottle
+        amount: 2
+      - id: ADTObjectsSpecificDermalineChemistryBottle
         amount: 2
 
 - type: entity
