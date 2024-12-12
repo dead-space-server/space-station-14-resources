@@ -31,7 +31,7 @@
     shoes: ClothingShoesBootsJackFilled
     head: ClothingHeadHelmetERTLeader
     id: ERTLeaderPDA
-    belt: ClothingBeltSecurityFilled
+    belt: ClothingBeltERTSecurityFilled
     pocket1: DoubleEmergencyOxygenTankFilled
   storage:
     back:
@@ -169,7 +169,7 @@
     shoes: ClothingShoesBootsJackSecFilled
     head: ClothingHeadHelmetERTSecurity
     id: ERTSecurityIDCard
-    belt: ClothingBeltSecurityFilled
+    belt: ClothingBeltERTSecurityFilled
     pocket1: DoubleEmergencyOxygenTankFilled
   storage:
     back:
