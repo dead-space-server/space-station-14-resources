@@ -348,7 +348,7 @@
     outerClothing: ClothingOuterHardsuitERTMedical
     shoes: ADTClothingShoesBootsMagERT
     id: ERTMedicRedIDCard
-    belt: ClothingBeltMedicalFilledERT 
+    belt: ClothingBeltERTMedicalFilled 
     pocket1: DoubleEmergencyOxygenTankFilled
   storage:
     back:
@@ -397,7 +397,7 @@
     suitstorage: JetpackMiniFilled
     shoes: ADTClothingShoesBootsMagERT
     id: ERTMedicGammaIDCard
-    belt: ClothingBeltMedicalFilledERT
+    belt: ClothingBeltERTMedicalFilled
     pocket1: DoubleEmergencyOxygenTankFilled
   storage:
     back:
