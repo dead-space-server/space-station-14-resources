@@ -2,7 +2,7 @@
   name: наградной кухонный нож
   parent: KitchenKnife
   id: ChefGoldenKnife
-  description: Поварской нож который выдаётся за отличные блюда от Шеф-повара, отличная вещь для того кто способен приготовить отличные блюда..
+  description: Нож который выдаётся шеф-поварам за выслугу лет. Отличный подарок для того кто способен приготовить отличные блюда.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/chef_golden_knife.rsi
