@@ -117,11 +117,11 @@
   - type: SlowedOverSlippery
     slowdownModifier: 0.7
   - type: SpeedModifierContactCapClothing # DS14
-    maxContactSprintSlowdown: 0.95
-    maxContactWalkSlowdown: 0.95
+    maxContactSprintSlowdown: 0.9
+    maxContactWalkSlowdown: 0.9
   - type: ClothingSpeedModifier # DS14
-    walkModifier: 0.85
-    sprintModifier: 0.85
+    walkModifier: 0.8
+    sprintModifier: 0.8
   - type: FootstepModifier # DS14
     footstepSoundCollection:
       collection: SquidFootsteps 
