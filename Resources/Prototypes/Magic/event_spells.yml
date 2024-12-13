@@ -117,8 +117,6 @@
         orGroup: Guns
       - id: WeaponLaserCannon
         orGroup: Guns
-      - id: WeaponLaserRifle
-        orGroup: Guns
       - id: WeaponParticleDecelerator
         orGroup: Guns
       - id: WeaponXrayCannon
@@ -158,6 +156,8 @@
       - id: RevolverCapGun
         orGroup: Guns
       - id: RevolverCapGunFake
+        orGroup: Guns
+      - id: WeaponLaserRifle #DS14
         orGroup: Guns
       speech: action-speech-spell-summon-guns
       
