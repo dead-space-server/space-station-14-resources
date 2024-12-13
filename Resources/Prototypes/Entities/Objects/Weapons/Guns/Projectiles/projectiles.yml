@@ -1062,8 +1062,6 @@
     damage:
       types:
         Heat: 13
-  - type: IgniteOnCollide # DS14
-    fireStacks: 1 
 
 - type: entity
   name: wide laser barrage
