@@ -297,7 +297,6 @@
       - ObeliskStoper
       - AnomalyLocator
       - AnomalyLocatorWide
-      - ArtifactWeaponScanner
       - Scalpel
       - Retractor
       - Cautery

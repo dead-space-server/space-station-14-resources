@@ -1,5 +1,5 @@
 - type: species
-  id: KoboltSpecies
+  id: Kobolt
   name: species-name-kobolt
   roundStart: true
   prototype: MobKobolt

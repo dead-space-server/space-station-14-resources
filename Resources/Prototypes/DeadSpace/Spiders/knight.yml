@@ -113,7 +113,6 @@
         layer:
         - MobLayer
   - type: Reflect
-    enabled: true
     reflectProb: 0.3
   - type: MovementSpeedModifier
     baseWalkSpeed: 3

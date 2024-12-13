@@ -19,7 +19,6 @@ entities:
       name: MS-24 Святой Парацельс
     - type: Transform
       pos: -0.828125,-0.78453064
-      parent: invalid
     - type: MapGrid
       chunks:
         0,0:
@@ -1202,15 +1201,17 @@ entities:
   entities:
   - uid: 139
     components:
+    - type: MetaData
+      name: Разрешение ЦК
     - type: Transform
-      pos: 1.473362,1.4493568
+      pos: 1.5166092,1.3861142
       parent: 1
     - type: Paper
       stampState: paper_stamp-centcom
       stampedBy:
       - stampedColor: '#006600FF'
         stampedName: stamp-component-stamped-name-centcom
-      content: >
+      content: >+
         ═════════════════════════════════════
 
         [bold]РАЗРЕШЕНИЕ НА ПЕРЕМЕЩЕНИЕ[/bold]
@@ -1227,9 +1228,9 @@ entities:
 
         Неподчинение требованию Центрального Командования на стыковку к ближайшей научно-исследовательской станции во время кода угрозы "Сьерра".
 
-        Неподчинение требованиям Высшего Командного Состава научно-исследовательской станции.
+        Неподчинение требованиям Высшего Командного Состава научно-исследовательской станции и Главного Врача станции.
 
-        Игнорирование требования в ознакомлении с данным разрешением действующего Капитана станции.
+        Неознакомление с данным разрешением действующего Капитана станции и Главного Врача.
 
         Пристыковка ко станции на которой действует код угрозы "Фиолетовый" более чем на 10 секунд. Отстыковка обязательна и последующая пристыковка будет считаться причиной аннулирования разрешения.
 
@@ -1243,7 +1244,9 @@ entities:
 
         ═════════════════════════════════════
 
-        [italic]Место для печатей[/italic]
+        [italic]Место для печатей[/italic] (изменено)
+
+
     - type: SolutionContainerManager
       solutions: null
       containers:
@@ -1271,7 +1274,7 @@ entities:
             radius: 0.35
             position: 0,0
           mask:
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -1852,7 +1855,7 @@ entities:
       pos: 2.5,-1.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -4948.045
+      secondsUntilStateChange: -4970.9043
       state: Opening
 - proto: WindowReinforcedDirectional
   entities:

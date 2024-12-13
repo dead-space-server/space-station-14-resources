@@ -113,7 +113,7 @@
   maxOffset: 60
   layers:
   - !type:NoiseDistanceDunGen
-    size: 150, 150
+    size: 50, 50
     distanceConfig: !type:DunGenEuclideanSquaredDistance
     layers:
     - tile: FloorAsteroidSand

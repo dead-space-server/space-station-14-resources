@@ -62,7 +62,7 @@
   id: ArmoryDominator
   icon:
     sprite: DeadSpace/Objects/Weapons/Guns/Battery/dominator.rsi
-    state: icon
+    state: icon-0
   product: CrateArmoryDominator
   cost: 5500
   category: cargoproduct-category-name-armory

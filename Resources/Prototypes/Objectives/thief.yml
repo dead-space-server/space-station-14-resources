@@ -349,16 +349,16 @@
   - type: Objective
     difficulty: 0.5
 
-- type: entity
-  parent: BaseThiefStealStructureObjective
-  id: FreezerHeaterStealObjective
-  components:
-  - type: NotJobRequirement
-    job: AtmosphericTechnician
-  - type: StealCondition
-    stealGroup: FreezerHeater
-  - type: Objective
-    difficulty: 0.5
+# - type: entity
+#   parent: BaseThiefStealStructureObjective
+#   id: FreezerHeaterStealObjective # DS14 disabled
+#   components:
+#   - type: NotJobRequirement
+#     job: AtmosphericTechnician
+#   - type: StealCondition
+#     stealGroup: FreezerHeater
+#   - type: Objective
+#     difficulty: 0.5
 
 - type: entity
   parent: BaseThiefStealStructureObjective

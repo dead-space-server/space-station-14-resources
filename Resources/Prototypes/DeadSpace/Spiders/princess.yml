@@ -9,8 +9,8 @@
     - id: FoodMeatSpider
       amount: 3
   - type: MovementSpeedModifier
-    baseWalkSpeed: 2
-    baseSprintSpeed: 2
+    baseWalkSpeed: 2.5
+    baseSprintSpeed: 2.5
   - type: Sprite
     scale: 1.5, 1.5
     drawdepth: Mobs
@@ -49,7 +49,7 @@
     bloodMaxVolume: 250
     bloodlossThreshold: 0.4
   - type: SpawnAgainst
-    duration: 30
+    duration: 15
     spawnAgainstAction: ActionSpawnAgainst
     spawnedEntities:
       - CocoonSpider # Что спавнить

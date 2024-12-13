@@ -9,6 +9,16 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitJournalist
 
+- type: loadout
+  id: ReporterJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtReporter
+
+- type: loadout
+  id: JournalistJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtJournalist
+
 # Underwear
 - type: loadout
   id: UnderwearBottomBoxersReporter

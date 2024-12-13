@@ -96,7 +96,6 @@
   recipeUnlocks:
   - ArtifactCrusherMachineCircuitboard
   - ObeliskStoper
-  - ArtifactWeaponScanner
 
 - type: technology
   id: AdvancedAnomalyResearch

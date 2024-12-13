@@ -19,12 +19,12 @@
     - Moth
     - Reptilian
     # DS14-species-start
-    - DemonSpecies
-    - SharkSpecies
-    - TajaranSpecies
-    - VulpkaninSpecies
+    - Demon
+    - Shark
+    - Tajaran
+    - Vulpkanin
     - Felinid
-    - KoboltSpecies
+    - Kobolt
     # DS14-species-end
 
 - type: loadoutEffectGroup
