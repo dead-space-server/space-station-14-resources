@@ -71,14 +71,3 @@
     damage:
       types:
         Heat: 16
-
-- type: entity
-  name: лазерный заряд
-  id: LaserRifleBullet
-  parent: DominatorBullet
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: Projectile
-    damage:
-      types:
-        Heat: 10
