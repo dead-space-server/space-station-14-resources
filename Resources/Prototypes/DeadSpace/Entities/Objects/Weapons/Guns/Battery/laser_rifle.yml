@@ -1,4 +1,15 @@
 - type: entity
+  name: лазерный заряд
+  id: LaserRifleBullet
+  parent: DominatorBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Heat: 10
+
+- type: entity
   parent: [BaseWeaponBattery, BaseGunWieldable, BaseRestrictedContraband]
   id: WeaponLaserRifle
   name: лазерный автомат
