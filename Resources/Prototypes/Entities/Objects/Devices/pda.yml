@@ -150,7 +150,7 @@
     id: PassengerIDCard
     state: pda
   - type: PdaBorderColor
-    borderColor: "#717059"
+    borderColor: "#67665a"
 
 - type: entity
   parent: BasePDA
@@ -162,8 +162,8 @@
     id: TechnicalAssistantIDCard
     state: pda-interntech
   - type: PdaBorderColor
-    borderColor: "#717059"
-    accentVColor: "#949137"
+    borderColor: "#67665a"
+    accentHColor: "#7C5D00"
   - type: Icon
     state: pda-interntech
 
@@ -177,8 +177,8 @@
     id: MedicalInternIDCard
     state: pda-internmed
   - type: PdaBorderColor
-    borderColor: "#717059"
-    accentVColor: "#447987"
+    borderColor: "#67665a"
+    accentVColor: "#12445b"
   - type: Icon
     state: pda-internmed
   - type: GuideHelp
@@ -195,8 +195,8 @@
     id: SecurityCadetIDCard
     state: pda-interncadet
   - type: PdaBorderColor
-    borderColor: "#717059"
-    accentVColor: "#005E72"
+    borderColor: "#67665a"
+    accentVColor: "#2f303c"
   - type: Icon
     state: pda-interncadet
 
@@ -210,8 +210,8 @@
     id: ResearchAssistantIDCard
     state: pda-internsci
   - type: PdaBorderColor
-    borderColor: "#717059"
-    accentVColor: "#8900c9"
+    borderColor: "#67665a"
+    accentHColor: "#8900c9"
   - type: Icon
     state: pda-internsci
 
@@ -225,8 +225,8 @@
     id: ServiceWorkerIDCard
     state: pda-internservice
   - type: PdaBorderColor
-    borderColor: "#717059"
-    accentVColor: "#00cc35"
+    borderColor: "#67665a"
+    accentHColor: "#4b640f"
   - type: Icon
     state: pda-internservice
 
@@ -240,7 +240,7 @@
     id: ChefIDCard
     state: pda-cook
   - type: PdaBorderColor
-    borderColor: "#d7d7d0"
+    borderColor: "#817d6f"
   - type: Icon
     state: pda-cook
   - type: ReplacementAccent # for random sentience event
@@ -257,7 +257,7 @@
     state: pda-hydro
   - type: PdaBorderColor
     borderColor: "#44843c"
-    accentVColor: "#00cc35"
+    accentVColor: "#4b640f"
   - type: Icon
     state: pda-hydro
 
@@ -330,7 +330,7 @@
         components:
         - IdCard
   - type: PdaBorderColor
-    borderColor: "#d7d7d0"
+    borderColor: "#817d6f"
     accentHColor: "#333333"
   - type: Icon
     state: pda-mime
@@ -533,7 +533,7 @@
         - Write
   - type: PdaBorderColor
     borderColor: "#789876"
-    accentHColor: "#447987"
+    accentHColor: "#12445b"
   - type: Icon
     state: pda-hop
 
@@ -548,7 +548,7 @@
     state: pda-ce
   - type: PdaBorderColor
     borderColor: "#949137"
-    accentHColor: "#447987"
+    accentHColor: "#12445b"
   - type: Icon
     state: pda-ce
 
@@ -563,7 +563,7 @@
     state: pda-engineer
   - type: PdaBorderColor
     borderColor: "#949137"
-    accentVColor: "#A32D26"
+    accentVColor: "#772d32"
   - type: Icon
     state: pda-engineer
 
@@ -577,9 +577,9 @@
     id: CMOIDCard
     state: pda-cmo
   - type: PdaBorderColor
-    borderColor: "#d7d7d0"
-    accentHColor: "#447987"
-    accentVColor: "#447987"
+    borderColor: "#817d6f"
+    accentHColor: "#12445b"
+    accentVColor: "#12445b"
   - type: Icon
     state: pda-cmo
 
@@ -593,8 +593,8 @@
     id: MedicalIDCard
     state: pda-medical
   - type: PdaBorderColor
-    borderColor: "#d7d7d0"
-    accentVColor: "#447987"
+    borderColor: "#817d6f"
+    accentVColor: "#12445b"
   - type: Icon
     state: pda-medical
   - type: GuideHelp
@@ -620,8 +620,8 @@
     id: SurgeonIDCard
     state: pda-surgeon
   - type: PdaBorderColor
-    borderColor: "#d7d7d0"
-    accentVColor: "#447987"
+    borderColor: "#817d6f"
+    accentVColor: "#12445b"
   - type: Icon
     state: pda-surgeon
   - type: GuideHelp
@@ -638,7 +638,7 @@
     id: ParamedicIDCard
     state: pda-paramedic
   - type: PdaBorderColor
-    borderColor: "#d7d7d0"
+    borderColor: "#817d6f"
     accentVColor: "#2a4b5b"
   - type: Icon
     state: pda-paramedic
@@ -653,7 +653,7 @@
     id: ChemistIDCard
     state: pda-chemistry
   - type: PdaBorderColor
-    borderColor: "#d7d7d0"
+    borderColor: "#817d6f"
     accentVColor: "#B34200"
   - type: Icon
     state: pda-chemistry
@@ -668,8 +668,8 @@
     id: RDIDCard
     state: pda-rd
   - type: PdaBorderColor
-    borderColor: "#d7d7d0"
-    accentHColor: "#447987"
+    borderColor: "#817d6f"
+    accentHColor: "#12445b"
     accentVColor: "#8900c9"
   - type: Icon
     state: pda-rd
@@ -684,7 +684,7 @@
     id: ResearchIDCard
     state: pda-science
   - type: PdaBorderColor
-    borderColor: "#d7d7d0"
+    borderColor: "#817d6f"
     accentVColor: "#8900c9"
   - type: Icon
     state: pda-science
@@ -699,8 +699,8 @@
     id: HoSIDCard
     state: pda-hos
   - type: PdaBorderColor
-    borderColor: "#005E72"
-    accentHColor: "#447987"
+    borderColor: "#2f303c"
+    accentHColor: "#12445b"
   - type: Icon
     state: pda-hos
   - type: CartridgeLoader
@@ -721,7 +721,7 @@
     id: WardenIDCard
     state: pda-warden
   - type: PdaBorderColor
-    borderColor: "#005E72"
+    borderColor: "#2f303c"
     accentVColor: "#949137"
   - type: Icon
     state: pda-warden
@@ -736,7 +736,7 @@
     id: SecurityIDCard
     state: pda-security
   - type: PdaBorderColor
-    borderColor: "#005E72"
+    borderColor: "#2f303c"
   - type: Icon
     state: pda-security
 
@@ -872,8 +872,8 @@
     id: AtmosIDCard
     state: pda-atmos
   - type: PdaBorderColor
-    borderColor: "#949137"
-    accentVColor: "#447987"
+    borderColor: "#7C5D00"
+    accentHColor: "#12445b"
   - type: Icon
     state: pda-atmos
 
@@ -929,9 +929,9 @@
     id: ERTLeaderIDCard
     state: pda-ert
   - type: PdaBorderColor
-    borderColor: "#A32D26"
-    accentHColor: "#447987"
-    accentVColor: "#447987"
+    borderColor: "#772d32"
+    accentHColor: "#12445b"
+    accentVColor: "#12445b"
   - type: Icon
     state: pda-ert
   - type: CartridgeLoader
@@ -1062,8 +1062,8 @@
     id: PsychologistIDCard
     state: pda-medical
   - type: PdaBorderColor
-    borderColor: "#d7d7d0"
-    accentVColor: "#447987"
+    borderColor: "#817d6f"
+    accentVColor: "#12445b"
   - type: Icon
     state: pda-medical
 
@@ -1147,9 +1147,9 @@
     id: BrigmedicIDCard
     state: pda-brigmedic
   - type: PdaBorderColor
-    borderColor: "#005E72"
-    accentHColor: "#D7D7d0"
-    accentVColor: "#D7D7D0"
+    borderColor: "#2f303c"
+    accentHColor: "#817d6f"
+    accentVColor: "#817d6f"
   - type: Icon
     state: pda-brigmedic
   - type: CartridgeLoader
@@ -1208,7 +1208,7 @@
     id: SeniorResearcherIDCard
     state: pda-seniorresearcher
   - type: PdaBorderColor
-    borderColor: "#d7d7d0"
+    borderColor: "#817d6f"
     accentHColor: "#8900c9"
     accentVColor: "#8900c9"
   - type: Icon
@@ -1224,8 +1224,8 @@
     id: SeniorPhysicianIDCard
     state: pda-seniorphysician
   - type: PdaBorderColor
-    borderColor: "#d7d7d0"
-    accentHColor: "#447987"
+    borderColor: "#817d6f"
+    accentHColor: "#12445b"
     accentVColor: "#B34200"
   - type: Icon
     state: pda-seniorphysician
@@ -1240,8 +1240,9 @@
     id: SeniorOfficerIDCard
     state: pda-seniorofficer
   - type: PdaBorderColor
-    borderColor: "#A32D26"
-    accentVColor: "#DFDFDF"
+    borderColor: "#2f303c"
+    accentHColor: "#67665a"
+    accentVColor: "#2f303c"
   - type: Icon
     state: pda-seniorofficer
 
@@ -1283,7 +1284,7 @@
     id: SecurityPilotIDCard
     state: pda-security
   - type: PdaBorderColor
-    borderColor: "#A32D26"
+    borderColor: "#772d32"
   - type: Icon
     state: pda-security
 

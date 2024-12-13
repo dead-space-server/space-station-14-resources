@@ -69,8 +69,9 @@
       id: BlueShieldOfficerIDCard
       state: pda-ert
     - type: PdaBorderColor
-      borderColor: "#A32D26"
-      accentVColor: "#114773"
+      borderColor: "#12445b"
+      accentHColor: "#772d32"
+      accentVColor: "#772d32"
     - type: Icon
       state: pda-ert
     - type: HealthAnalyzer
