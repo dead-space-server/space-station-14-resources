@@ -28,7 +28,7 @@
   - type: CombatMode
   - type: Physics
     ignorePaused: true
-    bodyType: Kinematic
+    bodyType: KinematicController
   - type: Body
     prototype: Aghost
   - type: Access

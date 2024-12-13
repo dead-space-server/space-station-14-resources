@@ -52,7 +52,7 @@
     jumpsuit: ClothingUniformJumpsuitOperative
     head: ClothingHeadHelmetSwatSyndicate
     eyes: ClothingEyesHudSyndicate
-    outerClothing: ClothingOuterArmorBasic
+    outerClothing: ClothingOuterArmorRaid # DS14
     gloves: ClothingHandsGlovesCombat
     back: ClothingBackpack
     shoes: ClothingShoesBootsCombatFilled
@@ -66,9 +66,9 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitSyndieFormal
     head: ClothingHeadHatOutlawHat
-    outerClothing: ClothingOuterArmorBasicSlim
+    outerClothing: ClothingOuterArmorRaid # DS14
     back: ClothingBackpackSatchel
-    pocket1: BaseUplinkRadio25TC
+    pocket1: BaseUplinkRadio40TC # DS14
     pocket2: EnergySword
 
 # Nanotrasen Paramilitary Unit Gear

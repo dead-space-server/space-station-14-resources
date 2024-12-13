@@ -1,6 +1,6 @@
 - type: species
   id: IPS
-  name: КПC
+  name: species-name-ips
   roundStart: true
   prototype: MobIPS
   sprites: MobIPSSprites
@@ -10,10 +10,10 @@
   sexes:
   - Unsexed
   naming: FirstLast
-  maleFirstNames: names_kpb_first_male # DS14 EDITION
-  femaleFirstNames: names_kpb_first_famale # DS14 EDITION
-  maleLastNames: names_kpb_last_male # DS14 EDITION
-  femaleLastNames: names_kpb_last_famale # DS14 EDITION
+  maleFirstNames: names_kpb_first_male
+  femaleFirstNames: names_kpb_first_famale
+  maleLastNames: names_kpb_last_male
+  femaleLastNames: names_kpb_last_famale
 
 - type: speciesBaseSprites
   id: MobIPSSprites

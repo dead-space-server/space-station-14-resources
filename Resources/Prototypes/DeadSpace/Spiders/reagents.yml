@@ -138,6 +138,27 @@
             Toxin: -4
             Airloss: -4
             Brute: -4
-          types:
-            Bloodloss:
-              -1
+        types:
+          Bloodloss:
+            -1
+
+- type: reagent
+  id: SpiderEggs
+  name: reagent-name-spider-eggs
+  group: Toxins
+  desc: reagent-desc-spider-eggs
+  physicalDesc: reagent-physical-desc-soothing
+  flavor: toxin
+  color: "#7FFFD4"
+  metabolisms:
+    Poison:
+      metabolismRate: 0.05
+      effects:
+      - !type:CauseEgg
+        duration: 360
+        spawned:
+        - id: MobSpiderTerrorGuardian
+          amount: 4
+        conditions:
+        - !type:ReagentThreshold
+          min: 1

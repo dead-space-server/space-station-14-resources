@@ -69,7 +69,8 @@
         sound: "/Audio/DeadSpace/Spiders/brif.ogg"
       components:
       - type: Egg
-        duration: 650
+        canHatch: true
+        duration: 360
         spawned:
         - id: MobSpiderTerrorQueen
           amount: 1
@@ -85,7 +86,8 @@
         sound: "/Audio/DeadSpace/Spiders/brif.ogg"
       components:
       - type: Egg
-        duration: 600
+        canHatch: true
+        duration: 360
         spawned:
         - id: MobSpiderTerrorGuardianHeroicKingBlood
           amount: 1 # Колличество
@@ -102,7 +104,8 @@
         sound: "/Audio/DeadSpace/Spiders/brif.ogg"
       components:
       - type: Egg
-        duration: 700
+        canHatch: true
+        duration: 360
         spawned:
         - id: MobSpiderTerrorGuardianKingBlood
           amount: 1 # Колличество
@@ -198,7 +201,7 @@
 
 - type: entity
   parent: BaseGameRule
-  id: BaseErtShuttleRule
+  id: ShuttleCBURNSCST
   components:
   - type: StationEvent
     startAnnouncement: station-event-response-team-arrival
@@ -206,12 +209,6 @@
       path: /Audio/DeadSpace/Announcements/centcomm.ogg # DeadSpace-Announcements
     willNotStartRandomly: true
   - type: RuleGrids
-  - type: LoadMapRule
-
-- type: entity
-  parent: BaseErtShuttleRule
-  id: ShuttleCBURNSCST
-  components:
   - type: LoadMapRule
     preloadedGrid: CBURNSCSTShuttle
 

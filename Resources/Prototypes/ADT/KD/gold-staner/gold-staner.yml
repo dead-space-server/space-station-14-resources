@@ -1,8 +1,8 @@
 - type: entity
-  name: станнер Эйдана
+  name: мяуннер
   parent: BaseWeaponBatterySmall
   id: WeaponDisablerIdan
-  description: На вкус как бикаридин.
+  description: Мяу! Мяу! Мяу! Мяу!
   components:
     - type: Tag
       tags:

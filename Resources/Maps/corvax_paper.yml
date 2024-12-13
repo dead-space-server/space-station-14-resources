@@ -49461,8 +49461,6 @@ entities:
       pos: 21.5,-15.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 116
   - uid: 15719
@@ -67721,8 +67719,6 @@ entities:
       pos: 20.5,-14.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 116
     - type: AtmosPipeColor

@@ -79,5 +79,6 @@ reagent-name-karachnocid = карахноцид
 reagent-name-extract-lurker = экстракт паука скрытня
 reagent-name-extract-smoke-lurker = экстракт дыма паука скрытня
 reagent-name-extract-reaper = экстракт паука жнеца
-
+reagent-name-spider-eggs = яйца пауков ужаса
+reagent-desc-spider-eggs = паразитируют в организме носителя.
 objective-issuer-spider-terror = Пауки ужаса
