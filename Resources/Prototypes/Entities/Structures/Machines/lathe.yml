@@ -406,6 +406,7 @@
       - ClothingEyesHudMedical
       - ClothingEyesHudSecurity
       - ClothingEyesHudAdvanced
+      - WeaponLaserRifle # DS14
 
 - type: entity
   id: ProtolatheHyperConvection
@@ -807,6 +808,7 @@
       - WeaponLaserCannon
       - WeaponLaserCarbine
       - WeaponXrayCannon
+      - WeaponLaserRifle # DS14
   - type: MaterialStorage
     whitelist:
       tags:
