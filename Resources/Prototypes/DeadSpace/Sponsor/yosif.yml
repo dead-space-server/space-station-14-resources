@@ -42,6 +42,11 @@
       - id: DominatorMedkitAdvanced
       - id: ADTtelescopicBaton
       - id: PaperLawYosif
+      - id: ADTClothingUniformRabbitDress
+      - id: ClothingUniformJumpskirtMaid
+      - id: ADTClothingHeadPinkHat
+      - id: ClothingShoesSchoolBlack
+      - id: ClothingShoesSchoolWhite
 
 # Belt
 - type: entity
