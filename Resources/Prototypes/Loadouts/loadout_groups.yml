@@ -8,6 +8,7 @@
   - FlowerWreath
   - Hairflower
   - Headphones
+  - HatDeer
   - PlushieLizard
   - PlushieSpaceLizard
   - Lighter
@@ -617,6 +618,12 @@
   - MimeJumpskirt
   - MimeJumpSexyWhite
   - MimeJumpSexyBlack
+
+- type: loadoutGroup
+  id: MimeNeck
+  name: loadout-group-mime-neck
+  loadouts:
+  - MimeNeckSexy
 
 - type: loadoutGroup
   id: MimeBackpack

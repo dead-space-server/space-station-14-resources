@@ -80,6 +80,7 @@ loadout-group-clown-underwear = Клоун, нижнее бельё
 loadout-group-mime-head = Мим, голова
 loadout-group-mime-mask = Мим, маска
 loadout-group-mime-jumpsuit = Мим, комбинезон
+loadout-group-mime-neck = Мим, шея
 loadout-group-mime-backpack = Мим, рюкзак
 loadout-group-mime-outerclothing = Мим, верхняя одежда
 loadout-group-mime-belt = Мим, пояс
