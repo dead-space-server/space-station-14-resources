@@ -110,6 +110,7 @@
     - WT550Set
     - LaserCannonSet
     - XrayCannonSet
+    - LaserRifleSet
   - type: ActivatableUI
     key: enum.ThiefBackpackUIKey.Key
   - type: UserInterface
@@ -195,6 +196,7 @@
     - LecterSet
     - EnforcerCBURNSet
     - LaserCannonSet
+    - LaserRifleSet
   - type: ActivatableUI
     key: enum.ThiefBackpackUIKey.Key
   - type: UserInterface
@@ -351,6 +353,16 @@
     state: icon
   content:
   - WeaponLaserCannon
+
+- type: thiefBackpackSet
+  id: LaserRifleSet
+  name: ert-loadout-category-laserrifle-name
+  description: ert-loadout-category-laserrifle-description
+  sprite:
+    sprite: DeadSpace/Objects/Weapons/Guns/Battery/laser_rifle.rsi
+    state: icon
+  content:
+  - WeaponLaserRifle
 
 - type: thiefBackpackSet
   id: XrayCannonSet
