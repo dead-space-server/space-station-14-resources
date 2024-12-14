@@ -1,7 +1,6 @@
 - type: entity
   parent: BaseMobSpeciesComputer
   id: BaseMobIPC
-  name: "КПБ"
   abstract: true
   components:
   - type: Body

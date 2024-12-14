@@ -13,6 +13,8 @@
     maxFillLevels: 1
     changeColor: false
     emptySpriteName: steam_empty
+  - type: Hypospray
+    transferAmount: 20
   - type: SolutionContainerManager
     solutions:
       pen:

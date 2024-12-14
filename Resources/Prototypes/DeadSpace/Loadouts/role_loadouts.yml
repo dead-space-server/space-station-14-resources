@@ -42,6 +42,7 @@
   id: JobSeniorSalvageSpecialist
   groups:
   - GroupTankHarness
+  - SalvageSpecialistJumpsuit
   - SalvageSpecialistBackpack
   - SalvageSpecialistOuterClothing
   - SalvageSpecialistShoes

@@ -297,7 +297,6 @@
       - ObeliskStoper
       - AnomalyLocator
       - AnomalyLocatorWide
-      - ArtifactWeaponScanner
       - Scalpel
       - Retractor
       - Cautery
@@ -316,6 +315,7 @@
       - WeaponSprayNozzle
       - ClothingBackpackWaterTank
       - MegaSprayBottle
+      - BagOfSummoningGarbage # DS14
       - TimerTrigger
       - ChemicalPayload
       - FlashPayload
@@ -349,11 +349,11 @@
       - ClothingBackpackDuffelHolding
       - WelderExperimental
       - JawsOfLife
-      - FauxTileAstroGrass
-      - FauxTileMowedAstroGrass
-      - FauxTileJungleAstroGrass
-      - FauxTileAstroIce
-      - FauxTileAstroSnow
+      # - FauxTileAstroGrass # DS14: moved to CutterMachine recipes
+      # - FauxTileMowedAstroGrass # DS14: moved to CutterMachine recipes
+      # - FauxTileJungleAstroGrass # DS14: moved to CutterMachine recipes
+      # - FauxTileAstroIce # DS14: moved to CutterMachine recipes
+      # - FauxTileAstroSnow # DS14: moved to CutterMachine recipes
       - OreBagOfHolding
       - DeviceQuantumSpinInverter
       - ClothingEyesHudDiagnostic
@@ -406,6 +406,7 @@
       - ClothingEyesHudMedical
       - ClothingEyesHudSecurity
       - ClothingEyesHudAdvanced
+      - WeaponLaserRifle # DS14
 
 - type: entity
   id: ProtolatheHyperConvection
@@ -454,9 +455,9 @@
     - CondenserMachineCircuitBoard
     - HotplateMachineCircuitboard
     - UniformPrinterMachineCircuitboard
-    - FloorGreenCircuit
-    - FloorBlueCircuit
-    - FloorRedCircuit
+    # - FloorGreenCircuit # DS14: moved to CutterMachine recipes
+    # - FloorBlueCircuit # DS14: moved to CutterMachine recipes
+    # - FloorRedCircuit # DS14: moved to CutterMachine recipes
     - MicrowaveMachineCircuitboard
     - ReagentGrinderMachineCircuitboard
     - ElectricGrillMachineCircuitboard
@@ -807,6 +808,7 @@
       - WeaponLaserCannon
       - WeaponLaserCarbine
       - WeaponXrayCannon
+      - WeaponLaserRifle # DS14
   - type: MaterialStorage
     whitelist:
       tags:
@@ -969,7 +971,17 @@
       - ClothingUniformJumpskirtCapFormalDress
       - ClothingUniformJumpsuitCargo
       - ClothingUniformJumpskirtCargo
+      # DS14-start
+      - ClothingUniformJumpsuitCargoAlt
+      - ClothingUniformJumpsuitCargoFormal
+      - ClothingUniformJumpskirtCargoFormal
+      # DS14-end
       - ClothingUniformJumpsuitSalvageSpecialist
+      # DS14-start
+      - ClothingUniformJumpsuitSalvageFormal
+      - ClothingUniformJumpskirtCargoSalvage
+      - ClothingUniformJumpskirtCargoSalvageFormal
+      # DS14-end
       - ClothingHeadHatBeretEngineering
       - ClothingUniformJumpsuitChiefEngineer
       - ClothingUniformJumpskirtChiefEngineer
@@ -979,8 +991,10 @@
       - ClothingUniformJumpskirtChaplain
       - ClothingUniformJumpsuitBrigmedic
       - ClothingUniformJumpskirtBrigmedic
+      # DS14-start
       - ClothingUniformJumpsuitCoroner
       - ClothingUniformJumpskirtCoroner
+      # DS14-end
       - ClothingUniformJumpsuitChef
       - ClothingUniformJumpskirtChef
       - ClothingUniformJumpsuitChemistry
@@ -1026,6 +1040,8 @@
       - ClothingUniformJumpskirtSeniorPhysician
       - ClothingUniformJumpsuitMime
       - ClothingUniformJumpskirtMime
+      - ClothingUniformJumpsuitMimeSexyWhite
+      - ClothingUniformJumpsuitMimeSexyBlack
       - ClothingUniformJumpsuitMusician
       - ClothingUniformJumpsuitParamedic
       - ClothingUniformJumpskirtParamedic
@@ -1376,6 +1392,114 @@
       - FloorTileItemOldConcrete
       - FloorTileItemOldConcreteMono
       - FloorTileItemOldConcreteSmooth
+      # DS14-start
+      - FloorTileItemSteelCheckerDark
+      - FloorTileItemSteelCheckerLight
+      - FloorTileItemDark
+      - FloorTileItemDarkDiagonalMini
+      - FloorTileItemDarkDiagonal
+      - FloorTileItemDarkHerringbone
+      - FloorTileItemDarkMini
+      - FloorTileItemDarkMono
+      - FloorTileItemDarkPavement
+      - FloorTileItemDarkPavementVertical
+      - FloorTileItemDarkOffset
+      - FloorTileItemSteel
+      - FloorTileItemSteelOffset
+      - FloorTileItemSteelDiagonalMini
+      - FloorTileItemSteelDiagonal
+      - FloorTileItemSteelHerringbone
+      - FloorTileItemSteelMini
+      - FloorTileItemSteelMono
+      - FloorTileItemSteelPavement
+      - FloorTileItemSteelPavementVertical
+      - FloorTileItemWhite
+      - FloorTileItemWhiteOffset
+      - FloorTileItemWhiteDiagonalMini
+      - FloorTileItemWhiteDiagonal
+      - FloorTileItemWhiteHerringbone
+      - FloorTileItemWhiteMini
+      - FloorTileItemWhiteMono
+      - FloorTileItemWhitePavement
+      - FloorTileItemWhitePavementVertical
+      - FloorTileItemWood
+      - FloorTileItemWoodPattern
+      - FloorTileItemWoodLarge
+      - FloorTileItemWoodParquet
+      - FloorTileItemWoodBlack
+      - FloorTileItemWoodDark
+      - FloorTileItemWoodLight
+      - FloorTileItemWoodRed
+      - FloorTileItemWoodLargeBlack
+      - FloorTileItemWoodLargeDark
+      - FloorTileItemWoodLargeLight
+      - FloorTileItemWoodLargeRed
+      - FloorTileItemWoodParquetBlack
+      - FloorTileItemWoodParquetDark
+      - FloorTileItemWoodParquetLight
+      - FloorTileItemWoodParquetRed
+      - FloorTileItemWoodChess
+      - FloorTileItemWoodChessBlack
+      - FloorTileItemWoodChessDark
+      - FloorTileItemWoodChessLight
+      - FloorTileItemWoodChessRed
+      - FloorTileItemTechmaint
+      - FloorTileItemDirty
+      - FloorTileItemElevatorShaft
+      - FloorTileItemRockVault
+      - FloorTileItemBlue
+      - FloorTileItemLime
+      - FloorTileItemMining
+      - FloorTileItemMiningDark
+      - FloorTileItemMiningLight
+      - FloorTileItemFreezer
+      - FloorTileItemShowroom
+      - FloorTileItemHydro
+      - FloorTileItemBar
+      - FloorTileItemClown
+      - FloorTileItemMime
+      - FloorTileItemKitchen
+      - FloorTileItemLaundry
+      - FloorTileItemSteelMaint
+      - FloorTileItemGratingMaint
+      - FloorTileItemLino
+      - FloorTileItemShuttleWhite
+      - FloorTileItemShuttleBlue
+      - FloorTileItemShuttleOrange
+      - FloorTileItemShuttlePurple
+      - FloorTileItemShuttleRed
+      - FloorTileItemShuttleGrey
+      - FloorTileItemShuttleBlack
+      - FloorTileItemArcadeBlue
+      - FloorTileItemArcadeBlue2
+      - FloorTileItemArcadeRed
+      - FloorTileItemEighties
+      - FloorTileItemCarpetClown
+      - FloorTileItemCarpetOffice
+      - FloorTileItemBoxing
+      - FloorTileItemGym
+      - FloorTileItemConcrete
+      - FloorTileItemConcreteMono
+      - FloorTileItemConcreteSmooth
+      - FloorTileItemGrayConcrete
+      - FloorTileItemGrayConcreteMono
+      - FloorTileItemGrayConcreteSmooth
+      - FloorTileItemOldConcrete
+      - FloorTileItemOldConcreteMono
+      - FloorTileItemOldConcreteSmooth
+      - FloorTileItemGold
+      - FloorTileItemSilver
+      # Recipes from Protolathe
+      - FloorGreenCircuit
+      - FloorBlueCircuit
+      - FloorRedCircuit
+    dynamicRecipes:
+      - FauxTileAstroGrass
+      - FauxTileMowedAstroGrass
+      - FauxTileJungleAstroGrass
+      - FauxTileAstroIce
+      - FauxTileAstroSnow
+      # DS14-end
   - type: MaterialStorage
     whitelist:
       tags:
@@ -1384,3 +1508,4 @@
         - Wooden
         - RawMaterial
         - Plastic
+        - Ingot

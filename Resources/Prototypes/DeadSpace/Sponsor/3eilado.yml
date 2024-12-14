@@ -34,7 +34,6 @@
   - type: StorageFill
     contents:
       - id: ClothingNeckCloak3eilado
-      - id: ClothingOuterHardsuit3eilado
       - id: ClothingShoesBootsMag3eilado
       - id: PaperLaw3eilado
       - id: ToyBall3eilado
@@ -56,6 +55,9 @@
       - id: ClothingNeckCloak3eiladoWhite
       - id: ClothingHandsRing3eilado
       - id: FoodIris3eilado
+      - id: ShardCrystalOrange3eilado
+      - id: ClothingEyesSigma3eilado
+      - id: ClothingNeckCharm3eilado
 
 # Belt
 - type: entity
@@ -108,18 +110,37 @@
       map: ["foldedLayer"]
       visible: false
 
+#Charm
+- type: entity
+  parent: ClothingNeckBling
+  id: ClothingNeckCharm3eilado
+  name: секрет Азура
+  description: Таинственный амулет. На нём виднеются неразборчивые символы.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/3eilado/charm.rsi
+  - type: Clothing
+    sprite: DeadSpace/Sponsor/3eilado/charm.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingOuterHardsuit3eilado
+    requiredSlot: NECK
+    slot: outerClothing
+  - type: Item
+    size: Huge
+
 # Hardsuit
 - type: entity
   parent: ClothingOuterHardsuitAtmos
   id: ClothingOuterHardsuit3eilado
-  name: скафандр «Aurora»
-  description: Скафандр модификации «Полярное сияние». Глядя на него вы ощущаете мороз по коже. На скафандре есть гравировка "собственность Ван’Астрея"
+  name: скафандр модификации "モモンガ"
+  description: Кажется, этот скафандр кого-то напоминает.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/3eilado/hardsuit.rsi
+    sprite: DeadSpace/Sponsor/3eilado/hardsuit/hardsuit.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/3eilado/hardsuit.rsi
+    sprite: DeadSpace/Sponsor/3eilado/hardsuit/hardsuit.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuit3eilado
   - type: Item
@@ -128,16 +149,16 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuit3eilado
-  name: шлем скафандра «Aurora» 
-  description: Шлем модификации «Полярное сияние». Ледяные рожки имеют переливающуюся гравировку "Jeleshka".
+  name: шлем скафандра модификации "モモンガ"
+  description: Кажется, этот шлем кого-то напоминает.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/3eilado/helmet.rsi
+    sprite: DeadSpace/Sponsor/3eilado/hardsuit/helmet.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/3eilado/helmet.rsi
+    sprite: DeadSpace/Sponsor/3eilado/hardsuit/helmet.rsi
   - type: PointLight
-    color: "#a0dfff"
+    color: "#ed381c"
   - type: PressureProtection
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
@@ -481,12 +502,12 @@
       - suitStorage
       - Belt
 
-# HeadSet
+# HeadSet##############
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadset3eilado
-  name: гарнитура модификации «Aurora»
-  description: Эта гарнитура странно сияет
+  name: крыло связи
+  description: Продвинутая гарнитура модификации "A.L".
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -533,27 +554,71 @@
   - type: Clothing
     sprite: DeadSpace/Sponsor/3eilado/coat.rsi
 
-# Cloak_white
+# Cloak_Black
 - type: entity
   parent: ClothingNeckBase
-  id: ClothingNeckCloak3eiladoWhite
+  id: ClothingNeckCloak3eiladoBlack
   name: плащ полярной ночи
   description: На этом плаще значок юридического департамента.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/3eilado/cloak_black.rsi
+    sprite: DeadSpace/Sponsor/3eilado/CloackBlack/cloak_black.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHatHood3eiladoBlack
+    requiredSlot:
+    - neck
+    slot: head
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
 
-# Cloak_black
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatHood3eiladoBlack
+  name: капюшон плаща полярной ночи
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/3eilado/CloackBlack/hood.rsi
+  - type: Clothing
+    sprite: DeadSpace/Sponsor/3eilado/CloackBlack/hood.rsi
+  - type: HideLayerClothing
+    slots:
+    - Hair
+
+# Cloak_White
 - type: entity
   parent: ClothingNeckBase
-  id: ClothingNeckCloak3eiladoBlack
+  id: ClothingNeckCloak3eiladoWhite
   name: белый плащ полярного дня 
   description: На этом плаще значок юридического департамента.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/3eilado/cloak_white.rsi
+    sprite: DeadSpace/Sponsor/3eilado/CloackWhite/cloak_white.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHatHood3eiladoWhite
+    requiredSlot:
+    - neck
+    slot: head
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatHood3eiladoWhite
+  name: капюшон белого плаща полярного дня 
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/3eilado/CloackWhite/hood.rsi
+  - type: Clothing
+    sprite: DeadSpace/Sponsor/3eilado/CloackWhite/hood.rsi
+  - type: HideLayerClothing
+    slots:
+    - Hair
 
 # Ring
 - type: entity
@@ -565,8 +630,10 @@
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/3eilado/ring.rsi
+    scale: "0.7, 0.7"
   - type: Clothing
     sprite: DeadSpace/Sponsor/3eilado/ring.rsi
+  - type: Insulated
   - type: Item
     size: Tiny
 
@@ -593,3 +660,33 @@
         reagents:
         - ReagentId: Nutriment
           Quantity: 7
+
+# Glasses
+- type: entity
+  parent: ADTClothingEyesSupremeCommanderGlass
+  id: ClothingEyesSigma3eilado
+  name: сияние Заргона
+  description:
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/3eilado/glasses.rsi
+  - type: Clothing
+    sprite: DeadSpace/Sponsor/3eilado/glasses.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
+    protectionTime: 5
+
+# Shard
+- type: entity
+  parent: ShardCrystalOrange
+  id: ShardCrystalOrange3eilado
+  name: оранжевый осколок кристалла в форме звезды
+  description: Вероятность успешного завершения этой миссии была ноль процентов. Но, видимо, в вашем случае любые расчёты теряют смысл.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    layers:
+      - sprite: DeadSpace/Sponsor/3eilado/crystal.rsi
+        state: shard1
+        map: [ "enum.DamageStateVisualLayers.Base" ]

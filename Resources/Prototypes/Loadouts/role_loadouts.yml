@@ -28,9 +28,9 @@
   - HoPUnderwear # DS14-Underwear
 
 # Silicons
-# - type: roleLoadout
-#   id: JobStationAi
-#   nameDataset: names_ai
+- type: roleLoadout
+  id: JobStationAi
+  nameDataset: NamesAI
 
 # Civilian
 - type: roleLoadout
@@ -90,7 +90,8 @@
   - Trinkets
   - GroupSpeciesBreathTool
   - ChefUnderwear # DS14-Underwear
-
+  - ChefHand # DS14
+  
 - type: roleLoadout
   id: JobLibrarian
   groups:
@@ -241,6 +242,7 @@
   id: JobSalvageSpecialist
   groups:
   - GroupTankHarness
+  - SalvageSpecialistJumpsuit
   - SalvageSpecialistBackpack
   - SalvageSpecialistOuterClothing
   - SalvageSpecialistShoes
@@ -404,7 +406,6 @@
 - type: roleLoadout
   id: JobDetective
   groups:
-  - GroupTankHarness
   - DetectiveHead
   - DetectiveNeck
   - DetectiveJumpsuit

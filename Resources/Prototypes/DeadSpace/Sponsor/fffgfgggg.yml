@@ -9,7 +9,7 @@
   id: ClothingBackpackfffgfgggg
   name: блюспейс рюкзак смерти
   description: Рюкзак использующий технологию блюспейса для увелечения своего максимального объёма. Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/fffgfgggg/backpack.rsi
@@ -32,7 +32,7 @@
   id: ClothingHandsGlovesfffgfgggg
   name: перчатки с черепами
   description: Чёрно-красные перчатки с черепушками, жестоко и красиво.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/fffgfgggg/gloves.rsi
@@ -45,7 +45,7 @@
   id: ClothingOuterHardsuitfffgfgggg
   name: скафандр с черепами
   description: Огромный, красивый скафандр с большим красным плащом на спине.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/fffgfgggg/hardsuit.rsi
@@ -76,7 +76,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitfffgfgggg
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: шлем смерти
   description: Красивый чёрно-красный шлем, даже смерть его боится.
   components:
@@ -104,7 +104,7 @@
   id: ClothingShoesBootsMagfffgfgggg
   name: чёрно-красный магнитные ботинки
   description: Магнитные ботинки в чёрно-красном исполнении с черепами.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
       sprite: DeadSpace/Sponsor/fffgfgggg/magboots.rsi
@@ -125,7 +125,7 @@
   id: ClothingUniformJumpsuitfffgfgggg
   name: чёрно-красная униформа
   description: Чёрно-красная униформа, её владелец знает толк в красоте.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/fffgfgggg/jumpsuit.rsi
@@ -138,7 +138,7 @@
   id: ClothingMaskfffgfgggg
   name: чёрно-красный респиратор
   description: Чёрно-красный респиратор, защитит от пыли и... Всё.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/fffgfgggg/gas.rsi
@@ -151,7 +151,7 @@
   id: ClothingEyesHudMedicalfffgfgggg
   name: чёрно-красный визор
   description: Визор с красным дисплеем, строго и со стилем.
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/fffgfgggg/hud.rsi

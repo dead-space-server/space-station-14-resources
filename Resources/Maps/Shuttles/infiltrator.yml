@@ -26,7 +26,6 @@ entities:
       name: GX-13 Infiltrator
     - type: Transform
       pos: 0.64252126,4.1776605
-      parent: invalid
     - type: Tag
       tags:
       - Syndicate
@@ -782,6 +781,13 @@ entities:
     components:
     - type: Transform
       pos: 3.5,-3.5
+      parent: 1
+- proto: BorgCharger
+  entities:
+  - uid: 612
+    components:
+    - type: Transform
+      pos: -4.5,-27.5
       parent: 1
 - proto: BoxEncryptionKeySyndie
   entities:
