@@ -46,6 +46,7 @@ loadout-group-chef-head = Шеф-повар, голова
 loadout-group-chef-mask = Шеф-повар, маска
 loadout-group-chef-jumpsuit = Шеф-повар, комбинезон
 loadout-group-chef-outerclothing = Шеф-повар, верхняя одежда
+loadout-group-chef-hand =  Шеф-повар, наградной нож
 loadout-group-chef-underwear =  Шеф-повар, нижнее бельё
 loadout-group-librarian-jumpsuit = Библиотекарь, комбинезон
 loadout-group-librarian-underwear = Библиотекарь, нижнее бельё
