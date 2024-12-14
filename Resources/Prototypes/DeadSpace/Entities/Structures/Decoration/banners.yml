@@ -1,0 +1,9 @@
+- type: entity
+  id: BannerGreen
+  parent: BannerBase
+  name: Знамя клана паука
+  description: Простота и яркость флага подчёркивают устрашающую репутацию клана.
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Structures/Decoration/banner.rsi
+    state: spider-banner
