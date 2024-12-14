@@ -125,7 +125,7 @@
         amount: 2
 
 - type: entity
-  id: ClothingBeltMedicalFilledERT # DS14
+  id: ClothingBeltERTMedicalFilled # DS14
   parent: ClothingBeltMedical
   suffix: Заполненный, ОБР
   components:

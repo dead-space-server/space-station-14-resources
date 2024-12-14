@@ -17,9 +17,9 @@ ert-loadout-category-enforcer-description =
 
 ert-loadout-category-energyshotgun-name = Энергетический дробовик
 ert-loadout-category-energyshotgun-description =
-    Огонь и молнии! Погодите-ка... только огонь.
-    Летальный режим, помимо нанесения урона,
-    способен поджечь цель.
+    Новейший прототип, с возможностью смены режима на летальный
+    или нелетальный. Крайне опасен на ближней дистанции.
+    Батарея этого оружия подзаряжается сама со временем.
 
 ert-loadout-category-wt550-name = WT550
 ert-loadout-category-wt550-description =
@@ -53,6 +53,11 @@ ert-loadout-category-lasercarbine-description =
 ert-loadout-category-lasercannon-name = Лазерная пушка
 ert-loadout-category-lasercannon-description =
     Тяжёлое и сверхмощное лазерное оружие.
+    Для восполнения боезапаса потребуется зарядник энергооружия.
+
+ert-loadout-category-laserrifle-name = Лазерный автомат
+ert-loadout-category-laserrifle-description =
+    Продвинутое лазерное оружие с автоматическим режимом стрельбы.
     Для восполнения боезапаса потребуется зарядник энергооружия.
 
 ert-loadout-category-xraycannon-name = Рентгеновская пушка
@@ -96,7 +101,7 @@ ert-loadout-category-lasergun-description =
 ert-loadout-category-advancedlaser-name = Продвинутый лазерный пистолет
 ert-loadout-category-advancedlaser-description =
     Экспериментальный лазерный пистолет. 
-    Его батарея со временем восполняет свой заряд.
+    Батарея этого оружия подзаряжается сама со временем.
 
 ert-loadout-category-pulsepistol-name = Импульсный пистолет
 ert-loadout-category-pulsepistol-description =
