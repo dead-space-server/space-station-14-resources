@@ -109,6 +109,7 @@
     - EnforcerSet
     - WT550Set
     - LaserCannonSet
+    - XrayCannonSet
   - type: ActivatableUI
     key: enum.ThiefBackpackUIKey.Key
   - type: UserInterface
@@ -171,6 +172,7 @@
     possibleSets:
     - N1984Set
     - PulsePistolSet
+    - AdvancedLaserSet
   - type: ActivatableUI
     key: enum.ThiefBackpackUIKey.Key
   - type: UserInterface
