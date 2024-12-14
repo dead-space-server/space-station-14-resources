@@ -101,7 +101,7 @@
   - type: Evolution
     duration: 300 # Время до получения возможности эволюционировать
     spawnedEntities: # В кого можно эволюционировать
-      - MobSpiderTerrorQuinLvl3
+      - MobSpiderTerrorQueenLvl3
   - type: SpawnAgainst
     duration: 20
     spawnAgainstAction: ActionSpawnAgainst

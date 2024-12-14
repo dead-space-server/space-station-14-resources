@@ -27,7 +27,7 @@
     - FullAuto
     - SemiAuto
   - type: ProjectileBatteryAmmoProvider
-    proto: CarbineAutoBullet
+    proto: LaserRifleBullet
     fireCost: 80
   - type: Battery
     maxCharge: 2800
