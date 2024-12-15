@@ -1,7 +1,7 @@
 - type: entity
   id: BannerGreen
   parent: BannerBase
-  name: Знамя клана паука
+  name: знамя клана паука
   description: Простота и яркость флага подчёркивают устрашающую репутацию клана.
   components:
   - type: Sprite

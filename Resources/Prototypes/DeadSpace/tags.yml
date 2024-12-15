@@ -45,3 +45,8 @@
 
 - type: Tag
   id: SnapPop
+
+- type: Tag 
+  id: SniperWeapon
+
+  # Обязательно в алфавитном порядке
