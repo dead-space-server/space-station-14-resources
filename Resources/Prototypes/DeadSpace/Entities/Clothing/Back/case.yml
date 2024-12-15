@@ -1,5 +1,5 @@
 - type: entity
-  parent: [ClothingBeltBase, ClothingSlotBase ]
+  parent: [ ClothingBeltBase, ClothingSlotBase ]
   id: ClothingBackpackCase
   name: гитарный кейс
   description: Обязательный атрибут бродячих музыкантов и тихих школьников.
