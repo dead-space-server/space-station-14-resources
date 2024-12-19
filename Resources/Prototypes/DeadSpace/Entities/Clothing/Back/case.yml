@@ -25,7 +25,7 @@
         whitelist:
           tags:
           - StringInstrument
-          - SniperWeapon
+          - FittableInBackpackCase
   - type: ItemMapper
     mapLayers:
       sheath-sabre:
