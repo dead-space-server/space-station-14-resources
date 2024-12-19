@@ -95,7 +95,6 @@
     tags:
     - FittableInBackpackCase
 
-
 - type: entity
   name: musket
   parent: [ BaseWeaponSniper, BaseGunWieldable, BaseMinorContraband ]
