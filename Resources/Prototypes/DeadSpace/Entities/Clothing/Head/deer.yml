@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatDeer
+  name: рога оленя
+  description: Именно с такими рогами ходит ГСБ.
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Clothing/Head/Hats/deer.rsi
+  - type: Clothing
+    sprite: DeadSpace/Clothing/Head/Hats/deer.rsi

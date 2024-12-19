@@ -51,6 +51,12 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitMimeSexyBlack
 
+# Neck
+- type: loadout
+  id: MimeNeckSexy
+  equipment:
+    neck: ClothingNeckMimeSexy
+
 # Back
 - type: loadout
   id: MimeBackpack
