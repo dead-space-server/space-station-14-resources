@@ -79,7 +79,6 @@ loadout-group-clown-shoes = Clown shoes
 loadout-group-mime-head = Mime head
 loadout-group-mime-mask = Mime mask
 loadout-group-mime-jumpsuit = Mime jumpsuit
-loadout-group-mime-neck = Mime Neck
 loadout-group-mime-backpack = Mime backpack
 loadout-group-mime-outerclothing = Mime outer clothing
 loadout-group-mime-belt = Mime belt
