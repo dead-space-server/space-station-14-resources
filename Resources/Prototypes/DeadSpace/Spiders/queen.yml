@@ -48,7 +48,7 @@
   - type: Evolution
     duration: 60 # Время до получения возможности эволюционировать
     spawnedEntities: # В кого можно эволюционировать
-      - MobSpiderTerrorQuinLvl2
+      - MobSpiderTerrorQueenLvl2
   - type: SpideKing
 
 - type: entity
