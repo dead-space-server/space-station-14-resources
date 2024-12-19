@@ -25,6 +25,9 @@
 - type: Tag
   id: FelinidFood
 
+- type: Tag 
+  id: FittableInBackpackCase
+
 - type: Tag
   id: KatanaVjlados
 
@@ -45,8 +48,5 @@
 
 - type: Tag
   id: SnapPop
-
-- type: Tag 
-  id: SniperWeapon
 
   # Обязательно в алфавитном порядке
