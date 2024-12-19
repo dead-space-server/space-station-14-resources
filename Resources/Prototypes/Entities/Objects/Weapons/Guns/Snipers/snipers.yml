@@ -93,7 +93,7 @@
       path: /Audio/Weapons/Guns/Empty/empty.ogg
   - type: Tag
     tags:
-    - SniperWeapon
+    - FittableInBackpackCase
 
 
 - type: entity
