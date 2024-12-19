@@ -9,7 +9,7 @@
     ClothingUniformJumpsuitEngineeringHazard: 4
     ClothingShoesColorBlack: 4
     ClothingOuterVestHazard: 6
-    # ClothingOuterCoatAtmosWorking: 4
+    # ClothingOuterCoatAtmosWorking: 4 # DS14
     ClothingShoesBootsWork: 6
     ClothingHeadHatHardhatYellow: 4
     ClothingHeadHatHardhatOrange: 4
