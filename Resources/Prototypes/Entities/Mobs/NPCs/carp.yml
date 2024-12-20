@@ -60,7 +60,7 @@
         - id: MaterialToothSpaceCarp1
           amount: 1
           maxAmount: 4
-        - id: FoodMeatCaviar # DS14
+        - id: FoodCaviar # DS14
           amount: 2
           maxAmount: 4
     - type: MeleeWeapon
