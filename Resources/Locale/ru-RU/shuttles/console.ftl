@@ -23,6 +23,9 @@ shuttle-console-nav-settings = Радар
 shuttle-console-iff-toggle = Система опознавания
 shuttle-console-dock-toggle = Стыковочные порты
 
+shuttle-console-signal-settings = Управление устройствами
+shuttle-console-signal-toggle = Активировать
+
 shuttle-console-thrust-title = Управление тягой
 shuttle-console-thrust-gyroscope = Мощность гироскопа
 shuttle-console-thrust-thrusters = Мощность двигателей

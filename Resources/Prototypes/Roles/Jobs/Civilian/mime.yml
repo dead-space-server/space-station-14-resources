@@ -46,7 +46,7 @@
   components:
   - type: InstantAction
     priority: -1
-    useDelay: 20 # DS14 value
+    useDelay: 20 # DS14-value
     icon:
       sprite: Structures/Walls/solid.rsi
       state: full

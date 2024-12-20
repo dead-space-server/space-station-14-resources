@@ -91,7 +91,7 @@
   damageModifierSet: Necromorf
   isCanSpawnInfectionDead: false
   useInventory: false
-  sprite: DeadSpace/Mods/Necromorfs/small_necro.rsi
+  sprite: DeadSpace/Necromorfs/small_necro.rsi
   state: running
 
 - type: necromorf
@@ -206,7 +206,7 @@
   useInventory: false
   isCanSpawnInfectionDead: false # Может появиться с помощью зараженя, или нет
   # hardsuit: ClothingCorpseCollectorLvl1 #Верхняя одежда некроморфа
-  sprite: DeadSpace/Mods/Necromorfs/corpsecollector.rsi
+  sprite: DeadSpace/Necromorfs/corpsecollector.rsi
   state: lvl1
   movementSpeedMultiply: 1 # Модификатор скорости
   components: # Доп. компоненты

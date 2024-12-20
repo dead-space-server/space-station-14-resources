@@ -42,6 +42,8 @@
       collection: XenoScream
     Weh:
       collection: Weh
+    Hew:
+      collection: Hew
     Meow:
       path: /Audio/DeadSpace/Sponsor/Sound/meow_xeno.ogg
     Hiss:
