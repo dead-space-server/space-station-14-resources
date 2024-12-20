@@ -1,6 +1,6 @@
 - type: gameMap
   id: Amber
-  mapName: 'Amber Station (НЕ ЗАПУСКАТЬ)'
+  mapName: 'Amber Station'
   mapPath: /Maps/amber.yml
   minPlayers: 150 # 7
   maxPlayers: 50

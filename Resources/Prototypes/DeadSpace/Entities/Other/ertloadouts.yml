@@ -4,7 +4,7 @@
 - type: entity
   parent: BaseItem
   id: BaseERTloadoutPrimary
-  noSpawn: true
+  abstract: true
   name: кейс неопределённости
   description: Прочный военный кейс для оружия.
   components:
@@ -29,7 +29,7 @@
 - type: entity
   parent: BaseItem
   id: BaseERTloadoutSecondary
-  noSpawn: true
+  abstract: true
   name: коробка неопределённости
   description: Коробка с табельным оружием.
   components:

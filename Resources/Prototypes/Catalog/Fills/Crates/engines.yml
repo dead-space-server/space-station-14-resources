@@ -143,12 +143,3 @@
   - type: StorageFill
     contents:
       - id: TeslaGroundingRodFlatpack
-
-# ADT
-- type: entity
-  id: CrateEngineeringIndustrialSMES
-  parent: CrateEngineeringSecure
-  components:
-  - type: StorageFill
-    contents:
-      - id: ADTSMESIndustrialEmpty

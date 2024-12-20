@@ -138,9 +138,9 @@
             Toxin: -4
             Airloss: -4
             Brute: -4
-        types:
-          Bloodloss:
-            -1
+          types:
+            Bloodloss:
+              -1
 
 - type: reagent
   id: SpiderEggs
@@ -148,7 +148,7 @@
   group: Toxins
   desc: reagent-desc-spider-eggs
   physicalDesc: reagent-physical-desc-soothing
-  flavor: toxin
+  flavor: terrible
   color: "#7FFFD4"
   metabolisms:
     Poison:

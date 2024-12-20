@@ -27,5 +27,3 @@ ent-CrateEngineeringTeslaCoil = ящик с катушкой Теслы
     .desc = Катушка Теслы. Притягивает молнии и вырабатывает из них энергию.
 ent-CrateEngineeringTeslaGroundingRod = ящик с заземляющим стержнем Теслы
     .desc = Заземляющий стержень, идеально для защиты от молний.
-ent-CrateEngineeringIndustrialSMES = ящик с индустриальным СМЭС
-    .desc = { ent-CrateEngineeringSecure.desc }

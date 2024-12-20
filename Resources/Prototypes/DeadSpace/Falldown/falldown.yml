@@ -11,4 +11,4 @@
       sprite: Interface/Actions/actions_crit.rsi
       state: fakedeath
     event: !type:FalldownActionEvent
-    priority: 20 # DS14 value
+    priority: 20 # DS14-value

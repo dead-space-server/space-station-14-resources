@@ -21,7 +21,7 @@
   objective: Ваша цель захватить станцию.
 
 - type: antag
-  id: SpiderTerrorQuin
+  id: SpiderTerrorQueen
   name: roles-antag-spider-terror-quin-name
   antagonist: true
   setPreference: true
@@ -59,7 +59,7 @@
   - type: SpiderTerrorRule
   - type: AntagSelection
     definitions:
-    - prefRoles: [ SpiderTerrorQuin ]
+    - prefRoles: [ SpiderTerrorQueen ]
       fallbackRoles: [ SpiderTerrorKingBlood, SpiderTerrorKing ]
       max: 2
       min: 2
@@ -75,9 +75,9 @@
         - id: MobSpiderTerrorQueen
           amount: 1
       mindRoles:
-      - MindRoleSpiderTettorQuin
+      - MindRoleSpiderTettorQueen
     - prefRoles: [ SpiderTerrorKing ]
-      fallbackRoles: [ SpiderTerrorQuin, SpiderTerrorKingBlood ]
+      fallbackRoles: [ SpiderTerrorQueen, SpiderTerrorKingBlood ]
       max: 2
       min: 2
       briefing:
@@ -94,7 +94,7 @@
       mindRoles:
       - MindRoleSpiderTettorKing
     - prefRoles: [ SpiderTerrorKingBlood ]
-      fallbackRoles: [ SpiderTerrorQuin, SpiderTerrorKing ]
+      fallbackRoles: [ SpiderTerrorQueen, SpiderTerrorKing ]
       max: 2
       min: 2
       playerRatio: 10

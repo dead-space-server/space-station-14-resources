@@ -30,7 +30,7 @@ entities:
       name: NT Evac EntZero 673
     - type: Transform
       pos: 0.52083397,0.5416665
-      parent: 1393
+      parent: invalid
     - type: MapGrid
       chunks:
         -1,-1:
@@ -847,18 +847,6 @@ entities:
     - type: GasTileOverlay
     - type: SpreaderGrid
     - type: GridPathfinding
-  - uid: 1393
-    components:
-    - type: MetaData
-      name: emergency_corvaxavrit
-    - type: Transform
-    - type: Map
-    - type: PhysicsMap
-    - type: GridTree
-    - type: MovedGrids
-    - type: Broadphase
-    - type: OccluderTree
-    - type: LoadedMap
 - proto: AcousticGuitarInstrument
   entities:
   - uid: 273

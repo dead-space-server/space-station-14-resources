@@ -5,10 +5,10 @@
   description: Нож который выдаётся шеф-поварам за выслугу лет. Отличный подарок для того кто способен приготовить отличные блюда.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/chef_golden_knife.rsi
+    sprite: DeadSpace/Objects/Weapons/Melee/chef_golden_knife.rsi
     state: icon
   - type: Item
-    sprite: Objects/Weapons/Melee/chef_golden_knife.rsi
+    sprite: DeadSpace/Objects/Weapons/Melee/chef_golden_knife.rsi
   - type: MeleeWeapon
     wideAnimationRotation: -135
     attackRate: 1.5

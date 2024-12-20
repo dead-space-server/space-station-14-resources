@@ -411,7 +411,6 @@
       - id: ClothingOuterHardsuitDragonFoxMedTech
       - id: ClothingBeltWebbingDragonFoxMedTech
       - id: ClothingShoesBootsMagDragonFoxMedTech
-      - id: ClothingBeltWebbingDragonFoxMedTech
       - id: ClothingHandsGlovesDragonFoxMedTech
       - id: PDADragonFoxMedTech
       - id: JetpackVoidFilled
@@ -498,6 +497,14 @@
     maxItemSize: Small
     grid:
     - 0,0,7,1
+  - type: Item
+    size: Huge
+  - type: StorageFill
+    contents:
+      - id: PowerDrill
+      - id: CrowbarRed
+      - id: WelderExperimental
+      - id: Multitool
 
 - type: entity
   parent: ClothingShoesBootsMag
