@@ -126,3 +126,14 @@
     Cellulose: 20
   solids:
     FoodBowlBig: 1
+
+- type: microwaveMealRecipe
+  id: RecipeCaviarBurger
+  name: caviar burger recipe
+  result: FoodSoupSawdust
+  time: 1
+  reagents:
+    FoodBreadPlainSlice: 1
+    FoodCaviar: 20
+  solids:
+    FoodCaviarBurger: 1
