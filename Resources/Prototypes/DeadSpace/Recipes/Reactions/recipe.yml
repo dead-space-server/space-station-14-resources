@@ -134,6 +134,6 @@
   time: 1
   reagents:
     FoodBreadPlainSlice: 1
-    FoodCaviar: 20
+    FoodCaviar: 1
   solids:
     FoodCaviarBurger: 1
