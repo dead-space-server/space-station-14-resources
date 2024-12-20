@@ -146,7 +146,7 @@
       - caviar
   - type: Sprite
     sprite: /Textures/DeadSpace/Objects/Consumable/Food/caviar.rsi
-    state: R3-icon
+    state: icon
   
 - type: entity
   parent: FoodBurgerBase
@@ -160,4 +160,4 @@
       - bread
   - type: Sprite
     sprite: /Textures/DeadSpace/Objects/Consumable/Food/caviar.rsi
-    state: R3-on-bread
+    state: on-bread
