@@ -61,3 +61,8 @@
     proto: FemaleUnderwear
   equipment:
     underweart: ClothingUnderwearTopBraChef
+  
+- type: loadout
+  id: ClothingHandsGlovesLatex
+  equipment:
+    gloves: ClothingHandsGlovesLatex
