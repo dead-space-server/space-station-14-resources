@@ -66,7 +66,7 @@
   - type: Egg
     eggSound:
       collection: SpiderHatches # Звуки яйца
-    duration: 360 # Время до вылупления
+    duration: 500 # Время до вылупления
     durationPlayEggSound: 10 # Интервалы между звуками яйца
     spawned:
     - id: MobSpiderTerrorGuardianKingBlood # Что вылупилось

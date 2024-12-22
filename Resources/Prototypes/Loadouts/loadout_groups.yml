@@ -8,6 +8,7 @@
   - FlowerWreath
   - Hairflower
   - Headphones
+  - HatDeer # DS14
   - PlushieLizard
   - PlushieSpaceLizard
   - Lighter
@@ -327,8 +328,15 @@
   - UnderwearBottomPantiesChef
 
 - type: loadoutGroup
+  id: ChefHand
+  name: loadout-group-chef-hand
+  minLimit: 0
+  loadouts:
+  - ChefGoldenKnife  
+
+- type: loadoutGroup
   id: ChefGloves
-  name: ChefGloves
+  name: loadout-group-chef-gloves
   minLimit: 0
   loadouts:
   - ClothingHandsGlovesLatex
@@ -615,6 +623,14 @@
   loadouts:
   - MimeJumpsuit
   - MimeJumpskirt
+  - MimeJumpSexyWhite
+  - MimeJumpSexyBlack
+
+- type: loadoutGroup
+  id: MimeNeck
+  name: loadout-group-mime-neck
+  loadouts:
+  - MimeNeckSexy
 
 - type: loadoutGroup
   id: MimeBackpack
@@ -795,6 +811,9 @@
   loadouts:
   - CargoTechnicianJumpsuit
   - CargoTechnicianJumpskirt
+  - CargoTechnicianSuit
+  - CargoTechnicianFormalSuit
+  - CargoTechnicianFormalJumpskirt
 
 - type: loadoutGroup
   id: CargoTechnicianBackpack
@@ -836,6 +855,15 @@
   - SalvageSpecialistSatchel
   - SalvageSpecialistDuffel
 
+- type: loadoutGroup
+  id: SalvageSpecialistJumpsuit
+  name: loadout-group-salvage-specialist-jumpsuit
+  loadouts:
+  - SalvageSpecialistJumpsuit
+  - SalvageSpecialistJumpsuitFormal
+  - SalvageSpecialistJumpskirt
+  - SalvageSpecialistJumpskirtFormal
+  
 - type: loadoutGroup
   id: SalvageSpecialistOuterClothing
   name: loadout-group-salvage-specialist-outerclothing
@@ -1371,7 +1399,6 @@
 - type: loadoutGroup
   id: DetectiveOuterClothing
   name: loadout-group-detective-outerclothing
-  minLimit: 0
   loadouts:
   - DetectiveArmorVest
   - DetectiveCoat
@@ -1687,6 +1714,8 @@
   loadouts:
   - ReporterJumpsuit
   - JournalistJumpsuit
+  - ReporterJumpskirt
+  - JournalistJumpskirt
 
 - type: loadoutGroup
   id: PsychologistJumpsuit

@@ -5,7 +5,6 @@ shuttle-console-in-ftl = Уже в БСС
 shuttle-console-mass = Слишком большой для БСС
 shuttle-console-prevent = Вы не можете пилотировать этот корабль
 shuttle-console-noftl = Данный корабль не может войти в БСС!
-shuttle-console-static = Грид статичный
 
 # NAV
 
@@ -24,6 +23,9 @@ shuttle-console-nav-settings = Радар
 shuttle-console-iff-toggle = Система опознавания
 shuttle-console-dock-toggle = Стыковочные порты
 
+shuttle-console-signal-settings = Управление устройствами
+shuttle-console-signal-toggle = Активировать
+
 shuttle-console-thrust-title = Управление тягой
 shuttle-console-thrust-gyroscope = Мощность гироскопа
 shuttle-console-thrust-thrusters = Мощность двигателей
@@ -37,6 +39,7 @@ shuttle-console-ftl-state-Available = Доступно
 shuttle-console-ftl-state-Starting = Запуск
 shuttle-console-ftl-state-Travelling = В пути
 shuttle-console-ftl-state-Arriving = Прибытие
+shuttle-console-ftl-state-Invalid = Ошибка
 shuttle-console-ftl-state-Cooldown = Перезарядка
 
 shuttle-console-map-settings = Настройки

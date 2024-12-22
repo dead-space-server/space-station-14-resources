@@ -134,3 +134,30 @@
   - type: Tag
     tags:
     - Soup
+
+- type: entity
+  parent: FoodMealBase
+  id: FoodCaviar
+  name: карпья икра
+  description: От нее пахнет новогодним вайбом.
+  components:
+  - type: FlavorProfile
+    flavors:
+      - caviar
+  - type: Sprite
+    sprite: /Textures/DeadSpace/Objects/Consumable/Food/caviar.rsi
+    state: R3-icon
+  
+- type: entity
+  parent: FoodBurgerBase
+  id: FoodCaviarBurger
+  name: бутерброд с карпьей икрой
+  description: Культовая еда для застолья на Новый год.
+  components:
+  - type: FlavorProfile
+    flavors:
+      - caviar
+      - bread
+  - type: Sprite
+    sprite: /Textures/DeadSpace/Objects/Consumable/Food/caviar.rsi
+    state: R3-on-bread

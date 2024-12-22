@@ -28,6 +28,7 @@
   - Maintenance
   - Service
   - External
+  - Cryogenics
   #start-backmen: currency
   minBankBalance: 150
   maxBankBalance: 250

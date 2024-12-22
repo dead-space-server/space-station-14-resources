@@ -152,3 +152,16 @@
     event: !type:SpiderInfectorActionEvent
     checkCanAccess: false
     range: 2
+
+- type: entity
+  id: ActionHatch
+  name: Вылупиться
+  description: Вылезти из носителя.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    useDelay: 10
+    icon:
+      sprite: /Textures/DeadSpace/Interface/Misc/antag_icons.rsi
+      state: Egg
+    event: !type:HatchActionEvent

@@ -4,7 +4,7 @@ loadout-group-default-white-underwear = Стандартное нижнее бе
 loadout-group-blue-shield-officer-jumpsuit = Синий щит, комбинезон
 loadout-group-blue-shield-officer-backpack = Синий щит, рюкзак
 # Civilian
-loadout-group-senior-administrator-jumpsuit = Администратор, комбинезон
+loadout-group-senior-administrator-jumpsuit = Менеджер, комбинезон
 # Cargo
 # Law
 loadout-group-magistrat-jumpsuit = Магистрат, комбинезон

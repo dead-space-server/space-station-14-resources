@@ -50,6 +50,39 @@
           type: WiresBoundUserInterface
 
 - type: entity
+  parent: BaseComputerAiAccess
+  id: ComputerAtmosMonitoring
+  name: atmospheric network monitor
+  description: Used to monitor the station's atmospheric networks.
+  components:
+  - type: Computer
+    board: AtmosMonitoringComputerCircuitboard
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: tank
+    - map: ["computerLayerKeys"]
+      state: atmos_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: generic_panel_open
+  - type: AtmosMonitoringConsole
+    navMapTileColor: "#1a1a1a"
+    navMapWallColor: "#404040"
+  - type: ActivatableUI
+    singleUser: true
+    key: enum.AtmosMonitoringConsoleUiKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.AtmosMonitoringConsoleUiKey.Key:
+        type: AtmosMonitoringConsoleBoundUserInterface
+      enum.WiresUiKey.Key:
+        type: WiresBoundUserInterface
+
+- type: entity
   parent: BaseComputer
   id: ComputerEmergencyShuttle
   name: emergency shuttle console
@@ -115,6 +148,15 @@
       board: !type:Container
         ents: []
       disk_slot: !type:ContainerSlot {}
+  # DS14-start
+  - type: DeviceNetwork
+    deviceNetId: Wired
+  - type: DeviceList
+  - type: DeviceLinkSource
+    range: 30
+    ports:
+      - ShuttleConsoleSender
+  # DS14-end
 
 - type: entity
   parent: BaseComputerShuttle

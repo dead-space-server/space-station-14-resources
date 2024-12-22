@@ -28,7 +28,7 @@
   - type: CombatMode
   - type: Physics
     ignorePaused: true
-    bodyType: Kinematic
+    bodyType: KinematicController
   - type: Body
     prototype: Aghost
   - type: Access
@@ -111,7 +111,7 @@
     icon: Corvax/Interface/AdminActions/solar.png # Corvax-Resprite
     iconOn: Corvax/Interface/AdminActions/solar.png # Corvax-Resprite
     keywords: [ "AI", "console", "interface" ]
-    priority: -10
+    priority: 20
     event: !type:ToggleIntrinsicUIEvent { key: enum.SolarControlConsoleUiKey.Key }
 
 - type: entity
@@ -123,7 +123,7 @@
     icon: Corvax/Interface/AdminActions/communications.png # Corvax-Resprite
     iconOn: Corvax/Interface/AdminActions/communications.png # Corvax-Resprite
     keywords: [ "AI", "console", "interface" ]
-    priority: -4
+    priority: 20
     event: !type:ToggleIntrinsicUIEvent { key: enum.CommunicationsConsoleUiKey.Key }
 
 - type: entity
@@ -135,7 +135,7 @@
     icon: Corvax/Interface/AdminActions/radar.png # Corvax-Resprite
     iconOn: Corvax/Interface/AdminActions/radar.png # Corvax-Resprite
     keywords: [ "AI", "console", "interface" ]
-    priority: -6
+    priority: 20
     event: !type:ToggleIntrinsicUIEvent { key: enum.RadarConsoleUiKey.Key }
 
 - type: entity
@@ -147,7 +147,7 @@
     icon: Corvax/Interface/AdminActions/cargo.png # Corvax-Resprite
     iconOn: Corvax/Interface/AdminActions/cargo.png # Corvax-Resprite
     keywords: [ "AI", "console", "interface" ]
-    priority: -10
+    priority: 20
     event: !type:ToggleIntrinsicUIEvent { key: enum.CargoConsoleUiKey.Orders }
 
 - type: entity
@@ -159,7 +159,7 @@
     icon: Corvax/Interface/AdminActions/monitoring.png # Corvax-Resprite
     iconOn: Corvax/Interface/AdminActions/monitoring.png # Corvax-Resprite
     keywords: [ "AI", "console", "interface" ]
-    priority: -8
+    priority: 20
     event: !type:ToggleIntrinsicUIEvent { key: enum.CrewMonitoringUIKey.Key }
 
 - type: entity
@@ -171,5 +171,5 @@
     icon: Corvax/Interface/AdminActions/records.png # Corvax-Resprite
     iconOn: Corvax/Interface/AdminActions/records.png # Corvax-Resprite
     keywords: [ "AI", "console", "interface" ]
-    priority: -7
+    priority: 20
     event: !type:ToggleIntrinsicUIEvent { key: enum.GeneralStationRecordConsoleKey.Key }

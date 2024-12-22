@@ -93,6 +93,7 @@
   - type: Tag
     tags:
     - HamsterWearable
+    - MukhtarWearable # DS14
     - WhitelistChameleon
 
 - type: entity
@@ -123,6 +124,7 @@
   - type: Tag
     tags:
     - HamsterWearable
+    - MukhtarWearable # DS14
     - WhitelistChameleon
 
 - type: entity
@@ -137,6 +139,9 @@
     sprite: Clothing/Eyes/Glasses/outlawglasses.rsi
   - type: VisionCorrection
   - type: IdentityBlocker
+  - type: Tag
+    tags:
+    - MukhtarWearable # DS14
 
 - type: entity
   parent: ClothingEyesBase
@@ -151,6 +156,7 @@
   - type: Tag
     tags:
     - HamsterWearable
+    - MukhtarWearable # DS14
     - WhitelistChameleon
   - type: IdentityBlocker
     coverage: EYES
@@ -168,6 +174,7 @@
     tags:
     - Sunglasses
     - HamsterWearable
+    - MukhtarWearable # DS14
     - WhitelistChameleon
 
 - type: entity
@@ -189,6 +196,7 @@
   - type: Tag
     tags:
     - HamsterWearable
+    - MukhtarWearable # DS14
     - WhitelistChameleon
   - type: GuideHelp
     guides:
@@ -213,6 +221,7 @@
   - type: Tag
     tags:
     - HamsterWearable
+    - MukhtarWearable # DS14
     - WhitelistChameleon
   - type: IdentityBlocker
     coverage: EYES
@@ -233,6 +242,9 @@
     protectionTime: 5
   - type: IdentityBlocker
     coverage: EYES
+  - type: Tag
+    tags:
+    - MukhtarWearable # DS14
 
 #Make a scanner category when these actually function and we get the trayson
 - type: entity

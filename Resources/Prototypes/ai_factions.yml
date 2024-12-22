@@ -7,8 +7,9 @@
     - PetsNT
     - Zombie
     - Revolutionary
-    - Necromorfs
-    - SpiderTerror
+    - AllHostile
+    - Necromorfs # DS14
+    - SpiderTerror # DS14
 
 - type: npcFaction
   id: NanoTrasen
@@ -18,13 +19,15 @@
   - Xeno
   - Zombie
   - Revolutionary
-  - Necromorfs
-  - SpiderTerror
+  - AllHostile
+  - Necromorfs # DS14
+  - SpiderTerror # DS14
 
 - type: npcFaction
   id: Mouse
   hostile:
     - PetsNT
+    - AllHostile
 
 - type: npcFaction
   id: Passive
@@ -36,6 +39,7 @@
   - SimpleHostile
   - Zombie
   - Xeno
+  - AllHostile
 
 - type: npcFaction
   id: SimpleHostile
@@ -46,8 +50,9 @@
   - PetsNT
   - Zombie
   - Revolutionary
-  - Necromorfs
-  - SpiderTerror
+  - AllHostile
+  - Necromorfs # DS14
+  - SpiderTerror # DS14
 
 - type: npcFaction
   id: SimpleNeutral
@@ -60,8 +65,9 @@
   - Xeno
   - PetsNT
   - Zombie
-  - Necromorfs
-  - SpiderTerror
+  - AllHostile
+  - Necromorfs # DS14
+  - SpiderTerror # DS14
 
 - type: npcFaction
   id: Xeno
@@ -72,8 +78,9 @@
   - PetsNT
   - Zombie
   - Revolutionary
-  - Necromorfs
-  - SpiderTerror
+  - AllHostile
+  - Necromorfs # DS14
+  - SpiderTerror # DS14
 
 - type: npcFaction
   id: Zombie
@@ -85,8 +92,9 @@
   - Passive
   - PetsNT
   - Revolutionary
-  - Necromorfs
-  - SpiderTerror
+  - AllHostile
+  - Necromorfs # DS14
+  - SpiderTerror # DS14
 
 - type: npcFaction
   id: Revolutionary
@@ -95,5 +103,23 @@
   - Zombie
   - SimpleHostile
   - Dragon
-  - Necromorfs
-  - SpiderTerror
+  - AllHostile
+  - Necromorfs # DS14
+  - SpiderTerror # DS14
+
+- type: npcFaction
+  id: AllHostile
+  hostile:
+  - NanoTrasen
+  - Dragon
+  - Mouse
+  - Passive
+  - PetsNT
+  - SimpleHostile
+  - SimpleNeutral
+  - Syndicate
+  - Xeno
+  - Zombie
+  - Revolutionary
+  - Necromorfs # DS14
+  - SpiderTerror # DS14

@@ -2,7 +2,7 @@
   id: ADTFoxTail
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Human, Dwarf, Felinid, VulpkaninSpecies]
+  speciesRestriction: [Human, Dwarf, Felinid, Vulpkanin]
   sponsorOnly: True
   coloring:
     default:

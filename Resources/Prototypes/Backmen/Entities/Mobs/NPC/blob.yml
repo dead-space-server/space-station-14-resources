@@ -19,7 +19,6 @@
         - sprite: Backmen/Mobs/Aliens/blob.rsi
           state: blob_nuke_overlay
 
-
 - type: entity
   id: MobBlobPod
   name: Blob pod
@@ -118,7 +117,6 @@
       sprite: Backmen/Mobs/Aliens/blob.rsi
       state: blobpod
 
-
 - type: entity
   id: MobBlobBlobbernaut
   name: Blobbernaut
@@ -203,9 +201,6 @@
         - map: [ "enum.DamageStateVisualLayers.BaseUnshaded" ]
           state: nautdamage
           shader: unshaded
-    # - type: NightVision
-    #   isToggle: true
-    #   color: "#808080"
 
 - type: entity
   id: BaseBlob
@@ -288,34 +283,6 @@
     layers:
       - map: [ "enum.DamageStateVisualLayers.Base" ]
         state: blob
-#      Vanila vs new type, idk
-#  - type: SlowContacts
-#    walkSpeedModifier: 0.3
-#    sprintSpeedModifier: 0.3
-#    ignoreWhitelist:
-#      tags:
-#        - BlobMob
-#  - type: DamageContacts
-#    damage:
-#      types:
-#        Poison: 1.5
-#        Piercing: 1.5
-#    ignoreWhitelist:
-#      tags:
-#        - BlobMob
-#  - type: Fixtures
-#    fixtures:
-#      fix1:
-#        density: 7
-#        shape:
-#          !type:PhysShapeAabb
-#          bounds: "-0.5,-0.5,0.5,0.5"
-#        layer:
-#          - BlobTileLayer
-#        mask:
-#          - BlobTileMask
-
-
 
 - type: entity
   parent: BaseBlob
@@ -370,9 +337,7 @@
         state: blob_core
       - map: [ "enum.DamageStateVisualLayers.BaseUnshaded" ]
         state: blob_core_glow
-#        shader: unshaded
       - state: blob_core_overlay
-
 
 - type: entity
   parent: CoreBlobTile
@@ -387,7 +352,6 @@
       raffle:
         settings: default
     - type: GhostTakeoverAvailable
-
 
 - type: entity
   parent: BaseBlob
@@ -426,8 +390,6 @@
           state: blob_factory
         - map: [ "enum.DamageStateVisualLayers.BaseUnshaded" ]
           state: blob_factory_glow
-#          shader: unshaded
-
 
 - type: entity
   parent: BaseBlob
@@ -465,8 +427,6 @@
           state: blob_resource
         - map: [ "enum.DamageStateVisualLayers.BaseUnshaded" ]
           state: blob_resource_glow
-#          shader: unshaded
-
 
 - type: entity
   parent: BaseBlob
@@ -505,9 +465,7 @@
           state: blob_node
         - map: [ "enum.DamageStateVisualLayers.BaseUnshaded" ]
           state: blob_node_glow
-#          shader: unshaded
         - state: blob_node_overlay
-
 
 - type: entity
   parent: BaseBlob
@@ -535,8 +493,6 @@
           state: blob_glow
         - map: [ "enum.DamageStateVisualLayers.BaseUnshaded" ]
           state: blob_glow
-#          shader: unshaded
-
 
 - type: entity
   parent: BaseBlob
@@ -570,46 +526,6 @@
       layers:
         - map: [ "enum.DamageStateVisualLayers.Base" ]
           state: blob_shield
-#        - map: [ "enum.DamageStateVisualLayers.BaseUnshaded" ]
-#          state: blob_shield_damaged
-#          shader: unshaded
-
-
-#- type: entity
-#  parent: BaseStructure
-#  id: BlobBorder
-#  name: debug wall
-#  categories: [ HideSpawnMenu ]
-#  suffix: DONTMAP
-#  placement:
-#    mode: SnapgridCenter
-#    snap:
-#      - Wall
-#  components:
-#    - type: BlobBorder
-#    - type: Fixtures
-#      fixtures:
-#        fix1:
-#          shape:
-#            !type:PhysShapeAabb
-#            bounds: "-0.5,-0.5,0.5,0.5"
-#          mask:
-#            - BlobGhostImpassable
-#          layer:
-#            - BlobGhostImpassable
-#    - type: PlacementReplacement
-#      key: walls
-#    - type: Visibility
-#      layer: 5
-#    - type: Sprite
-#      drawdepth: Walls
-#      sprite: Structures/Walls/debug.rsi
-#    - type: Icon
-#      state: full
-#      sprite: Structures/Walls/debug.rsi
-#    - type: IconSmooth
-#      key: walls
-#      base: debug
 
 - type: entity
   id: MobObserverBlobController

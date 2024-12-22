@@ -129,6 +129,7 @@
     - CentralCommand
     - NuclearOperative
     - SyndicateAgent
+    - Wizard
     - AccessReserved1
     - AccessReserved2
     - AccessReserved3
