@@ -1,6 +1,6 @@
 - type: gameMap
   id: Gate
-  mapName: 'Gate Station'
+  mapName: 'Gate Station (НЕ ИСПОЛЬЗОВАТЬ)'
   mapPath: /Maps/gate.yml
   minPlayers: 55
   stations:

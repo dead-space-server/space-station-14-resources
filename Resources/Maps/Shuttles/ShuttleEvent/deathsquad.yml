@@ -1291,6 +1291,43 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 3.5,-0.5
       parent: 1
+- proto: RandomHumanoidSpawnerDeathSquad
+  entities:
+  - uid: 229
+    components:
+    - type: Transform
+      pos: -0.5,3.5
+      parent: 1
+  - uid: 230
+    components:
+    - type: Transform
+      pos: -0.5,2.5
+      parent: 1
+  - uid: 231
+    components:
+    - type: Transform
+      pos: -0.5,1.5
+      parent: 1
+  - uid: 232
+    components:
+    - type: Transform
+      pos: 1.5,3.5
+      parent: 1
+  - uid: 233
+    components:
+    - type: Transform
+      pos: 1.5,2.5
+      parent: 1
+  - uid: 234
+    components:
+    - type: Transform
+      pos: 1.5,1.5
+      parent: 1
+  - uid: 235
+    components:
+    - type: Transform
+      pos: 0.5,4.5
+      parent: 1
 - proto: SheetGlass1
   entities:
   - uid: 113

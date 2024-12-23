@@ -47,6 +47,15 @@
   - type: Sanity # DS14
   - type: Inventory
     speciesId: reptilian # for reptilian masks
+  - type: Vocal
+    wilhelm: "/Audio/DeadSpace/Voice/Felinid/cat_wilhelm.ogg"
+    sounds:
+      Male: MaleTajaran
+      Female: FemaleTajaran
+      Unsexed: MaleTajaran
+  # - type: Speech
+  #   speechSounds: Tajaran
+  - type: CatVocal # For cat emotes
 
 - type: entity
   save: false

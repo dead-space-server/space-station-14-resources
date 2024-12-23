@@ -47,7 +47,7 @@
     requireAll: true
     components:
     - Vocal
-    - Felinid
+    - CatVocal
   blacklist:
     components:
     - BorgChassis
@@ -69,7 +69,7 @@
     requireAll: true
     components:
     - Vocal
-    - Felinid
+    - CatVocal
   blacklist:
     components:
     - BorgChassis

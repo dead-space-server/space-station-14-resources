@@ -19,6 +19,7 @@ entities:
       name: NT - Repit
     - type: Transform
       pos: -0.43756104,-3.627046
+      parent: invalid
     - type: MapGrid
       chunks:
         0,0:
@@ -6710,6 +6711,20 @@ entities:
           ent: 802
     - type: Physics
       canCollide: False
+- proto: HolopadUnlimitedRange
+  entities:
+  - uid: 1114
+    components:
+    - type: MetaData
+      desc: Напольное устройство для проецирования голографических изображений на аналогичные устройства на больших расстояниях.
+      name: Квантово-запутанный голопад (NT - Repit)
+    - type: Transform
+      pos: 0.5,8.5
+      parent: 1
+    - type: Label
+      currentLabel: NT - Repit
+    - type: NameModifier
+      baseName: Квантово-запутанный голопад
 - proto: IngotGold
   entities:
   - uid: 803

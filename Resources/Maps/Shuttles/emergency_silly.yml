@@ -1584,6 +1584,13 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 3.5,-8.5
       parent: 1
+- proto: HolopadCentCommEvacShuttle
+  entities:
+  - uid: 354
+    components:
+    - type: Transform
+      pos: 4.5,2.5
+      parent: 1
 - proto: Mattress
   entities:
   - uid: 190

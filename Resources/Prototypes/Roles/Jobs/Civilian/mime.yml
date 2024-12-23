@@ -18,6 +18,9 @@
     - type: CustomNameOnSpawn
     - type: MimePowers
     - type: FrenchAccent
+  - !type:GiveItemOnHolidaySpecial
+    holiday: FestiveSeason
+    prototype: PresentRandom
   #start-backmen: currency
   minBankBalance: 150
   maxBankBalance: 250

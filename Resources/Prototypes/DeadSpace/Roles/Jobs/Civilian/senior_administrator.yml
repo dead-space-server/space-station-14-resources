@@ -59,6 +59,10 @@
   wageDepartment: Civilian
   wage: 100
   #end-backmen: currency
+  special:
+  - !type:GiveItemOnHolidaySpecial
+    holiday: FestiveSeason
+    prototype: PresentRandom
 
 - type: startingGear
   id: SeniorAdministratorGear

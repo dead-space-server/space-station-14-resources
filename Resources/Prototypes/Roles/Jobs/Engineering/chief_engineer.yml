@@ -43,6 +43,9 @@
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff
+  - !type:GiveItemOnHolidaySpecial
+    holiday: FestiveSeason
+    prototype: PresentRandom
 
 - type: startingGear
   id: ChiefEngineerGear

@@ -30,6 +30,9 @@
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
+  - !type:GiveItemOnHolidaySpecial
+    holiday: FestiveSeason
+    prototype: PresentRandom
 
 - type: startingGear
   id: SecurityPilotGear

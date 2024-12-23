@@ -69,3 +69,7 @@
   id: SmartAnimals
   text: "/Paperwork/StationGoal/SmartAnimals.xml"
   modifyStationBalance: -7500
+
+- type: stationGoal
+  id: HydroponicsInVacuum
+  text: "/Paperwork/StationGoal/HydroponicsInVacuum.xml"

@@ -130,10 +130,8 @@
 - type: microwaveMealRecipe
   id: RecipeCaviarBurger
   name: caviar burger recipe
-  result: FoodSoupSawdust
-  time: 1
-  reagents:
+  result: FoodCaviarBurger
+  time: 5
+  solids:
     FoodBreadPlainSlice: 1
     FoodCaviar: 1
-  solids:
-    FoodCaviarBurger: 1
