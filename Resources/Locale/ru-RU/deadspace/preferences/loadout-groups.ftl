@@ -5,6 +5,7 @@ loadout-group-blue-shield-officer-jumpsuit = Синий щит, комбинез
 loadout-group-blue-shield-officer-backpack = Синий щит, рюкзак
 # Civilian
 loadout-group-senior-administrator-jumpsuit = Администратор, комбинезон
+loadout-group-chef-gloves = Шеф-повар, перчатки
 # Cargo
 # Law
 loadout-group-magistrat-jumpsuit = Магистрат, комбинезон
