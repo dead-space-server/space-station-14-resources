@@ -1,0 +1,5 @@
+- type: soundCollection
+  id: SquidFootsteps
+  files:
+  - /Audio/DeadSpace/Effects/Footsteps/squid1.ogg
+  - /Audio/DeadSpace/Effects/Footsteps/squid2.ogg

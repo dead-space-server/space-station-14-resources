@@ -1,5 +1,5 @@
 - type: loadout
   id: CorporateLaw
   storage:
-    pocket2:
+    back:
     - HyperLinkBookCorporateLaw

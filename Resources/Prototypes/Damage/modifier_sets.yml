@@ -171,7 +171,7 @@
     Piercing: 0.8
     Cold: 0.8
     Heat: 0.2
-#   Holy: 3 If we ever get some holy or magic sort of damage type they should be vulnerable
+    Holy: 1.5
   flatReductions:
     Heat: 3
 
@@ -202,13 +202,13 @@
 - type: damageModifierSet
   id: Zombie #Blunt resistant and immune to biological threats, but can be hacked apart and burned
   coefficients:
-    Blunt: 0.75 # DS14 value
-    Piercing: 0.75 # DS14 value
-    Cold: 0.25 # DS14 value
-    Heat: 1 # DS14 value
+    Blunt: 0.6
+    Piercing: 0.75 # DS14-value
+    Cold: 0.3
+    Heat: 0.9 # DS14-value
     Poison: 0.0
     Radiation: 0.0
-    Stun: 0.75 # DS14 value
+    Stun: 0.75 # DS14-value
 
 # immune to everything except physical and heat damage
 - type: damageModifierSet
@@ -274,6 +274,7 @@
     Radiation: 0.0
     Shock: 0.8
     Bloodloss: 0.4
+    Holy: 1
 
 - type: damageModifierSet
   id: Cockroach
@@ -307,6 +308,11 @@
   id: PotassiumIodide
   coefficients:
     Radiation: 0.1
+
+- type: damageModifierSet
+  id: ManifestedSpirit
+  coefficients:
+    Holy: 2
 
 - type: damageModifierSet
   id: Fur

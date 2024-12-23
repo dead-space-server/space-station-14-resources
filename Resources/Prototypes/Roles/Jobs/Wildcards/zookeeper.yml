@@ -26,3 +26,6 @@
     ears: ClothingHeadsetService
     pocket1: HandheldHealthAnalyzer
     socks: ClothingUnderwearSocksZoo
+  storage:
+    back:
+    - PetBowlWater

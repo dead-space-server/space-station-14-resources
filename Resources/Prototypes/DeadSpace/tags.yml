@@ -23,7 +23,13 @@
   id: BorgModuleSecurity
 
 - type: Tag
+  id: DockCentcommERT
+
+- type: Tag
   id: FelinidFood
+
+- type: Tag 
+  id: FittableInBackpackCase
 
 - type: Tag
   id: KatanaVjlados
@@ -33,6 +39,9 @@
 
 - type: Tag
   id: MagazineEagleAP
+
+- type: Tag
+  id: MukhtarWearable
 
 - type: Tag
   id: Necro
@@ -45,3 +54,5 @@
 
 - type: Tag
   id: SnapPop
+
+  # Обязательно в алфавитном порядке

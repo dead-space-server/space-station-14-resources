@@ -1,12 +1,10 @@
+# TODO: Add descriptions (many)
+# TODO BODY: Part damage
 - type: entity
   id: PartIPC
   parent: [BaseItem, BasePart]
   name: "IPC body part"
   abstract: true
-  components:
-  - type: Sprite
-    sprite: Redspace/Mobs/Species/IPC/parts.rsi
-    state: "torso_m"
 
 - type: entity
   id: TorsoIPC

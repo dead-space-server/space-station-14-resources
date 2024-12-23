@@ -21,7 +21,7 @@
   objective: Ваша цель захватить станцию.
 
 - type: antag
-  id: SpiderTerrorQuin
+  id: SpiderTerrorQueen
   name: roles-antag-spider-terror-quin-name
   antagonist: true
   setPreference: true
@@ -59,7 +59,7 @@
   - type: SpiderTerrorRule
   - type: AntagSelection
     definitions:
-    - prefRoles: [ SpiderTerrorQuin ]
+    - prefRoles: [ SpiderTerrorQueen ]
       fallbackRoles: [ SpiderTerrorKingBlood, SpiderTerrorKing ]
       max: 2
       min: 2
@@ -69,17 +69,15 @@
         sound: "/Audio/DeadSpace/Spiders/brif.ogg"
       components:
       - type: Egg
-        duration: 650
+        canHatch: true
+        duration: 360
         spawned:
         - id: MobSpiderTerrorQueen
           amount: 1
-      - type: NpcFactionMember
-        factions:
-        - SpiderTerror
       mindRoles:
-      - MindRoleSpiderTettorQuin
+      - MindRoleSpiderTettorQueen
     - prefRoles: [ SpiderTerrorKing ]
-      fallbackRoles: [ SpiderTerrorQuin, SpiderTerrorKingBlood ]
+      fallbackRoles: [ SpiderTerrorQueen, SpiderTerrorKingBlood ]
       max: 2
       min: 2
       briefing:
@@ -88,17 +86,15 @@
         sound: "/Audio/DeadSpace/Spiders/brif.ogg"
       components:
       - type: Egg
-        duration: 600
+        canHatch: true
+        duration: 360
         spawned:
         - id: MobSpiderTerrorGuardianHeroicKingBlood
           amount: 1 # Колличество
-      - type: NpcFactionMember
-        factions:
-        - SpiderTerror
       mindRoles:
       - MindRoleSpiderTettorKing
     - prefRoles: [ SpiderTerrorKingBlood ]
-      fallbackRoles: [ SpiderTerrorQuin, SpiderTerrorKing ]
+      fallbackRoles: [ SpiderTerrorQueen, SpiderTerrorKing ]
       max: 2
       min: 2
       playerRatio: 10
@@ -108,7 +104,8 @@
         sound: "/Audio/DeadSpace/Spiders/brif.ogg"
       components:
       - type: Egg
-        duration: 700
+        canHatch: true
+        duration: 360
         spawned:
         - id: MobSpiderTerrorGuardianKingBlood
           amount: 1 # Колличество
@@ -167,6 +164,31 @@
       EmergencyBruteKit: 4
       EmergencyAdvancedKit: 4
 
+- type: entity
+  id: GiftsSpiderTerror
+  parent: CargoGiftsBase
+  components:
+  - type: StationEvent
+    weight: 8
+    duration: 120
+    earliestStart: 20
+    minimumPlayers: 30
+  - type: CargoGiftsRule
+    description: cargo-gift-medical-supply
+    dest: cargo-gift-dest-med
+    gifts:
+      MedicalSupplies: 4
+      EmergencyBruteKit: 4
+      EmergencyAdvancedKit: 4
+      CrateKarachnocidGrenadeProduct: 1
+      SecurityArmor: 3
+      ArmorySmg: 2
+      ArmoryShotgun: 2
+      ArmoryLaser: 2
+      SecurityRiot: 2
+      SecurityRestraints: 2
+      SecurityNonLethal: 2
+
 - type: preloadedGrid
   id: CBURNSCSTShuttle
   path: /Maps/Shuttles/ShuttleEvent/cburn_scst.yml
@@ -179,7 +201,7 @@
 
 - type: entity
   parent: BaseGameRule
-  id: BaseErtShuttleRule
+  id: ShuttleCBURNSCST
   components:
   - type: StationEvent
     startAnnouncement: station-event-response-team-arrival
@@ -187,12 +209,6 @@
       path: /Audio/DeadSpace/Announcements/centcomm.ogg # DeadSpace-Announcements
     willNotStartRandomly: true
   - type: RuleGrids
-  - type: LoadMapRule
-
-- type: entity
-  parent: BaseErtShuttleRule
-  id: ShuttleCBURNSCST
-  components:
   - type: LoadMapRule
     preloadedGrid: CBURNSCSTShuttle
 

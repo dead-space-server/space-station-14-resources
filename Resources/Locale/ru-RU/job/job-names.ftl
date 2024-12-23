@@ -74,7 +74,7 @@ job-name-magistrat = Магистрат
 job-name-coroner = Коронер
 job-name-security-pilot = Пилот СБ
 job-name-senior-salvagespec = Ведущий утилизатор
-job-name-senior-administrator = Администратор сервисного отдела
+job-name-senior-administrator = Менеджер
 job-name-station-ai = Станционный ИИ
 
 # unused jobs
@@ -93,6 +93,16 @@ job-name-zombie = зомби
 job-title-visitor = Посетитель
 job-title-cluwne = Клувень
 job-title-universal = Администратор
+
+# typan-
+job-name-typan-atmos-tech = Атмосферный инженер Синдиката
+job-name-typan-botanist = Ботаник Синдиката
+job-name-typan-cargotech = Карготехник Синдиката
+job-name-typan-chef = Повар Синдиката
+job-name-typan-medic = Медик Синдиката
+job-name-typan-rd = Директор исследований Синдиката
+job-name-typan-science = Учёный Синдиката
+job-name-typan-telecommunications-officer = Офицер телекомуникаций Синдиката
 
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = Атмосферный техник
@@ -169,6 +179,16 @@ JobMagistrat = Магистрат
 JobCoroner = Коронер
 JobSecurityPilot = Пилот СБ
 JobSeniorSalvageSpecialist = Ведущий утилизатор
-JobSeniorAdministrator = Администратор сервисного отдела
+JobSeniorAdministrator = Менеджер
 JobStationAi = Станционный ИИ
 JobVisitor = Посетитель
+
+# Typan
+JobTypanAtmosTech = Атмосферный инженер Синдиката
+JobTypanBotanist = Ботаник Синдиката
+JobTypanCargotech = Карготехник Синдиката
+JobTypanChef = Повар Синдиката
+JobTypanMedic = Медик Синдиката
+JobTypanRD = Директор исследований Синдиката
+JobTypanScience = Учёный Синдиката
+JobTypanTelecommunicationsOfficer = Офицер телекомуникаций Синдиката

@@ -23,7 +23,6 @@ entities:
       name: Хонкомама
     - type: Transform
       pos: 1.212189,-1.7551664
-      parent: invalid
     - type: MapGrid
       chunks:
         0,0:

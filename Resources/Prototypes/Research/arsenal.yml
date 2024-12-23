@@ -141,6 +141,7 @@
   cost: 10000
   recipeUnlocks:
   - WeaponLaserCannon
+  - WeaponLaserRifle # DS14
 
 - type: technology
   id: WaveParticleHarnessing

@@ -1,74 +1,71 @@
 - type: stationGoal
-  id: StationGoalShuttle
-  name: station-goal-shuttle
+  id: Shuttle
   text: "/Paperwork/StationGoal/Shuttle.xml"
 
-# - type: stationGoal
-#   id: StationGoalBoom
-#   name: station-goal-boom
-#   text: "/Paperwork/StationGoal/Boom.xml"
-
 - type: stationGoal
-  id: StationGoalSolarPanels
-  name: station-goal-solarpanels
+  id: SolarPanels
   text: "/Paperwork/StationGoal/SolarPanels.xml"
 
 - type: stationGoal
-  id: StationGoalArtifacts
-  name: station-goal-artifacts
+  id: Artifacts
   text: "/Paperwork/StationGoal/Artifacts.xml"
 
 - type: stationGoal
-  id: StationGoalBank
-  name: station-goal-bank
+  id: Bank
   text: "/Paperwork/StationGoal/Bank.xml"
 
 - type: stationGoal
-  id: StationGoalZoo
-  name: station-goal-zoo
+  id: Zoo
   text: "/Paperwork/StationGoal/Zoo.xml"
 
 - type: stationGoal
-  id: StationGoalBiggerDorms
-  name: station-goal-biggerdorms
+  id: BiggerDorms
   text: "/Paperwork/StationGoal/BiggerDorms.xml"
 
 - type: stationGoal
-  id: StationGoalFight
-  name: station-goal-fight
+  id: Fight
   text: "/Paperwork/StationGoal/Fight.xml"
 
 - type: stationGoal
-  id: StationGoalObservationPoint
-  name: station-goal-observationpoint
+  id: ObservationPoint
   text: "/Paperwork/StationGoal/ObservationPoint.xml"
 
 - type: stationGoal
-  id: StationGoalBornToKill
-  name: station-goal-borntokill
+  id: BornToKill
   text: "/Paperwork/StationGoal/BornToKill.xml"
 
 - type: stationGoal
-  id: StationGoalChill
-  name: station-goal-chill
+  id: Chill
   text: "/Paperwork/StationGoal/Chill.xml"
+  modifyStationBalance: -7500
 
 - type: stationGoal
-  id: StationGoalChillAlt
-  name: station-goal-chill
-  text: "/Paperwork/StationGoal/Chill.xml"
-
-- type: stationGoal
-  id: StationGoalBorgs
-  name: station-goal-borgs
+  id: Borgs
   text: "/Paperwork/StationGoal/Borgs.xml"
 
 - type: stationGoal
-  id: StationGoalBar
-  name: station-goal-bar
+  id: Bar
   text: "/Paperwork/StationGoal/Bar.xml"
 
 - type: stationGoal
-  id: StationGoalMiningOutpost
-  name: station-goal-miningoutpost
+  id: MiningOutpost
   text: "/Paperwork/StationGoal/MiningOutpost.xml"
+
+- type: stationGoal
+  id: MilitaryShuttle
+  text: "/Paperwork/StationGoal/MilitaryShuttle.xml"
+  modifyStationBalance: 30000
+
+- type: stationGoal
+  id: OrbitalBunker
+  text: "/Paperwork/StationGoal/OrbitalBunker.xml"
+  modifyStationBalance: 30000
+
+- type: stationGoal
+  id: Anomalies
+  text: "/Paperwork/StationGoal/Anomalies.xml"
+
+- type: stationGoal
+  id: SmartAnimals
+  text: "/Paperwork/StationGoal/SmartAnimals.xml"
+  modifyStationBalance: -7500

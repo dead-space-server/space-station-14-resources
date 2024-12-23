@@ -1,7 +1,9 @@
 species-name-felinid = Фелинид
-
-ent-MobFelinid = Урист МакФелинид
-    .desc = { ent-BaseMobArachnid.desc }
-
-ent-MobFelinidDummy = { ent-BaseSpeciesDummy }
-    .desc = { ent-BaseSpeciesDummy.desc }
+species-name-ips = КПС
+species-name-ipc = КПБ
+species-name-demon = Аркана
+species-name-kobolt = Кобольд
+species-name-tajaran = Таяр
+species-name-vulpkanin = Вульпканин
+species-name-shark = Плафеим
+species-name-xeno = Ксеноморф

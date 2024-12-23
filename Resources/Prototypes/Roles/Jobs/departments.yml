@@ -167,7 +167,7 @@
   id: Science
   name: department-Science
   description: department-Science-description
-  color: "#D381C9"
+  color: "#c68cfa"
   roles:
   - ResearchDirector
   - Scientist
@@ -196,7 +196,6 @@
   - Reporter
   - Zookeeper
   - Psychologist
-  - SecurityPilot
   primary: false
   accountNumber: 1322  #backmen: currency
 

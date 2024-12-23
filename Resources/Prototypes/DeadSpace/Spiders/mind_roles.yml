@@ -9,11 +9,11 @@
 
 - type: entity
   parent: MindRoleSpiderTerror
-  id: MindRoleSpiderTettorQuin
+  id: MindRoleSpiderTettorQueen
   name: Роль Паука Ужаса Королевы
   components:
   - type: MindRole
-    antagPrototype: SpiderTerrorQuin
+    antagPrototype: SpiderTerrorQueen
 
 - type: entity
   parent: MindRoleSpiderTerror

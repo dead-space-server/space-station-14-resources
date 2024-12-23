@@ -16,10 +16,9 @@ entities:
   - uid: 410
     components:
     - type: MetaData
-      name: NT Evac Pill
+      name: NT Evac
     - type: Transform
       pos: 2.2710133,-2.4148211
-      parent: invalid
     - type: MapGrid
       chunks:
         -1,0:

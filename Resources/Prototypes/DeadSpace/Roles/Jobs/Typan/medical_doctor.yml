@@ -1,8 +1,8 @@
 - type: job
   id: TypanMedic
-  name: Медик Синдиката
+  name: job-name-typan-medic
   playTimeTracker: TypanMedic
-  description: Медик из далёкого космоса
+  description: Медик из далёкого космоса.
   startingGear: SyndicateParamedic
   icon: "JobIconSyndicateParamedic"
   supervisors: job-supervisors-typan-telecommunications-officer
