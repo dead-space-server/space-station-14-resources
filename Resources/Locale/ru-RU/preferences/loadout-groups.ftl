@@ -48,6 +48,7 @@ loadout-group-chef-jumpsuit = Шеф-повар, комбинезон
 loadout-group-chef-outerclothing = Шеф-повар, верхняя одежда
 loadout-group-chef-hand =  Шеф-повар, рука
 loadout-group-chef-underwear =  Шеф-повар, нижнее бельё
+loadout-group-chef-gloves = Шеф-повар, перчатки
 loadout-group-librarian-jumpsuit = Библиотекарь, комбинезон
 loadout-group-librarian-underwear = Библиотекарь, нижнее бельё
 loadout-group-lawyer-jumpsuit = Юрист, комбинезон

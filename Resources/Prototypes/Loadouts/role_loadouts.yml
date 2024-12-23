@@ -91,6 +91,7 @@
   - GroupSpeciesBreathTool
   - ChefUnderwear # DS14-Underwear
   - ChefHand # DS14
+  - ChefGloves # DS14
   
 - type: roleLoadout
   id: JobLibrarian

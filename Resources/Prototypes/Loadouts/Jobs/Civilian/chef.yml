@@ -79,3 +79,8 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ChefGoldenKnife
+
+- type: loadout
+  id: ClothingHandsGlovesLatex
+  equipment:
+    gloves: ClothingHandsGlovesLatex
