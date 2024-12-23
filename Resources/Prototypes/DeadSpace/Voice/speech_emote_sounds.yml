@@ -265,6 +265,102 @@
       collection: VulpkaninFemaleGrowl
 
 - type: emoteSounds
+  id: MaleTajaran
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      collection: TajaranMaleScreams
+    ScreamOnDamage:
+      collection: TajaranMaleScreams
+    Laugh:
+      collection: MaleLaugh
+    Sneeze:
+      collection: TajaranMaleSneezes
+    Cough:
+      collection: MaleCoughs
+    CatMeow:
+      collection: CatMeows
+    CatHisses:
+      collection: CatHisses
+    MonkeyScreeches:
+      collection: MonkeyScreeches
+    RobotBeep:
+      collection: RobotBeeps
+    Yawn:
+      collection: TajaranYawn
+    Snore:
+      collection: Snores
+    Honk:
+      collection: BikeHorn
+    Sigh:
+      collection: TajaranMaleSigh
+    Crying:
+      collection: TajaranMaleCry
+    Whistle:
+      collection: Whistles
+    Weh:
+      collection: Weh
+    Hew:
+      collection: Hew
+    Gasp:
+      collection: MaleGasp
+    DefaultDeathgasp:
+      collection: TajaranMaleDeathGasp
+    Hiss:
+      collection: TajaranMaleHisses
+    Meow:
+      collection: TajaranMaleMeows
+
+- type: emoteSounds
+  id: FemaleTajaran
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      collection: TajaranFemaleScreams
+    ScreamOnDamage:
+      collection: TajaranFemaleScreams
+    Laugh:
+      collection: FemaleLaugh
+    Sneeze:
+      collection: TajaranFemaleSneezes
+    Cough:
+      collection: FemaleCoughs
+    CatMeow:
+      collection: CatMeows
+    CatHisses:
+      collection: CatHisses
+    MonkeyScreeches:
+      collection: MonkeyScreeches
+    RobotBeep:
+      collection: RobotBeeps
+    Yawn:
+      collection: TajaranYawn
+    Snore:
+      collection: Snores
+    Honk:
+      collection: CluwneHorn
+    Sigh:
+      collection: TajaranFemaleSigh
+    Crying:
+      collection: TajaranFemaleCry
+    Whistle:
+      collection: Whistles
+    Weh:
+      collection: Weh
+    Hew:
+      collection: Hew
+    Gasp:
+      collection: FemaleGasp
+    DefaultDeathgasp:
+      collection: TajaranFemaleDeathGasp
+    Hiss:
+      collection: TajaranFemaleHisses
+    Meow:
+      collection: TajaranFemaleMeows
+
+- type: emoteSounds
   id: MaleMed
   params:
     variation: 0.125

@@ -102,7 +102,7 @@
       alertLevelPrototype: stationAlerts
 
 - type: entity
-  id: BaseStationERTCall
+  id: BaseStationERTCall # DS14
   abstract: true
   components:
     - type: ERTCall

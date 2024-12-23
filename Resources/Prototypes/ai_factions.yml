@@ -10,6 +10,8 @@
     - AllHostile
     - Necromorfs # DS14
     - SpiderTerror # DS14
+    - Blob # DS14
+    - SyndicateAgent # DS14-agents-faction
 
 - type: npcFaction
   id: NanoTrasen
@@ -19,9 +21,11 @@
   - Xeno
   - Zombie
   - Revolutionary
+  - Dragon
   - AllHostile
   - Necromorfs # DS14
   - SpiderTerror # DS14
+  - Blob # DS14
 
 - type: npcFaction
   id: Mouse
@@ -53,6 +57,7 @@
   - AllHostile
   - Necromorfs # DS14
   - SpiderTerror # DS14
+  - SyndicateAgent # DS14-agents-faction
 
 - type: npcFaction
   id: SimpleNeutral
@@ -65,9 +70,24 @@
   - Xeno
   - PetsNT
   - Zombie
+  - Dragon
   - AllHostile
   - Necromorfs # DS14
   - SpiderTerror # DS14
+  - Blob # DS14
+
+# DS14-agents-faction-start
+- type: npcFaction
+  id: SyndicateAgent
+  hostile:
+  - SimpleHostile
+  - Xeno
+  - Zombie
+  - Dragon
+  - AllHostile
+  - Necromorfs # DS14
+  - SpiderTerror # DS14
+# DS14-agents-faction-end
 
 - type: npcFaction
   id: Xeno
@@ -81,6 +101,8 @@
   - AllHostile
   - Necromorfs # DS14
   - SpiderTerror # DS14
+  - Blob # DS14
+  - SyndicateAgent # DS14-agents-faction
 
 - type: npcFaction
   id: Zombie
@@ -95,6 +117,8 @@
   - AllHostile
   - Necromorfs # DS14
   - SpiderTerror # DS14
+  - Blob # DS14
+  - SyndicateAgent # DS14-agents-faction
 
 - type: npcFaction
   id: Revolutionary
@@ -106,6 +130,7 @@
   - AllHostile
   - Necromorfs # DS14
   - SpiderTerror # DS14
+  - Blob # DS14
 
 - type: npcFaction
   id: AllHostile
@@ -123,3 +148,5 @@
   - Revolutionary
   - Necromorfs # DS14
   - SpiderTerror # DS14
+  - SyndicateAgent # DS14-agents-faction
+  - Blob # DS14

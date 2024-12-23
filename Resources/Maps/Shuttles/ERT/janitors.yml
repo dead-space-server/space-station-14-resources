@@ -23,6 +23,7 @@ entities:
       name: NT - Catny
     - type: Transform
       pos: -0.37500024,-0.6250001
+      parent: invalid
     - type: MapGrid
       chunks:
         0,0:
@@ -2119,7 +2120,7 @@ entities:
       parent: 1
     - type: Fixtures
       fixtures: {}
-- proto: FloraTree05
+- proto: FloraTree
   entities:
   - uid: 322
     components:
@@ -2297,6 +2298,20 @@ entities:
     - type: Transform
       pos: 3.5,-4.5
       parent: 1
+- proto: HolopadUnlimitedRange
+  entities:
+  - uid: 689
+    components:
+    - type: MetaData
+      desc: Напольное устройство для проецирования голографических изображений на аналогичные устройства на больших расстояниях.
+      name: Квантово-запутанный голопад (NT - Catny)
+    - type: Transform
+      pos: 0.5,9.5
+      parent: 1
+    - type: Label
+      currentLabel: NT - Catny
+    - type: NameModifier
+      baseName: Квантово-запутанный голопад
 - proto: JanitorialTrolley
   entities:
   - uid: 352
@@ -3258,8 +3273,6 @@ entities:
     - type: Transform
       pos: 4.5,16.5
       parent: 1
-    - type: Thruster
-      enabled: False
   - uid: 493
     components:
     - type: Transform

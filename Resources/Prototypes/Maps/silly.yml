@@ -1,7 +1,7 @@
 - type: gameMap
   id: CorvaxSilly
   mapName: 'DS Silly Island'
-  mapPath: /Maps/ds_silly.yml
+  mapPath: /Maps/ds_silly_snow.yml
   maxRandomOffset: 0
   randomRotation: false
   minPlayers: 0

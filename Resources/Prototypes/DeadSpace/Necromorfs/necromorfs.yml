@@ -10,6 +10,10 @@
   - PetsNT
   - Zombie
   - Xeno
+  - AllHostile
+  - SpiderTerror # DS14
+  - Blob # DS14
+  - SyndicateAgent # DS14-agents-faction
 
 - type: emoteSounds
   id: Necro

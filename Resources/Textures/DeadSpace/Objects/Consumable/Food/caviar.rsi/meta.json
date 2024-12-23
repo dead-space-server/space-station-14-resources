@@ -8,10 +8,10 @@
     },
     "states": [
         {
-            "name": "R-on-bread"
+            "name": "on-bread"
           },
           {
-            "name": "R3-icon"
+            "name": "icon"
           }
     ]
   }

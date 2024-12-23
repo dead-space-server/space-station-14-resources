@@ -1,4 +1,3 @@
-
 - type: npcFaction
   id: SpiderTerror
   hostile:
@@ -11,7 +10,10 @@
   - PetsNT
   - Zombie
   - Xeno
-  - Necromorfs
+  - AllHostile
+  - Necromorfs # DS14
+  - Blob # DS14
+  - SyndicateAgent # DS14-agents-faction
 
 - type: antag
   id: SpiderTerror

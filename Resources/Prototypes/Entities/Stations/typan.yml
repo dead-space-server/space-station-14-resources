@@ -6,12 +6,13 @@
   - BaseStationCargo
   - BaseStationJobsSpawning
   - BaseStationRecords
-  #- BaseStationShuttles
+  # - BaseStationShuttles
   - BaseStationAlertLevels
   - BaseStationMagnet
   - BaseStationExpeditions
   - BaseStationSiliconLawCrewsimov
-  - BaseStationAllEventsEligible
+  # - BaseStationAllEventsEligible
+  - BaseStationSyndicate
   categories: [ HideSpawnMenu ]
   components:
   - type: Transform

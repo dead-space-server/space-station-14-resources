@@ -64,7 +64,8 @@
       Male: MaleFelinid
       Female: FemaleFelinid
       Unsexed: MaleFelinid
-  - type: Felinid
+  - type: Felinid # For felinid stuff like hairballs
+  - type: CatVocal # For cat emotes
 
 - type: entity
   save: false

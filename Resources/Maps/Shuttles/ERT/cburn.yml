@@ -23,6 +23,7 @@ entities:
     - type: MetaData
       name: NT-Figto
     - type: Transform
+      parent: invalid
     - type: MapGrid
       chunks:
         0,0:
@@ -4866,6 +4867,20 @@ entities:
     - type: Transform
       pos: 6.500105,-23.171413
       parent: 1
+- proto: HolopadUnlimitedRange
+  entities:
+  - uid: 1016
+    components:
+    - type: MetaData
+      desc: Напольное устройство для проецирования голографических изображений на аналогичные устройства на больших расстояниях.
+      name: Квантово-запутанный голопад (NT-Figto)
+    - type: Transform
+      pos: 0.5,-1.5
+      parent: 1
+    - type: Label
+      currentLabel: NT-Figto
+    - type: NameModifier
+      baseName: Квантово-запутанный голопад
 - proto: HospitalCurtainsOpen
   entities:
   - uid: 697
