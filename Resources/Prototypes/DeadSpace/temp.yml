@@ -62,10 +62,10 @@
   - type: Appearance
   - type: Rotatable
   - type: TextScreenVisuals
-    textOffset: 1,0
-    timerOffset: 1,0
-    rowLength: 20
-    rows: 6
+    textOffset: 0,0
+    timerOffset: 0,0
+    rowLength: 32
+    rows: 9
   - type: Sprite
     drawdepth: WallMountedItems
     sprite: screen.rsi

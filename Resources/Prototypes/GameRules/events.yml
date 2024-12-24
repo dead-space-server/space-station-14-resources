@@ -217,6 +217,27 @@
     minimumPlayers: 30
   - type: SpaceSpawnRule
   - type: AntagLoadProfileRule
+  # DS14-start
+    speciesOverride: Human
+    speciesOverrideBlacklist:
+    - Arachnid
+    - Diona
+    - Dwarf
+    # - Human
+    - Moth
+    - Reptilian
+    - SlimePerson
+    - Vox
+    - Demon
+    - Shark
+    - Tajaran
+    - Vulpkanin
+    - Felinid
+    - Kobolt
+    - XenoSponsor
+    - IPC
+    - IPS
+  # DS14-end
   - type: AntagObjectives
     objectives:
     - StealResearchObjective
@@ -599,7 +620,7 @@
   components:
   - type: StationEvent
     startAudio:
-      path: /Audio/Announcements/attention.ogg
+      path: /Audio/DeadSpace/Announcements/attention.ogg
     weight: 5
     minimumPlayers: 25
     reoccurrenceDelay: 20

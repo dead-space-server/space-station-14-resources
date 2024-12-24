@@ -416,6 +416,7 @@
       - id: JetpackVoidFilled
       - id: ClothingEyesHudMultiversalDragonFoxMedTech
       - id: ClothingUniformJumpsuitDragonFoxMedTech
+      - id: JawsOfLife
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -571,3 +572,4 @@
   - type: EyeProtection
   - type: IdentityBlocker
     coverage: EYES
+  - type: FlashImmunity

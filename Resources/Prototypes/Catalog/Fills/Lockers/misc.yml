@@ -134,10 +134,6 @@
     children:
     - id: StrangePill
       prob: 0.20
-    - id: PersonalNecoAI # DS14
-      prob: 0.10
-    - id: SyndicatePersonalNecoAI # DS14
-      prob: 0.05
     # Tools
     - !type:NestedSelector
       tableId: MaintToolsTable
@@ -163,6 +159,13 @@
     - !type:NestedSelector
       tableId: SyndieMaintLoot
       prob: 0.05
+    # DS14
+    - id: PersonalNecoAI
+      prob: 0.05
+    - id: SyndicatePersonalNecoAI
+      prob: 0.01
+    - id: VIB
+      prob: 0.005
 
 - type: entity
   id: ClosetMaintenanceFilledRandom

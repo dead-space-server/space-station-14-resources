@@ -9,13 +9,13 @@
     sprite: _LW/Clothing/Head/Hats/foxyears_orange.rsi
   - type: Clothing
     sprite: _LW/Clothing/Head/Hats/foxyears_orange.rsi
-  - type: AddAccentClothing
-    accent: GrowlingAccent
+  # - type: AddAccentClothing
+  #   accent: GrowlingAccent
   # - type: InteractionPopup
-    # successChance: 1
-    # interactSuccessSpawn: EffectHearts
-    # interactSuccessString: hugging-success-generic
-    # interactSuccessSound: /Audio/_LW/Plushie/frfrfr.ogg
+  #   successChance: 1
+  #   interactSuccessSpawn: EffectHearts
+  #   interactSuccessString: hugging-success-generic
+  #   interactSuccessSound: /Audio/_LW/Plushie/frfrfr.ogg
 
 - type: entity
   parent: LWClothingHeadHatFoxyO
