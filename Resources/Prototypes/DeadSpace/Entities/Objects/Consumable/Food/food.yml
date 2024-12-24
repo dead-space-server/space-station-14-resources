@@ -172,7 +172,7 @@
     slice: FoodHoneyCakeSlice
   - type: FlavorProfile
     flavors:
-      - sweet-dough
+      - sweetdough
   - type: Sprite
     sprite: /Textures/DeadSpace/Objects/Consumable/Food/honeycake.rsi
     state: icon
@@ -188,4 +188,4 @@
     state: icon-slice
   - type: FlavorProfile
     flavors:
-      - sweet-dough
+      - sweetdough
