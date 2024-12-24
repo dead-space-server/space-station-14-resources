@@ -135,3 +135,12 @@
   solids:
     FoodBreadPlainSlice: 1
     FoodCaviar: 1
+
+- type: microwaveMealRecipe
+  id: RecipeHoneyCake
+  name: honey cake recipe
+  result: MobHoneyCake
+  time: 15
+  solids:
+    FoodCakePlain: 1
+    Sugar: 3

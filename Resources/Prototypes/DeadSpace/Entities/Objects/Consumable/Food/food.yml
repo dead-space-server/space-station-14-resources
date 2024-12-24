@@ -161,3 +161,31 @@
   - type: Sprite
     sprite: /Textures/DeadSpace/Objects/Consumable/Food/caviar.rsi
     state: on-bread
+
+- type: entity
+  parent: FoodCakePlain
+  id: FoodHoneyCake
+  name: медовик
+  description: Сладкий вкус коржей, которые хорошо пропитаны мёдом.
+  components:
+  - type: SliceableFood
+    slice: FoodHoneyCakeSlice
+  - type: FlavorProfile
+    flavors:
+      - sweet-dough
+  - type: Sprite
+    sprite: /Textures/DeadSpace/Objects/Consumable/Food/honeycake.rsi
+    state: icon
+
+- type: entity
+  name: кусок медовика
+  parent: FoodCakeSliceBase
+  id: FoodHoneyCakeSlice
+  description: Сладкий вкус коржей, которые хорошо пропитаны мёдом.
+  components:
+  - type: Sprite
+    sprite: /Textures/DeadSpace/Objects/Consumable/Food/honeycake.rsi
+    state: icon-slice
+  - type: FlavorProfile
+    flavors:
+      - sweet-dough
