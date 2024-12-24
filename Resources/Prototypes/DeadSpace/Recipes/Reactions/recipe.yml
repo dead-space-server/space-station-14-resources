@@ -141,6 +141,7 @@
   name: honey cake recipe
   result: MobHoneyCake
   time: 15
+  reagents:
+    Sugar: 20
   solids:
     FoodCakePlain: 1
-    Sugar: 3
