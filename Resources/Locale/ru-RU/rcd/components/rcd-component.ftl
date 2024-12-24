@@ -4,7 +4,6 @@
 rcd-component-examine-mode-details = Выбран режим: '{ $mode }'.
 rcd-component-examine-build-details = Выбран режим строительства: { $name }.
 
-
 ### Interaction Messages
 
 # Mode change
@@ -30,7 +29,6 @@ rcd-component-cannot-build-on-subfloor-message = Это не может быть
 rcd-component-cannot-build-on-occupied-tile-message = Здесь нельзя строить, место уже занято!
 rcd-component-cannot-build-identical-tile = Эта клетка уже тут имеется!
 
-
 ### Category names
 
 rcd-component-walls-and-flooring = Стены и полы
@@ -38,7 +36,6 @@ rcd-component-windows-and-grilles = Окна и решётки
 rcd-component-airlocks = Шлюзы
 rcd-component-electrical = Электроприборы
 rcd-component-lighting = Освещение
-
 
 ### Prototype names (note: constructable items will be puralized)
 

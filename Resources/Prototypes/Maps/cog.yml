@@ -63,7 +63,7 @@
             Musician: [ 1, 1 ]
             Boxer: [ 2, 2]
             #silicon
-            # StationAi: [ 1, 1 ]
+            StationAi: [ 1, 1 ]
             Borg: [ 3, 3 ]
             BorgSecurity: [ 1, 1 ]
             # law
