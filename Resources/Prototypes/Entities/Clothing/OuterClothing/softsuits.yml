@@ -26,6 +26,18 @@
     sprite: Clothing/OuterClothing/Suits/eva_syndicate.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Suits/eva_syndicate.rsi
+  - type: Armor # DS14
+    modifiers:
+      coefficients:
+        Blunt: 0.70
+        Slash: 0.70
+        Piercing: 0.70 
+        Heat: 0.80
+  - type: ExplosionResistance # DS14
+    damageCoefficient: 0.90 
+  - type: ClothingSpeedModifier # DS14
+    walkModifier: 0.9
+    sprintModifier: 0.9
   - type: Tag
     tags:
     - SuitEVA
