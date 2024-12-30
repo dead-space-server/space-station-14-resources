@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Created by СyberBoich (Discord) for SS14 server Dead Space 14, resprited into ERT versions by Annsanla",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+	    "name": "amber" 
+    },
+    {
+      "name": "red"
+    },
+    {
+      "name": "gamma"
+    },
+    {
+      "name": "cburn"
+    }
+  ]
+}
