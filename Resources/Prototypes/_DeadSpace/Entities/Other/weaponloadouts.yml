@@ -11,7 +11,7 @@
   - type: Item
     size: Large
   - type: Sprite
-    sprite: DeadSpace/Other/Weaponloadouts/cases.rsi
+    sprite: DeadSpace/Other/weaponloadouts/cases.rsi
     state: amber
   - type: ThiefUndeterminedBackpack
     maxSelectedSets: 1
@@ -38,7 +38,7 @@
     shape:
     - 0,0,2,1
   - type: Sprite
-    sprite: DeadSpace/Other/Weaponloadouts/boxes.rsi
+    sprite: DeadSpace/Other/weaponloadouts/boxes.rsi
     state: amber
   - type: ThiefUndeterminedBackpack
     maxSelectedSets: 1
