@@ -414,6 +414,11 @@
         Caustic: 0.75
 
 - type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLabSeniorResearcher]
+  id: ClothingOuterCoatLabSeniorResearcherOpened
+  name: senior researcher lab coat
+
+- type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatLabSeniorPhysician
   name: senior physician lab coat
@@ -427,6 +432,11 @@
     modifiers:
       coefficients:
         Caustic: 0.75
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLabSeniorPhysician]
+  id: ClothingOuterCoatLabSeniorPhysicianOpened
+  name: senior physician lab coat
 
 - type: entity
   parent: ClothingOuterStorageBase
