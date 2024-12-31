@@ -35,8 +35,8 @@
     pocket1: DoubleEmergencyOxygenTankFilled
   storage:
     back:
-    - WeaponloadoutAmberSecondary
-    - WeaponloadoutAmberPrimary
+    - WeaponLoadoutAmberSecondary
+    - WeaponLoadoutAmberPrimary
     - BoxMRE
     - WeaponDisabler
     - CrowbarRed
@@ -81,8 +81,8 @@
     pocket1: DoubleEmergencyOxygenTankFilled
   storage:
     back:
-    - WeaponloadoutRedPrimary
-    - WeaponloadoutRedSecondary
+    - WeaponLoadoutRedPrimary
+    - WeaponLoadoutRedSecondary
     - BoxMRE
     - PinpointerNuclear
     - CrowbarRed
@@ -130,8 +130,8 @@
   storage:
     back:
     - WeaponLauncherMGL
-    - WeaponloadoutGammaPrimary
-    - WeaponloadoutGammaSecondary
+    - WeaponLoadoutGammaPrimary
+    - WeaponLoadoutGammaSecondary
     - PinpointerNuclear
     - CrowbarRed
     - EmergencyMedipen
@@ -179,8 +179,8 @@
     - CrowbarRed
     - EmergencyMedipen
     - BoxMRE
-    - WeaponloadoutAmberSecondary
-    - WeaponloadoutAmberPrimary
+    - WeaponLoadoutAmberSecondary
+    - WeaponLoadoutAmberPrimary
     - Flare
     - Truncheon
 
@@ -218,10 +218,10 @@
     back:
     - TelescopicShield
     - WeaponDisabler
-    - WeaponloadoutRedPrimary
+    - WeaponLoadoutRedPrimary
     - EmergencyMedipen
     - BoxMRE
-    - WeaponloadoutRedSecondary
+    - WeaponLoadoutRedSecondary
     - CrowbarRed
     - Flare
     - Truncheon
@@ -263,8 +263,8 @@
     - TelescopicShield
     - WeaponDisabler
     - CrowbarRed
-    - WeaponloadoutGammaPrimary
-    - WeaponloadoutGammaSecondary
+    - WeaponLoadoutGammaPrimary
+    - WeaponLoadoutGammaSecondary
     - EmergencyMedipen
     - BoxMRE
     - Flare
@@ -307,8 +307,8 @@
     back:
     - Defibrillator
     - BoxMRE
-    - WeaponloadoutAmberPrimary
-    - WeaponloadoutAmberSecondary
+    - WeaponLoadoutAmberPrimary
+    - WeaponLoadoutAmberSecondary
     - Flare
     - WeaponDisabler
     - HandheldHealthAnalyzer
@@ -360,10 +360,10 @@
     - CrowbarRed
     - Flare
     - ADTCombatHypo
-    - WeaponloadoutRedSecondary
+    - WeaponLoadoutRedSecondary
     - EmergencyMedipen
     - BoxMRE
-    - WeaponloadoutRedPrimary
+    - WeaponLoadoutRedPrimary
     - DefibrillatorCompact
     - WeaponDisabler
     - HandheldHealthAnalyzer
@@ -410,11 +410,11 @@
     - Cautery
     - CrowbarRed
     - ADTCombatHypo
-    - WeaponloadoutGammaPrimary
+    - WeaponLoadoutGammaPrimary
     - EmergencyMedipen
     - BoxMRE
     - DefibrillatorCompact
-    - WeaponloadoutGammaSecondary
+    - WeaponLoadoutGammaSecondary
     - WeaponDisabler
     - HandheldHealthAnalyzer
     - PinpointerNuclear
@@ -457,8 +457,8 @@
     - WeaponDisabler
     - EmergencyMedipen
     - BoxMRE
-    - WeaponloadoutAmberSecondary
-    - WeaponloadoutAmberPrimary
+    - WeaponLoadoutAmberSecondary
+    - WeaponLoadoutAmberPrimary
     - Flare
 
 ## Red
@@ -496,10 +496,10 @@
     - RCD
     - RCDAmmo
     - RCDAmmo
-    - WeaponloadoutRedSecondary
+    - WeaponLoadoutRedSecondary
     - EmergencyMedipen
     - BoxMRE
-    - WeaponloadoutRedPrimary
+    - WeaponLoadoutRedPrimary
     - RemoteSignaller
     - Flare
     - WeaponDisabler
@@ -546,10 +546,10 @@
     - C4
     - C4
     - RemoteSignallerAdvanced
-    - WeaponloadoutGammaPrimary
+    - WeaponLoadoutGammaPrimary
     - EmergencyMedipen
     - BoxMRE
-    - WeaponloadoutGammaSecondary
+    - WeaponLoadoutGammaSecondary
     - Flare
     - PinpointerNuclear
 
@@ -595,7 +595,7 @@
     - CrowbarRed
     - EmergencyMedipen
     - BoxMRE
-    - WeaponloadoutAmberSecondary
+    - WeaponLoadoutAmberSecondary
     - Flare
     - WeaponDisabler
 
@@ -636,10 +636,10 @@
     - LightReplacer
     - Holoprojector
     - CrowbarRed
-    - WeaponloadoutRedSecondary
+    - WeaponLoadoutRedSecondary
     - EmergencyMedipen
     - BoxMRE
-    - WeaponloadoutRedPrimary
+    - WeaponLoadoutRedPrimary
     - TrashBagBlue
     - Flare
     - WeaponDisabler
@@ -682,10 +682,10 @@
     - LightReplacer
     - Holoprojector
     - Zipties
-    - WeaponloadoutGammaPrimary
+    - WeaponLoadoutGammaPrimary
     - EmergencyMedipen
     - BoxMRE
-    - WeaponloadoutGammaSecondary
+    - WeaponLoadoutGammaSecondary
     - CrowbarRed
     - WeaponDisabler
     - TrashBagBlue
