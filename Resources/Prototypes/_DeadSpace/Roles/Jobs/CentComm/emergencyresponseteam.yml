@@ -35,8 +35,8 @@
     pocket1: DoubleEmergencyOxygenTankFilled
   storage:
     back:
-    - ERTloadoutAmberSecondary
-    - ERTloadoutAmberPrimary
+    - WeaponloadoutAmberSecondary
+    - WeaponloadoutAmberPrimary
     - BoxMRE
     - WeaponDisabler
     - CrowbarRed
@@ -81,8 +81,8 @@
     pocket1: DoubleEmergencyOxygenTankFilled
   storage:
     back:
-    - ERTloadoutRedPrimary
-    - ERTloadoutRedSecondary
+    - WeaponloadoutRedPrimary
+    - WeaponloadoutRedSecondary
     - BoxMRE
     - PinpointerNuclear
     - CrowbarRed
@@ -130,8 +130,8 @@
   storage:
     back:
     - WeaponLauncherMGL
-    - ERTloadoutGammaPrimary
-    - ERTloadoutGammaSecondary
+    - WeaponloadoutGammaPrimary
+    - WeaponloadoutGammaSecondary
     - PinpointerNuclear
     - CrowbarRed
     - EmergencyMedipen
@@ -179,8 +179,8 @@
     - CrowbarRed
     - EmergencyMedipen
     - BoxMRE
-    - ERTloadoutAmberSecondary
-    - ERTloadoutAmberPrimary
+    - WeaponloadoutAmberSecondary
+    - WeaponloadoutAmberPrimary
     - Flare
     - Truncheon
 
@@ -218,10 +218,10 @@
     back:
     - TelescopicShield
     - WeaponDisabler
-    - ERTloadoutRedPrimary
+    - WeaponloadoutRedPrimary
     - EmergencyMedipen
     - BoxMRE
-    - ERTloadoutRedSecondary
+    - WeaponloadoutRedSecondary
     - CrowbarRed
     - Flare
     - Truncheon
@@ -263,8 +263,8 @@
     - TelescopicShield
     - WeaponDisabler
     - CrowbarRed
-    - ERTloadoutGammaPrimary
-    - ERTloadoutGammaSecondary
+    - WeaponloadoutGammaPrimary
+    - WeaponloadoutGammaSecondary
     - EmergencyMedipen
     - BoxMRE
     - Flare
@@ -307,8 +307,8 @@
     back:
     - Defibrillator
     - BoxMRE
-    - ERTloadoutAmberPrimary
-    - ERTloadoutAmberSecondary
+    - WeaponloadoutAmberPrimary
+    - WeaponloadoutAmberSecondary
     - Flare
     - WeaponDisabler
     - HandheldHealthAnalyzer
@@ -360,10 +360,10 @@
     - CrowbarRed
     - Flare
     - ADTCombatHypo
-    - ERTloadoutRedSecondary
+    - WeaponloadoutRedSecondary
     - EmergencyMedipen
     - BoxMRE
-    - ERTloadoutRedPrimary
+    - WeaponloadoutRedPrimary
     - DefibrillatorCompact
     - WeaponDisabler
     - HandheldHealthAnalyzer
@@ -410,11 +410,11 @@
     - Cautery
     - CrowbarRed
     - ADTCombatHypo
-    - ERTloadoutGammaPrimary
+    - WeaponloadoutGammaPrimary
     - EmergencyMedipen
     - BoxMRE
     - DefibrillatorCompact
-    - ERTloadoutGammaSecondary
+    - WeaponloadoutGammaSecondary
     - WeaponDisabler
     - HandheldHealthAnalyzer
     - PinpointerNuclear
@@ -457,8 +457,8 @@
     - WeaponDisabler
     - EmergencyMedipen
     - BoxMRE
-    - ERTloadoutAmberSecondary
-    - ERTloadoutAmberPrimary
+    - WeaponloadoutAmberSecondary
+    - WeaponloadoutAmberPrimary
     - Flare
 
 ## Red
@@ -496,10 +496,10 @@
     - RCD
     - RCDAmmo
     - RCDAmmo
-    - ERTloadoutRedSecondary
+    - WeaponloadoutRedSecondary
     - EmergencyMedipen
     - BoxMRE
-    - ERTloadoutRedPrimary
+    - WeaponloadoutRedPrimary
     - RemoteSignaller
     - Flare
     - WeaponDisabler
@@ -546,10 +546,10 @@
     - C4
     - C4
     - RemoteSignallerAdvanced
-    - ERTloadoutGammaPrimary
+    - WeaponloadoutGammaPrimary
     - EmergencyMedipen
     - BoxMRE
-    - ERTloadoutGammaSecondary
+    - WeaponloadoutGammaSecondary
     - Flare
     - PinpointerNuclear
 
@@ -587,7 +587,7 @@
     pocket1: DoubleEmergencyOxygenTankFilled
   storage:
     back:
-    - ERTloadoutAmberPrimary
+    - WeaponloadoutAmberPrimary
     - SoapNT
     - MopItem
     - LightReplacer
@@ -595,7 +595,7 @@
     - CrowbarRed
     - EmergencyMedipen
     - BoxMRE
-    - ERTloadoutAmberSecondary
+    - WeaponloadoutAmberSecondary
     - Flare
     - WeaponDisabler
 
@@ -636,10 +636,10 @@
     - LightReplacer
     - Holoprojector
     - CrowbarRed
-    - ERTloadoutRedSecondary
+    - WeaponloadoutRedSecondary
     - EmergencyMedipen
     - BoxMRE
-    - ERTloadoutRedPrimary
+    - WeaponloadoutRedPrimary
     - TrashBagBlue
     - Flare
     - WeaponDisabler
@@ -682,10 +682,10 @@
     - LightReplacer
     - Holoprojector
     - Zipties
-    - ERTloadoutGammaPrimary
+    - WeaponloadoutGammaPrimary
     - EmergencyMedipen
     - BoxMRE
-    - ERTloadoutGammaSecondary
+    - WeaponloadoutGammaSecondary
     - CrowbarRed
     - WeaponDisabler
     - TrashBagBlue
