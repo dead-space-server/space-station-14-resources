@@ -3,7 +3,7 @@
 ## Base
 - type: entity
   parent: BaseItem
-  id: BaseWeaponloadoutPrimary
+  id: BaseWeaponLoadoutPrimary
   abstract: true
   name: кейс неопределённости
   description: Прочный военный кейс для оружия.
@@ -28,7 +28,7 @@
 
 - type: entity
   parent: BaseItem
-  id: BaseWeaponloadoutSecondary
+  id: BaseWeaponLoadoutSecondary
   abstract: true
   name: коробка неопределённости
   description: Коробка с табельным оружием.
@@ -55,11 +55,11 @@
 ## Security
 
 - type: entity
-  id: WeaponloadoutSecuritySecondary
+  id: WeaponLoadoutSecuritySecondary
   name: коробка неопределённости
   description: Коробка с табельным оружием. Принадлежит службе безопасности.
   suffix: СБ, Вторичное
-  parent: BaseWeaponloadoutSecondary
+  parent: BaseWeaponLoadoutSecondary
   components:
   - type: Sprite
     state: sec
@@ -80,7 +80,7 @@
   name: кейс неопределённости
   description: Прочный военный кейс для оружия. Принадлежит отряду "Эмбер". 
   suffix: ОБР, Эмбер, Основное
-  parent: BaseWeaponloadoutPrimary
+  parent: BaseWeaponLoadoutPrimary
   components:
   - type: Sprite
     state: amber
@@ -97,11 +97,11 @@
         type: ThiefBackpackBoundUserInterface
 
 - type: entity
-  id: WeaponloadoutAmberSecondary
+  id: WeaponLoadoutAmberSecondary
   name: коробка неопределённости
   description: Коробка с табельным оружием. Принадлежит отряду "Эмбер".
   suffix: ОБР, Эмбер, Вторичное
-  parent: BaseWeaponloadoutSecondary
+  parent: BaseWeaponLoadoutSecondary
   components:
   - type: Sprite
     state: amber
@@ -118,11 +118,11 @@
 
 ## Red
 - type: entity
-  id: WeaponloadoutRedPrimary
+  id: WeaponLoadoutRedPrimary
   name: кейс неопределённости
   description: Прочный военный кейс для оружия. Принадлежит отряду "Красный".
   suffix: ОБР, Красный, Основное
-  parent: BaseWeaponloadoutPrimary
+  parent: BaseWeaponLoadoutPrimary
   components:
   - type: Sprite
     state: red
@@ -141,11 +141,11 @@
         type: ThiefBackpackBoundUserInterface
 
 - type: entity
-  id: WeaponloadoutRedSecondary
+  id: WeaponLoadoutRedSecondary
   name: коробка неопределённости
   description: Коробка с табельным оружием. Принадлежит отряду "Красный".
   suffix: ОБР, Красный, Вторичное
-  parent: BaseWeaponloadoutSecondary
+  parent: BaseWeaponLoadoutSecondary
   components:
   - type: Sprite
     state: red
@@ -162,11 +162,11 @@
 
 ## Gamma
 - type: entity
-  id: WeaponloadoutGammaPrimary
+  id: WeaponLoadoutGammaPrimary
   name: кейс неопределённости
   description: Прочный военный кейс для оружия. Принадлежит отряду "Гамма".
   suffix: ОБР, Гамма, Основное
-  parent: BaseWeaponloadoutPrimary
+  parent: BaseWeaponLoadoutPrimary
   components:
   - type: Sprite
     state: gamma
@@ -183,11 +183,11 @@
         type: ThiefBackpackBoundUserInterface
 
 - type: entity
-  id: WeaponloadoutGammaSecondary
+  id: WeaponLoadoutGammaSecondary
   name: коробка неопределённости
   description: Коробка с табельным оружием. Принадлежит отряду "Гамма".
   suffix: ОБР, Гамма, Вторичное
-  parent: BaseWeaponloadoutSecondary
+  parent: BaseWeaponLoadoutSecondary
   components:
   - type: Sprite
     state: gamma
@@ -205,11 +205,11 @@
 
 ## CBURN
 - type: entity
-  id: WeaponloadoutCBURNPrimary
+  id: WeaponLoadoutCBURNPrimary
   name: кейс неопределённости
   description: Прочный военный кейс для оружия. Принадлежит отряду РХБЗЗ. 
   suffix: РХБЗЗ, Съерра, Основное
-  parent: BaseWeaponloadoutPrimary
+  parent: BaseWeaponLoadoutPrimary
   components:
   - type: Sprite
     state: cburn
@@ -227,11 +227,11 @@
         type: ThiefBackpackBoundUserInterface
 
 - type: entity
-  id: WeaponloadoutCBURNSecondary
+  id: WeaponLoadoutCBURNSecondary
   name: коробка неопределённости
   description: Коробка с табельным оружием. Принадлежит отряду РХБЗЗ.
   suffix: РХБЗЗ, Съерра, Вторичное
-  parent: BaseWeaponloadoutSecondary
+  parent: BaseWeaponLoadoutSecondary
   components:
   - type: Sprite
     state: cburn
