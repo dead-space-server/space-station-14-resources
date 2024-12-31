@@ -21,8 +21,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
   - type: TemperatureProtection
-    heatingCoefficient: 0.005
-    coolingCoefficient: 0.005
+    heatingCoefficient: 0.5
+    coolingCoefficient: 0.5
   - type: Armor
     modifiers:
       coefficients:
@@ -46,8 +46,8 @@
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
   - type: TemperatureProtection
-    heatingCoefficient: 0.001
-    coolingCoefficient: 0.001
+    heatingCoefficient: 0.5
+    coolingCoefficient: 0.5
   - type: ExplosionResistance
     damageCoefficient: 0.7
   - type: Armor
@@ -67,11 +67,11 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetCBURNNECROLeader
-  - type: AutoInjectReagentClothingOnAllowedState #Автоиньектор при смене состояния сущности
-    durationRegenReagents: 120 #кд способности
-    allowedStates: #При каких состояниях
+  - type: AutoInjectReagentClothingOnAllowedState # Автоиньектор при смене состояния сущности
+    durationRegenReagents: 120 # кд способности
+    allowedStates: # При каких состояниях
     - Critical
-    reagents: #Что впрыскивать
+    reagents: # Что впрыскивать
       DexalinPlus: 5
       Epinephrine: 15
       Puncturase: 10
@@ -100,8 +100,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
   - type: TemperatureProtection
-    heatingCoefficient: 0.005
-    coolingCoefficient: 0.005
+    heatingCoefficient: 0.5
+    coolingCoefficient: 0.5
   - type: Armor
     modifiers:
       coefficients:
@@ -125,8 +125,8 @@
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
   - type: TemperatureProtection
-    heatingCoefficient: 0.001
-    coolingCoefficient: 0.001
+    heatingCoefficient: 0.5
+    coolingCoefficient: 0.5
   - type: ExplosionResistance
     damageCoefficient: 0.7
   - type: Armor
@@ -146,11 +146,11 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetCBURNNECROSoldier
-  - type: AutoInjectReagentClothingOnAllowedState #Автоиньектор при смене состояния сущности
-    durationRegenReagents: 120 #кд способности
-    allowedStates: #При каких состояниях
+  - type: AutoInjectReagentClothingOnAllowedState # Автоиньектор при смене состояния сущности
+    durationRegenReagents: 120 # кд способности
+    allowedStates: # При каких состояниях
     - Critical
-    reagents: #Что впрыскивать
+    reagents: # Что впрыскивать
       TranexamicAcid: 10
       DexalinPlus: 5
       Epinephrine: 15

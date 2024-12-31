@@ -5,13 +5,21 @@
   placement:
     mode: SnapgridCenter
   components:
-  - type: DemonPortal
   - type: Transform
     anchored: true
   - type: Physics
     bodyType: Static
-    canCollide: false
   - type: Fixtures
+    fixtures:
+      portalFixture:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.25,-0.48,0.25,0.48"
+        mask:
+        - FullTileMask
+        layer:
+        - WallLayer
+        hard: false
   - type: Sprite
     sprite: DeadSpace/Demons/demon_boss.rsi
     state: herald_mirror
@@ -42,3 +50,4 @@
   - type: EmitSoundOnSpawn
     sound:
       path: /Audio/Weapons/Guns/Gunshots/rocket_launcher.ogg
+  - type: DemonPortal

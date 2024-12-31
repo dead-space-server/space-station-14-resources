@@ -39,7 +39,7 @@
 - type: necromorf
   id: NecroDeva
   scale: 1.2
-  movementSpeedMultiply: 0.4
+  movementSpeedMultiply: 1
   damage:
     groups:
       Brute: 5
@@ -129,7 +129,8 @@
 - type: necromorf
   id: NecroBrute
   isAnimal: true
-  thresholdMultiply: 3
+  slowOnDamage: false
+  thresholdMultiply: 4
   damage:
     groups:
       Brute: 35
@@ -156,7 +157,7 @@
   sprite: DeadSpace/Necromorfs/infector.rsi
   state: running
   useInventory: false
-  components: # Доп. компоненты
+  components:
   - type: InfectorDead
     spawned:
     - id: InfectorGland # Что вылупилось
@@ -164,6 +165,7 @@
 
 - type: necromorf # Прототип некроморфа
   id: NecroTwitcherLvl2 # Идентификатор
+  slowOnDamage: false
   thresholdMultiply: 2
   damage: # Урон наносимый некроморфом
     groups:
@@ -179,6 +181,7 @@
 
 - type: necromorf # Прототип некроморфа
   id: NecroCorpseCollector # Идентификатор
+  slowOnDamage: false
   thresholdMultiply: 3
   layersToHide:
   - Tail
@@ -436,14 +439,3 @@
     state: full
   - type: RandomHumanoidSpawner
     settings: CorpseCollectorNecromorf
-
-# - type: entity
-#   id: BruteNecromorfSpawner
-#   name: Некроморф
-#   suffix: зверь
-#   components:
-#   - type: Icon
-#     sprite: Mobs/Species/Human/parts.rsi
-#     state: full
-#   - type: RandomHumanoidSpawner
-#     settings: BruteNecromorf

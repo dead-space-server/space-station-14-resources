@@ -120,33 +120,9 @@
       - MindRoleEnslavedUnitology
 
 - type: preloadedGrid
-  id: TravelingMedWard
-  path: /Maps/Shuttles/ShuttleEvent/traveling_medical_ward.yml
-  copies: 1
-
-- type: preloadedGrid
-  id: TravelingMedWardUnitology
-  path: /Maps/Shuttles/ShuttleEvent/traveling_medical_ward_unitology.yml
-  copies: 1
-
-- type: preloadedGrid
   id: TravelingCuisineUnitology
   path: /Maps/Shuttles/ShuttleEvent/traveling_china_cuisine_unitology.yml
   copies: 1
-
-- type: entity
-  parent: BaseUnknownShuttleRule
-  id: UnknownShuttleTravelingMedWard
-  components:
-  - type: LoadMapRule
-    preloadedGrid: TravelingMedWard
-
-- type: entity
-  parent: BaseUnknownShuttleRule
-  id: UnknownShuttleTravelingMedWardUnitology
-  components:
-  - type: LoadMapRule
-    preloadedGrid: TravelingMedWardUnitology
 
 - type: entity
   parent: BaseUnknownShuttleRule

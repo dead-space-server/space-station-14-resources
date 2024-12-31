@@ -139,7 +139,7 @@
 - type: microwaveMealRecipe
   id: RecipeHoneyCake
   name: honey cake recipe
-  result: MobHoneyCake
+  result: FoodHoneyCake
   time: 15
   reagents:
     Sugar: 20

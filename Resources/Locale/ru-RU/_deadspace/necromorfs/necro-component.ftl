@@ -1,10 +1,14 @@
 # Necro ent
+ent-MobNecromant = иссушитель звездных душ
+    .desc = От него веет смертью и загадочностью.
+    .suffix = Некроморф, Призрачная роль
+
 ent-MobSlasher = расчленитель
-    .desc = Некроморф похожий на мутировавший труп.
+    .desc = Похож на мутировавший труп.
     .suffix = Некроморф, Призрачная роль
 
 ent-MobPregnant = беременный
-    .desc = Некроморф похожий на мутировавший труп.
+    .desc = Похож на мутировавший труп.
     .suffix = Некроморф, Призрачная роль
 
 ent-MobSlasherSmall = некроморф
@@ -20,7 +24,7 @@ ent-MobInfector = заразитель
     .suffix = Некроморф, Призрачная роль
 
 ent-MobDivader = разделитель
-    .desc = Некроморф похожий на мутировавший труп.
+    .desc = Похож на мутировавший труп.
     .suffix = Некроморф, Призрачная роль
 
 ent-MobDivaderRH = рука разделителя
@@ -40,11 +44,11 @@ ent-MobCorpseCollector = собиратель трупов
     .suffix = Некроморф, Призрачная роль
 
 ent-MobTwitcher = охотник
-    .desc = Некроморф похожий на мутировавший труп.
+    .desc = Похож на мутировавший труп.
     .suffix = Некроморф, Призрачная роль
 
 ent-MobTwitcherlvl2 = возвышенный
-    .desc = Некроморф похожий на мутировавший труп.
+    .desc = Похож на мутировавший труп.
     .suffix = Некроморф
 
 # Other ent
@@ -111,7 +115,7 @@ reagent-effect-guidebook-cure-sanity =
 
 ent-SyringeExtractInfectorDead = шприц
     .desc = { ent-BaseSyringe.desc }
-    .suffix = Экстракт заразителя, НЕ МАППИТЬ
+    .suffix = Экстракт заразителя, Не маппить
 
 entity-name-extract-infector = экстракт заразителя
 reagent-desc-extract-infector  = Густой и розовый, пахнет отвратительно. Пробовать не стану!
@@ -126,8 +130,9 @@ reagent-effect-guidebook-cause-infection-dead =
 
 ent-SyringeSerumEnslaved = шприц
     .desc = { ent-BaseSyringe.desc }
-    .suffix = Сыворотка порабощения, НЕ МАППИТЬ
+    .suffix = Сыворотка порабощения, Не маппить
 
+entity-name-serum-enslaved = сыворотка порабощения
 reagent-desc-serum-enslaved  = Густой и чёрный, пахнет ужасно.
 
 reagent-effect-guidebook-cause-enslave =
@@ -182,7 +187,7 @@ research-technology-basic-necro-research = Некротехнологии
 # Actions
 
 ent-ActionUnitologObeliskSpawn = Призвать обелиск
-    .desc = Призвать обелиск находясь рядом с двумя порабощёнными, трупом гуманоида и осколком обелиска.
+    .desc = Призвать обелиск находясь рядом с тремя порабощёнными и трупом гуманоида.
 
 ent-ActionUnitologTentacleSpawn = Разместить некро щупальца
     .desc = Разместить щупальца некро, наносящие урон, но не распространяющиеся.

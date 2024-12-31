@@ -294,7 +294,7 @@
       - MiningDrill
       - MiningDrillDiamond
       - AnomalyScanner
-      - ObeliskStoper
+      - ObeliskStoper # DS14
       - AnomalyLocator
       - AnomalyLocatorWide
       - Scalpel
@@ -356,10 +356,10 @@
       # - FauxTileAstroSnow # DS14: moved to CutterMachine recipes
       - OreBagOfHolding
       - DeviceQuantumSpinInverter
-      - ClothingEyesHudDiagnostic
-      - ClothingEyesHudMedical
-      - ClothingEyesHudSecurity
-      - ClothingEyesHudAdvanced
+      - ClothingEyesHudDiagnostic # DS14
+      - ClothingEyesHudMedical # DS14
+      - ClothingEyesHudSecurity # DS14
+      - ClothingEyesHudAdvanced # DS14
   - type: EmagLatheRecipes
     emagDynamicRecipes:
       - BoxBeanbag
@@ -489,7 +489,6 @@
       - SolarControlComputerCircuitboard
       - SolarTrackerElectronics
       - TurboItemRechargerCircuitboard
-      - PowerComputerCircuitboard
       - AutolatheHyperConvectionMachineCircuitboard
       - ProtolatheHyperConvectionMachineCircuitboard
       - CircuitImprinterHyperConvectionMachineCircuitboard
@@ -537,6 +536,7 @@
       - JukeboxCircuitBoard
       - SMESAdvancedMachineCircuitboard
       - SalvageExpeditionsComputerCircuitboard # Corvax-Cringe
+      - HolopadMachineCircuitboard
   - type: EmagLatheRecipes
     emagDynamicRecipes:
       - ShuttleGunDusterCircuitboard

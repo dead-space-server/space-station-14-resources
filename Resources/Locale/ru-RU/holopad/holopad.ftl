@@ -25,7 +25,7 @@ holopad-window-emergency-broadcast-with-countdown = Экстренная тра�
 holopad-window-access-denied = Доступ запрещён
 
 # Contact list
-holopad-window-select-contact-from-list = Выберите контакт для начала голографического вызова
+holopad-window-select-contact-from-list = [font size=10]Выберите контакт для начала голографического вызова[/font]
 holopad-window-fetching-contacts-list = В данный момент нет доступных голографических устройств
 holopad-window-contact-label = {CAPITALIZE($label)}
 

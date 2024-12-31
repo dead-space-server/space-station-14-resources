@@ -66,4 +66,4 @@
     defaultCost: 50 # Стандартная цена на не заданный результат
   - type: Puller
     needsHands: false
-  - type: SpideKing
+  - type: SpiderKing

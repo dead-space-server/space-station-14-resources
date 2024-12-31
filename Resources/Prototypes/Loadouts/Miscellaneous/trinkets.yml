@@ -35,7 +35,7 @@
     back:
     - ClothingHeadHatDeer
 
-# Plushies
+# Toys
 - type: loadout
   id: PlushieLizard
   storage:
@@ -47,6 +47,15 @@
   storage:
     back:
     - PlushieSpaceLizard
+
+- type: loadout
+  id: ThreeCandles
+  dummyEntity: LoadoutDummyCandles
+  storage:
+    back:
+    - CandleRed
+    - CandleBlue
+    - CandleGreenSmall
 
 # Smokeables
 - type: loadout

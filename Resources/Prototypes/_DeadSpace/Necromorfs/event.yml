@@ -74,11 +74,11 @@
   - type: StealTarget
     stealGroup: XenoArtifact
 
-- type: entity
-  parent: StructureObeliskArtifact
-  id: ComplexNecroObeliskArtifact
-  suffix: сложный артефакт
-  components:
-  - type: Artifact
-    nodesMin: 9
-    nodesMax: 15
+# - type: entity
+#   parent: StructureObeliskArtifact
+#   id: ComplexNecroObeliskArtifact
+#   suffix: сложный артефакт
+#   components:
+#   - type: Artifact
+#     nodesMin: 9
+#     nodesMax: 15

@@ -28,8 +28,6 @@
       Dead: 0
     baseDecayRate: 0 # it is okay for animals to eat and drink less than humans, but more frequently
   - type: SpiderTerror
-    mindComponents:
-    - type: SpiderTerrorRole
   - type: Butcherable
     spawned:
     - id: FoodMeatSpider
@@ -98,7 +96,6 @@
       types:
         Piercing: 2
         Poison: 2
-  - type: Puller
   - type: GhostRole
     makeSentient: true
     name: Паук страж ужаса
@@ -888,7 +885,7 @@
       path: /Audio/Animals/space_dragon_roar.ogg # Звуки способности
   - type: Puller
     needsHands: false
-  - type: SpideKing
+  - type: SpiderKing
 
 - type: entity
   name: паук королевский гвардеец
