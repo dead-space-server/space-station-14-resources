@@ -587,7 +587,7 @@
     pocket1: DoubleEmergencyOxygenTankFilled
   storage:
     back:
-    - WeaponloadoutAmberPrimary
+    - WeaponLoadoutAmberPrimary
     - SoapNT
     - MopItem
     - LightReplacer
