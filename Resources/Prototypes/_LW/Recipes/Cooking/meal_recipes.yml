@@ -1,0 +1,8 @@
+- type: microwaveMealRecipe
+  id: RecipeCakeSpaceman
+  name: cake spaceman
+  result: FoodCakeSpaceman
+  time: 10
+  solids:
+    FoodCakePlain: 1
+    FoodSpacemansTrumpet: 3
