@@ -3538,6 +3538,11 @@ entities:
       maxDistance: 10
     - type: DeviceLinkSource
       range: 10
+      linkedPorts:
+        787:
+        - MedicalScannerSender: MedicalScannerReceiver
+        403:
+        - CloningPodSender: CloningPodReceiver
 - proto: ComputerComms
   entities:
   - uid: 422
@@ -6297,7 +6302,6 @@ entities:
   - uid: 763
     components:
     - type: Transform
-      rot: -1.5707963267948966 rad
       pos: -5.5,-12.5
       parent: 1
   - uid: 764
@@ -6311,6 +6315,11 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 12.5,-16.5
+      parent: 1
+  - uid: 1317
+    components:
+    - type: Transform
+      pos: -5.5,-13.5
       parent: 1
 - proto: IngotGold
   entities:
@@ -6500,6 +6509,12 @@ entities:
     - type: Physics
       canCollide: False
   - uid: 782
+    components:
+    - type: Transform
+      parent: 779
+    - type: Physics
+      canCollide: False
+  - uid: 783
     components:
     - type: Transform
       parent: 779
@@ -6757,14 +6772,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -8.5,-14.5
       parent: 1
-- proto: NetworkConfigurator
-  entities:
-  - uid: 783
-    components:
-    - type: Transform
-      parent: 779
-    - type: Physics
-      canCollide: False
 - proto: NitrogenCanister
   entities:
   - uid: 803
@@ -6793,6 +6800,20 @@ entities:
     - type: Transform
       pos: -2.5,-7.5
       parent: 1
+- proto: Paper
+  entities:
+  - uid: 1318
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -5.3737698,-14.42927
+      parent: 1
+    - type: Paper
+      content: >-
+        Здравия, бойцы ОБР Гамма, в целях проверки отряда на зрение, биомасса для клонирования находится в стеклянной настенной полке. Если вы прошли первичную боевую подготовку (ИНАЧЕ ВЫ БУДЕТЕ РАЗЖАЛОВАНЫ С ПОЗОРОМ В СЛУЖБУ БЕЗОПАСНОСТИ СТАНЦИИ), то сразу заметите полку.
+
+
+        И. М.
 - proto: PartRodMetal
   entities:
   - uid: 429
@@ -8165,6 +8186,11 @@ entities:
     components:
     - type: Transform
       pos: -5.5,-12.5
+      parent: 1
+  - uid: 1316
+    components:
+    - type: Transform
+      pos: -5.5,-13.5
       parent: 1
 - proto: SubstationWallBasic
   entities:

@@ -102652,48 +102652,6 @@ entities:
     - type: Transform
       pos: 0.5,-2.5
       parent: 18873
-- proto: Smoke
-  entities:
-  - uid: 12032
-    components:
-    - type: Transform
-      pos: 9.5,-11.5
-      parent: 11284
-    - type: TimedDespawn
-      lifetime: 30
-    - type: Smoke
-      duration: 30
-      spreadAmount: 50
-  - uid: 12033
-    components:
-    - type: Transform
-      pos: 9.5,-11.5
-      parent: 11284
-    - type: TimedDespawn
-      lifetime: 30
-    - type: Smoke
-      duration: 30
-      spreadAmount: 50
-  - uid: 12034
-    components:
-    - type: Transform
-      pos: 10.5,-11.5
-      parent: 11284
-    - type: TimedDespawn
-      lifetime: 30
-    - type: Smoke
-      duration: 30
-      spreadAmount: 50
-  - uid: 12035
-    components:
-    - type: Transform
-      pos: 10.5,-11.5
-      parent: 11284
-    - type: TimedDespawn
-      lifetime: 30
-    - type: Smoke
-      duration: 30
-      spreadAmount: 50
 - proto: SoapOmega
   entities:
   - uid: 12036
@@ -106302,15 +106260,11 @@ entities:
     - type: Transform
       pos: 9.5,-11.5
       parent: 11284
-    - type: SmokeAffected
-      smokeEntity: 12033
   - uid: 12057
     components:
     - type: Transform
       pos: 10.5,-11.5
       parent: 11284
-    - type: SmokeAffected
-      smokeEntity: 12035
   - uid: 12058
     components:
     - type: Transform
@@ -125672,8 +125626,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 10.5,-11.5
       parent: 11284
-    - type: SmokeAffected
-      smokeEntity: 12035
   - uid: 14851
     components:
     - type: Transform

@@ -70,6 +70,7 @@
   id: CBURNLeaderSCST
   parent: EventHumanoidERTZombieImmune
   components:
+  - type: CburnStaff
   - type: MindShield
   - type: Loadout
     prototypes: [CBURNSCSTLeaderGear]
@@ -97,6 +98,7 @@
   id: CBURNSoldierSCST
   parent: EventHumanoidERTZombieImmune
   components:
+  - type: CburnStaff
   - type: MindShield
   - type: Loadout
     prototypes: [CBURNSCSTSoldierGear]

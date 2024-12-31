@@ -14,7 +14,6 @@
         rangeKey: MeleeRange
       operator: !type:MeleeOperator
         targetKey: Target
-        shutdownState: TaskFinished
       services:
       - !type:UtilityService
         id: MeleeService
@@ -218,7 +217,9 @@
 - type: entity
   name: левиафан
   description: Больно бьёт!
-  parent: WeaponTentacleNecro
+  parent:
+  - WeaponTentacleNecro
+  - BaseMob
   id: MobLeviathanNecro
   suffix: Некроморф
   components:
@@ -325,10 +326,9 @@
 - type: entity
   name: разум левиафана
   id: MobGhostLeviathanNecro
+  parent:
+  - BaseMob
   components:
-  - type: MindContainer
-  - type: InputMover
-  - type: MobMover
   - type: Input
     context: "ghost"
   - type: MovementSpeedModifier
@@ -381,6 +381,7 @@
   - type: LeviathanGhost
   - type: CustomSpawnPoint
     duration: 1
+    spawnPointAction: ActionSpawnPoint
     spawnedEntities:
     - WeaponBoneTentacleNecro
     - WeaponTentacleNecro

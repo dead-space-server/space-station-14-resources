@@ -26,6 +26,7 @@ entities:
       name: GX-13 Infiltrator
     - type: Transform
       pos: 0.64252126,4.1776605
+      parent: invalid
     - type: Tag
       tags:
       - Syndicate
@@ -3725,6 +3726,31 @@ entities:
     components:
     - type: Transform
       pos: -2.4942985,-13.37949
+      parent: 1
+  - uid: 784
+    components:
+    - type: Transform
+      pos: -2.6415586,-13.365221
+      parent: 1
+  - uid: 835
+    components:
+    - type: Transform
+      pos: -2.3612509,-13.365221
+      parent: 1
+  - uid: 836
+    components:
+    - type: Transform
+      pos: -2.4645212,-13.468466
+      parent: 1
+  - uid: 837
+    components:
+    - type: Transform
+      pos: -2.4645212,-13.453716
+      parent: 1
+  - uid: 838
+    components:
+    - type: Transform
+      pos: -2.4645212,-13.40947
       parent: 1
 - proto: PlasmaReinforcedWindowDirectional
   entities:

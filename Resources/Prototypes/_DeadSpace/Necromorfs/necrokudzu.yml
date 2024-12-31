@@ -35,19 +35,19 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 15
+        damage: 40
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: Kudzu
-    spreadChance: 0.3
-    # Heals each time it manages to do a growth tick:
+    growthTickChance: 0.1
+    spreadChance: 0.4
     damageRecovery:
       types:
         Slash: -0.25
         Heat: -0.50
         Cold: -0.50
-        Blunt: -0.25 # Needs to be balanced (approx 3x) with vacuum damage to stall but not kill Kudzu
+        Blunt: -0.25
   - type: Temperature
     heatDamage:
       types:
@@ -56,7 +56,7 @@
     fireSpread: true
     damage:
       types:
-        Heat: 1
+        Heat: 2
   - type: GrowingKudzu
   - type: AtmosExposed
   - type: ActiveEdgeSpreader

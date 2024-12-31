@@ -49,7 +49,7 @@
     duration: 60 # Время до получения возможности эволюционировать
     spawnedEntities: # В кого можно эволюционировать
       - MobSpiderTerrorQueenLvl2
-  - type: SpideKing
+  - type: SpiderKing
 
 - type: entity
   name: королева пауков
@@ -120,7 +120,7 @@
       collection: SpiderHatches # Звуки после высасывания
   - type: NeededBloodForSpawnAgainst # Пример
     defaultCost: 50 # Стандартная цена на не заданный результат
-  - type: SpideKing
+  - type: SpiderKing
 
 - type: entity
   name: королева пауков
@@ -204,7 +204,7 @@
       TelecomServerSpiderTerror: 200
       CocoonKingBloodSpider: 150
       CocoonSpider: 50
-  - type: SpideKing
+  - type: SpiderKing
   - type: SlowOnDamage
     speedModifierThresholds:
       250: 0.7
