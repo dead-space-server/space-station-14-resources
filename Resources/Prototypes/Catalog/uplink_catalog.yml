@@ -1690,7 +1690,7 @@
   discountDownTo:
     Telecrystal: 1
   cost:
-    Telecrystal: 3 # DS14
+    Telecrystal: 3
   categories:
   - UplinkWearables
 
