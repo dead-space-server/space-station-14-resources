@@ -8,7 +8,16 @@
     },
     "states": [
       {
-        "name": "spider-banner"
+        "name": "banner-spider",
+        "delays": [
+          [
+            0.3,
+            0.2,
+            0.2,
+            0.2,
+            0.2
+          ]
+        ]
       }
     ]
 }

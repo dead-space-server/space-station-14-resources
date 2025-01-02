@@ -6,4 +6,4 @@
   components:
   - type: Sprite
     sprite: DeadSpace/Structures/Decoration/banner.rsi
-    state: spider-banner
+    state: banner-spider
