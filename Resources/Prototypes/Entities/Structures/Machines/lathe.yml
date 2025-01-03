@@ -615,6 +615,8 @@
     - BorgModuleHarvesting
     - BorgModuleDefibrillator
     - BorgModuleAdvancedTreatment
+    - BorgModuleAdvancedMining
+    - BorgModuleMiningWeapon
     - RipleyHarness
     - RipleyLArm
     - RipleyRArm
