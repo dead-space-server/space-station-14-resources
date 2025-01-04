@@ -3,7 +3,7 @@
   parent: [ CrateSyndicate, StorePresetUplink, BaseSyndicateContraband ]
   name: Syndicate surplus crate
   description: Contains 50 telecrystals worth of completely random Syndicate items. It can be useless junk or really good.
-  suffix: Припасы Синдиката
+  suffix: Припасы
   components:
     - type: SurplusBundle
       totalPrice: 50
@@ -28,7 +28,7 @@
   parent: [ CrateSyndicate, StorePresetUplink, BaseSyndicateContraband ]
   name: Syndicate super surplus crate
   description: Contains 125 telecrystals worth of completely random Syndicate items.
-  suffix: Суперприпасы Синдиката
+  suffix: Суперприпасы
   components:
     - type: SurplusBundle
       totalPrice: 125
