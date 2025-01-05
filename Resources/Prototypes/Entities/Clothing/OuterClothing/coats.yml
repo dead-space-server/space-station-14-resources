@@ -399,7 +399,7 @@
     sprite: Clothing/OuterClothing/Coats/brigmedic.rsi
 
 - type: entity
-  parent: ClothingOuterStorageBase
+  parent: ClothingOuterStorageFoldableBase
   id: ClothingOuterCoatLabSeniorResearcher
   name: senior researcher lab coat
   description: A suit that protects against minor chemical spills. Has a purple collar and wrist trims.
@@ -419,7 +419,7 @@
   name: senior researcher lab coat
 
 - type: entity
-  parent: ClothingOuterStorageBase
+  parent: ClothingOuterStorageFoldableBase
   id: ClothingOuterCoatLabSeniorPhysician
   name: senior physician lab coat
   description: A suit that protects against minor chemical spills. Has light blue sleeves and an orange waist trim.
