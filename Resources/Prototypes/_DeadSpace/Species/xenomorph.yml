@@ -1,12 +1,12 @@
 - type: species
-  id: XenoSponsor
+  id: Xenomorph
   name: species-name-xeno
   roundStart: true
   sponsorOnly: true
-  prototype: MobXenoSponsor
+  prototype: MobXenomorph
   sprites: MobXenoSprites
   markingLimits: MobXenoMarkingLimits
-  dollPrototype: MobXenoSponsorDummy
+  dollPrototype: MobXenomorphDummy
   skinColoration: Hues
   sexes:
   - Unsexed

@@ -6,22 +6,6 @@
   id: BaseMobSpeciesComputer
   abstract: true
   components:
-  - type: StatusEffects
-    allowed:
-    - Stun
-    - KnockedDown
-    - SlowedDown
-    - Stutter
-    - SeeingRainbows
-    - Electrocution
-    - RatvarianLanguage
-    - PressureImmunity
-    - Muted
-    - ForcedSleep
-    - TemporaryBlindness
-    - Pacified
-    - StaminaModifier
-    - Flashed
   - type: Blindable
   - type: Temperature
     heatDamageThreshold: 5000
@@ -41,9 +25,6 @@
   - type: ActiveRadio
     channels:
     - Binary
-  - type: MobPrice
-    price: 3000 # Kidnapping a living person and selling them for cred is a good move.
-    deathPenalty: 0.1 # However they really ought to be living and intact, otherwise they're worth 100x less.
   - type: TypingIndicator
     proto: robot
   - type: Speech
@@ -62,7 +43,6 @@
         Blunt: 5
     soundHit:
       collection: MetalThud
-  - type: InteractionOutline
   - type: MobStateActions
     actions:
       Critical:
@@ -80,17 +60,6 @@
           -1
     maxBleedAmount: 0
     chemicalMaxVolume: 0
-  - type: Fixtures
-    fixtures:
-      fix1:
-        shape:
-          !type:PhysShapeCircle
-          radius: 0.35
-        density: 150
-        mask:
-        - MobMask
-        layer:
-        - MobLayer
   - type: MobThresholds
     thresholds:
       0: Alive
@@ -110,7 +79,6 @@
       - Heat
       - Shock
     locPrefix: silicon
-  - type: Actions
   - type: UnpoweredFlashlight
   - type: PointLight
     enabled: false

@@ -2,8 +2,3 @@
   id: OrganSharkStomach
   parent: OrganAnimalStomach
   categories: [ HideSpawnMenu ]
-  components:
-  - type: SolutionContainerManager
-    solutions:
-      stomach:
-        maxVol: 50

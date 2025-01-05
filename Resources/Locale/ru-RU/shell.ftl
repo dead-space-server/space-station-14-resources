@@ -29,7 +29,6 @@ shell-wrong-arguments-number = Неправильное количество а�
 shell-need-between-arguments = Нужно от { $lower } до { $upper } аргументов!
 shell-need-minimum-arguments = Нужно не менее { $minimum } аргументов!
 shell-need-minimum-one-argument = Нужен хотя бы один аргумент!
-
 shell-argument-uid = EntityUid
 
 ## Guards
@@ -53,5 +52,6 @@ shell-argument-number-must-be-between = Аргумент { $index } должен
 shell-argument-station-id-invalid = Аргумент { $index } должен быть валидным station id!
 shell-argument-map-id-invalid = Аргумент { $index } должен быть валидным map id!
 shell-argument-number-invalid = Аргумент { $index } должен быть валидным числом!
+shell-argument-username-optional-hint = [username]
 # Hints
 shell-argument-username-hint = <username>

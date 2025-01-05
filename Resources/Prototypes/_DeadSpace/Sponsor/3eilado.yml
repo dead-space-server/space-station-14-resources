@@ -112,7 +112,7 @@
 
 #Charm
 - type: entity
-  parent: ClothingNeckBling
+  parent: ClothingNeckBase
   id: ClothingNeckCharm3eilado
   name: секрет Азура
   description: Таинственный амулет. На нём виднеются неразборчивые символы.
@@ -126,6 +126,11 @@
     clothingPrototype: ClothingOuterHardsuit3eilado
     requiredSlot: NECK
     slot: outerClothing
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+      storagebase: !type:Container
+        ents: []
   - type: Item
     size: Huge
 
@@ -679,7 +684,7 @@
 
 # Shard
 - type: entity
-  parent: ShardCrystalOrange
+  parent: BaseItem
   id: ShardCrystalOrange3eilado
   name: оранжевый осколок кристалла в форме звезды
   description: Вероятность успешного завершения этой миссии была ноль процентов. Но, видимо, в вашем случае любые расчёты теряют смысл.
@@ -690,3 +695,8 @@
       - sprite: DeadSpace/Sponsor/3eilado/crystal.rsi
         state: shard1
         map: [ "enum.DamageStateVisualLayers.Base" ]
+    color: "#ff8227"
+  - type: PointLight
+    radius: 2
+    energy: 2.5
+    color: "#ff8227"

@@ -8,7 +8,7 @@
   - /Audio/DeadSpace/Sponsor/Sound/scream-5.ogg
 
 - type: emoteSounds
-  id: UnisexXenoSponsor
+  id: UnisexXenomorph
   sounds:
     Scream:
       collection: XenoScream

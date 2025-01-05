@@ -7,7 +7,6 @@ admin-verb-make-pirate = Сделать цель пиратом\капером. 
 admin-verb-make-head-rev = Сделать цель главой революции.
 admin-verb-make-unitolog = Сделать цель юнитологом.
 admin-verb-make-thief = Сделать цель вором.
-
 admin-verb-text-make-traitor = Сделать предателем
 admin-verb-text-make-initial-infected = Сделать нулевым пациентом
 admin-verb-text-make-zombie = Сделать зомби

@@ -34,7 +34,7 @@
     - Vulpkanin
     - Felinid
     - Kobolt
-    - XenoSponsor
+    - Xenomorph
     - IPC
     - IPS
 
@@ -56,7 +56,7 @@
     # - Vulpkanin
     - Felinid
     - Kobolt
-    # - XenoSponsor
+    # - Xenomorph
     - IPC
     - IPS
 
@@ -79,7 +79,7 @@
     # - Vulpkanin
     - Felinid
     - Kobolt
-    - XenoSponsor
+    - Xenomorph
     - IPC
     - IPS
   randomizeName: false
@@ -94,7 +94,7 @@
   components:
     - type: ZombieImmune
 
-## Death Squad (It's actually just MobHuman, unlike the other prototypes in this file, but randomHumanoidSettings will randomize appearance)
+## Death Squad (It's actually just MobHuman, unlike the other prototypes in this file, but randomHumanoidSettings will randomize appearance, and we need bald Urists)
 
 - type: entity
   parent: MarkerBase

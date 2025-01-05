@@ -701,3 +701,7 @@ LightTree06: LightTree
 CrateEngineeringIndustrialSMES: null
 ADTSMESIndustrial: SMESAdvanced
 ADTSMESIndustrialEmpty: SMESAdvancedEmpty
+
+# 2025-01-05 - DS14
+Temp_EventScreen: null
+PaperSecOrderEmergencyOrderOne: null

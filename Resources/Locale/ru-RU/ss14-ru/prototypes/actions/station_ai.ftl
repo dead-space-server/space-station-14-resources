@@ -6,7 +6,6 @@ ent-ActionAIViewLaws = Просмотреть законы
     .desc = Ознакомьтесь с законами, которым вы должны следовать.
 ent-AIEyeCamAction = Интерфейс просмотра камер
     .desc = Позволяет прыгать на выбранные камеры.
-
 ent-AIActionAGhostShowCommunications = { ent-ActionAGhostShowCommunications }
     .desc = { ent-ActionAGhostShowCommunications.desc }
 ent-AIActionAGhostShowRadar = { ent-ActionAGhostShowRadar }

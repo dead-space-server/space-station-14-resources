@@ -3,6 +3,9 @@
   id: BaseMobIPC
   abstract: true
   components:
+  - type: Icon
+    sprite: Redspace/Mobs/Species/IPC/parts.rsi
+    state: full
   - type: Body
     prototype: IPC
     requiredLegs: 2
@@ -18,3 +21,6 @@
   parent: BaseSpeciesDummy
   id: MobIPCDummy
   categories: [ HideSpawnMenu ]
+  components:
+  - type: HumanoidAppearance
+    species: IPC

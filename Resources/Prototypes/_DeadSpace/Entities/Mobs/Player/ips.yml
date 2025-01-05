@@ -1,9 +1,5 @@
 - type: entity
   save: false
-  name: Урист МакКПС
+  name: Urist McIPS
   parent: BaseMobIPS
   id: MobIPS
-  components:
-  - type: Icon
-    sprite: DeadSpace/Mobs/Species/IPC/parts.rsi
-    state: full

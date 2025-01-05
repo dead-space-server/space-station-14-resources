@@ -11,8 +11,7 @@
 
 - type: entity
   id: ActionOpenEmotes
-  name: action-name-emotes
-  description: action-description-emotes
+  name: Open emote panel
   components:
   - type: InstantAction
     icon: Interface/Actions/emotes.png
@@ -32,7 +31,7 @@
 
 - type: entity
   id: OwOVoice
-  name: owovoice-action-name
+  name: Change speech
   components:
     - type: InstantAction
       checkCanInteract: false

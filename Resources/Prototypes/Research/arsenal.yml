@@ -32,9 +32,9 @@
   - MagazineShotgunIncendiary
   - MagazineBoxPistolIncendiary
   - MagazineBoxMagnumIncendiary
-  - MagazineBox357Incendiary
   - MagazineBoxLightRifleIncendiary
   - MagazineBoxRifleIncendiary
+  - MagazineBox357Incendiary # ADT
 
 - type: technology
   id: WeaponizedLaserManipulation

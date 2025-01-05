@@ -4,28 +4,12 @@
   - MobBloodstream
   - MobFlammable
   - BaseMobSpecies
-  id: BaseMobSpeciesXenoSponsor
+  id: BaseMobSpeciesXenomorph
   abstract: true
   components:
-  # Organs
-  - type: StatusEffects
-    allowed:
-    - Stun
-    - KnockedDown
-    - SlowedDown
-    - Stutter
-    - SeeingRainbows
-    - Electrocution
-    - ForcedSleep
-    - TemporaryBlindness
-    - Drunk
-    - SlurredSpeech
-    - RatvarianLanguage
-    - PressureImmunity
-    - Muted
-    - Pacified
-    - StaminaModifier
-    - Flashed
+  - type: Icon
+    sprite: DeadSpace/Sponsor/Mobs/Species/Xenomorph/parts.rsi
+    state: full
   - type: Blindable
   - type: Temperature
     heatDamageThreshold: 325
@@ -42,9 +26,6 @@
     damage:
       types:
         Blunt: 0.50 #per second, scales with pressure and other constants.
-  - type: MobPrice
-    price: 3000 # Kidnapping a living person and selling them for cred is a good move.
-    deathPenalty: 0.1 # However they really ought to be living and intact, otherwise they're worth 100x less.
   - type: TypingIndicator
     proto: alien
   - type: Speech
@@ -58,13 +39,6 @@
   - type: Damageable
     damageContainer: Biological
     damageModifierSet: XenoRace
-  - type: DamageOnHighSpeedImpact
-    damage:
-      types:
-        Blunt: 5
-    soundHit:
-      path: /Audio/Effects/hit_kick.ogg
-  - type: InteractionOutline
   - type: Bloodstream
     bloodReagent: FluorosulfuricAcid
     bloodlossDamage:
@@ -77,31 +51,11 @@
     chemicalMaxVolume: 0
   - type: DrawableSolution
     solution: bloodstream
-  - type: Fixtures
-    fixtures:
-      fix1:
-        shape:
-          !type:PhysShapeCircle
-          radius: 0.35
-        density: 150
-        mask:
-        - MobMask
-        layer:
-        - MobLayer
-  - type: HealthExaminable
-    examinableTypes:
-      - Blunt
-      - Slash
-      - Piercing
-      - Heat
-      - Shock
-    locPrefix: silicon
-  - type: Actions
   - type: Vocal
     sounds:
-      Male: UnisexXenoSponsor
-      Female: UnisexXenoSponsor
-      Unsexed: UnisexXenoSponsor
+      Male: UnisexXenomorph
+      Female: UnisexXenomorph
+      Unsexed: UnisexXenomorph
   - type: MeleeWeapon
     soundHit:
      collection: AlienClaw
@@ -109,7 +63,6 @@
     damage:
       types:
         Slash: 6
-  - type: MovementSpeedModifier
   - type: InteractionPopup
     successChance: 1.0
     interactSuccessString: petting-success-bingus
@@ -153,8 +106,8 @@
     Caustic: 0
 
 - type: entity
-  parent: BaseMobSpeciesXenoSponsor
-  id: BaseMobXenoSponsor
+  parent: BaseMobSpeciesXenomorph
+  id: BaseMobXenomorph
   name: Ксеноморф
   abstract: true
   components:
@@ -162,7 +115,7 @@
     prototype: Xenomorph
     requiredLegs: 2
   - type: HumanoidAppearance
-    species: XenoSponsor
+    species: Xenomorph
   - type: DamageVisuals
     damageOverlayGroups:
       Brute:
@@ -171,5 +124,8 @@
 
 - type: entity
   parent: BaseSpeciesDummy
-  id: MobXenoSponsorDummy
+  id: MobXenomorphDummy
   categories: [ HideSpawnMenu ]
+  components:
+  - type: HumanoidAppearance
+    species: Xenomorph

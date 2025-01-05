@@ -54,6 +54,9 @@
     - ComputerEmotes
   chatMessages: ["chat-emote-msg-hiss"]
   chatTriggers:
+    - шипит
+    - шипит.
+    - шипит!
     - hiss
     - hisses
     - hisses.

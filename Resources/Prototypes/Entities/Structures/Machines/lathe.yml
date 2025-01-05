@@ -810,6 +810,7 @@
       - WeaponLaserCarbine
       - WeaponXrayCannon
       - WeaponLaserRifle # DS14
+      - MagazineBox357Incendiary # ADT
   - type: MaterialStorage
     whitelist:
       tags:

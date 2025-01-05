@@ -66,12 +66,9 @@ anomaly-generator-charges =
         [few] { $charges } заряда
        *[other] { $charges } зарядов
     }
-
 anomaly-generator-announcement = Внимание! Была создана аномалия.
-
 anomaly-generator-announcement-science = Создана аномалия. Ответственный сотрудник: { $author }.
 anomaly-generator-announcement-author-unknown = не найден
-
 anomaly-command-pulse = Вызывает импульс аномалии
 anomaly-command-supercritical = Целевая аномалия переходит в суперкритическое состояние
 # Flavor text on the footer

@@ -8,6 +8,7 @@ ent-EscapeShuttleObjective = Улететь на Центком живым и с
     .desc = Один из наших агентов под прикрытием допросит вас по прибытии. Не дайте себя арестовать.
 ent-DieObjective = Умереть славной смертью.
     .desc = Умрите.
+
 ent-KillRandomPersonObjective = { ent-BaseKillObjective }
     .desc = Сделайте это, как посчитаете нужным. Только убедитесь, что цель не улетит на Центком.
 ent-KillRandomHeadObjective = { ent-BaseKillObjective }
