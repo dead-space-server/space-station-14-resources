@@ -2,7 +2,7 @@
   id: XenoTail
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [XenoSponsor]
+  speciesRestriction: [Xenomorph]
   sprites:
     - sprite: DeadSpace/Sponsor/Mobs/Species/Xenomorph/tail_markings.rsi
       state: tail_wight
@@ -13,7 +13,7 @@
   id: XenoTailTip
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [XenoSponsor]
+  speciesRestriction: [Xenomorph]
   sprites:
     - sprite: DeadSpace/Sponsor/Mobs/Species/Xenomorph/tail_markings.rsi
       state: tail_small

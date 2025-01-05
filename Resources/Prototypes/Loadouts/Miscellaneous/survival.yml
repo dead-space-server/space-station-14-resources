@@ -33,7 +33,7 @@
   - !type:SpeciesLoadoutEffect
     species:
     # DS14-species-start
-    - XenoSponsor
+    - Xenomorph
     # DS14-species-end
 
 - type: loadoutEffectGroup

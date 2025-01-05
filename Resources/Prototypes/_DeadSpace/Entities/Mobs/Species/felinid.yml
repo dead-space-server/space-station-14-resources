@@ -4,7 +4,6 @@
   abstract: true
   components:
   - type: Sprite
-    netsync: false
     noRot: true
     drawdepth: Mobs
     scale: 0.8, 0.8
@@ -21,8 +20,9 @@
       fix1:
         shape:
           !type:PhysShapeCircle
-          radius: 0.28
-        density: 140
+          radius: 0.35
+        # they r smaller
+        density: 120
         restitution: 0.0
         mask:
         - MobMask
@@ -68,16 +68,13 @@
   - type: CatVocal # For cat emotes
 
 - type: entity
-  save: false
-  name: Felinid Dummy
   parent: MobHumanDummy
   id: MobFelinidDummy
   categories: [ HideSpawnMenu ]
-  description: A dummy felinid meant to be used in character setup.
   components:
   - type: Sprite
-    netsync: false
     noRot: true
     drawdepth: Mobs
-    scale: 1, 1
+    scale: 0.8, 0.8
+
 #Nya~~

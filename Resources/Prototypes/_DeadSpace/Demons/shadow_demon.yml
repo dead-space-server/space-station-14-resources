@@ -136,6 +136,8 @@
       shader: unshaded
   - type: Beam
     sound: /Audio/DeadSpace/Demons/shadow_hand.ogg
+  - type: TimedDespawn
+    lifetime: 1
 
 - type: entity
   id: ShadowCocoon

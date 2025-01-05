@@ -71,7 +71,6 @@ uplink-mosin-ammo-name = Коробка патронов (7.62х39 мм винт
 uplink-mosin-ammo-desc = Коробка с 60 патронами для резервной винтовки.
 uplink-sniper-ammo-name = Коробка патронов (.50 антиматериальные)
 uplink-sniper-ammo-desc = Коробка с 10 патронами для снайперской винтовки Христов.
-
 # Utility
 uplink-holopara-kit-name = Набор "Голопаразит"
 uplink-holopara-kit-desc =
@@ -163,7 +162,6 @@ uplink-ammo-bundle-name = Набор боеприпасов
 uplink-ammo-bundle-desc = Перезаряжаю! Содержит 4 магазина для C-20r, 4 барабана для Бульдога и 2 короба патронов для L6 SAW.
 uplink-sniper-bundle-name = Набор снайпера
 uplink-sniper-bundle-desc = Неприметный чемодан, в котором находятся снайперская винтовка Христов, 20 запасных патронов и удобная маскировка.
-
 # Bundles
 uplink-c20r-bundle-name = Набор "C-20r"
 uplink-c20r-bundle-desc = Старый добрый: Классический пистолет-пулемёт C-20r в комплекте с двумя дополнительными магазинами.
@@ -179,13 +177,11 @@ uplink-surplus-bundle-name = Ящик припасов Синдиката
 uplink-surplus-bundle-desc = Содержит случайное снаряжение Синдиката, общей стоимостью в 50 телекристаллов. Оно может быть как бесполезным хламом, так и реально крутым.
 uplink-super-surplus-bundle-name = Ящик суперприпасов Синдиката
 uplink-super-surplus-bundle-desc = Содержит случайное снаряжение Синдиката, общей стоимостью в 125 телекристаллов.
-
 # Tools
 uplink-toolbox-name = Ящик инструментов
 uplink-toolbox-desc = Полный набор инструментов для предателя с тягой к механике. Включает пару изолированных боевых перчаток и противогаз Синдиката.
 uplink-syndicate-jaws-of-life-name = Челюсти жизни
 uplink-syndicate-jaws-of-life-desc = Комбинация лома и кусачек. Используется для проникновения на станцию или в её отделы.
-
 uplink-duffel-surgery-name = Хирургический вещмешок
 uplink-duffel-surgery-desc = Большой вещмешок с полным набором хирургических инструментов.
 uplink-power-sink-name = Поглотитель энергии

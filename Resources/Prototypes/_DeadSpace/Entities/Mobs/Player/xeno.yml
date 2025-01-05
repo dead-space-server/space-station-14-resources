@@ -1,9 +1,0 @@
-- type: entity
-  save: false
-  name: Урист МакКсено
-  parent: BaseMobXenoSponsor
-  id: MobXenoSponsor
-  components:
-  - type: Icon
-    sprite: DeadSpace/Sponsor/Mobs/Species/Xenomorph/parts.rsi
-    state: full

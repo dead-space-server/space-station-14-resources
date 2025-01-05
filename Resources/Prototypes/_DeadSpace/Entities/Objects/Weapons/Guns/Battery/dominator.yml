@@ -45,6 +45,7 @@
     access: [["Armory"]]
   - type: Tag
     tags:
+    - Sidearm
     - BatteryWeaponFireModesSprites
   - type: StaticPrice
     price: 750

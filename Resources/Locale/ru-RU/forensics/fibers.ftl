@@ -7,6 +7,7 @@ fibers-leather = кожаные
 fibers-durathread = дюратканевые
 fibers-latex = латексные
 fibers-nitrile = нитриловые
+fibers-nanomachines = insulative nanomachine
 ibers-nanomachines = !@#$%!&#![ERROR]
 fibers-chameleon = красныефиолетовыеизолирующиесинтетическиекожаныелатексныедюратканевыекожаныефиолетовыечёрныесиниекоричневыезелёныеоранжевыебелыежёлтыекоролевскиесиниеоливковые
 fibers-rubber = резиновые

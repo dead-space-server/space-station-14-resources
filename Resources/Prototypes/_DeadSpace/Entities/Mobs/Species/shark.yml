@@ -3,6 +3,9 @@
   id: BaseMobPlaf
   abstract: true
   components:
+  - type: Icon
+    sprite: ADT/Mobs/Customization/Shark/parts.rsi
+    state: shark_m
   - type: HumanoidAppearance
     species: Shark
     hideLayersOnEquip:
@@ -17,9 +20,6 @@
   - type: RoarAccent
   - type: Hunger
   - type: Thirst
-  - type: Icon
-    sprite: ADT/Mobs/Customization/Shark/parts.rsi
-    state: shark_m
   - type: Damageable
     damageContainer: Biological
     damageModifierSet: Scale
@@ -47,13 +47,15 @@
   - type: Sanity # DS14
 
 - type: entity
-  save: false
-  name: Shark McHands
-  parent: MobHumanDummy
+  parent: BaseSpeciesDummy
   id: MobPlafDummy
   categories: [ HideSpawnMenu ]
-  description: A dummy shark meant to be used in character setup.
   components:
-    - type: HumanoidAppearance
-      species: Shark
-
+  - type: HumanoidAppearance
+    species: Shark
+    hideLayersOnEquip:
+    - Hair
+    - Snout
+    - HeadTop
+    - HeadSide
+    - Tail

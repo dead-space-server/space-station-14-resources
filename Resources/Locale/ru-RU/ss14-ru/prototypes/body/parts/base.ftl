@@ -20,3 +20,5 @@ ent-BaseLeftFoot = левая стопа
     .desc = { ent-BasePart.desc }
 ent-BaseRightFoot = правая стопа
     .desc = { ent-BasePart.desc }
+ent-BaseTail = хвост
+    .desc = { ent-BasePart.desc }

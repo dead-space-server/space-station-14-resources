@@ -57,7 +57,7 @@
     back: ClothingBackpackBlueShield
     eyes: ClothingEyesGlassesSecurity
     ears: ClothingHeadsetAltCommand
-    shoes: ClothingShoesBootsJackSecFilled # Corvax-Resprite-MRP
+    shoes: ClothingShoesBootsJackFilled
     outerClothing: ClothingOuterArmorBasicBlueShield
     belt: ClothingBeltMilitaryWebbingBlueShieldFilled
     gloves: ClothingHandsGlovesCombat
@@ -109,6 +109,11 @@
     clothingPrototype: ClothingOuterHardsuitBlueShield
     requiredSlot: BACK
     slot: outerClothing
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+      storagebase: !type:Container
+        ents: []
   - type: StorageFill
     contents:
       - id: BoxSurvivalSecurity

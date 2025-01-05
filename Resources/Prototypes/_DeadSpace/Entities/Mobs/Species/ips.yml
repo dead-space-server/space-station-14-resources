@@ -3,6 +3,9 @@
   id: BaseMobIPS
   abstract: true
   components:
+  - type: Icon
+    sprite: DeadSpace/Mobs/Species/IPC/parts.rsi
+    state: full
   - type: Body
     prototype: IPS
     requiredLegs: 2
@@ -18,3 +21,6 @@
   parent: BaseSpeciesDummy
   id: MobIPSDummy
   categories: [ HideSpawnMenu ]
+  components:
+  - type: HumanoidAppearance
+    species: IPS

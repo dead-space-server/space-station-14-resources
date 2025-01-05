@@ -19,6 +19,5 @@ particle-accelerator-control-menu-draw-not-available = [font="Monospace"][color=
 particle-accelerator-radio-message-on = Питание УЧ было включено.
 particle-accelerator-radio-message-off = Питание УЧ было выключено.
 particle-accelerator-radio-message-num = Мощность УЧ установлена на уровень { $level }.
-
 # DS14 Popup
 particle-accelerator-control-menu-permission-denied = В доступе отказано

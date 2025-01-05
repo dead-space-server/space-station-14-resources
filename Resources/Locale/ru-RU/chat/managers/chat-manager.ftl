@@ -79,55 +79,44 @@ chat-speech-verb-name-reptilian = Унатх
 chat-speech-verb-reptilian-1 = шипит
 chat-speech-verb-reptilian-2 = фыркает
 chat-speech-verb-reptilian-3 = пыхтит
-
 chat-speech-verb-name-skeleton = Скелет
 chat-speech-verb-skeleton-1 = гремит
 chat-speech-verb-skeleton-2 = клацает
 chat-speech-verb-skeleton-3 = скрежещет
-
 chat-speech-verb-name-canine = Собака
 chat-speech-verb-canine-1 = гавкает
 chat-speech-verb-canine-2 = лает
 chat-speech-verb-canine-3 = воет
-
 chat-speech-verb-name-vox = Вокс
 chat-speech-verb-vox-1 = скрипит
 chat-speech-verb-vox-2 = визжит
 chat-speech-verb-vox-3 = каркает
-
 chat-speech-verb-name-small-mob = Мышь
 chat-speech-verb-small-mob-1 = скрипит
 chat-speech-verb-small-mob-2 = пищит
-
 chat-speech-verb-name-large-mob = Карп
 chat-speech-verb-large-mob-1 = ревёт
 chat-speech-verb-large-mob-2 = рычит
-
 chat-speech-verb-name-monkey = Обезьяна
 chat-speech-verb-monkey-1 = обезьяничает
 chat-speech-verb-monkey-2 = визжит
-
 chat-speech-verb-name-parrot = Попугай
 chat-speech-verb-parrot-1 = кричит
 chat-speech-verb-parrot-2 = чирикает
 chat-speech-verb-parrot-3 = щебечет
-
 chat-speech-verb-name-ghost = Призрак
 chat-speech-verb-ghost-1 = жалуется
 chat-speech-verb-ghost-2 = дышит
 chat-speech-verb-ghost-3 = воет
 chat-speech-verb-ghost-4 = бормочет
-
 chat-speech-verb-name-cluwne = Клувень
 chat-speech-verb-cluwne-1 = хихикает
 chat-speech-verb-cluwne-2 = хехекает
 chat-speech-verb-cluwne-3 = смеётся
-
 chat-speech-verb-name-electricity = Электричество
 chat-speech-verb-electricity-1 = потрескивает
 chat-speech-verb-electricity-2 = жужжит
 chat-speech-verb-electricity-3 = скрипит
-
 chat-sanitize-raider-alert = ИГРОК: "{ $player }" НАПИСАЛ ПОДОЗРИТЕЛЬНОЕ/НАБЕГЕРСКОЕ СООБЩЕНИЕ И БЫЛ КИКНУТ!
 chat-sanitize-raider-alert-emote = ИГРОК: "{ $player }" НАПИСАЛ ПОДОЗРИТЕЛЬНЫЙ/НАБЕГЕРСКИЙ ЭМОУТ И БЫЛ КИКНУТ!
 chat-sanitize-raider-alert-comms = ПОПЫТКА ОТПРАВКИ ПОДОЗРИТЕЛЬНОГО/НАБЕГЕРСКОГО СООБЩЕНИЯ В КОНСОЛЬ СВЯЗИ! ОТПРАВКА СООБЩЕНИЯ БЫЛА ОТМЕНЕНА
