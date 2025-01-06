@@ -12,7 +12,7 @@
   recipeUnlocks:
   - WeaponProtoKineticAccelerator
   - ShuttleGunKineticCircuitboard
-  - BorgModuleMiningWeapon
+  - BorgModuleMiningWeapon # DS14
   # These are roundstart but not replenishable for salvage
 
 - type: technology
