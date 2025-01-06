@@ -108,7 +108,7 @@
 - type: entity
   parent: Fulton
   id: Fulton0
-  suffix: Lingering, 0
+  suffix: Не исчезают закончившись, 0
   categories: [ HideSpawnMenu ]
   components:
   - type: Stack
