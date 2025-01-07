@@ -115,6 +115,20 @@
         - !type:NestedSelector
           tableId: FillCaptainHardsuit
 
+# No Laser + Hardsuit locker
+- type: entity
+  id: LockerCaptainFilledHardsuitNoLaser # DS14
+  parent: LockerCaptain
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:AllSelector
+        children:
+        - !type:NestedSelector
+          tableId: LockerFillCaptainNoLaser
+        - !type:NestedSelector
+          tableId: FillCaptainHardsuit
+
 - type: entityTable
   id: LockerFillHeadOfPersonnel
   table: !type:AllSelector
