@@ -88,8 +88,7 @@
       #   prob: 0.1 # DS14-disabled
       - id: HoloprojectorSecurity
         prob: 0.6
-      - id: PistolDominator # DS14
-      - id: WeaponPistolMk58 # DS14
+      - id: ERTloadoutSecuritySecondary # DS14
       - id: ClothingNeckBodyCamera # DS14
       - id: ClothingMaskGasSecurity # DS14
 
