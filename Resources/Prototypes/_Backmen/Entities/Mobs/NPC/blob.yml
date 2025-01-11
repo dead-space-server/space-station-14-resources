@@ -4,20 +4,20 @@
   suffix: DONTMAP, spawner
   parent: MarkerBase
   components:
-    - type: BlobSpawner
-    - type: GhostRole
-      name: ghost-role-information-blob-name
-      description: ghost-role-information-blob-description
-      rules: ghost-role-component-default-rules
-      raffle:
-        settings: default
-    - type: GhostTakeoverAvailable
-    - type: Sprite
-      sprite: Markers/jobs.rsi
-      layers:
-        - state: green
-        - sprite: Backmen/Mobs/Aliens/blob.rsi
-          state: blob_nuke_overlay
+  - type: BlobSpawner
+  - type: GhostRole
+    name: ghost-role-information-blob-name
+    description: ghost-role-information-blob-description
+    rules: ghost-role-component-default-rules
+    raffle:
+      settings: default
+  - type: GhostTakeoverAvailable
+  - type: Sprite
+    sprite: Markers/jobs.rsi
+    layers:
+      - state: green
+      - sprite: Backmen/Mobs/Aliens/blob.rsi
+        state: blob_nuke_overlay
 
 - type: entity
   id: MobBlobPod
@@ -26,96 +26,96 @@
   parent: SimpleSpaceMobBase
   categories: [ HideSpawnMenu ]
   components:
-    - type: ZombieImmune
-    - type: TriggerOnMobstateChange
-      mobState:
-        - Dead
-    - type: SmokeOnTrigger
-      duration: 5
-      spreadAmount: 20
-      solution:
-        reagents:
-          - ReagentId: TearGas
-            Quantity: 3
-    - type: Damageable
-      damageContainer: Blob
-      damageModifierSet: BlobMob
-    - type: Clothing
-      quickEquip: false
-      sprite: Backmen/Mobs/Aliens/blob.rsi
-      equippedPrefix: blobPod
-      slots:
-        - HEAD
-    - type: Tag
-      tags:
-        - HidesHair
-        - BlobMob
-    - type: IngestionBlocker
-    - type: IdentityBlocker
-    - type: BlobPod
-    - type: DoAfter
-    - type: Physics
-      bodyType: KinematicController
-    - type: InteractionOutline
-    - type: Actions
-    - type: Alerts
-    - type: InputMover
-    - type: Examiner
-    - type: MobMover
-    - type: HTN
-      rootTask:
-        task: BlobPodCompound
-    - type: BlobMob
-    - type: BlobSpeak
-    - type: ReplacementAccent
-      accent: genericAggressive
-    - type: CombatMode
-    - type: NpcFactionMember
-      factions:
-        - Blob
-    - type: MeleeWeapon
-      hidden: true
-      soundHit:
-        path: /Audio/Effects/bite.ogg
-      angle: 0
-      animation: WeaponArcSmash
-      damage:
-        types:
-          Piercing: 5
-    - type: DamageStateVisuals
-      states:
-        Alive:
-          Base: blobpod
-    - type: Fixtures
-      fixtures:
-        fix1:
-          shape:
-            !type:PhysShapeCircle
-            radius: 0.25
-          density: 10
-          mask:
-            - FlyingBlobMobMask
-          layer:
-            - FlyingBlobMobLayer
-    - type: Destructible
-      thresholds:
-        - trigger:
-            !type:DamageTrigger
-            damage: 50
-          behaviors:
-            - !type:DoActsBehavior
-              acts: [ "Destruction" ]
-    - type: MobThresholds
-      thresholds:
-        0: Alive
-        50: Dead
-    - type: MovementSpeedModifier
-      baseWalkSpeed: 3
-      baseSprintSpeed: 4
-    - type: Sprite
-      drawdepth: Mobs
-      sprite: Backmen/Mobs/Aliens/blob.rsi
-      state: blobpod
+  - type: ZombieImmune
+  - type: TriggerOnMobstateChange
+    mobState:
+      - Dead
+  - type: SmokeOnTrigger
+    duration: 5
+    spreadAmount: 20
+    solution:
+      reagents:
+        - ReagentId: TearGas
+          Quantity: 3
+  - type: Damageable
+    damageContainer: Blob
+    damageModifierSet: BlobMob
+  - type: Clothing
+    quickEquip: false
+    sprite: Backmen/Mobs/Aliens/blob.rsi
+    equippedPrefix: blobPod
+    slots:
+      - HEAD
+  - type: Tag
+    tags:
+      - HidesHair
+      - BlobMob
+  - type: IngestionBlocker
+  - type: IdentityBlocker
+  - type: BlobPod
+  - type: DoAfter
+  - type: Physics
+    bodyType: KinematicController
+  - type: InteractionOutline
+  - type: Actions
+  - type: Alerts
+  - type: InputMover
+  - type: Examiner
+  - type: MobMover
+  - type: HTN
+    rootTask:
+      task: BlobPodCompound
+  - type: BlobMob
+  - type: BlobSpeak
+  - type: ReplacementAccent
+    accent: genericAggressive
+  - type: CombatMode
+  - type: NpcFactionMember
+    factions:
+      - Blob
+  - type: MeleeWeapon
+    hidden: true
+    soundHit:
+      path: /Audio/Effects/bite.ogg
+    angle: 0
+    animation: WeaponArcSmash
+    damage:
+      types:
+        Piercing: 5
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: blobpod
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.25
+        density: 10
+        mask:
+          - FlyingBlobMobMask
+        layer:
+          - FlyingBlobMobLayer
+  - type: Destructible
+    thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 50
+        behaviors:
+          - !type:DoActsBehavior
+            acts: [ "Destruction" ]
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      50: Dead
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 3
+    baseSprintSpeed: 4
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: Backmen/Mobs/Aliens/blob.rsi
+    state: blobpod
 
 - type: entity
   id: MobBlobBlobbernaut
@@ -124,83 +124,83 @@
   parent: SimpleSpaceMobBase
   categories: [ HideSpawnMenu ]
   components:
-    - type: ZombieImmune
-    - type: Damageable
-      damageContainer: Blob
-      damageModifierSet: BlobMob
-    - type: Tag
-      tags:
-        - BlobMob
-    - type: GhostRole
-      name: ghost-role-information-blobbernaut-name
-      description: ghost-role-information-blobbernaut-description
-      rules: ghost-role-component-default-rules
-    - type: GhostTakeoverAvailable
-    - type: Blobbernaut
-    - type: BlobSpeak
-    - type: Physics
-    - type: InputMover
-    - type: MobMover
-    - type: BlobMob
-    - type: ReplacementAccent
-      accent: genericAggressive
-    - type: CombatMode
-    - type: HTN
-      rootTask:
-        task: SimpleHostileCompound
-      blackboard:
-        NavSmash: !type:Bool
-          true
-    - type: NpcFactionMember
-      factions:
-        - Blob
-    - type: MobState
-      allowedStates:
-        - Alive
-        - Dead
-    - type: MeleeWeapon
-      hidden: true
-      soundHit:
-        path: /Audio/Effects/bite.ogg
-      angle: 0
-      animation: WeaponArcSmash
-      damage:
-        types:
-          Blunt: 15
-          Structural: 50
-    - type: DamageStateVisuals
-      states:
-        Alive:
-          Base: blobbernaut
-        Dead:
-          Base: blobbernaut_dead
-    - type: Fixtures
-      fixtures:
-        fix1:
-          shape:
-            !type:PhysShapeCircle
-            radius: 0.35
-          density: 200
-          mask:
-            - BlobMobMask
-          layer:
-            - BlobMobLayer
-    - type: MobThresholds
-      thresholds:
-        0: Alive
-        200: Dead
-    - type: MovementSpeedModifier
-      baseWalkSpeed: 2.5
-      baseSprintSpeed: 3
-    - type: Sprite
-      sprite: Backmen/Mobs/Aliens/blob.rsi
-      drawdepth: Mobs
-      layers:
-        - map: [ "enum.DamageStateVisualLayers.Base" ]
-          state: blobbernaut
-        - map: [ "enum.DamageStateVisualLayers.BaseUnshaded" ]
-          state: nautdamage
-          shader: unshaded
+  - type: ZombieImmune
+  - type: Damageable
+    damageContainer: Blob
+    damageModifierSet: BlobMob
+  - type: Tag
+    tags:
+      - BlobMob
+  - type: GhostRole
+    name: ghost-role-information-blobbernaut-name
+    description: ghost-role-information-blobbernaut-description
+    rules: ghost-role-component-default-rules
+  - type: GhostTakeoverAvailable
+  - type: Blobbernaut
+  - type: BlobSpeak
+  - type: Physics
+  - type: InputMover
+  - type: MobMover
+  - type: BlobMob
+  - type: ReplacementAccent
+    accent: genericAggressive
+  - type: CombatMode
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+    blackboard:
+      NavSmash: !type:Bool
+        true
+  - type: NpcFactionMember
+    factions:
+      - Blob
+  - type: MobState
+    allowedStates:
+      - Alive
+      - Dead
+  - type: MeleeWeapon
+    hidden: true
+    soundHit:
+      path: /Audio/Effects/bite.ogg
+    angle: 0
+    animation: WeaponArcSmash
+    damage:
+      types:
+        Blunt: 15
+        Structural: 50
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: blobbernaut
+      Dead:
+        Base: blobbernaut_dead
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        density: 200
+        mask:
+          - BlobMobMask
+        layer:
+          - BlobMobLayer
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      200: Dead
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.5
+    baseSprintSpeed: 3
+  - type: Sprite
+    sprite: Backmen/Mobs/Aliens/blob.rsi
+    drawdepth: Mobs
+    layers:
+      - map: [ "enum.DamageStateVisualLayers.Base" ]
+        state: blobbernaut
+      - map: [ "enum.DamageStateVisualLayers.BaseUnshaded" ]
+        state: nautdamage
+        shader: unshaded
 
 - type: entity
   id: BaseBlob
@@ -211,43 +211,43 @@
     snap:
       - Wall
   components:
-    - type: ZombieImmune
-    - type: StatusEffects
-      allowed:
-      - Stun
-      - KnockedDown
-      - SlowedDown
-      - Electrocution
-      - PressureImmunity
-      - StaminaModifier
-      - SeeAll
-      - Flashed
-    - type: Reactive
-      groups:
-        Flammable: [Touch]
-        Extinguish: [Touch]
-    - type: ExplosionResistance
-      damageCoefficient: 0.3
-    - type: FireVisuals
-      sprite: Effects/fire.rsi
-      normalState: 1
-    - type: Damageable
-      damageContainer: Blob
-      damageModifierSet: BaseBlob
-    - type: Appearance
-    - type: Physics
-    - type: Clickable
-    - type: Transform
-      anchored: true
-    - type: Fixtures
-      fixtures:
-        fix1:
-          shape:
-            !type:PhysShapeAabb
-            bounds: "-0.5,-0.5,0.5,0.5"
-          layer:
-            - BlobTileLayer
-          density: 1000
+  - type: ZombieImmune
+  - type: StatusEffects
+    allowed:
+    - Stun
+    - KnockedDown
+    - SlowedDown
+    - Electrocution
+    - PressureImmunity
+    - StaminaModifier
+    - SeeAll
+    - Flashed
+  - type: Reactive
+    groups:
+      Flammable: [Touch]
+      Extinguish: [Touch]
+  - type: ExplosionResistance
+    damageCoefficient: 0.3
+  - type: FireVisuals
+    sprite: Effects/fire.rsi
+    normalState: 1
+  - type: Damageable
+    damageContainer: Blob
+    damageModifierSet: BaseBlob
+  - type: Appearance
+  - type: Physics
+  - type: Clickable
+  - type: Transform
+    anchored: true
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,0.5,0.5"
+        layer:
+          - BlobTileLayer
+        density: 1000
 
 - type: entity
   parent: BaseBlob
@@ -344,14 +344,14 @@
   id: CoreBlobTileGhostRole
   suffix: Ghost Role
   components:
-    - type: GhostRole
-      name: ghost-role-information-blob-name
-      description: ghost-role-information-blob-description
-      rules: ghost-role-component-default-rules
-      reregister: false
-      raffle:
-        settings: default
-    - type: GhostTakeoverAvailable
+  - type: GhostRole
+    name: ghost-role-information-blob-name
+    description: ghost-role-information-blob-description
+    rules: ghost-role-component-default-rules
+    reregister: false
+    raffle:
+      settings: default
+  - type: GhostTakeoverAvailable
 
 - type: entity
   parent: BaseBlob
@@ -360,36 +360,36 @@
   description: The so-called BlobPods come out of the factory and attack passers-by and zombify the corpses of these same passers-by. One factory produces 3 of these BlobPods; they cannot be placed next to each other at a distance of 7 tiles; one factory can produce only one Blobbernaut.
   categories: [ HideSpawnMenu ]
   components:
-    - type: Temperature
-      heatDamage:
-        types:
-          Heat: 5
-      coldDamage: {}
-      coldDamageThreshold: 0
-    - type: Flammable
-      fireSpread: true
-      damage:
-        types:
-          Heat: 1
-    - type: BlobTile
-      tileType: Factory
-    - type: Destructible
-      thresholds:
-        - trigger:
-            !type:DamageTrigger
-            damage: 200
-          behaviors:
-            - !type:DoActsBehavior
-              acts: [ "Destruction" ]
-    - type: BlobFactory
-    - type: Sprite
-      sprite: Backmen/Mobs/Aliens/blob.rsi
-      drawdepth: BlobTiles
-      layers:
-        - map: [ "enum.DamageStateVisualLayers.Base" ]
-          state: blob_factory
-        - map: [ "enum.DamageStateVisualLayers.BaseUnshaded" ]
-          state: blob_factory_glow
+  - type: Temperature
+    heatDamage:
+      types:
+        Heat: 5
+    coldDamage: {}
+    coldDamageThreshold: 0
+  - type: Flammable
+    fireSpread: true
+    damage:
+      types:
+        Heat: 1
+  - type: BlobTile
+    tileType: Factory
+  - type: Destructible
+    thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 200
+        behaviors:
+          - !type:DoActsBehavior
+            acts: [ "Destruction" ]
+  - type: BlobFactory
+  - type: Sprite
+    sprite: Backmen/Mobs/Aliens/blob.rsi
+    drawdepth: BlobTiles
+    layers:
+      - map: [ "enum.DamageStateVisualLayers.Base" ]
+        state: blob_factory
+      - map: [ "enum.DamageStateVisualLayers.BaseUnshaded" ]
+        state: blob_factory_glow
 
 - type: entity
   parent: BaseBlob
@@ -397,36 +397,36 @@
   name: Resource Blob
   categories: [ HideSpawnMenu ]
   components:
-    - type: Temperature
-      heatDamage:
-        types:
-          Heat: 5
-      coldDamage: {}
-      coldDamageThreshold: 0
-    - type: Flammable
-      fireSpread: true
-      damage:
-        types:
-          Heat: 1
-    - type: BlobTile
-      tileType: Resource
-    - type: Destructible
-      thresholds:
-        - trigger:
-            !type:DamageTrigger
-            damage: 60
-          behaviors:
-            - !type:DoActsBehavior
-              acts: [ "Destruction" ]
-    - type: BlobResource
-    - type: Sprite
-      sprite: Backmen/Mobs/Aliens/blob.rsi
-      drawdepth: BlobTiles
-      layers:
-        - map: [ "enum.DamageStateVisualLayers.Base" ]
-          state: blob_resource
-        - map: [ "enum.DamageStateVisualLayers.BaseUnshaded" ]
-          state: blob_resource_glow
+  - type: Temperature
+    heatDamage:
+      types:
+        Heat: 5
+    coldDamage: {}
+    coldDamageThreshold: 0
+  - type: Flammable
+    fireSpread: true
+    damage:
+      types:
+        Heat: 1
+  - type: BlobTile
+    tileType: Resource
+  - type: Destructible
+    thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 60
+        behaviors:
+          - !type:DoActsBehavior
+            acts: [ "Destruction" ]
+  - type: BlobResource
+  - type: Sprite
+    sprite: Backmen/Mobs/Aliens/blob.rsi
+    drawdepth: BlobTiles
+    layers:
+      - map: [ "enum.DamageStateVisualLayers.Base" ]
+        state: blob_resource
+      - map: [ "enum.DamageStateVisualLayers.BaseUnshaded" ]
+        state: blob_resource_glow
 
 - type: entity
   parent: BaseBlob
@@ -435,37 +435,37 @@
   description: The second, but mini, Blob core, near which you can place factories and resource blobs. Required to split the core.
   categories: [ HideSpawnMenu ]
   components:
-    - type: Temperature
-      heatDamage:
-        types:
-          Heat: 5
-      coldDamage: {}
-      coldDamageThreshold: 0
-    - type: Flammable
-      fireSpread: true
-      damage:
-        types:
-          Heat: 1
-    - type: BlobTile
-      tileType: Node
-    - type: Destructible
-      thresholds:
-        - trigger:
-            !type:DamageTrigger
-            damage: 200
-          behaviors:
-            - !type:DoActsBehavior
-              acts: [ "Destruction" ]
-    - type: BlobNode
-    - type: Sprite
-      sprite: Backmen/Mobs/Aliens/blob.rsi
-      drawdepth: BlobTiles
-      layers:
-        - map: [ "enum.DamageStateVisualLayers.Base" ]
-          state: blob_node
-        - map: [ "enum.DamageStateVisualLayers.BaseUnshaded" ]
-          state: blob_node_glow
-        - state: blob_node_overlay
+  - type: Temperature
+    heatDamage:
+      types:
+        Heat: 5
+    coldDamage: {}
+    coldDamageThreshold: 0
+  - type: Flammable
+    fireSpread: true
+    damage:
+      types:
+        Heat: 1
+  - type: BlobTile
+    tileType: Node
+  - type: Destructible
+    thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 200
+        behaviors:
+          - !type:DoActsBehavior
+            acts: [ "Destruction" ]
+  - type: BlobNode
+  - type: Sprite
+    sprite: Backmen/Mobs/Aliens/blob.rsi
+    drawdepth: BlobTiles
+    layers:
+      - map: [ "enum.DamageStateVisualLayers.Base" ]
+        state: blob_node
+      - map: [ "enum.DamageStateVisualLayers.BaseUnshaded" ]
+        state: blob_node_glow
+      - state: blob_node_overlay
 
 - type: entity
   parent: BaseBlob
@@ -474,25 +474,25 @@
   description: The basis of defensive positions has not only a strength of 6 times, this tile is also capable of withstanding various gases in order to become an atmospheric technician to protect the core, for example, from plasma that the enemy can set on fire.
   categories: [ HideSpawnMenu ]
   components:
-    - type: BlobTile
-      tileType: Strong
-    - type: Airtight
-    - type: Destructible
-      thresholds:
-        - trigger:
-            !type:DamageTrigger
-            damage: 150
-          behaviors:
-            - !type:DoActsBehavior
-              acts: [ "Destruction" ]
-    - type: Sprite
-      sprite: Backmen/Mobs/Aliens/blob.rsi
-      drawdepth: BlobTiles
-      layers:
-        - map: [ "enum.DamageStateVisualLayers.Base" ]
-          state: blob_glow
-        - map: [ "enum.DamageStateVisualLayers.BaseUnshaded" ]
-          state: blob_glow
+  - type: BlobTile
+    tileType: Strong
+  - type: Airtight
+  - type: Destructible
+    thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 150
+        behaviors:
+          - !type:DoActsBehavior
+            acts: [ "Destruction" ]
+  - type: Sprite
+    sprite: Backmen/Mobs/Aliens/blob.rsi
+    drawdepth: BlobTiles
+    layers:
+      - map: [ "enum.DamageStateVisualLayers.Base" ]
+        state: blob_glow
+      - map: [ "enum.DamageStateVisualLayers.BaseUnshaded" ]
+        state: blob_glow
 
 - type: entity
   parent: BaseBlob
@@ -547,59 +547,57 @@
   categories: [ HideSpawnMenu ]
   save: false
   components:
-    - type: UserInterface
-      interfaces:
-        enum.BlobChemSwapUiKey.Key:
-          type: BlobChemSwapBoundUserInterface
-    - type: Actions
-    - type: Alerts
-    - type: ReplacementAccent
-      accent: genericAggressive
-    - type: Hands
-      showInHands: true
-    - type: BlobObserver
-    - type: BlobSpeak
-      overrideName: false
-    - type: Visibility
-      layer: 2
-    - type: ContentEye
-    - type: MindContainer
-    - type: Clickable
-    - type: InteractionOutline
-    - type: Physics
-      bodyType: KinematicController
-      fixedRotation: true
-    - type: GhostRole
-      name: ghost-role-information-blob-name
-      description: ghost-role-information-blob-description
-      rules: ghost-role-component-default-rules
-    - type: GhostTakeoverAvailable
-    - type: Fixtures
-      fixtures:
-        fix1:
-          shape:
-            !type:PhysShapeCircle
-            radius: 0.35
-          density: 15
-          mask:
-            - GhostImpassable
-    - type: InputMover
-    - type: Appearance
-    - type: Eye
-    - type: Input
-      context: "ghost"
-    - type: Examiner
-      skipChecks: true
-    - type: Sprite
-      sprite: Backmen/Mobs/Aliens/blob.rsi
-      color: "#fc8403"
-      state: marker
-      noRot: true
-      drawdepth: Ghosts
-    - type: MovementSpeedModifier
-      baseSprintSpeed: 8
-      baseWalkSpeed: 5
-    - type: MovementIgnoreGravity
-    - type: Tag
-      tags:
-        - BypassInteractionRangeChecks
+  - type: UserInterface
+    interfaces:
+      enum.BlobChemSwapUiKey.Key:
+        type: BlobChemSwapBoundUserInterface
+  - type: Actions
+  - type: Alerts
+  - type: ReplacementAccent
+    accent: genericAggressive
+  - type: Hands
+    showInHands: true
+  - type: BlobObserver
+  - type: BlobSpeak
+    overrideName: false
+  - type: Visibility
+    layer: 2
+  - type: ContentEye
+  - type: MindContainer
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Physics
+    bodyType: KinematicController
+    fixedRotation: true
+  - type: GhostRole
+    name: ghost-role-information-blob-name
+    description: ghost-role-information-blob-description
+    rules: ghost-role-component-default-rules
+  - type: GhostTakeoverAvailable
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        density: 15
+  - type: InputMover
+  - type: Appearance
+  - type: Eye
+  - type: Input
+    context: "ghost"
+  - type: Examiner
+    skipChecks: true
+  - type: Sprite
+    sprite: Backmen/Mobs/Aliens/blob.rsi
+    color: "#fc8403"
+    state: marker
+    noRot: true
+    drawdepth: Ghosts
+  - type: MovementSpeedModifier
+    baseSprintSpeed: 8
+    baseWalkSpeed: 5
+  - type: MovementIgnoreGravity
+  - type: Tag
+    tags:
+      - BypassInteractionRangeChecks

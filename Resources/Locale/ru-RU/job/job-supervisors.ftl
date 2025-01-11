@@ -1,6 +1,5 @@
 job-supervisors-centcom = центральному командованию
-job-supervisors-magistrat = магистрату
-job-supervisors-magistrat-iaa = магистрату и агенту внутренних дел
+job-supervisors-iaa = агенту внутренних дел
 job-supervisors-captain = капитану
 job-supervisors-hop = главе персонала
 job-supervisors-hos = главе службы безопасности

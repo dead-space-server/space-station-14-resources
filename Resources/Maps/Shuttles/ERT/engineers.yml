@@ -19,7 +19,6 @@ entities:
       name: NT - Repit
     - type: Transform
       pos: -0.43756104,-3.627046
-      parent: invalid
     - type: MapGrid
       chunks:
         0,0:

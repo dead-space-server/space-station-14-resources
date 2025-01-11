@@ -20,7 +20,6 @@
     - id: AstroNavCartridge
     - id: ADTtelescopicBaton # ADT
     - id: BoxPhotocopierToners # DS14
-    - id: EftposCargo # backmen-economy
 
 - type: entity
   id: LockerQuarterMasterFilled
@@ -56,7 +55,6 @@
     - id: ClothingEyesGlassesCommand
     - id: ADTtelescopicBaton # ADT
     - id: ClothingEyesHudAdvanced # DS14
-    - id: EftposCommand # backmen-economy
 
 # No laser table + Laser table
 - type: entityTable
@@ -142,7 +140,6 @@
     - id: WeaponDisabler
     - id: ClothingEyesHudCommand
     - id: BoxPhotocopierToners # DS14
-    - id: EftposCivilian # backmen-economy
     - id: PetBowlWater # DS14
 
 - type: entity
@@ -174,7 +171,6 @@
     - id: RCDAmmo
     - id: RubberStampCE
     - id: ADTtelescopicBaton # ADT
-    - id: EftposEngineering # backmen-economy
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
@@ -235,7 +231,6 @@
     - id: RubberStampCMO
     - id: MedTekCartridge
     - id: ADTtelescopicBaton # ADT
-    - id: EftposMedical # backmen-economy
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
@@ -357,7 +352,6 @@
     - id: HyperLinkBookSOPSecurity # DS14
     - id: PistolDominator # DS14
     - id: ClothingNeckBodyCamera # DS14
-    - id: EftposSecurity # backmen-economy
     - id: PortableCameraMonitor # DS14
     - id: PetBowlWater # DS14
 

@@ -170,7 +170,7 @@
         Blunt: 5
   - type: SleepEmitSound
   - type: SSDIndicator
-  - type: SleepOnSSD # DS14
+  # - type: SleepOnSSD # DS14
   - type: StandingState
   - type: Dna
   - type: MindContainer

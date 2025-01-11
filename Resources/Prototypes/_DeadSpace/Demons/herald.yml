@@ -26,10 +26,8 @@
       fix1:
         shape:
           !type:PhysShapeCircle
-          radius: 0.45
-        density: 15500
-        mask:
-        - GhostImpassable
+          radius: 0.35
+        density: 15
   - type: MovementIgnoreGravity
   - type: Damageable
     damageContainer: Biological
