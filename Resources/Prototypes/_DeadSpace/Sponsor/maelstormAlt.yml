@@ -381,7 +381,6 @@
   id: WeaponPistolDesertEagleMaelstormAlt
   name: "зимняя пантера"
   description: Крупнокалиберный пистолет родом из далёкого СССП. На нем выгравировано "Спасибо , товарищ Данко"
-  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/maelstormAlt/deserteagle.rsi
