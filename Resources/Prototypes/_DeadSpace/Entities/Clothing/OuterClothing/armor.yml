@@ -2,7 +2,7 @@
   parent: ClothingOuterArmorBasic
   id: ClothingOuterArmorBasicCraft
   name: самодельная броня
-  description: пара кусков стали , которые скрепили стяжками
+  description: Пара кусков стали, которые скрепили стяжками.
   components:
   - type: Sprite
     sprite: DeadSpace/Clothing/OuterClothing/Armor/ArmorBasicSlim.rsi
