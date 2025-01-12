@@ -1,13 +1,3 @@
-- type: sponsorLoadout
-  id: Maelstorm
-  entity: ClothingBackpackMaelstorm
-  sponsorOnly: true
-
-- type: sponsorLoadout
-  id: MaelstormBelt
-  entity: ClothingBeltMaelstorm
-  sponsorOnly: true
-
 # Backpack
 - type: entity
   parent: ClothingBackpack
