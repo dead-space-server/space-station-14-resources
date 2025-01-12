@@ -2,7 +2,7 @@
   parent: ClothingHeadHatHardhatBase
   id: ClothingHeadHatHardhatCraft
   name: самодельный бронированный шлем
-  description: жёлтая каска с приделанной к ней металлической пластиной
+  description: Жёлтая каска с приделанной к ней металлической пластиной.
   components:
   - type: Sprite
     sprite: DeadSpace/Clothing/Head/Hats/crafthelmet.rsi
