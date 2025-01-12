@@ -1,0 +1,13 @@
+- type: entity
+  parent: ClothingOuterArmorBasic
+  id: ClothingOuterArmorBasicCraft
+  name: самодельная броня
+  description: Пара кусков стали, которые скрепили стяжками.
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Clothing/OuterClothing/Armor/ArmorBasicSlim.rsi
+  - type: Clothing
+    sprite: DeadSpace/Clothing/OuterClothing/Armor/ArmorBasicSlim.rsi
+  - type: Construction
+    graph: ClothingCraftArmor
+    node: clothingCraftArmor
