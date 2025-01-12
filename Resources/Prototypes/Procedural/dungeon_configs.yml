@@ -143,7 +143,6 @@
       EntranceFlank: BaseWoodWall
       Junction: BaseWoodSupport
       Window: BaseWoodWall
-      WallMounts: SnowyLabsWalls
     tiles:
       FallbackTile: FloorCaveDrought
     whitelists:

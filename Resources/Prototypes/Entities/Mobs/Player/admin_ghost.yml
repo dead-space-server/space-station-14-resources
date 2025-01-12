@@ -4,10 +4,6 @@
   name: admin observer
   categories: [ HideSpawnMenu ]
   components:
-  - type: InteractionPopup
-    successChance: 1
-    interactSuccessString: hugging-success-generic
-    interactSuccessSound: /Audio/Effects/thudswoosh.ogg
   - type: ContentEye
     maxZoom: 8.916104, 8.916104
   - type: Tag
@@ -28,7 +24,7 @@
   - type: CombatMode
   - type: Physics
     ignorePaused: true
-    bodyType: KinematicController
+    bodyType: Kinematic
   - type: Body
     prototype: Aghost
   - type: Access
@@ -92,15 +88,19 @@
   - type: SolutionScanner
   - type: IgnoreUIRange
   - type: ShowAntagIcons
-  - type: ShowJobIcons
-  - type: ShowMindShieldIcons
+  - type: ShowJobIcons # DS14
+  - type: ShowMindShieldIcons # DS14
   - type: Inventory
     templateId: aghost
   - type: Loadout
     prototypes: [ MobAghostGear ]
   - type: BypassInteractionChecks
-  - type: MovementSpeedModifier
+  - type: MovementSpeedModifier # DS14
     baseWalkSpeed: 20
+  - type: InteractionPopup # DS14
+    successChance: 1
+    interactSuccessString: hugging-success-generic
+    interactSuccessSound: /Audio/Effects/thudswoosh.ogg
 
 - type: entity
   id: ActionAGhostShowSolar

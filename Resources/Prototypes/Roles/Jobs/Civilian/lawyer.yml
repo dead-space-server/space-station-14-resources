@@ -11,7 +11,7 @@
       time: 144000 # 40 hours
   startingGear: LawyerGear
   icon: "JobIconLawyer"
-  supervisors: job-supervisors-magistrat-iaa
+  supervisors: job-supervisors-iaa
   canBeAntag: false
   access:
   - Service

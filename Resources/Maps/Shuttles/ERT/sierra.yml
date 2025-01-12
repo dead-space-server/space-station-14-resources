@@ -32,7 +32,6 @@ entities:
       name: NT - Nordwest-350
     - type: Transform
       pos: -0.34375,0.453125
-      parent: invalid
     - type: MapGrid
       chunks:
         0,0:

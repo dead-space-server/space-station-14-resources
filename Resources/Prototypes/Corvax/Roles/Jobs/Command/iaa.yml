@@ -16,7 +16,7 @@
       requiredAge: 24
   startingGear: IAAGear
   icon: "JobIconIAA"
-  supervisors: job-supervisors-magistrat
+  supervisors: job-supervisors-centcom
   canBeAntag: false
   access:
     - Command

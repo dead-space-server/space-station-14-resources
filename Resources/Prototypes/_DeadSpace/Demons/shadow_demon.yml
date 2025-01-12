@@ -51,10 +51,8 @@
       fix1:
         shape:
           !type:PhysShapeCircle
-          radius: 0.40
-        density: 80
-        mask:
-        - GhostImpassable
+          radius: 0.35
+        density: 15
   - type: Damageable
     damageContainer: Biological
     damageModifierSet: DemonShadow

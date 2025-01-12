@@ -10272,7 +10272,6 @@ entities:
       pos: 7.5,8.5
       parent: 11284
     - type: Door
-      secondsUntilStateChange: -13429.869
       state: Opening
 - proto: AirlockExternalGlassShuttleSyndicateLocked
   entities:
@@ -11482,7 +11481,6 @@ entities:
       pos: 6.5,-5.5
       parent: 15930
     - type: Door
-      secondsUntilStateChange: -16936.332
       state: Opening
 - proto: AirlockVirologyLocked
   entities:
@@ -80017,7 +80015,6 @@ entities:
       pos: -8.5,-15.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -149602.83
       state: Closing
   - uid: 6086
     components:
@@ -80053,7 +80050,6 @@ entities:
       pos: 4.5,0.5
       parent: 15183
     - type: Door
-      secondsUntilStateChange: -15146.293
       state: Closing
   - uid: 19453
     components:

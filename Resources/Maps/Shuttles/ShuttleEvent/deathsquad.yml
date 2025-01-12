@@ -1489,13 +1489,6 @@ entities:
       parent: 1
     - type: Battery
       startingCharge: 354111.66
-    - type: ContainerContainer
-      containers:
-        board: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 183
     - type: PowerNetworkBattery
       loadingNetworkDemand: 11715.047
       currentReceiving: 12000
@@ -1934,14 +1927,6 @@ entities:
     components:
     - type: Transform
       parent: 132
-    - type: Physics
-      canCollide: False
-- proto: WallmountSubstationElectronics
-  entities:
-  - uid: 183
-    components:
-    - type: Transform
-      parent: 182
     - type: Physics
       canCollide: False
 - proto: WallShuttle

@@ -23,7 +23,6 @@ entities:
       name: NT - Catny
     - type: Transform
       pos: -0.37500024,-0.6250001
-      parent: invalid
     - type: MapGrid
       chunks:
         0,0:

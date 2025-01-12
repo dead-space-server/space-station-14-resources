@@ -13169,7 +13169,6 @@ entities:
       pos: 24.5,16.5
       parent: 8364
     - type: Door
-      secondsUntilStateChange: -37852.17
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -86367,7 +86366,6 @@ entities:
       pos: -34.5,-14.5
       parent: 8364
     - type: Door
-      secondsUntilStateChange: -32040.709
       state: Closing
   - uid: 15010
     components:
@@ -86860,7 +86858,6 @@ entities:
       pos: -4.5,-71.5
       parent: 8364
     - type: Door
-      secondsUntilStateChange: -23788.44
       state: Closing
 - proto: Fireplace
   entities:

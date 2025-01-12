@@ -63,7 +63,7 @@ entities:
   - uid: 1
     components:
     - type: MetaData
-      name: Core station
+      name: Core
     - type: Transform
     - type: Map
       mapPaused: True
@@ -14962,7 +14962,6 @@ entities:
       pos: -16.5,19.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -109449.42
       state: Opening
   - uid: 306
     components:
@@ -15543,7 +15542,6 @@ entities:
       pos: 13.5,49.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -89045.61
       changeAirtight: False
       state: Opening
     - type: Docking
@@ -15559,7 +15557,6 @@ entities:
       pos: 0.5,-7.5
       parent: 21360
     - type: Door
-      secondsUntilStateChange: -88858.77
       changeAirtight: False
       state: Opening
     - type: Docking
@@ -15652,7 +15649,6 @@ entities:
       pos: -46.5,-14.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -106315.25
       state: Opening
 - proto: AirlockMaint
   entities:
@@ -69037,7 +69033,6 @@ entities:
       pos: -37.5,-6.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -106175.82
       state: Closing
   - uid: 10069
     components:
@@ -96569,7 +96564,6 @@ entities:
       pos: 53.5,24.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -42943.55
       state: Closing
   - uid: 13957
     components:

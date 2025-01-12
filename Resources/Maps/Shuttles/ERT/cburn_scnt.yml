@@ -25,7 +25,6 @@ entities:
       name: NT - Suppression
     - type: Transform
       pos: -0.47248116,0.68331015
-      parent: invalid
     - type: MapGrid
       chunks:
         0,0:

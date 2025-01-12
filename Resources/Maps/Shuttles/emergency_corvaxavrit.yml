@@ -30,7 +30,6 @@ entities:
       name: NT Evac EntZero 673
     - type: Transform
       pos: 0.52083397,0.5416665
-      parent: invalid
     - type: MapGrid
       chunks:
         -1,-1:

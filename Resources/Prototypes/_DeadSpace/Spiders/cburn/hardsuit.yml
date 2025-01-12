@@ -21,8 +21,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
   - type: TemperatureProtection
-    heatingCoefficient: 0.5
-    coolingCoefficient: 0.5
+    heatingCoefficient: 0.005
+    coolingCoefficient: 0.005
   - type: Armor
     modifiers:
       coefficients:
@@ -33,7 +33,7 @@
         Poison: 0.9
 
 - type: entity
-  parent: ClothingOuterHardsuitBase
+  parent: ClothingOuterHardsuitCBURNLeader
   id: ClothingOuterHardsuitCBURNSCSTLeader
   name: скафандр лидера ОППУ
   description: Легкий, но прочный экзокостюм, используемый для специальных операций по устранению пауков ужаса.
@@ -45,9 +45,9 @@
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
-  - type: TemperatureProtection
-    heatingCoefficient: 0.5
-    coolingCoefficient: 0.5
+  - type: TemperatureProtection   
+    heatingCoefficient: 0.001
+    coolingCoefficient: 0.001
   - type: ExplosionResistance
     damageCoefficient: 0.7
   - type: Armor
@@ -65,7 +65,6 @@
   - type: ClothingSpeedModifier
     walkModifier: 1.2
     sprintModifier: 1.2
-  - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetCBURNSCSTLeader
   - type: AutoInjectReagentClothingOnAllowedState # Автоиньектор при смене состояния сущности
@@ -113,7 +112,7 @@
         Poison: 0.9
 
 - type: entity
-  parent: ClothingOuterHardsuitBase
+  parent: ClothingOuterHardsuitCBURN
   id: ClothingOuterHardsuitCBURNSCSTSoldier
   name: скафандр солдата ОППУ
   description: Легкий, но прочный экзокостюм, используемый для специальных операций по устранению пауков ужаса.
@@ -126,8 +125,8 @@
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
   - type: TemperatureProtection
-    heatingCoefficient: 0.5
-    coolingCoefficient: 0.5
+    heatingCoefficient: 0.001
+    coolingCoefficient: 0.001
   - type: ExplosionResistance
     damageCoefficient: 0.5
   - type: Armor

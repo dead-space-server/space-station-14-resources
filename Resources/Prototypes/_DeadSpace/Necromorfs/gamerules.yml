@@ -118,15 +118,3 @@
       - type: Unitology
       mindRoles:
       - MindRoleEnslavedUnitology
-
-- type: preloadedGrid
-  id: TravelingCuisineUnitology
-  path: /Maps/Shuttles/ShuttleEvent/traveling_china_cuisine_unitology.yml
-  copies: 1
-
-- type: entity
-  parent: BaseUnknownShuttleRule
-  id: UnknownShuttleTravelingCuisineUnitology
-  components:
-  - type: LoadMapRule
-    preloadedGrid: TravelingCuisineUnitology

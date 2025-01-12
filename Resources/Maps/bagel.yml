@@ -96,7 +96,7 @@ entities:
   - uid: 1
     components:
     - type: MetaData
-      name: Bagel station
+      name: Bagel
     - type: Transform
     - type: Map
       mapPaused: True
@@ -12840,7 +12840,6 @@ entities:
       pos: -33.5,-17.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -22805.93
       state: Opening
   - uid: 136
     components:
@@ -14521,7 +14520,6 @@ entities:
       pos: -78.5,-1.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -240108.55
       changeAirtight: False
       state: Opening
     - type: Docking
@@ -14537,7 +14535,6 @@ entities:
       pos: 0.5,-7.5
       parent: 26809
     - type: Door
-      secondsUntilStateChange: -239788.2
       changeAirtight: False
       state: Opening
     - type: Docking
@@ -15530,7 +15527,6 @@ entities:
       pos: -48.5,-33.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -27454.994
       state: Opening
   - uid: 540
     components:
@@ -168270,7 +168266,6 @@ entities:
       pos: 11.5,-12.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -87611.125
       state: Opening
 - proto: WindoorSecureHeadOfPersonnelLocked
   entities:
@@ -168367,7 +168362,6 @@ entities:
       pos: -55.5,-36.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -50071.332
       state: Opening
     - type: Airlock
       autoClose: False
