@@ -1,37 +1,15 @@
 - type: entity
-  parent: BaseItem
-  id: BaseFigurine
+  parent: BaseFigurine
+  id: BaseFigurineDS14
   name: figurine
   description: A small miniature.
   abstract: true
   components:
   - type: Sprite
     sprite: DeadSpace/Objects/Fun/figurines.rsi
-  - type: PhysicalComposition
-    materialComposition:
-      Plastic: 100
-  - type: StaticPrice
-    price: 75
-  - type: Tag
-    tags:
-    - Figurine
-  - type: UseDelay
-    delay: 10
-  - type: TriggerOnActivate
-  - type: TriggerOnSignal
-  - type: Speech
-    speechSounds: Pai # it just sounds better
-  - type: DeviceNetwork
-    deviceNetId: Wireless
-    receiveFrequencyId: BasicDevice
-  - type: WirelessNetworkConnection
-    range: 200
-  - type: DeviceLinkSink
-    ports:
-    - Trigger
 
 - type: entity
-  parent: BaseFigurine
+  parent: BaseFigurineDS14
   id: ToyFigurineERTCAP
   name: фигурка Командира ОБР
   description: Минифигурка командира ОБР.
@@ -42,7 +20,7 @@
     pack: FigurinesHoP
 
 - type: entity
-  parent: BaseFigurine
+  parent: BaseFigurineDS14
   id: ToyFigurineERTEngi
   name: фигурка инженера ОБР
   description: Минифигурка инженера ОБР.
@@ -53,7 +31,7 @@
     pack: FigurinesHoP
 
 - type: entity
-  parent: BaseFigurine
+  parent: BaseFigurineDS14
   id: ToyFigurineERTJunitor
   name: фигурка уборщика ОБР
   description: Минифигурка уборщика ОБР.
@@ -64,7 +42,7 @@
     pack: FigurinesHoP
 
 - type: entity
-  parent: BaseFigurine
+  parent: BaseFigurineDS14
   id: ToyFigurineERTOfficer
   name: фигурка оффицера ОБР
   description: Минифигурка оффицера ОБР.
@@ -75,7 +53,7 @@
     pack: FigurinesHoP
 
 - type: entity
-  parent: BaseFigurine
+  parent: BaseFigurineDS14
   id: ToyFigurineERTMedic
   name: фигурка медика ОБР
   description: Минифигурка медика ОБР.
