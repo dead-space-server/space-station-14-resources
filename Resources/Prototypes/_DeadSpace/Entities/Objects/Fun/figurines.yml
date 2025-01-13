@@ -1,0 +1,86 @@
+- type: entity
+  parent: BaseItem
+  id: BaseFigurine
+  name: figurine
+  description: A small miniature.
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Objects/Fun/figurines.rsi
+  - type: PhysicalComposition
+    materialComposition:
+      Plastic: 100
+  - type: StaticPrice
+    price: 75
+  - type: Tag
+    tags:
+    - Figurine
+  - type: UseDelay
+    delay: 10
+  - type: TriggerOnActivate
+  - type: TriggerOnSignal
+  - type: Speech
+    speechSounds: Pai # it just sounds better
+  - type: DeviceNetwork
+    deviceNetId: Wireless
+    receiveFrequencyId: BasicDevice
+  - type: WirelessNetworkConnection
+    range: 200
+  - type: DeviceLinkSink
+    ports:
+    - Trigger
+
+- type: entity
+  parent: BaseFigurine
+  id: ToyFigurineHeadOfPersonnel
+  name: head of personnel figure
+  description: A figurine depicting the glorious head of all personnel, away from their office as usual.
+  components:
+  - type: Sprite
+    state: hop
+  - type: SpeakOnTrigger
+    pack: FigurinesHoP
+
+- type: entity
+  parent: BaseFigurine
+  id: ToyFigurineHeadOfPersonnel
+  name: head of personnel figure
+  description: A figurine depicting the glorious head of all personnel, away from their office as usual.
+  components:
+  - type: Sprite
+    state: hop
+  - type: SpeakOnTrigger
+    pack: FigurinesHoP
+
+- type: entity
+  parent: BaseFigurine
+  id: ToyFigurineHeadOfPersonnel
+  name: head of personnel figure
+  description: A figurine depicting the glorious head of all personnel, away from their office as usual.
+  components:
+  - type: Sprite
+    state: hop
+  - type: SpeakOnTrigger
+    pack: FigurinesHoP
+
+- type: entity
+  parent: BaseFigurine
+  id: ToyFigurineHeadOfPersonnel
+  name: head of personnel figure
+  description: A figurine depicting the glorious head of all personnel, away from their office as usual.
+  components:
+  - type: Sprite
+    state: hop
+  - type: SpeakOnTrigger
+    pack: FigurinesHoP
+
+- type: entity
+  parent: BaseFigurine
+  id: ToyFigurineHeadOfPersonnel
+  name: head of personnel figure
+  description: A figurine depicting the glorious head of all personnel, away from their office as usual.
+  components:
+  - type: Sprite
+    state: hop
+  - type: SpeakOnTrigger
+    pack: FigurinesHoP
