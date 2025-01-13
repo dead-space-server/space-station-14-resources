@@ -121,6 +121,8 @@
   - type: NeededBloodForSpawnAgainst # Пример
     defaultCost: 50 # Стандартная цена на не заданный результат
   - type: SpiderKing
+  - type: Damageable
+    damageModifierSet: HeadSpiderTerror
 
 - type: entity
   name: королева пауков
@@ -202,9 +204,11 @@
     bloodCosts: # Цены
       SpiderTomb: 100
       TelecomServerSpiderTerror: 200
-      CocoonKingBloodSpider: 150
+      CocoonKingBloodSpider: 300
       CocoonSpider: 50
   - type: SpiderKing
+  - type: Damageable
+    damageModifierSet: HeadSpiderTerror
   - type: SlowOnDamage
     speedModifierThresholds:
       250: 0.7

@@ -1,5 +1,5 @@
 - type: entity
-  parent: ClothingHeadHatHardhatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatHardhatCraft
   name: самодельный бронированный шлем
   description: Жёлтая каска с приделанной к ней металлической пластиной.

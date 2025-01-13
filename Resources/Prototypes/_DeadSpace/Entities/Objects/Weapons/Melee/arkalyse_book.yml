@@ -1,0 +1,11 @@
+- type: entity
+  parent: BaseItem
+  id: BookArkalyse
+  name: manual "Arkalis"
+  description: A one-time guide that teaches the true art of "Arkalis".
+  components:
+    - type: Sprite
+      sprite: DeadSpace/Objects/Specific/Arkalyse/arkalyse_book.rsi
+      layers:
+      - state: icon
+    - type: GiveArkalyse

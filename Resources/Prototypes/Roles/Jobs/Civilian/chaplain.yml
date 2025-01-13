@@ -23,9 +23,6 @@
   - !type:AddComponentSpecial
     components:
     - type: BibleUser #Lets them heal with bibles
-  - !type:GiveItemOnHolidaySpecial
-    holiday: FestiveSeason
-    prototype: PresentRandom
 
 - type: startingGear
   id: ChaplainGear

@@ -189,16 +189,6 @@
   group: market
 
 - type: cargoProduct
-  id: ServicePhotocopierToners
-  icon:
-    sprite: DeadSpace/Objects/Misc/tonercartridge.rsi
-    state: icon
-  product: CrateServicePhotocopierToners
-  cost: 1000
-  category: Service
-  group: market
-
-- type: cargoProduct
   id: JanitorExplosive
   icon:
     sprite: Clothing/Head/Helmets/janitor_bombsuit.rsi
@@ -228,4 +218,14 @@
   category: cargoproduct-category-name-service
   group: market
 
+# DS14-start
 
+- type: cargoProduct
+  id: ServicePhotocopierToners
+  icon:
+    sprite: DeadSpace/Objects/Misc/tonercartridge.rsi
+    state: icon
+  product: CrateServicePhotocopierToners
+  cost: 1000
+  category: cargoproduct-category-name-service
+  group: market

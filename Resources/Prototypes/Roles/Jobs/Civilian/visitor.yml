@@ -11,7 +11,3 @@
   # - Maintenance
   # extendedAccess:
   # - External
-  special:
-  - !type:GiveItemOnHolidaySpecial
-    holiday: FestiveSeason
-    prototype: PresentRandom

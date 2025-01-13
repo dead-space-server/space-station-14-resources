@@ -67,3 +67,5 @@
   - type: Puller
     needsHands: false
   - type: SpiderKing
+  - type: Damageable
+    damageModifierSet: HeadSpiderTerror

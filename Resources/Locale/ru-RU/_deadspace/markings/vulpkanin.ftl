@@ -59,7 +59,6 @@ marking-VulpPointsHands = Передние лапы, оверлей
 marking-VulpPointsCrestArms = Передние лапы, руки
 marking-VulpPointsFadeArms = Передние лапы, руки (Градиент)
 marking-VulpPointsSharpArms = Передние лапы, руки (Резкие)
-
 marking-VulpHairAdhara = Adhara
 marking-VulpHairAnita = Anita
 marking-VulpHairApollo = Apollo
@@ -81,7 +80,6 @@ marking-VulpHairRough = Rough
 marking-VulpHairShort = Short
 marking-VulpHairShort2 = Short2
 marking-VulpHairSpike = Spike
-
 marking-VulpFacialHairRuff = Ruff
 marking-VulpFacialHairElder = Elder
 marking-VulpFacialHairElderChin = Elder chin

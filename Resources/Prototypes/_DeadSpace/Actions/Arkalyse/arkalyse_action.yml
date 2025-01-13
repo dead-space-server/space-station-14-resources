@@ -1,0 +1,38 @@
+- type: entity
+  id: ActionDamageArkalyseAttack
+  name: painful blow to the stomach
+  description: A lightning palm strike to the opponent's stomach, deals pure damage.
+  noSpawn: true
+  components:
+  - type: InstantAction
+    icon:
+      sprite: DeadSpace/Actions/arkalyse_actions.rsi
+      state: punch
+    event: !type:DamageAtackArkalyseActionEvent {}
+    useDelay: 3
+
+- type: entity
+  id: ActionMutedArkalyseAttack
+  name: blow to the throat
+  description: A blow to the throat, blocking the airway.
+  noSpawn: true
+  components:
+  - type: InstantAction
+    icon:
+      sprite: DeadSpace/Actions/arkalyse_actions.rsi
+      state: mute
+    event: !type:MutedAtackArkalyseActionEvent {}
+    useDelay: 3 
+
+- type: entity
+  id: ActionStunArkalyseAttack
+  name: blow overhead
+  description: A hybrid blow to the opponent's head, knocking him off his feet.
+  noSpawn: true
+  components:
+  - type: InstantAction
+    icon:
+      sprite: DeadSpace/Actions/arkalyse_actions.rsi
+      state: kick
+    event: !type:StunedAtackArkalyseActionEvent {}
+    useDelay: 3

@@ -24,7 +24,6 @@ ent-EftposScience = терминал безналичной оплаты нау�
 ent-EftposSpecific = терминал безналичной оплаты особого отдела
     .desc = { ent-Eftpos.desc }
     .suffix = { "Редкие отделы" }
-
 eftpos-ui-value-label-text = Стоимость:
 eftpos-ui-linked-account-label-text = Аккаунт:
 eftpos-ui-no-linked-account-text = Не подключен

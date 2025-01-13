@@ -225,3 +225,45 @@
     whitelist:
       tags:
       - NukeOpsUplink
+
+- type: listing
+  id: UplinkArkalyseBundle
+  name: uplink-arkalyse-bundle-name
+  description: uplink-arkalyse-bundle-desc
+  icon: { sprite: DeadSpace/Objects/Specific/Arkalyse/arkalyse_book.rsi, state: icon }
+  productEntity: BoxArkalyse
+  discountCategory: usualDiscounts
+  discountDownTo:
+    Telecrystal: 5
+  cost:
+    Telecrystal: 10
+  categories:
+  - UplinkWeaponry
+
+- type: listing
+  id: UplinkAdrenalineImplanter
+  name: uplink-adrenaline-implanter-name
+  description: uplink-adrenaline-implanter-desc
+  icon: { sprite: DeadSpace/Actions/implants_actions.rsi, state: adrenal }
+  productEntity: AdrenalImplanter
+  discountCategory: veryRareDiscounts
+  discountDownTo:
+    Telecrystal: 4
+  cost:
+    Telecrystal: 8
+  categories:
+    - UplinkImplants
+
+- type: listing
+  id: UplinkReviveAutosurgeon
+  name: uplink-revive-implanter-name
+  description: uplink-revive-implanter-desc
+  icon: { sprite: DeadSpace/Objects/Specific/Autosurgeon/autosurgeon.rsi, state: iconBefore }
+  productEntity: AutosurgeonRevive
+  discountCategory: veryRareDiscounts
+  discountDownTo:
+    Telecrystal: 4
+  cost:
+    Telecrystal: 8
+  categories:
+    - UplinkImplants

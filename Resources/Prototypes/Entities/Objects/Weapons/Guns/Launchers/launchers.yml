@@ -54,7 +54,7 @@
       path: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
 
 - type: entity
-  name: игрушечная china lake
+  name: игрушечная China Lake
   parent: [BaseWeaponLauncher, BaseGunWieldable]
   id: WeaponLauncherChinaLakeToy
   description: BOOM

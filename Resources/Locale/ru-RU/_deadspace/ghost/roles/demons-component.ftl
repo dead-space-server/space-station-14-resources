@@ -5,7 +5,6 @@ ghost-role-information-demon-rules =
     Вам разрешается помнить знания об игре в целом, например, как готовить, как использовать предметы и т.д.
     Вам [color=red]НЕ[/color] разрешается помнить, имя, внешность и т.д. вашего предыдущего персонажа.
     Вы антагонист, найдите и убейте всех выживших
-
 ghost-role-information-slaughter-name = бронированный демон
 ghost-role-information-slaughter-description = Вы демоническое отродье, да воцарится ад!
 ghost-role-information-slaughter-rules =
@@ -13,7 +12,6 @@ ghost-role-information-slaughter-rules =
     Вам разрешается помнить знания об игре в целом, например, как готовить, как использовать предметы и т.д.
     Вам [color=red]НЕ[/color] разрешается помнить, имя, внешность и т.д. вашего предыдущего персонажа.
     Вы антагонист, найдите и убейте всех выживших
-
 ghost-role-information-honker-name = демон клоун
 ghost-role-information-honker-description = Вы демоническое отродье, да воцарится ад!
 ghost-role-information-honker-rules =
@@ -21,7 +19,6 @@ ghost-role-information-honker-rules =
     Вам разрешается помнить знания об игре в целом, например, как готовить, как использовать предметы и т.д.
     Вам [color=red]НЕ[/color] разрешается помнить, имя, внешность и т.д. вашего предыдущего персонажа.
     Вы антагонист, найдите и убейте всех выживших
-
 ghost-role-information-jaunt-name = гуляющий демон
 ghost-role-information-jaunt-description = Вы демоническое отродье, да воцарится ад!
 ghost-role-information-jaunt-rules =
@@ -29,7 +26,6 @@ ghost-role-information-jaunt-rules =
     Вам разрешается помнить знания об игре в целом, например, как готовить, как использовать предметы и т.д.
     Вам [color=red]НЕ[/color] разрешается помнить, имя, внешность и т.д. вашего предыдущего персонажа.
     Вы антагонист, найдите и убейте всех выживших
-
 ghost-role-information-shadow-name = теневой демон
 ghost-role-information-shadow-description = Вы демоническое отродье, да воцарится ад!
 ghost-role-information-shadow-rules =
@@ -37,7 +33,6 @@ ghost-role-information-shadow-rules =
     Вам разрешается помнить знания об игре в целом, например, как готовить, как использовать предметы и т.д.
     Вам [color=red]НЕ[/color] разрешается помнить, имя, внешность и т.д. вашего предыдущего персонажа.
     Вы антагонист, вы можете манипулировать людьми, ваша задача: приченить как можно больше мучений экипажу, перед смертью.
-
 ghost-role-information-heraldghost-name = демон вестник
 ghost-role-information-heraldghost-description = Откройте портал и начните вторжение, да воцарится ад!
 ghost-role-information-heraldghost-rules =
@@ -45,7 +40,6 @@ ghost-role-information-heraldghost-rules =
     Вам разрешается помнить знания об игре в целом, например, как готовить, как использовать предметы и т.д.
     Вам [color=red]НЕ[/color] разрешается помнить, имя, внешность и т.д. вашего предыдущего персонажа.
     Вы антагонист, найдите и убейте всех выживших
-
 ghost-role-information-herald-name = демон вестник
 ghost-role-information-herald-description = Вы демоническое отродье, да воцарится ад!
 ghost-role-information-herald-rules =

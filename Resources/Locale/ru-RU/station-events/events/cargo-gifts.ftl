@@ -8,6 +8,7 @@ cargo-gift-dest-supp = отделу снабжения
 cargo-gift-dest-janitor = сервисному отделу
 cargo-gift-dest-med = медицинскому отделу
 cargo-gift-dest-sec = службе безопасности
+cargo-gift-dest-rnd = научному отделу
 cargo-gift-pizza-small = маленький набор пицц
 cargo-gift-pizza-large = большой набор пицц
 cargo-gift-eng = ремонтные материалы

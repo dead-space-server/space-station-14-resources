@@ -358,13 +358,13 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Item
-    sprite: DeadSpace/Sponsor/maelstormAlt/whistles.rsi
+    sprite: DeadSpace/Sponsor/maelstorm/whistles.rsi
     size: Tiny
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstormAlt/whistles.rsi
+    sprite: DeadSpace/Sponsor/maelstorm/whistles.rsi
     state: frontline
   - type: Clothing
-    sprite: DeadSpace/Sponsor/maelstormAlt/whistles.rsi
+    sprite: DeadSpace/Sponsor/maelstorm/whistles.rsi
     quickEquip: false
     slots: neck
   - type: UseDelay

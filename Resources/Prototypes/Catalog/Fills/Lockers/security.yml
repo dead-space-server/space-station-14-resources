@@ -27,6 +27,7 @@
         amount: 2
       - id: ClothingNeckBodyCamera # DS14
         amount: 4
+      - id: ClothingHandsGlovesArkalyse # DS14
 
 - type: entity
   id: LockerWardenFilled
@@ -54,6 +55,7 @@
         amount: 2
       - id: ClothingNeckBodyCamera # DS14
         amount: 4
+      - id: ClothingHandsGlovesArkalyse # DS14
 
 - type: entity
   id: LockerSecurityFilled

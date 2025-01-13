@@ -6,7 +6,6 @@ marking-FelinidEarsStubby = Короткие ушки
 marking-FelinidEarsTall = Высокие ушки
 marking-FelinidEarsTorn = Порванные ушки
 marking-FelinidEarsWide = Широкие ушки
-
 marking-FelinidTailBasic = Хвостик
 marking-FelinidTailBasicWithBow = Хвостик с бантиком
 marking-FelinidTailBasicWithBell = Хвостик с колокольчиком

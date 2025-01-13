@@ -255,8 +255,6 @@
   id: Zombieteors
   alias:
   - zombieteors
-  - zombombies
-  - meteombies
   name: zombieteors-title
   description: zombieteors-description
   showInVote: false

@@ -10115,7 +10115,11 @@ entities:
       pos: -10.5,-33.5
       parent: 2
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 204
     components:
     - type: MetaData
@@ -10663,7 +10667,7 @@ entities:
       parent: 2
     - type: Door
       changeAirtight: False
-      state: Opening
+      state: Open
     - type: Docking
       dockJointId: docking1758628
       dockedWith: 23029
@@ -10671,6 +10675,8 @@ entities:
       lastSignals:
         DoorStatus: False
         DockStatus: True
+    - type: Physics
+      canCollide: False
   - uid: 23029
     components:
     - type: Transform
@@ -10678,7 +10684,7 @@ entities:
       parent: 23026
     - type: Door
       changeAirtight: False
-      state: Opening
+      state: Open
     - type: Docking
       dockJointId: docking1758628
       dockedWith: 288
@@ -10686,6 +10692,8 @@ entities:
       lastSignals:
         DoorStatus: False
         DockStatus: True
+    - type: Physics
+      canCollide: False
 - proto: AirlockExternalLocked
   entities:
   - uid: 289
@@ -68416,6 +68424,13 @@ entities:
       parent: 2
     - type: AtmosPipeColor
       color: '#FF1212FF'
+- proto: GasMinerCarbonDioxide
+  entities:
+  - uid: 23262
+    components:
+    - type: Transform
+      pos: 26.5,-26.5
+      parent: 2
 - proto: GasMinerNitrogenStation
   entities:
   - uid: 10598
@@ -68429,6 +68444,13 @@ entities:
     components:
     - type: Transform
       pos: 26.5,-24.5
+      parent: 2
+- proto: GasMinerWaterVapor
+  entities:
+  - uid: 23261
+    components:
+    - type: Transform
+      pos: 26.5,-28.5
       parent: 2
 - proto: GasMixer
   entities:

@@ -51,7 +51,7 @@
     state: ano01
   product: CrateObeliskStoper
   cost: 10000
-  category: Science
+  category: cargoproduct-category-name-science
   group: market
 
 - type: cargoProduct
@@ -61,7 +61,7 @@
     state: medipen
   product: CrateZetaOneMedipen
   cost: 2000
-  category: Medical
+  category: cargoproduct-category-name-medical
   group: market
 
 - type: entity

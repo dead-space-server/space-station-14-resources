@@ -22,10 +22,6 @@
   wageDepartment: Engineering
   wage: 50
   #end-backmen: currency
-  special:
-  - !type:GiveItemOnHolidaySpecial
-    holiday: FestiveSeason
-    prototype: PresentRandom
 
 - type: startingGear
   id: StationEngineerGear

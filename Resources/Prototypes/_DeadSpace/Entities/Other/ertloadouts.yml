@@ -421,7 +421,7 @@
   - MagazinePistol
   - MagazinePistol
 
-  - type: thiefBackpackSet
+- type: thiefBackpackSet
   id: Mk58DisablerSet
   name: ert-loadout-category-mk58-name
   description: ert-loadout-category-mk58-description

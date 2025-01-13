@@ -22,10 +22,6 @@
   wageDepartment: Medical
   wage: 25
   #end-backmen: currency
-  special:
-  - !type:GiveItemOnHolidaySpecial
-    holiday: FestiveSeason
-    prototype: PresentRandom
 
 - type: startingGear
   id: MedicalInternGear

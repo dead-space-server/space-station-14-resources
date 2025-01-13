@@ -1,8 +1,0 @@
-- type: entity
-  parent: ClothingUnderwearSocksBase
-  id: ClothingUnderwearSocksThighXmas
-  name: рождественские чулки
-  description: Солнце светит, эльфы пашут, вот такая доля наша.
-  components:
-  - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/xmas.rsi

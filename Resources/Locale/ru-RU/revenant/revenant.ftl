@@ -17,4 +17,3 @@ revenant-user-interface-cost = { $price } эссенции
 #Telepathy
 prayer-verbs-subtle-message-revenant = Пробраться в мысли
 prayer-popup-subtle-revenant = Вы слышите голос в своей голове...
-
