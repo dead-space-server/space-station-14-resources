@@ -4,7 +4,7 @@
   graph:
     - node: start
       edges:
-        - to: clothingCraftHelmet
+        - to: clothingCraftArmor
           steps:
             - tag: Handcuffs
               icon:
