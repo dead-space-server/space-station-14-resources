@@ -1,6 +1,6 @@
 - type: entity
   name: паучий кокон
-  parent: BaseStructure
+  parent: BaseMob
   id: CocoonSpider
   components:
   - type: Tag
@@ -26,18 +26,20 @@
         - !type:DoActsBehavior
           acts: [ "Destruction" ]
   - type: Appearance
-  - type: Egg
-    eggSound:
-      collection: SpiderHatches # Звуки яйца
-    duration: 300 # Время до вылупления
-    durationPlayEggSound: 10 # Интервалы между звуками яйца
-    spawned:
-    - id: MobSpiderTerrorGuardian # Что вылупилось
-      amount: 2 # Колличество
+  - type: Evolution
+    createGhostRole: true
+    ghostRoleName: паук ужаса
+    ghostRoleDesk: Вы только что созрели.
+    duration: 300
+    spawnedEntities:
+      - MobSpiderTerrorWarrior
+      - MobSpiderTerrorBuilder
+      - MobSpiderTerrorMedic
+      - MobSpiderTerrorGuardianLvl2
 
 - type: entity
   name: королевский паучий кокон
-  parent: BaseStructure
+  parent: BaseMob
   id: CocoonKingBloodSpider
   components:
   - type: Tag
@@ -63,14 +65,14 @@
         - !type:DoActsBehavior
           acts: [ "Destruction" ]
   - type: Appearance
-  - type: Egg
-    eggSound:
-      collection: SpiderHatches # Звуки яйца
-    duration: 500 # Время до вылупления
-    durationPlayEggSound: 10 # Интервалы между звуками яйца
-    spawned:
-    - id: MobSpiderTerrorGuardianKingBlood # Что вылупилось
-      amount: 1 # Колличество
+  - type: Evolution
+    createGhostRole: true
+    ghostRoleName: королевский паук ужаса
+    ghostRoleDesk: Вы только что созрели.
+    duration: 500
+    spawnedEntities:
+      - MobSpiderTerrorRoyalGuard
+      - MobSpiderTerrorPrincess
 
 - type: entity
   id: SpiderCocoon

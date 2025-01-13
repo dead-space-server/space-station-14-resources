@@ -8,12 +8,12 @@
     bodyType: Dynamic
     bodyStatus: InAir
   - type: CanMoveInAir
-  - type: EventHorizon # To make the singularity consume things.
+  - type: EventHorizon
     radius: 5
     canBreachContainment: false
     colliderFixtureId: EventHorizonCollider
     consumerFixtureId: EventHorizonConsumer
-  - type: GravityWell # To make the singularity attract things.
+  - type: GravityWell
     baseRadialAcceleration: 20
     maxRange: 10
   - type: Fixtures

@@ -243,7 +243,7 @@
     forceSound: true
 
 - type: entity
-  name : Laser bolt
+  name : laser bolt
   id: ADTBulletLaser
   parent: BaseBullet
   categories: [ HideSpawnMenu ]

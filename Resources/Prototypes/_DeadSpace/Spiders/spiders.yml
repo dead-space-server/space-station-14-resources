@@ -161,6 +161,11 @@
     cocoon: SpiderCocoon
   - type: Damageable
     damageModifierSet: SpiderTerror
+  - type: Reactive
+    groups:
+      Flammable: [ Touch ]
+      Extinguish: [ Touch ]
+      Acidic: [Touch, Ingestion]
   - type: TTS
     voice: Sunboy_mannered
 
@@ -369,7 +374,7 @@
     spawnedEntities:
       - JeleSpider
   - type: Bloodsucker
-    maxCountReagent: 50 # Ёмкость
+    maxCountReagent: 100 # Ёмкость
     countReagent: 50 # Сколько реагента при спавне
     duration: 2 # Длительность сосания
     howMuchWillItSuck: 10 # Сколько высосет за один укус
@@ -738,7 +743,7 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      200: Critical
+      300: Critical
       400: Dead
   - type: Fixtures
     fixtures:
@@ -753,7 +758,7 @@
         - MobLayer
   - type: SlowOnDamage
     speedModifierThresholds:
-      150: 0.9
+      200: 0.9
   - type: MovementSpeedModifier
     baseWalkSpeed: 3.8
     baseSprintSpeed: 3.8

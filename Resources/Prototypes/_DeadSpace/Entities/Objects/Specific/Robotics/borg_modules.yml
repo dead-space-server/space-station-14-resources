@@ -7,7 +7,7 @@
     sprite: /Textures/DeadSpace/Objects/Specific/Robotics/borgmodule.rsi
     layers:
     - state: cargo
-    - state: icon-mining
+    - state: icon-mining-adv
   - type: ItemBorgModule
     items:
     - BorgMiningJawsOfLife

@@ -20,6 +20,7 @@
   canBeAntag: false
   access:
     - Command
+    - Security
     - Service
     - Lawyer
     - Brig

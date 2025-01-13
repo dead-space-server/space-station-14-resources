@@ -1,3 +1,5 @@
+ent-BaseMeleeWeaponEnergy = { ent-BaseItem }
+    .desc = { ent-BaseItem.desc }
 ent-EnergySword = игрушечный меч
     .suffix = энергетический меч
     .desc = Новый пластиковый меч от Sandy-Cat! Имеет реалистичный звук и насыщенный цвет! Почти как настоящий!

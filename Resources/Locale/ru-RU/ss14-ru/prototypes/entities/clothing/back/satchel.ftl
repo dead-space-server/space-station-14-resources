@@ -34,3 +34,5 @@ ent-ClothingBackpackSatchelSalvage = сумка утилизатора
     .desc = Прочная сумка для хранения добычи.
 ent-ClothingBackpackSatchelHolding = бездонная сумка
     .desc = Сумка, открывающаяся в локальный карман блюспейса.
+ent-ClothingSatchelBlueCat = кошачья сумка
+    .desc = Мягкая и пушистая сумка в виде умилительного голубого котёнка. Стоп, кто мяукает?!

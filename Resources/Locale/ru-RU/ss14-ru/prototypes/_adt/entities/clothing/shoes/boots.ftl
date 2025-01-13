@@ -1,0 +1,14 @@
+ent-ADTClothingHandsSupremeCommanderBoots = ботинки высшего главнокомандующего
+    .desc = Я сама скорость! Чао :)
+ent-ADTClothingRedjiShoes = стильные туфли
+    .desc = Пара потрёпаных временем, тем не менее, стильных туфель.
+ent-ADTClothingSandals = сандали
+    .desc = Пара простых сандалей. НИ В КОЕМ СЛУЧАЕ НЕ СОВМЕЩАТЬ С НОСКАМИ!
+ent-ADTClothingFootWrapsWhite = white footwraps
+    .desc = Пара кусков ткани для тех, кому некомфортно в обычных человеческих ботинках.
+ent-ADTClothingFootWrapsBlack = черные обмотки для ног
+    .desc = Pair of pieces of clothing for those who are uncomfortable with ordinary shoes.
+ent-ADTClothingFootWrapsHighBlack = черные высокие обмотки для ног
+    .desc = Пара кусков ткани для тех, кому некомфортно в обычных человеческих ботинках.
+ent-ADTClothingFootWrapsHighWhite = белые высокие обмотки для ног
+    .desc = Пара кусков ткани для тех, кому некомфортно в обычных человеческих ботинках.

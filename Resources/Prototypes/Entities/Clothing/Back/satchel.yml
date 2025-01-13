@@ -187,7 +187,7 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingSatchelBlueCat
-  name: Кошачья сумка
+  name: кошачья сумка
   description: Мягкая и пушистая сумка в виде умилительного голубого котёнка. Стоп, кто мяукает?!
   components:
   - type: Sprite

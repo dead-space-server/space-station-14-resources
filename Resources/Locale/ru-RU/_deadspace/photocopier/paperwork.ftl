@@ -2,7 +2,6 @@ paperwork-form-title-cargo-0 = Стандартный шаблон докуме�
 paperwork-form-title-cargo-1 = Отчёт об утилизации
 paperwork-form-title-cargo-2 = Заказ на закупку ресурсов, снаряжения
 paperwork-form-title-cargo-3 = Заказ на закупку вооружения
-
 paperwork-form-title-centcomm-1 = Запрос эвакуационного шаттла
 paperwork-form-title-centcomm-2 = Запрос регистрации шаттла
 paperwork-form-title-centcomm-3 = Заказ специального снаряжения
@@ -36,14 +35,12 @@ paperwork-form-title-centcomm-31 = Отчёт о погибших и клони�
 paperwork-form-title-centcomm-32 = Отчёт о произведённых препаратах
 paperwork-form-title-centcomm-33 = Отчёт о проведённых сеансах психолога
 paperwork-form-title-centcomm-34 = Ответ на приветственный факс
-
 paperwork-form-title-civilian-0 = Стандартный шаблон документа
 paperwork-form-title-civilian-1 = Заказ на производство продукта
 paperwork-form-title-civilian-2 = Отчёт об изучении объекта
 paperwork-form-title-civilian-3 = Свидетельство о заключении брака
 paperwork-form-title-civilian-4 = Разрешение на расширение брака
 paperwork-form-title-civilian-5 = Свидетельство о расторжении брака
-
 paperwork-form-title-command-0 = Стандартный шаблон документа
 paperwork-form-title-command-1 = Заявление о назначении на ВрИО
 paperwork-form-title-command-2 = Отчёт о работе отдела
@@ -60,14 +57,12 @@ paperwork-form-title-command-12 = Разрешение на передвижен
 paperwork-form-title-command-13 = Приказ о поощрении
 paperwork-form-title-command-15 = Свидетельство о повышении квалификации
 paperwork-form-title-command-17 = Разрешение на использование снаряжения
-
 paperwork-form-title-engineering-0 = Стандартный шаблон документа
 paperwork-form-title-engineering-1 = Заказ на производство продукта
 paperwork-form-title-engineering-2 = Отчёт об изучении объекта
 paperwork-form-title-engineering-3 = Разрешение на строительство
 paperwork-form-title-engineering-4 = Отчёт о техническом состоянии
 paperwork-form-title-engineering-5 = Запрос на проведение строительных работ
-
 paperwork-form-title-law-0 = Стандартный шаблон документа
 paperwork-form-title-law-1 = Жалоба на нарушение трудового порядка
 paperwork-form-title-law-2 = Отчёт о внутреннем расследовании
@@ -77,7 +72,6 @@ paperwork-form-title-law-5 = Запрос предоставления доку�
 paperwork-form-title-law-8 = Доверенность
 paperwork-form-title-law-9 = Запрос на предоставление документов
 paperwork-form-title-law-10 = Отчёт о нарушении трудового порядка
-
 paperwork-form-title-medical-0 = Стандартный шаблон документа
 paperwork-form-title-medical-1 = Заказ на производство продукта
 paperwork-form-title-medical-2 = Отчёт об изучении объекта
@@ -87,14 +81,12 @@ paperwork-form-title-medical-5 = Распоряжение о медицинск�
 paperwork-form-title-medical-6 = Запрос на проведение эвтаназии
 paperwork-form-title-medical-7 = Свидетельство о смерти
 paperwork-form-title-medical-8 = Разрешение на утилизацию тела
-
 paperwork-form-title-science-0 = Стандартный шаблон документа
 paperwork-form-title-science-1 = Заказ на производство продукта
 paperwork-form-title-science-2 = Отчёт об изучении объекта
 paperwork-form-title-science-3 = Отчёт об эксперименте
 paperwork-form-title-science-4 = Приказ о признании разумности существа
 paperwork-form-title-science-5 = Запрос на проведение модернизации
-
 paperwork-form-title-security-0 = Стандартный шаблон документа
 paperwork-form-title-security-1 = Жалоба на правонарушение
 paperwork-form-title-security-2 = Приговор
@@ -102,13 +94,11 @@ paperwork-form-title-security-4 = Обвинительное заключени�
 paperwork-form-title-security-5 = Разрешение на обыск
 paperwork-form-title-security-6 = Приказ об УДО заключенного
 paperwork-form-title-security-7 = Разрешение на ношение оружия
-
 paperwork-form-title-syndicate-1 = Стандартный шаблон документа
 paperwork-form-title-syndicate-2 = Уведомление о ликвидации
 paperwork-form-title-syndicate-3 = Деловая сделка
 paperwork-form-title-syndicate-4 = Нота о начале военных действий
 paperwork-form-title-syndicate-5 = Отчёт о выполнении целей
-
 paperwork-form-title-centcomm-operator-0 = Стандартный шаблон документа
 paperwork-form-title-centcomm-operator-1 = Приветственный факс штаба ЦК
 paperwork-form-title-centcomm-operator-2 = Приказ Центрального Командования АВД

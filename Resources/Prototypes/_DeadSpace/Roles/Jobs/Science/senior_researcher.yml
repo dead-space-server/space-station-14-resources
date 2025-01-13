@@ -21,10 +21,6 @@
   wageDepartment: Science
   wage: 75
   #end-backmen: currency
-  special:
-  - !type:GiveItemOnHolidaySpecial
-    holiday: FestiveSeason
-    prototype: PresentRandom
 
 - type: startingGear
   id: SeniorResearcherGear

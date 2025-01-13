@@ -47,7 +47,7 @@
         damage:
           groups:
             Toxin: 10
-            Airloss: 5
+            Airloss: 15
 
 - type: reaction
   id: Karachnocid

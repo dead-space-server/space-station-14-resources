@@ -705,3 +705,8 @@ ADTSMESIndustrialEmpty: SMESAdvancedEmpty
 # 2025-01-05 - DS14
 Temp_EventScreen: null
 PaperSecOrderEmergencyOrderOne: null
+
+# 2025-01-13 - DS14
+TravelingChefSpawnerUnitology: null
+TravelingDoctorSpawnerUnitology: null
+TravelingDoctorSpawner: null

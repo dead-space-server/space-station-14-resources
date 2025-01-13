@@ -123,9 +123,9 @@
     startAudio:
       path: /Audio/DeadSpace/Announcements/lifesigns.ogg # DeadSpace-Announcements
     earliestStart: 50
-    weight: 3
     duration: 60
     minimumPlayers: 30
+    willNotStartRandomly: true
   - type: VentCrittersRule
     entries:
     - id: MobSpiderTerrorGuardian
@@ -171,10 +171,10 @@
   parent: CargoGiftsBase
   components:
   - type: StationEvent
-    weight: 8
     duration: 120
     earliestStart: 20
     minimumPlayers: 30
+    willNotStartRandomly: true
   - type: CargoGiftsRule
     description: cargo-gift-medical-supply
     dest: cargo-gift-dest-med
@@ -184,9 +184,9 @@
       EmergencyAdvancedKit: 4
       CrateKarachnocidGrenadeProduct: 1
       SecurityArmor: 3
-      ArmorySmg: 2
-      ArmoryShotgun: 2
-      ArmoryLaser: 2
+      ArmorySmg: 4
+      ArmoryShotgun: 4
+      ArmoryLaser: 4
       SecurityRiot: 2
       SecurityRestraints: 2
       SecurityNonLethal: 2

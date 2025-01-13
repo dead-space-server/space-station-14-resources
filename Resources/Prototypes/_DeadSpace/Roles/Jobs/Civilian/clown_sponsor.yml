@@ -27,9 +27,6 @@
       interval: 10
   - !type:AddImplantSpecial
     implants: [ SadTromboneImplant ]
-  - !type:GiveItemOnHolidaySpecial
-    holiday: FestiveSeason
-    prototype: PresentRandom
   #start-backmen: currency
   minBankBalance: 150
   maxBankBalance: 250

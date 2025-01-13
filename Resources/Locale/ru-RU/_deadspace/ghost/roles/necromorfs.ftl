@@ -1,5 +1,4 @@
-necro-transform = {CAPITALIZE(THE($target))} стал некроморфом!
-
+necro-transform = { CAPITALIZE(THE($target)) } стал некроморфом!
 ghost-role-information-infector-name = Заразитель
 ghost-role-information-infector-description = Вы заразитель, разносите инфекцию по станции.
 ghost-role-information-infector-rules =
@@ -7,7 +6,6 @@ ghost-role-information-infector-rules =
     Вам разрешается помнить знания об игре в целом, например, как готовить, как использовать предметы и т.д.
     Вам [color=red]НЕ[/color] разрешается помнить, имя, внешность и т.д. вашего предыдущего персонажа.
     Вы антагонист, найдите и убейте всех выживших
-
 ghost-role-information-brute-name = Зверь
 ghost-role-information-brute-description = Вы зверь, большой сильный монстр, стены для вас не проблема.
 ghost-role-information-brute-rules =
@@ -15,7 +13,6 @@ ghost-role-information-brute-rules =
     Вам разрешается помнить знания об игре в целом, например, как готовить, как использовать предметы и т.д.
     Вам [color=red]НЕ[/color] разрешается помнить, имя, внешность и т.д. вашего предыдущего персонажа.
     Вы антагонист, найдите и убейте всех выживших
-
 ghost-role-information-MobCorpseCollector-name = Собиратель трупов
 ghost-role-information-MobCorpseCollector-description = Собиратель трупов, поглощает поверженных собратьев.
 ghost-role-information-MobCorpseCollector-rules =
@@ -23,7 +20,6 @@ ghost-role-information-MobCorpseCollector-rules =
     Вам разрешается помнить знания об игре в целом, например, как готовить, как использовать предметы и т.д.
     Вам [color=red]НЕ[/color] разрешается помнить, имя, внешность и т.д. вашего предыдущего персонажа.
     Вы антагонист, найдите и убейте всех выживших
-
 ghost-role-information-necromant-name = Сборщик звёздных душь
 ghost-role-information-necromant-description = Вы некроморф, высасывайте эссенцию из ослабленных членов экипажа и призывайте некроморфов.
 ghost-role-information-necromant-rules =
