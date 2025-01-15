@@ -20,4 +20,4 @@ connecting-state-EstablishingConnection = Установка соединени�
 connecting-state-Handshake = Handshake
 connecting-state-Connected = Подключён
 connecting-connecttoanotherserver = Подключиться к другому нашему серверу
-connecting-join-to-discord = Зайти в Дискордик
+connecting-join-to-discord = Зайти в Discord

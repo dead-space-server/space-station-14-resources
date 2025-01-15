@@ -98,6 +98,7 @@ ui-options-parallax-low-quality = Low-quality Parallax (background)
 ui-options-fps-counter = Show FPS counter
 ui-options-vp-width = Viewport width:
 ui-options-hud-layout = HUD layout:
+ui-options-background-hud-layout = Lobby HUD layout:
 
 ## Controls menu
 

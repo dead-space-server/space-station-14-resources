@@ -154,8 +154,6 @@
     channels:
     - SpiderTerrorChannel
   - type: LockCocoon
-    handcuffsProtorype: SpiderHandcuffs
-    needHandcuff: true
     ignorFriends: false
     lockCocoon: ActionLockCocoon
     cocoon: SpiderCocoon

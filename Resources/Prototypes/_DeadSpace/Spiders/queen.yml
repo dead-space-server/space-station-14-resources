@@ -200,12 +200,12 @@
     injectSound:
       collection: SpiderHatches # Звуки после высасывания
   - type: NeededBloodForSpawnAgainst # Пример
-    defaultCost: 25 # Стандартная цена на не заданный результат
+    defaultCost: 50 # Стандартная цена на не заданный результат
     bloodCosts: # Цены
       SpiderTomb: 100
       TelecomServerSpiderTerror: 200
-      CocoonKingBloodSpider: 300
-      CocoonSpider: 50
+      CocoonKingBloodSpider: 250
+      CocoonSpider: 10
   - type: SpiderKing
   - type: Damageable
     damageModifierSet: HeadSpiderTerror

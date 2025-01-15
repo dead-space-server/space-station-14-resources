@@ -95,6 +95,7 @@ ui-options-parallax-low-quality = Низкокачественный парал�
 ui-options-fps-counter = Показать счётчик FPS
 ui-options-vp-width = Ширина окна игры:
 ui-options-hud-layout = Тип HUD:
+ui-options-background-hud-layout = Тип фона лобби:
 
 ## Controls menu
 
