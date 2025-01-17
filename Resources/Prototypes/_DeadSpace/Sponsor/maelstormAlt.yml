@@ -19,7 +19,7 @@
   id: maelstormAltCOG
   entity: WeaponPistolDesertEagleMaelstormAlt
   sponsorOnly: true
-  whitelistJobs: [CentcomOperatorGear]
+  whitelistJobs: [CentralCommandOperator]
 
 # Backpack
 - type: entity

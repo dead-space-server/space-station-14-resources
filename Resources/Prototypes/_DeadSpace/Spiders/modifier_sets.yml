@@ -3,7 +3,7 @@
   coefficients:
     Blunt: 1
     Slash: 1
-    Piercing: 0.85
+    Piercing: 0.75
     Shock: 0.2
     Cold: 0.4
     Heat: 2
@@ -13,9 +13,9 @@
 - type: damageModifierSet
   id: HeadSpiderTerror
   coefficients:
-    Blunt: 0.7
-    Slash: 0.7
-    Piercing: 0.7
+    Blunt: 0.6
+    Slash: 0.6
+    Piercing: 0.6
     Shock: 0.2
     Cold: 0.4
     Heat: 2
