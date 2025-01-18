@@ -56,6 +56,8 @@
   - type: Speech
     speechSounds: Vulpkanin
   - type: Vulpkanin # DS14: For emote panel
+  - type: TypingIndicator
+    proto: vulpkanin
 
 - type: entity
   parent: BaseSpeciesDummy
