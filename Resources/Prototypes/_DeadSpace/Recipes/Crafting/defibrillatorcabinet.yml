@@ -3,7 +3,7 @@
   id: DefibrillatorCabinet
   graph: defibrillatorcabinet
   startNode: start
-  targetNode: defibrillatorcabinet
+  targetNode: done
   category: construction-category-storage
   description: Небольшой настенный шкафчик, предназначенный для хранения дефибриллятора.
   icon: { sprite: Structures/Wallmounts/defib_cabinet.rsi }
