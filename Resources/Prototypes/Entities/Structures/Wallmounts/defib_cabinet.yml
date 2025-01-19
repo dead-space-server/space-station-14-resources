@@ -50,8 +50,8 @@
         sound:
           collection: MetalGlassBreak
   - type: Construction
-    graph: defibrillatorcabinet
-    node: defibrillatorcabinet
+    graph: DefibrillatorCabinet
+    node: done
 
 - type: entity
   parent: DefibrillatorCabinet
