@@ -21,3 +21,6 @@
   - type: SurveillanceCamera
     networkSet: true
   - type: StationAiVision
+  - type: Tag
+    tags:
+    - WhitelistChameleon
