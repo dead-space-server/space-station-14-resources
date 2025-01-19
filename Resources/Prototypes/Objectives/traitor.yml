@@ -92,6 +92,16 @@
   - type: TargetObjective
     title: objective-condition-kill-person-title
   - type: PickRandomPerson
+    ignoredJobs:
+    - Passenger
+    - TypanAtmosTech
+    - TypanBotanist
+    - TypanCargotech
+    - TypanChef
+    - TypanMedic
+    - TypanRD
+    - TypanScience
+    - TypanTelecommunicationsOfficer
 
 - type: entity
   parent: [BaseTraitorObjective, BaseKillObjective]
@@ -113,7 +123,7 @@
 
 - type: entity
   parent: [BaseTraitorObjective, BaseKillObjective]
-  id: KillRandomAgentObjective
+  id: KillRandomTraitorObjective
   description: We need this agent gone and you probably know why. Good luck, agent.
   components:
   - type: Objective
@@ -122,8 +132,8 @@
     # killing 1 agent is enough
     unique: true
   - type: TargetObjective
-    title: objective-condition-kill-agent-title
-  - type: PickRandomAgent
+    title: objective-condition-kill-traitor-title
+  - type: PickRandomTraitor
   - type: KillPersonCondition
     # don't count missing evac as killing as agents are higher profile, so you really need to do the dirty work
     requireDead: true
