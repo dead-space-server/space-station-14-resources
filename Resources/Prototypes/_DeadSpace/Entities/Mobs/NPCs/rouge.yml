@@ -59,9 +59,6 @@
         - CannotSuicide
     - type: GhostTakeoverAvailable
     - type: GhostRole
-      makeSentient: true
-      allowSpeech: true
-      allowMovement: true
       name: "Трёхлавый змей Руж"
       description: "Милый результат генетических экспериментов Синдиката. Чрезмерно ласков, не смотря на своё хладнокровие."
       rules: ghost-role-information-nonantagonist-rules
