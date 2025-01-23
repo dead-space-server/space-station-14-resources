@@ -59,9 +59,6 @@
         - CannotSuicide
     - type: GhostTakeoverAvailable
     - type: GhostRole
-      makeSentient: true
-      allowSpeech: true
-      allowMovement: true
       name: ghost-role-information-rouge-name
       description: ghost-role-information-rouge-description
       rules: ghost-role-information-nonantagonist-rules
