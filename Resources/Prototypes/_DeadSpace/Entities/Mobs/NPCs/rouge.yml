@@ -59,11 +59,12 @@
         - CannotSuicide
     - type: GhostTakeoverAvailable
     - type: GhostRole
-      name: "Трёхлавый змей Руж"
-      description: "Милый результат генетических экспериментов Синдиката. Чрезмерно ласков, не смотря на своё хладнокровие."
+      makeSentient: true
+      allowSpeech: true
+      allowMovement: true
+      name: ghost-role-information-rouge-name
+      description: ghost-role-information-rouge-description
       rules: ghost-role-information-nonantagonist-rules
-      raffle:
-        settings: default
 
 - type: entity
   name: спавнер трёхглавый змей
