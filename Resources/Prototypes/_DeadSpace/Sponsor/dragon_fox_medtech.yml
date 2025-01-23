@@ -394,9 +394,6 @@
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifle
     capacity: 150
-    whitelist:
-      tags:
-        - CartridgeLightRifle
   - type: Item
   - type: Sprite
     sprite: DeadSpace/Sponsor/DragonFox/MedTech/weapons/Magazine3000PRO.rsi
