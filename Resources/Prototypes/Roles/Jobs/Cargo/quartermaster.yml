@@ -37,7 +37,7 @@
   minBankBalance: 150
   maxBankBalance: 250
   wageDepartment: Cargo
-  wage: 50
+  wage: 110
   #end-backmen: currency
   special:
   - !type:AddImplantSpecial
