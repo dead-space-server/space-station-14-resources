@@ -9,6 +9,8 @@
   - type: Storage
     grid:
     - 0,0,9,5
+  - type: ExplosionResistance # DS14
+    damageCoefficient: 0.1
 
 - type: entity
   parent: ClothingBackpack
@@ -23,6 +25,8 @@
     - 0,0,13,5
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
+  - type: ExplosionResistance # DS14
+    damageCoefficient: 0.1
 
 - type: entity
   parent: ClothingBackpack
