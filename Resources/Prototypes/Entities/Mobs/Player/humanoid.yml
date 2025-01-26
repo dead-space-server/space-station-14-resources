@@ -65,18 +65,18 @@
   parent: EventHumanoidMindShielded
   # Nanotrasen are a bit racist, but FSCP more racist
   speciesBlacklist:
-    # - Arachnid
+    - Arachnid
     - Diona
     - Dwarf
     # - Human
-    # - Moth
-    # - Reptilian
+    - Moth
+    - Reptilian
     - SlimePerson
     - Vox
-    # - Demon
-    # - Shark
-    # - Tajaran
-    # - Vulpkanin
+    - Demon
+    - Shark
+    - Tajaran
+    - Vulpkanin
     - Felinid
     - Kobolt
     - Xenomorph
