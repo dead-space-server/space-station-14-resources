@@ -1,7 +1,7 @@
 - type: entity
-  name: mixing-glass-name
+  name: смесительный стакан
   parent: BaseBeaker
-  description: mixing-glass-desc
+  description: Вместительный стакан для точного смешивания напитко
   id: ADTMixingGlass
   components:
   - type: Spillable

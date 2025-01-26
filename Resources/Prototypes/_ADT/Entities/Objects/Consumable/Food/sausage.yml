@@ -1,8 +1,8 @@
 - type: entity
-  name: sausage-raw-name
+  name: сосиска
   parent: FoodMeatBase
   id: ADTFoodSausageRaw
-  description: sausage-raw-desc
+  description: Обычная сосиска. Сырая, но сгодится, если нет еды лучше.
   components:
   - type: Tag
     tags:
@@ -24,10 +24,10 @@
           Quantity: 1
 
 - type: entity
-  name: sausage-fried-name
+  name: жареная сосиска
   parent: FoodMeatBase
   id: ADTFoodSausageFried
-  description: sausage-fried-desc
+  description: Обычная сосиска, но теплее, аппетитнее и с хрустящей корочкой.
   components:
   - type: Tag
     tags:

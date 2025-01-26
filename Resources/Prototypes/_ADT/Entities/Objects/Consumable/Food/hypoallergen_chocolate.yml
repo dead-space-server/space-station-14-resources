@@ -1,10 +1,8 @@
-
-
 - type: entity
-  name: hypoallergen chocolate bar
+  name: плитка гипоаллергенного шоколада
   parent: FoodSnackBase
   id: ADTHypoAllergenChocolateBar
-  description: It tastes like cardboard, but harmless to unaths and vulpes.
+  description: На вкус как картон, но теперь безопасный для унатхов, вульп и прочих.
   components:
   - type: FlavorProfile
     flavors:

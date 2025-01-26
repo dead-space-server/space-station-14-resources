@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ADTClothingHandsSupremeCommanderBoots
-  name: Supreme Commander's boots
-  description: i'm are the Speed! CHiao :)
+  name: ботинки высшего главнокомандующего
+  description: Я сама скорость! Чао :)
   components:
   - type: Sprite
     sprite: ADT/Clothing/Shoes/Boots/supreme-commander-boots.rsi
@@ -16,8 +16,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ADTClothingRedjiShoes
-  name: Stylish shoes
-  description: pair of stylish shoes
+  name: стильные туфли
+  description: Пара потрёпаных временем, тем не менее, стильных туфель.
   components:
   - type: Sprite
     sprite: ADT/Clothing/Shoes/Boots/redji_shoes.rsi
@@ -27,8 +27,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ADTClothingSandals
-  name: sandals
-  description: Pair of sandals.
+  name: сандали
+  description: Пара простых сандалей. НИ В КОЕМ СЛУЧАЕ НЕ СОВМЕЩАТЬ С НОСКАМИ!
   components:
   - type: Sprite
     sprite: ADT/Clothing/Shoes/Boots/sandals.rsi
@@ -38,47 +38,47 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ADTClothingFootWrapsWhite
-  name: white footwraps
-  description: Pair of pieces of clothing for those who are uncomfortable with ordinary shoes.
+  name: белые обмотки для ног
+  description: Пара кусков ткани для тех, кому некомфортно в обычных человеческих ботинках.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Shoes/Boots/white_footwraps.rsi # спрайты от floppo4ka
+    sprite: ADT/Clothing/Shoes/Boots/white_footwraps.rsi
     state: icon
   - type: Clothing
-    sprite: ADT/Clothing/Shoes/Boots/white_footwraps.rsi # спрайты от floppo4ka
+    sprite: ADT/Clothing/Shoes/Boots/white_footwraps.rsi
 
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ADTClothingFootWrapsBlack
-  name: black footwraps
-  description: Pair of pieces of clothing for those who are uncomfortable with ordinary shoes.
+  name: черные обмотки для ног
+  description: Пара кусков ткани для тех, кому некомфортно в обычных человеческих ботинках.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Shoes/Boots/black_footwraps.rsi # спрайты от floppo4ka
+    sprite: ADT/Clothing/Shoes/Boots/black_footwraps.rsi
     state: icon
   - type: Clothing
-    sprite: ADT/Clothing/Shoes/Boots/black_footwraps.rsi # спрайты от floppo4ka
-
-- type: entity
-  parent: ClothingShoesBaseButcherable
-  id: ADTClothingFootWrapsHighBlack
-  name: high black footwraps
-  description: Pair of pieces of clothing for those who are uncomfortable with ordinary shoes.
-  components:
-  - type: Sprite
-    sprite: ADT/Clothing/Shoes/Boots/blackhigh_footwraps.rsi # спрайты от floppo4ka
-    state: icon
-  - type: Clothing
-    sprite: ADT/Clothing/Shoes/Boots/blackhigh_footwraps.rsi # спрайты от floppo4ka
+    sprite: ADT/Clothing/Shoes/Boots/black_footwraps.rsi
 
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ADTClothingFootWrapsHighWhite
-  name: high white footwraps
-  description: Pair of pieces of clothing for those who are uncomfortable with ordinary shoes.
+  name: белые высокие обмотки для ног
+  description: Пара кусков ткани для тех, кому некомфортно в обычных человеческих ботинках.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Shoes/Boots/whitehigh_footwraps.rsi # спрайты от floppo4ka
+    sprite: ADT/Clothing/Shoes/Boots/whitehigh_footwraps.rsi
     state: icon
   - type: Clothing
-    sprite: ADT/Clothing/Shoes/Boots/whitehigh_footwraps.rsi # спрайты от floppo4ka
+    sprite: ADT/Clothing/Shoes/Boots/whitehigh_footwraps.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ADTClothingFootWrapsHighBlack
+  name: черные высокие обмотки для ног
+  description: Пара кусков ткани для тех, кому некомфортно в обычных человеческих ботинках.
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Shoes/Boots/blackhigh_footwraps.rsi
+    state: icon
+  - type: Clothing
+    sprite: ADT/Clothing/Shoes/Boots/blackhigh_footwraps.rsi

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: BookArkalyse
-  name: manual "Arkalis"
-  description: A one-time guide that teaches the true art of "Arkalis".
+  name: мануал "Аркалис"
+  description: Одноразовый мануал, который обучает истинному искусству "Аркалиса".
   components:
     - type: Sprite
       sprite: DeadSpace/Objects/Specific/Arkalyse/arkalyse_book.rsi

@@ -152,7 +152,7 @@
         Slash: 0.75
         Piercing: 0.75
         Heat: 0.75
-        Stun: 0.75
+        Stun: 0.65 # DS14-value: 4 stunbaton hits for stun
   # phase cloak
   - type: ToggleClothing
     action: ActionTogglePhaseCloak

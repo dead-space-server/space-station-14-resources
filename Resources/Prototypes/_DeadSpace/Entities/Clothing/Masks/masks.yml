@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingMaskPullableBase
   id: ClothingMaskRedNeckGaiter
-  name: red neck gaiter
-  description: Stylish neck gaiter for your neck, can protect from the cosmic wind?...
+  name: красный шейный гетр
+  description: Стильный гетр, который поможет скрыть вашу личность.
   components:
   - type: Sprite
     sprite: DeadSpace/Clothing/Mask/redneckgaiter.rsi

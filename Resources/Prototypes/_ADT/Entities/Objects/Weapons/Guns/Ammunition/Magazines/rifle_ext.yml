@@ -1,7 +1,8 @@
 # Empty mags
 - type: entity
   id: ADTBaseExtMagazineRifle
-  name: "extended magazine (.20 rifle)"
+  name: расширенный магазин 6.5 мм
+  description: Увеличенный магазин под патрон 6.5 мм, с вместимостью в 45 единиц
   parent: BaseItem
   abstract: true
   components:
@@ -35,7 +36,8 @@
 # Magazines
 - type: entity
   id: ADTExtMagazineRifle
-  name: "extended magazine (.20 rifle)"
+  name: расширенный магазин 6.5 мм
+  description: Увеличенный магазин под патрон 6.5 мм, с вместимостью в 45 единиц
   parent: ADTBaseExtMagazineRifle
   components:
   - type: BallisticAmmoProvider

@@ -1,8 +1,8 @@
 - type: entity
   id: ADTHospitalCurtainsRed
   parent: HospitalCurtains
-  name: curtains
-  description: Contains less than 1% mercury.
+  name: шторы
+  description: Содержат менее 1% ртути.
   components:
   - type: Occluder
   - type: Sprite
@@ -62,7 +62,7 @@
 - type: entity
   id: ADTHospitalCurtainsRedOpen
   parent: ADTHospitalCurtainsRed
-  suffix: Open
+  suffix: Открытый
   components:
   - type: Door
     state: Open
@@ -78,8 +78,8 @@
 - type: entity
   id: ADTAlternativeCurtainsRed
   parent: HospitalCurtains
-  name: red curtains
-  description: Contains less than 1% mercury.
+  name: красные шторы
+  description: Содержат менее 1% ртути.
   components:
   - type: Occluder
   - type: Sprite
@@ -139,7 +139,7 @@
 - type: entity
   id: ADTAlternativeCurtainsRedOpen
   parent: ADTAlternativeCurtainsRed
-  suffix: Open
+  suffix: Открытый
   components:
   - type: Door
     state: Open

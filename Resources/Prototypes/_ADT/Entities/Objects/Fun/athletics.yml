@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: ADTDumbbell2
-  name: dumbbell
-  description: Dumbbell. It smells like your sweat
+  name: гантеля
+  description: Гантеля 2 кг. Кажется, пахнет потом.
   components:
   - type: Sprite
     sprite: ADT/Objects/Fun/dumbbell.rsi
@@ -10,16 +10,16 @@
   - type: Item
     sprite: ADT/Objects/Fun/dumbbell.rsi
     size: Normal
-  - type: EmitEmoteOnUse #handler and component
-    emote: WorkOut #emoteID
-  - type: UseDelay # cooldown
+  - type: EmitEmoteOnUse
+    emote: WorkOut
+  - type: UseDelay
     delay: 10
 
 - type: entity
   parent: BaseItem
   id: ADTDumbbell5
-  name: dumbbell
-  description: Dumbbell. It smells like your sweat
+  name: гантеля
+  description: Гантеля 5 кг. Кажется, пахнет потом.
   components:
   - type: Sprite
     sprite: ADT/Objects/Fun/dumbbell.rsi
@@ -27,16 +27,16 @@
   - type: Item
     sprite: ADT/Objects/Fun/dumbbell.rsi
     size: Normal
-  - type: EmitEmoteOnUse #handler and component
-    emote: WorkOut #emoteID
-  - type: UseDelay # cooldown
+  - type: EmitEmoteOnUse
+    emote: WorkOut
+  - type: UseDelay
     delay: 10
 
 - type: entity
   parent: BaseItem
   id: ADTDumbbell8
-  name: dumbbell
-  description: Dumbbell. It smells like your sweat
+  name: гантеля
+  description: Гантеля 8 кг. Кажется, пахнет потом.
   components:
   - type: Sprite
     sprite: ADT/Objects/Fun/dumbbell.rsi
@@ -44,16 +44,16 @@
   - type: Item
     sprite: ADT/Objects/Fun/dumbbell.rsi
     size: Normal
-  - type: EmitEmoteOnUse #handler and component
-    emote: WorkOut #emoteID
-  - type: UseDelay # cooldown
+  - type: EmitEmoteOnUse
+    emote: WorkOut
+  - type: UseDelay
     delay: 10
 
 - type: entity
   parent: BaseItem
   id: ADTDumbbell10
-  name: dumbbell
-  description: Dumbbell. It smells like your sweat
+  name: гантеля
+  description: Гантеля 10 кг. Кажется, пахнет потом.
   components:
   - type: Sprite
     sprite: ADT/Objects/Fun/dumbbell.rsi
@@ -61,16 +61,16 @@
   - type: Item
     sprite: ADT/Objects/Fun/dumbbell.rsi
     size: Normal
-  - type: EmitEmoteOnUse #handler and component
-    emote: WorkOut #emoteID
-  - type: UseDelay # cooldown
+  - type: EmitEmoteOnUse
+    emote: WorkOut
+  - type: UseDelay
     delay: 10
 
 - type: entity
   parent: BaseItem
   id: ADTDumbbell15
-  name: dumbbell
-  description: Dumbbell. It smells like your sweat
+  name: гантеля
+  description: Гантеля 15 кг. Кажется, пахнет потом.
   components:
   - type: Sprite
     sprite: ADT/Objects/Fun/dumbbell.rsi
@@ -78,16 +78,16 @@
   - type: Item
     sprite: ADT/Objects/Fun/dumbbell.rsi
     size: Normal
-  - type: EmitEmoteOnUse #handler and component
-    emote: WorkOut #emoteID
-  - type: UseDelay # cooldown
+  - type: EmitEmoteOnUse
+    emote: WorkOut
+  - type: UseDelay
     delay: 20
 
 - type: entity
   parent: BaseItem
   id: ADTDumbbell20
-  name: dumbbell
-  description: Dumbbell. It smells like your sweat
+  name: гантеля
+  description: Гантеля 20 кг. Кажется, пахнет потом.
   components:
   - type: Sprite
     sprite: ADT/Objects/Fun/dumbbell.rsi
@@ -95,17 +95,16 @@
   - type: Item
     sprite: ADT/Objects/Fun/dumbbell.rsi
     size: Normal
-  - type: EmitEmoteOnUse #handler and component
-    emote: WorkOut #emoteID
-  - type: UseDelay # cooldown
+  - type: EmitEmoteOnUse
+    emote: WorkOut
+  - type: UseDelay
     delay: 20
 
-#гири
 - type: entity
   parent: BaseItem
   id: ADTKettlebell5
-  name: kettlebell
-  description: Kettlebell. It smells like your sweat
+  name: гиря
+  description: Гиря 5 кг. Кажется, пахнет потом.
   components:
   - type: Sprite
     sprite: ADT/Objects/Fun/kettlebell.rsi
@@ -115,14 +114,14 @@
     size: Normal
   - type: EmitEmoteOnUse
     emote: WorkOut
-  - type: UseDelay # cooldown
+  - type: UseDelay
     delay: 10
 
 - type: entity
   parent: BaseItem
   id: ADTKettlebell10
-  name: kettlebell
-  description: Kettlebell. It smells like your sweat
+  name: гиря
+  description: Гиря 10 кг. Кажется, пахнет потом.
   components:
   - type: Sprite
     sprite: ADT/Objects/Fun/kettlebell.rsi
@@ -132,14 +131,14 @@
     size: Normal
   - type: EmitEmoteOnUse
     emote: WorkOut
-  - type: UseDelay # cooldown
+  - type: UseDelay
     delay: 10
 
 - type: entity
   parent: BaseItem
   id: ADTKettlebell15
-  name: kettlebell
-  description: Kettlebell. It smells like your sweat
+  name: гиря
+  description: Гиря 15 кг. Кажется, пахнет потом.
   components:
   - type: Sprite
     sprite: ADT/Objects/Fun/kettlebell.rsi
@@ -149,14 +148,14 @@
     size: Large
   - type: EmitEmoteOnUse
     emote: WorkOut
-  - type: UseDelay # cooldown
+  - type: UseDelay
     delay: 20
 
 - type: entity
   parent: BaseItem
   id: ADTKettlebell20
-  name: kettlebell
-  description: Kettlebell. It smells like your sweat
+  name: гиря
+  description: Гиря 20 кг. Кажется, пахнет потом.
   components:
   - type: Sprite
     sprite: ADT/Objects/Fun/kettlebell.rsi
@@ -166,14 +165,14 @@
     size: Large
   - type: EmitEmoteOnUse
     emote: WorkOut
-  - type: UseDelay # cooldown
+  - type: UseDelay
     delay: 20
 
 - type: entity
   parent: BaseItem
   id: ADTKettlebell25
-  name: kettlebell
-  description: Kettlebell. It smells like your sweat
+  name: гиря
+  description: Гиря 25 кг. Кажется, пахнет потом.
   components:
   - type: Sprite
     sprite: ADT/Objects/Fun/kettlebell.rsi
@@ -183,14 +182,14 @@
     size: Large
   - type: EmitEmoteOnUse
     emote: WorkOut
-  - type: UseDelay # cooldown
+  - type: UseDelay
     delay: 20
 
 - type: entity
   parent: BaseItem
   id: ADTKettlebell30
-  name: kettlebell
-  description: Kettlebell. It smells like your sweat
+  name: гиря
+  description: Гиря 30 кг. Кажется, пахнет потом.
   components:
   - type: Sprite
     sprite: ADT/Objects/Fun/kettlebell.rsi
@@ -200,5 +199,5 @@
     size: Large
   - type: EmitEmoteOnUse
     emote: WorkOut
-  - type: UseDelay # cooldown
+  - type: UseDelay
     delay: 20

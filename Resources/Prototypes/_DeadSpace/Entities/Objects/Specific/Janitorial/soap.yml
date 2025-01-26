@@ -1,8 +1,8 @@
 - type: entity
-  name: kriss soap
+  name: мыло Крисса
   id: SoapKriss
   parent: Soap
-  description: Kriss droped this soap, but only once.
+  description: Брусок мыла бренда Kriss. Пахнет кошкодевочкой.
   components:
   - type: Sprite
     layers:

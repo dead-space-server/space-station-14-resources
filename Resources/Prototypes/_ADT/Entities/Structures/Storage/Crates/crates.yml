@@ -1,8 +1,8 @@
 - type: entity
   parent: CrateGeneric
   id: LavalandChest
-  name: Spooky chest
-  description: An old, scary chest with pulsating meat on it.
+  name: древний сундук
+  description: Сундук истощяющий зловещую энергию вокруг. Вам кажется его глаз следить за вами.
   components:
   - type: Sprite
     sprite: ADT/Structures/Storage/Crates/lavaland.rsi

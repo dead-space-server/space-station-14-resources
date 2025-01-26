@@ -1,3 +1,5 @@
+ent-ClothingOuterVestKevlar = web vest
+    .desc = A synthetic armor vest. This one has added webbing and ballistic plates.
 ent-ClothingOuterVestWeb = тактический жилет
     .desc = Синтетический бронежилет. У этого есть дополнительные ремни и баллистические пластины.
 ent-ClothingOuterVestWebMerc = тактический жилет наёмника

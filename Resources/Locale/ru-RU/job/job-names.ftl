@@ -42,6 +42,7 @@ job-name-salvagespec = Утилизатор
 job-name-qm = Квартирмейстер
 job-name-cargotech = Грузчик
 job-name-chef = Шеф-повар
+job-name-visitor = Посетитель
 job-name-clown = Клоун
 job-name-clown-sponsor = Клоун-стажёр
 job-name-ertleader-amber = Командир ОБР (Эмбер)
@@ -76,7 +77,6 @@ job-name-security-pilot = Пилот СБ
 job-name-senior-salvagespec = Ведущий утилизатор
 job-name-senior-administrator = Менеджер
 job-name-station-ai = Станционный ИИ
-
 # unused jobs
 # these are required for the agent ID job icon tooltips
 # I am keeping them for roleplaying opportunities
@@ -88,13 +88,11 @@ job-name-syndicate = синдикат
 job-name-unknown = неизвестно
 job-name-virologist = вирусолог
 job-name-zombie = зомби
-
 # Job titles
 job-title-visitor = Посетитель
 job-title-cluwne = Клувень
 job-title-universal = Администратор
-
-# typan-
+# Typan
 job-name-typan-atmos-tech = Атмосферный инженер Синдиката
 job-name-typan-botanist = Ботаник Синдиката
 job-name-typan-cargotech = Карготехник Синдиката
@@ -103,7 +101,6 @@ job-name-typan-medic = Медик Синдиката
 job-name-typan-rd = Директор исследований Синдиката
 job-name-typan-science = Учёный Синдиката
 job-name-typan-telecommunications-officer = Офицер телекомуникаций Синдиката
-
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = Атмосферный техник
 JobBartender = Бармен
@@ -182,7 +179,6 @@ JobSeniorSalvageSpecialist = Ведущий утилизатор
 JobSeniorAdministrator = Менеджер
 JobStationAi = Станционный ИИ
 JobVisitor = Посетитель
-
 # Typan
 JobTypanAtmosTech = Атмосферный инженер Синдиката
 JobTypanBotanist = Ботаник Синдиката

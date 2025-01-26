@@ -1,8 +1,9 @@
 - type: entity
   parent: Bed
   id: ADTDoubleBedTop
-  name: double bed
-  description: You now, hot to use it.
+  name: двухспальная кровать
+  description: Ты знаешь, как это использовать.
+  suffix: Верх
   components:
   - type: Sprite
     sprite: ADT/Structures/Furniture/doublebed.rsi
@@ -10,15 +11,13 @@
   - type: Construction
     graph: bed
     node: adtdoublebedtop
-  #- type: GuideHelp
-  #  guides:
-  #  - Medical Doctor
 
 - type: entity
   parent: Bed
   id: ADTDoubleBedBottom
-  name: double bed
-  description: You now, hot to use it.
+  name: двухспальная кровать
+  description: Ты знаешь, как это использовать.
+  suffix: Низ
   components:
   - type: Sprite
     sprite: ADT/Structures/Furniture/doublebed.rsi
@@ -26,6 +25,3 @@
   - type: Construction
     graph: bed
     node: adtdoublebedbottom
-  #- type: GuideHelp
-  #  guides:
-  #  - Medical Doctor

@@ -57,7 +57,7 @@
   name: uplink-akms-bundle-name
   description: uplink-akms-bundle-desc
   icon: { sprite: /Textures/Objects/Weapons/Guns/Rifles/ak.rsi, state: icon }
-  productEntity: ADTClothingBackpackDuffelSyndicateFilledAKMS
+  productEntity: ClothingBackpackDuffelSyndicateFilledAKMS
   cost:
     Telecrystal: 12
   categories:
@@ -77,7 +77,7 @@
   name: uplink-xc67-bundle-name
   description: uplink-xc67-bundle-desc
   icon: { sprite: /Textures/ADT/Objects/Weapons/Guns/Rifels/xc67.rsi, state: icon}
-  productEntity: ADTClothingBackpackDuffelSyndicateFilledXC67
+  productEntity: ClothingBackpackDuffelSyndicateFilledXC67
   cost:
     Telecrystal: 18
   categories:
@@ -93,7 +93,7 @@
   name: uplink-buldog-ammo-bundle-name
   description: uplink-buldog-ammo-bundle-desc
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Shotgun/m12.rsi, state: base }
-  productEntity: ADTClothingBackpackDuffelSyndicateFilledBuldogAmmo
+  productEntity: ClothingBackpackDuffelSyndicateFilledBuldogAmmo
   cost:
     Telecrystal: 6
   categories:
@@ -109,7 +109,7 @@
   name: uplink-buldog-xl-ammo-bundle-name
   description: uplink-buldog-xl-ammo-bundle-desc
   icon: { sprite: /Textures/ADT/Objects/Weapons/Guns/Ammunition/Magazine/xl.rsi, state: base }
-  productEntity: ADTClothingBackpackDuffelSyndicateFilledBuldogAmmoXL
+  productEntity: ClothingBackpackDuffelSyndicateFilledBuldogAmmoXL
   cost:
     Telecrystal: 12
   categories:
@@ -125,7 +125,7 @@
   name: uplink-c20-ammo-bundle-name
   description: uplink-c20-ammo-bundle-desc
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/smg_mag.rsi, state: red }
-  productEntity: ADTClothingBackpackDuffelSyndicateFilledC20Ammo
+  productEntity: ClothingBackpackDuffelSyndicateFilledC20Ammo
   cost:
     Telecrystal: 8
   categories:
@@ -141,7 +141,7 @@
   name: uplink-xc67-ammo-bundle-name
   description: uplink-xc67-ammo-bundle-description
   icon: { sprite: /Textures/ADT/Objects/Weapons/Guns/Ammunition/Magazine/ext_rifle_mag.rsi, state: base }
-  productEntity: ADTClothingBackpackDuffelSyndicateFilledXC67Ammo
+  productEntity: ClothingBackpackDuffelSyndicateFilledXC67Ammo
   cost:
     Telecrystal: 10
   categories:

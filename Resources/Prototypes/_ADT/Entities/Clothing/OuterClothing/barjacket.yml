@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ADTClothingOuterJacketBartender
-  name: Bar jacket
-  description: stylish jacket for bear holding.
+  name: барная жилетка
+  description: Удобная барная жилетка для повседневной носки.
   components:
   - type: Sprite
     sprite: ADT/Clothing/OuterClothing/Jackets/barjacket.rsi

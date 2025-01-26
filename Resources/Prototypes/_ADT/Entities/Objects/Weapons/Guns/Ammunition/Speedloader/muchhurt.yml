@@ -1,6 +1,6 @@
 - type: entity
   id: BaseSpeedLoader357
-  name: "speed loader (.357 magnum)"
+  name: спидлоадер (.357 магнум)
   parent: BaseItem
   abstract: true
   components:
@@ -21,7 +21,7 @@
 
 - type: entity
   id: SpeedLoader357
-  name: "speed loader (.357 magnum)"
+  name: спидлоадер (.357 магнум)
   parent: BaseSpeedLoader357
   components:
   - type: BallisticAmmoProvider

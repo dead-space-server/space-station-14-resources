@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ADTClothingOuterCoatOctyabrinaCoat
-  name: Octyabrina`s Coat
-  description: This red coat is heavier than look
+  name: красное пальто
+  description: Темно-красное пальто. Кажется тяжелее, чем должно быть.
   components:
   - type: Sprite
     sprite: ADT/Clothing/OuterClothing/Coats/oktyabrina_coat.rsi
@@ -19,8 +19,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ADTClothingOuterCoatJohanCoat
-  name: Johans`s Coat
-  description: White coat with blue strips? YOS.
+  name: пальто Йохана
+  description: Белое пальто, да? С голубыми полосками, да? Да!
   components:
   - type: Sprite
     sprite: ADT/Clothing/OuterClothing/Coats/johan_coat.rsi
