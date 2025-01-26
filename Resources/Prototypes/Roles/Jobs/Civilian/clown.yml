@@ -15,7 +15,7 @@
   special:
   - !type:AddComponentSpecial
     components:
-    - type: CustomNameOnSpawn
+    # - type: CustomNameOnSpawn
     # - type: ClownBibleUser #Lets them honk with bibles
     - type: Clumsy
       gunShootFailDamage:
