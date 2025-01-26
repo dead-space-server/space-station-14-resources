@@ -58,19 +58,25 @@
       - id: ShardCrystalOrange3eilado
       - id: ClothingEyesSigma3eilado
       - id: ClothingNeckCharm3eilado
+      - id: Hypo3eilado
 
 # Belt
 - type: entity
   parent: ClothingBeltChiefEngineer
   id: ClothingBelt3eiladoFilled
-  name: белый пояс для инструментов 
-  description: Удобный пояс для инструментов.
+  name: гоблин Лопата
+  description: Маленький вредный гоблин, такого лучше не пытаться кормить с руки или гладить.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/3eilado/belt.rsi
+    scale: "0.5, 0.5"
   - type: Clothing
     sprite: DeadSpace/Sponsor/3eilado/belt.rsi
+    clothingVisuals:
+      back: 
+      - state: equipped-BELT
+        scale: 0.5, 0.5
   - type: Item
     size: Huge
   - type: StorageFill
@@ -457,6 +463,30 @@
   - sprite: DeadSpace/Sponsor/3eilado/tail.rsi
     state: stars
 
+- type: marking
+  id: 3eiladoMothWings
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Moth]
+  sponsorOnly: true
+  sprites:
+  - sprite: DeadSpace/Sponsor/3eilado/moth/wings.rsi
+    state: wings
+  - sprite: DeadSpace/Sponsor/3eilado/moth/wings.rsi
+    state: gradient
+  - sprite: DeadSpace/Sponsor/3eilado/moth/wings.rsi
+    state: stars
+
+- type: marking
+  id: 3eiladoWingsMothAntennas
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Moth]
+  sponsorOnly: true
+  sprites:
+  - sprite: DeadSpace/Sponsor/3eilado/moth/top.rsi
+    state: head
+
 # PDA
 - type: entity
   parent: BaseMedicalPDA
@@ -491,8 +521,8 @@
 - type: entity
   id: JetpackVoidFilled3eilado
   parent: JetpackVoidFilled
-  name: пустотный джетпак модификации «Северный олень» 
-  description: Он поможет добраться куда-то молниеносно, погладьте его за хорошую работу.
+  name: проекция меча Аскалон
+  description: Устройство коллекции «Полярная ночь».
   categories: [ HideSpawnMenu ]
   components:
   - type: Item
@@ -700,3 +730,29 @@
     radius: 2
     energy: 2.5
     color: "#ff8227"
+
+# Hypospray
+- type: entity
+  parent: BaseItem
+  id: Hypo3eilado
+  name: гипоспрей «Astreya» 
+  description: Гипоспрей модификации «Макнота». Создан корпорацией 1’А.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Sponsor/3eilado/hypospray.rsi
+    state: icon
+  - type: Item
+    sprite: DeadSpace/Sponsor/3eilado/hypospray.rsi
+  - type: SolutionContainerManager
+    solutions:
+      hypospray:
+        maxVol: 5
+  - type: RefillableSolution
+    solution: hypospray
+  - type: ExaminableSolution
+    solution: hypospray
+  - type: Hypospray
+    onlyAffectsMobs: false
+  - type: UseDelay
+    delay: 1.0
