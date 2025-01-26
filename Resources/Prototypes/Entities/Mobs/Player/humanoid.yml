@@ -137,7 +137,6 @@
     - NamesLastDeathSquad
   - type: Loadout
     prototypes: [ DeathSquadGear ]
-    roleLoadout: [ RoleSurvivalEVA ]
   - type: TTS
     voice: Garithos
 
