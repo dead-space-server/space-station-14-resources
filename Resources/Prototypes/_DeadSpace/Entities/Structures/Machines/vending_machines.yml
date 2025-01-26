@@ -66,3 +66,35 @@
     radius: 1.5
     energy: 1.6
     color: "#3c5eb5"
+
+- type: entity
+  parent: VendingMachine
+  id: VendingMachineClothingCapes
+  name: Плащвенд
+  description: Автомат с различными плащами.
+  components:
+  - type: VendingMachine
+    pack: ClothesMateCapeInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+    denyState: deny-unshaded
+  - type: Advertise
+    pack: ClothesMateAds
+  - type: SpeakOnUIClosed
+    pack: GenericVendGoodbyes
+  - type: Speech
+  - type: Sprite
+    sprite: DeadSpace/Structures/hqdishka/Machines/VendingMachines/capes.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: PointLight
+    radius: 1.8
+    energy: 1.6
+    color: "#7c3bb8"

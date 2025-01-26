@@ -25,4 +25,3 @@ tips-dataset-24 = Every crewmember comes with an emergency medipen in their surv
 tips-dataset-25 = The AME is a high-priority target and is easily sabotaged. Make sure to set up the Singularity or Solars so that you don't run out of power if it blows.
 tips-dataset-26 = If the tesla is loose, it will chase any people, stationary machines and computers. Turning off your electronics does not make you less of a target. Your best bet is not being close to it.
 tips-dataset-27 = You can add labels to any item, including food or pill canisters, using a hand labeller.
-tips-dataset-28 = Riot armor is significantly more powerful against opponents that aren't using guns compared to regular armor.

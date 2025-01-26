@@ -34,7 +34,6 @@ marking-AugmentsAugFootLeft-l_robofoot = Аугментация, стопа ле
 marking-AugmentsAugFootLeft = Аугментация, стопа левой ноги (Песчанный)
 marking-AugmentsAugTorso-_augtorso_m = Аугментация, корпус мужской (Песчанный)
 marking-AugmentsAugTorso = Аугментация, корпус мужской (Песчанный)
-
 marking-Malstrem = Мальстрём
 marking-Beholder = Наблюдатель
 marking-Terminator = Терминатор

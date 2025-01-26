@@ -1,1 +1,1 @@
-flavor-complex-ADTVodkaAntivirusFlavor = как разбавленный спирт
+flavor-complex-vodka-antivirus = как разбавленный спирт

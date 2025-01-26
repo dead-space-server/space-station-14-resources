@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: ADTBathBroom
-  name: bath broom
-  description: A broom made of dried leaves.
+  name: банный веник
+  description: Веник из сушеных листьев, для тех, что ценят классическую баню. Поддать пару!
   components:
   - type: Sprite
     sprite: ADT/Objects/Misc/bathbroom.rsi

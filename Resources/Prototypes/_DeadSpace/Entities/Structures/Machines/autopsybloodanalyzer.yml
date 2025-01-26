@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseMachinePowered
   id: AutopsyBloodAnalyzer
-  name: анализатор крови
+  name: анализатор крови # TODO
   description: Используется для получения подробного отчета об образце крови.
   components:
   - type: Sprite

@@ -1,9 +1,8 @@
-# бушлат следователя
 - type: entity
   parent: ClothingOuterStorageBase
   id: ADTClothingOuterCoatInvestigator
-  name: investigator bushlat
-  description: This pea jacket increases the chance of a suspect's confession by half.
+  name: бушлат следователя службы безопасности
+  description: Один вид этого бушлата повышает вероятность чистосердечного признания подозреваемого на 50%.
   components:
   - type: Sprite
     sprite: ADT/Clothing/OuterClothing/Coats/investigator_coat.rsi

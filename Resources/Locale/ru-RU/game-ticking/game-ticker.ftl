@@ -16,7 +16,7 @@ game-ticker-get-info-preround-text =
     Раунд: [color=white]#{ $roundId }[/color]
     Режим: [color=white]{ $gmTitle }[/color]###Игроки: [color=white]{ $playerCount }[/color] ([color=white]{ $readyCount }[/color] { $readyCount ->
         [one] готов
-        *[other] готовы
+       *[other] готовы
     })
     Карта: [color=white]{ $mapName }[/color]###[color=yellow]{ $desc }[/color]
 game-ticker-no-map-selected = [color=red]Карта ещё не выбрана![/color]

@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ADTClothingUniformTurleneckTactick
-  name: ancient jumpsuit
-  description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+  name: тактическая водолазка
+  description: Тактическая и удобная водолазка с усиленной синтетической тканью.
   components:
   - type: Sprite
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_tactick.rsi
@@ -16,23 +16,25 @@
         Slash: 0.9
         Piercing: 0.85
         Heat: 0.8
+
 #Mercenary
 - type: entity
   parent: ClothingUniformBase
   id: ADTClothingUniformTurleneckAmerc
-  name: ancient jumpsuit
-  description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+  name: водолазка Наёмника
+  description: Практичная и удобная водолазка оливкового цвета.
   components:
   - type: Sprite
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_amerc.rsi
   - type: Clothing
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_amerc.rsi
+
 #Black
 - type: entity
   parent: ClothingUniformBase
   id: ADTClothingUniformTurleneckBlack
-  name: ancient jumpsuit
-  description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+  name: чёрная водолазка
+  description: Практичная и удобная водолазка черного цвета. На лейбле можно заметить "Modeling Agency Dar-Vaxed".
   components:
   - type: Sprite
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_black.rsi
@@ -42,19 +44,20 @@
 - type: entity
   parent: ClothingUniformBase
   id: ADTClothingUniformTurleneckBlackWomen
-  name: ancient jumpsuit
-  description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+  name: чёрная водолазка с юбкой
+  description: Практичная и удобная водолазка черного цвета. На лейбле можно заметить "Modeling Agency Dar-Vaxed".
   components:
   - type: Sprite
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_black_women.rsi
   - type: Clothing
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_black_women.rsi
+
 #Blue
 - type: entity
   parent: ClothingUniformBase
   id: ADTClothingUniformTurleneckBlue
-  name: ancient jumpsuit
-  description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+  name: синяя водолазка
+  description: Практичная и удобная водолазка синего цвета. На лейбле можно заметить "Modeling Agency Dar-Vaxed".
   components:
   - type: Sprite
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_blue.rsi
@@ -64,8 +67,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ADTClothingUniformTurleneckBlueBlack
-  name: ancient jumpsuit
-  description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+  name: синяя водолазка
+  description: Практичная и удобная водолазка синего цвета. На лейбле можно заметить "Modeling Agency Dar-Vaxed".
   components:
   - type: Sprite
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_blueblack.rsi
@@ -75,19 +78,20 @@
 - type: entity
   parent: ClothingUniformBase
   id: ADTClothingUniformTurleneckBlueWomen
-  name: ancient jumpsuit
-  description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+  name: синяя водолазка с юбкой
+  description: Практичная и удобная водолазка синего цвета. На лейбле можно заметить "Modeling Agency Dar-Vaxed".
   components:
   - type: Sprite
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_blue_women.rsi
   - type: Clothing
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_blue_women.rsi
+
 #golub
 - type: entity
   parent: ClothingUniformBase
   id: ADTClothingUniformTurleneckGolub
-  name: ancient jumpsuit
-  description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+  name: голубая водолазка
+  description: Практичная и удобная водолазка голубого цвета. На лейбле можно заметить "Modeling Agency Dar-Vaxed".
   components:
   - type: Sprite
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_golub.rsi
@@ -97,8 +101,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ADTClothingUniformTurleneckGolubBlack
-  name: ancient jumpsuit
-  description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+  name: голубая водолазка
+  description: Практичная и удобная водолазка голубого цвета. На лейбле можно заметить "Modeling Agency Dar-Vaxed".
   components:
   - type: Sprite
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_golubblack.rsi
@@ -108,8 +112,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ADTClothingUniformTurleneckGolubWomen
-  name: ancient jumpsuit
-  description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+  name: голубая водолазка с юбкой
+  description: Практичная и удобная водолазка голубого цвета. На лейбле можно заметить "Modeling Agency Dar-Vaxed".
   components:
   - type: Sprite
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_golub_women.rsi
@@ -117,12 +121,11 @@
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_golub_women.rsi
 
 #Green
-
 - type: entity
   parent: ClothingUniformBase
   id: ADTClothingUniformTurleneckGreen
-  name: ancient jumpsuit
-  description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+  name: зелёная водолазка
+  description: Практичная и удобная водолазка зелёного цвета. На лейбле можно заметить "Modeling Agency Dar-Vaxed".
   components:
   - type: Sprite
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_green.rsi
@@ -132,8 +135,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ADTClothingUniformTurleneckGreenBlack
-  name: ancient jumpsuit
-  description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+  name: зелёная водолазка
+  description: Практичная и удобная водолазка зелёного цвета. На лейбле можно заметить "Modeling Agency Dar-Vaxed".
   components:
   - type: Sprite
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_greenblack.rsi
@@ -143,8 +146,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ADTClothingUniformTurleneckGreenWomen
-  name: ancient jumpsuit
-  description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+  name: зелёная водолазка с юбкой
+  description: Практичная и удобная водолазка зелёного цвета. На лейбле можно заметить "Modeling Agency Dar-Vaxed".
   components:
   - type: Sprite
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_green_women.rsi
@@ -152,12 +155,11 @@
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_green_women.rsi
 
 #Orange
-
 - type: entity
   parent: ClothingUniformBase
   id: ADTClothingUniformTurleneckOrange
-  name: ancient jumpsuit
-  description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+  name: оранжевая водолазка
+  description: Практичная и удобная водолазка оранжевого цвета. На лейбле можно заметить "Modeling Agency Dar-Vaxed".
   components:
   - type: Sprite
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_orange.rsi
@@ -167,8 +169,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ADTClothingUniformTurleneckOrangeBlack
-  name: ancient jumpsuit
-  description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+  name: оранжевая водолазка
+  description: Практичная и удобная водолазка оранжевого цвета. На лейбле можно заметить "Modeling Agency Dar-Vaxed".
   components:
   - type: Sprite
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_orangeblack.rsi
@@ -178,8 +180,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ADTClothingUniformTurleneckOrangeWomen
-  name: ancient jumpsuit
-  description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+  name: оранжевая водолазка с юбкой
+  description: Практичная и удобная водолазка оранжевого цвета. На лейбле можно заметить "Modeling Agency Dar-Vaxed".
   components:
   - type: Sprite
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_orange_women.rsi
@@ -187,12 +189,11 @@
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_orange_women.rsi
 
 #Purpur
-
 - type: entity
   parent: ClothingUniformBase
   id: ADTClothingUniformTurleneckPurpur
-  name: ancient jumpsuit
-  description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+  name: фиолетовая водолазка
+  description: Практичная и удобная водолазка фиолетового цвета. На лейбле можно заметить "Modeling Agency Dar-Vaxed".
   components:
   - type: Sprite
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_purpur.rsi
@@ -202,8 +203,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ADTClothingUniformTurleneckPurpurBlack
-  name: ancient jumpsuit
-  description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+  name: фиолетовая водолазка
+  description: Практичная и удобная водолазка фиолетового цвета. На лейбле можно заметить "Modeling Agency Dar-Vaxed".
   components:
   - type: Sprite
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_purpurblack.rsi
@@ -213,8 +214,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ADTClothingUniformTurleneckPurpurWomen
-  name: ancient jumpsuit
-  description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+  name: фиолетовая водолазка с юбкой
+  description: Практичная и удобная водолазка фиолетового цвета. На лейбле можно заметить "Modeling Agency Dar-Vaxed".
   components:
   - type: Sprite
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_purpur_women.rsi
@@ -222,12 +223,11 @@
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_purpur_women.rsi
 
 #Red
-
 - type: entity
   parent: ClothingUniformBase
   id: ADTClothingUniformTurleneckRed
-  name: ancient jumpsuit
-  description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+  name: красная водолазка
+  description: Практичная и удобная водолазка красного цвета. На лейбле можно заметить "Modeling Agency Dar-Vaxed".
   components:
   - type: Sprite
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_red.rsi
@@ -237,8 +237,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ADTClothingUniformTurleneckRedBlack
-  name: ancient jumpsuit
-  description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+  name: красная водолазка
+  description: Практичная и удобная водолазка красного цвета. На лейбле можно заметить "Modeling Agency Dar-Vaxed".
   components:
   - type: Sprite
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_redblack.rsi
@@ -248,8 +248,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ADTClothingUniformTurleneckRedWomen
-  name: ancient jumpsuit
-  description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+  name: красная водолазка с юбкой
+  description: Практичная и удобная водолазка красного цвета. На лейбле можно заметить "Modeling Agency Dar-Vaxed".
   components:
   - type: Sprite
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_red_women.rsi
@@ -257,12 +257,11 @@
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_red_women.rsi
 
 #Salat
-
 - type: entity
   parent: ClothingUniformBase
   id: ADTClothingUniformTurleneckSalat
-  name: ancient jumpsuit
-  description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+  name: жёлтая водолазка
+  description: Практичная и удобная водолазка жёлтого цвета. На лейбле можно заметить "Modeling Agency Dar-Vaxed".
   components:
   - type: Sprite
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_salat.rsi
@@ -272,8 +271,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ADTClothingUniformTurleneckSalatBlack
-  name: ancient jumpsuit
-  description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+  name: жёлтая водолазка
+  description: Практичная и удобная водолазка жёлтого цвета. На лейбле можно заметить "Modeling Agency Dar-Vaxed".
   components:
   - type: Sprite
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_salatblack.rsi
@@ -283,8 +282,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ADTClothingUniformTurleneckSalatWomen
-  name: ancient jumpsuit
-  description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+  name: жёлтая водолазка с юбкой
+  description: Практичная и удобная водолазка жёлтого цвета. На лейбле можно заметить "Modeling Agency Dar-Vaxed".
   components:
   - type: Sprite
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_salat_women.rsi
@@ -292,12 +291,11 @@
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_salat_women.rsi
 
 #White
-
 - type: entity
   parent: ClothingUniformBase
   id: ADTClothingUniformTurleneckWhite
-  name: ancient jumpsuit
-  description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+  name: белая водолазка
+  description: Практичная и удобная водолазка белого цвета. На лейбле можно заметить "Modeling Agency Dar-Vaxed".
   components:
   - type: Sprite
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_white.rsi
@@ -307,8 +305,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ADTClothingUniformTurleneckWhiteBlack
-  name: ancient jumpsuit
-  description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+  name: белая водолазка
+  description: Практичная и удобная водолазка белого цвета. На лейбле можно заметить "Modeling Agency Dar-Vaxed".
   components:
   - type: Sprite
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_whiteblack.rsi
@@ -318,8 +316,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ADTClothingUniformTurleneckWhiteWomen
-  name: ancient jumpsuit
-  description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+  name: белая водолазка с юбкой
+  description: Практичная и удобная водолазка белого цвета. На лейбле можно заметить "Modeling Agency Dar-Vaxed".
   components:
   - type: Sprite
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_white_women.rsi
@@ -327,12 +325,11 @@
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_white_women.rsi
 
 #sleeveless
-
 - type: entity
   parent: ClothingUniformBase
   id: ADTClothingUniformTurleneckBlackSleeveless
-  name: ancient jumpsuit
-  description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+  name: чёрная водолазка
+  description: Практичная и удобная водолазка чёрного цвета. На лейбле можно заметить "Modeling Agency Dar-Vaxed".
   components:
   - type: Sprite
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_blacksleeveless.rsi
@@ -343,8 +340,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ADTClothingUniformTurleneckBlackWomenSleeveless
-  name: ancient jumpsuit
-  description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+  name: чёрная водолазка с юбкой
+  description: Практичная и удобная водолазка чёрного цвета. На лейбле можно заметить "Modeling Agency Dar-Vaxed".
   components:
   - type: Sprite
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_black_womensleeveless.rsi
@@ -354,8 +351,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ADTClothingUniformTurleneckWhiteSleeveless
-  name: ancient jumpsuit
-  description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+  name: белая водолазка
+  description: Практичная и удобная водолазка белого цвета. На лейбле можно заметить "Modeling Agency Dar-Vaxed".
   components:
   - type: Sprite
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_whitesleeveless.rsi
@@ -365,8 +362,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ADTClothingUniformTurleneckWhiteBlackSleeveless
-  name: ancient jumpsuit
-  description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+  name: белая водолазка
+  description: Практичная и удобная водолазка белого цвета. На лейбле можно заметить "Modeling Agency Dar-Vaxed".
   components:
   - type: Sprite
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_whiteblacksleeveless.rsi
@@ -376,8 +373,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ADTClothingUniformTurleneckWhiteWomenSleeveless
-  name: ancient jumpsuit
-  description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+  name: белая водолазка с юбкой
+  description: Практичная и удобная водолазка белого цвета. На лейбле можно заметить "Modeling Agency Dar-Vaxed".
   components:
   - type: Sprite
     sprite: ADT/Clothing/Uniforms/Turleneck/turleneck_white_womensleeveless.rsi

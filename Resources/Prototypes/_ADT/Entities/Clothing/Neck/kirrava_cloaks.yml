@@ -1,6 +1,6 @@
 - type: entity
   parent: ClothingNeckBase
-  id: ClothingNeckKirasCloak # DS14 refactor
+  id: ClothingNeckKirasCloak
   name: мантия рыси
   description: Необчная накидка с капюшоном и ушками.
   components:

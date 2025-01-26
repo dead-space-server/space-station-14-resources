@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterHardsuitSecurity
   id: ADTVeteranSecHardsuit
-  name: veteran security hardsuit
-  description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
+  name: скафандр ветерана СБ
+  description: Специальный костюм, защищающий от опасных сред с низким давлением. Имеет дополнительный слой брони.
   components:
   - type: Sprite
     sprite: ADT/Clothing/OuterClothing/Hardsuits/veteransechardsuit.rsi
@@ -31,8 +31,8 @@
   parent: ClothingHeadHardsuitWithLightBase
   id: ADTVeteranSecHardsuitHelm
   categories: [ HideSpawnMenu ]
-  name: veteran security hardsuit helmet
-  description: Safety helmet with the latest top-secret NT-HUD software.
+  name: шлем скафандра ветерана СБ
+  description: Защитный шлем с новейшим сверхсекретным программным обеспечением NT-HUD.
   components:
   - type: Sprite
     sprite: ADT/Clothing/Head/Hardsuits/veteransechardsuithead.rsi

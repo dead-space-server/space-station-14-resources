@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterBaseLarge
   id: ADTClothingOuterClothingSupreneCommanderArmor
-  name: "Supreme commander's carapace"
-  description: "This thing is impossible to create, but we could. Fully covered bluespace plates. When you wear it, you feel like the emperor of mankind"
+  name: панцирь высшего главнокомандующего
+  description: То что не пробьешь, не создать, но мы создали, полностью покрыт блюспейс пластинами, одевая его вы чувствуете себя императором человечества.
   components:
   - type: Sprite
     sprite: ADT/Clothing/OuterClothing/Armor/supreme-commander-armor.rsi

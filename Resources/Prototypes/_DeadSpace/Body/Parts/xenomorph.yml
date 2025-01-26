@@ -3,7 +3,7 @@
 - type: entity
   id: PartXeno
   parent: [BaseItem, BasePart]
-  name: "Xeno body part"
+  name: "xeno body part"
   abstract: true
   components:
   - type: Sprite
