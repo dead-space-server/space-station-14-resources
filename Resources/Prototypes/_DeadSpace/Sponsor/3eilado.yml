@@ -487,6 +487,14 @@
   - sprite: DeadSpace/Sponsor/3eilado/moth/top.rsi
     state: head
 
+- type: marking
+  id: DemonHorns3eilado
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  sprites:
+  - sprite: DeadSpace/Sponsor/3eilado/horns.rsi
+    state: horns
+
 # PDA
 - type: entity
   parent: BaseMedicalPDA
@@ -537,7 +545,7 @@
       - suitStorage
       - Belt
 
-# HeadSet##############
+# HeadSet
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadset3eilado
