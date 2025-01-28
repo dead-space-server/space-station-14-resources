@@ -15,7 +15,7 @@
   special:
   - !type:AddComponentSpecial
     components:
-    - type: CustomNameOnSpawn
+    # - type: CustomNameOnSpawn
     - type: MimePowers
     - type: FrenchAccent
   #start-backmen: currency
