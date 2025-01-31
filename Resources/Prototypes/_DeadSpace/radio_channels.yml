@@ -22,14 +22,6 @@
   longRange: true
 
 - type: radioChannel
-  id: SOC
-  name: chat-radio-soc
-  keycode: 'е' # DS14-Localization
-  frequency: 1307
-  color: "#00fa9a"
-  longRange: true
-
-- type: radioChannel
   id: Typan
   name: chat-radio-typan
   keycode: 'й' # DS14-Localization
