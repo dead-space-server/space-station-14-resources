@@ -1129,3 +1129,17 @@
   # Short lifespan
   - type: TimedDespawn
     lifetime: 0.4
+
+- type: entity
+  name : Miniature Energy Gun bolt
+  id: BulletMiniatureEnergyGun
+  parent: BulletDisabler
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    impactEffect: BulletImpactEffectDisabler
+    damage:
+      types:
+        Heat: 10
+  - type: StaminaDamageOnCollide
+    damage: 0
