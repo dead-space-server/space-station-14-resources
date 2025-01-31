@@ -24,7 +24,7 @@
     back: ClothingBackpackERTLeader
     mask: ClothingMaskGasERT
     eyes: ClothingEyesHudAdvanced
-    ears: ClothingHeadsetSOC
+    ears: ClothingHeadsetCentCom
     neck: ClothingNeckMantleERTLeader
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterArmorBulletproof
@@ -71,7 +71,7 @@
     back: ClothingBackpackERTLeader
     mask: ClothingMaskGasERT
     eyes: ClothingEyesHudAdvanced
-    ears: ClothingHeadsetSOC
+    ears: ClothingHeadsetCentCom
     neck: ClothingNeckMantleERTLeader
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitERTLeader
@@ -117,7 +117,7 @@
     back: ClothingBackpackERTLeader
     mask: ClothingMaskGasERT
     eyes: ClothingEyesHudAdvanced
-    ears: ClothingHeadsetSOC
+    ears: ClothingHeadsetCentCom
     neck: ClothingNeckMantleERTLeader
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitERTLeader
@@ -163,7 +163,7 @@
     back: ClothingBackpackERTSecurity
     mask: ClothingMaskGasERT
     eyes: ClothingEyesHudAdvanced
-    ears: ClothingHeadsetSOC
+    ears: ClothingHeadsetCentCom
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterArmorBulletproof
     shoes: ClothingShoesBootsJackSecFilled
@@ -207,7 +207,7 @@
     back: ClothingBackpackERTSecurity
     mask: ClothingMaskGasERT
     eyes: ClothingEyesHudAdvanced
-    ears: ClothingHeadsetSOC
+    ears: ClothingHeadsetCentCom
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitERTSecurity
     shoes: ADTClothingShoesBootsMagERT
@@ -250,7 +250,7 @@
     back: ClothingBackpackERTSecurity
     mask: ClothingMaskGasERT
     eyes: ClothingEyesHudAdvanced
-    ears: ClothingHeadsetSOC
+    ears: ClothingHeadsetCentCom
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitERTSecurity
     suitstorage: JetpackMiniFilled
@@ -295,7 +295,7 @@
     back: ClothingBackpackERTMedical
     mask: ClothingMaskGasERT
     eyes: ClothingEyesHudAdvanced
-    ears: ClothingHeadsetSOC
+    ears: ClothingHeadsetCentCom
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterArmorBulletproof
     shoes: ClothingShoesColorWhite
@@ -343,7 +343,7 @@
     back: ClothingBackpackERTMedical
     mask: ClothingMaskGasERT
     eyes: ClothingEyesHudAdvanced
-    ears: ClothingHeadsetSOC
+    ears: ClothingHeadsetCentCom
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitERTMedical
     shoes: ADTClothingShoesBootsMagERT
@@ -391,7 +391,7 @@
     back: ClothingBackpackERTMedical
     mask: ClothingMaskGasERT
     eyes: ClothingEyesHudAdvanced
-    ears: ClothingHeadsetSOC
+    ears: ClothingHeadsetCentCom
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitERTMedical
     suitstorage: JetpackMiniFilled
@@ -443,7 +443,7 @@
     back: ClothingBackpackERTEngineer
     mask: ClothingMaskGasERT
     eyes: ClothingEyesHudAdvanced
-    ears: ClothingHeadsetSOC
+    ears: ClothingHeadsetCentCom
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterArmorBulletproof
     shoes: ClothingShoesBootsWork
@@ -484,7 +484,7 @@
     back: ClothingBackpackERTEngineer
     mask: ClothingMaskGasERT
     eyes: ClothingEyesHudAdvanced
-    ears: ClothingHeadsetSOC
+    ears: ClothingHeadsetCentCom
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitERTEngineer
     shoes: ADTClothingShoesBootsMagERT
@@ -527,7 +527,7 @@
     back: ClothingBackpackERTEngineer
     mask: ClothingMaskGasERT
     eyes: ClothingEyesHudAdvanced
-    ears: ClothingHeadsetSOC
+    ears: ClothingHeadsetCentCom
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitERTEngineer
     suitstorage: JetpackMiniFilled
@@ -577,7 +577,7 @@
     back: ClothingBackpackERTJanitor
     mask: ClothingMaskGasERT
     eyes: ClothingEyesHudAdvanced
-    ears: ClothingHeadsetSOC
+    ears: ClothingHeadsetCentCom
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterArmorBulletproof
     shoes: ClothingShoesGaloshes
@@ -622,7 +622,7 @@
     back: ClothingBackpackERTJanitor
     mask: ClothingMaskGasERT
     eyes: ClothingEyesHudAdvanced
-    ears: ClothingHeadsetSOC
+    ears: ClothingHeadsetCentCom
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitERTJanitor
     shoes: ADTClothingShoesBootsMagERT
@@ -667,7 +667,7 @@
     back: ClothingBackpackERTJanitor
     mask: ClothingMaskGasERT
     eyes: ClothingEyesHudAdvanced
-    ears: ClothingHeadsetSOC
+    ears: ClothingHeadsetCentCom
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitERTJanitor
     suitstorage: JetpackMiniFilled
