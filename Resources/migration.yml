@@ -736,3 +736,9 @@ ADTClothingBackpackDuffelSyndicateFilledC20Ammo: ClothingBackpackDuffelSyndicate
 ADTClothingBackpackDuffelSyndicateFilledAKMS: ClothingBackpackDuffelSyndicateFilledAKMS
 ADTtelescopicBatonBob: ADTtelescopicBaton
 ADTtelescopicBatonKon: ADTtelescopicBaton
+
+# 2025-02-01 - DS14
+
+ClothingHeadsetSOC: null
+EncryptionKeySOC: null
+SOC: null
