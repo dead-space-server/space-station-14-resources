@@ -11,14 +11,9 @@
     sprite: Resources/Textures/DeadSpace/Objects/Weapons/Guns/Battery/minipistol.rsi
     layers:
     - state: icon
-  - type: Item
-  - type: Clothing
-    quickEquip: false
-    slots:
-    - Belt
   - type: Gun
     soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/taser.ogg
+      path: /Audio/DeadSpace/Weapons/Guns/Gunshots/dominator.ogg
   - type: ProjectileBatteryAmmoProvider
     proto: BulletMiniatureEnergyGun
     fireCost: 50
@@ -26,7 +21,6 @@
     magState: mag
     steps: 1
     zeroVisible: true
-  - type: Appearance
   - type: Battery 
     maxCharge: 1000
     startCharge: 1000
