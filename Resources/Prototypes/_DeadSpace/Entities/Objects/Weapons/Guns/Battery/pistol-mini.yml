@@ -8,7 +8,7 @@
     tags:
     - Sidearm
   - type: Sprite
-    sprite: Resources/Textures/Objects/Weapons/Guns/Battery/minipistol.rsi
+    sprite: Resources/Textures/DeadSpace/Objects/Weapons/Guns/Battery/minipistol.rsi
     layers:
     - state: icon
   - type: Item
