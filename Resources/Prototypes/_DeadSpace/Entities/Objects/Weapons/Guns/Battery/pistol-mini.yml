@@ -1,0 +1,40 @@
+- type: entity
+  name: миниатюрный энергетический пистолет
+  parent: BaseWeaponBatterySmall
+  id: WeaponMiniatureEnergyGun
+  description: Данный вид оружия принадлежит главе персонала и магистрату, его использование разрешено только в красный код и только в случае прямой угрозы главе.
+  components:
+  - type: Tag
+    tags:
+    - Sidearm
+  - type: Sprite
+    sprite: Resources/Textures/DeadSpace/Objects/Weapons/Guns/Battery/minipistol.rsi
+    layers:
+    - state: icon
+  - type: Gun
+    soundGunshot:
+      path: /Audio/DeadSpace/Weapons/Guns/Gunshots/dominator.ogg
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletMiniatureEnergyGun
+    fireCost: 50
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Battery 
+    maxCharge: 1000
+    startCharge: 1000
+
+- type: entity
+  name: заряд миниатюрного энергетического пистолета
+  id: BulletMiniatureEnergyGun
+  parent: BulletDisabler
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    impactEffect: BulletImpactEffectDisabler
+    damage:
+      types:
+        Heat: 10
+  - type: StaminaDamageOnCollide
+    damage: 0
