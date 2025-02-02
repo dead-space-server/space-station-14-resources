@@ -267,3 +267,18 @@
     Telecrystal: 8
   categories:
     - UplinkImplants
+
+- type: listing
+  id: UplinkClothingEyesPNVAdvSyndicate
+  name: uplink-clothing-eyes-pnv-adv-syndicate-name
+  description: uplink-clothing-eyes-pnv-adv-syndicate-desc
+  productEntity: ClothingEyesPNVAdvSyndicate
+  cost:
+    Telecrystal: 4
+  categories:
+    - UplinkWearables
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - NukeOpsUplink
