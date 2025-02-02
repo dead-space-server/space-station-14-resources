@@ -1,5 +1,6 @@
+
 - type: entity
-  name: Miniature Energy Gun
+  name: Миниатюрный Энергетический Пистолет
   parent: BaseWeaponBatterySmall
   id: WeaponMiniatureEnergyGun
   description: Данный вид оружия принадлежит главе персонала и магистрату, его использование разрешено только в красный код и только в случае прямой угрозы главе.
@@ -8,7 +9,7 @@
     tags:
     - Sidearm
   - type: Sprite
-    sprite: /Uploaded/minipistol.rsi
+    sprite: Resources/Textures/Objects/Weapons/Guns/Battery/minipistol.rsi
     layers:
     - state: icon
   - type: Item
@@ -32,7 +33,7 @@
     startCharge: 1000
     
 - type: entity
-  name : Miniature Energy Gun bolt
+  name: заряд миниатюрного энергетического пистолета
   id: BulletMiniatureEnergyGun
   parent: BulletDisabler
   categories: [ HideSpawnMenu ]
