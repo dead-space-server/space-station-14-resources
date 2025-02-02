@@ -736,3 +736,6 @@ ADTClothingBackpackDuffelSyndicateFilledC20Ammo: ClothingBackpackDuffelSyndicate
 ADTClothingBackpackDuffelSyndicateFilledAKMS: ClothingBackpackDuffelSyndicateFilledAKMS
 ADTtelescopicBatonBob: ADTtelescopicBaton
 ADTtelescopicBatonKon: ADTtelescopicBaton
+
+# 2025-01-30 - DS14
+ActionToggleNightVision: null

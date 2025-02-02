@@ -1,17 +1,4 @@
 - type: entity
-  id: ActionToggleNightVision
-  name: Переключить ночное зрение
-  description: Включает и выключает ночное зрение.
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: InstantAction
-    useDelay: 2.5
-    icon:
-      sprite: Clothing/Eyes/Glasses/ninjavisor.rsi
-      state: icon
-    event: !type:ToggleNightVisionActionEvent
-
-- type: entity
   parent: ClothingEyesBase
   id: ClothingEyesHudCMO
   name: очки главного врача
