@@ -24,7 +24,7 @@
     fireCost: 50
   - type: MagazineVisuals
     magState: mag
-    steps: 20
+    steps: 1
     zeroVisible: true
   - type: Appearance
   - type: Battery 
