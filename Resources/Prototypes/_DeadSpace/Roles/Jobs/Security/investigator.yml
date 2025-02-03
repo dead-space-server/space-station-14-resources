@@ -52,8 +52,8 @@
 # - type: entity
 #   parent: BasePDA
 #   id: ADTInvestigatorPDA
-#   name: investigator PDA
-#   description: It smells like ink and the case is prematurely closed due to the death of a suspect at work.
+#   name: КПК следователя СБ
+#   description: Пахнет как чернила и дело, закрытое предварительно из-за смерти подозреваемого от несчастного случая на рабочем месте.
 #   components:
 #   - type: Pda
 #     id: ADTInvestigatorIDCard

@@ -737,8 +737,9 @@ ADTClothingBackpackDuffelSyndicateFilledAKMS: ClothingBackpackDuffelSyndicateFil
 ADTtelescopicBatonBob: ADTtelescopicBaton
 ADTtelescopicBatonKon: ADTtelescopicBaton
 
-# 2025-02-01 - DS14
-
+# 2025-01-30 - DS14
 ClothingHeadsetSOC: null
 EncryptionKeySOC: null
 SOC: null
+ActionToggleNightVision: null
+
