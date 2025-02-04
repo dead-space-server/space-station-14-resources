@@ -1,7 +1,7 @@
 - type: radioChannel
   id: DeathSquad
   name: chat-radio-deathsquad
-  keycode: 'а' # DS14-Localization
+  keycode: 'э' # DS14-Localization
   frequency: 2707
   color: "#CF1CFF"
   longRange: true
