@@ -3,7 +3,7 @@
   id: DrinkInventoryEmag1
   productEntity: DrinkNukieCan
   cost:
-    SpaceCash: 30
+    SpaceCash: 15
   categories:
     - DrinkVendInventoryEmag
   conditions:
@@ -14,7 +14,7 @@
   id: DrinkInventoryEmag2
   productEntity: DrinkChangelingStingCan
   cost:
-    SpaceCash: 30
+    SpaceCash: 15
   categories:
     - DrinkVendInventoryEmag
   conditions:
@@ -26,7 +26,7 @@
   id: HappyHonkInventoryEmag1
   productEntity: HappyHonkNukie
   cost:
-    SpaceCash: 100
+    SpaceCash: 40
   categories:
     - HappyHonkInventoryEmag
   conditions:
@@ -37,7 +37,7 @@
   id: HappyHonkInventoryEmag2
   productEntity: HappyHonkCluwne
   cost:
-    SpaceCash: 100
+    SpaceCash: 40
   categories:
     - HappyHonkInventoryEmag
   conditions:
@@ -49,7 +49,7 @@
   id: CigaretteMachineInventoryEmag1
   productEntity: CigPackSyndicate
   cost:
-    SpaceCash: 50
+    SpaceCash: 20
   categories:
     - CigaretteMachineInventoryEmag
   conditions:
@@ -60,7 +60,7 @@
   id: CigaretteMachineInventoryEmag2
   productEntity: FlippoSyndicateLighter
   cost:
-    SpaceCash: 50
+    SpaceCash: 25
   categories:
     - CigaretteMachineInventoryEmag
   conditions:
@@ -72,7 +72,7 @@
   id: HotDrinksMachineInventoryEmag1
   productEntity: DrinkNothing
   cost:
-    SpaceCash: 30
+    SpaceCash: 15
   categories:
     - HotDrinksMachineInventoryEmag
   conditions:
