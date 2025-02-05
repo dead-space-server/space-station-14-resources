@@ -27,7 +27,7 @@
   minBankBalance: 150
   maxBankBalance: 250
   wageDepartment: Engineering
-  wage: 50
+  wage: 70
   #end-backmen: currency
 
 - type: startingGear

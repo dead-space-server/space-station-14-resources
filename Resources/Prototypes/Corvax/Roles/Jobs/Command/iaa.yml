@@ -29,7 +29,7 @@
   minBankBalance: 800
   maxBankBalance: 1200
   wageDepartment: Specific
-  wage: 200
+  wage: 145
   #end-backmen: currency
   special:
   - !type:AddImplantSpecial

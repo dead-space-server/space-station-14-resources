@@ -33,7 +33,7 @@
   minBankBalance: 150
   maxBankBalance: 250
   wageDepartment: Security
-  wage: 75
+  wage: 70
   #end-backmen: currency
   special:
   - !type:AddImplantSpecial

@@ -57,7 +57,7 @@
   minBankBalance: 150
   maxBankBalance: 250
   wageDepartment: Civilian
-  wage: 100
+  wage: 85
   #end-backmen: currency
 
 - type: startingGear
