@@ -23,7 +23,7 @@
     back: ClothingBackpackERTLeader
     mask: ClothingMaskGasERT
     eyes: ClothingEyesGlassesSecurity
-    ears: ClothingHeadsetSOC
+    ears: ClothingHeadsetCentCom
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitCBURNNECROLeader
     shoes: ADTClothingShoesBootsMagERT
@@ -57,7 +57,7 @@
     back: ClothingBackpackERTMedical
     mask: ClothingMaskGasERT
     eyes: ClothingEyesGlassesSecurity
-    ears: ClothingHeadsetSOC
+    ears: ClothingHeadsetCentCom
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitCBURNNECROSoldier
     shoes: ADTClothingShoesBootsMagERT
