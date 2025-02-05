@@ -27,3 +27,8 @@
     id: ReporterPDA
     ears: ClothingHeadsetService
     socks: ClothingUnderwearSocksReporter
+  storage:
+    back:
+    - TapeRecorder
+    - CassetteTape
+    - CassetteTape

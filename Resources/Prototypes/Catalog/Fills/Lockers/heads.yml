@@ -141,6 +141,7 @@
     - id: ClothingEyesHudCommand
     - id: BoxPhotocopierToners # DS14
     - id: PetBowlWater # DS14
+    - id: WeaponMiniatureEnergyGun # DS14
 
 - type: entity
   id: LockerHeadOfPersonnelFilled
