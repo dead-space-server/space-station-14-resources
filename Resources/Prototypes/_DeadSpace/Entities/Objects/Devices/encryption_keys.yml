@@ -45,21 +45,6 @@
 
 - type: entity
   parent: EncryptionKey
-  id: EncryptionKeySOC
-  name: ключ шифрования КСО
-  description: Ключ шифрования Корпуса Специальных Операций.
-  components:
-  - type: EncryptionKey
-    channels:
-    - SOC
-    defaultChannel: SOC
-  - type: Sprite
-    layers:
-    - state: crypt_silver
-    - state: nano_label
-
-- type: entity
-  parent: EncryptionKey
   id: EncryptionKeyTypan
   name: красный ключ шифрования
   description: Ключ шифрования, используемый... хм... кем же?

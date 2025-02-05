@@ -24,7 +24,7 @@
     back: ClothingMilitaryBackpack
     mask: ClothingMaskGasExplorer
     eyes: ClothingEyesHudAdvanced
-    ears: ClothingHeadsetSOC
+    ears: ClothingHeadsetCentCom
     neck: ClothingNeckMantleCBURNLeaderShoulder
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitCBURNLeader
@@ -70,7 +70,7 @@
     back: ClothingMilitaryBackpack
     mask: ClothingMaskGasExplorer
     eyes: ClothingEyesHudAdvanced
-    ears: ClothingHeadsetSOC
+    ears: ClothingHeadsetCentCom
     neck: ClothingNeckMantleCBURNLeaderShoulder
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitCBURNLeader
@@ -131,7 +131,7 @@
     back: ClothingMilitaryBackpack
     mask: ClothingMaskGasExplorer
     eyes: ClothingEyesHudAdvanced
-    ears: ClothingHeadsetSOC
+    ears: ClothingHeadsetCentCom
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitCBURN
     shoes: ClothingShoesBootsCombatFilled
@@ -173,7 +173,7 @@
     back: ClothingMilitaryBackpack
     mask: ClothingMaskGasExplorer
     eyes: ClothingEyesHudAdvanced
-    ears: ClothingHeadsetSOC
+    ears: ClothingHeadsetCentCom
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitCBURN
     shoes: ClothingShoesBootsCombatFilled
