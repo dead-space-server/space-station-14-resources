@@ -257,6 +257,12 @@
     },
     {
       "name": "valentine_card"
+    },
+    {
+      "name": "paper_dotmatrix_grey"
+    },
+    {
+      "name": "paper_dotmatrix_grey_words"
     }
   ]
 }

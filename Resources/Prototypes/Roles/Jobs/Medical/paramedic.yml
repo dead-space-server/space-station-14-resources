@@ -21,7 +21,7 @@
   minBankBalance: 150
   maxBankBalance: 250
   wageDepartment: Medical
-  wage: 25
+  wage: 60
   #end-backmen: currency
 
 - type: startingGear

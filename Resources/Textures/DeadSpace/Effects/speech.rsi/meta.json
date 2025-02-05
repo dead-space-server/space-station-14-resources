@@ -1,7 +1,7 @@
 {
     "version": 1,
     "license": "CC-BY-NC 4.0",
-    "copyright": "Made mok_kom (discord)",
+    "copyright": "Neko and Vulp by mok_kom (discord), Plaf by hq._.dishka (discord), Vulp and Plaf animation/resprite by Fenriz (discord) for Space Station 14 server Dead Space",
     "size": {
         "x": 32,
         "y": 32
@@ -47,6 +47,88 @@
                     0.05
                 ]
             ]
+        },
+        {
+            "name": "vulp0",
+            "delays": [
+                [
+                    0.3,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.1
+                ]
+            ]
+        },
+        {
+            "name": "vulp1"
+        },
+        {
+            "name": "vulp2"
+        },
+        {
+            "name": "vulp3",
+            "delays": [
+                [
+                    0.3,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.3
+                ]
+            ]
+        },
+        {
+            "name": "plaf0",
+            "delays": [
+                [
+                    0.5,
+                    0.3,
+                    0.3,
+                    0.3,
+                    0.3,
+                    0.3,
+                    0.3,
+                    0.3,
+                    0.2
+                ]
+            ]
+        },
+        {
+            "name": "plaf1"
+        },
+        {
+            "name": "plaf2"
+        },
+        {
+            "name": "plaf3",
+            "delays": [
+                [
+                    0.5,
+                    0.3,
+                    0.3,
+                    0.3,
+                    0.3,
+                    0.3,
+                    0.4,
+                    0.4,
+                    0.4,
+                    0.4,
+                    0.4,
+                    0.4
+                ]
+            ]
         }
-	]
+    ]
 }

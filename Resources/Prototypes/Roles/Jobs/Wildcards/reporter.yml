@@ -16,7 +16,7 @@
   #start-backmen: currency
   minBankBalance: 150
   maxBankBalance: 250
-  wageDepartment: Medical
+  wageDepartment: Civilian
   wage: 50
   #end-backmen: currency
 
@@ -27,3 +27,8 @@
     id: ReporterPDA
     ears: ClothingHeadsetService
     socks: ClothingUnderwearSocksReporter
+  storage:
+    back:
+    - TapeRecorder
+    - CassetteTape
+    - CassetteTape

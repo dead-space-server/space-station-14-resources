@@ -63,7 +63,7 @@
   minBankBalance: 400
   maxBankBalance: 600
   wageDepartment: Command
-  wage: 100
+  wage: 140
   #end-backmen: currency
   special:
   - !type:AddImplantSpecial
