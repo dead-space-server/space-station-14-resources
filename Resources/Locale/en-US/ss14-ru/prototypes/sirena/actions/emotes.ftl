@@ -1,0 +1,10 @@
+ent-EmoteFlip = emote-flip-action-name
+    .desc = emote-flip-action-description
+ent-EmoteJump = emote-jump-action-name
+    .desc = emote-jump-action-description
+ent-EmoteTurn = emote-turn-action-name
+    .desc = emote-turn-action-description
+ent-EmoteStopTail = emote-stop-tail-action-name
+    .desc = emote-stop-tail-action-description
+ent-EmoteStartTail = emote-start-tail-action-name
+    .desc = emote-start-tail-action-description

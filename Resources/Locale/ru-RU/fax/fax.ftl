@@ -7,7 +7,6 @@ fax-machine-popup-error = ОШИБКА - неисправность подачи
 fax-machine-popup-copy-error = ОШИБКА - не удалось скопировать!
 fax-machine-dialog-rename = Переименовать
 fax-machine-dialog-field-name = Имя
-
 fax-machine-ui-window = Факс
 fax-machine-ui-file-button = Печать из файла
 fax-machine-ui-paper-button-normal = Обычная бумага
@@ -21,7 +20,5 @@ fax-machine-ui-from = Отправитель:
 fax-machine-ui-paper = Бумага:
 fax-machine-ui-paper-inserted = Бумага в лотке
 fax-machine-ui-paper-not-inserted = Нет бумаги
-
 fax-machine-chat-notify = Получено новое сообщение с "{ $fax }" факса
-
 fax-machine-printed-paper-name = распечатанная бумага

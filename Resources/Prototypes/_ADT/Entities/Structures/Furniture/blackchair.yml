@@ -1,8 +1,8 @@
 - type: entity
-  name: black chair
+  name: чёрное кресло
   id: ADTBlackChair
   parent: SeatBase
-  description: It looks comfy.
+  description: Выглядит крайне комфортно
   components:
   - type: Transform
     anchored: true
@@ -19,10 +19,10 @@
 
 #кресла от Юны
 - type: entity
-  name: violet chair
+  name: фиолетовое кресло
   id: ADTVioletChair
   parent: SeatBase
-  description: It looks comfy.
+  description: Выглядит крайне комфортно
   components:
   - type: Transform
     anchored: true
@@ -31,7 +31,7 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/yuna_chairs.rsi #спрайт от yunachka
+    sprite: ADT/Structures/Furniture/yuna_chairs.rsi
     state: kreslo_fiol
   - type: Construction
     graph: Seat
@@ -39,10 +39,10 @@
 
 #кресла от Юны
 - type: entity
-  name: red chair
+  name: красное кресло
   id: ADTRedChair
   parent: SeatBase
-  description: It looks comfy.
+  description: Выглядит крайне комфортно
   components:
   - type: Transform
     anchored: true
@@ -51,7 +51,7 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/yuna_chairs.rsi #спрайт от yunachka
+    sprite: ADT/Structures/Furniture/yuna_chairs.rsi
     state: kreslo_red
   - type: Construction
     graph: Seat
@@ -59,10 +59,10 @@
 
   #кресла от Юны
 - type: entity
-  name: leather chair
+  name: кожаное кресло
   id: ADTLeatherChair
   parent: SeatBase
-  description: It looks comfy.
+  description: Выглядит крайне комфортно
   components:
   - type: Transform
     anchored: true
@@ -71,7 +71,7 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/yuna_chairs.rsi #спрайт от yunachka
+    sprite: ADT/Structures/Furniture/yuna_chairs.rsi
     state: kreslo_kor
   - type: Construction
     graph: Seat

@@ -1,6 +1,6 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
-  id: ADTClothingBackpackDuffelSyndicateFilledAKMS
+  id: ClothingBackpackDuffelSyndicateFilledAKMS
   components:
   - type: StorageFill
     contents:
@@ -10,7 +10,7 @@
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateAmmoBundle
-  id: ADTClothingBackpackDuffelSyndicateFilledC20Ammo
+  id: ClothingBackpackDuffelSyndicateFilledC20Ammo
   components:
   - type: StorageFill
     contents:
@@ -19,7 +19,7 @@
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateAmmoBundle
-  id: ADTClothingBackpackDuffelSyndicateFilledBuldogAmmo
+  id: ClothingBackpackDuffelSyndicateFilledBuldogAmmo
   components:
   - type: StorageFill
     contents:
@@ -30,7 +30,7 @@
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateAmmoBundle
-  id: ADTClothingBackpackDuffelSyndicateFilledBuldogAmmoXL
+  id: ClothingBackpackDuffelSyndicateFilledBuldogAmmoXL
   components:
   - type: StorageFill
     contents:
@@ -41,7 +41,7 @@
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
-  id: ADTClothingBackpackDuffelSyndicateFilledXC67
+  id: ClothingBackpackDuffelSyndicateFilledXC67
   components:
   - type: StorageFill
     contents:
@@ -51,7 +51,7 @@
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateAmmoBundle
-  id: ADTClothingBackpackDuffelSyndicateFilledXC67Ammo
+  id: ClothingBackpackDuffelSyndicateFilledXC67Ammo
   components:
   - type: StorageFill
     contents:

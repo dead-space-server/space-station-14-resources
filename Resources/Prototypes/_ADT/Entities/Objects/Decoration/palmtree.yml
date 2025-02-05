@@ -1,7 +1,8 @@
 - type: entity
   parent: BaseTree
   id: FloraPalmTree1
-  name: palm tree
+  name: короткая пальма
+  description: Да, это пальма. Но где под ней кокосы?
   components:
   - type: Sprite
     sprite: ADT/Objects/Decoration/palm_tree.rsi
@@ -10,7 +11,8 @@
 - type: entity
   parent: BaseTree
   id: FloraPalmTree2
-  name: palm tree
+  name: пальма
+  description: Да, это пальма. Но где под ней кокосы?
   components:
   - type: Sprite
     sprite: ADT/Objects/Decoration/palm_tree.rsi

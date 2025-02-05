@@ -1,7 +1,7 @@
 - type: entity
   parent: TechnologyDisk
   id: TechnologyDiskSuperRare
-  suffix: rare.
+  suffix: Редкий
   components:
   - type: TechnologyDisk
     tierWeightPrototype: SuperRareTechDiskTierWeights

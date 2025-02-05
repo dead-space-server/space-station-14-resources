@@ -1,7 +1,7 @@
 - type: entity
   id: ActionDamageArkalyseAttack
-  name: painful blow to the stomach
-  description: A lightning palm strike to the opponent's stomach, deals pure damage.
+  name: Болевой удар в живот
+  description: Молниеносный удар ладонью в живот противника, наносит чистый урон.
   noSpawn: true
   components:
   - type: InstantAction
@@ -13,8 +13,8 @@
 
 - type: entity
   id: ActionMutedArkalyseAttack
-  name: blow to the throat
-  description: A blow to the throat, blocking the airway.
+  name: Удар в горло
+  description: Удар в горло, перекрывающий дыхательные пути.
   noSpawn: true
   components:
   - type: InstantAction
@@ -26,8 +26,8 @@
 
 - type: entity
   id: ActionStunArkalyseAttack
-  name: blow overhead
-  description: A hybrid blow to the opponent's head, knocking him off his feet.
+  name: Удар оверхенд
+  description: Гибридый удар в голову противника, сшибающий того с ног.
   noSpawn: true
   components:
   - type: InstantAction

@@ -1,5 +1,5 @@
 ent-ClothingHeadHelmetBase = { ent-ClothingHeadBase }
-  .desc = { ent-ClothingHeadBase.desc }
+    .desc = { ent-ClothingHeadBase.desc }
 ent-ClothingHeadHelmetBasic = шлем
     .desc = Стандартная защитная экипировка. Защищает голову от ударов.
 ent-ClothingHeadHelmetBombSuit = сапёрный шлем
@@ -32,6 +32,8 @@ ent-ClothingHeadHelmetERTLeader = шлем лидера ОБР
     .desc = Атмосферный шлем, который носят лидеры отрядов быстрого реагирования Nanotrasen. Имеет голубой фонарь.
 ent-ClothingHeadHelmetERTSecurity = шлем офицера безопасности ОБР
     .desc = Атмосферный шлем, который носят офицеры безопасности отрядов быстрого реагирования Nanotrasen. Имеет красный фонарь.
+ent-ClothingHeadHelmetHelmet = ERT leader helmet
+    .desc = An in-atmosphere helmet worn by the leader of a Nanotrasen Emergency Response Team. Has blue highlights.
 ent-ClothingHeadHelmetERTMedic = шлем медика ОБР
     .desc = Атмосферный шлем, который носят медики отрядов быстрого реагирования Nanotrasen. Имеет белый фонарь.
 ent-ClothingHeadHelmetERTEngineer = шлем инженера ОБР

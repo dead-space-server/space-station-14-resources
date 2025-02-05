@@ -1,8 +1,8 @@
 - type: entity
-  name: folding knife
+  name: складной нож
   parent: BaseItem
   id: ADTObjectsWeaponsMeleeFoldingKnife
-  description: Very loud and very dangerous energy sword that can reflect shots. Can be stored in pockets when turned off.
+  description: Компактный ножик для самообороны и выпендрежа.
   components:
   - type: Sprite
     sprite: ADT/Objects/Weapons/Melee/folding_knife.rsi

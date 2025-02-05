@@ -1,8 +1,8 @@
 - type: entity
-  name: xC67
   parent: BaseWeaponRifle
   id: ADTWeaponRifleXC67
-  description: A high end prototipe assault rifle. Uses .20 rifle ammo.
+  name: штурмовая винтовка xC-67
+  description: Прототип новой штурмовой винтовки от создателей знаменитой С-20r. Использует патрон 6.5х39 TSF. Усовершенствованная эргономика позволяет достичь превосходных показателей точности стрельбы.
   components:
   - type: Sprite
     sprite: ADT/Objects/Weapons/Guns/Rifels/xc67.rsi

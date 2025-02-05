@@ -1,4 +1,4 @@
 - type: flavor
-  id: ADTVodkaAntivirusFlavor
+  id: VodkaAntivirusFlavor
   flavorType: Complex
-  description: flavor-complex-ADTVodkaAntivirusFlavor
+  description: flavor-complex-vodka-antivirus

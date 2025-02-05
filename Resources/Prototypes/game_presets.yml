@@ -209,7 +209,7 @@
   rules:
   - WageScheduler # backmen: currency
   - Nukeops
-  - SubGamemodesRule
+  # - SubGamemodesRule # DS14
   - BasicStationEventScheduler
   - MeteorSwarmScheduler
   - SpaceTrafficControlEventScheduler
@@ -227,7 +227,7 @@
   rules:
   - WageScheduler # backmen: currency
   - Revolutionary
-  - SubGamemodesRule
+  # - SubGamemodesRule # DS14
   - BasicStationEventScheduler
   - MeteorSwarmScheduler
   - SpaceTrafficControlEventScheduler

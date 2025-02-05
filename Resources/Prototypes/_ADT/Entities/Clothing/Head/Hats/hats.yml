@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ADTClothingHeadHatsGreatDruidWreath
-  name: Great Druid Wreath
-  description: So heavy, but it's worth it to proudly wear it.
+  name: большой венок друидов
+  description: Он такой тяжелый, но это стоит того что бы с гордостью его носить.
   components:
   - type: Sprite
     sprite: ADT/Clothing/Head/Hats/great_druid_wreath.rsi
@@ -36,8 +36,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ADTClothingHeadHatsJohanCap
-  name: Johans`s cap
-  description: Looks strange but cool
+  name: фуражка Йохана
+  description: Выглядит странно, но круто!
   components:
   - type: Sprite
     sprite: ADT/Clothing/Head/Hats/johan_cap.rsi
@@ -48,8 +48,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ADTClothingHeadHatsInvestigatorCap
-  name: investigator cap
-  description: Glory to NanoTrasen!
+  name: фуражка следователя службы безопасности
+  description: Слава NanoTrasen!
   components:
   - type: Sprite
     sprite: ADT/Clothing/Head/Hats/investigator_cap.rsi

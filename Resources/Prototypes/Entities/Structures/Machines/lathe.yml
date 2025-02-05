@@ -204,6 +204,8 @@
       - WetFloorSign
       - ClothingHeadHatCone
       - FreezerElectronics
+      - CassetteTape # DS14
+      - TapeRecorder # DS14
   - type: EmagLatheRecipes
     emagStaticRecipes:
       - BoxLethalshot

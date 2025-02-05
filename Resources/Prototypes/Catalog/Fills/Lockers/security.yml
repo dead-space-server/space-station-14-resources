@@ -28,6 +28,7 @@
       - id: ClothingNeckBodyCamera # DS14
         amount: 4
       - id: ClothingHandsGlovesArkalyse # DS14
+      - id: BoxTapeRecorder # DS14
 
 - type: entity
   id: LockerWardenFilled
@@ -56,6 +57,7 @@
       - id: ClothingNeckBodyCamera # DS14
         amount: 4
       - id: ClothingHandsGlovesArkalyse # DS14
+      - id: BoxTapeRecorder # DS14
 
 - type: entity
   id: LockerSecurityFilled
@@ -150,6 +152,7 @@
       - id: ADTtelescopicBaton # ADT
       - id: BoxFolderRed # DS14
       - id: BoxFolderYellow # DS14
+      - id: BoxTapeRecorder # DS14
 
 - type: entity
   id: ClosetBombFilled

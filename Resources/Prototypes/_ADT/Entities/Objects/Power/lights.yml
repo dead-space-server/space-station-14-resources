@@ -1,10 +1,7 @@
-# просто цветные LED лампы
 - type: entity
   parent: BaseLightTube
-  name: led light tube
-  description: A high power high energy bulb.
   id: LedLightTubeGreen
-  suffix: green
+  suffix: Зелёный
   components:
   - type: LightBulb
     color: "#00FF00"
@@ -16,10 +13,8 @@
 
 - type: entity
   parent: BaseLightTube
-  name: led light tube
-  description: A high power high energy bulb.
   id: LedLightTubeRed
-  suffix: red
+  suffix: Красный
   components:
   - type: LightBulb
     color: "#FF0000"
@@ -31,10 +26,8 @@
 
 - type: entity
   parent: BaseLightTube
-  name: led light tube
-  description: A high power high energy bulb.
   id: LedLightTubeBlue
-  suffix: blue
+  suffix: Синий
   components:
   - type: LightBulb
     color: "#0000FF"
@@ -46,10 +39,8 @@
 
 - type: entity
   parent: BaseLightTube
-  name: led light tube
-  description: A high power high energy bulb.
   id: LedLightTubeYellow
-  suffix: yellow
+  suffix: Жёлтый
   components:
   - type: LightBulb
     color: "#FFE400"
@@ -61,10 +52,8 @@
 
 - type: entity
   parent: BaseLightTube
-  name: led light tube
-  description: A high power high energy bulb.
   id: LedLightTubeViolet
-  suffix: violet
+  suffix: Фиолетовый
   components:
   - type: LightBulb
     color: "#EE82EE"

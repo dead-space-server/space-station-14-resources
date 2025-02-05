@@ -1,7 +1,7 @@
 - type: entity
   id: ActionActivateAdrenalImplant
-  name: using implant
-  description: Increases your heart rate, speed and all the side effects, do not use all the charges at once.
+  name: Активировать имплант
+  description: Повышает ваш пульс, скорость и все побочки, не используйте все заряды разом.
   components:
   - type: InstantAction
     charges: 3

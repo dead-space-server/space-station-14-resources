@@ -1,6 +1,8 @@
 - type: entity
   parent: DrinkBaseCup
   id: ADTDrinkTeacup
+  name: чашка
+  description: Простая белая фарфоровая чашка.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -20,6 +22,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: ADTDrinkTeapot
+  name: чайник
+  description: Элегантный чайник для чая.
   components:
   - type: SolutionContainerManager
     solutions:

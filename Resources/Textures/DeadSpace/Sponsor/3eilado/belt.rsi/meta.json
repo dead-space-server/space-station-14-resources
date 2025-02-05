@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "license": "CC-BY-SA-3.0",
-  "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/commit/c838ba21dae97db345e0113f99596decd1d66039, recolored by inspector_jeleshka (discord) for Space Station 14 server Dead Space",
+  "license": "CC-BY-SA-4.0",
+  "copyright": "made by inspector_jeleshka (discord) for Space Station 14 server Dead Space",
   "size": {
-    "x": 32,
-    "y": 32
+    "x": 64,
+    "y": 64
   },
   "states": [
     {
@@ -12,14 +12,6 @@
     },
     {
       "name": "equipped-BELT",
-      "directions": 4
-    },
-    {
-      "name": "inhand-left",
-      "directions": 4
-    },
-    {
-      "name": "inhand-right",
       "directions": 4
     }
   ]

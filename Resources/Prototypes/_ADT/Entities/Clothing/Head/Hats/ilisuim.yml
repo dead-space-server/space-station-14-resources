@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ADTClothingHeadHuraskaIlisium
-  name: Huraska
-  description: Ilisium
+  name: фуражка Ilisium
+  description: Ilisium...
   components:
   - type: Sprite
     sprite: ADT/Clothing/Head/Hats/hurashka.rsi
@@ -12,43 +12,19 @@
 - type: entity
   parent: ClothingHeadBase
   id: ADTClothingHeadHelmetSolderIlisium
-  name: Helmet
-  description: Ilisium
+  name: шлем Ilisium
+  description: Ilisium...
   components:
   - type: Sprite
     sprite: ADT/Clothing/Head/Hats/helmetSolder.rsi
   - type: Clothing
     sprite: ADT/Clothing/Head/Hats/helmetSolder.rsi
-
-- type: entity
-  parent: ClothingHeadHardsuitWithLightBase
-  id: ADTClothingHeadHelmetIlisium
-  categories: [ HideSpawnMenu ]
-  name: helmet
-  description: Ilisium
-  components:
-  - type: Sprite
-    sprite: ADT/Clothing/Head/Hardsuits/helmet.rsi
-  - type: Clothing
-    sprite: ADT/Clothing/Head/Hardsuits/helmet.rsi
-  - type: PointLight
-    color: red
-  - type: PressureProtection
-    highPressureMultiplier: 0.08
-    lowPressureMultiplier: 1000
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.90
-        Slash: 0.65
-        Heat: 0.80
-        Radiation: 0.95
 
 - type: entity
   parent: ClothingMaskGas
   id: ADTClothingMaskGasIlisium
-  name:  gas mask
-  description: A close-fitting tactical mask that can be connected to an air supply.
+  name: противогаз Ilisium
+  description: Закрывающая лицо маска, которую можно подключить к дыхательному баллону.
   components:
   - type: Sprite
     sprite: ADT/Clothing/Head/Hats/gasmask_ili.rsi
@@ -59,41 +35,10 @@
     protectionTime: 5
 
 - type: entity
-  parent: ClothingOuterHardsuitBase
-  id: ADTClothingOuterHardsuitIlisium
-  name: hardsuit ilisium
-  description: hardsuit ilisium
-  components:
-  - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/hardsuit_ili.rsi
-  - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/hardsuit_ili.rsi
-  - type: PressureProtection
-    highPressureMultiplier: 0.02
-    lowPressureMultiplier: 1000
-  - type: ClothingSpeedModifier
-    walkModifier: 0.9
-    sprintModifier: 0.9
-  - type: TemperatureProtection
-    heatingCoefficient: 0.001
-    coolingCoefficient: 0.001
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.65
-        Slash: 0.65
-        Heat: 0.35
-        Radiation: 0.85
-  - type: ExplosionResistance
-    damageCoefficient: 0.3
-  - type: ToggleableClothing
-    clothingPrototype: ADTClothingHeadHelmetIlisium
-
-- type: entity
   parent: ClothingOuterStorageBase
   id: ADTClothingOuterCoatIlisium
-  name: Raincoat Ilisium
-  description: Ilisium
+  name: куртка Ilisium
+  description: Ilisium...
   components:
   - type: Sprite
     sprite: ADT/Clothing/OuterClothing/Armor/plash_ili.rsi
@@ -107,8 +52,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ADTClothingUniformIlisium
-  name: Suit Ilisiom
-  description: Suit Ilisiom
+  name: комбинезон Ilisium
+  description: Ilisium...
   components:
   - type: Sprite
     sprite: ADT/Clothing/Uniforms/Jumpsuit/uniform_ili.rsi

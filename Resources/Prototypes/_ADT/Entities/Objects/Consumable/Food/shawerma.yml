@@ -28,10 +28,10 @@
     sprite: ADT/Objects/Consumable/Food/shawerma.rsi
 
 - type: entity
-  name: shawerma-default-name
+  name: шаурма
   parent: ADTShawermaBase
   id: ADTShawermaDefault
-  description: shawerma-default-desc
+  description: Овощи, салат и мясо, завернутые в лаваш и с добавлением соуса. Очень сытно и вкусно.
   components:
   - type: FlavorProfile
     flavors:
@@ -56,10 +56,10 @@
           Quantity: 3
 
 - type: entity
-  name: shawerma-cheese-name
+  name: шаурма в сырном лаваше
   parent: ADTShawermaBase
   id: ADTShawermaCheese
-  description: shawerma-cheese-desc
+  description: Овощи, салат и мясо, завернутые в сырный лаваш и с добавлением соуса. Очень сытно и вкусно.
   components:
   - type: FlavorProfile
     flavors:
@@ -85,10 +85,10 @@
           Quantity: 4
 
 - type: entity
-  name: shawerma-meat-name
+  name: мясная шаурма
   parent: ADTShawermaBase
   id: ADTShawermaMeat
-  description: shawerma-meat-desc
+  description: Кусочки мяса, фарша и яйца, завернутые в бекон. Не забудьте потом вытереть руки.
   components:
   - type: FlavorProfile
     flavors:

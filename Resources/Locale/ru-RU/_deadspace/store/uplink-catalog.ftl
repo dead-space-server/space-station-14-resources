@@ -32,3 +32,5 @@ uplink-adrenaline-implanter-name = Адреналиновый имплантер
 uplink-adrenaline-implanter-desc = Трёхразовый имплант, который введёт в вас дозу стимуляторов и поможет выйти из неприятных ситуаций.
 uplink-revive-implanter-name = Восстанавливающий автоимлантер
 uplink-revive-implanter-desc = Имплант, который начнёт вводить в вас дозу физраствора и эпинефрина как только вы упадётё в критическое состояние.
+uplink-clothing-eyes-pnv-adv-syndicate-name = ПНВ Синдиката
+uplink-clothing-eyes-pnv-adv-syndicate-desc = Профессиональный ПНВ Синдиката с встроенным визором и белым фильтром, а так же поддержкой анализа здоровья команды.

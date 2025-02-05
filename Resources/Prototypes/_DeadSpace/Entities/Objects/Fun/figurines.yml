@@ -1,8 +1,6 @@
 - type: entity
   parent: BaseFigurine
   id: BaseFigurineDS14
-  name: figurine
-  description: A small miniature.
   abstract: true
   components:
   - type: Sprite

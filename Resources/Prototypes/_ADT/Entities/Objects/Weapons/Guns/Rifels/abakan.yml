@@ -2,7 +2,7 @@
   name: AEK-974
   parent: BaseItem
   id: ADTAbakanRifleAEK
-  description: Rifles
+  description: Советский общевойсковой автомат, разработанный в 2478 году на заводе имени Дегтярёва в Планете Коврове под руководством  Станислав.И.К. Данный Автомат был вооружен МВД и ССО. Новое это хорошо забытое старое.
   components:
   - type: Sprite
     sprite: ADT/Objects/Weapons/Guns/Rifels/abakan.rsi

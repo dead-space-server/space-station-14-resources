@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ADTClothingHeadHatRedji
-  name: Redji hat
-  description: stylish hat
+  name: шляпа старика Рэджи
+  description: Слегка потёртая, стильная шляпа.
   components:
   - type: Sprite
     sprite: ADT/Clothing/Head/Hats/old_stylish_hat.rsi

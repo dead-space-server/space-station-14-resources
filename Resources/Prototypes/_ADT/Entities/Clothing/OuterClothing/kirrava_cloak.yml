@@ -1,6 +1,6 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
-  id: ClothingOuterWinterKirasCloak # DS14 refactor
+  id: ClothingOuterWinterKirasCloak
   name: мантия рыси
   description: Необчная накидка с капюшоном и ушками.
   components:
@@ -13,7 +13,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadHatHoodWinterKiras # DS14 refactor
+  id: ClothingHeadHatHoodWinterKiras
   categories: [ HideSpawnMenu ]
   name: капюшон с ушками
   description: Ой какие ушки!

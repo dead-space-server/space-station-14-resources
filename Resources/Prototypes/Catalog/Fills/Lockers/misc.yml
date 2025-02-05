@@ -161,11 +161,11 @@
       prob: 0.05
     # DS14
     - id: PersonalNecoAI
-      prob: 0.05
-    - id: SyndicatePersonalNecoAI
-      prob: 0.01
-    - id: VIB
       prob: 0.005
+    - id: SyndicatePersonalNecoAI
+      prob: 0.0005
+    - id: VIB
+      prob: 0.0005
 
 - type: entity
   id: ClosetMaintenanceFilledRandom

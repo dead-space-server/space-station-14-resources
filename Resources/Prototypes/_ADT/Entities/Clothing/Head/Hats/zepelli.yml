@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ADTZepelli
-  name: zepelli hat
-  description: Edited by one businessman.
+  name: шляпа Цеппели
+  description: Доработано одним бизнесменом.
   components:
   - type: Sprite
     sprite: ADT/Clothing/Head/Hats/zepelli.rsi
