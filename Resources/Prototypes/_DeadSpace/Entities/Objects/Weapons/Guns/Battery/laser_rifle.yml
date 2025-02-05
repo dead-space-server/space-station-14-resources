@@ -1,8 +1,8 @@
 - type: entity
   parent: [BaseWeaponBattery, BaseGunWieldable, BaseRestrictedContraband]
   id: WeaponLaserRifle
-  name: лазерный автомат
-  description: Продвинутое лазерное оружие с автоматическим режимом стрельбы.
+  name: плазменный автомат
+  description: Продвинутое плазменное оружие с автоматическим режимом стрельбы.
   components:
   - type: Sprite
     sprite: DeadSpace/Objects/Weapons/Guns/Battery/laser_rifle.rsi
@@ -28,13 +28,13 @@
     - SemiAuto
   - type: ProjectileBatteryAmmoProvider
     proto: LaserRifleBullet
-    fireCost: 80
+    fireCost: 40
   - type: Battery
-    maxCharge: 2800
-    startingCharge: 2800
+    maxCharge: 1400
+    startingCharge: 1400
 
 - type: entity
-  name: лазерный заряд
+  name: плазменный заряд
   id: LaserRifleBullet
   parent: DominatorBullet
   categories: [ HideSpawnMenu ]
