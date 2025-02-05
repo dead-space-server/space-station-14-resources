@@ -9,7 +9,7 @@
   id: ClothingBackpackDragonFox
   name: однолямочный блюспейс рюкзак
   description: Однолямочный рюкзак использующий технологию блюспейса для увелечения своего максимального объёма. Окрашен в зелёный хаки.
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: DeadSpace/Sponsor/DragonFox/backpack.rsi

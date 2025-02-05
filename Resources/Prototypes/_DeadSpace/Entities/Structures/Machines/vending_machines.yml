@@ -85,7 +85,7 @@
     pack: GenericVendGoodbyes
   - type: Speech
   - type: Sprite
-    sprite: DeadSpace/Structures/hqdishka/Machines/VendingMachines/capes.rsi
+    sprite: DeadSpace/Structures/Machines/VendingMachines/capes.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
