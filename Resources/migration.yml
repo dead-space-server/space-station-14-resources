@@ -738,8 +738,7 @@ ADTtelescopicBatonBob: ADTtelescopicBaton
 ADTtelescopicBatonKon: ADTtelescopicBaton
 
 # 2025-01-30 - DS14
+ActionToggleNightVision: null
 ClothingHeadsetSOC: null
 EncryptionKeySOC: null
-SOC: null
-ActionToggleNightVision: null
 
