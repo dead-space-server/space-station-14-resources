@@ -150,6 +150,8 @@
       - id: HandLabeler
       - id: FlippoEngravedLighter # DS14
       - id: ADTtelescopicBaton # ADT
+      - id: BoxFolderRed # DS14
+      - id: BoxFolderYellow # DS14
       - id: BoxTapeRecorder # DS14
 
 - type: entity
