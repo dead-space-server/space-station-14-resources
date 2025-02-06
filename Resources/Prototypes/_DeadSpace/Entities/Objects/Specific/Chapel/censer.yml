@@ -30,7 +30,6 @@
       collection: MetalThud
     damage:
       types:
-        Holy: 20
         Blunt: 14
   - type: Clothing
     quickEquip: false
