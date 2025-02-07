@@ -129,7 +129,6 @@
     pocket2: DoorRemoteAll
   storage:
     back:
-    - WeaponSniperHristov
     - ERTloadoutGammaPrimary
     - ERTloadoutGammaSecondary
     - PinpointerNuclear
