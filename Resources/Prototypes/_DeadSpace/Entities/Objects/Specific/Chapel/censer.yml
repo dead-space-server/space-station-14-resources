@@ -14,7 +14,7 @@
   - type: SolutionTransfer
     canChangeTransferAmount: true
   - type: Sprite
-    sprite: /DeadSpace/Objects/Specific/Chapel/censer.rsi
+    sprite: DeadSpace/Objects/Specific/Chapel/censer.rsi
     layers:
     - state: icon
   - type: Spillable
