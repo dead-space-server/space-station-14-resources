@@ -299,6 +299,11 @@
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/mining.rsi
     state: "assembly"
+  - type: Construction
+    graph: MiningAirlock
+    node: assembly
+  placement:
+    mode: SnapgridCenter
 
 - type: entity
   parent: AirlockAssembly

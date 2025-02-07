@@ -1,0 +1,35 @@
+- type: construction
+  name: шахтёрская стена
+  id: WallMining
+  graph: MiningGirder
+  startNode: start
+  targetNode: miningWall
+  category: construction-category-structures
+  description: Прочная шахтёрская стена.
+  icon:
+    sprite: Structures/Walls/mining.rsi
+    state: full
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: false
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  name: шахтёрская диагональная стена
+  id: WallMiningDiagonal
+  graph: MiningGirder
+  startNode: start
+  targetNode: miningWallDiagonal
+  category: construction-category-structures
+  description: Прочная шахтёрская диагональная стена.
+  icon:
+    sprite: Structures/Walls/mining_diagonal.rsi
+    state: state1
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: true
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
