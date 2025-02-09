@@ -1,54 +1,12 @@
 - type: entity
   id: RCDCE
-  parent: [ BaseItem, BaseEngineeringContraband ]
+  parent: [ RCD, BaseEngineeringContraband ]
   name: РСУ старшего инженера
   description: Улучшенная версия базового РСУ расходует меньше зарядов и самовосстанавливет их.
   components:
-  - type: RCD
-    availablePrototypes:
-    - WallSolidCE
-    - FloorSteel
-    - Plating
-    - Catwalk
-    - GrilleCE
-    - WindowCE
-    - WindowDirectionalCE
-    - WindowReinforcedDirectionalCE
-    - ReinforcedWindowCE
-    - AirlockCE
-    - AirlockGlassCE
-    - FirelockCE
-    - TubeLightCE
-    - BulbLightCE
-    - LVCable
-    - MVCable
-    - HVCable
-    - CableTerminal
-    - Deconstruct
-  - type: LimitedCharges
-    maxCharges: 30
-    charges: 30
   - type: Sprite
     sprite: Textures/DeadSpace/Objects/Tools/cercd.rsi
     layers:
     - state: icon
-  - type: Item
-    size: Normal
-  - type: Clothing
-    sprite: Textures/DeadSpace/Objects/Tools/cercd.rsi
-    quickEquip: false
-    slots:
-    - Belt
-  - type: PhysicalComposition
-    materialComposition:
-      Steel: 600
-      Plastic: 100
   - type: AutoRecharge
     rechargeDuration: 10
-  - type: UserInterface
-    interfaces:
-      enum.RcdUiKey.Key:
-        type: RCDMenuBoundUserInterface
-  - type: ActivatableUI
-    inHandsOnly: true
-    key: enum.RcdUiKey.Key
