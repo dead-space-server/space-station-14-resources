@@ -925,7 +925,7 @@
   id: CentcomOfficer
   parent: EventHumanoidMindShieldedCentcom
   components:
-    type: GhostRole
+  - type: GhostRole
     name: ghost-role-information-centcomofficer-name
     description: ghost-role-information-centcomofficer-description
     rules: ghost-role-information-Centcom-Personal-rules
