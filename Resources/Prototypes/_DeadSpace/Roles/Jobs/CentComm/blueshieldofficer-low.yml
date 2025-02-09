@@ -21,7 +21,7 @@ id: CentcomBlueShieldGear
      back: ClothingBackpackBlueShield
      mask: ClothingMaskGasSecurity
      eyes: ClothingEyesGlassesSecurity
-     ears: ClothingHeadsetAltCentCom
+     ears: ClothingHeadsetCentCom
      gloves: ClothingHandsGlovesCombat
      outerClothing: ClothingOuterArmorBasicBlueShield
      shoes: ClothingShoesBootsJackFilled
