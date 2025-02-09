@@ -248,3 +248,8 @@ ghost-role-information-gingerbread-description =
     Распространяйте паточную вкуснятину и хорошее настроение.
 ghost-role-information-tomatokiller-name = Томат-убийца
 ghost-role-information-tomatokiller-description = Этот маленький помидор будет служить ботанику до конца своей жизни... то есть пару минут.
+ghost-role-information-blueshieldofficer-name = Офицер "Синий Щит"
+ghost-role-information-blueshieldofficer-description = Вы - Офицер корпуса Синего Щита. Ваша задача защищать членов Центрального Командования и выполнять их приказы. Защищайте их ценой своей жизни! Также вы обладаете всеми навыками.
+ghost-role-information-centcomofficer-name = Офицер Центрального Командования
+ghost-role-information-centcomofficer-description = Вы - Офицер Центрального Командования. Вы должны защищать довереное вам место на котором вы появились и выполнять приказы вышестоящих сотрудников Центрального Командования. 
+ghost-role-information-Centcom-Personal-rules = Вы обязаны подчиняться приказам членов Центрального Командования.
