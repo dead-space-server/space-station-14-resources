@@ -2,6 +2,7 @@
   id: ActionDamageArkalyseAttack
   name: Болевой удар в живот
   description: Молниеносный удар ладонью в живот противника, наносит чистый урон.
+  categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
     icon:
@@ -14,6 +15,7 @@
   id: ActionMutedArkalyseAttack
   name: Удар в горло
   description: Удар в горло, перекрывающий дыхательные пути.
+  categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
     icon:
@@ -26,6 +28,7 @@
   id: ActionStunArkalyseAttack
   name: Удар оверхенд
   description: Гибридый удар в голову противника, сшибающий того с ног.
+  categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
     icon:
