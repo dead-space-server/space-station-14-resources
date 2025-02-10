@@ -51,6 +51,7 @@ ent-ClothingBackpackDuffelSyndicateRaidBundle = { ent-ClothingBackpackDuffelSynd
     .desc = { ent-ClothingBackpackDuffelSyndicate.desc }
     .suffix = Набор рейдерского костюма Синдиката
 ent-ClothingBackpackDuffelSyndicateEVABundle = { ent-ClothingBackpackDuffelSyndicate }
+    .suffix = набор ВКД Синдиката
     .desc = { ent-ClothingBackpackDuffelSyndicate.desc }
     .suffix = Набор EVA Синдиката
 ent-ClothingBackpackDuffelSyndicateHardsuitBundle = { ent-ClothingBackpackDuffelSyndicate }

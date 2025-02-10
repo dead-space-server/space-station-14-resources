@@ -1,3 +1,6 @@
+marking-3eiladoTail = Хвост (3eilado, Доминатор)
+marking-DemonHorns3eilado = Рога демона (3eilado, Доминатор)
+
 paper-law-3eilado = [head=3]Приказ на разрешение на использования снаряжения[/head]
     ЦК-КОМ
     ═════════════════════════════════════

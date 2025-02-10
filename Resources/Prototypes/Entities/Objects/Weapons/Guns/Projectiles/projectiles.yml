@@ -232,7 +232,7 @@
       fly-by: *flybyfixture
   - type: Ammo
   - type: StaminaDamageOnCollide
-    damage: 30
+    damage: 33
   - type: Projectile
     impactEffect: BulletImpactEffectDisabler
     damage:
@@ -497,8 +497,8 @@
         - MobState
     damage:
       types:
-        Blunt: 25
-        Slash: 10
+        Blunt: 25 # DS14-value
+        Slash: 10 # DS14-value
   - type: Projectile
     impactEffect: BulletImpactEffectKinetic
     damage:
@@ -756,9 +756,9 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    totalIntensity: 300 # a ~2 tile radius
+    totalIntensity: 300 # a ~4 tile radius # DS14-value
     intensitySlope: 5
-    maxIntensity: 15
+    maxIntensity: 15 # DS14-value
 
 - type: entity
   id: BulletGrenadeFlash
@@ -1096,7 +1096,8 @@
     count: 3 #bit stronger than a disabler if you hit your shots you goober, still not a 2 hit stun though
     spread: 9
 
-# ADT
+# ADT-start
+
 - type: entity
   id: ADTBulletChargestrong
   name: charge bolt
