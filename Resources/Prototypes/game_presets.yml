@@ -108,7 +108,7 @@
   description: greenshift-description
   rules:
   - WageScheduler # backmen: currency
-  - SpaceTrafficControlFriendlyEventScheduler 
+  - SpaceTrafficControlFriendlyEventScheduler
   - BasicRoundstartVariation
 
 - type: gamePreset
@@ -149,7 +149,7 @@
   description: secret-description
   rules:
   - WageScheduler # backmen: currency
-  - SpaceTrafficControlFriendlyEventScheduler 
+  - SpaceTrafficControlFriendlyEventScheduler
   - BasicRoundstartVariation
 
 - type: gamePreset

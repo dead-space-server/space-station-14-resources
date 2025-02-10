@@ -54,6 +54,7 @@
         amount: 2
       - id: RemoteSignaller
         amount: 2
+      - id: Binoculars
       - id: ClothingNeckBodyCamera # DS14
         amount: 4
       - id: ClothingHandsGlovesArkalyse # DS14
@@ -163,11 +164,8 @@
     contents:
       - id: ClothingHeadHelmetBombSuit
       - id: ClothingOuterSuitBomb
-      # NT is cheap, what can you do...
       - id: Wirecutter
-      # prob: 0.9 # DS14-disabled
       - id: Screwdriver
-      # prob: 0.9 # DS14-disabled
       - id: Multitool
         prob: 0.75 # DS14-value
 

@@ -1408,6 +1408,15 @@ entities:
         - 0
         - 0
     - type: LoadedMap
+- proto: ActionStethoscope
+  entities:
+  - uid: 1739
+    components:
+    - type: Transform
+      parent: 1336
+    - type: EntityTargetAction
+      originalIconColor: '#FFFFFFFF'
+      container: 1336
 - proto: AirlockExternalGlassNukeopLocked
   entities:
   - uid: 49
@@ -6264,12 +6273,12 @@ entities:
   - uid: 2031
     components:
     - type: Transform
-      pos: 4.0109396,-12.223828
+      pos: 3.3130646,-11.479682
       parent: 104
   - uid: 2095
     components:
     - type: Transform
-      pos: 4.017678,-12.520861
+      pos: 3.6099396,-11.479682
       parent: 104
 - proto: Bed
   entities:
@@ -6344,7 +6353,7 @@ entities:
   - uid: 2114
     components:
     - type: Transform
-      pos: 5.539936,-12.489611
+      pos: 7.223599,-12.19286
       parent: 104
 - proto: BoxFolderBlack
   entities:
@@ -6372,7 +6381,7 @@ entities:
   - uid: 1844
     components:
     - type: Transform
-      pos: 5.430561,-12.364611
+      pos: 7.629849,-12.44286
       parent: 104
 - proto: BoxShotgunPractice
   entities:
@@ -9929,6 +9938,13 @@ entities:
     - type: Transform
       pos: -0.5,-1.5
       parent: 104
+- proto: ChemDispenser
+  entities:
+  - uid: 2539
+    components:
+    - type: Transform
+      pos: 5.5,-12.5
+      parent: 104
 - proto: ChemicalPayload
   entities:
   - uid: 2380
@@ -10023,7 +10039,7 @@ entities:
   - uid: 1738
     components:
     - type: Transform
-      pos: 3.5009227,-11.519134
+      pos: 3.5005646,-10.854682
       parent: 104
 - proto: ClothingNeckScarfStripedRed
   entities:
@@ -10037,8 +10053,16 @@ entities:
   - uid: 1336
     components:
     - type: Transform
-      pos: 7.5027137,-12.301802
+      pos: -2.327716,-12.470306
       parent: 104
+    - type: Stethoscope
+      actionEntity: 1739
+    - type: ActionsContainer
+    - type: ContainerContainer
+      containers:
+        actions: !type:Container
+          ents:
+          - 1739
 - proto: ClothingShoesBootsSalvage
   entities:
   - uid: 542
@@ -10718,7 +10742,7 @@ entities:
   - uid: 1826
     components:
     - type: Transform
-      pos: 3.4542694,-10.616036
+      pos: 3.5161896,-10.573432
       parent: 104
 - proto: KitchenKnife
   entities:
@@ -10739,7 +10763,7 @@ entities:
   - uid: 2021
     components:
     - type: Transform
-      pos: 5.039936,-12.489611
+      pos: 3.9919167,-12.28661
       parent: 104
 - proto: LightPostSmall
   entities:
@@ -13050,7 +13074,7 @@ entities:
   - uid: 1151
     components:
     - type: Transform
-      pos: -2.530845,-12.414692
+      pos: -2.702716,-12.314056
       parent: 104
 - proto: Table
   entities:
@@ -13263,11 +13287,6 @@ entities:
     components:
     - type: Transform
       pos: 3.5,-15.5
-      parent: 104
-  - uid: 1739
-    components:
-    - type: Transform
-      pos: 5.5,-12.5
       parent: 104
   - uid: 2016
     components:

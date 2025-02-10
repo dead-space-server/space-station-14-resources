@@ -18,4 +18,3 @@ ent-GameRuleMeteorSwarmLarge = { ent-GameRuleMeteorSwarm }
     .desc = { ent-GameRuleMeteorSwarm.desc }
 ent-GameRuleUristSwarm = { ent-GameRuleMeteorSwarm }
     .desc = { ent-GameRuleMeteorSwarm.desc }
-

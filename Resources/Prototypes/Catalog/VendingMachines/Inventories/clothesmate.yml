@@ -1,9 +1,10 @@
+# DO NOT ADD MORE, USE UNIFORM DYING # DO ADD MORE, DO NOT USE UNIFORM DYING
 - type: vendingMachineInventory
   id: ClothesMateInventory
   startingInventory:
-    ClothingBackpack: 4
-    ClothingBackpackDuffel: 4
-    ClothingBackpackSatchel: 4
+    ClothingBackpack: 4 # DS14-value
+    ClothingBackpackDuffel: 4 # DS14-value
+    ClothingBackpackSatchel: 4 # DS14-value
     ClothingBackpackSatchelLeather: 2
     ClothingRandomSpawner: 8
     ClothingHeadHatBeret: 4
@@ -20,19 +21,20 @@
     ClothingUniformJumpskirtPencilCheckered: 4 # DS14
     ClothingUniformJumpskirtPencilNavy: 4 # DS14
     ClothingUniformJumpskirtPencilTan: 4 # DS14
-    ClothingHeadHatGreyFlatcap: 4
-    ClothingHeadHatBrownFlatcap: 4
-    ClothingUniformJumpsuitColorGrey: 4
-    ClothingUniformJumpskirtColorGrey: 4
-    ClothingUniformJumpsuitColorWhite: 4
-    ClothingUniformJumpskirtColorWhite: 4
-    ClothingUniformJumpsuitColorBlack: 4
-    ClothingUniformJumpskirtColorBlack: 4
+    ClothingHeadHatGreyFlatcap: 4 # DS14-value
+    ClothingHeadHatBrownFlatcap: 4 # DS14-value
+    ClothingUniformJumpsuitColorGrey: 4 # DS14-value
+    ClothingUniformJumpskirtColorGrey: 4 # DS14-value
+    ClothingUniformJumpsuitColorWhite: 4 # DS14-value
+    ClothingUniformJumpskirtColorWhite: 4 # DS14-value
+    ClothingUniformJumpsuitColorBlack: 4 # DS14-value
+    ClothingUniformJumpskirtColorBlack: 4 # DS14-value
     ClothingUniformJumpsuitColorBlue: 2
     ClothingUniformJumpskirtColorBlue: 2
     ClothingUniformJumpsuitColorYellow: 2
     ClothingUniformJumpskirtColorYellow: 2
     ClothingUniformJumpsuitColorGreen: 2
+    # DO NOT ADD MORE, USE UNIFORM DYING # DO ADD MORE, DO NOT USE UNIFORM DYING
     ClothingUniformJumpskirtColorGreen: 2
     ClothingUniformJumpsuitColorOrange: 2
     ClothingUniformJumpskirtColorOrange: 2
@@ -64,28 +66,28 @@
     ClothingUniformJumpsuitSuitCheckered: 4 # DS14
     ClothingUniformJumpsuitSuitTan: 4 # DS14
     ClothingUniformJumpsuitSuitWaiter: 4 # DS14
-    # DO NOT ADD MORE, USE UNIFORM DYING
-    ClothingShoesColorBlack: 4
+    # DO NOT ADD MORE, USE UNIFORM DYING # DO ADD MORE, DO NOT USE UNIFORM DYING
+    ClothingShoesColorBlack: 4 # DS14-value
     ClothingShoesColorBrown: 4
-    ClothingShoesColorWhite: 4
+    ClothingShoesColorWhite: 4 # DS14-value
     ClothingShoesColorBlue: 2
     ClothingShoesColorYellow: 2
     ClothingShoesColorGreen: 2
     ClothingShoesColorOrange: 2
     ClothingShoesColorRed: 2
     ClothingShoesColorPurple: 2
-    ADTClothingFootWrapsWhite: 4
-    ADTClothingFootWrapsBlack: 4
-    ADTClothingFootWrapsHighWhite: 4
-    ADTClothingFootWrapsHighBlack: 4
-    ClothingHeadHatGreysoft: 4
-    ClothingHeadHatMimesoft: 4
+    ADTClothingFootWrapsWhite: 4 # ADT
+    ADTClothingFootWrapsBlack: 4 # ADT
+    ADTClothingFootWrapsHighWhite: 4 # ADT
+    ADTClothingFootWrapsHighBlack: 4 # ADT
+    ClothingHeadHatGreysoft: 4 # DS14-value
+    ClothingHeadHatMimesoft: 4 # DS14-value
     ClothingHeadHatBluesoft: 2
     ClothingHeadHatYellowsoft: 2
     ClothingHeadHatGreensoft: 2
     ClothingHeadHatOrangesoft: 2
     ClothingHeadHatRedsoft: 2
-    # DO NOT ADD MORE, USE UNIFORM DYING
+    # DO NOT ADD MORE, USE UNIFORM DYING # DO ADD MORE, DO NOT USE UNIFORM DYING
     ClothingHeadHatBlacksoft: 2
     ClothingHeadHatPurplesoft: 2
     ClothingHeadHatCorpsoft: 2
@@ -140,9 +142,9 @@
     ClothingHandsGlovesColorRed: 1
     ClothingHandsGlovesColorBlue: 1
     ClothingHandsGlovesColorTeal: 2
-    ClothingHandsGlovesColorGreen: 1
-    ClothingHandsGlovesColorOrange: 1
-    ClothingHandsGlovesColorPurple: 1
+    ClothingHandsGlovesColorGreen: 1 # DS14-value
+    ClothingHandsGlovesColorOrange: 1 # DS14-value
+    ClothingHandsGlovesColorPurple: 1 # DS14-value
     ClothingNeckWingsAngel: 1 # DS14
     ClothingNeckWingsSkeleton: 1 # DS14
     ClothingNeckWingsSkeletonBlack: 1 # DS14
@@ -150,5 +152,8 @@
     ClothingMaskNeckGaiter: 2
     ClothingUniformJumpsuitTacticool: 1
     ClothingUniformJumpskirtTacticool: 1
-    ADTClothingNeckSyndicateCloak: 1
+    ToyFigurinePassenger: 1
+    ToyFigurineGreytider: 1
+  # DO NOT ADD MORE, USE UNIFORM DYING # DO ADD MORE, DO NOT USE UNIFORM DYING
+    ADTClothingNeckSyndicateCloak: 1 # ADT
     ClothingOuterCoatLettermanS: 4 # DS14
