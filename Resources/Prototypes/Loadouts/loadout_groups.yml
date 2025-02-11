@@ -82,6 +82,7 @@
   - EmergencyRobotNonBreather
   # DS14-species-emergency-end
   - LoadoutSpeciesVoxNitrogen
+  - EmergencyBeer
 
 - type: loadoutGroup
   id: GroupEVATank
@@ -603,6 +604,7 @@
   - EmergencyRobotNonBreather  
   # DS14-species-emergency-end
   - LoadoutSpeciesVoxNitrogen
+  - EmergencyBeerClown
 
 - type: loadoutGroup
   id: MimeHead
@@ -671,6 +673,7 @@
   - EmergencyRobotNonBreather  
   # DS14-species-emergency-end
   - LoadoutSpeciesVoxNitrogen
+  - EmergencyBeerMime
 
 - type: loadoutGroup
   id: MimeUnderwear
@@ -1080,6 +1083,7 @@
   - EmergencyRobotNonBreather
   # DS14-species-emergency-end
   - LoadoutSpeciesVoxNitrogen
+  - EmergencyBeerExtended
 
 # Science
 - type: loadoutGroup
@@ -1448,6 +1452,7 @@
   - EmergencyRobotNonBreather
   # DS14-species-emergency-end
   - LoadoutSpeciesVoxNitrogen
+  - EmergencyBeerSecurity
 
 - type: loadoutGroup
   id: SecurityStar
@@ -1700,6 +1705,7 @@
   - EmergencyRobotNonBreather
   # DS14-species-emergency-end
   - LoadoutSpeciesVoxNitrogen
+  - EmergencyBeerMedical
 
 # Wildcards
 - type: loadoutGroup
