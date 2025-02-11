@@ -10,7 +10,7 @@
     sprite: Clothing/OuterClothing/Coats/bomber.rsi
 
 - type: entity
-  parent: [ClothingOuterStorageBase, AllowSuitStorageClothing]
+  parent: [ClothingOuterStorageBase, AllowSuitStorageClothing, ClothingOuterArmorBase]
   id: ClothingOuterCoatDetective
   name: detective trenchcoat
   description: An 18th-century multi-purpose trenchcoat. Someone who wears this means serious business.
@@ -26,16 +26,33 @@
   parent: [ClothingOuterCoatDetectiveLoadout]
   id: ClothingOuterCoatDetectiveLoadoutGrey
   name: noir trenchcoat
-  description: Ah, your trusty coat. There's a few tears here and there, giving it a more timely look. Or at least, that's what you told yourself when you found out gettin' it repaired would set you back 200 speos.
+  description: Ah, your trusty coat. There's a few tears here and there, giving it a more timely look. Or at least, that's what you told yourself when you found out gettin' it repaired would set you back 200 spesos.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/detective_grey.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Coats/detective_grey.rsi
 
+
 - type: entity
   parent: ClothingOuterCoatDetective
   id: ClothingOuterCoatDetectiveLoadout
+  components:
+  - type: StorageFill
+    contents:
+    - id: SmokingPipeFilledTobacco
+    - id: FlippoLighter #Not the steal objective, only difference from normal detective trenchcoat
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatGentle
+  name: gentle coat
+  description: A gentle coat for a gentle man, or woman.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Coats/gentlecoat.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Coats/gentlecoat.rsi
 
 - type: entity
   abstract: true
@@ -54,17 +71,6 @@
     damageCoefficient: 0.9
 
 - type: entity
-  parent: ClothingOuterStorageBase
-  id: ClothingOuterCoatGentle
-  name: gentle coat
-  description: A gentle coat for a gentle man, or woman.
-  components:
-  - type: Sprite
-    sprite: Clothing/OuterClothing/Coats/gentlecoat.rsi
-  - type: Clothing
-    sprite: Clothing/OuterClothing/Coats/gentlecoat.rsi
-
-- type: entity
   abstract: true
   parent: AllowSuitStorageClothing
   id: ClothingOuterArmorWarden
@@ -80,7 +86,7 @@
     damageCoefficient: 0.9
 
 - type: entity
-  parent: [ClothingOuterCoatHoSGreatcoat, BaseSecurityCommandContraband]
+  parent: [ClothingOuterCoatHoSGreatcoat, BaseSecurityCommandContraband] # DS14
   id: ClothingOuterCoatHoSTrench
   name: head of security's armored trenchcoat
   description: A greatcoat enhanced with a special alloy for some extra protection and style for those with a commanding presence.

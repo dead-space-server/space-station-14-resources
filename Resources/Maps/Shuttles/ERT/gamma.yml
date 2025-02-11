@@ -29,6 +29,7 @@ entities:
       name: NT - Egida-76
     - type: Transform
       pos: -0.46875,-0.0625
+      parent: invalid
     - type: MapGrid
       chunks:
         0,0:
@@ -3629,6 +3630,13 @@ entities:
           showEnts: False
           occludes: True
           ent: null
+- proto: CrateFoodMRE
+  entities:
+  - uid: 1319
+    components:
+    - type: Transform
+      pos: 0.5,-7.5
+      parent: 1
 - proto: CrateMedicalSecure
   entities:
   - uid: 114

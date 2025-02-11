@@ -243,6 +243,15 @@
 
 - type: entity
   parent: BaseSignDirectional
+  id: SignDirectionalEscapePod
+  name: escape pods sign
+  description: A direction sign, pointing out the way to an escape pod dock.
+  components:
+  - type: Sprite
+    state: direction_pods
+
+- type: entity
+  parent: BaseSignDirectional
   id: SignDirectionalLaw
   name: law sign
   description: A direction sign, pointing to the way to a law department.

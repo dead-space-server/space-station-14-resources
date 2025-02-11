@@ -99,10 +99,6 @@ entities:
     - type: Broadphase
     - type: OccluderTree
     - type: LoadedMap
-    - type: FTLDestination
-      whitelist:
-        tags:
-        - Syndicate
   - uid: 2
     components:
     - type: MetaData

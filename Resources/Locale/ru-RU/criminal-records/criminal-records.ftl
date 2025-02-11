@@ -3,6 +3,9 @@ criminal-records-console-records-list-title = Члены экипажа
 criminal-records-console-select-record-info = Выбрать запись.
 criminal-records-console-no-records = Записи не найдены!
 criminal-records-console-no-record-found = Записи о выбранном сотруднике не найдены.
+criminal-records-console-flavor-left = Arrest first! Ask questions later.
+criminal-records-console-flavor-right = v2.1
+criminal-records-console-show-all = All
 
 ## Status
 

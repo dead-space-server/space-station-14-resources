@@ -347,6 +347,7 @@
     - id: SecurityTechFabCircuitboard
     - id: WeaponDisabler
     - id: WantedListCartridge
+    - id: DrinkHosFlask
     - id: ClothingMaskGasSwat # DS14
     - id: WeaponPistolX01 # DS14
     - id: HyperLinkBookCorporateLaw # DS14
