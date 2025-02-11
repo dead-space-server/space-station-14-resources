@@ -8,9 +8,13 @@ shuttle-console-noftl = Данный корабль не может войти �
 # NAV
 
 shuttle-console-display-label = Навигационные данные
+shuttle-console-position-value = { $X }, { $Y }
 shuttle-console-position = Местоположение:
+shuttle-console-orientation-value = { $angle }
 shuttle-console-orientation = Азимут:
+shuttle-console-linear-velocity-value = { $X }, { $Y }
 shuttle-console-linear-velocity = Линейная скорость:
+shuttle-console-angular-velocity-value = { $angularVelocity }
 shuttle-console-angular-velocity = Угловая скорость:
 shuttle-console-unknown = Неизвестно
 shuttle-console-iff-label = { $name } ({ $distance } м)

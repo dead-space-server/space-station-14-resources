@@ -68,7 +68,11 @@
   components:
   - type: Pda
     id: MagistratIDCard
-    state: pda-lawyer
+  - type: Appearance
+    appearanceDataInit:
+     enum.PdaVisuals.PdaType:
+       !type:String
+       pda-lawyer
   - type: Icon
     state: pda-lawyer
 

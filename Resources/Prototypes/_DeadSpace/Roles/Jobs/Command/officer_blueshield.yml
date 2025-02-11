@@ -65,28 +65,32 @@
   parent: BasePDA
   id: BlueShieldOfficerPDA
   components:
-    - type: Pda
-      id: BlueShieldOfficerIDCard
-      state: pda-ert
-    - type: PdaBorderColor
-      borderColor: "#12445b"
-      accentHColor: "#772d32"
-      accentVColor: "#772d32"
-    - type: Icon
-      state: pda-ert
-    - type: HealthAnalyzer
-      scanDelay: 1
+  - type: Pda
+    id: BlueShieldOfficerIDCard
+  - type: Appearance
+    appearanceDataInit:
+     enum.PdaVisuals.PdaType:
+       !type:String
+       pda-ert
+  - type: PdaBorderColor
+    borderColor: "#12445b"
+    accentHColor: "#772d32"
+    accentVColor: "#772d32"
+  - type: Icon
+    state: pda-ert
+  - type: HealthAnalyzer
+    scanDelay: 1
 
 - type: entity
   parent: IDCardStandard
   id: BlueShieldOfficerIDCard
   components:
-    - type: Sprite
-      layers:
-        - state: default
-        - state: ert_security
-    - type: PresetIdCard
-      job: BlueShieldOfficer
+  - type: Sprite
+    layers:
+      - state: default
+      - state: ert_security
+  - type: PresetIdCard
+    job: BlueShieldOfficer
 
 - type: entity
   parent: ClothingBackpack

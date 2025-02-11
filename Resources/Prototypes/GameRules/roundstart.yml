@@ -118,7 +118,7 @@
         - Syndicate
       mindRoles:
       - MindRoleNukeopsCommander
-      sponsorPriority: true
+      sponsorsPriority: true
     - prefRoles: [ NukeopsMedic ]
       fallbackRoles: [ Nukeops, NukeopsCommander ]
       spawnerPrototype: SpawnPointNukeopsMedic
@@ -136,7 +136,7 @@
         - Syndicate
       mindRoles:
       - MindRoleNukeopsMedic
-      sponsorPriority: true
+      sponsorsPriority: true
     - prefRoles: [ Nukeops ]
       fallbackRoles: [ NukeopsCommander, NukeopsMedic ]
       spawnerPrototype: SpawnPointNukeopsOperative
@@ -156,7 +156,7 @@
         - Syndicate
       mindRoles:
       - MindRoleNukeops
-      sponsorPriority: true
+      sponsorsPriority: true
 
 - type: entity
   abstract: true
@@ -193,7 +193,7 @@
       lateJoinAdditional: true
       mindRoles:
       - MindRoleTraitor
-      sponsorPriority: true
+      sponsorsPriority: true
 
 - type: entity
   id: TraitorReinforcement
@@ -207,7 +207,7 @@
     definitions:
     - prefRoles: [ Traitor ]
       mindRoles:
-      - MindRoleTraitor
+      - MindRoleTraitorReinforcement
 
 - type: entity
   id: Revolutionary

@@ -20,6 +20,7 @@ entities:
     - type: MetaData
       name: NT-Bug MK4
     - type: Transform
+      parent: invalid
     - type: MapGrid
       chunks:
         0,0:
@@ -435,20 +436,6 @@ entities:
     components:
     - type: Transform
       pos: 1.5,-14.5
-      parent: 1
-- proto: BackmenVendingMachineCoffee
-  entities:
-  - uid: 16
-    components:
-    - type: Transform
-      pos: -2.5,-8.5
-      parent: 1
-- proto: BackmenVendingMachineSnackGreen
-  entities:
-  - uid: 17
-    components:
-    - type: Transform
-      pos: 3.5,-8.5
       parent: 1
 - proto: BlastDoorOpen
   entities:
@@ -1618,8 +1605,15 @@ entities:
       parent: 1
     - type: DeviceLinkSource
       linkedPorts:
-        298:
+        299:
         - ShuttleConsoleSender: Trigger
+- proto: CrateFoodMRE
+  entities:
+  - uid: 402
+    components:
+    - type: Transform
+      pos: 0.5,-3.5
+      parent: 1
 - proto: CrateServiceJanitorialSupplies
   entities:
   - uid: 243
@@ -1874,7 +1868,7 @@ entities:
       parent: 1
 - proto: HolopadUnlimitedRange
   entities:
-  - uid: 322
+  - uid: 280
     components:
     - type: MetaData
       desc: Напольное устройство для проецирования голографических изображений на аналогичные устройства на больших расстояниях.
@@ -1888,40 +1882,40 @@ entities:
       baseName: Квантово-запутанный голопад
 - proto: MedkitAdvancedFilled
   entities:
-  - uid: 280
+  - uid: 281
     components:
     - type: Transform
       pos: -4.3530035,-11.193475
       parent: 1
 - proto: MedkitCombatFilled
   entities:
-  - uid: 281
+  - uid: 282
     components:
     - type: Transform
       pos: -4.6186285,-11.49035
       parent: 1
 - proto: PosterLegitNanotrasenLogo
   entities:
-  - uid: 282
+  - uid: 283
     components:
     - type: Transform
       pos: -1.5,-2.5
       parent: 1
-  - uid: 283
+  - uid: 284
     components:
     - type: Transform
       pos: 2.5,-2.5
       parent: 1
 - proto: PowerCageMedium
   entities:
-  - uid: 284
+  - uid: 285
     components:
     - type: Transform
       pos: 0.48695892,-1.3732789
       parent: 1
 - proto: PowerCageRecharger
   entities:
-  - uid: 285
+  - uid: 286
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
@@ -1958,7 +1952,7 @@ entities:
       powerLoad: 0
 - proto: Poweredlight
   entities:
-  - uid: 286
+  - uid: 287
     components:
     - type: Transform
       rot: 3.141592653589793 rad
@@ -1968,7 +1962,7 @@ entities:
       enabled: False
     - type: ApcPowerReceiver
       powerLoad: 0
-  - uid: 287
+  - uid: 288
     components:
     - type: Transform
       rot: 3.141592653589793 rad
@@ -1978,7 +1972,7 @@ entities:
       enabled: False
     - type: ApcPowerReceiver
       powerLoad: 0
-  - uid: 288
+  - uid: 289
     components:
     - type: Transform
       rot: 3.141592653589793 rad
@@ -1988,7 +1982,7 @@ entities:
       enabled: False
     - type: ApcPowerReceiver
       powerLoad: 0
-  - uid: 289
+  - uid: 290
     components:
     - type: Transform
       rot: 3.141592653589793 rad
@@ -1998,7 +1992,7 @@ entities:
       enabled: False
     - type: ApcPowerReceiver
       powerLoad: 0
-  - uid: 290
+  - uid: 291
     components:
     - type: Transform
       pos: -0.5,-12.5
@@ -2007,7 +2001,7 @@ entities:
       enabled: False
     - type: ApcPowerReceiver
       powerLoad: 0
-  - uid: 291
+  - uid: 292
     components:
     - type: Transform
       pos: 1.5,-12.5
@@ -2016,7 +2010,7 @@ entities:
       enabled: False
     - type: ApcPowerReceiver
       powerLoad: 0
-  - uid: 292
+  - uid: 293
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
@@ -2026,7 +2020,7 @@ entities:
       enabled: False
     - type: ApcPowerReceiver
       powerLoad: 0
-  - uid: 293
+  - uid: 294
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
@@ -2036,7 +2030,7 @@ entities:
       enabled: False
     - type: ApcPowerReceiver
       powerLoad: 0
-  - uid: 294
+  - uid: 295
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
@@ -2046,7 +2040,7 @@ entities:
       enabled: False
     - type: ApcPowerReceiver
       powerLoad: 0
-  - uid: 295
+  - uid: 296
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
@@ -2058,16 +2052,30 @@ entities:
       powerLoad: 0
 - proto: RailingRound
   entities:
-  - uid: 296
+  - uid: 297
     components:
     - type: Transform
       pos: 0.5,1.5
       parent: 1
-  - uid: 297
+  - uid: 298
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 0.5,2.5
+      parent: 1
+- proto: RandomVendingDrinks
+  entities:
+  - uid: 16
+    components:
+    - type: Transform
+      pos: -2.5,-8.5
+      parent: 1
+- proto: RandomVendingSnacks
+  entities:
+  - uid: 17
+    components:
+    - type: Transform
+      pos: 3.5,-8.5
       parent: 1
 - proto: SheetSteel1
   entities:
@@ -2121,7 +2129,7 @@ entities:
       canCollide: False
 - proto: ShuttleGunPerforator
   entities:
-  - uid: 298
+  - uid: 299
     components:
     - type: Transform
       rot: 3.141592653589793 rad
@@ -2129,113 +2137,113 @@ entities:
       parent: 1
 - proto: ShuttleWindow
   entities:
-  - uid: 299
+  - uid: 300
     components:
     - type: Transform
       pos: 0.5,-2.5
       parent: 1
-  - uid: 300
+  - uid: 301
     components:
     - type: Transform
       pos: 1.5,3.5
       parent: 1
-  - uid: 301
+  - uid: 302
     components:
     - type: Transform
       pos: 2.5,1.5
       parent: 1
-  - uid: 302
+  - uid: 303
     components:
     - type: Transform
       pos: 2.5,2.5
       parent: 1
-  - uid: 303
+  - uid: 304
     components:
     - type: Transform
       pos: -0.5,3.5
       parent: 1
-  - uid: 304
+  - uid: 305
     components:
     - type: Transform
       pos: -1.5,2.5
       parent: 1
-  - uid: 305
+  - uid: 306
     components:
     - type: Transform
       pos: -1.5,1.5
       parent: 1
-  - uid: 306
+  - uid: 307
     components:
     - type: Transform
       pos: -1.5,0.5
       parent: 1
-  - uid: 307
+  - uid: 308
     components:
     - type: Transform
       pos: 1.5,2.5
       parent: 1
-  - uid: 308
+  - uid: 309
     components:
     - type: Transform
       pos: -0.5,2.5
       parent: 1
-  - uid: 309
+  - uid: 310
     components:
     - type: Transform
       pos: 2.5,0.5
       parent: 1
-  - uid: 310
+  - uid: 311
     components:
     - type: Transform
       pos: -1.5,-0.5
       parent: 1
-  - uid: 311
+  - uid: 312
     components:
     - type: Transform
       pos: 2.5,-0.5
       parent: 1
-  - uid: 312
+  - uid: 313
     components:
     - type: Transform
       pos: 0.5,3.5
       parent: 1
-  - uid: 313
+  - uid: 314
     components:
     - type: Transform
       pos: 3.5,-4.5
       parent: 1
-  - uid: 314
+  - uid: 315
     components:
     - type: Transform
       pos: 3.5,-3.5
       parent: 1
-  - uid: 315
+  - uid: 316
     components:
     - type: Transform
       pos: -2.5,-4.5
       parent: 1
-  - uid: 316
+  - uid: 317
     components:
     - type: Transform
       pos: -2.5,-3.5
       parent: 1
-  - uid: 317
+  - uid: 318
     components:
     - type: Transform
       pos: -0.5,-7.5
       parent: 1
-  - uid: 318
+  - uid: 319
     components:
     - type: Transform
       pos: 1.5,-7.5
       parent: 1
-  - uid: 319
+  - uid: 320
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -0.5,-11.5
       parent: 1
-  - uid: 320
+  - uid: 321
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
@@ -2243,7 +2251,7 @@ entities:
       parent: 1
 - proto: SignalButton
   entities:
-  - uid: 321
+  - uid: 322
     components:
     - type: Transform
       rot: 3.141592653589793 rad

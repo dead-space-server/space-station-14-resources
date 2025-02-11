@@ -112,6 +112,6 @@
 #Lone Operative Gear
 - type: startingGear
   id: SyndicateLoneOperativeGearFull
-  parent: SyndicateOperativeGearFull
+  parent: SyndicateOperativeGearFullNoUplink # DS14
   equipment:
     pocket2: BaseUplinkRadio60TC
