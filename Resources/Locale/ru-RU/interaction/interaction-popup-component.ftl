@@ -83,9 +83,18 @@ petting-failure-syndicate-cyborg = Вы тянетесь погладить { $t
 petting-failure-derelict-cyborg = You reach out to pet { THE($target) }, but { POSS-ADJ($target) } rusty and jagged exterior makes you reconsider.
 petting-failure-station-ai = You reach out to pet { THE($target) }, but { SUBJECT($target) } { CONJUGATE-BASIC($target, "zap", "zaps") } your hand away.
 petting-success-station-ai-others = { CAPITALIZE(THE($user)) } pets { THE($target) } on { POSS-ADJ($target) } cold, square screen.
+
+## Rattling fences
+
+fence-rattle-success = *бдзынь*
+
+## Hugging players
+
 hugging-success-generic = Вы обнимаете { $target }.
 hugging-success-generic-others = { CAPITALIZE($user) } обнимает { $target }.
-fence-rattle-success = *бдзынь*
 hugging-success-generic-target = { CAPITALIZE($user) } обнимает вас.
+
+## Other
+
 petting-success-tesla = Вы гладите { $target }, попутно нарушая законы природы и физики.
 petting-failure-tesla = Вы тянетесь погладить { $target }, но разряд заставляет вас отдёрнуть руку.

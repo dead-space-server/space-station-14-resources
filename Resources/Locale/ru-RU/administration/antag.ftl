@@ -17,3 +17,4 @@ admin-verb-text-make-head-rev = Сделать Главой революции
 admin-verb-text-make-unitolog = Сделать юнитологом
 admin-verb-text-make-thief = Сделать вором
 admin-verb-text-make-blob = Сделать носителем Блоба
+admin-overlay-antag-classic = АНТАГ

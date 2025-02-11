@@ -79,6 +79,7 @@ entities:
       name: Центральное Командование
     - type: Transform
       pos: -1.3758945,-4.3503265
+      parent: invalid
     - type: MapGrid
       chunks:
         0,0:
@@ -14017,7 +14018,8 @@ entities:
           -5,-23:
             0: 61439
           -5,-22:
-            0: 61006
+            0: 60494
+            2: 512
           -5,-25:
             0: 61422
           -4,-22:
@@ -14488,7 +14490,8 @@ entities:
           -22,-26:
             1: 3840
           -22,-25:
-            0: 3822
+            0: 1774
+            2: 2048
           -21,-25:
             0: 1909
           -27,-21:
@@ -14665,6 +14668,21 @@ entities:
           moles:
           - 0
           - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        - volume: 2500
+          temperature: 293.15
+          moles:
+          - 21.813705
+          - 82.06108
           - 0
           - 0
           - 0
@@ -14922,13 +14940,6 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -66.5,-17.5
-      parent: 1
-- proto: ADTBacardiAppleGlass
-  entities:
-  - uid: 51
-    components:
-    - type: Transform
-      pos: -48.52659,-6.4507017
       parent: 1
 - proto: ADTBathBroom
   entities:
@@ -16098,64 +16109,118 @@ entities:
     - type: Transform
       pos: -10.5,0.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 166
     components:
     - type: Transform
       pos: -13.5,0.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 167
     components:
     - type: Transform
       pos: -18.5,0.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 168
     components:
     - type: Transform
       pos: -21.5,0.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 169
     components:
     - type: Transform
       pos: -15.5,3.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 170
     components:
     - type: Transform
       pos: -16.5,3.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 171
     components:
     - type: Transform
       pos: -32.5,-47.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 172
     components:
     - type: Transform
       pos: -30.5,-47.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 173
     components:
     - type: Transform
       pos: -28.5,-47.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 174
     components:
     - type: MetaData
@@ -16164,146 +16229,260 @@ entities:
       rot: 3.141592653589793 rad
       pos: -30.5,-49.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 175
     components:
     - type: Transform
       pos: -80.5,-23.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 176
     components:
     - type: Transform
       pos: -76.5,-23.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 177
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -84.5,-23.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 178
     components:
     - type: Transform
       pos: -102.5,-3.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 179
     components:
     - type: Transform
       pos: -100.5,-3.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 180
     components:
     - type: Transform
       pos: -104.5,-3.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 181
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -84.5,-3.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 182
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -82.5,-3.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 183
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -80.5,-3.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 184
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -98.5,0.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 185
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -94.5,0.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 186
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -90.5,0.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 187
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -86.5,0.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 188
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -102.5,2.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 189
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -82.5,2.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 190
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -73.5,-53.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 191
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -73.5,-55.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 192
     components:
     - type: Transform
       pos: -73.5,-59.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
 - proto: AirlockAtmosphericsGlassLocked
   entities:
   - uid: 193
@@ -16313,7 +16492,11 @@ entities:
       pos: -96.5,-36.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
 - proto: AirlockAtmosphericsLocked
   entities:
   - uid: 194
@@ -16322,15 +16505,27 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -93.5,-41.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 195
     components:
     - type: Transform
       pos: -59.5,8.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
 - proto: AirlockBarGlassLocked
   entities:
   - uid: 196
@@ -16339,7 +16534,11 @@ entities:
       pos: -48.5,-4.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
 - proto: AirlockBrigLocked
   entities:
   - uid: 197
@@ -16360,7 +16559,11 @@ entities:
       pos: -67.5,-71.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 199
     components:
     - type: MetaData
@@ -16369,7 +16572,11 @@ entities:
       pos: -67.5,-70.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 200
     components:
     - type: MetaData
@@ -16378,7 +16585,11 @@ entities:
       pos: -77.5,-93.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 201
     components:
     - type: Transform
@@ -16395,7 +16606,11 @@ entities:
       pos: -24.5,-49.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 204
     components:
     - type: MetaData
@@ -16404,21 +16619,33 @@ entities:
       pos: -88.5,-75.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 205
     components:
     - type: Transform
       pos: -69.5,-85.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 206
     components:
     - type: Transform
       pos: -78.5,-85.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 207
     components:
     - type: MetaData
@@ -16427,7 +16654,11 @@ entities:
       pos: -67.5,-74.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 208
     components:
     - type: MetaData
@@ -16436,7 +16667,11 @@ entities:
       pos: -23.5,-95.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 209
     components:
     - type: MetaData
@@ -16445,7 +16680,11 @@ entities:
       pos: -19.5,-97.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 210
     components:
     - type: MetaData
@@ -16454,7 +16693,11 @@ entities:
       pos: -23.5,-97.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 211
     components:
     - type: MetaData
@@ -16463,7 +16706,11 @@ entities:
       pos: -19.5,-95.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 212
     components:
     - type: MetaData
@@ -16472,7 +16719,11 @@ entities:
       pos: -92.5,-75.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 213
     components:
     - type: MetaData
@@ -16481,7 +16732,11 @@ entities:
       pos: -67.5,-73.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 214
     components:
     - type: Transform
@@ -16489,7 +16744,11 @@ entities:
       pos: -63.5,-78.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 215
     components:
     - type: Transform
@@ -16497,7 +16756,11 @@ entities:
       pos: -63.5,-90.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 216
     components:
     - type: Transform
@@ -16505,7 +16768,11 @@ entities:
       pos: -41.5,-90.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 217
     components:
     - type: Transform
@@ -16513,7 +16780,11 @@ entities:
       pos: -41.5,-78.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 218
     components:
     - type: Transform
@@ -16521,7 +16792,11 @@ entities:
       pos: -52.5,-88.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 219
     components:
     - type: Transform
@@ -16529,7 +16804,11 @@ entities:
       pos: -52.5,-80.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 220
     components:
     - type: Transform
@@ -16537,7 +16816,11 @@ entities:
       pos: -9.5,-116.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 221
     components:
     - type: Transform
@@ -16545,7 +16828,11 @@ entities:
       pos: -33.5,-116.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 222
     components:
     - type: Transform
@@ -16562,14 +16849,22 @@ entities:
       pos: -63.5,-63.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 225
     components:
     - type: Transform
       pos: -63.5,-61.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 226
     components:
     - type: Transform
@@ -16709,36 +17004,66 @@ entities:
     - type: Transform
       pos: -21.5,-99.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 253
     components:
     - type: Transform
       pos: -79.5,-61.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 254
     components:
     - type: Transform
       pos: -35.5,-49.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 255
     components:
     - type: Transform
       pos: -92.5,-61.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 256
     components:
     - type: Transform
       pos: -36.5,-60.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 257
     components:
     - type: Transform
@@ -16749,15 +17074,27 @@ entities:
     - type: Transform
       pos: -87.5,-85.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 259
     components:
     - type: Transform
       pos: -54.5,-58.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 260
     components:
     - type: MetaData
@@ -16766,8 +17103,14 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -34.5,-83.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 261
     components:
     - type: MetaData
@@ -16776,8 +17119,14 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -35.5,-83.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 262
     components:
     - type: MetaData
@@ -16785,15 +17134,27 @@ entities:
     - type: Transform
       pos: -29.5,-92.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 263
     components:
     - type: Transform
       pos: -73.5,-49.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 264
     components:
     - type: MetaData
@@ -16801,45 +17162,81 @@ entities:
     - type: Transform
       pos: -17.5,-86.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 265
     components:
     - type: Transform
       pos: -50.5,-58.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 266
     components:
     - type: Transform
       pos: -83.5,-77.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 267
     components:
     - type: Transform
       pos: -83.5,-78.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 268
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -23.5,-113.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 269
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -19.5,-113.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 270
     components:
     - type: Transform
@@ -16850,8 +17247,14 @@ entities:
     - type: Transform
       pos: -52.5,-94.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 272
     components:
     - type: Transform
@@ -16866,7 +17269,11 @@ entities:
       pos: 1.5,-23.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
 - proto: AirlockChiefEngineerGlassLocked
   entities:
   - uid: 274
@@ -16883,7 +17290,11 @@ entities:
       pos: -103.5,-28.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 276
     components:
     - type: MetaData
@@ -16892,7 +17303,11 @@ entities:
       pos: -26.5,-43.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
 - proto: AirlockCommandLocked
   entities:
   - uid: 277
@@ -16901,16 +17316,28 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -103.5,-35.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 278
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -90.5,-56.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
 - proto: AirlockEngineeringGlassLocked
   entities:
   - uid: 279
@@ -16920,7 +17347,11 @@ entities:
       pos: -99.5,-28.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 280
     components:
     - type: Transform
@@ -16928,7 +17359,11 @@ entities:
       pos: -103.5,-40.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 281
     components:
     - type: Transform
@@ -16936,7 +17371,11 @@ entities:
       pos: -98.5,-47.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 282
     components:
     - type: Transform
@@ -16944,7 +17383,11 @@ entities:
       pos: -98.5,-46.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 283
     components:
     - type: Transform
@@ -16952,7 +17395,11 @@ entities:
       pos: -104.5,-52.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 284
     components:
     - type: Transform
@@ -16960,7 +17407,11 @@ entities:
       pos: -106.5,-43.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 285
     components:
     - type: Transform
@@ -16981,24 +17432,42 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -86.5,-40.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 288
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -91.5,-40.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 289
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -91.5,-36.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
 - proto: AirlockExternalCargoLocked
   entities:
   - uid: 290
@@ -17008,10 +17477,16 @@ entities:
       pos: -20.5,-62.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
     - type: AccessReader
       access:
       - - CentralCommand
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 291
     components:
     - type: Transform
@@ -17019,10 +17494,16 @@ entities:
       pos: -20.5,-60.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
     - type: AccessReader
       access:
       - - CentralCommand
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
 - proto: AirlockExternalGlass
   entities:
   - uid: 292
@@ -17032,7 +17513,11 @@ entities:
       pos: 12.5,-1.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 293
     components:
     - type: Transform
@@ -17040,7 +17525,11 @@ entities:
       pos: 12.5,6.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 294
     components:
     - type: Transform
@@ -17048,7 +17537,11 @@ entities:
       pos: 12.5,-3.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 295
     components:
     - type: Transform
@@ -17056,7 +17549,11 @@ entities:
       pos: 12.5,4.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 296
     components:
     - type: Transform
@@ -17074,7 +17571,11 @@ entities:
       pos: -35.5,-124.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 298
     components:
     - type: Transform
@@ -17082,10 +17583,14 @@ entities:
       pos: -8.5,-78.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
     - type: AccessReader
       access:
       - - CentralCommand
+    - type: Airtight
+      airBlocked: False
   - uid: 299
     components:
     - type: Transform
@@ -17093,10 +17598,14 @@ entities:
       pos: -3.5,-87.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
     - type: AccessReader
       access:
       - - CentralCommand
+    - type: Airtight
+      airBlocked: False
   - uid: 300
     components:
     - type: Transform
@@ -17104,10 +17613,14 @@ entities:
       pos: -3.5,-78.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
     - type: AccessReader
       access:
       - - CentralCommand
+    - type: Airtight
+      airBlocked: False
   - uid: 301
     components:
     - type: Transform
@@ -17115,10 +17628,14 @@ entities:
       pos: -8.5,-87.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
     - type: AccessReader
       access:
       - - CentralCommand
+    - type: Airtight
+      airBlocked: False
   - uid: 302
     components:
     - type: Transform
@@ -17126,7 +17643,11 @@ entities:
       pos: -7.5,-124.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
 - proto: AirlockExternalGlassShuttleCentcommERTLocked
   entities:
   - uid: 303
@@ -17162,7 +17683,11 @@ entities:
       pos: 18.5,-3.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Physics
+      canCollide: False
   - uid: 308
     components:
     - type: Transform
@@ -17170,7 +17695,11 @@ entities:
       pos: 18.5,-1.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Physics
+      canCollide: False
   - uid: 309
     components:
     - type: Transform
@@ -17178,7 +17707,11 @@ entities:
       pos: 18.5,4.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Physics
+      canCollide: False
   - uid: 310
     components:
     - type: Transform
@@ -17186,7 +17719,11 @@ entities:
       pos: 18.5,6.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Physics
+      canCollide: False
 - proto: AirlockExternalLocked
   entities:
   - uid: 311
@@ -17203,28 +17740,44 @@ entities:
       pos: -27.5,-17.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 313
     components:
     - type: Transform
       pos: -27.5,-15.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 314
     components:
     - type: Transform
       pos: -9.5,6.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 315
     components:
     - type: Transform
       pos: -9.5,4.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 316
     components:
     - type: Transform
@@ -17232,7 +17785,11 @@ entities:
       pos: -17.5,-8.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 317
     components:
     - type: Transform
@@ -17240,21 +17797,33 @@ entities:
       pos: -15.5,-8.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 318
     components:
     - type: Transform
       pos: -9.5,-6.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 319
     components:
     - type: Transform
       pos: -9.5,-4.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 320
     components:
     - type: Transform
@@ -17262,14 +17831,22 @@ entities:
       pos: -17.5,-27.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 321
     components:
     - type: Transform
       pos: -0.5,8.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 322
     components:
     - type: Transform
@@ -17277,7 +17854,11 @@ entities:
       pos: -15.5,-27.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 323
     components:
     - type: Transform
@@ -17285,7 +17866,11 @@ entities:
       pos: -18.5,-28.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 324
     components:
     - type: Transform
@@ -17293,7 +17878,11 @@ entities:
       pos: -18.5,-30.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 325
     components:
     - type: Transform
@@ -17301,7 +17890,11 @@ entities:
       pos: -35.5,0.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 326
     components:
     - type: Transform
@@ -17309,7 +17902,11 @@ entities:
       pos: -35.5,-1.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 327
     components:
     - type: Transform
@@ -17317,7 +17914,11 @@ entities:
       pos: -32.5,0.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 328
     components:
     - type: Transform
@@ -17325,7 +17926,11 @@ entities:
       pos: -32.5,-1.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 329
     components:
     - type: Transform
@@ -17333,7 +17938,11 @@ entities:
       pos: -34.5,3.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 330
     components:
     - type: Transform
@@ -17341,7 +17950,11 @@ entities:
       pos: -33.5,3.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 331
     components:
     - type: Transform
@@ -17349,7 +17962,11 @@ entities:
       pos: -34.5,-4.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 332
     components:
     - type: Transform
@@ -17357,42 +17974,66 @@ entities:
       pos: -33.5,-4.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 333
     components:
     - type: Transform
       pos: -31.5,-20.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 334
     components:
     - type: Transform
       pos: -31.5,-22.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 335
     components:
     - type: Transform
       pos: -1.5,8.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 336
     components:
     - type: Transform
       pos: -62.5,-0.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 337
     components:
     - type: Transform
       pos: -62.5,1.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 338
     components:
     - type: Transform
@@ -17400,7 +18041,11 @@ entities:
       pos: -66.5,-11.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 339
     components:
     - type: Transform
@@ -17408,7 +18053,11 @@ entities:
       pos: -66.5,-9.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 340
     components:
     - type: Transform
@@ -17416,7 +18065,11 @@ entities:
       pos: -66.5,-24.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 341
     components:
     - type: Transform
@@ -17424,28 +18077,44 @@ entities:
       pos: -66.5,-22.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 342
     components:
     - type: Transform
       pos: -60.5,-7.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 343
     components:
     - type: Transform
       pos: -10.5,-31.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 344
     components:
     - type: Transform
       pos: -10.5,-33.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 345
     components:
     - type: Transform
@@ -17453,7 +18122,11 @@ entities:
       pos: -93.5,-18.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 346
     components:
     - type: Transform
@@ -17461,14 +18134,22 @@ entities:
       pos: -91.5,-18.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 347
     components:
     - type: Transform
       pos: -92.5,-5.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 348
     components:
     - type: Transform
@@ -17476,7 +18157,11 @@ entities:
       pos: -87.5,-11.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 349
     components:
     - type: Transform
@@ -17484,7 +18169,11 @@ entities:
       pos: -87.5,-9.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 350
     components:
     - type: Transform
@@ -17492,7 +18181,11 @@ entities:
       pos: -78.5,-9.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 351
     components:
     - type: Transform
@@ -17500,7 +18193,11 @@ entities:
       pos: -78.5,-11.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 352
     components:
     - type: Transform
@@ -17508,7 +18205,11 @@ entities:
       pos: -76.5,-8.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 353
     components:
     - type: Transform
@@ -17516,7 +18217,11 @@ entities:
       pos: -75.5,-8.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 354
     components:
     - type: Transform
@@ -17524,7 +18229,11 @@ entities:
       pos: -73.5,-8.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 355
     components:
     - type: Transform
@@ -17532,7 +18241,11 @@ entities:
       pos: -72.5,-8.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 356
     components:
     - type: Transform
@@ -17540,7 +18253,11 @@ entities:
       pos: -76.5,2.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 357
     components:
     - type: Transform
@@ -17548,7 +18265,11 @@ entities:
       pos: -75.5,2.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 358
     components:
     - type: Transform
@@ -17556,7 +18277,11 @@ entities:
       pos: -73.5,2.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 359
     components:
     - type: Transform
@@ -17564,35 +18289,55 @@ entities:
       pos: -72.5,2.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 360
     components:
     - type: Transform
       pos: -40.5,-34.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 361
     components:
     - type: Transform
       pos: -39.5,-34.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 362
     components:
     - type: Transform
       pos: -80.5,-32.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 363
     components:
     - type: Transform
       pos: -78.5,-32.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 364
     components:
     - type: Transform
@@ -17600,21 +18345,33 @@ entities:
       pos: -102.5,-16.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 365
     components:
     - type: Transform
       pos: -67.5,-59.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 366
     components:
     - type: Transform
       pos: -66.5,-59.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 367
     components:
     - type: Transform
@@ -17633,14 +18390,22 @@ entities:
       pos: -91.5,-32.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 370
     components:
     - type: Transform
       pos: -66.5,8.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 371
     components:
     - type: Transform
@@ -17648,7 +18413,11 @@ entities:
       pos: -75.5,8.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 372
     components:
     - type: Transform
@@ -17656,21 +18425,33 @@ entities:
       pos: -73.5,8.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 373
     components:
     - type: Transform
       pos: -42.5,-32.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 374
     components:
     - type: Transform
       pos: -37.5,-32.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 375
     components:
     - type: Transform
@@ -17710,28 +18491,44 @@ entities:
       pos: -32.5,19.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 381
     components:
     - type: Transform
       pos: -33.5,14.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 382
     components:
     - type: Transform
       pos: -34.5,14.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 383
     components:
     - type: Transform
       pos: -35.5,19.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
 - proto: AirlockJanitorLocked
   entities:
   - uid: 384
@@ -17739,8 +18536,14 @@ entities:
     - type: Transform
       pos: -9.5,-27.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
 - proto: AirlockKitchenGlassLocked
   entities:
   - uid: 385
@@ -17749,7 +18552,11 @@ entities:
       pos: -48.5,-17.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
 - proto: AirlockMedical
   entities:
   - uid: 386
@@ -17758,8 +18565,14 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -24.5,-73.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
 - proto: AirlockMedicalGlass
   entities:
   - uid: 387
@@ -17768,70 +18581,110 @@ entities:
       pos: -8.5,-20.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 388
     components:
     - type: Transform
       pos: -8.5,-16.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 389
     components:
     - type: Transform
       pos: -8.5,-19.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 390
     components:
     - type: Transform
       pos: -8.5,-15.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 391
     components:
     - type: Transform
       pos: -36.5,-72.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 392
     components:
     - type: Transform
       pos: -36.5,-71.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 393
     components:
     - type: Transform
       pos: -14.5,-15.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 394
     components:
     - type: Transform
       pos: -14.5,-16.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 395
     components:
     - type: Transform
       pos: -14.5,-19.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 396
     components:
     - type: Transform
       pos: -14.5,-20.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 397
     components:
     - type: Transform
@@ -17845,15 +18698,27 @@ entities:
     - type: Transform
       pos: 0.5,-21.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 399
     components:
     - type: Transform
       pos: 0.5,-16.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 400
     components:
     - type: Transform
@@ -17866,36 +18731,66 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 8.5,-27.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 402
     components:
     - type: Transform
       pos: -1.5,-13.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 403
     components:
     - type: Transform
       pos: -1.5,-23.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 404
     components:
     - type: Transform
       pos: -1.5,-14.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 405
     components:
     - type: Transform
       pos: -1.5,-24.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
 - proto: AirlockMedicalScienceLocked
   entities:
   - uid: 406
@@ -17903,22 +18798,40 @@ entities:
     - type: Transform
       pos: 9.5,-24.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 407
     components:
     - type: Transform
       pos: 10.5,-24.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 408
     components:
     - type: Transform
       pos: 11.5,-26.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
 - proto: AirlockSecurityLocked
   entities:
   - uid: 409
@@ -17926,8 +18839,14 @@ entities:
     - type: Transform
       pos: -79.5,-53.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
 - proto: AirlockServiceGlassLocked
   entities:
   - uid: 410
@@ -17942,7 +18861,11 @@ entities:
       pos: -35.5,7.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
   - uid: 412
     components:
     - type: Transform
@@ -17950,7 +18873,11 @@ entities:
       pos: -32.5,7.5
       parent: 1
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
+    - type: Airtight
+      airBlocked: False
 - proto: AirlockServiceLocked
   entities:
   - uid: 413
@@ -17959,16 +18886,28 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -94.5,-21.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 414
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -101.5,-10.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
 - proto: AirlockVirologyLocked
   entities:
   - uid: 415
@@ -17976,22 +18915,40 @@ entities:
     - type: Transform
       pos: 14.5,-11.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 416
     components:
     - type: Transform
       pos: 8.5,-13.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
   - uid: 417
     components:
     - type: Transform
       pos: 8.5,-14.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
+    - type: Occluder
+      enabled: False
 - proto: AirSensor
   entities:
   - uid: 418
@@ -53342,15 +54299,6 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingHeadsetSOC
-  entities:
-  - uid: 25
-    components:
-    - type: Transform
-      parent: 2
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: ClothingMaskBreathMedical
   entities:
   - uid: 7279
@@ -55558,8 +56506,12 @@ entities:
     - type: Transform
       pos: -24.5,-3.5
       parent: 1
+    - type: Occluder
+      enabled: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
   - uid: 7551
     components:
     - type: Transform
@@ -55578,7 +56530,11 @@ entities:
       pos: -51.5,-6.5
       parent: 1
     - type: Door
-      state: Closing
+      state: Closed
+    - type: Occluder
+      enabled: True
+    - type: Physics
+      canCollide: True
   - uid: 7554
     components:
     - type: Transform
@@ -55610,7 +56566,11 @@ entities:
       pos: -51.5,-12.5
       parent: 1
     - type: Door
-      state: Closing
+      state: Closed
+    - type: Occluder
+      enabled: True
+    - type: Physics
+      canCollide: True
 - proto: DefibrillatorCabinetFilled
   entities:
   - uid: 7560
@@ -60984,14 +61944,6 @@ entities:
     components:
     - type: Transform
       parent: 8492
-    - type: Physics
-      canCollide: False
-- proto: EncryptionKeySOC
-  entities:
-  - uid: 8495
-    components:
-    - type: Transform
-      parent: 8494
     - type: Physics
       canCollide: False
 - proto: ExtinguisherCabinetFilled
@@ -86013,32 +86965,48 @@ entities:
       rot: 3.141592653589793 rad
       pos: 3.5,-15.5
       parent: 1
+    - type: Occluder
+      enabled: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
   - uid: 12037
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 4.5,-15.5
       parent: 1
+    - type: Occluder
+      enabled: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
   - uid: 12038
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 6.5,-15.5
       parent: 1
+    - type: Occluder
+      enabled: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
   - uid: 12039
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 7.5,-15.5
       parent: 1
+    - type: Occluder
+      enabled: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Physics
+      canCollide: False
 - proto: HospitalCurtainsOpen
   entities:
   - uid: 12040
@@ -86643,8 +87611,8 @@ entities:
         immutable: False
         temperature: 293.14673
         moles:
-        - 1.8856695
-        - 7.0937095
+        - 1.8968438
+        - 7.1357465
         - 0
         - 0
         - 0
@@ -86661,24 +87629,23 @@ entities:
           showEnts: False
           occludes: True
           ents:
-          - 24
-          - 17
-          - 15
-          - 13
-          - 11
-          - 26
-          - 29
-          - 25
-          - 9
-          - 27
-          - 22
-          - 21
-          - 7
-          - 5
-          - 28
-          - 23
-          - 19
           - 3
+          - 19
+          - 23
+          - 28
+          - 5
+          - 7
+          - 21
+          - 22
+          - 27
+          - 9
+          - 29
+          - 26
+          - 11
+          - 13
+          - 15
+          - 17
+          - 24
         paper_label: !type:ContainerSlot
           showEnts: False
           occludes: True
@@ -86802,8 +87769,8 @@ entities:
         immutable: False
         temperature: 293.14755
         moles:
-        - 1.8856695
-        - 7.0937095
+        - 1.8968438
+        - 7.1357465
         - 0
         - 0
         - 0
@@ -86820,22 +87787,22 @@ entities:
           showEnts: False
           occludes: True
           ents:
-          - 1124
           - 1117
-          - 1127
-          - 1128
-          - 1118
-          - 1122
-          - 1119
-          - 1121
-          - 1126
           - 1125
-          - 1130
+          - 1129
+          - 1128
+          - 1127
+          - 1124
+          - 1132
+          - 1118
+          - 1121
+          - 1119
+          - 1120
           - 1123
           - 1131
-          - 1120
-          - 1129
-          - 1132
+          - 1122
+          - 1126
+          - 1130
         paper_label: !type:ContainerSlot
           showEnts: False
           occludes: True
@@ -108640,21 +109607,6 @@ entities:
     - type: Transform
       pos: -87.5,-50.5
       parent: 1
-    - type: ContainerContainer
-      containers:
-        key_slots: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 8495
-        machine_board: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-        machine_parts: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
 - proto: TelescopicShield
   entities:
   - uid: 7100
@@ -127411,8 +128363,12 @@ entities:
       rot: 3.141592653589793 rad
       pos: -78.5,-38.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
 - proto: WindoorSecureSecurityLocked
   entities:
   - uid: 18498
@@ -127420,8 +128376,12 @@ entities:
     - type: Transform
       pos: -82.5,-50.5
       parent: 1
+    - type: Physics
+      canCollide: False
     - type: Door
-      state: Opening
+      state: Open
+    - type: Airtight
+      airBlocked: False
   - uid: 18499
     components:
     - type: Transform
