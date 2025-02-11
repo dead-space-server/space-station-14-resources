@@ -2,10 +2,10 @@
   id: RCDCE
   parent: [ RCD, BaseEngineeringContraband ]
   name: РСУ старшего инженера
-  description: Улучшенная версия базового РСУ расходует меньше зарядов и самовосстанавливет их.
+  description: Улучшенная версия базового РСУ которая самовосстанавливет заряды.
   components:
   - type: Sprite
-    sprite: Textures/DeadSpace/Objects/Tools/cercd.rsi
+    sprite: DeadSpace/Objects/Tools/cercd.rsi
     layers:
     - state: icon
   - type: AutoRecharge

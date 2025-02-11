@@ -168,10 +168,11 @@
     - id: ClothingHandsGlovesColorYellow
     - id: ClothingHeadsetAltEngineering
     - id: DoorRemoteEngineering
-    - id: RCD
-    - id: RCDAmmo
+    # - id: RCD # DS14
+    # - id: RCDAmmo # DS14
     - id: RubberStampCE
     - id: ADTtelescopicBaton # ADT
+    - id: RCDCE # DS14
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
