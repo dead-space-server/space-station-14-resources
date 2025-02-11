@@ -140,6 +140,50 @@
   - type: TTS
     voice: Garithos
 
+## Blue Shield
+
+  - type: entity
+  id: RandomHumanoidSpawnerCentcomBlueShieldOfficer
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      state: blueshield-low
+    - type: RandomHumanoidSpawner
+      settings: BlueShieldOfficer
+
+- type: entity
+  parent: MobHuman
+  id: CentcomBlueShieldOfficer
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: MindShield
+  - type: ZombieImmune
+  - type: AntagImmune
+  - type: AutoImplant
+    implants:
+    - TrackingImplant
+  - type: GhostRole
+    name: ghost-role-information-blueshieldofficer-name
+    description: ghost-role-information-blueshieldofficer-description
+    rules: ghost-role-information-Centcom-Personal-rules
+      requirements:
+        - !type:OverallPlaytimeRequirement
+          time: 180000 # 50 hours
+        - !type:DepartmentTimeRequirement
+          department: Security
+          time: 72000 # 20 hours
+    raffle:
+      settings: short
+  - type: GhostTakeoverAvailable
+  - type: RandomMetadata
+    nameSegments:
+      - NamesFirstERT
+      - NamesLastERT
+  - type: Loadout
+    prototypes: [ CentcomBlueShieldGear ]
+    roleLoadout: [ RoleSurvivalEVA ]
+
+
 # ERT
 ## Leader
 ### Amber
@@ -924,6 +968,18 @@
   id: CentcomOfficer
   parent: EventHumanoidMindShieldedCentcom
   components:
+  - type: GhostRole
+    name: ghost-role-information-centcomofficer-name
+    description: ghost-role-information-centcomofficer-description
+    rules: ghost-role-information-Centcom-Personal-rules
+      requirements:
+          !type:DepartmentTimeRequirement
+          department: Security
+          time: 108000 # 30 hours
+    raffle:
+      settings: short
+  - type: GhostTakeoverAvailable
+  - type: RandomMetadata
     - type: Loadout
       prototypes: [ CentcomOfficerGear ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -991,3 +1047,4 @@
         settings: default
     - type: GhostTakeoverAvailable
     - type: Cluwne
+
