@@ -41,6 +41,7 @@
     - EnergyShield
     - JawsOfLife
     - NukeCodePaper
+    - ClothingEyesPNVAdv
   
 - type: entity
   parent: WeaponRevolverMateba
