@@ -137,6 +137,7 @@
     - BoxMRE
     - Flare
     - WeaponDisabler
+    - ClothingEyesPNVAdv
 
 # Security
 ## Amber
@@ -269,6 +270,7 @@
     - Flare
     - Truncheon
     - PinpointerNuclear
+    - ClothingEyesPNVAdv
 
 # Medical
 ## Amber
@@ -417,6 +419,7 @@
     - WeaponDisabler
     - HandheldHealthAnalyzer
     - PinpointerNuclear
+    - ClothingEyesPNVAdv
 
 # Engineer
 ## Amber
@@ -551,6 +554,7 @@
     - ERTloadoutGammaSecondary
     - Flare
     - PinpointerNuclear
+    - ClothingEyesPNVAdv
 
 # Janitor
 ## Amber
@@ -689,3 +693,4 @@
     - WeaponDisabler
     - TrashBagBlue
     - PinpointerNuclear
+    - ClothingEyesPNVAdv
