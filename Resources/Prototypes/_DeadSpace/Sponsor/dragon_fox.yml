@@ -149,18 +149,18 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.7
-        Slash: 0.7
-        Piercing: 0.7
-        Heat: 0.7
-        Radiation: 0.7
-        Caustic: 0.7
-        Stun: 0.3
+        Blunt: 0.3
+        Slash: 0.3
+        Piercing: 0.3
+        Heat: 0.3
+        Radiation: 0.3
+        Caustic: 0.3
+        Stun: 0.7
   - type: ExplosionResistance
     damageCoefficient: 0.8
   - type: ClothingSpeedModifier
-    walkModifier: 0.1
-    sprintModifier: 0.1
+    walkModifier: 0.9
+    sprintModifier: 0.9
 
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
@@ -180,9 +180,9 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.80
-        Slash: 0.80
-        Piercing: 0.9
+        Blunt: 0.75
+        Slash: 0.75
+        Piercing: 0.80
         Heat: 0.80
         Radiation: 0.80
 
@@ -640,4 +640,4 @@
   sponsorOnly: true
   sprites:
   - sprite: Textures/DeadSpace/Sponsor/DragonFox/ninetails.rsi
-    state: nine_tail 
+    state: nine_tail_icon
