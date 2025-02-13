@@ -169,3 +169,7 @@
 # - type: lobbyBackground
 #   id: communist_banquet
 #   background: /Textures/LobbyScreens/Soyuz/communist_banquet.png
+
+# - type: lobbyBackground
+#   id: dawning
+#   background: /Textures/LobbyScreens/Soyuz/dawning.png
