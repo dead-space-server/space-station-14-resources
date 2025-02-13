@@ -155,6 +155,7 @@
         - id: ClothingNeckTransPin
         - id: ClothingNeckAutismPin
         - id: ClothingNeckGoldAutismPin
+        - id: ClothingNeckHeteroPin # DS14
         # Corvax-Pins-Start
         - id: ClothingNeckUSSPPin
         - id: ClothingNeckDonkPin
