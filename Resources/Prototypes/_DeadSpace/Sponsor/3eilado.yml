@@ -16,10 +16,10 @@
   description: Провористый карманный демон, выглядит не особо дружелюбно. На его рожках виднеется гравировка Ван'Астрея.
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/3eilado/backpack.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/backpack.rsi
     scale: "0.5, 0.5"
   - type: Clothing
-    sprite: DeadSpace/Sponsor/3eilado/backpack.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/backpack.rsi
     clothingVisuals:
       back: 
       - state: equipped-BACKPACK
@@ -69,10 +69,10 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/3eilado/belt.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/belt.rsi
     scale: "0.5, 0.5"
   - type: Clothing
-    sprite: DeadSpace/Sponsor/3eilado/belt.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/belt.rsi
     clothingVisuals:
       back: 
       - state: equipped-BELT
@@ -107,7 +107,7 @@
   - type: Clothing
     equippedPrefix: open
   - type: Sprite
-    sprite: DeadSpace/Sponsor/3eilado/cloak.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/cloak.rsi
     layers:
     - state: icon
       map: [ "unfoldedLayer" ]
@@ -125,9 +125,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/3eilado/charm.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/charm.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/3eilado/charm.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/charm.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingOuterHardsuit3eilado
     requiredSlot: NECK
@@ -149,9 +149,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/3eilado/hardsuit/hardsuit.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/hardsuit/hardsuit.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/3eilado/hardsuit/hardsuit.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/hardsuit/hardsuit.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuit3eilado
   - type: Item
@@ -165,9 +165,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/3eilado/hardsuit/helmet.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/hardsuit/helmet.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/3eilado/hardsuit/helmet.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/hardsuit/helmet.rsi
   - type: PointLight
     color: "#ed381c"
   - type: PressureProtection
@@ -183,12 +183,12 @@
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
-      sprite: DeadSpace/Sponsor/3eilado/magboots.rsi
+      sprite: _DeadSpace/Sponsor/3eilado/magboots.rsi
       layers:
       - state: icon
         map: [ "enum.ToggleVisuals.Layer" ]
     - type: Clothing
-      sprite: DeadSpace/Sponsor/3eilado/magboots.rsi
+      sprite: _DeadSpace/Sponsor/3eilado/magboots.rsi
     - type: ClothingSpeedModifier
       walkModifier: 1
       sprintModifier: 1
@@ -219,9 +219,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/3eilado/welder_experimental.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/welder_experimental.rsi
   - type: Item
-    sprite: DeadSpace/Sponsor/3eilado/welder_experimental.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/welder_experimental.rsi
 
 - type: entity
   name: серые челюсти жизни
@@ -231,7 +231,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/3eilado/jaws_of_life.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/jaws_of_life.rsi
     state: jaws_pry
   - type: Item
     inhandVisuals:
@@ -244,13 +244,13 @@
     entries:
       - behavior: Prying
         sprite:
-          sprite: DeadSpace/Sponsor/3eilado/jaws_of_life.rsi
+          sprite: _DeadSpace/Sponsor/3eilado/jaws_of_life.rsi
           state: jaws_pry
         useSound: /Audio/Items/jaws_pry.ogg
         changeSound: /Audio/Items/change_jaws.ogg
       - behavior: Cutting
         sprite:
-          sprite: DeadSpace/Sponsor/3eilado/jaws_of_life.rsi
+          sprite: _DeadSpace/Sponsor/3eilado/jaws_of_life.rsi
           state: jaws_cutter
         useSound: /Audio/Items/jaws_cut.ogg
         changeSound: /Audio/Items/change_jaws.ogg
@@ -267,17 +267,17 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/3eilado/drill.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/drill.rsi
     state: drill_screw
   - type: Item
-    sprite: DeadSpace/Sponsor/3eilado/drill.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/drill.rsi
     size: Small
   - type: MultipleTool
     statusShowBehavior: true
     entries:
       - behavior: Screwing
         sprite:
-          sprite: DeadSpace/Sponsor/3eilado/drill.rsi
+          sprite: _DeadSpace/Sponsor/3eilado/drill.rsi
           state: drill_screw
         useSound:
           path: /Audio/Items/drill_use.ogg
@@ -285,7 +285,7 @@
           path: /Audio/Items/change_drill.ogg
       - behavior: Anchoring
         sprite:
-          sprite: DeadSpace/Sponsor/3eilado/drill.rsi
+          sprite: _DeadSpace/Sponsor/3eilado/drill.rsi
           state: drill_bolt
         useSound:
           path: /Audio/Items/drill_use.ogg
@@ -312,7 +312,7 @@
     activeSound:
       path: /Audio/Ambience/anomaly_scary.ogg
   - type: Sprite
-    sprite: DeadSpace/Sponsor/3eilado/ball.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/ball.rsi
     layers:
       - state: e_sword
         shader: unshaded
@@ -322,7 +322,7 @@
         map: [ "blade" ]
   - type: Item
     size: Small
-    sprite: DeadSpace/Sponsor/3eilado/ball.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/ball.rsi
   - type: PointLight
     enabled: false
     radius: 2
@@ -376,7 +376,7 @@
     activeSound:
       path: /Audio/Weapons/ebladehum.ogg
   - type: Sprite
-    sprite: DeadSpace/Sponsor/3eilado/e_scythe.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/e_scythe.rsi
     layers:
       - state: e_sword
         shader: unshaded
@@ -387,7 +387,7 @@
         map: [ "blade" ]
   - type: Item
     size: Normal
-    sprite: DeadSpace/Sponsor/3eilado/e_scythe.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/e_scythe.rsi
   - type: PointLight
     enabled: false
     radius: 2
@@ -429,9 +429,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/3eilado/hud.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/hud.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/3eilado/hud.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/hud.rsi
   - type: EyeProtection
   - type: Tag
     tags:
@@ -446,7 +446,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/3eilado/moth.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/moth.rsi
     state: plushie_moth
 
 #Tail
@@ -456,11 +456,11 @@
   markingCategory: Tail
   sponsorOnly: true
   sprites:
-  - sprite: DeadSpace/Sponsor/3eilado/tail.rsi
+  - sprite: _DeadSpace/Sponsor/3eilado/tail.rsi
     state: tail
-  - sprite: DeadSpace/Sponsor/3eilado/tail.rsi
+  - sprite: _DeadSpace/Sponsor/3eilado/tail.rsi
     state: tail-tip
-  - sprite: DeadSpace/Sponsor/3eilado/tail.rsi
+  - sprite: _DeadSpace/Sponsor/3eilado/tail.rsi
     state: stars
 
 - type: marking
@@ -470,11 +470,11 @@
   speciesRestriction: [Moth]
   sponsorOnly: true
   sprites:
-  - sprite: DeadSpace/Sponsor/3eilado/moth/wings.rsi
+  - sprite: _DeadSpace/Sponsor/3eilado/moth/wings.rsi
     state: wings
-  - sprite: DeadSpace/Sponsor/3eilado/moth/wings.rsi
+  - sprite: _DeadSpace/Sponsor/3eilado/moth/wings.rsi
     state: gradient
-  - sprite: DeadSpace/Sponsor/3eilado/moth/wings.rsi
+  - sprite: _DeadSpace/Sponsor/3eilado/moth/wings.rsi
     state: stars
 
 - type: marking
@@ -484,7 +484,7 @@
   speciesRestriction: [Moth]
   sponsorOnly: true
   sprites:
-  - sprite: DeadSpace/Sponsor/3eilado/moth/top.rsi
+  - sprite: _DeadSpace/Sponsor/3eilado/moth/top.rsi
     state: head
 
 - type: marking
@@ -492,7 +492,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   sprites:
-  - sprite: DeadSpace/Sponsor/3eilado/horns.rsi
+  - sprite: _DeadSpace/Sponsor/3eilado/horns.rsi
     state: horns
 
 # PDA
@@ -504,9 +504,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Icon
-    sprite: DeadSpace/Sponsor/3eilado/pda.rsi 
+    sprite: _DeadSpace/Sponsor/3eilado/pda.rsi 
   - type: Sprite
-    sprite: DeadSpace/Sponsor/3eilado/pda.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/pda.rsi
   
 # GoldenPlunger
 - type: entity
@@ -517,13 +517,13 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/3eilado/golden_plunger.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/golden_plunger.rsi
     state: plunger
   - type: Item
-    sprite: DeadSpace/Sponsor/3eilado/golden_plunger.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/golden_plunger.rsi
     heldPrefix: plunger
   - type: Clothing
-    sprite: DeadSpace/Sponsor/3eilado/golden_plunger.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/golden_plunger.rsi
 
 # Jetpack
 - type: entity
@@ -534,12 +534,12 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Item
-    sprite: DeadSpace/Sponsor/3eilado/jetpack.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/jetpack.rsi
     size: Huge
   - type: Sprite
-    sprite: DeadSpace/Sponsor/3eilado/jetpack.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/jetpack.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/3eilado/jetpack.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/jetpack.rsi
     slots:
       - Back
       - suitStorage
@@ -554,9 +554,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/3eilado/headset.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/headset.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/3eilado/headset.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/headset.rsi
     
 # Uniform
 - type: entity
@@ -567,9 +567,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/3eilado/jumpsuit.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/jumpsuit.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/3eilado/jumpsuit.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/jumpsuit.rsi
 
 # Hat
 - type: entity
@@ -580,9 +580,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/3eilado/hat.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/hat.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/3eilado/hat.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/hat.rsi
 
 # Coat
 - type: entity
@@ -593,9 +593,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/3eilado/coat.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/coat.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/3eilado/coat.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/coat.rsi
 
 # Cloak_Black
 - type: entity
@@ -606,7 +606,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/3eilado/CloackBlack/cloak_black.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/CloackBlack/cloak_black.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHood3eiladoBlack
     requiredSlot:
@@ -623,9 +623,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/3eilado/CloackBlack/hood.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/CloackBlack/hood.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/3eilado/CloackBlack/hood.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/CloackBlack/hood.rsi
   - type: HideLayerClothing
     slots:
     - Hair
@@ -639,7 +639,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/3eilado/CloackWhite/cloak_white.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/CloackWhite/cloak_white.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHood3eiladoWhite
     requiredSlot:
@@ -656,9 +656,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/3eilado/CloackWhite/hood.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/CloackWhite/hood.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/3eilado/CloackWhite/hood.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/CloackWhite/hood.rsi
   - type: HideLayerClothing
     slots:
     - Hair
@@ -672,10 +672,10 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/3eilado/ring.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/ring.rsi
     scale: "0.7, 0.7"
   - type: Clothing
-    sprite: DeadSpace/Sponsor/3eilado/ring.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/ring.rsi
   - type: Insulated
   - type: Item
     size: Tiny
@@ -691,7 +691,7 @@
     flavors:
       - grass
   - type: Sprite
-    sprite: DeadSpace/Sponsor/3eilado/iris_flower.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/iris_flower.rsi
     state: icon
   - type: Clothing
     slots:
@@ -713,9 +713,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/3eilado/glasses.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/glasses.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/3eilado/glasses.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/glasses.rsi
   - type: FlashImmunity
   - type: EyeProtection
     protectionTime: 5
@@ -730,7 +730,7 @@
   components:
   - type: Sprite
     layers:
-      - sprite: DeadSpace/Sponsor/3eilado/crystal.rsi
+      - sprite: _DeadSpace/Sponsor/3eilado/crystal.rsi
         state: shard1
         map: [ "enum.DamageStateVisualLayers.Base" ]
     color: "#ff8227"
@@ -748,10 +748,10 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/3eilado/hypospray.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/hypospray.rsi
     state: icon
   - type: Item
-    sprite: DeadSpace/Sponsor/3eilado/hypospray.rsi
+    sprite: _DeadSpace/Sponsor/3eilado/hypospray.rsi
   - type: SolutionContainerManager
     solutions:
       hypospray:

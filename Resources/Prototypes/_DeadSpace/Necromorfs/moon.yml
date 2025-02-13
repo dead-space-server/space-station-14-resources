@@ -47,7 +47,7 @@
   - type: Appearance
   - type: Sprite
     noRot: true
-    sprite: DeadSpace/Necromorfs/moon.rsi
+    sprite: _DeadSpace/Necromorfs/moon.rsi
     layers:
     - state: moon
       map: [ "enum.DamageStateVisualLayers.Base" ]

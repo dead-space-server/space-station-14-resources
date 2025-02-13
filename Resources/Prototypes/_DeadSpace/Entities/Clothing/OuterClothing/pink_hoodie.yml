@@ -6,6 +6,6 @@
   suffix: Спонсор
   components:
   - type: Sprite
-    sprite:  DeadSpace/Clothing/OuterClothing/Misc/pink_hoodie.rsi
+    sprite:  _DeadSpace/Clothing/OuterClothing/Misc/pink_hoodie.rsi
   - type: Clothing
-    sprite:  DeadSpace/Clothing/OuterClothing/Misc/pink_hoodie.rsi
+    sprite:  _DeadSpace/Clothing/OuterClothing/Misc/pink_hoodie.rsi

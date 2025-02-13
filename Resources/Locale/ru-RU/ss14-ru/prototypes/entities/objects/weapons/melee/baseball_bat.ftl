@@ -5,3 +5,5 @@ ent-IncompleteBaseBallBat = незаконченная бейсбольная б
 ent-WeaponMeleeKnockbackStick = палка отдачи
     .desc = И вдруг он засплифил.
     .suffix = НЕ МАППИТЬ
+ent-BaseBallBatSteel = бейсбольная бита с гвоздями
+    .desc = Прочная бейсбольная бита, но теперь с гвоздями, выглядит довольно устращающе.

@@ -5,7 +5,7 @@
   description: Склизкое желе которое содержит экстракт пауков ужаса излечивающий их.
   components:
   - type: Sprite
-    sprite: DeadSpace/Spiders/jelespider.rsi
+    sprite: _DeadSpace/Spiders/jelespider.rsi
     state: icon
   - type: Item
     size: Small

@@ -133,7 +133,6 @@
   - type: EmagLatheRecipes
     emagStaticPacks:
     - SecurityAmmoStatic
-    - SecurityWeaponsStatic
   - type: BlueprintReceiver
     whitelist:
       tags:
@@ -206,7 +205,7 @@
     - Janitor
     - Instruments
     - Equipment
-    # - FauxTiles # DS14: moved to CutterMachine recipes
+    - FauxTiles
   - type: EmagLatheRecipes
     emagDynamicPacks:
     - SecurityAmmo
@@ -675,8 +674,6 @@
     staticPacks:
     - FloorTilesStatic
     - CircuitFloorsStatic
-    dynamicRecipes:
-    - FauxTiles
   - type: MaterialStorage
     whitelist:
       tags:

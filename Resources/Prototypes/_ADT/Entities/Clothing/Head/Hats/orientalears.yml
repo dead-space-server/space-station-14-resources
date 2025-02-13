@@ -5,8 +5,8 @@
   description: НЯ!!!
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hats/orientalears.rsi
+    sprite: _ADT/Clothing/Head/Hats/orientalears.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hats/orientalears.rsi
+    sprite: _ADT/Clothing/Head/Hats/orientalears.rsi
   - type: AddAccentClothing
     accent: OwOAccent

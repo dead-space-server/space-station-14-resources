@@ -5,7 +5,7 @@
   description: Рюкзак коронера - донеси свою любовь к трупам, не говоря даже слов.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Back/Backpacks/coroner.rsi
+    sprite: _DeadSpace/Clothing/Back/Backpacks/coroner.rsi
 
 - type: entity
   parent: ClothingBackpackDuffel
@@ -14,7 +14,7 @@
   description: Большой вещмешок для хранения дополнительных медицинских припасов.
   components:
     - type: Sprite
-      sprite: DeadSpace/Clothing/Back/Duffels/coroner.rsi
+      sprite: _DeadSpace/Clothing/Back/Duffels/coroner.rsi
 
 - type: entity
   parent: ClothingBackpackSatchel
@@ -23,4 +23,4 @@
   description: Идеальная сумка, чтобы переносить свои тайны вместе с несколькими косточками в кармане.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Back/Satchels/coroner.rsi
+    sprite: _DeadSpace/Clothing/Back/Satchels/coroner.rsi

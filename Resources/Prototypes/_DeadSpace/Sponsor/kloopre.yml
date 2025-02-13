@@ -7,7 +7,7 @@
   components:
   - type: BreathMask
   - type: Sprite
-    sprite: DeadSpace/Sponsor/kloopre/helmet.rsi
+    sprite: _DeadSpace/Sponsor/kloopre/helmet.rsi
     layers:
     - state: icon
   - type: Clothing
@@ -29,9 +29,9 @@
   description: Легкий, но прочный экзокостюм. Создано NanoTrasen.
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/kloopre/hardsuit.rsi
+    sprite: _DeadSpace/Sponsor/kloopre/hardsuit.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/kloopre/hardsuit.rsi
+    sprite: _DeadSpace/Sponsor/kloopre/hardsuit.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitKloopRe
   - type: Item

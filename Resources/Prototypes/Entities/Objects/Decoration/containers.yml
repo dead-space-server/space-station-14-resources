@@ -7,7 +7,7 @@
   - type: SpriteFade
   - type: Clickable
   - type: Sprite
-    sprite: Corvax/Objects/Decoration/containers.rsi
+    sprite: _Corvax/Objects/Decoration/containers.rsi
     netsync: false
     drawdepth: Overdoors
   - type: Physics

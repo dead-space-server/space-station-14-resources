@@ -76,7 +76,7 @@
   - type: StationEvent
     startAnnouncementColor: "#18abf5"
     startAudio:
-      path: /Audio/DeadSpace/Announcements/flux.ogg # DeadSpace-Announcements
+      path: /Audio/_DeadSpace/Announcements/flux.ogg # DeadSpace-Announcements
       params:
         volume: -2
     weight: 8
@@ -94,7 +94,7 @@
   - type: StationEvent
     startAnnouncementColor: "#18abf5"
     startAudio:
-      path: /Audio/DeadSpace/Announcements/blusp_anomalies.ogg # DeadSpace-Announcements
+      path: /Audio/_DeadSpace/Announcements/blusp_anomalies.ogg # DeadSpace-Announcements
       params:
         volume: -2
     weight: 8
@@ -118,7 +118,7 @@
   components:
   - type: StationEvent
     startAudio:
-      path: /Audio/DeadSpace/Announcements/announce.ogg # DeadSpace-Announcements
+      path: /Audio/_DeadSpace/Announcements/announce.ogg # DeadSpace-Announcements
       params:
         volume: -2
     weight: 8
@@ -133,7 +133,7 @@
   - type: StationEvent
     startAnnouncement: station-event-bureaucratic-error-announcement
     startAudio:
-      path: /Audio/DeadSpace/Announcements/announce.ogg # DeadSpace-Announcements
+      path: /Audio/_DeadSpace/Announcements/announce.ogg # DeadSpace-Announcements
       params:
         volume: -2
     minimumPlayers: 25
@@ -151,7 +151,7 @@
   - type: StationEvent
     startAnnouncement: station-event-clerical-error-announcement
     startAudio:
-      path: /Audio/DeadSpace/Announcements/announce.ogg # DeadSpace-Announcements
+      path: /Audio/_DeadSpace/Announcements/announce.ogg # DeadSpace-Announcements
       params:
         volume: -2
     minimumPlayers: 15
@@ -178,7 +178,7 @@
   - type: StationEvent
     startAnnouncement: station-event-dragon-spawn-announcement
     startAudio:
-      path: /Audio/DeadSpace/Announcements/carps.ogg # DeadSpace-Announcements
+      path: /Audio/_DeadSpace/Announcements/carps.ogg # DeadSpace-Announcements
       params:
         volume: -2
     weight: 6.5
@@ -305,12 +305,12 @@
   - type: StationEvent
     startAnnouncement: station-event-gas-leak-start-announcement
     startAudio:
-      path: /Audio/DeadSpace/Announcements/gasleak_start.ogg # DeadSpace-Announcements
+      path: /Audio/_DeadSpace/Announcements/gasleak_start.ogg # DeadSpace-Announcements
       params:
         volume: -2
     endAnnouncement: station-event-gas-leak-end-announcement
     endAudio:
-      path: /Audio/DeadSpace/Announcements/gasleak_end.ogg # DeadSpace-Announcements
+      path: /Audio/_DeadSpace/Announcements/gasleak_end.ogg # DeadSpace-Announcements
       params:
         volume: -2
     weight: 8
@@ -336,7 +336,7 @@
     startAnnouncement: station-event-power-grid-check-start-announcement
     endAnnouncement: station-event-power-grid-check-end-announcement
     startAudio:
-      path: /Audio/DeadSpace/Announcements/poweroff2.ogg # DeadSpace-Announcements
+      path: /Audio/_DeadSpace/Announcements/poweroff2.ogg # DeadSpace-Announcements
       params:
        volume: -2
     duration: 60
@@ -352,7 +352,7 @@
     startAnnouncement: station-event-solar-flare-start-announcement
     endAnnouncement: station-event-solar-flare-end-announcement
     startAudio:
-      path: /Audio/DeadSpace/Announcements/comms_blackout.ogg # DeadSpace-Announcements
+      path: /Audio/_DeadSpace/Announcements/comms_blackout.ogg # DeadSpace-Announcements
       params:
         volume: -2
     duration: 120
@@ -381,7 +381,7 @@
   - type: StationEvent
     startAnnouncement: station-event-vent-clog-start-announcement
     startAudio:
-      path: /Audio/DeadSpace/Announcements/ventclog.ogg # DeadSpace-Announcements
+      path: /Audio/_DeadSpace/Announcements/ventclog.ogg # DeadSpace-Announcements
       params:
         volume: -2
     earliestStart: 15
@@ -397,7 +397,7 @@
   - type: StationEvent
     startAnnouncement: station-event-vent-creatures-start-announcement
     startAudio:
-      path: /Audio/DeadSpace/Announcements/lifesigns.ogg # DeadSpace-Announcements
+      path: /Audio/_DeadSpace/Announcements/lifesigns.ogg # DeadSpace-Announcements
       params:
         volume: -2
     earliestStart: 20
@@ -420,7 +420,7 @@
   - type: StationEvent
     startAnnouncement: station-event-vent-creatures-start-announcement
     startAudio:
-      path: /Audio/DeadSpace/Announcements/lifesigns.ogg # DeadSpace-Announcements
+      path: /Audio/_DeadSpace/Announcements/lifesigns.ogg # DeadSpace-Announcements
       params:
         volume: -2    
     earliestStart: 20
@@ -443,7 +443,7 @@
   - type: StationEvent
     startAnnouncement: station-event-vent-creatures-start-announcement
     startAudio:
-      path: /Audio/DeadSpace/Announcements/lifesigns.ogg # DeadSpace-Announcements
+      path: /Audio/_DeadSpace/Announcements/lifesigns.ogg # DeadSpace-Announcements
       params:
         volume: -2
     earliestStart: 20
@@ -462,7 +462,7 @@
   - type: StationEvent
     startAnnouncement: station-event-vent-creatures-start-announcement
     startAudio:
-      path: /Audio/DeadSpace/Announcements/lifesigns.ogg # DeadSpace-Announcements
+      path: /Audio/_DeadSpace/Announcements/lifesigns.ogg # DeadSpace-Announcements
       params:
         volume: -2
     earliestStart: 20
@@ -553,7 +553,7 @@
     maxOccurrences: 1 # can only happen once per round
     startAnnouncement: station-event-communication-interception
     startAudio:
-      path: /Audio/DeadSpace/Announcements/ionstorm.ogg # DeadSpace-Announcements
+      path: /Audio/_DeadSpace/Announcements/ionstorm.ogg # DeadSpace-Announcements
       params:
         volume: -3
     duration: null # the rule has to last the whole round not 1 second
@@ -597,7 +597,7 @@
     reoccurrenceDelay: 20
     startAnnouncement: station-event-ion-storm-start-announcement
     startAudio:
-      path: /Audio/DeadSpace/Announcements/i-storm3.ogg # DeadSpace-Announcements
+      path: /Audio/_DeadSpace/Announcements/i-storm3.ogg # DeadSpace-Announcements
       params:
         volume: -2
     duration: 1
@@ -620,7 +620,7 @@
   components:
   - type: StationEvent
     startAudio:
-      path: /Audio/DeadSpace/Announcements/attention.ogg
+      path: /Audio/_DeadSpace/Announcements/attention.ogg
     weight: 5
     minimumPlayers: 25
     reoccurrenceDelay: 20

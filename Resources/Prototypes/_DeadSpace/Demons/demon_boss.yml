@@ -24,7 +24,7 @@
       path: /Audio/Items/crowbar.ogg
   - type: Sprite
     drawdepth: Mobs
-    sprite: DeadSpace/Demons/demon_boss.rsi
+    sprite: _DeadSpace/Demons/demon_boss.rsi
   - type: MovementAlwaysTouching
   - type: MovementSpeedModifier
     baseWalkSpeed: 1

@@ -4,7 +4,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/Mobs/Species/Xenomorph/organs.rsi
+    sprite: _DeadSpace/Sponsor/Mobs/Species/Xenomorph/organs.rsi
   - type: Organ
   - type: Extractable
     grindableSolutionName: organ

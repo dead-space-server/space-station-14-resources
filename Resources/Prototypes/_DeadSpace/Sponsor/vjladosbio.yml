@@ -12,7 +12,7 @@
   # categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/bio/backpack.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/bio/backpack.rsi
   - type: Storage
     maxItemSize: Huge
     grid:
@@ -48,9 +48,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/bio/belt.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/bio/belt.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/vjlados/bio/belt.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/bio/belt.rsi
   - type: Item
     size: Huge
   - type: StorageFill
@@ -69,7 +69,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/bio/cloak.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/bio/cloak.rsi
 
 # Gloves
 - type: entity
@@ -80,9 +80,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/bio/gloves.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/bio/gloves.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/vjlados/bio/gloves.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/bio/gloves.rsi
 
 # Hardsuit
 - type: entity
@@ -93,9 +93,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/bio/hardsuit.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/bio/hardsuit.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/vjlados/bio/hardsuit.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/bio/hardsuit.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitVjladosBio
   - type: Item
@@ -109,9 +109,9 @@
   description: Шлем изолирующий владельца от страшного вакуума снаружи.
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/bio/helmet.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/bio/helmet.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/vjlados/bio/helmet.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/bio/helmet.rsi
   - type: PointLight
     color: "#c6f50a"
   - type: PressureProtection
@@ -127,9 +127,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/bio/jumpsuit.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/bio/jumpsuit.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/vjlados/bio/jumpsuit.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/bio/jumpsuit.rsi
 
 # Magboots
 - type: entity
@@ -140,12 +140,12 @@
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
-      sprite: DeadSpace/Sponsor/vjlados/bio/magboots.rsi
+      sprite: _DeadSpace/Sponsor/vjlados/bio/magboots.rsi
       layers:
       - state: icon
         map: [ "enum.ToggleVisuals.Layer" ]
     - type: Clothing
-      sprite: DeadSpace/Sponsor/vjlados/bio/magboots.rsi
+      sprite: _DeadSpace/Sponsor/vjlados/bio/magboots.rsi
     - type: ClothingSpeedModifier
       walkModifier: 1
       sprintModifier: 1
@@ -159,9 +159,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/bio/coat.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/bio/coat.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/vjlados/bio/coat.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/bio/coat.rsi
 
 # Panties
 - type: entity
@@ -171,7 +171,7 @@
   description: Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации.
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/bio/under/man.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/bio/under/man.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -180,7 +180,7 @@
   description: Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации.
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/bio/under/women/bra.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/bio/under/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -190,7 +190,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/bio/under/women/panties.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/bio/under/women/panties.rsi
 
 # Socks
 - type: entity
@@ -201,7 +201,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/bio/socks.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/bio/socks.rsi
 
 # Other
 - type: entity
@@ -212,7 +212,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/bio/e_sword_double.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/bio/e_sword_double.rsi
     layers:
       - state: e_sword_double
       - state: e_sword_double_blade
@@ -222,7 +222,7 @@
         map: [ "blade" ]
   - type: Item
     size: Small
-    sprite: DeadSpace/Sponsor/vjlados/bio/e_sword_double-inhands.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/bio/e_sword_double-inhands.rsi
   - type: Wieldable
 
 - type: entity
@@ -249,11 +249,11 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Item
-    sprite: DeadSpace/Sponsor/vjlados/bio/jetpack.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/bio/jetpack.rsi
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/bio/jetpack.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/bio/jetpack.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/vjlados/bio/jetpack.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/bio/jetpack.rsi
 
 # Gasmask
 - type: entity
@@ -264,9 +264,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/bio/gasmask.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/bio/gasmask.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/vjlados/bio/gasmask.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/bio/gasmask.rsi
 
 # PDA
 - type: entity
@@ -277,9 +277,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Icon
-    sprite: DeadSpace/Sponsor/vjlados/bio/pda.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/bio/pda.rsi
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/bio/pda.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/bio/pda.rsi
   - type: Pda
     penSlot:
       startingItem: PenVjlados
@@ -293,7 +293,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/bio/pen.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/bio/pen.rsi
 
 # HeadSet
 - type: entity
@@ -302,4 +302,4 @@
   name: гарнитура ксеноида
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/bio/headset.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/bio/headset.rsi

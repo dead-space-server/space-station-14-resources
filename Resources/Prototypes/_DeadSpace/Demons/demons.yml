@@ -8,7 +8,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: DeadSpace/Demons/demon_simple.rsi
+    sprite: _DeadSpace/Demons/demon_simple.rsi
   - type: HTN
     rootTask:
       task: SimpleHostileCompound

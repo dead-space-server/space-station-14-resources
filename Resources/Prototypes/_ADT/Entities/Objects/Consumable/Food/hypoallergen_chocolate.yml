@@ -8,7 +8,7 @@
     flavors:
       - chocolate
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Food/hypoallergen_chocolate.rsi
+    sprite: _ADT/Objects/Consumable/Food/hypoallergen_chocolate.rsi
     state: hypoallergen_chocolate
   - type: Item
   - type: SolutionContainerManager

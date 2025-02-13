@@ -150,7 +150,7 @@
   - type: GunRequiresWield #remove when inaccuracy on spreads is fixed
   - type: Gun # Corvax-Guns
     soundGunshot:
-      path: /Audio/Corvax/Weapons/Guns/Gunshots/shotgun_metal.ogg
+      path: /Audio/_Corvax/Weapons/Guns/Gunshots/shotgun_metal.ogg
 
 - type: entity
   parent: WeaponShotgunEnforcer
@@ -161,7 +161,7 @@
     proto: ShellShotgunBeanbag
   - type: Gun # Corvax-Guns
     soundGunshot:
-      path: /Audio/Corvax/Weapons/Guns/Gunshots/shotgun_metal.ogg
+      path: /Audio/_Corvax/Weapons/Guns/Gunshots/shotgun_metal.ogg
 
 - type: entity
   name: Kammerer
@@ -181,7 +181,7 @@
   - type: GunRequiresWield #remove when inaccuracy on spreads is fixed
   - type: Gun
     soundGunshot: # Corvax-Guns
-      path: /Audio/Corvax/Weapons/Guns/Gunshots/shotgun_alt.ogg
+      path: /Audio/_Corvax/Weapons/Guns/Gunshots/shotgun_alt.ogg
     fireRate: 1
   - type: Tag
     tags:
@@ -203,7 +203,7 @@
   - type: Gun
     fireRate: 3
     soundGunshot: # Corvax-Guns
-      path: /Audio/Corvax/Weapons/Guns/Gunshots/shotgun_sawed.ogg
+      path: /Audio/_Corvax/Weapons/Guns/Gunshots/shotgun_sawed.ogg
   - type: BallisticAmmoProvider
     capacity: 2
   - type: Construction
@@ -241,7 +241,7 @@
   - type: Gun
     fireRate: 4
     soundGunshot: # Corvax-Guns
-      path: /Audio/Corvax/Weapons/Guns/Gunshots/shotgun_pipe.ogg
+      path: /Audio/_Corvax/Weapons/Guns/Gunshots/shotgun_pipe.ogg
   - type: BallisticAmmoProvider
     capacity: 1
   - type: Construction

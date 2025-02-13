@@ -6,10 +6,10 @@
   description: Собиратель трупов, поглощает поверженных собратьев.
   components:
   - type: Sprite
-    sprite: DeadSpace/Necromorfs/corpsecollector.rsi
+    sprite: _DeadSpace/Necromorfs/corpsecollector.rsi
     state: lvl1
   - type: Clothing
-    sprite: DeadSpace/Necromorfs/corpsecollector.rsi
+    sprite: _DeadSpace/Necromorfs/corpsecollector.rsi
     clothingVisuals:
       outerClothing:
       - state: lvl1
@@ -36,10 +36,10 @@
   description: Собиратель трупов, поглощает поверженных собратьев.
   components:
   - type: Sprite
-    sprite: DeadSpace/Necromorfs/corpsecollector.rsi
+    sprite: _DeadSpace/Necromorfs/corpsecollector.rsi
     state: lvl2
   - type: Clothing
-    sprite: DeadSpace/Necromorfs/corpsecollector.rsi
+    sprite: _DeadSpace/Necromorfs/corpsecollector.rsi
     clothingVisuals:
       outerClothing:
       - state: lvl2
@@ -66,10 +66,10 @@
   description: Собиратель трупов, поглощает поверженных собратьев.
   components:
   - type: Sprite
-    sprite: DeadSpace/Necromorfs/corpsecollector.rsi
+    sprite: _DeadSpace/Necromorfs/corpsecollector.rsi
     state: lvl3
   - type: Clothing
-    sprite: DeadSpace/Necromorfs/corpsecollector.rsi
+    sprite: _DeadSpace/Necromorfs/corpsecollector.rsi
     clothingVisuals:
       outerClothing:
       - state: lvl3

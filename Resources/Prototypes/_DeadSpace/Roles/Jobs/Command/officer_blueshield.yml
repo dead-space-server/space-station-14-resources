@@ -95,7 +95,7 @@
   description: Рюкзак офицера "Синий Щит" с функцией РИГ.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Back/blueshield.rsi
+    sprite: _DeadSpace/Clothing/Back/blueshield.rsi
   - type: Storage
     grid:
     - 0,0,7,5

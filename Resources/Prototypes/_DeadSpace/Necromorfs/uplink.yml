@@ -35,7 +35,7 @@
   id: UnitologyPukerNecroList
   name: Некроморф выделитель газа
   description: Некроморф.
-  icon: { sprite: DeadSpace/Necromorfs/puker.rsi, state: running }
+  icon: { sprite: _DeadSpace/Necromorfs/puker.rsi, state: running }
   productEntity: PukerNecro
   cost:
     Telecrystal: 10

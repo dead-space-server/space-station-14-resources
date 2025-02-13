@@ -117,10 +117,10 @@
   description: Magnetic boots, often used during extravehicular activity to ensure the user remains safely attached to the vehicle.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Shoes/Boots/magboots-ert.rsi
+    sprite: _ADT/Clothing/Shoes/Boots/magboots-ert.rsi
     state: icon
   - type: Clothing
-    sprite: ADT/Clothing/Shoes/Boots/magboots-ert.rsi
+    sprite: _ADT/Clothing/Shoes/Boots/magboots-ert.rsi
   - type: ClothingSpeedModifier
     walkModifier: 1
     sprintModifier: 1
@@ -133,10 +133,10 @@
   suffix: Syndicate
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Shoes/Boots/advanced.rsi
+    sprite: _ADT/Clothing/Shoes/Boots/advanced.rsi
     state: icon
   - type: Clothing
-    sprite: ADT/Clothing/Shoes/Boots/advanced.rsi
+    sprite: _ADT/Clothing/Shoes/Boots/advanced.rsi
   - type: ClothingSpeedModifier
     walkModifier: 1
     sprintModifier: 1

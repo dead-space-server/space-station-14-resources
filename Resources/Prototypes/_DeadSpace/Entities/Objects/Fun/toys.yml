@@ -5,21 +5,21 @@
   description: На бирке красуется надпись "Слава Мёртвому Космосу!"
   components:
   - type: Sprite
-    sprite: DeadSpace/Items/Toys/discord.rsi
+    sprite: _DeadSpace/Items/Toys/discord.rsi
     state: blue
   - type: EmitSoundOnUse
     sound:
-      path: /Audio/DeadSpace/Items/Toys/DiscordToy/discord-notification1.ogg
+      path: /Audio/_DeadSpace/Items/Toys/DiscordToy/discord-notification1.ogg
       params:
         volume: -5
   - type: EmitSoundOnTrigger
     sound:
-      path: /Audio/DeadSpace/Items/Toys/DiscordToy/user_join.ogg
+      path: /Audio/_DeadSpace/Items/Toys/DiscordToy/user_join.ogg
       volume: -5
   - type: Food
     requiresSpecialDigestion: true
     useSound:
-      path: /Audio/DeadSpace/Items/Toys/DiscordToy/call_ringing.ogg
+      path: /Audio/_DeadSpace/Items/Toys/DiscordToy/call_ringing.ogg
       params:
         volume: -5
   - type: Item
@@ -30,12 +30,12 @@
     delay: 2.0
   - type: EmitSoundOnActivate
     sound:
-      path: /Audio/DeadSpace/Items/Toys/DiscordToy/user_join.ogg
+      path: /Audio/_DeadSpace/Items/Toys/DiscordToy/user_join.ogg
       params:
         volume: -5
   - type: EmitSoundOnCollide
     sound:
-      path: /Audio/DeadSpace/Items/Toys/DiscordToy/user_leave.ogg
+      path: /Audio/_DeadSpace/Items/Toys/DiscordToy/user_leave.ogg
       params:
         volume: -5
 
@@ -46,7 +46,7 @@
   description: Увы...
   components:
   - type: Sprite
-    sprite: DeadSpace/Items/Toys/jokerge.rsi
+    sprite: _DeadSpace/Items/Toys/jokerge.rsi
     state: jokerge
     
 - type: entity
@@ -81,7 +81,7 @@
   description: Интересно, откуда они тут взялись?
   components:
   - type: Sprite
-    sprite: DeadSpace/Items/Toys/floran.rsi
+    sprite: _DeadSpace/Items/Toys/floran.rsi
     state: floran
 
 - type: entity
@@ -91,7 +91,7 @@
   description: Мягкая игрушка, напоминающая джаггернаута ядерных оперативников Синдиката. На бирке указано, что оперативники это полнейшая выдумка.
   components:
   - type: Sprite
-    sprite: DeadSpace/Items/Toys/juggernaut.rsi
+    sprite: _DeadSpace/Items/Toys/juggernaut.rsi
     state: juggernaut
 
 - type: entity
@@ -101,7 +101,7 @@
   description: Хладнокровный и расчётливы, специализирующийся на управлении специальными операциями. Способен принимать взвешенные решения в критических ситуациях не смотря на то что он хомяк.
   components:
   - type: Sprite
-    sprite: DeadSpace/Items/Toys/lieutenant.rsi
+    sprite: _DeadSpace/Items/Toys/lieutenant.rsi
     state: lieutenant
 
 - type: entity
@@ -111,7 +111,7 @@
   description: Милый плюшевый КПС.
   components:
   - type: Sprite
-    sprite: DeadSpace/Items/Toys/plushie_ips.rsi
+    sprite: _DeadSpace/Items/Toys/plushie_ips.rsi
     state: ips
 
 - type: entity
@@ -135,7 +135,7 @@
     containers:
       ballistic-ammo: !type:Container
   - type: Sprite
-    sprite: DeadSpace/Items/Toys/TommyGun/magazine.rsi  
+    sprite: _DeadSpace/Items/Toys/TommyGun/magazine.rsi  
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]

@@ -5,9 +5,9 @@
   description: The second skin of those who love speed and stars.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/pilotsuit.rsi
+    sprite: _ADT/Clothing/OuterClothing/Hardsuits/pilotsuit.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/pilotsuit.rsi
+    sprite: _ADT/Clothing/OuterClothing/Hardsuits/pilotsuit.rsi
   - type: ClothingSpeedModifier
     walkModifier: 0.9
     sprintModifier: 0.9
@@ -21,9 +21,9 @@
   description: For keepers of order among the stars.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/pilotsuitsec.rsi
+    sprite: _ADT/Clothing/OuterClothing/Hardsuits/pilotsuitsec.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/pilotsuitsec.rsi
+    sprite: _ADT/Clothing/OuterClothing/Hardsuits/pilotsuitsec.rsi
   - type: ClothingSpeedModifier
     walkModifier: 0.8
     sprintModifier: 0.8

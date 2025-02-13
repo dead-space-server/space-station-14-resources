@@ -5,7 +5,7 @@
   description: Твоя персональная неко-горничная!
   components:
   - type: Sprite
-    sprite: DeadSpace/Objects/Fun/pai-neco.rsi
+    sprite: _DeadSpace/Objects/Fun/pai-neco.rsi
     layers:
     - state: pai-base
     - state: pai-off-overlay
@@ -25,7 +25,7 @@
   suffix: персональный ИИ кошкогорничная Синдиката
   components:
   - type: Sprite
-    sprite: DeadSpace/Objects/Fun/pai-neco.rsi
+    sprite: _DeadSpace/Objects/Fun/pai-neco.rsi
     layers:
     - state: syndicate-pai-base
     - state: syndicate-pai-off-overlay

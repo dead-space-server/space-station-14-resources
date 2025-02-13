@@ -6,7 +6,7 @@
   targetNode: clothingCraftHelmet
   category: construction-category-clothing
   description: самодельная каска с защитой для лица.
-  icon: { sprite: DeadSpace/Clothing/Head/Hats/crafthelmet.rsi, state: icon }
+  icon: { sprite: _DeadSpace/Clothing/Head/Hats/crafthelmet.rsi, state: icon }
   objectType: Item
 
 - type: construction
@@ -17,5 +17,5 @@
   targetNode: clothingCraftArmor
   category: construction-category-clothing
   description: сомедельный бронежилет из кусков стали
-  icon: { sprite: DeadSpace/Clothing/OuterClothing/Armor/ArmorBasicSlim.rsi, state: icon }
+  icon: { sprite: _DeadSpace/Clothing/OuterClothing/Armor/ArmorBasicSlim.rsi, state: icon }
   objectType: Item

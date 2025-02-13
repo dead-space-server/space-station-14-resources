@@ -9,7 +9,7 @@
       layers:
         - map: ["enum.DamageStateVisualLayers.Base", "movement"]
           state: snake
-          sprite: DeadSpace/Mobs/Pets/rouge.rsi
+          sprite: _DeadSpace/Mobs/Pets/rouge.rsi
     - type: SpriteMovement
       movementLayers:
         movement:
@@ -72,7 +72,7 @@
       layers:
         - state: green
         - state: snake
-          sprite: DeadSpace/Mobs/Pets/rouge.rsi
+          sprite: _DeadSpace/Mobs/Pets/rouge.rsi
     - type: ConditionalSpawner
       prototypes:
         - MobSnakeSyndicate
@@ -86,7 +86,7 @@
       layers:
         - state: green
         - state: snake
-          sprite: DeadSpace/Mobs/Pets/rouge.rsi
+          sprite: _DeadSpace/Mobs/Pets/rouge.rsi
     - type: ConditionalSpawner
       prototypes:
         - MobSnakeSyndicateRouge

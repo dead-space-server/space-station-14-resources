@@ -10,7 +10,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: running
-      sprite: DeadSpace/Spiders/varrior_terror.rsi
+      sprite: _DeadSpace/Spiders/varrior_terror.rsi
   - type: MeleeWeapon
     altDisarm: false
     angle: 0
@@ -84,7 +84,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: running
-      sprite: DeadSpace/Spiders/knight_terror.rsi
+      sprite: _DeadSpace/Spiders/knight_terror.rsi
   - type: MeleeWeapon
     altDisarm: false
     angle: 0

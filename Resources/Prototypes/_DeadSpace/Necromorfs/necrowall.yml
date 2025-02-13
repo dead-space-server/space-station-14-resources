@@ -13,7 +13,7 @@
   - type: InteractionOutline
   - type: Appearance
   - type: Sprite
-    sprite: DeadSpace/Necromorfs/necrowall.rsi
+    sprite: _DeadSpace/Necromorfs/necrowall.rsi
     state: stage1
   - type: NecroWallVisuals
   - type: Transform

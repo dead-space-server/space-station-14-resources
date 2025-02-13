@@ -5,7 +5,7 @@
   description: Высоко технологичная сумка изготовленая из тех же материалов что и костюм ниндзи.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Back/ninjasatchel.rsi
+    sprite: _ADT/Clothing/Back/ninjasatchel.rsi
   - type: Storage
     maxItemSize: Huge
 
@@ -16,4 +16,4 @@
   description: Сумка для хранения. Ой, а что там? Все украденные тобой сердца?
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Back/heart_satchel.rsi
+    sprite: _ADT/Clothing/Back/heart_satchel.rsi

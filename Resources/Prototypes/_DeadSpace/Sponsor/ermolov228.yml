@@ -7,8 +7,8 @@
 - type: soundCollection
   id: Ermolov228Whistle
   files:
-    - /Audio/DeadSpace/Sponsor/ermolov228/whistle_1.ogg
-    - /Audio/DeadSpace/Sponsor/ermolov228/whistle_2.ogg
+    - /Audio/_DeadSpace/Sponsor/ermolov228/whistle_1.ogg
+    - /Audio/_DeadSpace/Sponsor/ermolov228/whistle_2.ogg
   
 # Backpack
 - type: entity
@@ -18,9 +18,9 @@
   description: Вместилище полезных и не очень вещей, ей явно уже не один десяток лет
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/ermolov228/satchel.rsi
+    sprite: _DeadSpace/Sponsor/ermolov228/satchel.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/ermolov228/satchel.rsi
+    sprite: _DeadSpace/Sponsor/ermolov228/satchel.rsi
   - type: Storage
     maxItemSize: Huge
     grid:
@@ -50,9 +50,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/ermolov228/belt.rsi
+    sprite: _DeadSpace/Sponsor/ermolov228/belt.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/ermolov228/belt.rsi
+    sprite: _DeadSpace/Sponsor/ermolov228/belt.rsi
   - type: Item
     size: Huge
   - type: StorageFill
@@ -71,7 +71,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/ermolov228/neck.rsi
+    sprite: _DeadSpace/Sponsor/ermolov228/neck.rsi
 
 # Hardsuit
 - type: entity
@@ -82,9 +82,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/ermolov228/hardsuit.rsi
+    sprite: _DeadSpace/Sponsor/ermolov228/hardsuit.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/ermolov228/hardsuit.rsi
+    sprite: _DeadSpace/Sponsor/ermolov228/hardsuit.rsi
     clothingVisuals:
       outerClothing:
       - state: equipped-OUTERCLOTHING
@@ -111,9 +111,9 @@
   description: Герметичный костюм исследователя бездны, модифицированный для нахождения в открытом космосе.
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/ermolov228/helmet.rsi
+    sprite: _DeadSpace/Sponsor/ermolov228/helmet.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/ermolov228/helmet.rsi
+    sprite: _DeadSpace/Sponsor/ermolov228/helmet.rsi
   - type: PointLight
     color: "#db94ff"
   - type: PressureProtection
@@ -129,13 +129,13 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/ermolov228/whistle.rsi
+    sprite: _DeadSpace/Sponsor/ermolov228/whistle.rsi
     state: whistle
     scale: 0.7, 0.7
   - type: UseDelay
     delay: 2.75
   - type: Clothing
-    sprite: DeadSpace/Sponsor/ermolov228/whistle.rsi
+    sprite: _DeadSpace/Sponsor/ermolov228/whistle.rsi
   - type: Whistle
     distance: 5
   - type: EmitSoundOnUse
@@ -171,9 +171,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Icon
-    sprite: DeadSpace/Sponsor/ermolov228/pda.rsi
+    sprite: _DeadSpace/Sponsor/ermolov228/pda.rsi
   - type: Sprite
-    sprite: DeadSpace/Sponsor/ermolov228/pda.rsi
+    sprite: _DeadSpace/Sponsor/ermolov228/pda.rsi
   - type: PdaBorderColor
     borderColor: "#3b3a41"
     accentVColor: "#eccaf9"
@@ -189,7 +189,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/ermolov228/mug.rsi
+    sprite: _DeadSpace/Sponsor/ermolov228/mug.rsi
 
 # Gloves
 - type: entity
@@ -200,9 +200,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/ermolov228/gloves.rsi
+    sprite: _DeadSpace/Sponsor/ermolov228/gloves.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/ermolov228/gloves.rsi
+    sprite: _DeadSpace/Sponsor/ermolov228/gloves.rsi
 
 # Magboots
 - type: entity
@@ -213,9 +213,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/ermolov228/magboots.rsi
+    sprite: _DeadSpace/Sponsor/ermolov228/magboots.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/ermolov228/magboots.rsi
+    sprite: _DeadSpace/Sponsor/ermolov228/magboots.rsi
 
 # PaperLaw
 - type: entity

@@ -12,7 +12,7 @@
     used: true
     breakOnRemove: true
     brokenPrototype: MaterialWebSilk1
-    cuffedRSI: DeadSpace/Spiders/handcuffs.rsi
+    cuffedRSI: _DeadSpace/Spiders/handcuffs.rsi
     bodyIconState: body-overlay
     startCuffSound:
       collection: SpiderHatches
@@ -25,7 +25,7 @@
     endUncuffSound:
       collection: SpiderHatches
   - type: Sprite
-    sprite: DeadSpace/Spiders/handcuffs.rsi
+    sprite: _DeadSpace/Spiders/handcuffs.rsi
     state: handcuff
   - type: Tag
     tags:
@@ -47,9 +47,9 @@
   description: Липкая.
   components:
   - type: Sprite
-    sprite: DeadSpace/Spiders/blindfold.rsi
+    sprite: _DeadSpace/Spiders/blindfold.rsi
   - type: Clothing
-    sprite: DeadSpace/Spiders/blindfold.rsi
+    sprite: _DeadSpace/Spiders/blindfold.rsi
   - type: Blindfold
   - type: Construction
     graph: Blindfold
@@ -69,9 +69,9 @@
   description: Липкая.
   components:
   - type: Sprite
-    sprite: DeadSpace/Spiders/boots.rsi
+    sprite: _DeadSpace/Spiders/boots.rsi
   - type: Clothing
-    sprite: DeadSpace/Spiders/boots.rsi
+    sprite: _DeadSpace/Spiders/boots.rsi
   - type: CaptiveShackles
   - type: ClothingSpeedModifier
     walkModifier: 0.02
@@ -91,9 +91,9 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: DeadSpace/Spiders/muzzle.rsi
+    sprite: _DeadSpace/Spiders/muzzle.rsi
   - type: Clothing
-    sprite: DeadSpace/Spiders/muzzle.rsi
+    sprite: _DeadSpace/Spiders/muzzle.rsi
   - type: IngestionBlocker
   - type: AddAccentClothing
     accent: ReplacementAccent
@@ -117,7 +117,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: running
-      sprite: DeadSpace/Spiders/lurker.rsi
+      sprite: _DeadSpace/Spiders/lurker.rsi
   - type: MeleeWeapon
     altDisarm: false
     angle: 0

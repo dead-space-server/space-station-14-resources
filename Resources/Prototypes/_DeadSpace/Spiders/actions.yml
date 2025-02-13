@@ -107,7 +107,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
-    icon: DeadSpace/Interface/Actions/create.png
+    icon: _DeadSpace/Interface/Actions/create.png
     event: !type:SpawnAgainstActionEvent
     checkCanInteract: false
 
@@ -132,7 +132,7 @@
   - type: EntityTargetAction
     useDelay: 10
     icon:
-      sprite: DeadSpace/Spiders/cocoon.rsi
+      sprite: _DeadSpace/Spiders/cocoon.rsi
       state: cocoon
     event: !type:LockCocoonEvent
     checkCanAccess: false
@@ -147,7 +147,7 @@
   - type: EntityTargetAction
     useDelay: 10
     icon:
-      sprite: /Textures/DeadSpace/Interface/Misc/antag_icons.rsi
+      sprite: /Textures/_DeadSpace/Interface/Misc/antag_icons.rsi
       state: Egg
     event: !type:SpiderInfectorActionEvent
     checkCanAccess: false
@@ -162,6 +162,6 @@
   - type: InstantAction
     useDelay: 10
     icon:
-      sprite: /Textures/DeadSpace/Interface/Misc/antag_icons.rsi
+      sprite: /Textures/_DeadSpace/Interface/Misc/antag_icons.rsi
       state: Egg
     event: !type:HatchActionEvent

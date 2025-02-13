@@ -5,10 +5,10 @@
   description: Обязательный атрибут бродячих музыкантов и тихих школьников.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Back/case.rsi
+    sprite: _DeadSpace/Clothing/Back/case.rsi
     state: sheath
   - type: Clothing
-    sprite: DeadSpace/Clothing/Back/case.rsi
+    sprite: _DeadSpace/Clothing/Back/case.rsi
     quickEquip: false
     slots:
     - back

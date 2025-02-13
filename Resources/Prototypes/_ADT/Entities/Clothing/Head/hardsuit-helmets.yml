@@ -5,9 +5,9 @@
   name: шлем телохранителя Cybersun
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hardsuits/cybersunbodyguard.rsi
+    sprite: _ADT/Clothing/Head/Hardsuits/cybersunbodyguard.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hardsuits/cybersunbodyguard.rsi
+    sprite: _ADT/Clothing/Head/Hardsuits/cybersunbodyguard.rsi
   - type: PointLight
     color: red
   - type: PressureProtection
@@ -32,9 +32,9 @@
   name: шлем суперсолдата Cybersun
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hardsuits/cybersun_crysis_head.rsi
+    sprite: _ADT/Clothing/Head/Hardsuits/cybersun_crysis_head.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hardsuits/cybersun_crysis_head.rsi
+    sprite: _ADT/Clothing/Head/Hardsuits/cybersun_crysis_head.rsi
   - type: PointLight
     color: red
     radius: 7
@@ -61,9 +61,9 @@
   name: шлем скафандра "Цербера"
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hardsuits/cerber_helmet.rsi
+    sprite: _ADT/Clothing/Head/Hardsuits/cerber_helmet.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hardsuits/cerber_helmet.rsi
+    sprite: _ADT/Clothing/Head/Hardsuits/cerber_helmet.rsi
   - type: PointLight
     color: "#FF0000"
   - type: PressureProtection
@@ -85,9 +85,9 @@
   name: шлем элитного скафандра самурая
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hardsuits/saiba_sain_hardsuit_helmet.rsi
+    sprite: _ADT/Clothing/Head/Hardsuits/saiba_sain_hardsuit_helmet.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hardsuits/saiba_sain_hardsuit_helmet.rsi
+    sprite: _ADT/Clothing/Head/Hardsuits/saiba_sain_hardsuit_helmet.rsi
   - type: PointLight
     color: red
     radius: 9
@@ -114,9 +114,9 @@
   name: шлем Ilisium
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hardsuits/helmet.rsi
+    sprite: _ADT/Clothing/Head/Hardsuits/helmet.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hardsuits/helmet.rsi
+    sprite: _ADT/Clothing/Head/Hardsuits/helmet.rsi
   - type: PointLight
     color: red
   - type: PressureProtection
@@ -138,9 +138,9 @@
   description: И не знает он страха.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hardsuits/marinnehead.rsi
+    sprite: _ADT/Clothing/Head/Hardsuits/marinnehead.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hardsuits/marinnehead.rsi
+    sprite: _ADT/Clothing/Head/Hardsuits/marinnehead.rsi
   - type: PointLight
     color: red
   - type: PressureProtection

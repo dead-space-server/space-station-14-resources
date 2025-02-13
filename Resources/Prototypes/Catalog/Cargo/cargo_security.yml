@@ -81,7 +81,7 @@
 - type: cargoProduct
   id: SecurityUSSPjuggernaut
   icon:
-    sprite: ADT/Clothing/OuterClothing/Armor/usspjuggernaut.rsi
+    sprite: _ADT/Clothing/OuterClothing/Armor/usspjuggernaut.rsi
     state: icon
   product: CrateSecurityUSSPjuggernaut
   cost: 10000

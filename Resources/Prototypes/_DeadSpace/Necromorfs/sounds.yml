@@ -1,30 +1,30 @@
 - type: soundCollection
   id: NecroScreams
   files:
-    - /Audio/DeadSpace/Necromorfs/necromorphSound.ogg
-    - /Audio/DeadSpace/Necromorfs/necromorphSound2.ogg
-    - /Audio/DeadSpace/Necromorfs/necroSlasher1.ogg
-    - /Audio/DeadSpace/Necromorfs/necroSlasher2.ogg
+    - /Audio/_DeadSpace/Necromorfs/necromorphSound.ogg
+    - /Audio/_DeadSpace/Necromorfs/necromorphSound2.ogg
+    - /Audio/_DeadSpace/Necromorfs/necroSlasher1.ogg
+    - /Audio/_DeadSpace/Necromorfs/necroSlasher2.ogg
 
 - type: soundCollection
   id: ConvergenceMusic
   files:
-    - /Audio/DeadSpace/Necromorfs/plasma_cutters_are_your_friend.ogg
+    - /Audio/_DeadSpace/Necromorfs/plasma_cutters_are_your_friend.ogg
 
 - type: soundCollection
   id: DevaEat
   files:
-    - /Audio/DeadSpace/Necromorfs/deva_eat1.ogg
-    - /Audio/DeadSpace/Necromorfs/deva_eat2.ogg
-    - /Audio/DeadSpace/Necromorfs/deva_eat3.ogg
+    - /Audio/_DeadSpace/Necromorfs/deva_eat1.ogg
+    - /Audio/_DeadSpace/Necromorfs/deva_eat2.ogg
+    - /Audio/_DeadSpace/Necromorfs/deva_eat3.ogg
 
 - type: soundCollection
   id: DevaEnrage
   files:
-    - /Audio/DeadSpace/Necromorfs/deva_enrage1.ogg
-    - /Audio/DeadSpace/Necromorfs/deva_enrage2.ogg
+    - /Audio/_DeadSpace/Necromorfs/deva_enrage1.ogg
+    - /Audio/_DeadSpace/Necromorfs/deva_enrage2.ogg
 
 - type: soundCollection
   id: SoundsHeadaches
   files:
-    - /Audio/DeadSpace/Necromorfs/headaches.ogg
+    - /Audio/_DeadSpace/Necromorfs/headaches.ogg

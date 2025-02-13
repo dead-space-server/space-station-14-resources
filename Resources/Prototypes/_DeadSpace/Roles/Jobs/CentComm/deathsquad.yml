@@ -41,20 +41,6 @@
     - EnergyShield
     - JawsOfLife
     - NukeCodePaper
-  
-- type: entity
-  parent: WeaponRevolverMateba
-  id: WeaponRevolverMatebaAP
-  name: Матеба
-  description: Знаковое оружие ужасающих эскадронов смерти. Использует патроны калибра .44 магнум.
-  suffix: Револьвер, Бронебойный, Эскадрон смерти
-  components:
-  - type: RevolverAmmoProvider
-    whitelist:
-      tags:
-        - CartridgeMagnum
-        - SpeedLoaderMagnum
-    proto: CartridgeMagnumAP
 
 - type: entity
   parent: ClothingBeltSecurityWebbing

@@ -7,7 +7,7 @@
   - type: Spillable
     solution: beaker
   - type: Sprite
-    sprite: ADT/Objects/Misc/mixing_glass.rsi
+    sprite: _ADT/Objects/Misc/mixing_glass.rsi
     layers:
       - state: mixing_glass
       - state: mixing_glass1
@@ -16,7 +16,7 @@
       - state: mixing_glass-front
   - type: Item
     size: Small
-    sprite: ADT/Objects/Misc/mixing_glass.rsi
+    sprite: _ADT/Objects/Misc/mixing_glass.rsi
   - type: SolutionContainerManager
     solutions:
       beaker:

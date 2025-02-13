@@ -11,7 +11,7 @@
         path:
           "/Audio/Weapons/slash.ogg"
   - type: Sprite
-    sprite: DeadSpace/Necromorfs/necrokudzu.rsi
+    sprite: _DeadSpace/Necromorfs/necrokudzu.rsi
     state: kudzu_11
     drawdepth: FloorTiles
   - type: Appearance

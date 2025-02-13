@@ -13,6 +13,10 @@
   access:
   - Service
   - Maintenance
+  special:
+  - !type:GiveItemOnHolidaySpecial
+    holiday: BoxingDay
+    prototype: ClothingHandsGlovesBoxingRigged
   #start-backmen: currency
   minBankBalance: 150
   maxBankBalance: 250

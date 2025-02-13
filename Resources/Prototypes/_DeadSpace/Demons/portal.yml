@@ -21,7 +21,7 @@
         - WallLayer
         hard: false
   - type: Sprite
-    sprite: DeadSpace/Demons/demon_boss.rsi
+    sprite: _DeadSpace/Demons/demon_boss.rsi
     state: herald_mirror
     shader: unshaded
   - type: InteractionOutline

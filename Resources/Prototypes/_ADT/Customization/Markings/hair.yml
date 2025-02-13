@@ -3,7 +3,7 @@
   bodyPart: Hair
   markingCategory: Hair
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: _ADT/Customization/Markings/hair.rsi
       state: basarab
 
 - type: marking
@@ -11,7 +11,7 @@
   bodyPart: Hair
   markingCategory: Hair
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: _ADT/Customization/Markings/hair.rsi
       state: crayfish
 
 - type: marking
@@ -19,7 +19,7 @@
   bodyPart: Hair
   markingCategory: Hair
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: _ADT/Customization/Markings/hair.rsi
       state: hank
 
 - type: marking
@@ -27,7 +27,7 @@
   bodyPart: Hair
   markingCategory: Hair
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: _ADT/Customization/Markings/hair.rsi
       state: honor
 
 - type: marking
@@ -35,7 +35,7 @@
   bodyPart: Hair
   markingCategory: Hair
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: _ADT/Customization/Markings/hair.rsi
       state: madscientist
 
 - type: marking
@@ -43,7 +43,7 @@
   bodyPart: Hair
   markingCategory: Hair
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: _ADT/Customization/Markings/hair.rsi
       state: monday
 
 - type: marking
@@ -51,7 +51,7 @@
   bodyPart: Hair
   markingCategory: Hair
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: _ADT/Customization/Markings/hair.rsi
       state: nemesida
 
 - type: marking
@@ -59,7 +59,7 @@
   bodyPart: Hair
   markingCategory: Hair
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: _ADT/Customization/Markings/hair.rsi
       state: punk
 
 - type: marking
@@ -67,7 +67,7 @@
   bodyPart: Hair
   markingCategory: Hair
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: _ADT/Customization/Markings/hair.rsi
       state: turanga
 
 - type: marking
@@ -75,7 +75,7 @@
   bodyPart: Hair
   markingCategory: Hair
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: _ADT/Customization/Markings/hair.rsi
       state: ayanami
 
 - type: marking
@@ -83,7 +83,7 @@
   bodyPart: Hair
   markingCategory: Hair
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: _ADT/Customization/Markings/hair.rsi
       state: bubble_gum
 
 - type: marking
@@ -91,7 +91,7 @@
   bodyPart: Hair
   markingCategory: Hair
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: _ADT/Customization/Markings/hair.rsi
       state: mavis
 
 - type: marking
@@ -99,7 +99,7 @@
   bodyPart: Hair
   markingCategory: Hair
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: _ADT/Customization/Markings/hair.rsi
       state: cloud
 
 - type: marking
@@ -107,7 +107,7 @@
   bodyPart: Hair
   markingCategory: Hair
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: _ADT/Customization/Markings/hair.rsi
       state: morning_hairstyle
 
 - type: marking
@@ -115,7 +115,7 @@
   bodyPart: Hair
   markingCategory: Hair
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: _ADT/Customization/Markings/hair.rsi
       state: morning_hairstyle_2
 
 - type: marking
@@ -123,7 +123,7 @@
   bodyPart: Hair
   markingCategory: Hair
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: _ADT/Customization/Markings/hair.rsi
       state: ponytail
 
 - type: marking
@@ -131,7 +131,7 @@
   bodyPart: Hair
   markingCategory: Hair
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: _ADT/Customization/Markings/hair.rsi
       state: prince_charming
 
 - type: marking
@@ -139,7 +139,7 @@
   bodyPart: Hair
   markingCategory: Hair
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: _ADT/Customization/Markings/hair.rsi
       state: shaved_female
 
 - type: marking
@@ -147,5 +147,5 @@
   bodyPart: Hair
   markingCategory: Hair
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: _ADT/Customization/Markings/hair.rsi
       state: shaved_unisex

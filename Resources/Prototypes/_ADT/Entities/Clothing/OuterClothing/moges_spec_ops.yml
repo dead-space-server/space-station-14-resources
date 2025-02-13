@@ -5,9 +5,9 @@
   description: Рептилии не настолько примитивны, как вы считали.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/nano_scale_armor.rsi
+    sprite: _ADT/Clothing/OuterClothing/Hardsuits/nano_scale_armor.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/nano_scale_armor.rsi
+    sprite: _ADT/Clothing/OuterClothing/Hardsuits/nano_scale_armor.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
@@ -37,9 +37,9 @@
   description: Очень скрытная и очень пахнет сахаром.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/nano_scale_armor_chameleon.rsi
+    sprite: _ADT/Clothing/OuterClothing/Hardsuits/nano_scale_armor_chameleon.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/nano_scale_armor_chameleon.rsi
+    sprite: _ADT/Clothing/OuterClothing/Hardsuits/nano_scale_armor_chameleon.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.6
     lowPressureMultiplier: 1000

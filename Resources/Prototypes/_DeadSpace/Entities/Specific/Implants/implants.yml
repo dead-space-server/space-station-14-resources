@@ -23,7 +23,7 @@
   description: A multi-use auto surgeon for implanting whatever you want into yourself. Rip that station apart and make it part of your.
   components:
     - type: Sprite
-      sprite: DeadSpace/Objects/Specific/Autosurgeon/autosurgeon.rsi
+      sprite: _DeadSpace/Objects/Specific/Autosurgeon/autosurgeon.rsi
       layers:
       - state: iconBefore
     - type: ReviveImplant
@@ -35,6 +35,6 @@
   description: A multi-use auto surgeon for implanting whatever you want into yourself. Rip that station apart and make it part of your.
   components:
     - type: Sprite
-      sprite: DeadSpace/Objects/Specific/Autosurgeon/autosurgeon.rsi
+      sprite: _DeadSpace/Objects/Specific/Autosurgeon/autosurgeon.rsi
       layers:
       - state: iconAfter

@@ -6,7 +6,7 @@
   components:
   - type: Sharp
   - type: Sprite
-    sprite: DeadSpace/Objects/Weapons/Melee/chainsword.rsi
+    sprite: _DeadSpace/Objects/Weapons/Melee/chainsword.rsi
     state: icon
   - type: MeleeWeapon
     autoAttack: true
@@ -24,7 +24,7 @@
         volume: -3
   - type: Item
     size: Normal
-    sprite: DeadSpace/Objects/Weapons/Melee/chainsword.rsi
+    sprite: _DeadSpace/Objects/Weapons/Melee/chainsword.rsi
   - type: DisarmMalus
   - type: RefillableSolution
     solution: Welder

@@ -5,9 +5,9 @@
   description: Пятна крови на нём смотрятся как влитые.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/OuterClothing/apron_chef.rsi
+    sprite: _DeadSpace/Clothing/OuterClothing/apron_chef.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/OuterClothing/apron_chef.rsi
+    sprite: _DeadSpace/Clothing/OuterClothing/apron_chef.rsi
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -16,9 +16,9 @@
   description: Яркий лабораторный халат, предоставляющий защиту от окружающей среды.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Coats/labcyber.rsi
+    sprite: _ADT/Clothing/OuterClothing/Coats/labcyber.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Coats/labcyber.rsi
+    sprite: _ADT/Clothing/OuterClothing/Coats/labcyber.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -46,6 +46,6 @@
   description:  Куртка, разработанная специально для работы в холодильных камерах.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/OuterClothing/chefjacket.rsi
+    sprite: _DeadSpace/Clothing/OuterClothing/chefjacket.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/OuterClothing/chefjacket.rsi
+    sprite: _DeadSpace/Clothing/OuterClothing/chefjacket.rsi

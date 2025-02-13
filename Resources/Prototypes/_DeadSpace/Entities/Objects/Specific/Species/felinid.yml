@@ -5,7 +5,7 @@
   description: Чувак, фелиниды... они отвратительны.
   components:
   - type: Sprite
-    sprite: DeadSpace/Objects/Specific/Species/felinid.rsi
+    sprite: _DeadSpace/Objects/Specific/Species/felinid.rsi
     state: icon
   - type: Hairball
   - type: SolutionContainerManager

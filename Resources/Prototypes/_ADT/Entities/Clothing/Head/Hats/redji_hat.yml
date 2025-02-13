@@ -6,6 +6,6 @@
   description: Слегка потёртая, стильная шляпа.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hats/old_stylish_hat.rsi
+    sprite: _ADT/Clothing/Head/Hats/old_stylish_hat.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hats/old_stylish_hat.rsi
+    sprite: _ADT/Clothing/Head/Hats/old_stylish_hat.rsi

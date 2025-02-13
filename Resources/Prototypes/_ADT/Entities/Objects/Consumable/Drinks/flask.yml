@@ -6,4 +6,4 @@
   components:
   - type: Drink
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Drinks/ArmyFlask.rsi
+    sprite: _ADT/Objects/Consumable/Drinks/ArmyFlask.rsi

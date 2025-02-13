@@ -8,7 +8,7 @@
   - type: StaticPrice
     price: 500
   - type: Sprite
-    sprite: ADT/Structures/Storage/tanks.rsi
+    sprite: _ADT/Structures/Storage/tanks.rsi
     layers:
       - state: watertank-2
       - state: watertank-2-1

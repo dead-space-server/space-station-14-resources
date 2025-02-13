@@ -18,7 +18,7 @@
           layer:
             - MachineLayer
     - type: Sprite
-      sprite: Backmen/Objects/Weapons/Guns/Turrets/turrets.rsi
+      sprite: _Backmen/Objects/Weapons/Guns/Turrets/turrets.rsi
       drawdepth: Mobs
       noRot: true
       layers:
@@ -98,7 +98,7 @@
   suffix: NanoTrasen
   components:
   - type: Sprite
-    sprite: Backmen/Objects/Weapons/Guns/Turrets/turrets.rsi
+    sprite: _Backmen/Objects/Weapons/Guns/Turrets/turrets.rsi
     layers:
       - state: stand
       - state: nanotrasen

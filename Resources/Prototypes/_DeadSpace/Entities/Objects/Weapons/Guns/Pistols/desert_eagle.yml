@@ -18,7 +18,7 @@
     containers:
       ballistic-ammo: !type:Container
   - type: Sprite
-    sprite: DeadSpace/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/magazinedeserteagle.rsi
+    sprite: _DeadSpace/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/magazinedeserteagle.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -72,7 +72,7 @@
   - type: Item
     size: Small
   - type: Clothing
-    sprite: DeadSpace/Objects/Weapons/Guns/Pistols/deserteagle.rsi
+    sprite: _DeadSpace/Objects/Weapons/Guns/Pistols/deserteagle.rsi
     quickEquip: false
     slots:
     - suitStorage
@@ -126,14 +126,14 @@
   description: Вот он, воплощение силы и свободы — Пустынный орёл! Одно только упоминание этого оружия вызывает волну бесшабашности и адреналина.
   components:
   - type: Sprite
-    sprite: DeadSpace/Objects/Weapons/Guns/Pistols/deserteagle.rsi
+    sprite: _DeadSpace/Objects/Weapons/Guns/Pistols/deserteagle.rsi
   - type: Clothing
-    sprite: DeadSpace/Objects/Weapons/Guns/Pistols/deserteagle.rsi
+    sprite: _DeadSpace/Objects/Weapons/Guns/Pistols/deserteagle.rsi
   - type: Gun
     fireRate: 2
     availableModes:
     - SemiAuto
     soundGunshot:
-      path: /Audio/DeadSpace/Weapons/Guns/Gunshots/deserteagle.ogg
+      path: /Audio/_DeadSpace/Weapons/Guns/Gunshots/deserteagle.ogg
       params:
         volume: 2

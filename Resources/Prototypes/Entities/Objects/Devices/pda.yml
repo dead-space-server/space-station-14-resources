@@ -750,7 +750,11 @@
   components:
   - type: Pda
     id: SurgeonIDCard
-    state: pda-surgeon
+  - type: Appearance
+    appearanceDataInit:
+     enum.PdaVisuals.PdaType:
+       !type:String
+       pda-surgeon
   - type: PdaBorderColor
     borderColor: "#817d6f"
     accentVColor: "#12445b"
@@ -1215,7 +1219,11 @@
   components:
   - type: Pda
     id: CBURNIDcard
-    state: pda-cburn
+  - type: Appearance
+    appearanceDataInit:
+     enum.PdaVisuals.PdaType:
+       !type:String
+       pda-cburn
   - type: PdaBorderColor
     borderColor: "#171E1B"
     accentHColor: "#54685F"
@@ -1508,7 +1516,11 @@
   components:
   - type: Pda
     id: CoronerIDCard
-    state: pda-coroner
+  - type: Appearance
+    appearanceDataInit:
+     enum.PdaVisuals.PdaType:
+       !type:String
+       pda-coroner
   - type: PdaBorderColor
     borderColor: "#212121"
     accentHColor: "#EAEAEA"
@@ -1524,7 +1536,11 @@
   components:
   - type: Pda
     id: SecurityPilotIDCard
-    state: pda-security
+  - type: Appearance
+    appearanceDataInit:
+     enum.PdaVisuals.PdaType:
+       !type:String
+       pda-security
   - type: PdaBorderColor
     borderColor: "#772d32"
   - type: Icon
@@ -1545,7 +1561,11 @@
   components:
   - type: Pda
     id: SeniorSalvageIDCard
-    state: pda-seniorminer
+  - type: Appearance
+    appearanceDataInit:
+     enum.PdaVisuals.PdaType:
+       !type:String
+       pda-seniorminer
   - type: PdaBorderColor
     borderColor: "#735321"
     accentHColor: "#62237F"
@@ -1568,7 +1588,11 @@
   components:
   - type: Pda
     id: SeniorServiceIDCard
-    state: pda-seniorservice
+  - type: Appearance
+    appearanceDataInit:
+     enum.PdaVisuals.PdaType:
+       !type:String
+       pda-seniorservice
   - type: PdaBorderColor
     borderColor: "#789876"
     accentHColor: "#CEC155"

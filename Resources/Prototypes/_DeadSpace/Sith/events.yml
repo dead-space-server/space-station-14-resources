@@ -45,7 +45,7 @@
       briefing:
         text: sith-role-greeting
         color: Green
-        sound: /Audio/DeadSpace/Sith/sith-arrived-at-the-space-station.ogg
+        sound: /Audio/_DeadSpace/Sith/sith-arrived-at-the-space-station.ogg
       components:
       - type: RandomHumanoidAppearance
         randomizeName: false

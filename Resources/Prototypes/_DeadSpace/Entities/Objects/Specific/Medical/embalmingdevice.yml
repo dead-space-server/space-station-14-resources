@@ -11,7 +11,7 @@
     - type: MixableSolution
       solution: tank
     - type: Sprite
-      sprite: DeadSpace/Objects/Specific/Chemistry/embalmingdevice.rsi
+      sprite: _DeadSpace/Objects/Specific/Chemistry/embalmingdevice.rsi
       layers:
         - state: embalmingdevice
         - state: embalmingdevice1
@@ -19,7 +19,7 @@
           visible: false
     - type: Item
       size: Large # DS
-      sprite: DeadSpace/Objects/Specific/Chemistry/embalmingdevice.rsi
+      sprite: _DeadSpace/Objects/Specific/Chemistry/embalmingdevice.rsi
     - type: RefillableSolution
       solution: beaker
     - type: DrainableSolution

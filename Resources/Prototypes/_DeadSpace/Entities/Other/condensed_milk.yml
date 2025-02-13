@@ -29,7 +29,7 @@
     sound:
       collection: packetOpenSounds
   - type: Sprite
-    sprite: DeadSpace/Other/condensed_milk.rsi
+    sprite: _DeadSpace/Other/condensed_milk.rsi
     state: icon
     layers:
       - state: icon
@@ -110,7 +110,7 @@
     sound:
       collection: packetOpenSounds
   - type: Sprite
-    sprite: DeadSpace/Other/boiledcondensed_milk.rsi
+    sprite: _DeadSpace/Other/boiledcondensed_milk.rsi
     state: icon
     layers:
       - state: icon

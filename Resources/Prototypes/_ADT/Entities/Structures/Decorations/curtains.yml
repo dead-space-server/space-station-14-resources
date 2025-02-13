@@ -7,7 +7,7 @@
   - type: Occluder
   - type: Sprite
     snapCardinals: true
-    sprite: ADT/Structures/Decoration/curtains.rsi
+    sprite: _ADT/Structures/Decoration/curtains.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -84,7 +84,7 @@
   - type: Occluder
   - type: Sprite
     snapCardinals: true
-    sprite: ADT/Structures/Decoration/altred_curtains.rsi #спрайты от floppo4ka
+    sprite: _ADT/Structures/Decoration/altred_curtains.rsi #спрайты от floppo4ka
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]

@@ -5,7 +5,7 @@
   description: Медипен который помогает обрести максимальную мобильность в пылу сражения.
   components:
   - type: Sprite
-    sprite: DeadSpace/Objects/Specific/Medical/medipen.rsi
+    sprite: _DeadSpace/Objects/Specific/Medical/medipen.rsi
     layers:
     - state: steam
       map: ["enum.SolutionContainerLayers.Fill"]

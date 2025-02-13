@@ -32,7 +32,7 @@
   description: Стандартное нижнее белье для персонала Nanotrasen.
   components:
   - type: Sprite
-    sprite: Sirena/Clothing/Underwear/Bottom/boxers.rsi
+    sprite: _Sirena/Clothing/Underwear/Bottom/boxers.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -41,7 +41,7 @@
   description: Стандартное нижнее белье для женского персонала Nanotrasen.
   components:
   - type: Sprite
-    sprite: Sirena/Clothing/Underwear/Bottom/panties.rsi
+    sprite: _Sirena/Clothing/Underwear/Bottom/panties.rsi
 
 # DS14 pants
 ## Antags
@@ -52,7 +52,7 @@
   description: Cтандартное нижнее бельё ядерного оперативника.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Antag/nuclear_operative/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Antag/nuclear_operative/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -61,7 +61,7 @@
   description: Cтандартное нижнее бельё капера.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Antag/pirate/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Antag/pirate/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -70,7 +70,7 @@
   description: Cтандартное нижнее бельё агента синдиката.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Antag/syndicate_agent/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Antag/syndicate_agent/man.rsi
 
 ## Cargo
 - type: entity
@@ -80,7 +80,7 @@
   description: Cтандартное нижнее бельё грузчика.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Cargo/cargo_technician/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Cargo/cargo_technician/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -89,7 +89,7 @@
   description: Cтандартное нижнее бельё квартирмейстера.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Cargo/quartermaster/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Cargo/quartermaster/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -98,7 +98,7 @@
   description: Cтандартное нижнее бельё утилизатора.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Cargo/salvage_specialist/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Cargo/salvage_specialist/man.rsi
 
 ## Civilian
 - type: entity
@@ -108,7 +108,7 @@
   description: Cтандартное нижнее бельё бармена.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Civilian/bartender/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Civilian/bartender/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -117,7 +117,7 @@
   description: Cтандартное нижнее бельё ботаника.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Civilian/botanist/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Civilian/botanist/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -126,7 +126,7 @@
   description: Cтандартное нижнее бельё боксёра.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Civilian/boxer/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Civilian/boxer/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -135,7 +135,7 @@
   description: Cтандартное нижнее бельё священника.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Civilian/chaplain/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Civilian/chaplain/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -144,7 +144,7 @@
   description: Cтандартное нижнее бельё шефа.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Civilian/chef/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Civilian/chef/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -153,7 +153,7 @@
   description: Cтандартное нижнее бельё клоуна.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Civilian/clown/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Civilian/clown/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -162,7 +162,7 @@
   description: Cтандартное нижнее бельё главы персонала.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Civilian/head_of_personnel/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Civilian/head_of_personnel/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -171,7 +171,7 @@
   description: Cтандартное нижнее бельё уборщика.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Civilian/janitor/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Civilian/janitor/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -180,7 +180,7 @@
   description: Cтандартное нижнее бельё библиотекаря.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Civilian/librarian/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Civilian/librarian/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -189,7 +189,7 @@
   description: Cтандартное нижнее бельё мима.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Civilian/mime/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Civilian/mime/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -198,7 +198,7 @@
   description: Cтандартное нижнее бельё музыканта.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Civilian/musician/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Civilian/musician/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -207,7 +207,7 @@
   description: Cтандартное нижнее бельё репортёра.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Civilian/reporter/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Civilian/reporter/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -216,7 +216,7 @@
   description: Cтандартное нижнее бельё сервисного работника.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Civilian/service/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Civilian/service/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -225,7 +225,7 @@
   description: Cтандартное нижнее бельё зоотехника.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Civilian/zoo/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Civilian/zoo/man.rsi
 
 # Command
 - type: entity
@@ -235,7 +235,7 @@
   description: Cтандартное нижнее бельё капитана.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Command/captain/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Command/captain/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -244,7 +244,7 @@
   description: Cтандартное нижнее бельё РХБЗЗ.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Command/cburn/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Command/cburn/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -253,7 +253,7 @@
   description: Cтандартное нижнее бельё центрального командования.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Command/centcomm/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Command/centcomm/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -262,7 +262,7 @@
   description: Cтандартное нижнее бельё эскадрона смерти.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Command/death_squad/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Command/death_squad/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -271,7 +271,7 @@
   description: Cтандартное нижнее бельё ОБР.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Command/ert/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Command/ert/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -280,7 +280,7 @@
   description: Cтандартное нижнее бельё ОСЩ.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Command/blueshield/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Command/blueshield/man.rsi
 
 # Engineering
 - type: entity
@@ -290,7 +290,7 @@
   description: Cтандартное нижнее бельё атмосферного техника.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Engineering/atmospheric_technician/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Engineering/atmospheric_technician/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -299,7 +299,7 @@
   description: Cтандартное нижнее бельё старшего инженера.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Engineering/chief_engineer/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Engineering/chief_engineer/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -308,7 +308,7 @@
   description: Cтандартное нижнее бельё инженера.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Engineering/engineer/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Engineering/engineer/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -317,7 +317,7 @@
   description: Cтандартное нижнее бельё ведущего инженера.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Engineering/senior_engineer/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Engineering/senior_engineer/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -326,7 +326,7 @@
   description: Cтандартное нижнее бельё инженера стажёра.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Engineering/technical_assistant/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Engineering/technical_assistant/man.rsi
 
 # Law
 - type: entity
@@ -336,7 +336,7 @@
   description: Cтандартное нижнее бельё агента внутренних дел.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Law/iaa/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Law/iaa/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -345,7 +345,7 @@
   description: Cтандартное нижнее бельё юриста.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Law/lawyer/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Law/lawyer/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -354,7 +354,7 @@
   description: Cтандартное нижнее бельё магистрата.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Law/magistrat/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Law/magistrat/man.rsi
 
 # Medical
 - type: entity
@@ -364,7 +364,7 @@
   description: Cтандартное нижнее бельё химика.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Medical/chemist/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Medical/chemist/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -373,7 +373,7 @@
   description: Cтандартное нижнее бельё главного врача.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Medical/cmo/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Medical/cmo/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -382,7 +382,7 @@
   description: Cтандартное нижнее бельё врача.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Medical/doctor/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Medical/doctor/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -391,7 +391,7 @@
   description: Cтандартное нижнее бельё интерна.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Medical/intern/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Medical/intern/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -400,7 +400,7 @@
   description: Cтандартное нижнее бельё парамедика.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Medical/paramedic/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Medical/paramedic/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -409,7 +409,7 @@
   description: Cтандартное нижнее бельё психолога.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Medical/psychologist/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Medical/psychologist/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -418,7 +418,7 @@
   description: Cтандартное нижнее бельё ведущего врача.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Medical/senior_physician/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Medical/senior_physician/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -427,7 +427,7 @@
   description: Cтандартное нижнее бельё коронера.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Medical/coroner/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Medical/coroner/man.rsi
 
 # Science
 - type: entity
@@ -437,7 +437,7 @@
   description: Cтандартное нижнее бельё научного ассистента.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Science/research_assistant/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Science/research_assistant/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -446,7 +446,7 @@
   description: Cтандартное нижнее бельё научного руководителя.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Science/research_director/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Science/research_director/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -455,7 +455,7 @@
   description: Cтандартное нижнее бельё учёного.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Science/scientist/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Science/scientist/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -464,7 +464,7 @@
   description: Cтандартное нижнее бельё ведущего учёного.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Science/senior_researcher/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Science/senior_researcher/man.rsi
 
 # Security
 - type: entity
@@ -474,7 +474,7 @@
   description: Cтандартное нижнее бельё бригмедика.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Security/brigmedic/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Security/brigmedic/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -483,7 +483,7 @@
   description: Cтандартное нижнее бельё кадета СБ.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Security/cadet/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Security/cadet/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -492,7 +492,7 @@
   description: Cтандартное нижнее бельё детектива.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Security/detective/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Security/detective/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -501,7 +501,7 @@
   description: Cтандартное нижнее бельё главы службы безопасности.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Security/head_of_security/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Security/head_of_security/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -510,7 +510,7 @@
   description: Cтандартное нижнее бельё офицера СБ.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Security/security_officer/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Security/security_officer/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -519,7 +519,7 @@
   description: Cтандартное нижнее бельё инструктора СБ.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Security/senior_officer/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Security/senior_officer/man.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -528,7 +528,7 @@
   description: Cтандартное нижнее бельё смотрителя.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Security/warden/man.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Security/warden/man.rsi
 
 # DS14 pants
 ## Antags
@@ -539,7 +539,7 @@
   description: Cтандартное нижнее бельё ядерного оперативника.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Antag/nuclear_operative/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Antag/nuclear_operative/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -548,7 +548,7 @@
   description: Cтандартное нижнее бельё капера.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Antag/pirate/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Antag/pirate/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -557,7 +557,7 @@
   description: Cтандартное нижнее бельё агента синдиката.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Antag/syndicate_agent/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Antag/syndicate_agent/women/pants.rsi
 
 ## Cargo
 - type: entity
@@ -567,7 +567,7 @@
   description: Cтандартное нижнее бельё грузчика.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Cargo/cargo_technician/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Cargo/cargo_technician/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -576,7 +576,7 @@
   description: Cтандартное нижнее бельё квартирмейстера.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Cargo/quartermaster/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Cargo/quartermaster/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -585,7 +585,7 @@
   description: Cтандартное нижнее бельё утилизатора.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Cargo/salvage_specialist/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Cargo/salvage_specialist/women/pants.rsi
 
 ## Civilian
 - type: entity
@@ -595,7 +595,7 @@
   description: Cтандартное нижнее бельё бармена.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Civilian/bartender/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Civilian/bartender/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -604,7 +604,7 @@
   description: Cтандартное нижнее бельё ботаника.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Civilian/botanist/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Civilian/botanist/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -613,7 +613,7 @@
   description: Cтандартное нижнее бельё боксёра.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Civilian/boxer/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Civilian/boxer/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -622,7 +622,7 @@
   description: Cтандартное нижнее бельё священника.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Civilian/chaplain/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Civilian/chaplain/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -631,7 +631,7 @@
   description: Cтандартное нижнее бельё шефа.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Civilian/chef/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Civilian/chef/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -640,7 +640,7 @@
   description: Cтандартное нижнее бельё клоуна.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Civilian/clown/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Civilian/clown/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -649,7 +649,7 @@
   description: Cтандартное нижнее бельё главы персонала.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Civilian/head_of_personnel/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Civilian/head_of_personnel/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -658,7 +658,7 @@
   description: Cтандартное нижнее бельё уборщика.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Civilian/janitor/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Civilian/janitor/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -667,7 +667,7 @@
   description: Cтандартное нижнее бельё библиотекаря.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Civilian/librarian/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Civilian/librarian/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -676,7 +676,7 @@
   description: Cтандартное нижнее бельё мима.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Civilian/mime/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Civilian/mime/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -685,7 +685,7 @@
   description: Cтандартное нижнее бельё музыканта.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Civilian/musician/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Civilian/musician/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -694,7 +694,7 @@
   description: Cтандартное нижнее бельё репортёра.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Civilian/reporter/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Civilian/reporter/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -703,7 +703,7 @@
   description: Cтандартное нижнее бельё сервисного работника.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Civilian/service/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Civilian/service/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -712,7 +712,7 @@
   description: Cтандартное нижнее бельё зоотехника.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Civilian/zoo/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Civilian/zoo/women/pants.rsi
 
 # Command
 - type: entity
@@ -722,7 +722,7 @@
   description: Cтандартное нижнее бельё капитана.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Command/captain/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Command/captain/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -731,7 +731,7 @@
   description: Cтандартное нижнее бельё РХБЗЗ.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Command/cburn/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Command/cburn/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -740,7 +740,7 @@
   description: Cтандартное нижнее бельё центрального командования.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Command/centcomm/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Command/centcomm/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -749,7 +749,7 @@
   description: Cтандартное нижнее бельё эскадрона смерти.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Command/death_squad/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Command/death_squad/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -758,7 +758,7 @@
   description: Cтандартное нижнее бельё ОБР.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Command/ert/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Command/ert/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -767,7 +767,7 @@
   description: Cтандартное нижнее бельё ОСЩ.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Command/blueshield/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Command/blueshield/women/pants.rsi
 
 # Engineering
 - type: entity
@@ -777,7 +777,7 @@
   description: Cтандартное нижнее бельё атмосферного техника.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Engineering/atmospheric_technician/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Engineering/atmospheric_technician/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -786,7 +786,7 @@
   description: Cтандартное нижнее бельё старшего инженера.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Engineering/chief_engineer/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Engineering/chief_engineer/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -795,7 +795,7 @@
   description: Cтандартное нижнее бельё инженера.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Engineering/engineer/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Engineering/engineer/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -804,7 +804,7 @@
   description: Cтандартное нижнее бельё ведущего инженера.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Engineering/senior_engineer/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Engineering/senior_engineer/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -813,7 +813,7 @@
   description: Cтандартное нижнее бельё инженера стажёра.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Engineering/technical_assistant/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Engineering/technical_assistant/women/pants.rsi
 
 # Law
 - type: entity
@@ -823,7 +823,7 @@
   description: Cтандартное нижнее бельё агента внутренних дел.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Law/iaa/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Law/iaa/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -832,7 +832,7 @@
   description: Cтандартное нижнее бельё юриста.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Law/lawyer/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Law/lawyer/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -841,7 +841,7 @@
   description: Cтандартное нижнее бельё магистрата.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Law/magistrat/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Law/magistrat/women/pants.rsi
 
 # Medical
 - type: entity
@@ -851,7 +851,7 @@
   description: Cтандартное нижнее бельё химика.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Medical/chemist/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Medical/chemist/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -860,7 +860,7 @@
   description: Cтандартное нижнее бельё главного врача.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Medical/cmo/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Medical/cmo/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -869,7 +869,7 @@
   description: Cтандартное нижнее бельё врача.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Medical/doctor/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Medical/doctor/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -878,7 +878,7 @@
   description: Cтандартное нижнее бельё интерна.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Medical/intern/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Medical/intern/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -887,7 +887,7 @@
   description: Cтандартное нижнее бельё парамедика.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Medical/paramedic/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Medical/paramedic/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -896,7 +896,7 @@
   description: Cтандартное нижнее бельё психолога.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Medical/psychologist/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Medical/psychologist/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -905,7 +905,7 @@
   description: Cтандартное нижнее бельё ведущего врача.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Medical/senior_physician/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Medical/senior_physician/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -914,7 +914,7 @@
   description: Cтандартное нижнее бельё коронера.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Medical/coroner/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Medical/coroner/women/pants.rsi
 
 # Science
 - type: entity
@@ -924,7 +924,7 @@
   description: Cтандартное нижнее бельё научного ассистента.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Science/research_assistant/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Science/research_assistant/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -933,7 +933,7 @@
   description: Cтандартное нижнее бельё научного руководителя.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Science/research_director/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Science/research_director/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -942,7 +942,7 @@
   description: Cтандартное нижнее бельё учёного.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Science/scientist/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Science/scientist/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -951,7 +951,7 @@
   description: Cтандартное нижнее бельё ведущего учёного.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Science/senior_researcher/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Science/senior_researcher/women/pants.rsi
 
 # Security
 - type: entity
@@ -961,7 +961,7 @@
   description: Cтандартное нижнее бельё бригмедика.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Security/brigmedic/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Security/brigmedic/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -970,7 +970,7 @@
   description: Cтандартное нижнее бельё кадета СБ.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Security/cadet/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Security/cadet/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -979,7 +979,7 @@
   description: Cтандартное нижнее бельё детектива.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Security/detective/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Security/detective/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -988,7 +988,7 @@
   description: Cтандартное нижнее бельё главы службы безопасности.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Security/head_of_security/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Security/head_of_security/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -997,7 +997,7 @@
   description: Cтандартное нижнее бельё офицера СБ.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Security/security_officer/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Security/security_officer/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -1006,7 +1006,7 @@
   description: Cтандартное нижнее бельё инструктора СБ.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Security/senior_officer/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Security/senior_officer/women/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -1015,4 +1015,4 @@
   description: Cтандартное нижнее бельё смотрителя.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Underwear/Security/warden/women/pants.rsi
+    sprite: _DeadSpace/Clothing/Underwear/Security/warden/women/pants.rsi

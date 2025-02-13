@@ -4,7 +4,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: DeadSpace/Objects/Fun/figurines.rsi
+    sprite: _DeadSpace/Objects/Fun/figurines.rsi
 
 - type: entity
   parent: BaseFigurineDS14

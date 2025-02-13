@@ -6,7 +6,7 @@
   components:
   - type: BreathMask
   - type: Sprite
-    sprite: DeadSpace/Necromorfs/cburn/cburncommanderhelmet.rsi
+    sprite: _DeadSpace/Necromorfs/cburn/cburncommanderhelmet.rsi
     layers:
     - state: icon
   - type: Clothing
@@ -39,9 +39,9 @@
   description: Легкий, но прочный экзокостюм, используемый для специальных операций по устранению некромофов.
   components:
   - type: Sprite
-    sprite: DeadSpace/Necromorfs/cburn/cburncommander.rsi
+    sprite: _DeadSpace/Necromorfs/cburn/cburncommander.rsi
   - type: Clothing
-    sprite: DeadSpace/Necromorfs/cburn/cburncommander.rsi
+    sprite: _DeadSpace/Necromorfs/cburn/cburncommander.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
@@ -84,7 +84,7 @@
   components:
   - type: BreathMask
   - type: Sprite
-    sprite: DeadSpace/Necromorfs/cburn/cburnxenohelmet.rsi
+    sprite: _DeadSpace/Necromorfs/cburn/cburnxenohelmet.rsi
     layers:
     - state: icon
   - type: Clothing
@@ -117,9 +117,9 @@
   description: Легкий, но прочный экзокостюм, используемый для специальных операций по устранению некроморфов.
   components:
   - type: Sprite
-    sprite: DeadSpace/Necromorfs/cburn/cburnxeno.rsi
+    sprite: _DeadSpace/Necromorfs/cburn/cburnxeno.rsi
   - type: Clothing
-    sprite: DeadSpace/Necromorfs/cburn/cburnxeno.rsi
+    sprite: _DeadSpace/Necromorfs/cburn/cburnxeno.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000

@@ -5,7 +5,7 @@
   description: Модная сумка в красно-чёрных тонах.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Back/bag.rsi
+    sprite: _DeadSpace/Clothing/Back/bag.rsi
   - type: Storage
     grid:
     - 0,0,1,3
@@ -19,7 +19,7 @@
   description: Сумка для ботаников, чтобы легко переносить свои огромные урожаи.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Back/plant_bag.rsi
+    sprite: _DeadSpace/Clothing/Back/plant_bag.rsi
     state: icon
   - type: Item
     storedRotation: -90
@@ -47,6 +47,6 @@
   description: Толстый фартук, идеально подходящий для защиты вашей нежной плоти от пятен, грязи и крови.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/OuterClothing/apron_botanist.rsi 
+    sprite: _DeadSpace/Clothing/OuterClothing/apron_botanist.rsi 
   - type: Clothing
-    sprite: DeadSpace/Clothing/OuterClothing/apron_botanist.rsi 
+    sprite: _DeadSpace/Clothing/OuterClothing/apron_botanist.rsi 

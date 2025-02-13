@@ -6,7 +6,7 @@
   suffix: Пистолет
   components:
   - type: Sprite
-    sprite: DeadSpace/Objects/Weapons/Guns/Battery/dominator.rsi
+    sprite: _DeadSpace/Objects/Weapons/Guns/Battery/dominator.rsi
     layers:
     - state: base-0
       map: ["enum.GunVisualLayers.Base"]
@@ -19,11 +19,11 @@
     steps: 4
     zeroVisible: true
   - type: Clothing
-    sprite: DeadSpace/Objects/Weapons/Guns/Battery/dominator.rsi
+    sprite: _DeadSpace/Objects/Weapons/Guns/Battery/dominator.rsi
   - type: Gun
     fireRate: 1.75
     soundGunshot:
-      path: /Audio/DeadSpace/Weapons/Guns/Gunshots/dominator.ogg
+      path: /Audio/_DeadSpace/Weapons/Guns/Gunshots/dominator.ogg
       params:
         volume: -2
   - type: ProjectileBatteryAmmoProvider
@@ -34,11 +34,11 @@
     - proto: BulletDisabler
       fireCost: 50
       switchSound:
-        path: /Audio/DeadSpace/Weapons/Guns/Dominator/nonlethal-paralyzer.ogg
+        path: /Audio/_DeadSpace/Weapons/Guns/Dominator/nonlethal-paralyzer.ogg
     - proto: DominatorBullet
       fireCost: 50
       switchSound:
-        path: /Audio/DeadSpace/Weapons/Guns/Dominator/lethal-eliminator.ogg
+        path: /Audio/_DeadSpace/Weapons/Guns/Dominator/lethal-eliminator.ogg
   - type: UseDelay
     delay: 3.1
   - type: AccessReader
@@ -60,7 +60,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Objects/Weapons/Guns/Projectiles/dominator.rsi
+    sprite: _DeadSpace/Objects/Weapons/Guns/Projectiles/dominator.rsi
     layers:
     - state: omnilaser
       shader: unshaded

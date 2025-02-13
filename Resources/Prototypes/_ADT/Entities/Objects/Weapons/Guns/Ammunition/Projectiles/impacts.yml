@@ -9,7 +9,7 @@
       layers:
         - shader: unshaded
           map: ["enum.EffectLayers.Unshaded"]
-          sprite: ADT/Objects/Weapons/Guns/Projectiles/projectiles_ss.rsi
+          sprite: _ADT/Objects/Weapons/Guns/Projectiles/projectiles_ss.rsi
           state: impact_laser_red
     - type: EffectVisuals
     - type: Tag

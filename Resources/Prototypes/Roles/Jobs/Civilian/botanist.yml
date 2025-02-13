@@ -17,6 +17,10 @@
   extendedAccess:
   - Kitchen
   - Bar
+  special:
+  - !type:GiveItemOnHolidaySpecial
+    holiday: FourTwenty
+    prototype: CannabisSeeds
   #start-backmen: currency
   minBankBalance: 150
   maxBankBalance: 250

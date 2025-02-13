@@ -5,9 +5,9 @@
   description: Эти великолепные солнцезащитные очки обладают не только забавным и стильным дизайном, но и исключительной функциональностью. Их огромные рамки способны полностью прикрывать глаза, защищая их от ультрафиолетовых лучей и нежелательного солнечного блеска.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Eyes/glasses_big_black.rsi
+    sprite: _DeadSpace/Clothing/Eyes/glasses_big_black.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Eyes/glasses_big_black.rsi
+    sprite: _DeadSpace/Clothing/Eyes/glasses_big_black.rsi
   - type: FlashImmunity
   - type: EyeProtection
     protectionTime: 5

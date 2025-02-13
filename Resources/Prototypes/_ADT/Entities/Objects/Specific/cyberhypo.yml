@@ -5,10 +5,10 @@
   description: Великолепный медицинский девайс в удобном дизайне от Cybersun!
   components:
   - type: Sprite
-    sprite: ADT/Objects/Specific/cyberhypo.rsi
+    sprite: _ADT/Objects/Specific/cyberhypo.rsi
     state: hypo
   - type: Item
-    sprite: ADT/Objects/Specific/cyberhypo.rsi
+    sprite: _ADT/Objects/Specific/cyberhypo.rsi
   - type: SolutionContainerManager
     solutions:
       hypospray:

@@ -5,9 +5,9 @@
   description: Готично, красиво. Для тех кто рушит традиции, но не очень.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hats/black_veil.rsi
+    sprite: _ADT/Clothing/Head/Hats/black_veil.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hats/black_veil.rsi
+    sprite: _ADT/Clothing/Head/Hats/black_veil.rsi
   - type: DamageOtherOnHit
     damage:
       types:
@@ -22,9 +22,9 @@
   description: Для тех кто следует традициям.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hats/white_veil.rsi
+    sprite: _ADT/Clothing/Head/Hats/white_veil.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hats/white_veil.rsi
+    sprite: _ADT/Clothing/Head/Hats/white_veil.rsi
   - type: DamageOtherOnHit
     damage:
       types:

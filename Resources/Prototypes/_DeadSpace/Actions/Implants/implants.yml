@@ -8,7 +8,7 @@
     itemIconStyle: BigAction
     priority: -20
     icon:
-      sprite: DeadSpace/Actions/implants_actions.rsi
+      sprite: _DeadSpace/Actions/implants_actions.rsi
       state: adrenal
     event: !type:UseAdrenalImplantEvent
     useDelay: 3

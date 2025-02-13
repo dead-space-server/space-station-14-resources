@@ -5,9 +5,9 @@
   description: Лабораторный халат Cybersun, предоставляющий минимальную защиту от вредного воздействия окружающей среды.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Coats/labcyber.rsi
+    sprite: _ADT/Clothing/OuterClothing/Coats/labcyber.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Coats/labcyber.rsi
+    sprite: _ADT/Clothing/OuterClothing/Coats/labcyber.rsi
   - type: Armor
     modifiers:
       coefficients:

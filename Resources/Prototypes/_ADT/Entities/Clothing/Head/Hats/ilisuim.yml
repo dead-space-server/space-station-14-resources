@@ -5,9 +5,9 @@
   description: Ilisium...
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hats/hurashka.rsi
+    sprite: _ADT/Clothing/Head/Hats/hurashka.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hats/hurashka.rsi
+    sprite: _ADT/Clothing/Head/Hats/hurashka.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -16,9 +16,9 @@
   description: Ilisium...
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hats/helmetSolder.rsi
+    sprite: _ADT/Clothing/Head/Hats/helmetSolder.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hats/helmetSolder.rsi
+    sprite: _ADT/Clothing/Head/Hats/helmetSolder.rsi
 
 - type: entity
   parent: ClothingMaskGas
@@ -27,9 +27,9 @@
   description: Закрывающая лицо маска, которую можно подключить к дыхательному баллону.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hats/gasmask_ili.rsi
+    sprite: _ADT/Clothing/Head/Hats/gasmask_ili.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hats/gasmask_ili.rsi
+    sprite: _ADT/Clothing/Head/Hats/gasmask_ili.rsi
   - type: FlashImmunity
   - type: EyeProtection
     protectionTime: 5
@@ -41,9 +41,9 @@
   description: Ilisium...
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Armor/plash_ili.rsi
+    sprite: _ADT/Clothing/OuterClothing/Armor/plash_ili.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Armor/plash_ili.rsi
+    sprite: _ADT/Clothing/OuterClothing/Armor/plash_ili.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -56,6 +56,6 @@
   description: Ilisium...
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Uniforms/Jumpsuit/uniform_ili.rsi
+    sprite: _ADT/Clothing/Uniforms/Jumpsuit/uniform_ili.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Uniforms/Jumpsuit/uniform_ili.rsi
+    sprite: _ADT/Clothing/Uniforms/Jumpsuit/uniform_ili.rsi

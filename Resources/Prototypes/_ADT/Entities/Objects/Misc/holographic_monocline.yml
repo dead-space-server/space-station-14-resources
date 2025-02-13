@@ -6,7 +6,7 @@
   components:
   - type: Sharp
   - type: Sprite
-    sprite: ADT/Objects/Weapons/Melee/holographic-monocline.rsi
+    sprite: _ADT/Objects/Weapons/Melee/holographic-monocline.rsi
     state: icon
   - type: MeleeWeapon
     attackRate: 0.75
@@ -17,7 +17,7 @@
         Radiation: 10
   - type: Item
     size: Normal
-    sprite: ADT/Objects/Weapons/Melee/holographic-monocline.rsi
+    sprite: _ADT/Objects/Weapons/Melee/holographic-monocline.rsi
   - type: Tool
     qualities:
       - Prying

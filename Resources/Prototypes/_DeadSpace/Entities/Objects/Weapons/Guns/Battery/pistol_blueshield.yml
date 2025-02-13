@@ -5,7 +5,7 @@
   description: A pistol designed specifically for officers whose tasks include protecting members of the command stuff.
   components:
   - type: Sprite
-    sprite: DeadSpace/Objects/Weapons/Guns/Battery/blueshield_gun.rsi
+    sprite: _DeadSpace/Objects/Weapons/Guns/Battery/blueshield_gun.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -16,14 +16,14 @@
     proto: VioletLaser
     fireCost: 50
   - type: Clothing
-    sprite: DeadSpace/Objects/Weapons/Guns/Battery/blueshield_gun.rsi
+    sprite: _DeadSpace/Objects/Weapons/Guns/Battery/blueshield_gun.rsi
   - type: Gun
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto
     fireRate: 1.4
     soundGunshot:
-      path: /Audio/DeadSpace/Weapons/Guns/Gunshots/laser_shot.ogg
+      path: /Audio/_DeadSpace/Weapons/Guns/Gunshots/laser_shot.ogg
       params:
         volume: -2
   - type: StaticPrice
@@ -43,11 +43,11 @@
     types:
       Heat: 25
   muzzleFlash:
-    sprite: DeadSpace/Objects/Weapons/Guns/Projectiles/violethit.rsi
+    sprite: _DeadSpace/Objects/Weapons/Guns/Projectiles/violethit.rsi
     state: muzzle_beam_violet
   travelFlash:
-    sprite: DeadSpace/Objects/Weapons/Guns/Projectiles/violethit.rsi
+    sprite: _DeadSpace/Objects/Weapons/Guns/Projectiles/violethit.rsi
     state: beam_violet
   impactFlash:
-    sprite: DeadSpace/Objects/Weapons/Guns/Projectiles/violethit.rsi
+    sprite: _DeadSpace/Objects/Weapons/Guns/Projectiles/violethit.rsi
     state: impact_beam_violet

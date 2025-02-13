@@ -65,9 +65,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/belt.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/belt.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/vjlados/belt.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/belt.rsi
   - type: Item
     size: Huge
   - type: StorageFill
@@ -97,7 +97,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/switzerlaand/cloak.rsi
+    sprite: _DeadSpace/Sponsor/switzerlaand/cloak.rsi
 
 # Gloves
 - type: entity
@@ -108,9 +108,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/gloves.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/gloves.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/vjlados/gloves.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/gloves.rsi
   - type: Fiber
     fiberMaterial: fibers-insulative
     fiberColor: fibers-white
@@ -124,9 +124,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/switzerlaand/hardsuit.rsi
+    sprite: _DeadSpace/Sponsor/switzerlaand/hardsuit.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/switzerlaand/hardsuit.rsi
+    sprite: _DeadSpace/Sponsor/switzerlaand/hardsuit.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitswitzerlaand
   - type: Item
@@ -158,9 +158,9 @@
   description: На внутренней стороне шлема нанесена гравировка "switzerlaand".
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/switzerlaand/helmet.rsi
+    sprite: _DeadSpace/Sponsor/switzerlaand/helmet.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/switzerlaand/helmet.rsi
+    sprite: _DeadSpace/Sponsor/switzerlaand/helmet.rsi
   - type: PointLight
     color: "#daffad"
   - type: PressureProtection
@@ -176,9 +176,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/switzerlaand/head.rsi
+    sprite: _DeadSpace/Sponsor/switzerlaand/head.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/switzerlaand/head.rsi
+    sprite: _DeadSpace/Sponsor/switzerlaand/head.rsi
 
 # Jumpsuit
 - type: entity
@@ -189,9 +189,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/switzerlaand/jumpsuit.rsi
+    sprite: _DeadSpace/Sponsor/switzerlaand/jumpsuit.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/switzerlaand/jumpsuit.rsi
+    sprite: _DeadSpace/Sponsor/switzerlaand/jumpsuit.rsi
 
 # Magboots
 - type: entity
@@ -202,12 +202,12 @@
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
-      sprite: DeadSpace/Sponsor/switzerlaand/magboots.rsi
+      sprite: _DeadSpace/Sponsor/switzerlaand/magboots.rsi
       layers:
       - state: icon
         map: [ "enum.ToggleVisuals.Layer" ]
     - type: Clothing
-      sprite: DeadSpace/Sponsor/switzerlaand/magboots.rsi
+      sprite: _DeadSpace/Sponsor/switzerlaand/magboots.rsi
     - type: ClothingSpeedModifier
       walkModifier: 1
       sprintModifier: 1
@@ -221,7 +221,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/switzerlaand/socks.rsi
+    sprite: _DeadSpace/Sponsor/switzerlaand/socks.rsi
 
 # Armor
 - type: entity
@@ -232,9 +232,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/switzerlaand/armor.rsi
+    sprite: _DeadSpace/Sponsor/switzerlaand/armor.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/switzerlaand/armor.rsi
+    sprite: _DeadSpace/Sponsor/switzerlaand/armor.rsi
 
 # Glasses
 - type: entity
@@ -245,9 +245,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/switzerlaand/sunglasses.rsi
+    sprite: _DeadSpace/Sponsor/switzerlaand/sunglasses.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/switzerlaand/sunglasses.rsi
+    sprite: _DeadSpace/Sponsor/switzerlaand/sunglasses.rsi
   - type: FlashImmunity
   - type: EyeProtection
     protectionTime: 5
@@ -263,9 +263,9 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: DeadSpace/Sponsor/switzerlaand/mask.rsi
+    sprite: _DeadSpace/Sponsor/switzerlaand/mask.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/switzerlaand/mask.rsi
+    sprite: _DeadSpace/Sponsor/switzerlaand/mask.rsi
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
 
@@ -278,7 +278,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/switzerlaand/underwear/bra.rsi
+    sprite: _DeadSpace/Sponsor/switzerlaand/underwear/bra.rsi
 
 # Bottom
 - type: entity
@@ -289,7 +289,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/switzerlaand/underwear/pants.rsi
+    sprite: _DeadSpace/Sponsor/switzerlaand/underwear/pants.rsi
 
 # Markings
 
@@ -299,7 +299,7 @@
   markingCategory: Head
   sponsorOnly: true
   sprites:
-  - sprite: DeadSpace/Sponsor/switzerlaand/markings.rsi
+  - sprite: _DeadSpace/Sponsor/switzerlaand/markings.rsi
     state: bandaged_R_eye
 
 - type: marking
@@ -308,7 +308,7 @@
   markingCategory: Head
   sponsorOnly: true
   sprites:
-  - sprite: DeadSpace/Sponsor/switzerlaand/markings.rsi
+  - sprite: _DeadSpace/Sponsor/switzerlaand/markings.rsi
     state: bandaged_L_eye
 
 - type: marking
@@ -317,9 +317,9 @@
   markingCategory: Tail
   sponsorOnly: true
   sprites:
-  - sprite: DeadSpace/Sponsor/switzerlaand/markings.rsi
+  - sprite: _DeadSpace/Sponsor/switzerlaand/markings.rsi
     state: kitsune_primary
-  - sprite: DeadSpace/Sponsor/switzerlaand/markings.rsi
+  - sprite: _DeadSpace/Sponsor/switzerlaand/markings.rsi
     state: kitsune_secondary
 
 - type: entity

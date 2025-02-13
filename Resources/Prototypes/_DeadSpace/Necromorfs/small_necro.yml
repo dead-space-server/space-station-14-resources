@@ -36,7 +36,7 @@
   - type: Muted
   - type: Sprite
     drawdepth: SmallMobs
-    sprite: DeadSpace/Necromorfs/small_necro.rsi
+    sprite: _DeadSpace/Necromorfs/small_necro.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: running

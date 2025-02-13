@@ -5,9 +5,9 @@
   description: Это пренадлежит Мортише?
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Misc/racoonhead.rsi
+    sprite: _ADT/Clothing/Head/Misc/racoonhead.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Misc/racoonhead.rsi
+    sprite: _ADT/Clothing/Head/Misc/racoonhead.rsi
   - type: IngestionBlocker
 
 - type: entity
@@ -17,7 +17,7 @@
   description: Алиса!!!
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Misc/foxhead.rsi
+    sprite: _ADT/Clothing/Head/Misc/foxhead.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Misc/foxhead.rsi
+    sprite: _ADT/Clothing/Head/Misc/foxhead.rsi
   - type: IngestionBlocker

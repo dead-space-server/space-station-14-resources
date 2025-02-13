@@ -5,7 +5,7 @@
   description: Продвинутое плазменное оружие с автоматическим режимом стрельбы.
   components:
   - type: Sprite
-    sprite: DeadSpace/Objects/Weapons/Guns/Battery/laser_rifle.rsi
+    sprite: _DeadSpace/Objects/Weapons/Guns/Battery/laser_rifle.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -13,13 +13,13 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Clothing
-    sprite: DeadSpace/Objects/Weapons/Guns/Battery/laser_rifle.rsi
+    sprite: _DeadSpace/Objects/Weapons/Guns/Battery/laser_rifle.rsi
   - type: StaticPrice
     price: 1000
   - type: Gun
     fireRate: 6
     soundGunshot:
-      path: /Audio/DeadSpace/Weapons/Guns/Gunshots/laser_rifle.ogg
+      path: /Audio/_DeadSpace/Weapons/Guns/Gunshots/laser_rifle.ogg
       params:
         volume: 1
     selectedMode: FullAuto

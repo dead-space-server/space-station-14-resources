@@ -5,7 +5,7 @@
   parent: DeployableBarrier
   components:
   - type: Sprite
-    sprite: DeadSpace/Objects/Specific/Security/barrier_centcom.rsi
+    sprite: _DeadSpace/Objects/Specific/Security/barrier_centcom.rsi
     layers:
     - state: idle
     - state: locked

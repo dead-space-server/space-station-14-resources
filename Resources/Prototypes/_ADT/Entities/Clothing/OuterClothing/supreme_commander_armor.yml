@@ -5,9 +5,9 @@
   description: То что не пробьешь, не создать, но мы создали, полностью покрыт блюспейс пластинами, одевая его вы чувствуете себя императором человечества.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Armor/supreme-commander-armor.rsi
+    sprite: _ADT/Clothing/OuterClothing/Armor/supreme-commander-armor.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Armor/supreme-commander-armor.rsi
+    sprite: _ADT/Clothing/OuterClothing/Armor/supreme-commander-armor.rsi
   - type: Armor
     modifiers:
       coefficients:

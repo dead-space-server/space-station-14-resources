@@ -14,7 +14,7 @@
   - type: SolutionTransfer
     canChangeTransferAmount: true
   - type: Sprite
-    sprite: DeadSpace/Objects/Specific/Chapel/censer.rsi
+    sprite: _DeadSpace/Objects/Specific/Chapel/censer.rsi
     layers:
     - state: icon
   - type: Spillable
@@ -37,4 +37,3 @@
     - Belt
   - type: DrainableSolution
     solution: drink
-

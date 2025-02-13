@@ -5,9 +5,9 @@
   description: Стильный гетр, который поможет скрыть вашу личность.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Mask/redneckgaiter.rsi
+    sprite: _DeadSpace/Clothing/Mask/redneckgaiter.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Mask/redneckgaiter.rsi
+    sprite: _DeadSpace/Clothing/Mask/redneckgaiter.rsi
   - type: IdentityBlocker
   - type: Tag
     tags:

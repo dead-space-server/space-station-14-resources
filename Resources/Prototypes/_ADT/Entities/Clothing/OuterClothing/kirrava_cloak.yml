@@ -5,9 +5,9 @@
   description: Необчная накидка с капюшоном и ушками.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/WinterCoats/kiras_cloakn.rsi
+    sprite: _ADT/Clothing/OuterClothing/WinterCoats/kiras_cloakn.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/WinterCoats/kiras_cloakn.rsi
+    sprite: _ADT/Clothing/OuterClothing/WinterCoats/kiras_cloakn.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterKiras
 
@@ -19,6 +19,6 @@
   description: Ой какие ушки!
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hood/Coat/kirava_hoodsec.rsi
+    sprite: _ADT/Clothing/Head/Hood/Coat/kirava_hoodsec.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hood/Coat/kirava_hoodsec.rsi
+    sprite: _ADT/Clothing/Head/Hood/Coat/kirava_hoodsec.rsi

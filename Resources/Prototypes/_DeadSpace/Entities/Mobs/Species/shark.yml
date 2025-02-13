@@ -4,7 +4,7 @@
   abstract: true
   components:
   - type: Icon
-    sprite: ADT/Mobs/Customization/Shark/parts.rsi
+    sprite: _ADT/Mobs/Customization/Shark/parts.rsi
     state: shark_m
   - type: HumanoidAppearance
     species: Shark

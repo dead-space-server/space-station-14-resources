@@ -7,7 +7,7 @@
   - type: InstantAction
     useDelay: 180
     icon:
-      sprite: DeadSpace/Demons/demon_boss.rsi
+      sprite: _DeadSpace/Demons/demon_boss.rsi
       state: herald
     event: !type:HeraldEnrageActionEvent
 
@@ -20,7 +20,7 @@
   - type: InstantAction
     useDelay: 1
     icon:
-      sprite: DeadSpace/Demons/demon_boss.rsi
+      sprite: _DeadSpace/Demons/demon_boss.rsi
       state: herald
     event: !type:HeraldSpawnActionEvent
 
@@ -74,7 +74,7 @@
   components:
   - type: EntityTargetAction
     useDelay: 30
-    icon: DeadSpace/Demons/ability_icons/shadow_grapple.png
+    icon: _DeadSpace/Demons/ability_icons/shadow_grapple.png
     event: !type:ShadowGrappleEvent
     checkCanAccess: false
     range: 10
@@ -88,7 +88,7 @@
   - type: EntityTargetAction
     useDelay: 30
     icon:
-      sprite: DeadSpace/Demons/shadow_cocoon.rsi
+      sprite: _DeadSpace/Demons/shadow_cocoon.rsi
       state: cocoon
     event: !type:LockCocoonEvent
     checkCanAccess: false
@@ -101,7 +101,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
-    icon: DeadSpace/Demons/ability_icons/shadow_crawl.png
+    icon: _DeadSpace/Demons/ability_icons/shadow_crawl.png
     itemIconStyle: NoItem
     useDelay: 60
     event: !type:ShadowCrawlActionEvent

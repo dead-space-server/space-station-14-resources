@@ -6,9 +6,9 @@
   description: Шлем женского скафандра синдиката, разработанный специально для командиров отряда
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hardsuits/syndiecommanderhead_fem.rsi
+    sprite: _ADT/Clothing/Head/Hardsuits/syndiecommanderhead_fem.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hardsuits/syndiecommanderhead_fem.rsi
+    sprite: _ADT/Clothing/Head/Hardsuits/syndiecommanderhead_fem.rsi
   - type: PointLight
     color: green
   - type: PressureProtection
@@ -31,9 +31,9 @@
   description: Вариант женского кроваво-красного шлема, разработанного Мародёрами Горлекса и обладающего исключительной огнеупорностью и устойчивостью к давлению.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hardsuits/syndieelitehead_fem.rsi
+    sprite: _ADT/Clothing/Head/Hardsuits/syndieelitehead_fem.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hardsuits/syndieelitehead_fem.rsi
+    sprite: _ADT/Clothing/Head/Hardsuits/syndieelitehead_fem.rsi
   - type: PointLight
     color: red
   - type: PressureProtection
@@ -59,9 +59,9 @@
   description: Женский продвинутый красный шлем скафандра, предназначенный для работы в специальных операциях.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hardsuits/syndihead_fem.rsi
+    sprite: _ADT/Clothing/Head/Hardsuits/syndihead_fem.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hardsuits/syndihead_fem.rsi
+    sprite: _ADT/Clothing/Head/Hardsuits/syndihead_fem.rsi
   - type: PointLight
     color: green
   - type: PressureProtection

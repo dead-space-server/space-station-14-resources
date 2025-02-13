@@ -16,6 +16,10 @@
   extendedAccess:
   - Paramedic
   - Coroner
+  special:
+  - !type:GiveItemOnHolidaySpecial
+    holiday: DoctorDay
+    prototype: WehMedipen
   #start-backmen: currency
   minBankBalance: 150
   maxBankBalance: 250

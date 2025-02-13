@@ -7,14 +7,14 @@
   description: Автоматический дробовик 50 калибра. Настолько же стильный, насколько и убойный.
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/DragonFox/MedTech/weapons/Auto9000Alfa.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/MedTech/weapons/Auto9000Alfa.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
-    sprite: DeadSpace/Sponsor/DragonFox/MedTech/weapons/Auto9000Alfa.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/MedTech/weapons/Auto9000Alfa.rsi
     quickEquip: false
     slots:
     - Back
@@ -47,9 +47,9 @@
       - ShellShotgun
     capacity: 20
     soundRack:
-      path: /Audio/Corvax/Weapons/Guns/Cock/shotgun_cock.ogg # Corvax-Guns
+      path: /Audio/_Corvax/Weapons/Guns/Cock/shotgun_cock.ogg # Corvax-Guns
   - type: Sprite
-    sprite: DeadSpace/Sponsor/DragonFox/MedTech/weapons/MagazineAuto9000Alfa.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/MedTech/weapons/MagazineAuto9000Alfa.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -125,14 +125,14 @@
   description: Высококачественный пистолет пулемёт с высокой скорострельностью и полимерным корпусом.
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/DragonFox/MedTech/weapons/PP9000.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/MedTech/weapons/PP9000.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
-    sprite: DeadSpace/Sponsor/DragonFox/MedTech/weapons/PP9000.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/MedTech/weapons/PP9000.rsi
   - type: Wieldable
     unwieldOnUse: false
   - type: GunWieldBonus
@@ -191,7 +191,7 @@
     soundInsert:
       path: /Audio/Weapons/Guns/MagIn/bullet_insert.ogg
   - type: Sprite
-    sprite: DeadSpace/Sponsor/DragonFox/MedTech/weapons/MagazinePP9000.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/MedTech/weapons/MagazinePP9000.rsi
     layers:
     - state: red
       map: ["enum.GunVisualLayers.Base"]
@@ -254,14 +254,14 @@
   description: Жаропрочный лазерный автомат со средним темпом стрельбы. Идеально подходит для близкой и средней дистанции боя.
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/DragonFox/MedTech/weapons/LaserM1000.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/MedTech/weapons/LaserM1000.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
-    sprite: DeadSpace/Sponsor/DragonFox/MedTech/weapons/LaserM1000.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/MedTech/weapons/LaserM1000.rsi
     quickEquip: false
     slots:
     - Back
@@ -299,7 +299,7 @@
   description: Мощная батарея, способная конденсировать большое количество энергии для непрерывной стрельбы.
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/DragonFox/MedTech/weapons/MagazineLaserM1000.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/MedTech/weapons/MagazineLaserM1000.rsi
     layers:
     - map: [ "enum.PowerCellVisualLayers.Base" ]
       state: base
@@ -334,14 +334,14 @@
   description: Тяжёлый пулемёт из титанового сплава. Совмещает в себе как убойность, так и изящество.
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/DragonFox/MedTech/weapons/3000PRO.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/MedTech/weapons/3000PRO.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
-    sprite: DeadSpace/Sponsor/DragonFox/MedTech/weapons/3000PRO.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/MedTech/weapons/3000PRO.rsi
     quickEquip: false
     slots:
     - Back
@@ -399,7 +399,7 @@
         - CartridgeLightRifle
   - type: Item
   - type: Sprite
-    sprite: DeadSpace/Sponsor/DragonFox/MedTech/weapons/Magazine3000PRO.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/MedTech/weapons/Magazine3000PRO.rsi
   - type: MagazineVisuals
     magState: mag
     steps: 8
@@ -421,6 +421,6 @@
       key_slots:
       - EncryptionKeyFreelance
   - type: Sprite
-    sprite: DeadSpace/Sponsor/DragonFox/MedTech/other/headset.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/MedTech/other/headset.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/DragonFox/MedTech/other/headset.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/MedTech/other/headset.rsi

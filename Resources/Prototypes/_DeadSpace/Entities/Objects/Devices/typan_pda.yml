@@ -4,7 +4,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Objects/Devices/typan_pda.rsi
+    sprite: _DeadSpace/Objects/Devices/typan_pda.rsi
     layers:
     - map: [ "enum.PdaVisualLayers.Base" ]
     - state: "light_overlay"
@@ -16,7 +16,7 @@
       shader: "unshaded"
       visible: false
   - type: Icon
-    sprite: DeadSpace/Objects/Devices/typan_pda.rsi
+    sprite: _DeadSpace/Objects/Devices/typan_pda.rsi
     state: pda-syndi-com
 
 - type: entity

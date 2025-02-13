@@ -68,7 +68,7 @@
   description: Легендарный револьвер. Испольует патрон .357 магнум.
   components:
   - type: Sprite
-    sprite: ADT/Objects/Weapons/Guns/Revolvers/Unica.rsi
+    sprite: _ADT/Objects/Weapons/Guns/Revolvers/Unica.rsi
   - type: Clothing
     sprite: Objects/Weapons/Guns/Revolvers/mateba.rsi
   - type: Gun

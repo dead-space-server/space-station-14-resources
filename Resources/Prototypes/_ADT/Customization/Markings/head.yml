@@ -3,7 +3,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   sprites:
-    - sprite: ADT/Customization/Markings/horns/head.rsi
+    - sprite: _ADT/Customization/Markings/horns/head.rsi
       state: durak
 
 - type: marking
@@ -11,7 +11,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   sprites:
-    - sprite: ADT/Customization/Markings/horns/head.rsi
+    - sprite: _ADT/Customization/Markings/horns/head.rsi
       state: horn1
 
 - type: marking
@@ -19,7 +19,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   sprites:
-    - sprite: ADT/Customization/Markings/horns/head.rsi
+    - sprite: _ADT/Customization/Markings/horns/head.rsi
       state: horn2
 
 - type: marking
@@ -27,7 +27,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   sprites:
-    - sprite: ADT/Customization/Markings/horns/head.rsi
+    - sprite: _ADT/Customization/Markings/horns/head.rsi
       state: horn3
 
 - type: marking
@@ -35,7 +35,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   sprites:
-    - sprite: ADT/Customization/Markings/horns/head.rsi
+    - sprite: _ADT/Customization/Markings/horns/head.rsi
       state: horn4
 
 - type: marking
@@ -43,7 +43,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   sprites:
-    - sprite: ADT/Customization/Markings/horns/head.rsi
+    - sprite: _ADT/Customization/Markings/horns/head.rsi
       state: horn5
 
 - type: marking
@@ -51,7 +51,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   sprites:
-    - sprite: ADT/Customization/Markings/horns/head.rsi
+    - sprite: _ADT/Customization/Markings/horns/head.rsi
       state: horn6
 
 - type: marking
@@ -59,7 +59,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   sprites:
-    - sprite: ADT/Customization/Markings/horns/head.rsi
+    - sprite: _ADT/Customization/Markings/horns/head.rsi
       state: lord
 
 - type: marking
@@ -67,7 +67,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   sprites:
-    - sprite: ADT/Customization/Markings/horns/head.rsi
+    - sprite: _ADT/Customization/Markings/horns/head.rsi
       state: oldpain
 
 - type: marking
@@ -75,7 +75,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   sprites:
-    - sprite: ADT/Customization/Markings/horns/head.rsi
+    - sprite: _ADT/Customization/Markings/horns/head.rsi
       state: tavrhorn
 
 - type: marking
@@ -83,7 +83,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   sprites:
-    - sprite: ADT/Customization/Markings/horns/head.rsi
+    - sprite: _ADT/Customization/Markings/horns/head.rsi
       state: telehorn
 
 - type: marking
@@ -91,5 +91,5 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   sprites:
-    - sprite: ADT/Customization/Markings/horns/head.rsi
+    - sprite: _ADT/Customization/Markings/horns/head.rsi
       state: vampirehorn

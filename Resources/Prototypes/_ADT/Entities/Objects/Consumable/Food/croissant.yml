@@ -5,7 +5,7 @@
   description: Хрустящий и румяный круассан с кремовой начинкой внутри.
   components:
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Food/croissant.rsi
+    sprite: _ADT/Objects/Consumable/Food/croissant.rsi
     state: cream
   - type: FlavorProfile
     flavors:
@@ -28,7 +28,7 @@
   description: Хрустящий и румяный круассан с шоколадно-ореховой начинкой внутри.
   components:
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Food/croissant.rsi
+    sprite: _ADT/Objects/Consumable/Food/croissant.rsi
     state: chocolate
   - type: FlavorProfile
     flavors:
@@ -51,7 +51,7 @@
   description: Круассан с плавленным сыром внутри.
   components:
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Food/croissant.rsi
+    sprite: _ADT/Objects/Consumable/Food/croissant.rsi
     state: cheese
   - type: FlavorProfile
     flavors:
@@ -81,7 +81,7 @@
   - type: Food
     transferAmount: 3
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Food/croissant.rsi
+    sprite: _ADT/Objects/Consumable/Food/croissant.rsi
     state: hotdog
   - type: SolutionContainerManager
     solutions:

@@ -15,7 +15,7 @@
     soundVend: /Audio/Items/bikehorn.ogg
     initialStockQuality: 1.0 # Nobody knows how Honk does it, but their vending machines always seem well-stocked...
   - type: Sprite
-    sprite: DeadSpace/Structures/Machines/VendingMachines/clown.rsi
+    sprite: _DeadSpace/Structures/Machines/VendingMachines/clown.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -53,7 +53,7 @@
     ejectDelay: 1.9
     initialStockQuality: 0.33
   - type: Sprite
-    sprite: DeadSpace/Structures/Machines/VendingMachines/toysmat.rsi
+    sprite: _DeadSpace/Structures/Machines/VendingMachines/toysmat.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -85,7 +85,7 @@
     pack: GenericVendGoodbyes
   - type: Speech
   - type: Sprite
-    sprite: DeadSpace/Structures/Machines/VendingMachines/capes.rsi
+    sprite: _DeadSpace/Structures/Machines/VendingMachines/capes.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]

@@ -11,7 +11,7 @@
   - type: StaminaDamageOnCollide
     damage: 35
   - type: Sprite
-    sprite: DeadSpace/Objects/Weapons/Guns/Projectiles/crossbowbullet.rsi
+    sprite: _DeadSpace/Objects/Weapons/Guns/Projectiles/crossbowbullet.rsi
     layers:
     - state: bulletcrossbow
   - type: StunOnCollide

@@ -5,6 +5,6 @@
   description: Именно с такими рогами ходит ГСБ.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Head/Hats/deer.rsi
+    sprite: _DeadSpace/Clothing/Head/Hats/deer.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Head/Hats/deer.rsi
+    sprite: _DeadSpace/Clothing/Head/Hats/deer.rsi

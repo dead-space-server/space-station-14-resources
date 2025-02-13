@@ -5,10 +5,10 @@
   description: Где моя прелесть?
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Belt/supreme-commander-sheath.rsi
+    sprite: _ADT/Clothing/Belt/supreme-commander-sheath.rsi
     state: sheath
   - type: Clothing
-    sprite: ADT/Clothing/Belt/supreme-commander-sheath.rsi
+    sprite: _ADT/Clothing/Belt/supreme-commander-sheath.rsi
   - type: Storage
     grid:
     - 0,0,1,1
@@ -30,10 +30,10 @@
   description: Где моя прелесть?
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Belt/supreme-sheath.rsi
+    sprite: _ADT/Clothing/Belt/supreme-sheath.rsi
     state: sheath
   - type: Clothing
-    sprite: ADT/Clothing/Belt/supreme-sheath.rsi
+    sprite: _ADT/Clothing/Belt/supreme-sheath.rsi
   - type: Storage
     grid:
     - 0,0,1,1

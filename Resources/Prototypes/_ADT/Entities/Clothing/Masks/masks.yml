@@ -5,9 +5,9 @@
   description: Личные вещи бывают странные, да?
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Mask/raven.rsi
+    sprite: _ADT/Clothing/Mask/raven.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Mask/raven.rsi
+    sprite: _ADT/Clothing/Mask/raven.rsi
     clothingVisuals:
       mask:
       - state: equipped-MASK

@@ -11,7 +11,7 @@
   - type: Item
     size: Large
   - type: Sprite
-    sprite: DeadSpace/Other/ertloadouts/ertcases.rsi
+    sprite: _DeadSpace/Other/ertloadouts/ertcases.rsi
     state: amber
   - type: ThiefUndeterminedBackpack
     maxSelectedSets: 1
@@ -38,7 +38,7 @@
     shape:
     - 0,0,2,1
   - type: Sprite
-    sprite: DeadSpace/Other/ertloadouts/ertboxes.rsi
+    sprite: _DeadSpace/Other/ertloadouts/ertboxes.rsi
     state: amber
   - type: ThiefUndeterminedBackpack
     maxSelectedSets: 1
@@ -381,7 +381,7 @@
   name: ert-loadout-category-laserrifle-name
   description: ert-loadout-category-laserrifle-description
   sprite:
-    sprite: DeadSpace/Objects/Weapons/Guns/Battery/laser_rifle.rsi
+    sprite: _DeadSpace/Objects/Weapons/Guns/Battery/laser_rifle.rsi
     state: icon
   content:
   - WeaponLaserRifle
@@ -478,7 +478,7 @@
   name: ert-loadout-category-dominator-name
   description: ert-loadout-category-dominator-description
   sprite:
-    sprite: DeadSpace/Objects/Weapons/Guns/Battery/dominator.rsi
+    sprite: _DeadSpace/Objects/Weapons/Guns/Battery/dominator.rsi
     state: icon-0
   content:
   - PistolDominator

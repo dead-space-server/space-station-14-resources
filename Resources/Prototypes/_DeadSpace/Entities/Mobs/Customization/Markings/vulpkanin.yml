@@ -4,9 +4,9 @@
   markingCategory: HeadTop
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: vulp
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: vulp-inner
 
 - type: marking
@@ -15,9 +15,9 @@
   markingCategory: HeadTop
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: vulp
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: vulp-fade
 
 - type: marking
@@ -26,9 +26,9 @@
   markingCategory: HeadTop
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: vulp
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: vulp-sharp
 
 - type: marking
@@ -37,9 +37,9 @@
   markingCategory: HeadTop
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: jackal
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: jackal-inner
 
 - type: marking
@@ -48,9 +48,9 @@
   markingCategory: HeadTop
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: terrier
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: terrier-inner
 
 - type: marking
@@ -59,9 +59,9 @@
   markingCategory: HeadTop
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: wolf
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: wolf-inner
 
 - type: marking
@@ -70,9 +70,9 @@
   markingCategory: HeadTop
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: fennec
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: fennec-inner
 
 - type: marking
@@ -81,7 +81,7 @@
   markingCategory: HeadTop
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: fox
 
 - type: marking
@@ -90,9 +90,9 @@
   markingCategory: HeadTop
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: otie
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: otie-inner
 
 - type: marking
@@ -101,9 +101,9 @@
   markingCategory: HeadTop
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: msai
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: msai-inner
 
 - type: marking
@@ -112,7 +112,7 @@
   markingCategory: HeadTop
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: shock
 
 - type: marking
@@ -121,7 +121,7 @@
   markingCategory: HeadTop
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: coyote
 
 - type: marking
@@ -130,7 +130,7 @@
   markingCategory: HeadTop
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: dalmatian
 
 - type: marking
@@ -139,9 +139,9 @@
   markingCategory: Snout
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: muzzle_alt
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: nose
 
 - type: marking
@@ -150,9 +150,9 @@
   markingCategory: Snout
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: muzzle
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: nose
 
 - type: marking
@@ -161,9 +161,9 @@
   markingCategory: Snout
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: muzzle_sharp
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: nose
 
 - type: marking
@@ -172,9 +172,9 @@
   markingCategory: Snout
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: muzzle_fade
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: nose
 
 - type: marking
@@ -183,7 +183,7 @@
   markingCategory: Snout
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: nose
 
 - type: marking
@@ -192,9 +192,9 @@
   markingCategory: Snout
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: mask
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: nose
 
 - type: marking
@@ -203,9 +203,9 @@
   markingCategory: Snout
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: vulpine
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: vulpine-lines
 
 - type: marking
@@ -214,7 +214,7 @@
   markingCategory: Snout
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: vulpine-lines
 
 - type: marking
@@ -223,7 +223,7 @@
   markingCategory: Snout
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: blaze
 
 - type: marking
@@ -232,7 +232,7 @@
   markingCategory: Snout
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: patch
 
 - type: marking
@@ -241,7 +241,7 @@
   markingCategory: Head
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: tiger_head
 
 - type: marking
@@ -250,7 +250,7 @@
   markingCategory: Head
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: tiger_face
 
 - type: marking
@@ -259,7 +259,7 @@
   markingCategory: Head
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: slash
 
 - type: marking
@@ -268,9 +268,9 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp-fade
 
 - type: marking
@@ -279,9 +279,9 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp-tip
 
 - type: marking
@@ -290,9 +290,9 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp_wag
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp_wag-tip
 
 - type: marking
@@ -301,9 +301,9 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp_wag
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp_wag-tip
 
 - type: marking
@@ -312,9 +312,9 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp_alt
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp_alt-fade
 
 - type: marking
@@ -323,9 +323,9 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp_alt
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp_alt-tip
 
 - type: marking
@@ -334,9 +334,9 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: long
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: long-tip
 
 - type: marking
@@ -345,9 +345,9 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fox
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fox-fade
 
 - type: marking
@@ -356,9 +356,9 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fox
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fox-tip
 
 - type: marking
@@ -367,9 +367,9 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fox_wag
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fox_wag-fade
 
 - type: marking
@@ -378,9 +378,9 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fox_wag
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fox_wag-tip
 
 - type: marking
@@ -389,7 +389,7 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: bushfluff
 
 - type: marking
@@ -398,7 +398,7 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: bushfluff_wag
 
 - type: marking
@@ -407,7 +407,7 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: coyote
 
 - type: marking
@@ -416,7 +416,7 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: coyote_wag
 
 - type: marking
@@ -425,7 +425,7 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: corgi_wag
 
 - type: marking
@@ -434,9 +434,9 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: husky-inner
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: husky-outer
 
 - type: marking
@@ -445,7 +445,7 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: husky
 
 - type: marking
@@ -454,7 +454,7 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fox2
 
 - type: marking
@@ -463,9 +463,9 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fox3
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fox3-tip
 
 - type: marking
@@ -474,7 +474,7 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fennec
 
 - type: marking
@@ -483,7 +483,7 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: otie
 
 - type: marking
@@ -492,7 +492,7 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fluffy
 
 - type: marking
@@ -501,7 +501,7 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: dalmatian_wag
 
 - type: marking
@@ -510,7 +510,7 @@
   markingCategory: Chest
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/body_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/body_markings.rsi
       state: belly_crest
 
 - type: marking
@@ -519,7 +519,7 @@
   markingCategory: Chest
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/body_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/body_markings.rsi
       state: belly_full
 
 - type: marking
@@ -528,7 +528,7 @@
   markingCategory: Chest
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/body_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/body_markings.rsi
       state: belly_fox
 
 - type: marking
@@ -537,7 +537,7 @@
   bodyPart: RFoot
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/body_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/body_markings.rsi
       state: points_feet
 
 - type: marking
@@ -546,7 +546,7 @@
   bodyPart: LLeg
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/body_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/body_markings.rsi
       state: points_crest-legs
 
 - type: marking
@@ -555,7 +555,7 @@
   bodyPart: LLeg
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/body_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/body_markings.rsi
       state: points_fade-legs
 
 - type: marking
@@ -564,7 +564,7 @@
   bodyPart: LLeg
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/body_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/body_markings.rsi
       state: points_sharp-legs
 
 - type: marking
@@ -573,7 +573,7 @@
   bodyPart: RHand
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/body_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/body_markings.rsi
       state: points_hands
 
 - type: marking
@@ -582,7 +582,7 @@
   bodyPart: LArm
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/body_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/body_markings.rsi
       state: points_crest-arms
 
 - type: marking
@@ -591,7 +591,7 @@
   bodyPart: LArm
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/body_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/body_markings.rsi
       state: points_fade-arms
 
 - type: marking
@@ -600,7 +600,7 @@
   bodyPart: LArm
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/body_markings.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/body_markings.rsi
       state: points_sharp-arms
 
 - type: marking
@@ -609,7 +609,7 @@
   speciesRestriction: [Vulpkanin]
   markingCategory: Hair
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
       state: adhara
 
 - type: marking
@@ -618,7 +618,7 @@
   speciesRestriction: [Vulpkanin]
   markingCategory: Hair
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
       state: anita
 
 - type: marking
@@ -627,7 +627,7 @@
   speciesRestriction: [Vulpkanin]
   markingCategory: Hair
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
       state: apollo
 
 - type: marking
@@ -636,7 +636,7 @@
   speciesRestriction: [Vulpkanin]
   markingCategory: Hair
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
       state: belle
 
 - type: marking
@@ -645,7 +645,7 @@
   markingCategory: Hair
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
       state: braided
 
 - type: marking
@@ -654,7 +654,7 @@
   markingCategory: Hair
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
       state: bun
 
 - type: marking
@@ -663,7 +663,7 @@
   markingCategory: Hair
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
       state: clean_cut
 
 - type: marking
@@ -672,7 +672,7 @@
   markingCategory: Hair
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
       state: curl
 
 - type: marking
@@ -681,7 +681,7 @@
   markingCategory: Hair
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
       state: hawk
 
 - type: marking
@@ -690,7 +690,7 @@
   markingCategory: Hair
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
       state: jagged
 
 - type: marking
@@ -699,7 +699,7 @@
   markingCategory: Hair
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
       state: jeremy
 
 - type: marking
@@ -708,7 +708,7 @@
   markingCategory: Hair
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
       state: kajam
 
 - type: marking
@@ -717,7 +717,7 @@
   markingCategory: Hair
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
       state: keid
 
 - type: marking
@@ -726,7 +726,7 @@
   markingCategory: Hair
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
       state: kleeia
 
 - type: marking
@@ -735,7 +735,7 @@
   markingCategory: Hair
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
       state: mizar
 
 - type: marking
@@ -744,7 +744,7 @@
   markingCategory: Hair
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
       state: punkbraided
 
 - type: marking
@@ -753,7 +753,7 @@
   markingCategory: Hair
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
       state: raine
 
 - type: marking
@@ -762,7 +762,7 @@
   markingCategory: Hair
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
       state: rough
 
 - type: marking
@@ -771,7 +771,7 @@
   markingCategory: Hair
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
       state: short
 
 - type: marking
@@ -780,7 +780,7 @@
   markingCategory: Hair
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
       state: short2
 
 - type: marking
@@ -789,7 +789,7 @@
   markingCategory: Hair
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/hair.rsi
       state: spike
 
 - type: marking
@@ -798,7 +798,7 @@
   markingCategory: FacialHair
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/facial_hair.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/facial_hair.rsi
       state: ruff
 
 - type: marking
@@ -807,7 +807,7 @@
   markingCategory: FacialHair
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/facial_hair.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/facial_hair.rsi
       state: elder
 
 - type: marking
@@ -816,7 +816,7 @@
   markingCategory: FacialHair
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/facial_hair.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/facial_hair.rsi
       state: elder_chin
 
 - type: marking
@@ -825,5 +825,5 @@
   markingCategory: FacialHair
   speciesRestriction: [Vulpkanin]
   sprites:
-    - sprite: DeadSpace/Mobs/Customization/Vulpkanin/facial_hair.rsi
+    - sprite: _DeadSpace/Mobs/Customization/Vulpkanin/facial_hair.rsi
       state: kita

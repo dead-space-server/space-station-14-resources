@@ -3,7 +3,7 @@
   bodyPart: RArm
   markingCategory: Arms
   sprites:
-    - sprite: ADT/Mobs/Customization/augments/robotbody1.rsi
+    - sprite: _ADT/Mobs/Customization/augments/robotbody1.rsi
       state: r_roboarm
 
 - type: marking
@@ -11,7 +11,7 @@
   bodyPart: RHand
   markingCategory: Arms
   sprites:
-    - sprite: ADT/Mobs/Customization/augments/robotbody1.rsi
+    - sprite: _ADT/Mobs/Customization/augments/robotbody1.rsi
       state: r_robohand
 
 - type: marking
@@ -19,7 +19,7 @@
   bodyPart: LArm
   markingCategory: Arms
   sprites:
-    - sprite: ADT/Mobs/Customization/augments/robotbody1.rsi
+    - sprite: _ADT/Mobs/Customization/augments/robotbody1.rsi
       state: l_roboarm
 
 - type: marking
@@ -27,7 +27,7 @@
   bodyPart: LHand
   markingCategory: Arms
   sprites:
-    - sprite: ADT/Mobs/Customization/augments/robotbody1.rsi
+    - sprite: _ADT/Mobs/Customization/augments/robotbody1.rsi
       state: l_robohand
 
 - type: marking
@@ -35,7 +35,7 @@
   bodyPart: Chest
   markingCategory: Chest
   sprites:
-    - sprite: ADT/Mobs/Customization/augments/robotbody1.rsi
+    - sprite: _ADT/Mobs/Customization/augments/robotbody1.rsi
       state: robotorso_m
 
 - type: marking
@@ -43,7 +43,7 @@
   bodyPart: RLeg
   markingCategory: Legs
   sprites:
-    - sprite: ADT/Mobs/Customization/augments/robotbody1.rsi
+    - sprite: _ADT/Mobs/Customization/augments/robotbody1.rsi
       state: r_roboleg
 
 - type: marking
@@ -51,7 +51,7 @@
   bodyPart: RFoot
   markingCategory: Legs
   sprites:
-    - sprite: ADT/Mobs/Customization/augments/robotbody1.rsi
+    - sprite: _ADT/Mobs/Customization/augments/robotbody1.rsi
       state: r_robofoot
 
 - type: marking
@@ -59,7 +59,7 @@
   bodyPart: LLeg
   markingCategory: Legs
   sprites:
-    - sprite: ADT/Mobs/Customization/augments/robotbody1.rsi
+    - sprite: _ADT/Mobs/Customization/augments/robotbody1.rsi
       state: l_roboleg
 
 - type: marking
@@ -67,5 +67,5 @@
   bodyPart: LFoot
   markingCategory: Legs
   sprites:
-    - sprite: ADT/Mobs/Customization/augments/robotbody1.rsi
+    - sprite: _ADT/Mobs/Customization/augments/robotbody1.rsi
       state: l_robofoot

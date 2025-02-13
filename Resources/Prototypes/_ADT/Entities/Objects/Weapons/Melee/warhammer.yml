@@ -8,7 +8,7 @@
     tags:
       - Pickaxe
   - type: Sprite
-    sprite: ADT/Objects/Weapons/Melee/warhammer.rsi
+    sprite: _ADT/Objects/Weapons/Melee/warhammer.rsi
     state: icon
   - type: AmmoCounter
   - type: UseDelayOnShoot

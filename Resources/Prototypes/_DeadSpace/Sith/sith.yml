@@ -92,7 +92,7 @@
   id: SubordinationCommandObjective
   components:
   - type: Objective
-    icon: DeadSpace/Sith/actions/submission.png
+    icon: _DeadSpace/Sith/actions/submission.png
   - type: NumberObjective
     min: 4
     max: 4
@@ -105,7 +105,7 @@
   components:
   - type: Objective
     icon:
-      sprite: DeadSpace/Sith/bondrewd_helm.rsi
+      sprite: _DeadSpace/Sith/bondrewd_helm.rsi
       state: icon
 
 - type: entity

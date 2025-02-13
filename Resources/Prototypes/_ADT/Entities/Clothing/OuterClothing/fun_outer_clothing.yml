@@ -5,9 +5,9 @@
   description: Это же Мортиша!
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Suits/racoon.rsi
+    sprite: _ADT/Clothing/OuterClothing/Suits/racoon.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Suits/racoon.rsi
+    sprite: _ADT/Clothing/OuterClothing/Suits/racoon.rsi
 
 - type: entity
   parent: ClothingOuterBase
@@ -16,6 +16,6 @@
   description: Алиса???
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Suits/fox.rsi
+    sprite: _ADT/Clothing/OuterClothing/Suits/fox.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Suits/fox.rsi
+    sprite: _ADT/Clothing/OuterClothing/Suits/fox.rsi

@@ -11,7 +11,7 @@
   - type: Food
     transferAmount: 3
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Food/fried_egg.rsi
+    sprite: _ADT/Objects/Consumable/Food/fried_egg.rsi
     state: fried_egg
   - type: SolutionContainerManager
     solutions:

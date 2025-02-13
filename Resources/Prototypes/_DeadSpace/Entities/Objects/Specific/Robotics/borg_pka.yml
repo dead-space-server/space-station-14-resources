@@ -5,7 +5,7 @@
   parent: BaseItem
   components:
   - type: Sprite
-    sprite: /Textures/DeadSpace/Objects/Weapons/Guns/Basic/borg_pka.rsi
+    sprite: /Textures/_DeadSpace/Objects/Weapons/Guns/Basic/borg_pka.rsi
     layers:
     - state: icon
     - state: animation-icon

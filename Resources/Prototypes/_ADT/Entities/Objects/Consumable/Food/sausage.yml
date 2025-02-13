@@ -8,7 +8,7 @@
     tags:
     - Cooked
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Food/sausage.rsi
+    sprite: _ADT/Objects/Consumable/Food/sausage.rsi
     state: raw
   - type: SolutionContainerManager
     solutions:
@@ -33,7 +33,7 @@
     tags:
     - Cooked
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Food/sausage.rsi
+    sprite: _ADT/Objects/Consumable/Food/sausage.rsi
     state: fried
   - type: SolutionContainerManager
     solutions:

@@ -5,6 +5,6 @@
   description: ...
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Neck/mimeSkarf.rsi
+    sprite: _DeadSpace/Clothing/Neck/mimeSkarf.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Neck/mimeSkarf.rsi
+    sprite: _DeadSpace/Clothing/Neck/mimeSkarf.rsi

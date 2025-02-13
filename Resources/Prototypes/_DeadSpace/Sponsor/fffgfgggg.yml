@@ -12,7 +12,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/fffgfgggg/backpack.rsi
+    sprite: _DeadSpace/Sponsor/fffgfgggg/backpack.rsi
   - type: Storage
     maxItemSize: Huge
     grid:
@@ -35,9 +35,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/fffgfgggg/gloves.rsi
+    sprite: _DeadSpace/Sponsor/fffgfgggg/gloves.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/fffgfgggg/gloves.rsi
+    sprite: _DeadSpace/Sponsor/fffgfgggg/gloves.rsi
 
 # Hardsuit
 - type: entity
@@ -48,9 +48,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/fffgfgggg/hardsuit.rsi
+    sprite: _DeadSpace/Sponsor/fffgfgggg/hardsuit.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/fffgfgggg/hardsuit.rsi
+    sprite: _DeadSpace/Sponsor/fffgfgggg/hardsuit.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitfffgfgggg
   - type: Item
@@ -81,9 +81,9 @@
   description: Красивый чёрно-красный шлем, даже смерть его боится.
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/fffgfgggg/helmet.rsi
+    sprite: _DeadSpace/Sponsor/fffgfgggg/helmet.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/fffgfgggg/helmet.rsi
+    sprite: _DeadSpace/Sponsor/fffgfgggg/helmet.rsi
   - type: PointLight
     radius: 7
     energy: 3
@@ -107,12 +107,12 @@
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
-      sprite: DeadSpace/Sponsor/fffgfgggg/magboots.rsi
+      sprite: _DeadSpace/Sponsor/fffgfgggg/magboots.rsi
       layers:
       - state: icon
         map: [ "enum.ToggleVisuals.Layer" ]
     - type: Clothing
-      sprite: DeadSpace/Sponsor/fffgfgggg/magboots.rsi
+      sprite: _DeadSpace/Sponsor/fffgfgggg/magboots.rsi
     - type: ClothingSpeedModifier
       walkModifier: 1
       sprintModifier: 1
@@ -128,9 +128,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/fffgfgggg/jumpsuit.rsi
+    sprite: _DeadSpace/Sponsor/fffgfgggg/jumpsuit.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/fffgfgggg/jumpsuit.rsi
+    sprite: _DeadSpace/Sponsor/fffgfgggg/jumpsuit.rsi
 
 # Mask
 - type: entity
@@ -141,9 +141,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/fffgfgggg/gas.rsi
+    sprite: _DeadSpace/Sponsor/fffgfgggg/gas.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/fffgfgggg/gas.rsi
+    sprite: _DeadSpace/Sponsor/fffgfgggg/gas.rsi
 
 # Eyes
 - type: entity
@@ -154,9 +154,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/fffgfgggg/hud.rsi
+    sprite: _DeadSpace/Sponsor/fffgfgggg/hud.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/fffgfgggg/hud.rsi
+    sprite: _DeadSpace/Sponsor/fffgfgggg/hud.rsi
   - type: EyeProtection
   - type: IdentityBlocker
     coverage: EYES

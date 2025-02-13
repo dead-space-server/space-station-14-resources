@@ -5,9 +5,9 @@
   description: ...
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Uniforms/Jumpsuit/sexy-mime.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/Jumpsuit/sexy-mime.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Uniforms/Jumpsuit/sexy-mime.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/Jumpsuit/sexy-mime.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -16,6 +16,6 @@
   description: ...
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Uniforms/Jumpsuit/sexy-mime-black.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/Jumpsuit/sexy-mime-black.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Uniforms/Jumpsuit/sexy-mime-black.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/Jumpsuit/sexy-mime-black.rsi

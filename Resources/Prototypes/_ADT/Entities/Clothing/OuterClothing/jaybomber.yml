@@ -5,6 +5,6 @@
   description: Сделанно из лучшей ткани в этом секторе.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Coats/jaybomber.rsi
+    sprite: _ADT/Clothing/OuterClothing/Coats/jaybomber.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Coats/jaybomber.rsi
+    sprite: _ADT/Clothing/OuterClothing/Coats/jaybomber.rsi

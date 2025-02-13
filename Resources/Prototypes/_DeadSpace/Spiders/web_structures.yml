@@ -62,11 +62,11 @@
       types:
         Blunt: 15
     openSound:
-      path: /Audio/DeadSpace/Spiders/Eggs/gib1.ogg
+      path: /Audio/_DeadSpace/Spiders/Eggs/gib1.ogg
     closeSound:
-      path: /Audio/DeadSpace/Spiders/Eggs/gib2.ogg
+      path: /Audio/_DeadSpace/Spiders/Eggs/gib2.ogg
     denySound:
-      path: /Audio/DeadSpace/Spiders/Eggs/gib3.ogg
+      path: /Audio/_DeadSpace/Spiders/Eggs/gib3.ogg
     closeTimeOne: 0.2
     closeTimeTwo: 0.6
     openTimeOne: 0.6
@@ -151,7 +151,7 @@
     bodyType: Static
   - type: Sprite
     noRot: true
-    sprite: DeadSpace/Spiders/egg.rsi
+    sprite: _DeadSpace/Spiders/egg.rsi
     layers:
     - state: tomb
       map: [ "enum.DamageStateVisualLayers.Base" ]

@@ -5,6 +5,6 @@
   description: Мечтали почувствовать себя эльфом на службе у Санты? Ваш час настал!
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Uniforms/Jumpskirt/xmas.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/Jumpskirt/xmas.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Uniforms/Jumpskirt/xmas.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/Jumpskirt/xmas.rsi

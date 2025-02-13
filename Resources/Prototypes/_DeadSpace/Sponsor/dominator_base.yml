@@ -12,7 +12,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/backpack.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/backpack.rsi
   - type: Storage
     maxItemSize: Huge
     grid:
@@ -51,9 +51,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/belt.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/belt.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/vjlados/belt.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/belt.rsi
   - type: Item
     size: Huge
   - type: StorageFill
@@ -72,7 +72,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/cloak.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/cloak.rsi
 
 # Gloves
 - type: entity
@@ -83,9 +83,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/gloves.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/gloves.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/vjlados/gloves.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/gloves.rsi
   - type: Fiber
     fiberMaterial: fibers-insulative
     fiberColor: fibers-white
@@ -99,9 +99,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/hardsuit.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/hardsuit.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/vjlados/hardsuit.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/hardsuit.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitDominator
   - type: Item
@@ -115,9 +115,9 @@
   description: Шлем изолирующий владельца от страшного вакуума снаружи.
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/helmet.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/helmet.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/vjlados/helmet.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/helmet.rsi
   - type: PointLight
     color: "#daffad"
   - type: PressureProtection
@@ -133,9 +133,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/head.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/head.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/vjlados/head.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/head.rsi
 
 # Jumpsuit
 - type: entity
@@ -146,9 +146,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/jumpsuit.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/jumpsuit.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/vjlados/jumpsuit.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/jumpsuit.rsi
 
 # Magboots
 - type: entity
@@ -159,12 +159,12 @@
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
-      sprite: DeadSpace/Sponsor/vjlados/magboots.rsi
+      sprite: _DeadSpace/Sponsor/vjlados/magboots.rsi
       layers:
       - state: icon
         map: [ "enum.ToggleVisuals.Layer" ]
     - type: Clothing
-      sprite: DeadSpace/Sponsor/vjlados/magboots.rsi
+      sprite: _DeadSpace/Sponsor/vjlados/magboots.rsi
     - type: ClothingSpeedModifier
       walkModifier: 1
       sprintModifier: 1
@@ -178,4 +178,4 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/socks.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/socks.rsi

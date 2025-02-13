@@ -7,7 +7,7 @@
       - Egg
       - Spider
   icon:
-    sprite: /Textures/DeadSpace/Interface/Misc/antag_icons.rsi
+    sprite: /Textures/_DeadSpace/Interface/Misc/antag_icons.rsi
     state: Egg
 
 - type: entity
@@ -22,7 +22,7 @@
   - type: Physics
     bodyType: Static
   - type: Sprite
-    sprite: DeadSpace/Spiders/telecom.rsi
+    sprite: _DeadSpace/Spiders/telecom.rsi
     layers:
     - state: norka
       map: [ "enum.DamageStateVisualLayers.Base" ]
@@ -93,7 +93,7 @@
   - type: Objective
     unique: false
     icon:
-      sprite: DeadSpace/Spiders/egg.rsi
+      sprite: _DeadSpace/Spiders/egg.rsi
       state: tomb
   - type: NumberObjective
     min: 4000

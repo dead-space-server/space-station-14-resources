@@ -6,9 +6,9 @@
   description: The steering wheel is imprinted in the visor of this helmet.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hardsuits/pilotsuithelm.rsi
+    sprite: _ADT/Clothing/Head/Hardsuits/pilotsuithelm.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hardsuits/pilotsuithelm.rsi
+    sprite: _ADT/Clothing/Head/Hardsuits/pilotsuithelm.rsi
   - type: PointLight
     color: white
 
@@ -20,8 +20,8 @@
   description: Looks like something that inspires order.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hardsuits/pilotsuithelmsec.rsi
+    sprite: _ADT/Clothing/Head/Hardsuits/pilotsuithelmsec.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hardsuits/pilotsuithelmsec.rsi
+    sprite: _ADT/Clothing/Head/Hardsuits/pilotsuithelmsec.rsi
   - type: PointLight
     color: white

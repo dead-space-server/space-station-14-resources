@@ -4,34 +4,34 @@
   levels:
     green:
       announcement: alert-level-green-announcement
-      sound: /Audio/DeadSpace/AlertLevels/green.ogg # DS14 alert sound
+      sound: /Audio/_DeadSpace/AlertLevels/green.ogg # DS14 alert sound
       color: Green
       emergencyLightColor: LawnGreen
       shuttleTime: 600
     blue:
       announcement: alert-level-blue-announcement
-      sound: /Audio/DeadSpace/AlertLevels/blue.ogg # DS14 alert sound
+      sound: /Audio/_DeadSpace/AlertLevels/blue.ogg # DS14 alert sound
       color: DodgerBlue
       forceEnableEmergencyLights: true
       emergencyLightColor: DodgerBlue
       shuttleTime: 600
     violet:
       announcement: alert-level-violet-announcement
-      sound: /Audio/DeadSpace/AlertLevels/violet.ogg # DS14 alert sound
+      sound: /Audio/_DeadSpace/AlertLevels/violet.ogg # DS14 alert sound
       color: Violet
       emergencyLightColor: Violet
       forceEnableEmergencyLights: true
       shuttleTime: 600
     yellow:
       announcement: alert-level-yellow-announcement
-      sound: /Audio/DeadSpace/AlertLevels/yellow.ogg # DS14 alert sound
+      sound: /Audio/_DeadSpace/AlertLevels/yellow.ogg # DS14 alert sound
       color: Yellow
       emergencyLightColor: Goldenrod
       forceEnableEmergencyLights: true
       shuttleTime: 600
     red:
       announcement: alert-level-red-announcement
-      sound: /Audio/DeadSpace/AlertLevels/red.ogg # DS14 alert sound
+      sound: /Audio/_DeadSpace/AlertLevels/red.ogg # DS14 alert sound
       color: Red
       emergencyLightColor: Red
       forceEnableEmergencyLights: true
@@ -39,7 +39,7 @@
     gamma:
       announcement: alert-level-gamma-announcement
       selectable: false
-      sound: /Audio/DeadSpace/AlertLevels/gamma.ogg # DS14 alert sound
+      sound: /Audio/_DeadSpace/AlertLevels/gamma.ogg # DS14 alert sound
       disableSelection: true
       color: PaleVioletRed
       emergencyLightColor: PaleVioletRed
@@ -47,7 +47,7 @@
     sierra:
       announcement: alert-level-sierra-announcement
       selectable: false
-      sound: /Audio/DeadSpace/AlertLevels/sierra.ogg # DS14 alert sound
+      sound: /Audio/_DeadSpace/AlertLevels/sierra.ogg # DS14 alert sound
       disableSelection: true
       color: LightSeaGreen
       emergencyLightColor: LightSeaGreen
@@ -55,7 +55,7 @@
     enigma:
       announcement: alert-level-enigma-announcement
       selectable: false
-      sound: /Audio/DeadSpace/AlertLevels/enigma.ogg # DS14 alert sound
+      sound: /Audio/_DeadSpace/AlertLevels/enigma.ogg # DS14 alert sound
       disableSelection: true
       color: '#EF7200'
       emergencyLightColor: '#EF7200'
@@ -63,7 +63,7 @@
     delta:
       announcement: alert-level-delta-announcement
       selectable: false
-      sound: /Audio/DeadSpace/AlertLevels/delta.ogg # DS14 alert sound
+      sound: /Audio/_DeadSpace/AlertLevels/delta.ogg # DS14 alert sound
       disableSelection: true
       color: DarkRed
       emergencyLightColor: Orange
@@ -72,7 +72,7 @@
     epsilon:
       announcement: alert-level-epsilon-announcement
       selectable: false
-      sound: /Audio/DeadSpace/AlertLevels/epsilon.ogg # DS14 alert sound
+      sound: /Audio/_DeadSpace/AlertLevels/epsilon.ogg # DS14 alert sound
       disableSelection: true
       color: DarkViolet
       emergencyLightColor: DarkViolet

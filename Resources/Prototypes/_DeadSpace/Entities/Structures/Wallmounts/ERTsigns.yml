@@ -5,7 +5,7 @@
   description: Стальной знак с эмблемой ОБР "ЭМБЕР"
   components:
   - type: Sprite
-    sprite: DeadSpace/Structures/Wallmounts/ert.rsi
+    sprite: _DeadSpace/Structures/Wallmounts/ert.rsi
     state: ert_ember
     scale: 0.85, 0.85
 
@@ -22,7 +22,7 @@
   description: Стальной знак с эмблемой ОБР кода "КРАСНЫЙ"
   components:
   - type: Sprite
-    sprite: DeadSpace/Structures/Wallmounts/ert.rsi
+    sprite: _DeadSpace/Structures/Wallmounts/ert.rsi
     state: ert_red
     scale: 0.85, 0.85
 
@@ -39,7 +39,7 @@
   description: Стальной знак с эмблемой ОБР кода "ГАММА"
   components:
   - type: Sprite
-    sprite: DeadSpace/Structures/Wallmounts/ert.rsi
+    sprite: _DeadSpace/Structures/Wallmounts/ert.rsi
     state: ert_gamma
     scale: 0.85, 0.85
 
@@ -56,7 +56,7 @@
   description: Стальной знак с эмблемой ОБР Инженеров
   components:
   - type: Sprite
-    sprite: DeadSpace/Structures/Wallmounts/ert.rsi
+    sprite: _DeadSpace/Structures/Wallmounts/ert.rsi
     state: ert_engi
     scale: 0.85, 0.85
 
@@ -73,7 +73,7 @@
   description: Стальной знак с эмблемой ОБР Уборщиков
   components:
   - type: Sprite
-    sprite: DeadSpace/Structures/Wallmounts/ert.rsi
+    sprite: _DeadSpace/Structures/Wallmounts/ert.rsi
     state: ert_janitor
     scale: 0.85, 0.85
 
@@ -90,7 +90,7 @@
   description: Стальной знак с эмблемой отряда РХБЗЗ
   components:
   - type: Sprite
-    sprite: DeadSpace/Structures/Wallmounts/ert.rsi
+    sprite: _DeadSpace/Structures/Wallmounts/ert.rsi
     state: cburn
     scale: 0.85, 0.85
 
@@ -107,7 +107,7 @@
   description: Стальной знак с эмблемой отряда РХБЗЗ кода "СЬЕРРА"
   components:
   - type: Sprite
-    sprite: DeadSpace/Structures/Wallmounts/ert.rsi
+    sprite: _DeadSpace/Structures/Wallmounts/ert.rsi
     state: cburn_sierra
     scale: 0.85, 0.85
 

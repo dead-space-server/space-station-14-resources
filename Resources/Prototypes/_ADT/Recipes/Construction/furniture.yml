@@ -7,7 +7,7 @@
   category: construction-category-furniture
   description: It looks comfy.
   icon:
-    sprite: ADT/Structures/Furniture/black_sofa.rsi
+    sprite: _ADT/Structures/Furniture/black_sofa.rsi
     state: sofa_left
   objectType: Structure
   placementMode: SnapgridCenter
@@ -24,7 +24,7 @@
   category: construction-category-furniture
   description: It looks comfy.
   icon:
-    sprite: ADT/Structures/Furniture/black_sofa.rsi
+    sprite: _ADT/Structures/Furniture/black_sofa.rsi
     state: sofa_middle
   objectType: Structure
   placementMode: SnapgridCenter
@@ -41,7 +41,7 @@
   category: construction-category-furniture
   description: It looks comfy.
   icon:
-    sprite: ADT/Structures/Furniture/black_sofa.rsi
+    sprite: _ADT/Structures/Furniture/black_sofa.rsi
     state: sofa_right
   objectType: Structure
   placementMode: SnapgridCenter
@@ -58,7 +58,7 @@
   targetNode: adtdeckchair
   category: construction-category-furniture
   icon:
-    sprite: ADT/Structures/Furniture/deckchair.rsi
+    sprite: _ADT/Structures/Furniture/deckchair.rsi
     state: deckchair
   objectType: Structure
   placementMode: SnapgridCenter
@@ -75,7 +75,7 @@
   category: construction-category-furniture
   description: It looks comfy.
   icon:
-    sprite: ADT/Structures/Furniture/black_chair.rsi
+    sprite: _ADT/Structures/Furniture/black_chair.rsi
     state: armchair
   objectType: Structure
   placementMode: SnapgridCenter
@@ -92,7 +92,7 @@
   targetNode: adtdoublebedtop
   category: construction-category-furniture
   icon:
-    sprite: ADT/Structures/Furniture/doublebed.rsi
+    sprite: _ADT/Structures/Furniture/doublebed.rsi
     state: top
   objectType: Structure
   placementMode: SnapgridCenter
@@ -109,7 +109,7 @@
   targetNode: adtdoublebedbottom
   category: construction-category-furniture
   icon:
-    sprite: ADT/Structures/Furniture/doublebed.rsi
+    sprite: _ADT/Structures/Furniture/doublebed.rsi
     state: bottom
   objectType: Structure
   placementMode: SnapgridCenter
@@ -126,7 +126,7 @@
   category: construction-category-furniture
   description: It looks comfy.
   icon:
-    sprite: ADT/Structures/Furniture/red_sofa.rsi
+    sprite: _ADT/Structures/Furniture/red_sofa.rsi
     state: sofa_left
   objectType: Structure
   placementMode: SnapgridCenter
@@ -143,7 +143,7 @@
   category: construction-category-furniture
   description: It looks comfy.
   icon:
-    sprite: ADT/Structures/Furniture/red_sofa.rsi
+    sprite: _ADT/Structures/Furniture/red_sofa.rsi
     state: sofa_middle
   objectType: Structure
   placementMode: SnapgridCenter
@@ -160,7 +160,7 @@
   category: construction-category-furniture
   description: It looks comfy.
   icon:
-    sprite: ADT/Structures/Furniture/red_sofa.rsi
+    sprite: _ADT/Structures/Furniture/red_sofa.rsi
     state: sofa_right
   objectType: Structure
   placementMode: SnapgridCenter
@@ -177,7 +177,7 @@
   category: construction-category-furniture
   description: It looks comfy.
   icon:
-    sprite: ADT/Structures/Furniture/violet_sofa.rsi
+    sprite: _ADT/Structures/Furniture/violet_sofa.rsi
     state: sofa_left
   objectType: Structure
   placementMode: SnapgridCenter
@@ -194,7 +194,7 @@
   category: construction-category-furniture
   description: It looks comfy.
   icon:
-    sprite: ADT/Structures/Furniture/violet_sofa.rsi
+    sprite: _ADT/Structures/Furniture/violet_sofa.rsi
     state: sofa_middle
   objectType: Structure
   placementMode: SnapgridCenter
@@ -211,7 +211,7 @@
   category: construction-category-furniture
   description: It looks comfy.
   icon:
-    sprite: ADT/Structures/Furniture/violet_sofa.rsi
+    sprite: _ADT/Structures/Furniture/violet_sofa.rsi
     state: sofa_right
   objectType: Structure
   placementMode: SnapgridCenter
@@ -228,7 +228,7 @@
   category: construction-category-furniture
   description: It looks comfy.
   icon:
-    sprite: ADT/Structures/Furniture/leather_sofa.rsi
+    sprite: _ADT/Structures/Furniture/leather_sofa.rsi
     state: sofa_left
   objectType: Structure
   placementMode: SnapgridCenter
@@ -245,7 +245,7 @@
   category: construction-category-furniture
   description: It looks comfy.
   icon:
-    sprite: ADT/Structures/Furniture/leather_sofa.rsi
+    sprite: _ADT/Structures/Furniture/leather_sofa.rsi
     state: sofa_middle
   objectType: Structure
   placementMode: SnapgridCenter
@@ -262,7 +262,7 @@
   category: construction-category-furniture
   description: It looks comfy.
   icon:
-    sprite: ADT/Structures/Furniture/leather_sofa.rsi
+    sprite: _ADT/Structures/Furniture/leather_sofa.rsi
     state: sofa_right
   objectType: Structure
   placementMode: SnapgridCenter
@@ -280,7 +280,7 @@
   category: construction-category-furniture
   description: It looks comfy.
   icon:
-    sprite: ADT/Structures/Furniture/yuna_chairs.rsi
+    sprite: _ADT/Structures/Furniture/yuna_chairs.rsi
     state: kreslo_fiol
   objectType: Structure
   placementMode: SnapgridCenter
@@ -297,7 +297,7 @@
   category: construction-category-furniture
   description: It looks comfy.
   icon:
-    sprite: ADT/Structures/Furniture/yuna_chairs.rsi
+    sprite: _ADT/Structures/Furniture/yuna_chairs.rsi
     state: kreslo_red
   objectType: Structure
   placementMode: SnapgridCenter
@@ -314,7 +314,7 @@
   category: construction-category-furniture
   description: It looks comfy.
   icon:
-    sprite: ADT/Structures/Furniture/yuna_chairs.rsi
+    sprite: _ADT/Structures/Furniture/yuna_chairs.rsi
     state: kreslo_kor
   objectType: Structure
   placementMode: SnapgridCenter
@@ -333,7 +333,7 @@
   category: construction-category-furniture
   description: Simple, but beautiful.
   icon:
-    sprite: ADT/Structures/Furniture/church_bench.rsi
+    sprite: _ADT/Structures/Furniture/church_bench.rsi
     state: bench_left
   objectType: Structure
   placementMode: SnapgridCenter
@@ -350,7 +350,7 @@
   category: construction-category-furniture
   description: Simple, but beautiful.
   icon:
-    sprite: ADT/Structures/Furniture/church_bench.rsi
+    sprite: _ADT/Structures/Furniture/church_bench.rsi
     state: bench_middle
   objectType: Structure
   placementMode: SnapgridCenter
@@ -367,7 +367,7 @@
   category: construction-category-furniture
   description: Simple, but beautiful.
   icon:
-    sprite: ADT/Structures/Furniture/church_bench.rsi
+    sprite: _ADT/Structures/Furniture/church_bench.rsi
     state: bench_right
   objectType: Structure
   placementMode: SnapgridCenter

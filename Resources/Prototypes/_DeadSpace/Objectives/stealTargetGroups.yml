@@ -9,5 +9,5 @@
   id: PortableCameraMonitor
   name: steal-target-groups-portable-camera-monitor
   sprite:
-    sprite: DeadSpace/Objects/Devices/portable_camera_monitor.rsi
+    sprite: _DeadSpace/Objects/Devices/portable_camera_monitor.rsi
     state: icon

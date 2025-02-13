@@ -5,10 +5,10 @@
   description: Вероятность успешного завершения этой миссии была ноль процентов. Но, видимо, в вашем случае любые расчёты теряют смысл.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Eyes/Glasses/supreme-commander-glasses.rsi
+    sprite: _ADT/Clothing/Eyes/Glasses/supreme-commander-glasses.rsi
     state: icon
   - type: Clothing
-    sprite: ADT/Clothing/Eyes/Glasses/supreme-commander-glasses.rsi
+    sprite: _ADT/Clothing/Eyes/Glasses/supreme-commander-glasses.rsi
   - type: MeleeWeapon
     damage:
       types:

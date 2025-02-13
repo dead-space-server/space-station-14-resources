@@ -5,9 +5,9 @@
   description: Стандартный штурмовой скафандр КПСК.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/OuterClothing/Hardsuits/fscp.rsi
+    sprite: _DeadSpace/Clothing/OuterClothing/Hardsuits/fscp.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/OuterClothing/Hardsuits/fscp.rsi
+    sprite: _DeadSpace/Clothing/OuterClothing/Hardsuits/fscp.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000

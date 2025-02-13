@@ -21,7 +21,7 @@
     containers:
       ballistic-ammo: !type:Container
   - type: Sprite
-    sprite: ADT/Objects/Weapons/Guns/Ammunition/Magazine/ext_rifle_mag.rsi
+    sprite: _ADT/Objects/Weapons/Guns/Ammunition/Magazine/ext_rifle_mag.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]

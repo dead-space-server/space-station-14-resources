@@ -16,7 +16,7 @@
         - ReagentId: ExtractInfectorDead
           Quantity: 10
   - type: Sprite
-    sprite: DeadSpace/Other/infector_gland.rsi
+    sprite: _DeadSpace/Other/infector_gland.rsi
     state: gland
   - type: Extractable
     juiceSolution:

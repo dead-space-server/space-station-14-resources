@@ -5,9 +5,9 @@
   description: Горный Штурмовой Костюм он же Горка, универсальный комплект одежды, используется военнослужащими, охотниками и рыболовами, туристами в Советском Союзе. За счёт специальной обработке ткани была повышена устойчивость к колюще-режущим воздействиям, а также высокая надежность и долговечность.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Armor/gorka.rsi
+    sprite: _ADT/Clothing/OuterClothing/Armor/gorka.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Armor/gorka.rsi
+    sprite: _ADT/Clothing/OuterClothing/Armor/gorka.rsi
   - type: Armor
     modifiers:
       coefficients:

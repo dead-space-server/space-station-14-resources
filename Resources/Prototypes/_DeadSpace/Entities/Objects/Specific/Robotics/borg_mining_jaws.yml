@@ -6,7 +6,7 @@
   description: Бюджетные челюсти жизни, разработанные для работы в полевых условиях.
   components:
   - type: Sprite
-    sprite: /Textures/DeadSpace/Objects/Misc/borg_mining_jaws.rsi
+    sprite: /Textures/_DeadSpace/Objects/Misc/borg_mining_jaws.rsi
     state: mining_borg_jaws_pry
   - type: Tool
     qualities:
@@ -21,13 +21,13 @@
     entries:
       - behavior: Prying
         sprite:
-          sprite: /Textures/DeadSpace/Objects/Misc/borg_mining_jaws.rsi
+          sprite: /Textures/_DeadSpace/Objects/Misc/borg_mining_jaws.rsi
           state: mining_borg_jaws_pry
         useSound: /Audio/Items/jaws_pry.ogg
         changeSound: /Audio/Items/change_jaws.ogg
       - behavior: Cutting
         sprite:
-          sprite: /Textures/DeadSpace/Objects/Misc/borg_mining_jaws.rsi
+          sprite: /Textures/_DeadSpace/Objects/Misc/borg_mining_jaws.rsi
           state: mining_borg_jaws_cutter
         useSound: /Audio/Items/jaws_cut.ogg
         changeSound: /Audio/Items/change_jaws.ogg

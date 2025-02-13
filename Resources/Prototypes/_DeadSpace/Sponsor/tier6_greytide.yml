@@ -91,9 +91,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/Greytide/fawkes.rsi
+    sprite: _DeadSpace/Sponsor/Greytide/fawkes.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/Greytide/fawkes.rsi
+    sprite: _DeadSpace/Sponsor/Greytide/fawkes.rsi
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -103,9 +103,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/Greytide/bluecoat.rsi
+    sprite: _DeadSpace/Sponsor/Greytide/bluecoat.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/Greytide/bluecoat.rsi
+    sprite: _DeadSpace/Sponsor/Greytide/bluecoat.rsi
 
 # Cloak
 - type: entity
@@ -116,7 +116,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/Greytide/cloak.rsi
+    sprite: _DeadSpace/Sponsor/Greytide/cloak.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodGreyFox
     requiredSlot:
@@ -131,9 +131,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/Greytide/cloakhead.rsi
+    sprite: _DeadSpace/Sponsor/Greytide/cloakhead.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/Greytide/cloakhead.rsi
+    sprite: _DeadSpace/Sponsor/Greytide/cloakhead.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -143,4 +143,4 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/Greytide/red_cloak.rsi
+    sprite: _DeadSpace/Sponsor/Greytide/red_cloak.rsi

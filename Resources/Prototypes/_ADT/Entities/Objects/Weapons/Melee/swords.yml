@@ -9,7 +9,7 @@
     tags:
     - SupremeSabre
   - type: Sprite
-    sprite: ADT/Objects/Weapons/Melee/murasama.rsi
+    sprite: _ADT/Objects/Weapons/Melee/murasama.rsi
     state: icon
   - type: MeleeWeapon
     attackRate: 1.5
@@ -18,5 +18,5 @@
         Slash: 25
   - type: Item
     size: Normal
-    sprite: ADT/Objects/Weapons/Melee/murasama.rsi
+    sprite: _ADT/Objects/Weapons/Melee/murasama.rsi
   - type: DisarmMalus

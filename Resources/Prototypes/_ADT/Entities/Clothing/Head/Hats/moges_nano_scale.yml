@@ -5,9 +5,9 @@
   description: Рептилии не настолько примитивны, как вы считали.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hardsuits/nano_scale_armor_hardsuithead.rsi
+    sprite: _ADT/Clothing/Head/Hardsuits/nano_scale_armor_hardsuithead.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hardsuits/nano_scale_armor_hardsuithead.rsi
+    sprite: _ADT/Clothing/Head/Hardsuits/nano_scale_armor_hardsuithead.rsi
   - type: PointLight
     color: red
   - type: PressureProtection
@@ -32,9 +32,9 @@
   description: Очень скрытный и очень пахнет сахаром.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hardsuits/nano_scale_armor_chameleon_head.rsi
+    sprite: _ADT/Clothing/Head/Hardsuits/nano_scale_armor_chameleon_head.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hardsuits/nano_scale_armor_chameleon_head.rsi
+    sprite: _ADT/Clothing/Head/Hardsuits/nano_scale_armor_chameleon_head.rsi
   - type: Tag
     tags:
     - HidesHair

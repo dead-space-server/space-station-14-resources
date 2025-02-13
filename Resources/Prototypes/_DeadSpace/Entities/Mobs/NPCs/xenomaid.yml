@@ -9,7 +9,7 @@
   - type: MobMover
   - type: Sprite
     drawdepth: Mobs
-    sprite: /Textures/DeadSpace/Mobs/Pets/xenomaid.rsi
+    sprite: /Textures/_DeadSpace/Mobs/Pets/xenomaid.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: maid
@@ -84,7 +84,7 @@
     interactFailureString: petting-failure-generic
     interactSuccessSpawn: EffectHearts
     interactSuccessSound:
-      path: /Audio/DeadSpace/Animals/xeno_maid_meow.ogg
+      path: /Audio/_DeadSpace/Animals/xeno_maid_meow.ogg
       params:
         volume: 20
   - type: ReplacementAccent
@@ -117,7 +117,7 @@
     layers:
       - state: green
       - state: maid
-        sprite: DeadSpace/Mobs/Pets/xenomaid.rsi
+        sprite: _DeadSpace/Mobs/Pets/xenomaid.rsi
   - type: ConditionalSpawner
     prototypes:
       - XenoMaidMob

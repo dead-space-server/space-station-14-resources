@@ -74,7 +74,7 @@
   suffix: Спавнер, Призрачная роль
   components:
     - type: Sprite
-      sprite: Corvax/Sponsor/jesuisunfou/Clothing/Head/Hats/ussp.rsi
+      sprite: _Corvax/Sponsor/jesuisunfou/Clothing/Head/Hats/ussp.rsi
       state: icon
     - type: RandomMetadata
     - type: RandomHumanoidSpawner
@@ -185,7 +185,7 @@
   suffix: Спавнер, Призрачная роль
   components:
     - type: Sprite
-      sprite: Corvax/Sponsor/jesuisunfou/Clothing/Head/Hats/ussp.rsi
+      sprite: _Corvax/Sponsor/jesuisunfou/Clothing/Head/Hats/ussp.rsi
       state: icon
     - type: RandomMetadata
     - type: RandomHumanoidSpawner
@@ -287,7 +287,7 @@
   suffix: Спавнер, Призрачная роль
   components:
     - type: Sprite
-      sprite: Corvax/Sponsor/jesuisunfou/Clothing/Head/Hats/ussp.rsi
+      sprite: _Corvax/Sponsor/jesuisunfou/Clothing/Head/Hats/ussp.rsi
       state: icon
     - type: RandomMetadata
     - type: RandomHumanoidSpawner

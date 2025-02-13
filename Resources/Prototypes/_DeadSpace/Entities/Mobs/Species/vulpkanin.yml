@@ -48,7 +48,7 @@
   - type: Inventory
     speciesId: reptilian # for reptilian masks
   - type: Vocal
-    wilhelm: "/Audio/DeadSpace/Voice/Felinid/cat_wilhelm.ogg"
+    wilhelm: "/Audio/_DeadSpace/Voice/Felinid/cat_wilhelm.ogg"
     sounds:
       Male: MaleVulpkanin
       Female: FemaleVulpkanin

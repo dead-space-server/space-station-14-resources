@@ -130,7 +130,7 @@
     minimumPlayers: 0
   - type: MeteorSwarm
     announcement: station-event-space-dust-start-announcement
-    announcementSound: /Audio/DeadSpace/Announcements/attention.ogg # DeadSpace-Announcements
+    announcementSound: /Audio/_DeadSpace/Announcements/attention.ogg # DeadSpace-Announcements
     nonDirectional: true
     meteors:
       MeteorSpaceDust: 1
@@ -185,7 +185,7 @@
     weight: 0.05
   - type: MeteorSwarm
     announcement: station-event-meteor-urist-start-announcement
-    announcementSound: /Audio/DeadSpace/Announcements/attention.ogg # DeadSpace-Announcements
+    announcementSound: /Audio/_DeadSpace/Announcements/attention.ogg # DeadSpace-Announcements
     meteors:
       MeteorUrist: 1
     waves:
@@ -202,7 +202,7 @@
   - type: StationEvent
     startAnnouncement: station-event-immovable-rod-start-announcement
     startAudio:
-      path: /Audio/DeadSpace/Announcements/attention.ogg
+      path: /Audio/_DeadSpace/Announcements/attention.ogg
     weight: 3.5
     reoccurrenceDelay: 1
     duration: 1

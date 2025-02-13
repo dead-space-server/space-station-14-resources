@@ -5,9 +5,9 @@
   description: Один вид этого бушлата повышает вероятность чистосердечного признания подозреваемого на 50%.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Coats/investigator_coat.rsi
+    sprite: _ADT/Clothing/OuterClothing/Coats/investigator_coat.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Coats/investigator_coat.rsi
+    sprite: _ADT/Clothing/OuterClothing/Coats/investigator_coat.rsi
   - type: Armor
     modifiers:
       coefficients:

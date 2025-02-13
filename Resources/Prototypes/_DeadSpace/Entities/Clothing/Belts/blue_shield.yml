@@ -16,6 +16,6 @@
       - id: ADTObjectsSpecificDexalinPlusChemistryBottle
       - id: ADTObjectsSpecificDermalineChemistryBottle
   - type: Sprite
-    sprite: DeadSpace/Clothing/Belt/webbing_blueshield.rsi
+    sprite: _DeadSpace/Clothing/Belt/webbing_blueshield.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Belt/webbing_blueshield.rsi
+    sprite: _DeadSpace/Clothing/Belt/webbing_blueshield.rsi

@@ -12,7 +12,7 @@
   # categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/0black_cat0/backpack.rsi
+    sprite: _DeadSpace/Sponsor/0black_cat0/backpack.rsi
   - type: Storage
     maxItemSize: Huge
     grid:
@@ -43,9 +43,9 @@
   id: 0black_cat0MedkitAdvanced
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/0black_cat0/medkit.rsi
+    sprite: _DeadSpace/Sponsor/0black_cat0/medkit.rsi
   - type: Item
-    sprite: DeadSpace/Sponsor/0black_cat0/medkit.rsi
+    sprite: _DeadSpace/Sponsor/0black_cat0/medkit.rsi
     size: Normal
 
 # Belt
@@ -57,9 +57,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/0black_cat0/belt.rsi
+    sprite: _DeadSpace/Sponsor/0black_cat0/belt.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/0black_cat0/belt.rsi
+    sprite: _DeadSpace/Sponsor/0black_cat0/belt.rsi
   - type: Item
     size: Huge
   - type: StorageFill
@@ -78,9 +78,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/0black_cat0/gloves.rsi
+    sprite: _DeadSpace/Sponsor/0black_cat0/gloves.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/0black_cat0/gloves.rsi
+    sprite: _DeadSpace/Sponsor/0black_cat0/gloves.rsi
 
 # Hardsuit
 - type: entity
@@ -91,9 +91,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/0black_cat0/hardsuit.rsi
+    sprite: _DeadSpace/Sponsor/0black_cat0/hardsuit.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/0black_cat0/hardsuit.rsi
+    sprite: _DeadSpace/Sponsor/0black_cat0/hardsuit.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuit0black_cat0
   - type: Item
@@ -107,9 +107,9 @@
   description: Изысканные доспехи. Имеют хорошую прочность, а так же сделаны более удобными для передвижения.
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/0black_cat0/helmet.rsi
+    sprite: _DeadSpace/Sponsor/0black_cat0/helmet.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/0black_cat0/helmet.rsi
+    sprite: _DeadSpace/Sponsor/0black_cat0/helmet.rsi
   - type: PointLight
     color: red
   - type: PressureProtection
@@ -125,9 +125,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/0black_cat0/jumpsuit.rsi
+    sprite: _DeadSpace/Sponsor/0black_cat0/jumpsuit.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/0black_cat0/jumpsuit.rsi
+    sprite: _DeadSpace/Sponsor/0black_cat0/jumpsuit.rsi
 
 # Magboots
 - type: entity
@@ -138,12 +138,12 @@
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
-      sprite: DeadSpace/Sponsor/0black_cat0/magboots.rsi
+      sprite: _DeadSpace/Sponsor/0black_cat0/magboots.rsi
       layers:
       - state: icon
         map: [ "enum.ToggleVisuals.Layer" ]
     - type: Clothing
-      sprite: DeadSpace/Sponsor/0black_cat0/magboots.rsi
+      sprite: _DeadSpace/Sponsor/0black_cat0/magboots.rsi
     - type: ClothingSpeedModifier
       walkModifier: 1
       sprintModifier: 1
@@ -157,9 +157,9 @@
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
-      sprite: DeadSpace/Sponsor/0black_cat0/disabler.rsi
+      sprite: _DeadSpace/Sponsor/0black_cat0/disabler.rsi
     - type: Clothing
-      sprite: DeadSpace/Sponsor/0black_cat0/disabler.rsi
+      sprite: _DeadSpace/Sponsor/0black_cat0/disabler.rsi
     - type: ProjectileBatteryAmmoProvider
       proto: BulletDisablerPractice
       fireCost: 100
@@ -171,11 +171,11 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Item
-    sprite: DeadSpace/Sponsor/0black_cat0/jetpack.rsi
+    sprite: _DeadSpace/Sponsor/0black_cat0/jetpack.rsi
   - type: Sprite
-    sprite: DeadSpace/Sponsor/0black_cat0/jetpack.rsi
+    sprite: _DeadSpace/Sponsor/0black_cat0/jetpack.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/0black_cat0/jetpack.rsi
+    sprite: _DeadSpace/Sponsor/0black_cat0/jetpack.rsi
 
 - type: entity
   parent: JetpackVoid0black_cat0
@@ -202,9 +202,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/0black_cat0/gasmask.rsi
+    sprite: _DeadSpace/Sponsor/0black_cat0/gasmask.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/0black_cat0/gasmask.rsi
+    sprite: _DeadSpace/Sponsor/0black_cat0/gasmask.rsi
 
 # Coat
 - type: entity
@@ -215,9 +215,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/0black_cat0/coat.rsi
+    sprite: _DeadSpace/Sponsor/0black_cat0/coat.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/0black_cat0/coat.rsi
+    sprite: _DeadSpace/Sponsor/0black_cat0/coat.rsi
 
 # Sheath
 - type: entity
@@ -228,9 +228,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/0black_cat0/sheath.rsi
+    sprite: _DeadSpace/Sponsor/0black_cat0/sheath.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/0black_cat0/sheath.rsi
+    sprite: _DeadSpace/Sponsor/0black_cat0/sheath.rsi
   - type: Item
     size: Normal
   - type: ContainerFill
@@ -247,7 +247,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/0black_cat0/katana.rsi
+    sprite: _DeadSpace/Sponsor/0black_cat0/katana.rsi
   - type: MeleeWeapon
     damage:
       types:
@@ -255,7 +255,7 @@
   - type: StaminaDamageOnHit
     damage: 30
   - type: Item
-    sprite: DeadSpace/Sponsor/0black_cat0/katana.rsi
+    sprite: _DeadSpace/Sponsor/0black_cat0/katana.rsi
   - type: Tag
     tags:
     - CaptainSabre
@@ -269,7 +269,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/0black_cat0/cloak.rsi
+    sprite: _DeadSpace/Sponsor/0black_cat0/cloak.rsi
 
 # PDA
 - type: entity
@@ -280,9 +280,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Icon
-    sprite: DeadSpace/Sponsor/0black_cat0/pda.rsi
+    sprite: _DeadSpace/Sponsor/0black_cat0/pda.rsi
   - type: Sprite
-    sprite: DeadSpace/Sponsor/0black_cat0/pda.rsi
+    sprite: _DeadSpace/Sponsor/0black_cat0/pda.rsi
   - type: Pda
     penSlot:
       startingItem: Pen0black_cat0
@@ -296,4 +296,4 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/0black_cat0/pen.rsi
+    sprite: _DeadSpace/Sponsor/0black_cat0/pen.rsi

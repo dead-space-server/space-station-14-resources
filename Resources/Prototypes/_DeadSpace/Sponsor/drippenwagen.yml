@@ -18,7 +18,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/drippenwagen/backpack.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagen/backpack.rsi
   - type: Storage
     maxItemSize: Huge
     grid:
@@ -47,9 +47,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/drippenwagen/belt.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagen/belt.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/drippenwagen/belt.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagen/belt.rsi
   - type: Item
     size: Huge
   - type: StorageFill
@@ -68,7 +68,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/drippenwagen/cloak.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagen/cloak.rsi
 
 # Gloves
 - type: entity
@@ -79,9 +79,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/gloves.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/gloves.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/vjlados/gloves.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/gloves.rsi
   - type: Fiber
     fiberMaterial: fibers-insulative
     fiberColor: fibers-white
@@ -95,9 +95,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/drippenwagen/hardsuit.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagen/hardsuit.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/drippenwagen/hardsuit.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagen/hardsuit.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitdrippenwagen
   - type: Item
@@ -128,9 +128,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/drippenwagen/helmet.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagen/helmet.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/drippenwagen/helmet.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagen/helmet.rsi
   - type: PointLight
     color: "#daffad"
   - type: PressureProtection
@@ -146,12 +146,12 @@
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
-      sprite: DeadSpace/Sponsor/drippenwagen/magboots.rsi
+      sprite: _DeadSpace/Sponsor/drippenwagen/magboots.rsi
       layers:
       - state: icon
         map: [ "enum.ToggleVisuals.Layer" ]
     - type: Clothing
-      sprite: DeadSpace/Sponsor/drippenwagen/magboots.rsi
+      sprite: _DeadSpace/Sponsor/drippenwagen/magboots.rsi
     - type: ClothingSpeedModifier
       walkModifier: 1
       sprintModifier: 1
@@ -165,12 +165,12 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Item
-    sprite: DeadSpace/Sponsor/drippenwagen/jetpack.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagen/jetpack.rsi
     size: Huge
   - type: Sprite
-    sprite: DeadSpace/Sponsor/drippenwagen/jetpack.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagen/jetpack.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/drippenwagen/jetpack.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagen/jetpack.rsi
     slots:
       - Back
       - suitStorage
@@ -192,11 +192,11 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/drippenwagen/gun.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagen/gun.rsi
     layers:
     - state: icon
   - type: Item
-    sprite: DeadSpace/Sponsor/drippenwagen/gun.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagen/gun.rsi
     size: Normal
   - type: Gun
     fireRate: 0.5
@@ -226,7 +226,7 @@
     capacity: 1
     count: 1
   - type: Clothing
-    sprite: DeadSpace/Sponsor/drippenwagen/gun.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagen/gun.rsi
     quickEquip: false
     slots:
     - suitStorage
@@ -243,9 +243,9 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: DeadSpace/Sponsor/drippenwagen/mask.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagen/mask.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/drippenwagen/mask.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagen/mask.rsi
 
 - type: entity
   parent: PaperPrintedCentcomm

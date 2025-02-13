@@ -5,14 +5,14 @@
   description: Пистолет-Пулемет Чехова калибра .44 магнум. Укороченная версия ППЧ-44 был разработан в конце 2550-х - начале 2560-х годов для вооружения экипажей боевых машин, шаттлов и космического десанта. Он также используется в КГБ СССП и охранных структурах благодаря своей компактности.
   components:
   - type: Sprite
-    sprite: ADT/Objects/Weapons/Guns/SMGs/ppch_45u.rsi
+    sprite: _ADT/Objects/Weapons/Guns/SMGs/ppch_45u.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
-    sprite: ADT/Objects/Weapons/Guns/SMGs/ppch_45u.rsi
+    sprite: _ADT/Objects/Weapons/Guns/SMGs/ppch_45u.rsi
   - type: Gun
     fireRate: 6
     selectedMode: FullAuto
@@ -55,14 +55,14 @@
   description: Раритетный пистолет-пулемет, под калибр 9х19 мм.
   components:
   - type: Sprite
-    sprite: ADT/Objects/Weapons/Guns/SMGs/ump.rsi
+    sprite: _ADT/Objects/Weapons/Guns/SMGs/ump.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
-    sprite: ADT/Objects/Weapons/Guns/SMGs/ump.rsi
+    sprite: _ADT/Objects/Weapons/Guns/SMGs/ump.rsi
   - type: Gun
     fireRate: 3
     selectedMode: FullAuto

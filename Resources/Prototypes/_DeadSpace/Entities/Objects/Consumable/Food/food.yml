@@ -10,7 +10,7 @@
   - type: Food
     transferAmount: 5
   - type: Sprite
-    sprite: /Textures/DeadSpace/Objects/Consumable/Food/lasagna.rsi
+    sprite: /Textures/_DeadSpace/Objects/Consumable/Food/lasagna.rsi
     state: icon
   - type: SolutionContainerManager
     solutions:
@@ -24,7 +24,7 @@
         - ReagentId: Vitamin
           Quantity: 3
   - type: Item
-    sprite: /Textures/DeadSpace/Objects/Consumable/Food/lasagna.rsi
+    sprite: /Textures/_DeadSpace/Objects/Consumable/Food/lasagna.rsi
 
 - type: entity
   name: точно не сэндвич
@@ -38,7 +38,7 @@
     transferAmount: 5
   - type: Sprite
     state: icon
-    sprite: /Textures/DeadSpace/Objects/Consumable/Food/notsandwich.rsi
+    sprite: /Textures/_DeadSpace/Objects/Consumable/Food/notsandwich.rsi
   - type: SolutionContainerManager
     solutions:
       food:
@@ -49,7 +49,7 @@
         - ReagentId: Vitamin
           Quantity: 3
   - type: Item
-    sprite: /Textures/DeadSpace/Objects/Consumable/Food/notsandwich.rsi
+    sprite: /Textures/_DeadSpace/Objects/Consumable/Food/notsandwich.rsi
 
 - type: entity
   name: яйца на пару
@@ -63,7 +63,7 @@
   - type: Food
     transferAmount: 5
   - type: Sprite
-    sprite: /Textures/DeadSpace/Objects/Consumable/Food/chawanmushi.rsi
+    sprite: /Textures/_DeadSpace/Objects/Consumable/Food/chawanmushi.rsi
     state: icon
   - type: SolutionContainerManager
     solutions:
@@ -77,7 +77,7 @@
         - ReagentId: Vitamin
           Quantity: 3
   - type: Item
-    sprite: /Textures/DeadSpace/Objects/Consumable/Food/chawanmushi.rsi
+    sprite: /Textures/_DeadSpace/Objects/Consumable/Food/chawanmushi.rsi
 
 - type: entity
   parent: FoodBowlBase
@@ -90,7 +90,7 @@
       - bitter
       - terrible
   - type: Sprite
-    sprite: /Textures/DeadSpace/Objects/Consumable/Food/bonesoup.rsi
+    sprite: /Textures/_DeadSpace/Objects/Consumable/Food/bonesoup.rsi
     layers:
     - state: bowl
     - state: bone-soup
@@ -118,7 +118,7 @@
     flavors:
       - sawdust
   - type: Sprite
-    sprite: /Textures/DeadSpace/Objects/Consumable/Food/sawdustsoup.rsi
+    sprite: /Textures/_DeadSpace/Objects/Consumable/Food/sawdustsoup.rsi
     layers:
     - state: bowl
     - state: sawdust
@@ -145,7 +145,7 @@
     flavors:
       - caviar
   - type: Sprite
-    sprite: /Textures/DeadSpace/Objects/Consumable/Food/caviar.rsi
+    sprite: /Textures/_DeadSpace/Objects/Consumable/Food/caviar.rsi
     state: icon
   
 - type: entity
@@ -159,7 +159,7 @@
       - caviar
       - bread
   - type: Sprite
-    sprite: /Textures/DeadSpace/Objects/Consumable/Food/caviar.rsi
+    sprite: /Textures/_DeadSpace/Objects/Consumable/Food/caviar.rsi
     state: on-bread
 
 - type: entity
@@ -174,7 +174,7 @@
     flavors:
       - sweetdough
   - type: Sprite
-    sprite: /Textures/DeadSpace/Objects/Consumable/Food/honeycake.rsi
+    sprite: /Textures/_DeadSpace/Objects/Consumable/Food/honeycake.rsi
     state: icon
 
 - type: entity
@@ -184,7 +184,7 @@
   description: Сладкий вкус коржей, которые хорошо пропитаны мёдом.
   components:
   - type: Sprite
-    sprite: /Textures/DeadSpace/Objects/Consumable/Food/honeycake.rsi
+    sprite: /Textures/_DeadSpace/Objects/Consumable/Food/honeycake.rsi
     state: icon-slice
   - type: FlavorProfile
     flavors:

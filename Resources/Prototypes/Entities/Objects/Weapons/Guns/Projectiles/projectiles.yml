@@ -257,7 +257,7 @@
       params:
         volume: 5
   - type: Sprite
-    sprite: ADT/Objects/Weapons/Guns/Projectiles/projectiles_ss.rsi
+    sprite: _ADT/Objects/Weapons/Guns/Projectiles/projectiles_ss.rsi
     layers:
     - state: omnilaser
       shader: unshaded

@@ -12,7 +12,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/defo5796/satchel.rsi
+    sprite: _DeadSpace/Sponsor/defo5796/satchel.rsi
   - type: Storage
     maxItemSize: Huge
     grid:
@@ -41,9 +41,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/defo5796/belt.rsi
+    sprite: _DeadSpace/Sponsor/defo5796/belt.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/defo5796/belt.rsi
+    sprite: _DeadSpace/Sponsor/defo5796/belt.rsi
   - type: Item
     size: Huge
   - type: StorageFill
@@ -62,7 +62,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/defo5796/cloak.rsi
+    sprite: _DeadSpace/Sponsor/defo5796/cloak.rsi
 
 # Gloves
 - type: entity
@@ -73,9 +73,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/gloves.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/gloves.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/vjlados/gloves.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/gloves.rsi
   - type: Fiber
     fiberMaterial: fibers-insulative
     fiberColor: fibers-white
@@ -89,9 +89,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/defo5796/hardsuit.rsi
+    sprite: _DeadSpace/Sponsor/defo5796/hardsuit.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/defo5796/hardsuit.rsi
+    sprite: _DeadSpace/Sponsor/defo5796/hardsuit.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitdefo5796
   - type: Item
@@ -105,9 +105,9 @@
   description: Шлем изолирующий владельца от страшного вакуума снаружи.
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/defo5796/helmet.rsi
+    sprite: _DeadSpace/Sponsor/defo5796/helmet.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/defo5796/helmet.rsi
+    sprite: _DeadSpace/Sponsor/defo5796/helmet.rsi
   - type: PointLight
     color: "#daffad"
   - type: PressureProtection
@@ -123,12 +123,12 @@
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
-      sprite: DeadSpace/Sponsor/defo5796/magboots.rsi
+      sprite: _DeadSpace/Sponsor/defo5796/magboots.rsi
       layers:
       - state: icon
         map: [ "enum.ToggleVisuals.Layer" ]
     - type: Clothing
-      sprite: DeadSpace/Sponsor/defo5796/magboots.rsi
+      sprite: _DeadSpace/Sponsor/defo5796/magboots.rsi
     - type: ClothingSpeedModifier
       walkModifier: 1
       sprintModifier: 1

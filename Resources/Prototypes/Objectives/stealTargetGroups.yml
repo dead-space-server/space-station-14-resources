@@ -88,7 +88,7 @@
   id: WeaponPistolX01
   name: steal-target-groups-weapon-X01-pistol
   sprite:
-    sprite: DeadSpace/Objects/Weapons/Guns/Battery/x01.rsi
+    sprite: _DeadSpace/Objects/Weapons/Guns/Battery/x01.rsi
     state: icon
 
 # Thief Collection

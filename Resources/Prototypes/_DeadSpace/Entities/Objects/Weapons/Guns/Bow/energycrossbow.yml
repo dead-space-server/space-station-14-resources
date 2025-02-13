@@ -5,7 +5,7 @@
   parent: BaseItem
   components:
   - type: Sprite
-    sprite: DeadSpace/Objects/Weapons/Guns/Bow/crossbow.rsi
+    sprite: _DeadSpace/Objects/Weapons/Guns/Bow/crossbow.rsi
     layers:
     - state: icon
   - type: Item

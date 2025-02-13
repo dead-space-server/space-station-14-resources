@@ -5,9 +5,9 @@
   description: Темно-красное пальто. Кажется тяжелее, чем должно быть.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Coats/oktyabrina_coat.rsi
+    sprite: _ADT/Clothing/OuterClothing/Coats/oktyabrina_coat.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Coats/oktyabrina_coat.rsi
+    sprite: _ADT/Clothing/OuterClothing/Coats/oktyabrina_coat.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -23,9 +23,9 @@
   description: Белое пальто, да? С голубыми полосками, да? Да!
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Coats/johan_coat.rsi
+    sprite: _ADT/Clothing/OuterClothing/Coats/johan_coat.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Coats/johan_coat.rsi
+    sprite: _ADT/Clothing/OuterClothing/Coats/johan_coat.rsi
   - type: Armor
     modifiers:
       coefficients:

@@ -5,7 +5,7 @@
   description: Улучшенная версия базового РСУ которая самовосстанавливет заряды.
   components:
   - type: Sprite
-    sprite: DeadSpace/Objects/Tools/cercd.rsi
+    sprite: _DeadSpace/Objects/Tools/cercd.rsi
     layers:
     - state: icon
   - type: AutoRecharge

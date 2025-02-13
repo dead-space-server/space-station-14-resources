@@ -11,7 +11,7 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/black_chair.rsi
+    sprite: _ADT/Structures/Furniture/black_chair.rsi
     state: armchair
   - type: Construction
     graph: Seat
@@ -31,7 +31,7 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/yuna_chairs.rsi
+    sprite: _ADT/Structures/Furniture/yuna_chairs.rsi
     state: kreslo_fiol
   - type: Construction
     graph: Seat
@@ -51,7 +51,7 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/yuna_chairs.rsi
+    sprite: _ADT/Structures/Furniture/yuna_chairs.rsi
     state: kreslo_red
   - type: Construction
     graph: Seat
@@ -71,7 +71,7 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/yuna_chairs.rsi
+    sprite: _ADT/Structures/Furniture/yuna_chairs.rsi
     state: kreslo_kor
   - type: Construction
     graph: Seat

@@ -5,7 +5,7 @@
   description: Надёжный спутник журналистов, детективов и шпионов. Запишите важный разговор на аудиокассету, а затем воспроизведите или распечатайте его.
   components:
   - type: Sprite
-    sprite: DeadSpace/Objects/Devices/tape_recorder.rsi
+    sprite: _DeadSpace/Objects/Devices/tape_recorder.rsi
     layers:
     - state: taperecorder_empty
     - state: taperecorder_idle

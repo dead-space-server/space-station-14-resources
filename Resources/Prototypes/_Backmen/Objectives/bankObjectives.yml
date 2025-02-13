@@ -8,6 +8,6 @@
     unique: true
     issuer: objective-issuer-space-bank
     icon:
-      sprite: Backmen/Objects/Tools/rimbank.rsi
+      sprite: _Backmen/Objects/Tools/rimbank.rsi
       state: icon
   - type: MindNoteCondition

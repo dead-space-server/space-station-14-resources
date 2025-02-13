@@ -5,5 +5,5 @@
   description: Утерянное прошлым Капитаном, очень важное устройство. При правильном применении позволяет получить от ЦентКома коды от ядерной боеголовки.
   components:
   - type: Sprite
-    sprite: DeadSpace/Objects/Fun/vib.rsi
+    sprite: _DeadSpace/Objects/Fun/vib.rsi
     state: icon

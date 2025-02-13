@@ -18,7 +18,7 @@
     bodyType: Static
   - type: Sprite
     noRot: true
-    sprite: DeadSpace/Necromorfs/obelisk.rsi
+    sprite: _DeadSpace/Necromorfs/obelisk.rsi
     layers:
     - state: active
       map: [ "enum.DamageStateVisualLayers.Base" ]
@@ -55,7 +55,7 @@
     damageDivisor: 100
     trackAllDamage: true
     damageOverlay:
-      sprite: DeadSpace/Structures/obelisk_cracks.rsi
+      sprite: _DeadSpace/Structures/obelisk_cracks.rsi
   - type: Necroobelisk
 
 - type: entity
@@ -64,12 +64,12 @@
   components:
   - type: Sprite
     noRot: true
-    sprite: DeadSpace/Necromorfs/blackobelisk.rsi
+    sprite: _DeadSpace/Necromorfs/blackobelisk.rsi
     layers:
     - state: active
       map: [ "enum.DamageStateVisualLayers.Base" ]
   - type: Necroobelisk
-    sound: /Audio/DeadSpace/Necromorfs/marker_black.ogg
+    sound: /Audio/_DeadSpace/Necromorfs/marker_black.ogg
     stoper: false
 
 - type: entity
@@ -78,12 +78,12 @@
   components:
   - type: Sprite
     noRot: true
-    sprite: DeadSpace/Necromorfs/blackobelisk.rsi
+    sprite: _DeadSpace/Necromorfs/blackobelisk.rsi
     layers:
     - state: active
       map: [ "enum.DamageStateVisualLayers.Base" ]
   - type: Necroobelisk
-    sound: /Audio/DeadSpace/Necromorfs/marker_black.ogg
+    sound: /Audio/_DeadSpace/Necromorfs/marker_black.ogg
     stoper: false
     warn: false
 
@@ -93,7 +93,7 @@
   components:
   - type: Sprite
     noRot: true
-    sprite: DeadSpace/Necromorfs/obelisk.rsi
+    sprite: _DeadSpace/Necromorfs/obelisk.rsi
     layers:
     - state: active
       map: [ "enum.DamageStateVisualLayers.Base" ]
@@ -197,7 +197,7 @@
   suffix: Necro
   components:
   - type: Sprite
-    sprite: DeadSpace/Items/necro_core.rsi
+    sprite: _DeadSpace/Items/necro_core.rsi
     layers:
     - state: core
     - state: pulse
@@ -215,7 +215,7 @@
   suffix: Necro, Inert
   components:
   - type: Sprite
-    sprite: DeadSpace/Items/necro_core.rsi
+    sprite: _DeadSpace/Items/necro_core.rsi
     layers:
     - state: core
     - state: pulse
@@ -238,7 +238,7 @@
     minPulseLength: 180
     maxPulseLength: 300
   - type: Sprite
-    sprite: DeadSpace/Necromorfs/anomaly.rsi
+    sprite: _DeadSpace/Necromorfs/anomaly.rsi
     layers:
     - state: anom
       map: ["enum.AnomalyVisualLayers.Base"]

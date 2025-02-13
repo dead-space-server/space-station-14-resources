@@ -264,5 +264,5 @@
   targetNode: baseballbatsteel
   category: construction-category-weapons
   description: Прочная бейсбольная бита, но теперь с гвоздями, выглядит довольно устращающе.
-  icon: { sprite: DeadSpace/Objects/Weapons/Melee/baseball_bat_with_nails.rsi, state: icon }
+  icon: { sprite: _DeadSpace/Objects/Weapons/Melee/baseball_bat_with_nails.rsi, state: icon }
   objectType: Item

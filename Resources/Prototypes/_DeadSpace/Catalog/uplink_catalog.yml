@@ -40,7 +40,7 @@
   id: UplinkAdvansedMagboots
   name: uplink-advanced-magboots-name
   description: uplink-advanced-magboots-desc
-  icon: { sprite: ADT/Clothing/Shoes/Boots/advanced.rsi, state: icon }
+  icon: { sprite: _ADT/Clothing/Shoes/Boots/advanced.rsi, state: icon }
   productEntity: ADTClothingShoesBootsMagAdvSynd
   cost:
     Telecrystal: 6
@@ -76,7 +76,7 @@
   id: UplinkXC67Bundle
   name: uplink-xc67-bundle-name
   description: uplink-xc67-bundle-desc
-  icon: { sprite: /Textures/ADT/Objects/Weapons/Guns/Rifels/xc67.rsi, state: icon}
+  icon: { sprite: /Textures/_ADT/Objects/Weapons/Guns/Rifels/xc67.rsi, state: icon}
   productEntity: ClothingBackpackDuffelSyndicateFilledXC67
   cost:
     Telecrystal: 18
@@ -108,7 +108,7 @@
   id: UplinkBuldogXLAmmoBundle
   name: uplink-buldog-xl-ammo-bundle-name
   description: uplink-buldog-xl-ammo-bundle-desc
-  icon: { sprite: /Textures/ADT/Objects/Weapons/Guns/Ammunition/Magazine/xl.rsi, state: base }
+  icon: { sprite: /Textures/_ADT/Objects/Weapons/Guns/Ammunition/Magazine/xl.rsi, state: base }
   productEntity: ClothingBackpackDuffelSyndicateFilledBuldogAmmoXL
   cost:
     Telecrystal: 12
@@ -140,7 +140,7 @@
   id: UplinkXC67AmmoBundle
   name: uplink-xc67-ammo-bundle-name
   description: uplink-xc67-ammo-bundle-description
-  icon: { sprite: /Textures/ADT/Objects/Weapons/Guns/Ammunition/Magazine/ext_rifle_mag.rsi, state: base }
+  icon: { sprite: /Textures/_ADT/Objects/Weapons/Guns/Ammunition/Magazine/ext_rifle_mag.rsi, state: base }
   productEntity: ClothingBackpackDuffelSyndicateFilledXC67Ammo
   cost:
     Telecrystal: 10
@@ -230,7 +230,7 @@
   id: UplinkArkalyseBundle
   name: uplink-arkalyse-bundle-name
   description: uplink-arkalyse-bundle-desc
-  icon: { sprite: DeadSpace/Objects/Specific/Arkalyse/arkalyse_book.rsi, state: icon }
+  icon: { sprite: _DeadSpace/Objects/Specific/Arkalyse/arkalyse_book.rsi, state: icon }
   productEntity: BoxArkalyse
   discountCategory: usualDiscounts
   discountDownTo:
@@ -244,7 +244,7 @@
   id: UplinkAdrenalineImplanter
   name: uplink-adrenaline-implanter-name
   description: uplink-adrenaline-implanter-desc
-  icon: { sprite: DeadSpace/Actions/implants_actions.rsi, state: adrenal }
+  icon: { sprite: _DeadSpace/Actions/implants_actions.rsi, state: adrenal }
   productEntity: AdrenalImplanter
   discountCategory: veryRareDiscounts
   discountDownTo:
@@ -258,7 +258,7 @@
   id: UplinkReviveAutosurgeon
   name: uplink-revive-implanter-name
   description: uplink-revive-implanter-desc
-  icon: { sprite: DeadSpace/Objects/Specific/Autosurgeon/autosurgeon.rsi, state: iconBefore }
+  icon: { sprite: _DeadSpace/Objects/Specific/Autosurgeon/autosurgeon.rsi, state: iconBefore }
   productEntity: AutosurgeonRevive
   discountCategory: veryRareDiscounts
   discountDownTo:

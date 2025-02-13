@@ -303,9 +303,9 @@
   description: A heads-up display that scans the humanoids in view and provides accurate data about their ID status and security records.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Eyes/HUD/advanced_hud.rsi
+    sprite: _ADT/Clothing/Eyes/HUD/advanced_hud.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Eyes/HUD/advanced_hud.rsi
+    sprite: _ADT/Clothing/Eyes/HUD/advanced_hud.rsi
   - type: ShowHealthBars
     damageContainers:
     - Biological

@@ -26,7 +26,7 @@
   specificHeat: 20
   heatCapacityRatio: 1.4
   molarMass: 44
-  gasOverlaySprite: /Textures/DeadSpace/Effects/atmospherics.rsi
+  gasOverlaySprite: /Textures/_DeadSpace/Effects/atmospherics.rsi
   gasOverlayState: miasma
   gasMolesVisible: 2
   gasVisbilityFactor: 3.5

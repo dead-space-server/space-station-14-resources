@@ -5,9 +5,9 @@
   description: Особые очки главного врача, оснащенные специальным индикатором, который сканирует гуманоидов в поле зрения и предоставляет точные данные о состоянии их здоровья, также имеют полимерное покрытие защищающее от вспышек.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Eyes/Hud/cmo_hud.rsi
+    sprite: _DeadSpace/Clothing/Eyes/Hud/cmo_hud.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Eyes/Hud/cmo_hud.rsi
+    sprite: _DeadSpace/Clothing/Eyes/Hud/cmo_hud.rsi
   - type: ShowHealthBars
     damageContainers:
     - Biological

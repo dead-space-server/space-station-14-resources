@@ -6,13 +6,13 @@
   suffix: Стандартный
   components:
   - type: Sprite
-    sprite: DeadSpace/Structures/Machines/photocopier.rsi
+    sprite: _DeadSpace/Structures/Machines/photocopier.rsi
     drawdepth: SmallObjects
     layers:
     - state: icon
       map: [ "enum.PhotocopierVisuals.VisualState" ]
   - type: Icon
-    sprite: DeadSpace/Structures/Machines/photocopier.rsi
+    sprite: _DeadSpace/Structures/Machines/photocopier.rsi
     state: icon
   - type: Appearance
   - type: Physics
@@ -123,10 +123,10 @@
   description: Пахнет блюспейсом.
   components:
   - type: Item
-    sprite: DeadSpace/Objects/Misc/tonercartridge.rsi
+    sprite: _DeadSpace/Objects/Misc/tonercartridge.rsi
     size: Small
   - type: Sprite
-    sprite: DeadSpace/Objects/Misc/tonercartridge.rsi
+    sprite: _DeadSpace/Objects/Misc/tonercartridge.rsi
     state: icon
   - type: StaticPrice
     price: 80

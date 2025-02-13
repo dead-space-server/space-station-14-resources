@@ -7,7 +7,7 @@
   components:
   - type: Sharp
   - type: Sprite
-    sprite: ADT/Objects/Weapons/Melee/white_bouquet.rsi
+    sprite: _ADT/Objects/Weapons/Melee/white_bouquet.rsi
     state: icon
   - type: MeleeWeapon
     attackRate: 1.0
@@ -16,7 +16,7 @@
         Slash: 1
   - type: Item
     size: Normal
-    sprite: ADT/Objects/Weapons/Melee/white_bouquet.rsi
+    sprite: _ADT/Objects/Weapons/Melee/white_bouquet.rsi
   - type: DisarmMalus
 
 - type: entity
@@ -27,7 +27,7 @@
   components:
   - type: Sharp
   - type: Sprite
-    sprite: ADT/Objects/Weapons/Melee/rose_bouquet.rsi
+    sprite: _ADT/Objects/Weapons/Melee/rose_bouquet.rsi
     state: icon
   - type: MeleeWeapon
     attackRate: 1.0
@@ -36,7 +36,7 @@
         Slash: 1
   - type: Item
     size: Normal
-    sprite: ADT/Objects/Weapons/Melee/rose_bouquet.rsi
+    sprite: _ADT/Objects/Weapons/Melee/rose_bouquet.rsi
   - type: DisarmMalus
 
 - type: entity
@@ -47,7 +47,7 @@
   components:
   - type: Sharp
   - type: Sprite
-    sprite: ADT/Objects/Weapons/Melee/yellow_bouquet.rsi
+    sprite: _ADT/Objects/Weapons/Melee/yellow_bouquet.rsi
     state: icon
   - type: MeleeWeapon
     attackRate: 1.0
@@ -56,7 +56,7 @@
         Slash: 1
   - type: Item
     size: Normal
-    sprite: ADT/Objects/Weapons/Melee/yellow_bouquet.rsi
+    sprite: _ADT/Objects/Weapons/Melee/yellow_bouquet.rsi
   - type: DisarmMalus
 
 - type: entity
@@ -67,7 +67,7 @@
   components:
   - type: Sharp
   - type: Sprite
-    sprite: ADT/Objects/Weapons/Melee/black_bouquet.rsi
+    sprite: _ADT/Objects/Weapons/Melee/black_bouquet.rsi
     state: icon
   - type: MeleeWeapon
     attackRate: 1.0
@@ -76,7 +76,7 @@
         Slash: 1
   - type: Item
     size: Normal
-    sprite: ADT/Objects/Weapons/Melee/black_bouquet.rsi
+    sprite: _ADT/Objects/Weapons/Melee/black_bouquet.rsi
   - type: DisarmMalus
 
 - type: entity
@@ -87,7 +87,7 @@
   components:
   - type: Sharp
   - type: Sprite
-    sprite: ADT/Objects/Weapons/Melee/liliac_bouquet.rsi
+    sprite: _ADT/Objects/Weapons/Melee/liliac_bouquet.rsi
     state: icon
   - type: MeleeWeapon
     attackRate: 1.0
@@ -96,7 +96,7 @@
         Slash: 1
   - type: Item
     size: Normal
-    sprite: ADT/Objects/Weapons/Melee/liliac_bouquet.rsi
+    sprite: _ADT/Objects/Weapons/Melee/liliac_bouquet.rsi
   - type: DisarmMalus
 
 - type: entity
@@ -107,7 +107,7 @@
   components:
   - type: Sharp
   - type: Sprite
-    sprite: ADT/Objects/Weapons/Melee/bouquet_with_beer.rsi
+    sprite: _ADT/Objects/Weapons/Melee/bouquet_with_beer.rsi
     state: icon
   - type: MeleeWeapon
     attackRate: 1.0
@@ -116,5 +116,5 @@
         Slash: 1
   - type: Item
     size: Normal
-    sprite: ADT/Objects/Weapons/Melee/bouquet_with_beer.rsi
+    sprite: _ADT/Objects/Weapons/Melee/bouquet_with_beer.rsi
   - type: DisarmMalus

@@ -5,10 +5,10 @@
   description: Гантеля 2 кг. Кажется, пахнет потом.
   components:
   - type: Sprite
-    sprite: ADT/Objects/Fun/dumbbell.rsi
+    sprite: _ADT/Objects/Fun/dumbbell.rsi
     state: dumbbell2kg
   - type: Item
-    sprite: ADT/Objects/Fun/dumbbell.rsi
+    sprite: _ADT/Objects/Fun/dumbbell.rsi
     size: Normal
   - type: EmitEmoteOnUse
     emote: WorkOut
@@ -22,10 +22,10 @@
   description: Гантеля 5 кг. Кажется, пахнет потом.
   components:
   - type: Sprite
-    sprite: ADT/Objects/Fun/dumbbell.rsi
+    sprite: _ADT/Objects/Fun/dumbbell.rsi
     state: dumbbell5kg
   - type: Item
-    sprite: ADT/Objects/Fun/dumbbell.rsi
+    sprite: _ADT/Objects/Fun/dumbbell.rsi
     size: Normal
   - type: EmitEmoteOnUse
     emote: WorkOut
@@ -39,10 +39,10 @@
   description: Гантеля 8 кг. Кажется, пахнет потом.
   components:
   - type: Sprite
-    sprite: ADT/Objects/Fun/dumbbell.rsi
+    sprite: _ADT/Objects/Fun/dumbbell.rsi
     state: dumbbell8kg
   - type: Item
-    sprite: ADT/Objects/Fun/dumbbell.rsi
+    sprite: _ADT/Objects/Fun/dumbbell.rsi
     size: Normal
   - type: EmitEmoteOnUse
     emote: WorkOut
@@ -56,10 +56,10 @@
   description: Гантеля 10 кг. Кажется, пахнет потом.
   components:
   - type: Sprite
-    sprite: ADT/Objects/Fun/dumbbell.rsi
+    sprite: _ADT/Objects/Fun/dumbbell.rsi
     state: dumbbell10kg
   - type: Item
-    sprite: ADT/Objects/Fun/dumbbell.rsi
+    sprite: _ADT/Objects/Fun/dumbbell.rsi
     size: Normal
   - type: EmitEmoteOnUse
     emote: WorkOut
@@ -73,10 +73,10 @@
   description: Гантеля 15 кг. Кажется, пахнет потом.
   components:
   - type: Sprite
-    sprite: ADT/Objects/Fun/dumbbell.rsi
+    sprite: _ADT/Objects/Fun/dumbbell.rsi
     state: dumbbell15kg
   - type: Item
-    sprite: ADT/Objects/Fun/dumbbell.rsi
+    sprite: _ADT/Objects/Fun/dumbbell.rsi
     size: Normal
   - type: EmitEmoteOnUse
     emote: WorkOut
@@ -90,10 +90,10 @@
   description: Гантеля 20 кг. Кажется, пахнет потом.
   components:
   - type: Sprite
-    sprite: ADT/Objects/Fun/dumbbell.rsi
+    sprite: _ADT/Objects/Fun/dumbbell.rsi
     state: dumbbell20kg
   - type: Item
-    sprite: ADT/Objects/Fun/dumbbell.rsi
+    sprite: _ADT/Objects/Fun/dumbbell.rsi
     size: Normal
   - type: EmitEmoteOnUse
     emote: WorkOut
@@ -107,10 +107,10 @@
   description: Гиря 5 кг. Кажется, пахнет потом.
   components:
   - type: Sprite
-    sprite: ADT/Objects/Fun/kettlebell.rsi
+    sprite: _ADT/Objects/Fun/kettlebell.rsi
     state: icon5
   - type: Item
-    sprite: ADT/Objects/Fun/kettlebell.rsi
+    sprite: _ADT/Objects/Fun/kettlebell.rsi
     size: Normal
   - type: EmitEmoteOnUse
     emote: WorkOut
@@ -124,10 +124,10 @@
   description: Гиря 10 кг. Кажется, пахнет потом.
   components:
   - type: Sprite
-    sprite: ADT/Objects/Fun/kettlebell.rsi
+    sprite: _ADT/Objects/Fun/kettlebell.rsi
     state: icon10
   - type: Item
-    sprite: ADT/Objects/Fun/kettlebell.rsi
+    sprite: _ADT/Objects/Fun/kettlebell.rsi
     size: Normal
   - type: EmitEmoteOnUse
     emote: WorkOut
@@ -141,10 +141,10 @@
   description: Гиря 15 кг. Кажется, пахнет потом.
   components:
   - type: Sprite
-    sprite: ADT/Objects/Fun/kettlebell.rsi
+    sprite: _ADT/Objects/Fun/kettlebell.rsi
     state: icon15
   - type: Item
-    sprite: ADT/Objects/Fun/kettlebell.rsi
+    sprite: _ADT/Objects/Fun/kettlebell.rsi
     size: Large
   - type: EmitEmoteOnUse
     emote: WorkOut
@@ -158,10 +158,10 @@
   description: Гиря 20 кг. Кажется, пахнет потом.
   components:
   - type: Sprite
-    sprite: ADT/Objects/Fun/kettlebell.rsi
+    sprite: _ADT/Objects/Fun/kettlebell.rsi
     state: icon20
   - type: Item
-    sprite: ADT/Objects/Fun/kettlebell.rsi
+    sprite: _ADT/Objects/Fun/kettlebell.rsi
     size: Large
   - type: EmitEmoteOnUse
     emote: WorkOut
@@ -175,10 +175,10 @@
   description: Гиря 25 кг. Кажется, пахнет потом.
   components:
   - type: Sprite
-    sprite: ADT/Objects/Fun/kettlebell.rsi
+    sprite: _ADT/Objects/Fun/kettlebell.rsi
     state: icon25
   - type: Item
-    sprite: ADT/Objects/Fun/kettlebell.rsi
+    sprite: _ADT/Objects/Fun/kettlebell.rsi
     size: Large
   - type: EmitEmoteOnUse
     emote: WorkOut
@@ -192,10 +192,10 @@
   description: Гиря 30 кг. Кажется, пахнет потом.
   components:
   - type: Sprite
-    sprite: ADT/Objects/Fun/kettlebell.rsi
+    sprite: _ADT/Objects/Fun/kettlebell.rsi
     state: icon30
   - type: Item
-    sprite: ADT/Objects/Fun/kettlebell.rsi
+    sprite: _ADT/Objects/Fun/kettlebell.rsi
     size: Large
   - type: EmitEmoteOnUse
     emote: WorkOut

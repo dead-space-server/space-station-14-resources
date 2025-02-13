@@ -32,7 +32,7 @@
   components:
   - type: InstantAction
     useDelay: 30
-    icon: DeadSpace/Interface/Actions/slash.png
+    icon: _DeadSpace/Interface/Actions/slash.png
     event: !type:SpawnPointNecroActionEvent
 
 - type: entity
@@ -43,7 +43,7 @@
   components:
   - type: InstantAction
     useDelay: 30
-    icon: DeadSpace/Interface/Actions/deva.png
+    icon: _DeadSpace/Interface/Actions/deva.png
     itemIconStyle: NoItem
     event: !type:DevaEnrageActionEvent
 
@@ -83,7 +83,7 @@
   components:
   - type: InstantAction
     priority: -1
-    icon: DeadSpace/Interface/Actions/obelisk.png
+    icon: _DeadSpace/Interface/Actions/obelisk.png
     event: !type:ObeliskActionEvent
 
 - type: entity
@@ -95,7 +95,7 @@
   - type: InstantAction
     useDelay: 20
     priority: -1
-    icon: DeadSpace/Interface/Actions/leviathan.png
+    icon: _DeadSpace/Interface/Actions/leviathan.png
     event: !type:SpawnLeviathanActionEvent
 
 - type: entity
@@ -106,7 +106,7 @@
   - type: InstantAction
     useDelay: 1
     priority: -1
-    icon: DeadSpace/Interface/Actions/select.png
+    icon: _DeadSpace/Interface/Actions/select.png
     event: !type:SelectEntityActionEvent
 
 - type: entity
@@ -117,7 +117,7 @@
   components:
   - type: WorldTargetAction
     useDelay: 10
-    icon: DeadSpace/Interface/Actions/create.png
+    icon: _DeadSpace/Interface/Actions/create.png
     itemIconStyle: NoItem
     priority: -1
     event: !type:SpawnPointActionEvent
@@ -131,7 +131,7 @@
   components:
   - type: InstantAction
     useDelay: 1
-    icon: DeadSpace/Necromorfs/larva.png
+    icon: _DeadSpace/Necromorfs/larva.png
     event: !type:RatKingRaiseArmyActionEvent
 
 - type: entity
@@ -153,8 +153,8 @@
   components:
   - type: InstantAction
     useDelay: 1
-    icon: DeadSpace/Interface/Actions/stayOff.png
-    iconOn: DeadSpace/Interface/Actions/stay.png
+    icon: _DeadSpace/Interface/Actions/stayOff.png
+    iconOn: _DeadSpace/Interface/Actions/stay.png
     event:
       !type:RatKingOrderActionEvent
         type: Stay
@@ -167,8 +167,8 @@
   components:
   - type: InstantAction
     useDelay: 1
-    icon: DeadSpace/Interface/Actions/followOff.png
-    iconOn: DeadSpace/Interface/Actions/follow.png
+    icon: _DeadSpace/Interface/Actions/followOff.png
+    iconOn: _DeadSpace/Interface/Actions/follow.png
     event:
       !type:RatKingOrderActionEvent
       type: Follow
@@ -181,8 +181,8 @@
   components:
   - type: InstantAction
     useDelay: 1
-    icon: DeadSpace/Interface/Actions/attackOff.png
-    iconOn: DeadSpace/Interface/Actions/attack.png
+    icon: _DeadSpace/Interface/Actions/attackOff.png
+    iconOn: _DeadSpace/Interface/Actions/attack.png
     event:
       !type:RatKingOrderActionEvent
       type: CheeseEm
@@ -195,8 +195,8 @@
   components:
   - type: InstantAction
     useDelay: 1
-    icon: DeadSpace/Interface/Actions/looseOff.png
-    iconOn: DeadSpace/Interface/Actions/loose.png
+    icon: _DeadSpace/Interface/Actions/looseOff.png
+    iconOn: _DeadSpace/Interface/Actions/loose.png
     event:
       !type:RatKingOrderActionEvent
       type: Loose

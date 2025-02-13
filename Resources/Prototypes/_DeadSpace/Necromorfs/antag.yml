@@ -8,7 +8,7 @@
       - UnitologyEnslaved
       - UnitologyHead
   icon:
-    sprite: /Textures/DeadSpace/Interface/Misc/antag_icons.rsi
+    sprite: /Textures/_DeadSpace/Interface/Misc/antag_icons.rsi
     state: UnitologyHead
 
 - type: factionIcon
@@ -21,7 +21,7 @@
       - UnitologyEnslaved
       - UnitologyHead
   icon:
-    sprite: /Textures/DeadSpace/Interface/Misc/antag_icons.rsi
+    sprite: /Textures/_DeadSpace/Interface/Misc/antag_icons.rsi
     state: Unitology
 
 - type: factionIcon
@@ -34,5 +34,5 @@
       - UnitologyEnslaved
       - UnitologyHead
   icon:
-    sprite: /Textures/DeadSpace/Interface/Misc/antag_icons.rsi
+    sprite: /Textures/_DeadSpace/Interface/Misc/antag_icons.rsi
     state: UnitologyEnslaved

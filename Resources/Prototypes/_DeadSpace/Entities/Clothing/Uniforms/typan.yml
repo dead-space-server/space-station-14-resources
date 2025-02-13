@@ -5,9 +5,9 @@
   description: Без неё ничего и никого не приготовить.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Uniforms/chefskirt.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/chefskirt.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Uniforms/chefskirt.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/chefskirt.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -16,9 +16,9 @@
   description: Практичность юбки обусловлена тяжестью стирания крови.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Uniforms/medicalskirt.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/medicalskirt.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Uniforms/medicalskirt.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/medicalskirt.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -27,9 +27,9 @@
   description: Имеет сильный запах земли. Будем надеяться, что он просто грязный, а не весь в земле.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Uniforms/suitbotanist.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/suitbotanist.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Uniforms/suitbotanist.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/suitbotanist.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -38,9 +38,9 @@
   description: Удобный прочный комбинезон.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Uniforms/suitcargotech.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/suitcargotech.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Uniforms/suitcargotech.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/suitcargotech.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -49,9 +49,9 @@
   description: Без него ничего и никого не приготовить.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Uniforms/suitchef.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/suitchef.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Uniforms/suitchef.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/suitchef.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -60,9 +60,9 @@
   description: Роскошная униформа директора исследований, для особых случаев.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Uniforms/directory.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/directory.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Uniforms/directory.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/directory.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -71,9 +71,9 @@
   description: Удобный комбинезон для оказания различного рода медицинских услуг
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Uniforms/suitmedical.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/suitmedical.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Uniforms/suitmedical.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/suitmedical.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -82,9 +82,9 @@
   description: Слегка выцветшая от химикатов униформа.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Uniforms/Jumpsuit/uniform_ili.rsi
+    sprite: _ADT/Clothing/Uniforms/Jumpsuit/uniform_ili.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Uniforms/Jumpsuit/uniform_ili.rsi
+    sprite: _ADT/Clothing/Uniforms/Jumpsuit/uniform_ili.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -93,9 +93,9 @@
   description: Черный тактический комбинезон, подходящий для всех видов исследований.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Uniforms/Jumpsuit/investigator_suit.rsi
+    sprite: _ADT/Clothing/Uniforms/Jumpsuit/investigator_suit.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Uniforms/Jumpsuit/investigator_suit.rsi
+    sprite: _ADT/Clothing/Uniforms/Jumpsuit/investigator_suit.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -104,9 +104,9 @@
   description: Имеет сильный запах земли. Будем надеяться, что она просто грязная, а не вся в земле.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Uniforms/botanistskirt.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/botanistskirt.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Uniforms/botanistskirt.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/botanistskirt.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -115,6 +115,6 @@
   description: Удобный прочный комбинезон, теперь с юбкой.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Uniforms/cargotechskirt.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/cargotechskirt.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Uniforms/cargotechskirt.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/cargotechskirt.rsi

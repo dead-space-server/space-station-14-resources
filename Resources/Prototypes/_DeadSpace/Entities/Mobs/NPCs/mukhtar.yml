@@ -7,7 +7,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: /Textures/DeadSpace/Mobs/Pets/mukhtar.rsi
+    sprite: /Textures/_DeadSpace/Mobs/Pets/mukhtar.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: mukhtar

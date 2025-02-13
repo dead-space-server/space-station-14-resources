@@ -5,6 +5,6 @@
   description: Необчная накидка с капюшоном и ушками.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Neck/Cloaks/kiras_cloakns.rsi
+    sprite: _ADT/Clothing/Neck/Cloaks/kiras_cloakns.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Neck/Cloaks/kiras_cloakns.rsi
+    sprite: _ADT/Clothing/Neck/Cloaks/kiras_cloakns.rsi

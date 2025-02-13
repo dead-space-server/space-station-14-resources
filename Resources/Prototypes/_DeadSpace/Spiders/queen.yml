@@ -11,7 +11,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: running
-      sprite: DeadSpace/Spiders/terror_queen.rsi
+      sprite: _DeadSpace/Spiders/terror_queen.rsi
   - type: MeleeWeapon
     altDisarm: false
     angle: 0
@@ -64,7 +64,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: running
-      sprite: DeadSpace/Spiders/terror_queen.rsi
+      sprite: _DeadSpace/Spiders/terror_queen.rsi
   - type: MeleeWeapon
     altDisarm: false
     angle: 0
@@ -137,7 +137,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: running
-      sprite: DeadSpace/Spiders/terror_queen.rsi
+      sprite: _DeadSpace/Spiders/terror_queen.rsi
   - type: MeleeWeapon
     altDisarm: false
     angle: 0

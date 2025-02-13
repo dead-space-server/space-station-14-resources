@@ -17,7 +17,7 @@
         mask:
         - TableMask
   - type: Sprite
-    sprite: DeadSpace/Structures/Furniture/Tables/autopsytable.rsi
+    sprite: _DeadSpace/Structures/Furniture/Tables/autopsytable.rsi
     layers:
     - state: autopsy_table
       map: [ "enum.AutopsyTableLayers.Base" ]
@@ -34,7 +34,7 @@
       shader: "unshaded"
       visible: false
   - type: Icon
-    sprite: DeadSpace/Structures/Furniture/Tables/autopsytable.rsi
+    sprite: _DeadSpace/Structures/Furniture/Tables/autopsytable.rsi
     state: autopsy_table
   - type: Strap
     position: Down

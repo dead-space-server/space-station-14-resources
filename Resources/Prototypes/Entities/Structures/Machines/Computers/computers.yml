@@ -672,7 +672,7 @@
   - type: CommunicationsConsole
     title: comms-console-announcement-title-station
     announcementSound:
-      path: /Audio/DeadSpace/Announcements/announce.ogg # DeadSpace-Announcements
+      path: /Audio/_DeadSpace/Announcements/announce.ogg # DeadSpace-Announcements
       params:
         volume: -2
     firstPrivilegedIdSlot:

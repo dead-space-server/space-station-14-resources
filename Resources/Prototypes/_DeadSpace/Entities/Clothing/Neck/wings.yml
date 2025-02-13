@@ -5,7 +5,7 @@
   description: Эти декоративные крылья придают вашему облику невероятную нежность и гармонию. Ощутите легкость и свободу с этими ангельскими крыльями!
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Neck/Wings/Angel.rsi
+    sprite: _DeadSpace/Clothing/Neck/Wings/Angel.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -15,7 +15,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Neck/Wings/BlackVampire.rsi
+    sprite: _DeadSpace/Clothing/Neck/Wings/BlackVampire.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -25,7 +25,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Neck/Wings/Pegas.rsi
+    sprite: _DeadSpace/Clothing/Neck/Wings/Pegas.rsi
 
 - type: entity # Halloween
   parent: ClothingNeckBase
@@ -34,7 +34,7 @@
   description: Аксессуар, который придает вашей внешности загадочный и впечатляющий вид. Будьте смелыми и украсьте себя скелетными крыльями, БУУУУ!
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Neck/Wings/Skeleton.rsi
+    sprite: _DeadSpace/Clothing/Neck/Wings/Skeleton.rsi
 
 - type: entity # Halloween
   parent: ClothingNeckBase
@@ -43,7 +43,7 @@
   description: Зловеще стильный аксессуар, который подчеркивает вашу индивидуальность.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Neck/Wings/SkeletonBlack.rsi
+    sprite: _DeadSpace/Clothing/Neck/Wings/SkeletonBlack.rsi
 
 - type: entity # Halloween
   parent: ClothingNeckBase
@@ -52,7 +52,7 @@
   description: Откройте новые горизонты стиля с этими скелетными крыльями с красной кожей.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Neck/Wings/SkeletonRed.rsi
+    sprite: _DeadSpace/Clothing/Neck/Wings/SkeletonRed.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -62,7 +62,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Neck/Wings/Violet.rsi
+    sprite: _DeadSpace/Clothing/Neck/Wings/Violet.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -72,4 +72,4 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Neck/Wings/Magic.rsi
+    sprite: _DeadSpace/Clothing/Neck/Wings/Magic.rsi

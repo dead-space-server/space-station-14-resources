@@ -7,7 +7,7 @@
   - type: Transform
   - type: StationAiVision
   - type: Sprite
-    sprite: DeadSpace/Structures/Machines/holopad_h.rsi
+    sprite: _DeadSpace/Structures/Machines/holopad_h.rsi
     layers:
     - state: base
     - map: [ "lights" ]

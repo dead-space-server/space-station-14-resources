@@ -5,6 +5,6 @@
   description: Униформа для взыскательных учёных, которую лучше всего носить с подходящим к ней галстуком.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Uniforms/Jumpskirt/scientist_formal.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/Jumpskirt/scientist_formal.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Uniforms/Jumpskirt/scientist_formal.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/Jumpskirt/scientist_formal.rsi

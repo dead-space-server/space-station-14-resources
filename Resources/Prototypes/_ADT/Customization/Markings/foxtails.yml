@@ -14,9 +14,9 @@
           category: FacialHair
         - !type:SkinColoring
   sprites:
-  - sprite: ADT/Mobs/Customization/fox_parts.rsi
+  - sprite: _ADT/Mobs/Customization/fox_parts.rsi
     state: tail_fox_wag_stripes_prime
-  - sprite: ADT/Mobs/Customization/fox_parts.rsi
+  - sprite: _ADT/Mobs/Customization/fox_parts.rsi
     state: tail_fox_wag_stripes_second
-  - sprite: ADT/Mobs/Customization/fox_parts.rsi
+  - sprite: _ADT/Mobs/Customization/fox_parts.rsi
     state: tail_fox_wag_stripes_third

@@ -68,7 +68,7 @@
       briefing:
         text: spider-terror-quin-briefing-greeting
         color: CornflowerBlue
-        sound: "/Audio/DeadSpace/Spiders/brif.ogg"
+        sound: "/Audio/_DeadSpace/Spiders/brif.ogg"
       components:
       - type: Egg
         canHatch: true
@@ -85,7 +85,7 @@
       briefing:
         text: spider-terror-king-briefing-greeting
         color: CornflowerBlue
-        sound: "/Audio/DeadSpace/Spiders/brif.ogg"
+        sound: "/Audio/_DeadSpace/Spiders/brif.ogg"
       components:
       - type: Egg
         canHatch: true
@@ -103,7 +103,7 @@
       briefing:
         text: spider-terror-kingblood-briefing-greeting
         color: CornflowerBlue
-        sound: "/Audio/DeadSpace/Spiders/brif.ogg"
+        sound: "/Audio/_DeadSpace/Spiders/brif.ogg"
       components:
       - type: Egg
         canHatch: true
@@ -121,7 +121,7 @@
   - type: StationEvent
     startAnnouncement: station-event-vent-creatures-start-announcement
     startAudio:
-      path: /Audio/DeadSpace/Announcements/lifesigns.ogg # DeadSpace-Announcements
+      path: /Audio/_DeadSpace/Announcements/lifesigns.ogg # DeadSpace-Announcements
     earliestStart: 50
     duration: 60
     minimumPlayers: 30
@@ -208,7 +208,7 @@
   - type: StationEvent
     startAnnouncement: station-event-response-team-arrival
     startAudio:
-      path: /Audio/DeadSpace/Announcements/centcomm.ogg # DeadSpace-Announcements
+      path: /Audio/_DeadSpace/Announcements/centcomm.ogg # DeadSpace-Announcements
     willNotStartRandomly: true
   - type: RuleGrids
   - type: LoadMapRule
@@ -221,7 +221,7 @@
   - type: StationEvent
     startAnnouncement: station-event-response-team-arrival
     startAudio:
-      path: /Audio/Announcements/attention.ogg
+      path: /Audio/_DeadSpace/Announcements/centcomm.ogg # DeadSpace-Announcements
     weight: 0
     reoccurrenceDelay: 30
     duration: 1

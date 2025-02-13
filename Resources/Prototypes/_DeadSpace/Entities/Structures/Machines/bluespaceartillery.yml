@@ -6,7 +6,7 @@
   suffix: Филлер для маппинга
   components:
   - type: Sprite
-    sprite: DeadSpace/Structures/Machines/bluespaceartillery.rsi
+    sprite: _DeadSpace/Structures/Machines/bluespaceartillery.rsi
     state: icon
   - type: Fixtures
     fixtures:

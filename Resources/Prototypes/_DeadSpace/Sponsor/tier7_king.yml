@@ -90,9 +90,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/King/pineappletrench.rsi
+    sprite: _DeadSpace/Sponsor/King/pineappletrench.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/King/pineappletrench.rsi
+    sprite: _DeadSpace/Sponsor/King/pineappletrench.rsi
 
 # Cloak
 - type: entity
@@ -103,7 +103,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/King/cloak.rsi
+    sprite: _DeadSpace/Sponsor/King/cloak.rsi
 
 # Mantle
 - type: entity
@@ -114,6 +114,6 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/King/mantle.rsi
+    sprite: _DeadSpace/Sponsor/King/mantle.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/King/mantle.rsi
+    sprite: _DeadSpace/Sponsor/King/mantle.rsi

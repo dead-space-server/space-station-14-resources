@@ -12,7 +12,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/TheQG/duffel.rsi
+    sprite: _DeadSpace/Sponsor/TheQG/duffel.rsi
   - type: Storage
     maxItemSize: Huge
     grid:
@@ -44,9 +44,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/TheQG/beret.rsi
+    sprite: _DeadSpace/Sponsor/TheQG/beret.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/TheQG/beret.rsi
+    sprite: _DeadSpace/Sponsor/TheQG/beret.rsi
 
 # Mantle
 - type: entity
@@ -57,9 +57,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/TheQG/mantle_shoulder.rsi
+    sprite: _DeadSpace/Sponsor/TheQG/mantle_shoulder.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/TheQG/mantle_shoulder.rsi
+    sprite: _DeadSpace/Sponsor/TheQG/mantle_shoulder.rsi
 
 # Jumpsuit
 - type: entity
@@ -70,9 +70,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/TheQG/jumpsuit.rsi
+    sprite: _DeadSpace/Sponsor/TheQG/jumpsuit.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/TheQG/jumpsuit.rsi
+    sprite: _DeadSpace/Sponsor/TheQG/jumpsuit.rsi
 
 # Webbing
 - type: entity
@@ -83,9 +83,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/TheQG/webbing.rsi
+    sprite: _DeadSpace/Sponsor/TheQG/webbing.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/TheQG/webbing.rsi
+    sprite: _DeadSpace/Sponsor/TheQG/webbing.rsi
   - type: ExplosionResistance
     damageCoefficient: 0.8
   - type: Item

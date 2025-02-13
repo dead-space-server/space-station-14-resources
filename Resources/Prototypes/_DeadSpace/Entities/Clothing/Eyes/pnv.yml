@@ -6,10 +6,10 @@
   suffix: ПНВ
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Eyes/Hud/pnv.rsi
+    sprite: _DeadSpace/Clothing/Eyes/Hud/pnv.rsi
     scale: 0.7, 0.7 # bad practice, don't do it
   - type: Clothing
-    sprite: DeadSpace/Clothing/Eyes/Hud/pnv.rsi
+    sprite: _DeadSpace/Clothing/Eyes/Hud/pnv.rsi
   - type: NightVisionClothing
     color: "#41af0e"
 
@@ -21,10 +21,10 @@
   suffix: ПНВ, Продвинутый
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Eyes/Hud/pnv-adv.rsi
+    sprite: _DeadSpace/Clothing/Eyes/Hud/pnv-adv.rsi
     scale: 0.7, 0.7 # bad practice, don't do it
   - type: Clothing
-    sprite: DeadSpace/Clothing/Eyes/Hud/pnv-adv.rsi
+    sprite: _DeadSpace/Clothing/Eyes/Hud/pnv-adv.rsi
   - type: NightVisionClothing
     color: "#ffffff"
 
@@ -36,10 +36,10 @@
   suffix: ПНВ, Синдикат
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Eyes/Hud/pnv-synd.rsi
+    sprite: _DeadSpace/Clothing/Eyes/Hud/pnv-synd.rsi
     scale: 0.7, 0.7 # bad practice, don't do it
   - type: Clothing
-    sprite: DeadSpace/Clothing/Eyes/Hud/pnv-synd.rsi
+    sprite: _DeadSpace/Clothing/Eyes/Hud/pnv-synd.rsi
   - type: NightVisionClothing
     color: "#ffffff"
   - type: ShowSyndicateIcons

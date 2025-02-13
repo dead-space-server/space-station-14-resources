@@ -18,9 +18,9 @@
   # categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/drippenwagenAlt/backpack.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagenAlt/backpack.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/drippenwagenAlt/backpack.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagenAlt/backpack.rsi
   - type: Storage
     maxItemSize: Huge
     grid:
@@ -47,9 +47,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/drippenwagenAlt/belt.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagenAlt/belt.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/drippenwagenAlt/belt.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagenAlt/belt.rsi
   - type: Item
     size: Huge
   - type: StorageFill
@@ -69,9 +69,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/drippenwagenAlt/suit.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagenAlt/suit.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/drippenwagenAlt/suit.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagenAlt/suit.rsi
 
 # Jetpack
 - type: entity
@@ -83,11 +83,11 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Item
-    sprite: DeadSpace/Sponsor/drippenwagenAlt/void.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagenAlt/void.rsi
   - type: Sprite
-    sprite: DeadSpace/Sponsor/drippenwagenAlt/void.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagenAlt/void.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/drippenwagenAlt/void.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagenAlt/void.rsi
     slots:
       - Back
       - suitStorage
@@ -102,9 +102,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/drippenwagenAlt/gloves.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagenAlt/gloves.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/drippenwagenAlt/gloves.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagenAlt/gloves.rsi
 
 # Hardsuit
 - type: entity
@@ -115,9 +115,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/drippenwagenAlt/hardsuit.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagenAlt/hardsuit.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/drippenwagenAlt/hardsuit.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagenAlt/hardsuit.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitdrippenwagenAlt
   - type: Item
@@ -148,9 +148,9 @@
   description: Изготовлено на заказ организацией LaFleur Wear.
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/drippenwagenAlt/helmet.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagenAlt/helmet.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/drippenwagenAlt/helmet.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagenAlt/helmet.rsi
   - type: PointLight
     radius: 7
     energy: 3
@@ -174,9 +174,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/drippenwagenAlt/eyes.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagenAlt/eyes.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/drippenwagenAlt/eyes.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagenAlt/eyes.rsi
   - type: EyeProtection
   - type: IdentityBlocker
     coverage: EYES
@@ -190,9 +190,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/drippenwagenAlt/mask.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagenAlt/mask.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/drippenwagenAlt/mask.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagenAlt/mask.rsi
 
 # Magboots
 - type: entity
@@ -203,12 +203,12 @@
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
-      sprite: DeadSpace/Sponsor/drippenwagenAlt/magboots.rsi
+      sprite: _DeadSpace/Sponsor/drippenwagenAlt/magboots.rsi
       layers:
       - state: icon
         map: [ "enum.ToggleVisuals.Layer" ]
     - type: Clothing
-      sprite: DeadSpace/Sponsor/drippenwagenAlt/magboots.rsi
+      sprite: _DeadSpace/Sponsor/drippenwagenAlt/magboots.rsi
     - type: ClothingSpeedModifier
       walkModifier: 1
       sprintModifier: 1
@@ -222,9 +222,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/drippenwagenAlt/mantle.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagenAlt/mantle.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/drippenwagenAlt/mantle.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagenAlt/mantle.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHooddrippenwagenAlt
     requiredSlot:
@@ -244,9 +244,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/drippenwagenAlt/hood.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagenAlt/hood.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/drippenwagenAlt/hood.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagenAlt/hood.rsi
   - type: Tag
     tags:
     - HidesHair
@@ -260,9 +260,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Icon
-    sprite: DeadSpace/Sponsor/drippenwagenAlt/pda.rsi 
+    sprite: _DeadSpace/Sponsor/drippenwagenAlt/pda.rsi 
   - type: Sprite
-    sprite: DeadSpace/Sponsor/drippenwagenAlt/pda.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagenAlt/pda.rsi
 
 #Multitool
 - type: entity
@@ -273,7 +273,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/drippenwagenAlt/multitool.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagenAlt/multitool.rsi
 
 # t-ray scanner
 - type: entity
@@ -284,10 +284,10 @@
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
-      sprite: DeadSpace/Sponsor/drippenwagenAlt/t-ray.rsi
+      sprite: _DeadSpace/Sponsor/drippenwagenAlt/t-ray.rsi
       state: icon
     - type: Item
-      sprite: DeadSpace/Sponsor/drippenwagenAlt/t-ray.rsi
+      sprite: _DeadSpace/Sponsor/drippenwagenAlt/t-ray.rsi
 
 # JawsOfLife
 - type: entity
@@ -298,7 +298,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/drippenwagenAlt/jaws_of_life.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagenAlt/jaws_of_life.rsi
     state: jaws_pry
   - type: Item
     inhandVisuals:
@@ -311,13 +311,13 @@
     entries:
       - behavior: Prying
         sprite:
-          sprite: DeadSpace/Sponsor/drippenwagenAlt/jaws_of_life.rsi
+          sprite: _DeadSpace/Sponsor/drippenwagenAlt/jaws_of_life.rsi
           state: jaws_pry
         useSound: /Audio/Items/jaws_pry.ogg
         changeSound: /Audio/Items/change_jaws.ogg
       - behavior: Cutting
         sprite:
-          sprite: DeadSpace/Sponsor/drippenwagenAlt/jaws_of_life.rsi
+          sprite: _DeadSpace/Sponsor/drippenwagenAlt/jaws_of_life.rsi
           state: jaws_cutter
         useSound: /Audio/Items/jaws_cut.ogg
         changeSound: /Audio/Items/change_jaws.ogg
@@ -335,9 +335,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/drippenwagenAlt/welder_experimental.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagenAlt/welder_experimental.rsi
   - type: Item
-    sprite: DeadSpace/Sponsor/drippenwagenAlt/welder_experimental.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagenAlt/welder_experimental.rsi
 
 # PowerDrill
 - type: entity
@@ -348,17 +348,17 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/drippenwagenAlt/drill.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagenAlt/drill.rsi
     state: drill_screw
   - type: Item
-    sprite: DeadSpace/Sponsor/drippenwagenAlt/drill.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagenAlt/drill.rsi
     size: Small
   - type: MultipleTool
     statusShowBehavior: true
     entries:
       - behavior: Screwing
         sprite:
-          sprite: DeadSpace/Sponsor/drippenwagenAlt/drill.rsi
+          sprite: _DeadSpace/Sponsor/drippenwagenAlt/drill.rsi
           state: drill_screw
         useSound:
           path: /Audio/Items/drill_use.ogg
@@ -366,7 +366,7 @@
           path: /Audio/Items/change_drill.ogg
       - behavior: Anchoring
         sprite:
-          sprite: DeadSpace/Sponsor/drippenwagenAlt/drill.rsi
+          sprite: _DeadSpace/Sponsor/drippenwagenAlt/drill.rsi
           state: drill_bolt
         useSound:
           path: /Audio/Items/drill_use.ogg
@@ -382,9 +382,9 @@
   # categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/drippenwagenAlt/crusher.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagenAlt/crusher.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/drippenwagenAlt/crusher.rsi
+    sprite: _DeadSpace/Sponsor/drippenwagenAlt/crusher.rsi
     quickEquip: false
     slots:
     - Back

@@ -5,7 +5,7 @@
   description: Бронированный киборг, чья главная цель — защита станции от любой угрозы. Принадлежит отделу службы безопасности.
   components:
   - type: Sprite
-    sprite: DeadSpace/SecurityBorg/securityborg.rsi
+    sprite: _DeadSpace/SecurityBorg/securityborg.rsi
     layers:
     - state: sec
     - state: sec_e
@@ -26,7 +26,7 @@
     noMindState: sec_e_r
   - type: BorgTransponder
     sprite:
-      sprite: DeadSpace/SecurityBorg/securityborg.rsi
+      sprite: _DeadSpace/SecurityBorg/securityborg.rsi
       state: sec
     name: cyborg
   - type: Construction
@@ -132,7 +132,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: /Textures/DeadSpace/SecurityBorg/id_borg_sec.rsi
+    sprite: /Textures/_DeadSpace/SecurityBorg/id_borg_sec.rsi
     layers:
     - state: icon
   - type: IdCard
@@ -151,7 +151,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: /Textures/DeadSpace/SecurityBorg/borglaser.rsi
+    sprite: /Textures/_DeadSpace/SecurityBorg/borglaser.rsi
     state: icon
   - type: Gun
     selectedMode: SemiAuto
@@ -179,7 +179,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: /Textures/DeadSpace/SecurityBorg/stannerborg.rsi
+    sprite: /Textures/_DeadSpace/SecurityBorg/stannerborg.rsi
     layers:
     - state: icon
   - type: BatterySelfRecharger
@@ -204,7 +204,7 @@
   description: Часть технологии, которая дает киборгам новые возможности.
   components:
   - type: Sprite
-    sprite: /Textures/DeadSpace/SecurityBorg/borg_module_sec.rsi
+    sprite: /Textures/_DeadSpace/SecurityBorg/borg_module_sec.rsi
     layers:
     - state: security
     - state: icon-energy
@@ -220,7 +220,7 @@
   description: Часть технологии, которая дает киборгам новые возможности.
   components:
   - type: Sprite
-    sprite: /Textures/DeadSpace/SecurityBorg/borg_module_sec.rsi
+    sprite: /Textures/_DeadSpace/SecurityBorg/borg_module_sec.rsi
     layers:
     - state: security
     - state: icon-arrest
@@ -246,7 +246,7 @@
   description: Набор челюстей жизни, скомпонованных при помощи магии науки.
   components:
   - type: Sprite
-    sprite: /Textures/DeadSpace/SecurityBorg/borg_sec_jaws.rsi
+    sprite: /Textures/_DeadSpace/SecurityBorg/borg_sec_jaws.rsi
     state: sec_borg_jaws_pry
   - type: Tool
     qualities:
@@ -256,13 +256,13 @@
     entries:
       - behavior: Prying
         sprite:
-          sprite: /Textures/DeadSpace/SecurityBorg/borg_sec_jaws.rsi
+          sprite: /Textures/_DeadSpace/SecurityBorg/borg_sec_jaws.rsi
           state: sec_borg_jaws_pry
         useSound: /Audio/Items/jaws_pry.ogg
         changeSound: /Audio/Items/change_jaws.ogg
       - behavior: Cutting
         sprite:
-          sprite: /Textures/DeadSpace/SecurityBorg/borg_sec_jaws.rsi
+          sprite: /Textures/_DeadSpace/SecurityBorg/borg_sec_jaws.rsi
           state: sec_borg_jaws_cutter
         useSound: /Audio/Items/jaws_cut.ogg
         changeSound: /Audio/Items/change_jaws.ogg
@@ -279,10 +279,10 @@
   name: левая рука киборга службы безопасности
   components:
   - type: Sprite
-    sprite: /Textures/DeadSpace/SecurityBorg/borg_sec.rsi
+    sprite: /Textures/_DeadSpace/SecurityBorg/borg_sec.rsi
     state: sec_l_arm
   - type: Icon
-    sprite: /Textures/DeadSpace/SecurityBorg/borg_sec.rsi
+    sprite: /Textures/_DeadSpace/SecurityBorg/borg_sec.rsi
     state: sec_l_arm
   - type: Tag
     tags:
@@ -296,10 +296,10 @@
   name: правая рука киборга службы безопасности
   components:
   - type: Sprite
-    sprite: /Textures/DeadSpace/SecurityBorg/borg_sec.rsi
+    sprite: /Textures/_DeadSpace/SecurityBorg/borg_sec.rsi
     state: sec_r_arm
   - type: Icon
-    sprite: /Textures/DeadSpace/SecurityBorg/borg_sec.rsi
+    sprite: /Textures/_DeadSpace/SecurityBorg/borg_sec.rsi
     state: sec_r_arm
   - type: Tag
     tags:
@@ -313,10 +313,10 @@
   name: левая нога киборга службы безопасности
   components:
   - type: Sprite
-    sprite: /Textures/DeadSpace/SecurityBorg/borg_sec.rsi
+    sprite: /Textures/_DeadSpace/SecurityBorg/borg_sec.rsi
     state: sec_l_leg
   - type: Icon
-    sprite: /Textures/DeadSpace/SecurityBorg/borg_sec.rsi
+    sprite: /Textures/_DeadSpace/SecurityBorg/borg_sec.rsi
     state: sec_l_leg
   - type: Tag
     tags:
@@ -330,10 +330,10 @@
   name: правая нога киборга службы безопасности
   components:
   - type: Sprite
-    sprite: /Textures/DeadSpace/SecurityBorg/borg_sec.rsi
+    sprite: /Textures/_DeadSpace/SecurityBorg/borg_sec.rsi
     state: sec_r_leg
   - type: Icon
-    sprite: /Textures/DeadSpace/SecurityBorg/borg_sec.rsi
+    sprite: /Textures/_DeadSpace/SecurityBorg/borg_sec.rsi
     state: sec_r_leg
   - type: Tag
     tags:
@@ -347,10 +347,10 @@
   name: голова киборга службы безопасности
   components:
   - type: Sprite
-    sprite: /Textures/DeadSpace/SecurityBorg/borg_sec.rsi
+    sprite: /Textures/_DeadSpace/SecurityBorg/borg_sec.rsi
     state: sec_head
   - type: Icon
-    sprite: /Textures/DeadSpace/SecurityBorg/borg_sec.rsi
+    sprite: /Textures/_DeadSpace/SecurityBorg/borg_sec.rsi
     state: sec_head
   - type: Tag
     tags:
@@ -364,10 +364,10 @@
   name: туловище киборга службы безопасности
   components:
   - type: Sprite
-    sprite: /Textures/DeadSpace/SecurityBorg/borg_sec.rsi
+    sprite: /Textures/_DeadSpace/SecurityBorg/borg_sec.rsi
     state: sec_chest
   - type: Icon
-    sprite: /Textures/DeadSpace/SecurityBorg/borg_sec.rsi
+    sprite: /Textures/_DeadSpace/SecurityBorg/borg_sec.rsi
     state: sec_chest
   - type: Tag
     tags:
@@ -401,11 +401,11 @@
   - type: Sprite
     noRot: true
     drawdepth: Items
-    sprite: /Textures/DeadSpace/SecurityBorg/borg_sec.rsi
+    sprite: /Textures/_DeadSpace/SecurityBorg/borg_sec.rsi
     state: robo_suit_sec
   - type: Appearance
   - type: ItemMapper
-    sprite: /Textures/DeadSpace/SecurityBorg/borg_sec.rsi
+    sprite: /Textures/_DeadSpace/SecurityBorg/borg_sec.rsi
     mapLayers:
       sec_l_arm+o:
         whitelist:

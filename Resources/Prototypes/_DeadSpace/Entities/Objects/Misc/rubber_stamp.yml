@@ -9,7 +9,7 @@
     stampedColor: "#650E00"
     stampState: "paper_stamp-mag"
   - type: Sprite
-    sprite: ADT/KD/Magistrat.rsi
+    sprite: _ADT/KD/Magistrat.rsi
     state: stamp-magistrat
 
 - type: entity
@@ -23,7 +23,7 @@
     stampedColor: "#CC2369"
     stampState: "paper_stamp-hos"
   - type: Sprite
-    sprite: DeadSpace/Objects/Misc/rubberstampbrigmedic.rsi
+    sprite: _DeadSpace/Objects/Misc/rubberstampbrigmedic.rsi
     state: stamp-brigmedic
 
 - type: entity

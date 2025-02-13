@@ -5,9 +5,9 @@
   description: Скафандр принадлежащий ОБР инквизиции, обвешан оберагами и регалями.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/inquisitory.rsi
+    sprite: _ADT/Clothing/OuterClothing/Hardsuits/inquisitory.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/inquisitory.rsi
+    sprite: _ADT/Clothing/OuterClothing/Hardsuits/inquisitory.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
@@ -34,9 +34,9 @@
   description: Шлем скафандра ОБР инкизиции.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hardsuits/inquisitoryhead.rsi
+    sprite: _ADT/Clothing/Head/Hardsuits/inquisitoryhead.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hardsuits/inquisitoryhead.rsi
+    sprite: _ADT/Clothing/Head/Hardsuits/inquisitoryhead.rsi
   - type: PointLight
     color: white
     radius: 7

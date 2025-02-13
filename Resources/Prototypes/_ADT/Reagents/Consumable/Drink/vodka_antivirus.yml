@@ -7,7 +7,7 @@
   flavor: VodkaAntivirusFlavor
   color: "#d1d1d155"
   metamorphicSprite:
-    sprite: ADT/Objects/Consumable/Drinks/vodka_antivirusglass.rsi
+    sprite: _ADT/Objects/Consumable/Drinks/vodka_antivirusglass.rsi
     state: icon
   metabolisms:
     Drink:

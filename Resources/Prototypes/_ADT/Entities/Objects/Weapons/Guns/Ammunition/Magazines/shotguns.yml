@@ -14,14 +14,14 @@
         - ShellShotgun
     capacity: 16
     soundRack:
-      path: /Audio/Corvax/Weapons/Guns/Cock/shotgun_cock.ogg # Corvax-Guns
+      path: /Audio/_Corvax/Weapons/Guns/Cock/shotgun_cock.ogg # Corvax-Guns
   - type: Item
     size: Small
   - type: ContainerContainer
     containers:
       ballistic-ammo: !type:Container
   - type: Sprite
-    sprite: /Textures/ADT/Objects/Weapons/Guns/Ammunition/Magazine/xl.rsi
+    sprite: /Textures/_ADT/Objects/Weapons/Guns/Ammunition/Magazine/xl.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]

@@ -95,7 +95,7 @@
   damageModifierSet: Necromorf
   isCanSpawnInfectionDead: false
   useInventory: false
-  sprite: DeadSpace/Necromorfs/small_necro.rsi
+  sprite: _DeadSpace/Necromorfs/small_necro.rsi
   state: running
 
 - type: necromorf
@@ -138,7 +138,7 @@
       Structural: 40
   damageModifierSet: Necromorf
   isCanSpawnInfectionDead: false
-  sprite: DeadSpace/Necromorfs/brute.rsi
+  sprite: _DeadSpace/Necromorfs/brute.rsi
   state: running
   useInventory: false
   components:
@@ -154,7 +154,7 @@
     types:
       Structural: 10
   damageModifierSet: Necromorf
-  sprite: DeadSpace/Necromorfs/infector.rsi
+  sprite: _DeadSpace/Necromorfs/infector.rsi
   state: running
   useInventory: false
   components:
@@ -213,7 +213,7 @@
   useInventory: false
   isCanSpawnInfectionDead: false # Может появиться с помощью зараженя, или нет
   # hardsuit: ClothingCorpseCollectorLvl1 #Верхняя одежда некроморфа
-  sprite: DeadSpace/Necromorfs/corpsecollector.rsi
+  sprite: _DeadSpace/Necromorfs/corpsecollector.rsi
   state: lvl1
   movementSpeedMultiply: 1 # Модификатор скорости
   components: # Доп. компоненты
@@ -400,7 +400,7 @@
   - type: Sprite
     layers:
       - state: red
-      - sprite: DeadSpace/Necromorfs/infector.rsi
+      - sprite: _DeadSpace/Necromorfs/infector.rsi
         state: running
   - type: RandomSpawner
     prototypes:
@@ -423,7 +423,7 @@
   - type: Sprite
     layers:
       - state: red
-      - sprite: DeadSpace/Necromorfs/brute.rsi
+      - sprite: _DeadSpace/Necromorfs/brute.rsi
         state: running
   - type: RandomSpawner
     prototypes:

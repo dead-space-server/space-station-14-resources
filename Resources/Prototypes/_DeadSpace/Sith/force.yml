@@ -11,7 +11,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: /Textures/DeadSpace/Sith/force.rsi
+    sprite: /Textures/_DeadSpace/Sith/force.rsi
     drawdepth: Effects
   - type: Physics
     canCollide: false

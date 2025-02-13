@@ -13,5 +13,5 @@
         - ReagentId: ADTVodkaAntivirus
           Quantity: 30
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Drinks/vodka_antivirusglass.rsi
+    sprite: _ADT/Objects/Consumable/Drinks/vodka_antivirusglass.rsi
     state: icon

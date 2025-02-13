@@ -13,6 +13,10 @@
   access:
   - Service
   - Maintenance
+  special:
+  - !type:GiveItemOnHolidaySpecial
+    holiday: MonkeyDay
+    prototype: MonkeyCubeBox
   #start-backmen: currency
   minBankBalance: 150
   maxBankBalance: 250

@@ -200,9 +200,9 @@
     interactSuccessString: petting-success-cat
     interactFailureString: petting-failure-generic
     interactSuccessSound:
-      path: /Audio/ADT/carakal_purr.ogg
+      path: /Audio/_ADT/carakal_purr.ogg
     interactFailureSound:
-      path: /Audio/ADT/carakal_hiss.ogg
+      path: /Audio/_ADT/carakal_hiss.ogg
 
 - type: entity
   name: Bandito

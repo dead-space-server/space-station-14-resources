@@ -37,7 +37,7 @@
       groups:
         Brute: 10
   - type: Sprite
-    sprite: DeadSpace/Effects/bone_bullet.rsi
+    sprite: _DeadSpace/Effects/bone_bullet.rsi
     layers:
       - state: bone_bullet
   - type: Ammo
@@ -53,7 +53,7 @@
       factions:
         - Necromorfs
     - type: Sprite
-      sprite: DeadSpace/Necromorfs/bone_tentacle.rsi
+      sprite: _DeadSpace/Necromorfs/bone_tentacle.rsi
       noRot: true
       layers:
         - state: bonetentacle
@@ -63,7 +63,7 @@
     - type: Gun
       fireRate: 1
       selectedMode: FullAuto
-      soundGunshot: /Audio/DeadSpace/Necromorfs/bone.ogg
+      soundGunshot: /Audio/_DeadSpace/Necromorfs/bone.ogg
     - type: HTN
       rootTask:
         task: TurretCompound
@@ -131,7 +131,7 @@
     factions:
       - Necromorfs
   - type: Sprite
-    sprite: DeadSpace/Necromorfs/tentacle.rsi
+    sprite: _DeadSpace/Necromorfs/tentacle.rsi
     noRot: true
     layers:
     - state: tentacle
@@ -196,7 +196,7 @@
     factions:
       - Necromorfs
   - type: Sprite
-    sprite: DeadSpace/Necromorfs/puker.rsi
+    sprite: _DeadSpace/Necromorfs/puker.rsi
     noRot: true
     layers:
     - state: running
@@ -268,7 +268,7 @@
     factions:
       - Necromorfs
   - type: Sprite
-    sprite: DeadSpace/Necromorfs/leviathan.rsi
+    sprite: _DeadSpace/Necromorfs/leviathan.rsi
     noRot: true
     layers:
     - state: running
@@ -337,7 +337,7 @@
   - type: Sprite
     noRot: true
     drawdepth: Ghosts
-    sprite: DeadSpace/Necromorfs/leviathan.rsi
+    sprite: _DeadSpace/Necromorfs/leviathan.rsi
     layers:
     - state: ghost
   - type: Clickable

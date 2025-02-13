@@ -14,5 +14,5 @@
   - type: TrashOnSolutionEmpty
     solution: food
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Food/cocoa_pack.rsi
+    sprite: _ADT/Objects/Consumable/Food/cocoa_pack.rsi
     state: icon

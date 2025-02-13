@@ -329,9 +329,9 @@
   - type: Sprite
     layers:
     - state: green
-    - sprite: /Textures/DeadSpace/SecurityBorg/securityborg.rsi
+    - sprite: /Textures/_DeadSpace/SecurityBorg/securityborg.rsi
       state: sec
-    - sprite: /Textures/DeadSpace/SecurityBorg/securityborg.rsi
+    - sprite: /Textures/_DeadSpace/SecurityBorg/securityborg.rsi
       state: sec_e
 
 # Command

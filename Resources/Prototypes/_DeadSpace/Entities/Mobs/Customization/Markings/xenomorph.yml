@@ -4,9 +4,9 @@
   markingCategory: Tail
   speciesRestriction: [Xenomorph]
   sprites:
-    - sprite: DeadSpace/Sponsor/Mobs/Species/Xenomorph/tail_markings.rsi
+    - sprite: _DeadSpace/Sponsor/Mobs/Species/Xenomorph/tail_markings.rsi
       state: tail_wight
-    - sprite: DeadSpace/Sponsor/Mobs/Species/Xenomorph/tail_markings.rsi
+    - sprite: _DeadSpace/Sponsor/Mobs/Species/Xenomorph/tail_markings.rsi
       state: tail_wight
 
 - type: marking
@@ -15,7 +15,7 @@
   markingCategory: Tail
   speciesRestriction: [Xenomorph]
   sprites:
-    - sprite: DeadSpace/Sponsor/Mobs/Species/Xenomorph/tail_markings.rsi
+    - sprite: _DeadSpace/Sponsor/Mobs/Species/Xenomorph/tail_markings.rsi
       state: tail_small
-    - sprite: DeadSpace/Sponsor/Mobs/Species/Xenomorph/tail_markings.rsi
+    - sprite: _DeadSpace/Sponsor/Mobs/Species/Xenomorph/tail_markings.rsi
       state: tail_small

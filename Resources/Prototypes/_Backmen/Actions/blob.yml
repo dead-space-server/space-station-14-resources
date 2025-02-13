@@ -6,7 +6,7 @@
   - type: WorldTargetAction
     priority: -7
     icon:
-      sprite: Backmen/Interface/Actions/blob.rsi
+      sprite: _Backmen/Interface/Actions/blob.rsi
       state: blobFactory
     event: !type:BlobCreateFactoryActionEvent
     itemIconStyle: BigAction
@@ -21,7 +21,7 @@
   - type: WorldTargetAction
     priority: -8
     icon:
-      sprite: Backmen/Interface/Actions/blob.rsi
+      sprite: _Backmen/Interface/Actions/blob.rsi
       state: blobResource
     event: !type:BlobCreateResourceActionEvent
     itemIconStyle: BigAction
@@ -36,7 +36,7 @@
   - type: WorldTargetAction
     priority: -9
     icon:
-      sprite: Backmen/Interface/Actions/blob.rsi
+      sprite: _Backmen/Interface/Actions/blob.rsi
       state: blobNode
     event: !type:BlobCreateNodeActionEvent
     itemIconStyle: BigAction
@@ -51,7 +51,7 @@
   - type: WorldTargetAction
     priority: -6
     icon:
-      sprite: Backmen/Interface/Actions/blob.rsi
+      sprite: _Backmen/Interface/Actions/blob.rsi
       state: blobBlobbernaut
     event: !type:BlobCreateBlobbernautActionEvent
     itemIconStyle: BigAction
@@ -66,7 +66,7 @@
   - type: WorldTargetAction
     priority: -3
     icon:
-      sprite: Backmen/Interface/Actions/blob.rsi
+      sprite: _Backmen/Interface/Actions/blob.rsi
       state: blobSplit
     event: !type:BlobSplitCoreActionEvent
     itemIconStyle: BigAction
@@ -81,7 +81,7 @@
   - type: WorldTargetAction
     priority: -2
     icon:
-      sprite: Backmen/Interface/Actions/blob.rsi
+      sprite: _Backmen/Interface/Actions/blob.rsi
       state: blobSwap
     event: !type:BlobSwapCoreActionEvent
     itemIconStyle: BigAction
@@ -96,7 +96,7 @@
   - type: InstantAction
     priority: -10
     icon:
-      sprite: Backmen/Interface/Actions/blob.rsi
+      sprite: _Backmen/Interface/Actions/blob.rsi
       state: blobToCore
     event: !type:BlobToCoreActionEvent
     itemIconStyle: BigAction
@@ -110,7 +110,7 @@
   - type: InstantAction
     priority: -5
     icon:
-      sprite: Backmen/Interface/Actions/blob.rsi
+      sprite: _Backmen/Interface/Actions/blob.rsi
       state: blobToNode
     event: !type:BlobToNodeActionEvent
     useDelay: 0.5
@@ -123,7 +123,7 @@
   - type: InstantAction
     priority: -4
     icon:
-      sprite: Backmen/Interface/Actions/blob.rsi
+      sprite: _Backmen/Interface/Actions/blob.rsi
       state: blobChemSwap
     event: !type:BlobSwapChemActionEvent
 
@@ -134,6 +134,6 @@
   components:
   - type: InstantAction
     icon:
-      sprite: Backmen/Interface/Actions/blob.rsi
+      sprite: _Backmen/Interface/Actions/blob.rsi
       state: blobToCore
     event: !type:TransformToBlobActionEvent

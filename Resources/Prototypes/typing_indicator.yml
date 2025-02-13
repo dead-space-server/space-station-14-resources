@@ -62,21 +62,21 @@
 
 - type: typingIndicator
   id: felinid
-  spritePath: /Textures/DeadSpace/Effects/speech.rsi # DS14-TypingIndicator
+  spritePath: /Textures/_DeadSpace/Effects/speech.rsi # DS14-TypingIndicator
   typingState: neko0
   idleState: neko3
   offset: 0.025, 0.125
 
 - type: typingIndicator
   id: vulpkanin
-  spritePath: /Textures/DeadSpace/Effects/speech.rsi # DS14-TypingIndicator
+  spritePath: /Textures/_DeadSpace/Effects/speech.rsi # DS14-TypingIndicator
   typingState: vulp0
   idleState: vulp3
-  offset: -0.100, 0.375
+  offset: 0.125, 0.175
 
 - type: typingIndicator
   id: plafeim
-  spritePath: /Textures/DeadSpace/Effects/speech.rsi # DS14-TypingIndicator
+  spritePath: /Textures/_DeadSpace/Effects/speech.rsi # DS14-TypingIndicator
   typingState: plaf0
   idleState: plaf3
   offset: 0.150, 0.250

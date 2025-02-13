@@ -5,6 +5,6 @@
   description: Где мой бокал мартини?!
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hats/pink_hat.rsi
+    sprite: _ADT/Clothing/Head/Hats/pink_hat.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hats/pink_hat.rsi
+    sprite: _ADT/Clothing/Head/Hats/pink_hat.rsi

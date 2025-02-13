@@ -77,7 +77,7 @@
   name: клешни некроморфа
   components:
   - type: Item
-    sprite: DeadSpace/Necromorfs/claws.rsi
+    sprite: _DeadSpace/Necromorfs/claws.rsi
   - type: MeleeWeapon
     wideAnimationRotation: -135
     damage:
@@ -86,7 +86,7 @@
     soundHit:
       path: /Audio/Weapons/bladeslice.ogg
   - type: Sprite
-    sprite: DeadSpace/Necromorfs/claws.rsi
+    sprite: _DeadSpace/Necromorfs/claws.rsi
     state: icon
   - type: Unremoveable
 
@@ -140,7 +140,7 @@
   - type: IgnoreKudzu
   - type: Sprite
     drawdepth: Mobs
-    sprite: DeadSpace/Necromorfs/dead_squad.rsi
+    sprite: _DeadSpace/Necromorfs/dead_squad.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: running

@@ -6,9 +6,9 @@
   description: Женский тяжелобронированный и мобильный скафандр, предназначенный для специальных операций.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/syndi_fem.rsi
+    sprite: _ADT/Clothing/OuterClothing/Hardsuits/syndi_fem.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/syndi_fem.rsi
+    sprite: _ADT/Clothing/OuterClothing/Hardsuits/syndi_fem.rsi
   - type: ToggleableClothing
     clothingPrototype: ADTClothingFemHeadHelmetHardsuitSyndie
   - type: HardsuitIdentification
@@ -23,9 +23,9 @@
   description: Усовершенствованная версия женского кроваво-красного скафандра, отличающаяся повышенной огнеупорностью, устойчивостью к давлению и превосходной броней.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/syndieelite_fem.rsi
+    sprite: _ADT/Clothing/OuterClothing/Hardsuits/syndieelite_fem.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/syndieelite_fem.rsi
+    sprite: _ADT/Clothing/OuterClothing/Hardsuits/syndieelite_fem.rsi
   - type: ToggleableClothing
     clothingPrototype: ADTClothingFemHeadHelmetHardsuitSyndieElite
   - type: HardsuitIdentification
@@ -40,9 +40,9 @@
   description: Кроваво-красный женский скафандр, специально разработан для командиров синдиката.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/syndiecommander_fem.rsi
+    sprite: _ADT/Clothing/OuterClothing/Hardsuits/syndiecommander_fem.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/syndiecommander_fem.rsi
+    sprite: _ADT/Clothing/OuterClothing/Hardsuits/syndiecommander_fem.rsi
   - type: ToggleableClothing
     clothingPrototype: ADTClothingHeadFemHelmetHardsuitSyndieCommander
   - type: HardsuitIdentification
@@ -59,9 +59,9 @@
   description: Женский тяжелобронированный и мобильный скафандр, предназначенный для специальных операций.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/syndi_fem.rsi
+    sprite: _ADT/Clothing/OuterClothing/Hardsuits/syndi_fem.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/syndi_fem.rsi
+    sprite: _ADT/Clothing/OuterClothing/Hardsuits/syndi_fem.rsi
   - type: ToggleableClothing
     clothingPrototype: ADTClothingFemHeadHelmetHardsuitSyndie
 
@@ -73,9 +73,9 @@
   description: Усовершенствованная версия женского кроваво-красного скафандра, отличающаяся повышенной огнеупорностью, устойчивостью к давлению и превосходной броней.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/syndieelite_fem.rsi
+    sprite: _ADT/Clothing/OuterClothing/Hardsuits/syndieelite_fem.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/syndieelite_fem.rsi
+    sprite: _ADT/Clothing/OuterClothing/Hardsuits/syndieelite_fem.rsi
   - type: ToggleableClothing
     clothingPrototype: ADTClothingFemHeadHelmetHardsuitSyndieElite
 
@@ -87,8 +87,8 @@
   description: Кроваво-красный женский скафандр, специально разработан для командиров синдиката.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/syndiecommander_fem.rsi
+    sprite: _ADT/Clothing/OuterClothing/Hardsuits/syndiecommander_fem.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/syndiecommander_fem.rsi
+    sprite: _ADT/Clothing/OuterClothing/Hardsuits/syndiecommander_fem.rsi
   - type: ToggleableClothing
     clothingPrototype: ADTClothingHeadFemHelmetHardsuitSyndieCommander

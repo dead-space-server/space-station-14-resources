@@ -24,7 +24,7 @@
     bodyType: Dynamic
   - type: Sprite
     noRot: true
-    sprite: DeadSpace/Necromorfs/obelisk.rsi
+    sprite: _DeadSpace/Necromorfs/obelisk.rsi
     layers:
     - state: unactive
       map: [ "enum.DamageStateVisualLayers.Base" ]
@@ -46,7 +46,7 @@
     damageDivisor: 100
     trackAllDamage: true
     damageOverlay:
-      sprite: DeadSpace/Structures/obelisk_cracks.rsi
+      sprite: _DeadSpace/Structures/obelisk_cracks.rsi
   - type: Necroobelisk
     warn: false
     active: false

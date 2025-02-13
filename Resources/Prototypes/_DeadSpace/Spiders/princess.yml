@@ -17,7 +17,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: running
-      sprite: DeadSpace/Spiders/terror_princess.rsi
+      sprite: _DeadSpace/Spiders/terror_princess.rsi
   - type: MeleeWeapon
     altDisarm: false
     angle: 0

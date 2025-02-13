@@ -6,7 +6,7 @@
   components:
   - type: Sprite
     noRot: true
-    sprite: DeadSpace/Objects/Decoration/new-year-tree.rsi
+    sprite: _DeadSpace/Objects/Decoration/new-year-tree.rsi
     drawdepth: Overdoors
     state: base
   - type: Fixtures

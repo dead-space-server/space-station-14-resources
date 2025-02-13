@@ -5,9 +5,9 @@
   description: Скафандр предназначенный для защитника командования.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/OuterClothing/Hardsuits/blueshield.rsi
+    sprite: _DeadSpace/Clothing/OuterClothing/Hardsuits/blueshield.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/OuterClothing/Hardsuits/blueshield.rsi
+    sprite: _DeadSpace/Clothing/OuterClothing/Hardsuits/blueshield.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.45
     lowPressureMultiplier: 1000
@@ -38,6 +38,6 @@
   description: Защитные характеристики данного бронежилета превосходят обычный и идентичны бронированной шинели главы службы безопасности.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/OuterClothing/Armor/blueshield_armor.rsi
+    sprite: _DeadSpace/Clothing/OuterClothing/Armor/blueshield_armor.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/OuterClothing/Armor/blueshield_armor.rsi
+    sprite: _DeadSpace/Clothing/OuterClothing/Armor/blueshield_armor.rsi

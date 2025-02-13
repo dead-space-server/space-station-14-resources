@@ -5,9 +5,9 @@
   description: Хороший репортёр остаётся скептиком всю свою жизнь.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Uniforms/Jumpskirt/reporter.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/Jumpskirt/reporter.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Uniforms/Jumpskirt/reporter.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/Jumpskirt/reporter.rsi
 
 - type: entity
   parent: ClothingUniformSkirtBase
@@ -16,6 +16,6 @@
   description: Если журналистская работа хороша, она противоречива по своей природе.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Uniforms/Jumpskirt/journalist.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/Jumpskirt/journalist.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Uniforms/Jumpskirt/journalist.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/Jumpskirt/journalist.rsi

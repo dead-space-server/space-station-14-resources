@@ -59,7 +59,7 @@
     critThreshold: 85
   - type: Perishable
   - type: Vocal
-    wilhelm: "/Audio/DeadSpace/Voice/Felinid/cat_wilhelm.ogg"
+    wilhelm: "/Audio/_DeadSpace/Voice/Felinid/cat_wilhelm.ogg"
     sounds:
       Male: MaleFelinid
       Female: FemaleFelinid

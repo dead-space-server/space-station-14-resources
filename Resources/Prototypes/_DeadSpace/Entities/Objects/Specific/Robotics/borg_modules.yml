@@ -4,7 +4,7 @@
   name: продвинутый шахтёрский модуль
   components:
   - type: Sprite
-    sprite: /Textures/DeadSpace/Objects/Specific/Robotics/borgmodule.rsi
+    sprite: /Textures/_DeadSpace/Objects/Specific/Robotics/borgmodule.rsi
     layers:
     - state: cargo
     - state: icon-mining-adv
@@ -17,7 +17,7 @@
     - RadioHandheld
     - Fulton0
   - type: BorgModuleIcon
-    icon: { sprite: /Textures/DeadSpace/Interface/Actions/actions_borg.rsi, state: adv-mining-module }
+    icon: { sprite: /Textures/_DeadSpace/Interface/Actions/actions_borg.rsi, state: adv-mining-module }
 
 - type: entity
   id: BorgModuleMiningWeapon
@@ -25,7 +25,7 @@
   name: оружейный утилизаторский модуль
   components:
   - type: Sprite
-    sprite: /Textures/DeadSpace/Objects/Specific/Robotics/borgmodule.rsi
+    sprite: /Textures/_DeadSpace/Objects/Specific/Robotics/borgmodule.rsi
     layers:
     - state: cargo
     - state: icon-pka
@@ -34,4 +34,4 @@
     - WeaponProtoKineticAcceleratorBorg
     - WeaponCrusherDagger
   - type: BorgModuleIcon
-    icon: { sprite: /Textures/DeadSpace/Interface/Actions/actions_borg.rsi, state: pka-mining-module }
+    icon: { sprite: /Textures/_DeadSpace/Interface/Actions/actions_borg.rsi, state: pka-mining-module }

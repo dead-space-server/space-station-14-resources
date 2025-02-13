@@ -6,7 +6,7 @@
   components:
   - type: BreathMask
   - type: Sprite
-    sprite: DeadSpace/Spiders/cburn/cburncommanderhelmet.rsi
+    sprite: _DeadSpace/Spiders/cburn/cburncommanderhelmet.rsi
     layers:
     - state: icon
   - type: Clothing
@@ -39,9 +39,9 @@
   description: Легкий, но прочный экзокостюм, используемый для специальных операций по устранению пауков ужаса.
   components:
   - type: Sprite
-    sprite: DeadSpace/Spiders/cburn/cburncommander.rsi
+    sprite: _DeadSpace/Spiders/cburn/cburncommander.rsi
   - type: Clothing
-    sprite: DeadSpace/Spiders/cburn/cburncommander.rsi
+    sprite: _DeadSpace/Spiders/cburn/cburncommander.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
@@ -85,7 +85,7 @@
   components:
   - type: BreathMask
   - type: Sprite
-    sprite: DeadSpace/Spiders/cburn/cburnxenohelmet.rsi
+    sprite: _DeadSpace/Spiders/cburn/cburnxenohelmet.rsi
     layers:
     - state: icon
   - type: Clothing
@@ -118,9 +118,9 @@
   description: Легкий, но прочный экзокостюм, используемый для специальных операций по устранению пауков ужаса.
   components:
   - type: Sprite
-    sprite: DeadSpace/Spiders/cburn/cburnxeno.rsi
+    sprite: _DeadSpace/Spiders/cburn/cburnxeno.rsi
   - type: Clothing
-    sprite: DeadSpace/Spiders/cburn/cburnxeno.rsi
+    sprite: _DeadSpace/Spiders/cburn/cburnxeno.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000

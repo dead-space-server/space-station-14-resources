@@ -5,7 +5,7 @@
   description: Этот камень так завораживает..Он прямо как твои зеленые глаза.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Neck/Cloaks/necklace_with_emerald.rsi
+    sprite: _ADT/Clothing/Neck/Cloaks/necklace_with_emerald.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -14,7 +14,7 @@
   description: Это точно безопасно?
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Neck/Cloaks/necklace_with_plasma.rsi
+    sprite: _ADT/Clothing/Neck/Cloaks/necklace_with_plasma.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -23,7 +23,7 @@
   description: Этому колье не хватает рубинов!
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Neck/Cloaks/necklace_with_sapphire.rsi
+    sprite: _ADT/Clothing/Neck/Cloaks/necklace_with_sapphire.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -32,4 +32,4 @@
   description: Плащ с золотым напылением. Ослепляюще.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Neck/Cloaks/raincoat_for_a_short_dress.rsi
+    sprite: _ADT/Clothing/Neck/Cloaks/raincoat_for_a_short_dress.rsi

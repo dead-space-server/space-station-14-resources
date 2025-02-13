@@ -12,7 +12,7 @@
         - ReagentId: BluespaceHot
           Quantity: 30
   - type: Sprite
-    sprite: /Textures/DeadSpace/Objects/Consumable/Drinks/bluespacehotglass.rsi
+    sprite: /Textures/_DeadSpace/Objects/Consumable/Drinks/bluespacehotglass.rsi
 
 - type: reagent
   id: BluespaceHot
@@ -23,7 +23,7 @@
   flavor: gargleblaster
   color: "#110e9e"
   metamorphicSprite:
-    sprite: /Textures/DeadSpace/Objects/Consumable/Drinks/bluespacehotglass.rsi
+    sprite: /Textures/_DeadSpace/Objects/Consumable/Drinks/bluespacehotglass.rsi
     state: icon
 
 - type: entity
@@ -40,7 +40,7 @@
         - ReagentId: Sontse
           Quantity: 30
   - type: Sprite
-    sprite: /Textures/DeadSpace/Objects/Consumable/Drinks/sontse.rsi
+    sprite: /Textures/_DeadSpace/Objects/Consumable/Drinks/sontse.rsi
 
 - type: reagent
   id: Sontse
@@ -51,7 +51,7 @@
   flavor: gargleblaster
   color: "#929e0e"
   metamorphicSprite:
-    sprite: /Textures/DeadSpace/Objects/Consumable/Drinks/sontse.rsi
+    sprite: /Textures/_DeadSpace/Objects/Consumable/Drinks/sontse.rsi
     state: icon
 
 - type: entity
@@ -68,7 +68,7 @@
         - ReagentId: UplinkDrink
           Quantity: 30
   - type: Sprite
-    sprite: /Textures/DeadSpace/Objects/Consumable/Drinks/uplinkglass.rsi
+    sprite: /Textures/_DeadSpace/Objects/Consumable/Drinks/uplinkglass.rsi
 
 - type: reagent
   id: UplinkDrink
@@ -79,5 +79,5 @@
   flavor: gargleblaster
   color: "#9e0e0e"
   metamorphicSprite:
-    sprite: /Textures/DeadSpace/Objects/Consumable/Drinks/uplinkglass.rsi
+    sprite: /Textures/_DeadSpace/Objects/Consumable/Drinks/uplinkglass.rsi
     state: icon

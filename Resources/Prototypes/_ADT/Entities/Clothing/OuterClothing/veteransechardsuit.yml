@@ -5,9 +5,9 @@
   description: Специальный костюм, защищающий от опасных сред с низким давлением. Имеет дополнительный слой брони.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/veteransechardsuit.rsi
+    sprite: _ADT/Clothing/OuterClothing/Hardsuits/veteransechardsuit.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/veteransechardsuit.rsi
+    sprite: _ADT/Clothing/OuterClothing/Hardsuits/veteransechardsuit.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.45
     lowPressureMultiplier: 10000
@@ -35,9 +35,9 @@
   description: Защитный шлем с новейшим сверхсекретным программным обеспечением NT-HUD.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hardsuits/veteransechardsuithead.rsi
+    sprite: _ADT/Clothing/Head/Hardsuits/veteransechardsuithead.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hardsuits/veteransechardsuithead.rsi
+    sprite: _ADT/Clothing/Head/Hardsuits/veteransechardsuithead.rsi
   - type: PointLight
     color: "#ffadad"
   - type: PressureProtection

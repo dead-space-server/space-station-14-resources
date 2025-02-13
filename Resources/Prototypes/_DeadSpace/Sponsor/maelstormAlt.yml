@@ -30,7 +30,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstormAlt/backpack.rsi
+    sprite: _DeadSpace/Sponsor/maelstormAlt/backpack.rsi
   - type: Storage
     maxItemSize: Huge
     grid:
@@ -59,7 +59,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstormAlt/bra.rsi
+    sprite: _DeadSpace/Sponsor/maelstormAlt/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -69,7 +69,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstormAlt/pants.rsi
+    sprite: _DeadSpace/Sponsor/maelstormAlt/pants.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -79,7 +79,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstormAlt/socks.rsi
+    sprite: _DeadSpace/Sponsor/maelstormAlt/socks.rsi
 
 # Пилотка
 - type: entity
@@ -90,9 +90,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstormAlt/cap.rsi
+    sprite: _DeadSpace/Sponsor/maelstormAlt/cap.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/maelstormAlt/cap.rsi
+    sprite: _DeadSpace/Sponsor/maelstormAlt/cap.rsi
 
 # Шинель
 - type: entity
@@ -103,9 +103,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstormAlt/coat.rsi
+    sprite: _DeadSpace/Sponsor/maelstormAlt/coat.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/maelstormAlt/coat.rsi
+    sprite: _DeadSpace/Sponsor/maelstormAlt/coat.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -129,9 +129,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstormAlt/gloves.rsi
+    sprite: _DeadSpace/Sponsor/maelstormAlt/gloves.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/maelstormAlt/gloves.rsi
+    sprite: _DeadSpace/Sponsor/maelstormAlt/gloves.rsi
 
 # Рюкзак ОСЩ
 - type: entity
@@ -142,7 +142,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstormAlt/backpack_blueshield.rsi
+    sprite: _DeadSpace/Sponsor/maelstormAlt/backpack_blueshield.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingOuterHardsuitMaelstormAlt
   - type: Storage
@@ -172,9 +172,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstormAlt/hardsuit.rsi
+    sprite: _DeadSpace/Sponsor/maelstormAlt/hardsuit.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/maelstormAlt/hardsuit.rsi
+    sprite: _DeadSpace/Sponsor/maelstormAlt/hardsuit.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitMaelstormAlt
 
@@ -185,9 +185,9 @@
   name: шлем экспериментального скафандра ВОХР КГБ
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstormAlt/helmet.rsi
+    sprite: _DeadSpace/Sponsor/maelstormAlt/helmet.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/maelstormAlt/helmet.rsi
+    sprite: _DeadSpace/Sponsor/maelstormAlt/helmet.rsi
   - type: PointLight
     color: '#ff1c37'
 
@@ -200,12 +200,12 @@
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
-      sprite: DeadSpace/Sponsor/maelstormAlt/magboots.rsi
+      sprite: _DeadSpace/Sponsor/maelstormAlt/magboots.rsi
       layers:
       - state: icon
         map: [ "enum.ToggleVisuals.Layer" ]
     - type: Clothing
-      sprite: DeadSpace/Sponsor/maelstormAlt/magboots.rsi
+      sprite: _DeadSpace/Sponsor/maelstormAlt/magboots.rsi
     - type: ClothingSpeedModifier
       walkModifier: 1
       sprintModifier: 1
@@ -219,12 +219,12 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Item
-    sprite: DeadSpace/Sponsor/maelstormAlt/jetpack.rsi
+    sprite: _DeadSpace/Sponsor/maelstormAlt/jetpack.rsi
     size: Huge
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstormAlt/jetpack.rsi
+    sprite: _DeadSpace/Sponsor/maelstormAlt/jetpack.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/maelstormAlt/jetpack.rsi
+    sprite: _DeadSpace/Sponsor/maelstormAlt/jetpack.rsi
     slots:
       - Back
       - suitStorage
@@ -239,9 +239,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstormAlt/jumpsuit.rsi
+    sprite: _DeadSpace/Sponsor/maelstormAlt/jumpsuit.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/0black_cat0/jumpsuit.rsi
+    sprite: _DeadSpace/Sponsor/0black_cat0/jumpsuit.rsi
 
 # Сабля капитана
 - type: entity
@@ -252,9 +252,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstormAlt/melee.rsi
+    sprite: _DeadSpace/Sponsor/maelstormAlt/melee.rsi
   - type: Item
-    sprite: DeadSpace/Sponsor/maelstormAlt/melee.rsi
+    sprite: _DeadSpace/Sponsor/maelstormAlt/melee.rsi
 
 # Ножны сабли капитана
 - type: entity
@@ -265,10 +265,10 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstormAlt/sheath.rsi
+    sprite: _DeadSpace/Sponsor/maelstormAlt/sheath.rsi
     state: sheath
   - type: Clothing
-    sprite: DeadSpace/Sponsor/maelstormAlt/sheath.rsi
+    sprite: _DeadSpace/Sponsor/maelstormAlt/sheath.rsi
   - type: Item
     size: Huge
 
@@ -292,10 +292,10 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstormAlt/watch.rsi
+    sprite: _DeadSpace/Sponsor/maelstormAlt/watch.rsi
     state: icon
   - type: Item
-    sprite: DeadSpace/Sponsor/maelstormAlt/watch.rsi
+    sprite: _DeadSpace/Sponsor/maelstormAlt/watch.rsi
     size: Tiny
   - type: Clock
 
@@ -308,10 +308,10 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstormAlt/case.rsi
+    sprite: _DeadSpace/Sponsor/maelstormAlt/case.rsi
     state: icon
   - type: Item
-    sprite: DeadSpace/Sponsor/maelstormAlt/case.rsi
+    sprite: _DeadSpace/Sponsor/maelstormAlt/case.rsi
     size: Normal
   - type: Storage
     maxItemSize: Small
@@ -371,13 +371,13 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Item
-    sprite: DeadSpace/Sponsor/maelstorm/whistles.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/whistles.rsi
     size: Tiny
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstorm/whistles.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/whistles.rsi
     state: frontline
   - type: Clothing
-    sprite: DeadSpace/Sponsor/maelstorm/whistles.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/whistles.rsi
     quickEquip: false
     slots: neck
   - type: UseDelay
@@ -396,6 +396,6 @@
   description: Крупнокалиберный пистолет родом из далёкого СССП. На нем выгравировано "Спасибо , товарищ Данко"
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstormAlt/deserteagle.rsi
+    sprite: _DeadSpace/Sponsor/maelstormAlt/deserteagle.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/maelstormAlt/deserteagle.rsi
+    sprite: _DeadSpace/Sponsor/maelstormAlt/deserteagle.rsi

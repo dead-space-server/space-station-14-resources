@@ -7,9 +7,9 @@
   description: Черный костюм в стиле "карандаш" представляет собой сочетание строгой элегантности и современного стиля. Облегающий пиджак и прямая юбка создают идеальный силуэт, а черный цвет придает нотку классики. Подходит для деловых встреч и официальных мероприятий.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Uniforms/Jumpskirt/pencil_black.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/Jumpskirt/pencil_black.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Uniforms/Jumpskirt/pencil_black.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/Jumpskirt/pencil_black.rsi
 
 - type: entity
   parent: ClothingUniformSkirtBase
@@ -18,9 +18,9 @@
   description: Элегантный костюм в стиле "карандаш" в бургундском цвете придает образу изысканности и индивидуальности. Обтягивающий пиджак и стройная юбка создают стильный силуэт, делая этот костюм подходящим для особых случаев и вечерних мероприятий.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Uniforms/Jumpskirt/pencil_burgandy.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/Jumpskirt/pencil_burgandy.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Uniforms/Jumpskirt/pencil_burgandy.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/Jumpskirt/pencil_burgandy.rsi
 
 - type: entity
   parent: ClothingUniformSkirtBase
@@ -29,9 +29,9 @@
   description: Костюм в клетку в стиле "карандаш" придает образу современный и модный вид. Элегантный пиджак и прямая юбка с интересным узором создают стильный и необычный образ. Подходит для креативных встреч и мероприятий.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Uniforms/Jumpskirt/pencil_checkered.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/Jumpskirt/pencil_checkered.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Uniforms/Jumpskirt/pencil_checkered.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/Jumpskirt/pencil_checkered.rsi
 
 - type: entity
   parent: ClothingUniformSkirtBase
@@ -40,9 +40,9 @@
   description: Темно-синий костюм в стиле "карандаш" представляет собой классическую элегантность. Обтягивающий пиджак и прямая юбка создают строгий, но стильный силуэт. Подходит как для офисных встреч, так и для особых случаев.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Uniforms/Jumpskirt/pencil_navy.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/Jumpskirt/pencil_navy.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Uniforms/Jumpskirt/pencil_navy.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/Jumpskirt/pencil_navy.rsi
 
 - type: entity
   parent: ClothingUniformSkirtBase
@@ -51,9 +51,9 @@
   description: Бежевый костюм в стиле "карандаш" придает образу нежность и элегантность. Облегающий пиджак и прямая юбка создают изысканный силуэт, подходящий для различных событий, от деловых встреч до вечерних ужинов.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Uniforms/Jumpskirt/pencil_tan.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/Jumpskirt/pencil_tan.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Uniforms/Jumpskirt/pencil_tan.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/Jumpskirt/pencil_tan.rsi
 
 # by inspector_jeleshka
 
@@ -64,9 +64,9 @@
   description: Строгий зелёный костюм в стиле "карандаш" придает образу строгость. Облегающий пиджак и прямая юбка создают изысканный силуэт, подходящий для различных событий, от деловых встреч до увольнения капитана.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Uniforms/Jumpskirt/pencil_centcom_official.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/Jumpskirt/pencil_centcom_official.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Uniforms/Jumpskirt/pencil_centcom_official.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/Jumpskirt/pencil_centcom_official.rsi
 
 - type: entity
   parent: ClothingUniformSkirtBase
@@ -75,6 +75,6 @@
   description: Строгий чёрный костюм офицера корпуса специальный операций в стиле "карандаш" придает образу строгость. Облегающий пиджак и прямая юбка создают изысканный силуэт, подходящий для различных событий, от деловых встреч до геноцида членов экипажа ненавистной станции номер 14.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Uniforms/Jumpskirt/pencil_special_operations_officer.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/Jumpskirt/pencil_special_operations_officer.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Uniforms/Jumpskirt/pencil_special_operations_officer.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/Jumpskirt/pencil_special_operations_officer.rsi

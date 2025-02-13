@@ -6,7 +6,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: DeadSpace/Items/cards/cards.rsi
+    sprite: _DeadSpace/Items/cards/cards.rsi
     layers:
     - state: based
       map: [ "enum.CardVisuals.Card" ]
@@ -278,13 +278,13 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Items/cards/cardbin.rsi
+    sprite: _DeadSpace/Items/cards/cardbin.rsi
     state: card_bin0
     drawdepth: SmallObjects
     noRot: true
   - type: Appearance
   - type: ItemMapper
-    sprite: DeadSpace/Items/cards/cardbin.rsi
+    sprite: _DeadSpace/Items/cards/cardbin.rsi
     mapLayers:
       card_bin1:
         whitelist:

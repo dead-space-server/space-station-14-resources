@@ -14,7 +14,7 @@
   - type: Sprite
     noRot: true
     drawdepth: Ghosts
-    sprite: DeadSpace/Demons/demon_boss.rsi
+    sprite: _DeadSpace/Demons/demon_boss.rsi
     layers:
     - state: herald_ghost
   - type: Clickable

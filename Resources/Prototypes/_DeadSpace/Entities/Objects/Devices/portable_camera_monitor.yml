@@ -5,7 +5,7 @@
   description: Монитор камер, позволяющий следить за вашими идиотами.
   components:
   - type: Sprite
-    sprite: DeadSpace/Objects/Devices/portable_camera_monitor.rsi
+    sprite: _DeadSpace/Objects/Devices/portable_camera_monitor.rsi
     state: icon
   - type: Item
   - type: ActivatableUI

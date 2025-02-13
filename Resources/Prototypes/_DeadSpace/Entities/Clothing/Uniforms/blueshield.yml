@@ -5,6 +5,6 @@
   description: Текстилевый комбинезон, обшитый в некоторых местах толстой кожей.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Uniforms/Jumpsuit/blueshield.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/Jumpsuit/blueshield.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Uniforms/Jumpsuit/blueshield.rsi
+    sprite: _DeadSpace/Clothing/Uniforms/Jumpsuit/blueshield.rsi

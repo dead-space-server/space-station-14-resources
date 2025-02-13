@@ -5,7 +5,7 @@
   description: Ручной сканер аутопсии, способный определить причину смерти и напечатать подробный отчёт.
   components:
   - type: Sprite
-    sprite: DeadSpace/Objects/Specific/Medical/autopsyscanner.rsi
+    sprite: _DeadSpace/Objects/Specific/Medical/autopsyscanner.rsi
     state: icon
     layers:
       - state: icon
@@ -23,9 +23,9 @@
     onUse: false
   - type: AutopsyScanner
     scanningSound:
-      path: "/Audio/DeadSpace/Items/Medical/autopsyscanner.ogg"
+      path: "/Audio/_DeadSpace/Items/Medical/autopsyscanner.ogg"
     scanningErrorSound:
-      path: "/Audio/DeadSpace/Items/Medical/autopsyscanner-error.ogg"
+      path: "/Audio/_DeadSpace/Items/Medical/autopsyscanner-error.ogg"
   - type: Tag
     tags:
       - DiscreteHealthAnalyzer

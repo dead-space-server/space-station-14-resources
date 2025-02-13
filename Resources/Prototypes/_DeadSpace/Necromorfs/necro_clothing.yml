@@ -5,7 +5,7 @@
   name: клешни некроморфа
   components:
   - type: Sprite
-    sprite: DeadSpace/Necromorfs/claws.rsi
+    sprite: _DeadSpace/Necromorfs/claws.rsi
   - type: Unremoveable
 
 - type: entity
@@ -16,9 +16,9 @@
   description: Мутировавшие рёбра
   components:
   - type: Sprite
-    sprite: DeadSpace/Necromorfs/tors.rsi
+    sprite: _DeadSpace/Necromorfs/tors.rsi
   - type: Clothing
-    sprite: DeadSpace/Necromorfs/tors.rsi
+    sprite: _DeadSpace/Necromorfs/tors.rsi
   - type: Unremoveable
   - type: Armor
     modifiers:
@@ -38,9 +38,9 @@
   description: Живот беременного некроморфа
   components:
   - type: Sprite
-    sprite: DeadSpace/Necromorfs/torsPregnant.rsi
+    sprite: _DeadSpace/Necromorfs/torsPregnant.rsi
   - type: Clothing
-    sprite: DeadSpace/Necromorfs/torsPregnant.rsi
+    sprite: _DeadSpace/Necromorfs/torsPregnant.rsi
   - type: Unremoveable
   - type: Armor
     modifiers:
@@ -60,10 +60,10 @@
   description: Торс некроморфа.
   components:
   - type: Sprite
-    sprite: DeadSpace/Necromorfs/tors_deva.rsi
+    sprite: _DeadSpace/Necromorfs/tors_deva.rsi
     state: deva_open
   - type: Clothing
-    sprite: DeadSpace/Necromorfs/tors_deva.rsi
+    sprite: _DeadSpace/Necromorfs/tors_deva.rsi
     clothingVisuals:
       outerClothing:
       - state: deva_open
@@ -90,10 +90,10 @@
   description: Торс некроморфа.
   components:
   - type: Sprite
-    sprite: DeadSpace/Necromorfs/tors_deva.rsi
+    sprite: _DeadSpace/Necromorfs/tors_deva.rsi
     state: deva_close
   - type: Clothing
-    sprite: DeadSpace/Necromorfs/tors_deva.rsi
+    sprite: _DeadSpace/Necromorfs/tors_deva.rsi
     clothingVisuals:
       outerClothing:
       - state: deva_close
@@ -120,10 +120,10 @@
   description: Торс некроморфа.
   components:
   - type: Sprite
-    sprite: DeadSpace/Necromorfs/tors_hive.rsi
+    sprite: _DeadSpace/Necromorfs/tors_hive.rsi
     state: hive
   - type: Clothing
-    sprite: DeadSpace/Necromorfs/tors_hive.rsi
+    sprite: _DeadSpace/Necromorfs/tors_hive.rsi
     clothingVisuals:
       outerClothing:
       - state: hive

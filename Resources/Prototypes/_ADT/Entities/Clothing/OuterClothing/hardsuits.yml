@@ -5,9 +5,9 @@
   description: Тяжелобронированный скафандр элитного подразделения телохранителей Cybersun
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/cybersunbodyguard.rsi
+    sprite: _ADT/Clothing/OuterClothing/Hardsuits/cybersunbodyguard.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/cybersunbodyguard.rsi
+    sprite: _ADT/Clothing/OuterClothing/Hardsuits/cybersunbodyguard.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
@@ -41,9 +41,9 @@
   description: Самая передовая, секретная технология CyberSun в сфере защиты. Кажется эта разработка ведёт к созданию супер солдат. Пахнет пластитаном и бесчестным боем.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/cybersun_crysis_hardsuit.rsi
+    sprite: _ADT/Clothing/OuterClothing/Hardsuits/cybersun_crysis_hardsuit.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/cybersun_crysis_hardsuit.rsi
+    sprite: _ADT/Clothing/OuterClothing/Hardsuits/cybersun_crysis_hardsuit.rsi
   - type: TemperatureProtection
     heatingCoefficient: 0.001
     coolingCoefficient: 0.001
@@ -80,9 +80,9 @@
   description: Специализированный черный скафандр, который использовался в азиатских странах 19 века, центральной полицией.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/cerber.rsi
+    sprite: _ADT/Clothing/OuterClothing/Hardsuits/cerber.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/cerber.rsi
+    sprite: _ADT/Clothing/OuterClothing/Hardsuits/cerber.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 10000
@@ -113,9 +113,9 @@
   description: Разработка из плазматических волокн, наномашин и кремния. Пахнет как цветение сакуры.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/saiba_sain_hardsuit.rsi
+    sprite: _ADT/Clothing/OuterClothing/Hardsuits/saiba_sain_hardsuit.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/saiba_sain_hardsuit.rsi
+    sprite: _ADT/Clothing/OuterClothing/Hardsuits/saiba_sain_hardsuit.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
@@ -144,9 +144,9 @@
   description: Ilisium...
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/hardsuit_ili.rsi
+    sprite: _ADT/Clothing/OuterClothing/Hardsuits/hardsuit_ili.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/hardsuit_ili.rsi
+    sprite: _ADT/Clothing/OuterClothing/Hardsuits/hardsuit_ili.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
@@ -175,9 +175,9 @@
   description: Скафандр принадлежащий лучшими из лучших воинов древности. Не очерните его имя.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/marinne.rsi
+    sprite: _ADT/Clothing/OuterClothing/Hardsuits/marinne.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/marinne.rsi
+    sprite: _ADT/Clothing/OuterClothing/Hardsuits/marinne.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000

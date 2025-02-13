@@ -13,7 +13,7 @@
           Quantity: 50
   - type: Drink
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Drinks/berryjuice.rsi
+    sprite: _ADT/Objects/Consumable/Drinks/berryjuice.rsi
 
 - type: entity
   parent: DrinkBase
@@ -30,5 +30,5 @@
           Quantity: 50
   - type: Drink
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Drinks/lemonjuice.rsi
+    sprite: _ADT/Objects/Consumable/Drinks/lemonjuice.rsi
 

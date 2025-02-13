@@ -5,13 +5,13 @@
   description: Используется для получения подробного отчета об образце крови.
   components:
   - type: Sprite
-    sprite: DeadSpace/Structures/Machines/autopsy_blood_analyzer.rsi
+    sprite: _DeadSpace/Structures/Machines/autopsy_blood_analyzer.rsi
     drawdepth: SmallObjects
     layers:
     - state: icon
       map: ["base"]
   - type: Icon
-    sprite: DeadSpace/Structures/Machines/autopsy_blood_analyzer.rsi
+    sprite: _DeadSpace/Structures/Machines/autopsy_blood_analyzer.rsi
     state: icon
   - type: Appearance
   - type: Physics

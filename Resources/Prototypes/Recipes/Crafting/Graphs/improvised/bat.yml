@@ -48,7 +48,7 @@
             - tag: BaseballBat
               name: Бейсбольная бита
               icon:
-                sprite: DeadSpace/Objects/Weapons/Melee/baseball_bat_with_nails.rsi
+                sprite: _DeadSpace/Objects/Weapons/Melee/baseball_bat_with_nails.rsi
                 state: icon
               doAfter: 1
     - node: baseballbatsteel

@@ -5,5 +5,5 @@
   description: Простота и яркость флага подчёркивают устрашающую репутацию клана.
   components:
   - type: Sprite
-    sprite: DeadSpace/Structures/Decoration/banner.rsi
+    sprite: _DeadSpace/Structures/Decoration/banner.rsi
     state: banner-spider

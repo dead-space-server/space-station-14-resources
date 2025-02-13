@@ -6,10 +6,10 @@
   suffix: Филлер для маппинга
   components:
   - type: Icon
-    sprite: DeadSpace/Structures/Machines/sleeper.rsi
+    sprite: _DeadSpace/Structures/Machines/sleeper.rsi
     state: icon
   - type: Sprite
-    sprite: DeadSpace/Structures/Machines/sleeper.rsi
+    sprite: _DeadSpace/Structures/Machines/sleeper.rsi
     noRot: true
     state: sleeper
   - type: Fixtures

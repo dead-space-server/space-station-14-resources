@@ -5,7 +5,7 @@
   description: Шезлонг для приобретения ровного загара под светом ближайшей звезды
   components:
   - type: Sprite
-    sprite: ADT/Structures/Furniture/deckchair.rsi
+    sprite: _ADT/Structures/Furniture/deckchair.rsi
     state: deckchair
   - type: Construction
     graph: bed

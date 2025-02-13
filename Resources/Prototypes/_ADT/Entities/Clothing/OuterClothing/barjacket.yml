@@ -5,6 +5,6 @@
   description: Удобная барная жилетка для повседневной носки.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Jackets/barjacket.rsi
+    sprite: _ADT/Clothing/OuterClothing/Jackets/barjacket.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Jackets/barjacket.rsi
+    sprite: _ADT/Clothing/OuterClothing/Jackets/barjacket.rsi

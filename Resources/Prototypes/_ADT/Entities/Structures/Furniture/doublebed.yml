@@ -6,7 +6,7 @@
   suffix: Верх
   components:
   - type: Sprite
-    sprite: ADT/Structures/Furniture/doublebed.rsi
+    sprite: _ADT/Structures/Furniture/doublebed.rsi
     state: top
   - type: Construction
     graph: bed
@@ -20,7 +20,7 @@
   suffix: Низ
   components:
   - type: Sprite
-    sprite: ADT/Structures/Furniture/doublebed.rsi
+    sprite: _ADT/Structures/Furniture/doublebed.rsi
     state: bottom
   - type: Construction
     graph: bed

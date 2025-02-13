@@ -6,7 +6,7 @@
     canTargetSelf: false
     useDelay: 20
     range: 5
-    icon: DeadSpace/Sith/actions/sith_lightning.png
+    icon: _DeadSpace/Sith/actions/sith_lightning.png
     event: !type:SithLightningEvent
 
 - type: entity
@@ -17,7 +17,7 @@
     canTargetSelf: false
     useDelay: 8
     range: 8
-    icon: DeadSpace/Sith/actions/force_Any.png
+    icon: _DeadSpace/Sith/actions/force_Any.png
     event: !type:SithForceOneEvent
 
 - type: entity
@@ -26,7 +26,7 @@
   components:
   - type: InstantAction
     useDelay: 20
-    icon: DeadSpace/Sith/actions/force_all.png
+    icon: _DeadSpace/Sith/actions/force_all.png
     event: !type:SithForceEvent
 
 - type: entity
@@ -35,7 +35,7 @@
   components:
   - type: InstantAction
     useDelay: 10
-    icon: DeadSpace/Sith/actions/shield.png
+    icon: _DeadSpace/Sith/actions/shield.png
     event: !type:SithShieldEvent
 
 - type: entity
@@ -46,7 +46,7 @@
     canTargetSelf: false
     useDelay: 10
     range: 8
-    icon: DeadSpace/Sith/actions/submission.png
+    icon: _DeadSpace/Sith/actions/submission.png
     event: !type:SithSubmissionEvent
 
 - type: entity

@@ -5,7 +5,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
-    icon: DeadSpace/Icons/verbiconfangs.png
+    icon: _DeadSpace/Icons/verbiconfangs.png
     event: !type:EatMouseActionEvent
     checkCanInteract: false
 
@@ -17,7 +17,7 @@
   components:
   - type: InstantAction
     icon:
-      sprite: DeadSpace/Objects/Specific/Species/felinid.rsi
+      sprite: _DeadSpace/Objects/Specific/Species/felinid.rsi
       state: icon
     charges: 1
     useDelay: 30

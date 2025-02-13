@@ -8,7 +8,7 @@
   abstract: true
   components:
   - type: Icon
-    sprite: DeadSpace/Sponsor/Mobs/Species/Xenomorph/parts.rsi
+    sprite: _DeadSpace/Sponsor/Mobs/Species/Xenomorph/parts.rsi
     state: full
   - type: Barotrauma
     damage:
@@ -83,7 +83,7 @@
     interactFailureString: petting-failure-generic
     interactSuccessSpawn: EffectHearts
     interactSuccessSound:
-      path: /Audio/DeadSpace/Sponsor/Sound/meow_xeno.ogg
+      path: /Audio/_DeadSpace/Sponsor/Sound/meow_xeno.ogg
   - type: Butcherable
     butcheringType: Spike
     spawned:

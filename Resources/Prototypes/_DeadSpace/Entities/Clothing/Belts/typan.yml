@@ -5,9 +5,9 @@
   description: Пояс, используемый для хранения основных принадлежностей для гидропоники. На удивление, не чёрный.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Belt/plantbelt.rsi
+    sprite: _DeadSpace/Clothing/Belt/plantbelt.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Belt/plantbelt.rsi
+    sprite: _DeadSpace/Clothing/Belt/plantbelt.rsi
   - type: Storage
     whitelist:
       tags:
@@ -73,6 +73,6 @@
   description: Ременно-плечевая система тактических ремней, которую носят представители военных структур синдиката.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Belt/webbing.rsi
+    sprite: _DeadSpace/Clothing/Belt/webbing.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Belt/wwebbing.rsi
+    sprite: _DeadSpace/Clothing/Belt/wwebbing.rsi

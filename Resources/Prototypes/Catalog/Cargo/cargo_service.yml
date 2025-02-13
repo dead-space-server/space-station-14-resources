@@ -223,7 +223,7 @@
 - type: cargoProduct
   id: ServicePhotocopierToners
   icon:
-    sprite: DeadSpace/Objects/Misc/tonercartridge.rsi
+    sprite: _DeadSpace/Objects/Misc/tonercartridge.rsi
     state: icon
   product: CrateServicePhotocopierToners
   cost: 1000

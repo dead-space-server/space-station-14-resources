@@ -6,9 +6,9 @@
   description: Бронированный шлем скафандра для нужд армии КПСК.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Head/Hardsuits/fscp.rsi
+    sprite: _DeadSpace/Clothing/Head/Hardsuits/fscp.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Head/Hardsuits/fscp.rsi
+    sprite: _DeadSpace/Clothing/Head/Hardsuits/fscp.rsi
   - type: PointLight
     color: red
   - type: PressureProtection

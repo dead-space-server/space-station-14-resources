@@ -38,7 +38,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: running
-      sprite: DeadSpace/Spiders/guardian_terror.rsi
+      sprite: _DeadSpace/Spiders/guardian_terror.rsi
   - type: HTN
     rootTask:
       task: XenoCompound
@@ -179,7 +179,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: running
-      sprite: DeadSpace/Spiders/pauchok_major_terror.rsi
+      sprite: _DeadSpace/Spiders/pauchok_major_terror.rsi
   - type: Evolution
     duration: 100 # Время до получения возможности эволюционировать
     spawnedEntities: # В кого можно эволюционировать
@@ -214,7 +214,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: running
-      sprite: DeadSpace/Spiders/pauchok_major_terror.rsi
+      sprite: _DeadSpace/Spiders/pauchok_major_terror.rsi
   - type: Evolution
     duration: 60 # Время до получения возможности эволюционировать
     spawnedEntities: # В кого можно эволюционировать
@@ -308,7 +308,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: running
-      sprite: DeadSpace/Spiders/guardian_terror.rsi
+      sprite: _DeadSpace/Spiders/guardian_terror.rsi
 
 - type: entity
   name: паук лекарь
@@ -322,7 +322,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: running
-      sprite: DeadSpace/Spiders/medic.rsi
+      sprite: _DeadSpace/Spiders/medic.rsi
   - type: MeleeWeapon
     altDisarm: false
     angle: 0
@@ -392,7 +392,7 @@
     selectedMode: SemiAuto
     availableModes:
       - SemiAuto
-    soundGunshot: /Audio/DeadSpace/Necromorfs/bluet.ogg
+    soundGunshot: /Audio/_DeadSpace/Necromorfs/bluet.ogg
   - type: BallisticAmmoProvider
     proto: BulletAcid
     capacity: 1000
@@ -416,7 +416,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: running
-      sprite: DeadSpace/Spiders/builder.rsi
+      sprite: _DeadSpace/Spiders/builder.rsi
   - type: MeleeWeapon
     animation: WeaponArcBite
     soundHit:
@@ -479,7 +479,7 @@
     selectedMode: SemiAuto
     availableModes:
       - SemiAuto
-    soundGunshot: /Audio/DeadSpace/Necromorfs/bluet.ogg
+    soundGunshot: /Audio/_DeadSpace/Necromorfs/bluet.ogg
   - type: BallisticAmmoProvider
     proto: BulletAcid
     capacity: 1000
@@ -503,7 +503,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: running
-      sprite: DeadSpace/Spiders/drone_of_terror.rsi
+      sprite: _DeadSpace/Spiders/drone_of_terror.rsi
   - type: MeleeWeapon
     animation: WeaponArcBite
     soundHit:
@@ -579,7 +579,7 @@
     selectedMode: SemiAuto
     availableModes:
       - SemiAuto
-    soundGunshot: /Audio/DeadSpace/Necromorfs/bluet.ogg
+    soundGunshot: /Audio/_DeadSpace/Necromorfs/bluet.ogg
   - type: BallisticAmmoProvider
     proto: BulletAcid
     capacity: 1000
@@ -597,7 +597,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: running
-      sprite: DeadSpace/Spiders/destroyer_of_terror.rsi
+      sprite: _DeadSpace/Spiders/destroyer_of_terror.rsi
   - type: MeleeWeapon
     altDisarm: false
     angle: 0
@@ -656,7 +656,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: running
-      sprite: DeadSpace/Spiders/vdova.rsi
+      sprite: _DeadSpace/Spiders/vdova.rsi
   - type: MeleeWeapon
     attackRate: 1
     animation: WeaponArcBite
@@ -725,7 +725,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: running
-      sprite: DeadSpace/Spiders/reaper_terror.rsi
+      sprite: _DeadSpace/Spiders/reaper_terror.rsi
   - type: MeleeWeapon
     altDisarm: false
     attackRate: 2
@@ -835,7 +835,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: running
-      sprite: DeadSpace/Spiders/king.rsi
+      sprite: _DeadSpace/Spiders/king.rsi
   - type: MeleeWeapon
     altDisarm: false
     angle: 0
@@ -902,7 +902,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: running
-      sprite: DeadSpace/Spiders/royal_guard.rsi
+      sprite: _DeadSpace/Spiders/royal_guard.rsi
   - type: MeleeWeapon
     altDisarm: false
     angle: 0
@@ -959,7 +959,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: running
-      sprite: DeadSpace/Spiders/infector.rsi
+      sprite: _DeadSpace/Spiders/infector.rsi
   - type: MeleeWeapon
     altDisarm: false
     angle: 0

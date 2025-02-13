@@ -5,6 +5,6 @@
   description: Фартук делает "тик-так" - время вскрывать трупы!
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Neck/coroner.rsi
+    sprite: _DeadSpace/Clothing/Neck/coroner.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Neck/coroner.rsi
+    sprite: _DeadSpace/Clothing/Neck/coroner.rsi

@@ -12,7 +12,7 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/black_sofa.rsi
+    sprite: _ADT/Structures/Furniture/black_sofa.rsi
     state: sofa_left
   - type: Construction
     graph: Seat
@@ -32,7 +32,7 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/black_sofa.rsi
+    sprite: _ADT/Structures/Furniture/black_sofa.rsi
     state: sofa_middle
   - type: Construction
     graph: Seat
@@ -52,7 +52,7 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/black_sofa.rsi
+    sprite: _ADT/Structures/Furniture/black_sofa.rsi
     state: sofa_right
   - type: Construction
     graph: Seat
@@ -73,7 +73,7 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/red_sofa.rsi
+    sprite: _ADT/Structures/Furniture/red_sofa.rsi
     state: sofa_left
   - type: Construction
     graph: Seat
@@ -93,7 +93,7 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/red_sofa.rsi
+    sprite: _ADT/Structures/Furniture/red_sofa.rsi
     state: sofa_middle
   - type: Construction
     graph: Seat
@@ -113,7 +113,7 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/red_sofa.rsi
+    sprite: _ADT/Structures/Furniture/red_sofa.rsi
     state: sofa_right
   - type: Construction
     graph: Seat
@@ -134,7 +134,7 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/violet_sofa.rsi
+    sprite: _ADT/Structures/Furniture/violet_sofa.rsi
     state: sofa_left
   - type: Construction
     graph: Seat
@@ -154,7 +154,7 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/violet_sofa.rsi
+    sprite: _ADT/Structures/Furniture/violet_sofa.rsi
     state: sofa_middle
   - type: Construction
     graph: Seat
@@ -174,7 +174,7 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/violet_sofa.rsi
+    sprite: _ADT/Structures/Furniture/violet_sofa.rsi
     state: sofa_right
   - type: Construction
     graph: Seat
@@ -195,7 +195,7 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/leather_sofa.rsi
+    sprite: _ADT/Structures/Furniture/leather_sofa.rsi
     state: sofa_left
   - type: Construction
     graph: Seat
@@ -215,7 +215,7 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/leather_sofa.rsi
+    sprite: _ADT/Structures/Furniture/leather_sofa.rsi
     state: sofa_middle
   - type: Construction
     graph: Seat
@@ -235,7 +235,7 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/leather_sofa.rsi
+    sprite: _ADT/Structures/Furniture/leather_sofa.rsi
     state: sofa_right
   - type: Construction
     graph: Seat
@@ -256,7 +256,7 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/church_bench.rsi
+    sprite: _ADT/Structures/Furniture/church_bench.rsi
     state: bench_left
   - type: Construction
     graph: Seat
@@ -276,7 +276,7 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/church_bench.rsi
+    sprite: _ADT/Structures/Furniture/church_bench.rsi
     state: bench_middle
   - type: Construction
     graph: Seat
@@ -296,7 +296,7 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/church_bench.rsi
+    sprite: _ADT/Structures/Furniture/church_bench.rsi
     state: bench_right
   - type: Construction
     graph: Seat

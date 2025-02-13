@@ -6,5 +6,5 @@
       - ShowAntagIcons
       - Demon
   icon:
-    sprite: /Textures/DeadSpace/Interface/Misc/antag_icons.rsi
+    sprite: /Textures/_DeadSpace/Interface/Misc/antag_icons.rsi
     state: Demon

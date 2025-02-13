@@ -3,5 +3,5 @@
   bodyPart: Chest
   markingCategory: Chest
   sprites:
-    - sprite: ADT/Customization/Markings/horns/tale.rsi
+    - sprite: _ADT/Customization/Markings/horns/tale.rsi
       state: succubus

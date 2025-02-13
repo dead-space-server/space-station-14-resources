@@ -5,10 +5,10 @@
   description: Был сконструирован и улучшен благодаря Джолин. Пахнет как бикаридин.
   components:
   - type: Sprite
-    sprite: ADT/Objects/Misc/Hyppo.rsi
+    sprite: _ADT/Objects/Misc/Hyppo.rsi
     state: hypo
   - type: Item
-    sprite: ADT/Objects/Misc/Hyppo.rsi
+    sprite: _ADT/Objects/Misc/Hyppo.rsi
   - type: SolutionContainerManager
     solutions:
       hypospray:

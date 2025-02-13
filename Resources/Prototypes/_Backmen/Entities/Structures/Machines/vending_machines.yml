@@ -521,7 +521,7 @@
 #     brokenState: broken
 #     normalState: normal-unshaded
 #   - type: Sprite
-#     sprite: Backmen/Structures/Machines/VendingMachines/boxingdrobe.rsi
+#     sprite: _Backmen/Structures/Machines/VendingMachines/boxingdrobe.rsi
 #     layers:
 #     - state: off
 #       map: ["enum.VendingMachineVisualLayers.Base"]

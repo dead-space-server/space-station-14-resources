@@ -7,7 +7,7 @@
     - Sith
     - SithSubordinate
   icon:
-    sprite: /Textures/DeadSpace/Sith/job_icons.rsi
+    sprite: /Textures/_DeadSpace/Sith/job_icons.rsi
     state: SithSubordinate
 
 - type: factionIcon
@@ -19,7 +19,7 @@
     - SithSubordinate
     - Sith
   icon:
-    sprite: /Textures/DeadSpace/Sith/job_icons.rsi
+    sprite: /Textures/_DeadSpace/Sith/job_icons.rsi
     state: Sith
 
 - type: antag

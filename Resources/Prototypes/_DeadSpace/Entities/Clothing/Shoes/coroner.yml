@@ -5,6 +5,6 @@
   description: Кто сказал, что кровь не может быть модной? Ой, а что там на подошве...
   components:
     - type: Sprite
-      sprite: DeadSpace/Clothing/Shoes/Boots/coroner.rsi
+      sprite: _DeadSpace/Clothing/Shoes/Boots/coroner.rsi
     - type: Clothing
-      sprite: DeadSpace/Clothing/Shoes/Boots/coroner.rsi
+      sprite: _DeadSpace/Clothing/Shoes/Boots/coroner.rsi

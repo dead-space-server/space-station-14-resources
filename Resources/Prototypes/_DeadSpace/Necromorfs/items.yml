@@ -3,7 +3,7 @@
   id: ObeliskStoper
   components:
   - type: Sprite
-    sprite: DeadSpace/Items/stoper.rsi
+    sprite: _DeadSpace/Items/stoper.rsi
     layers:
     - state: ano01
   - type: Damageable
@@ -30,7 +30,7 @@
         friction: 0.2
   - type: Item
     size: Normal
-    sprite: DeadSpace/Items/stoper.rsi
+    sprite: _DeadSpace/Items/stoper.rsi
     heldPrefix: ano01
   - type: NecroobeliskStoper
 
@@ -47,7 +47,7 @@
 - type: cargoProduct
   id: ObeliskStoperProduct
   icon:
-    sprite: DeadSpace/Items/stoper.rsi
+    sprite: _DeadSpace/Items/stoper.rsi
     state: ano01
   product: CrateObeliskStoper
   cost: 10000
@@ -156,7 +156,7 @@
   name: Осколок обелиска
   components:
   - type: Sprite
-    sprite: DeadSpace/Necromorfs/splinter.rsi
+    sprite: _DeadSpace/Necromorfs/splinter.rsi
     layers:
     - state: splinter
   - type: Damageable
@@ -186,7 +186,7 @@
         friction: 0.2
   - type: Item
     size: Normal
-    sprite: DeadSpace/Necromorfs/splinter.rsi
+    sprite: _DeadSpace/Necromorfs/splinter.rsi
     heldPrefix: splinter
 
 - type: entity

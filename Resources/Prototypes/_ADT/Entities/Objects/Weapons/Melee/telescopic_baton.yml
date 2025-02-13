@@ -5,13 +5,13 @@
   description: Не очень большая и не очень опасная, выдвижная дубинка. Может храниться в карманах в сложенном состоянии.
   components:
   - type: Sprite
-    sprite: ADT/Objects/Weapons/Melee/telescopic_baton.rsi
+    sprite: _ADT/Objects/Weapons/Melee/telescopic_baton.rsi
     layers:
     - state: telescope_off
       map: [ "enum.ToggleVisuals.Layer" ]
   - type: SwitchableWeapon
-    openSound: "/Audio/ADT/open_telescopic_baton.ogg"
-    closeSound: "/Audio/ADT/close_telescopic_baton.ogg"
+    openSound: "/Audio/_ADT/open_telescopic_baton.ogg"
+    closeSound: "/Audio/_ADT/close_telescopic_baton.ogg"
     damageOpen:
       types:
         Blunt: 3
@@ -28,7 +28,7 @@
         Blunt: 3
   - type: Item
     size: Small
-    sprite: ADT/Objects/Weapons/Melee/telescopic_baton.rsi
+    sprite: _ADT/Objects/Weapons/Melee/telescopic_baton.rsi
   - type: UseDelay
     delay: 1
   - type: DisarmMalus

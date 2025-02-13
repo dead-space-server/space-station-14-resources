@@ -53,7 +53,7 @@
       briefing:
         text: uni-head-role-greeting
         color: CornflowerBlue
-        sound: "/Audio/DeadSpace/Necromorfs/unitolog_start.ogg"
+        sound: "/Audio/_DeadSpace/Necromorfs/unitolog_start.ogg"
       startingGear: UnitologLeaderGear
       components:
       - type: IntrinsicRadioTransmitter
@@ -83,7 +83,7 @@
       briefing:
         text: uni-role-greeting
         color: CornflowerBlue
-        sound: "/Audio/DeadSpace/Necromorfs/unitolog_start.ogg"
+        sound: "/Audio/_DeadSpace/Necromorfs/unitolog_start.ogg"
       startingGear: UnitologGear
       components:
       - type: IntrinsicRadioTransmitter
@@ -106,7 +106,7 @@
       briefing:
         text: uni-enslaved-role-greeting
         color: CornflowerBlue
-        sound: "/Audio/DeadSpace/Necromorfs/unitolog_start.ogg"
+        sound: "/Audio/_DeadSpace/Necromorfs/unitolog_start.ogg"
       components:
       - type: IntrinsicRadioTransmitter
         channels:

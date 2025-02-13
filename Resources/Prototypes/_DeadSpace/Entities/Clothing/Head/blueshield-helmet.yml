@@ -6,9 +6,9 @@
   description: Предназначен для защитника командования.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Head/Hardsuits/blueshield.rsi
+    sprite: _DeadSpace/Clothing/Head/Hardsuits/blueshield.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Head/Hardsuits/blueshield.rsi
+    sprite: _DeadSpace/Clothing/Head/Hardsuits/blueshield.rsi
   - type: PointLight
     color: '#4ac4ff'
   - type: HideLayerClothing

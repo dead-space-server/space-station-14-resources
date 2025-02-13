@@ -5,7 +5,7 @@
   description: Стильная и прочная миска для воды с удобным нескользящим основанием.
   components:
   - type: Sprite
-    sprite: DeadSpace/Objects/Consumable/Drinks/pet_bowl.rsi
+    sprite: _DeadSpace/Objects/Consumable/Drinks/pet_bowl.rsi
     layers:
       - state: icon-0
       - map: ["enum.SolutionContainerLayers.Fill"]

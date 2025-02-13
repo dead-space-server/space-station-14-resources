@@ -5,7 +5,7 @@
   description: Полноформатный, сверхпрочный, нагрузочный рюкзак для военного использования.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Back/ussp_attaked_backpack.rsi
+    sprite: _ADT/Clothing/Back/ussp_attaked_backpack.rsi
     state: icon
   - type: Item
     size: Huge
@@ -19,4 +19,4 @@
   description: Сумка для хранения. Ой, а что там? Все украденные тобой сердца?
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Back/heart_backpack.rsi
+    sprite: _ADT/Clothing/Back/heart_backpack.rsi

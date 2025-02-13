@@ -17,6 +17,6 @@
   description: Ботинки для боевых операций или боевых действий.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Shoes/syndicate.rsi
+    sprite: _DeadSpace/Clothing/Shoes/syndicate.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Shoes/syndicate.rsi
+    sprite: _DeadSpace/Clothing/Shoes/syndicate.rsi

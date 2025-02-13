@@ -7,7 +7,7 @@
   # categories: [ HideSpawnMenu ] # попросил оставить в меню спавна
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstorm/backpack.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/backpack.rsi
   - type: Storage
     maxItemSize: Huge
     grid:
@@ -46,9 +46,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstorm/gasmask.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/gasmask.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/maelstorm/gasmask.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/gasmask.rsi
 
 #Портупея и ремень(РПС)
 - type: entity
@@ -59,9 +59,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstorm/leatherbelt.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/leatherbelt.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/maelstorm/leatherbelt.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/leatherbelt.rsi
   - type: ExplosionResistance
     damageCoefficient: 0.90
 
@@ -74,9 +74,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Icon
-    sprite: DeadSpace/Sponsor/maelstorm/pda.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/pda.rsi
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstorm/pda.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/pda.rsi
 
 #Гарнитура
 - type: entity
@@ -87,7 +87,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstorm/Ears/military.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/Ears/military.rsi
 
 #Носочки
 - type: entity
@@ -98,7 +98,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstorm/footcloths.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/footcloths.rsi
 
 #Курительная трубка
 - type: entity
@@ -109,15 +109,15 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstorm/smokingpipe.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/smokingpipe.rsi
     state: unlit-icon
   - type: Clothing
-    sprite: DeadSpace/Sponsor/maelstorm/smokingpipe.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/smokingpipe.rsi
     slots: [ mask ]
     equippedPrefix: unlit
   - type: Item
     size: Tiny
-    sprite: DeadSpace/Sponsor/maelstorm/smokingpipe.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/smokingpipe.rsi
   - type: Appearance
   - type: BurnStateVisuals
     unlitIcon: unlit-icon
@@ -131,13 +131,13 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Item
-    sprite: DeadSpace/Sponsor/maelstorm/whistles.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/whistles.rsi
     size: Tiny
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstorm/whistles.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/whistles.rsi
     state: frontline
   - type: Clothing
-    sprite: DeadSpace/Sponsor/maelstorm/whistles.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/whistles.rsi
     quickEquip: false
     slots: neck
   - type: UseDelay
@@ -157,14 +157,14 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstorm/ringbox.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/ringbox.rsi
     layers:
     - state: closed
     - state: open
       map: ["openLayer"]
   - type: Appearance
   - type: Item
-    sprite: DeadSpace/Sponsor/maelstorm/ringbox.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/ringbox.rsi
     size: Normal
   - type: Storage
     grid:
@@ -183,9 +183,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstorm/ring.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/ring.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/maelstorm/ring.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/ring.rsi
   - type: Item
     size: Tiny
 
@@ -198,7 +198,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstorm/military_underwear.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/military_underwear.rsi
 
 #Шапка
 - type: entity
@@ -209,9 +209,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstorm/budenovka.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/budenovka.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/maelstorm/budenovka.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/budenovka.rsi
 
 # ClothingOuter
 - type: entity
@@ -222,9 +222,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite:  DeadSpace/Sponsor/maelstorm/greatcoat.rsi
+    sprite:  _DeadSpace/Sponsor/maelstorm/greatcoat.rsi
   - type: Clothing
-    sprite:  DeadSpace/Sponsor/maelstorm/greatcoat.rsi
+    sprite:  _DeadSpace/Sponsor/maelstorm/greatcoat.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -245,9 +245,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite:  DeadSpace/Sponsor/maelstorm/coat3.rsi
+    sprite:  _DeadSpace/Sponsor/maelstorm/coat3.rsi
   - type: Clothing
-    sprite:  DeadSpace/Sponsor/maelstorm/coat3.rsi
+    sprite:  _DeadSpace/Sponsor/maelstorm/coat3.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -269,9 +269,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstorm/head.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/head.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/maelstorm/head.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/head.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -293,7 +293,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstorm/helmet.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/helmet.rsi
     layers:
     - state: icon
       map: [ "unfoldedLayer" ]
@@ -301,7 +301,7 @@
       map: ["foldedLayer"]
       visible: false
   - type: Clothing
-    sprite: DeadSpace/Sponsor/maelstorm/helmet.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/helmet.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -323,9 +323,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstorm/militaryshirt.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/militaryshirt.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/maelstorm/militaryshirt.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/militaryshirt.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -335,9 +335,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstorm/jumpsuit2.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/jumpsuit2.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/maelstorm/jumpsuit2.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/jumpsuit2.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -347,9 +347,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstorm/jumpsuit3.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/jumpsuit3.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/maelstorm/jumpsuit3.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/jumpsuit3.rsi
 
 # Shoes
 - type: entity
@@ -360,12 +360,12 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstorm/shoes.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/shoes.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/maelstorm/shoes.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/shoes.rsi
   - type: FootstepModifier
     footstepSoundCollection:
-      path: /Audio/DeadSpace/Sponsor/maelstorm/maelstormBoots.ogg
+      path: /Audio/_DeadSpace/Sponsor/maelstorm/maelstormBoots.ogg
       params:
         volume: -4
 
@@ -378,9 +378,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstorm/mateba.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/mateba.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/maelstorm/mateba.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/mateba.rsi
   - type: Gun
     fireRate: 2
     soundGunshot:
@@ -394,9 +394,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstorm/mateba.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/mateba.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/maelstorm/mateba.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/mateba.rsi
   - type: Gun
     fireRate: 2
     soundGunshot:
@@ -410,14 +410,14 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstorm/weaponcase.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/weaponcase.rsi
     layers:
     - state: closed
     - state: open
       map: ["openLayer"]
   - type: Appearance
   - type: Item
-    sprite: DeadSpace/Sponsor/maelstorm/weaponcase.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/weaponcase.rsi
     size: Normal
   - type: Storage
     grid:
@@ -437,14 +437,14 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstorm/weaponcase.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/weaponcase.rsi
     layers:
     - state: closed
     - state: open
       map: ["openLayer"]
   - type: Appearance
   - type: Item
-    sprite: DeadSpace/Sponsor/maelstorm/weaponcase.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/weaponcase.rsi
     size: Normal
   - type: Storage
     grid:
@@ -465,7 +465,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/maelstorm/bolt_gun_wood.rsi
+    sprite: _DeadSpace/Sponsor/maelstorm/bolt_gun_wood.rsi
 
 - type: entity
   parent: MedkitCombatFilled
@@ -563,7 +563,7 @@
   sponsorOnly: true
   speciesRestriction: [Human]
   sprites:
-    - sprite: DeadSpace/Sponsor/maelstorm/customization/maelstorm.rsi
+    - sprite: _DeadSpace/Sponsor/maelstorm/customization/maelstorm.rsi
       state: l_augarm
 
 - type: marking
@@ -573,7 +573,7 @@
   sponsorOnly: true
   speciesRestriction: [Human]
   sprites:
-    - sprite: DeadSpace/Sponsor/maelstorm/customization/maelstorm.rsi
+    - sprite: _DeadSpace/Sponsor/maelstorm/customization/maelstorm.rsi
       state: l_aughand
 
 - type: marking
@@ -583,7 +583,7 @@
   sponsorOnly: true
   speciesRestriction: [Human]
   sprites:
-    - sprite: DeadSpace/Sponsor/maelstorm/customization/maelstorm.rsi
+    - sprite: _DeadSpace/Sponsor/maelstorm/customization/maelstorm.rsi
       state: l_augleg
 
 - type: marking
@@ -593,7 +593,7 @@
   sponsorOnly: true
   speciesRestriction: [Human]
   sprites:
-    - sprite: DeadSpace/Sponsor/maelstorm/customization/maelstorm.rsi
+    - sprite: _DeadSpace/Sponsor/maelstorm/customization/maelstorm.rsi
       state: l_augfoot
 
 - type: marking
@@ -602,7 +602,7 @@
   markingCategory: Tail
   sponsorOnly: true
   sprites:
-  - sprite: DeadSpace/Sponsor/maelstorm/customization/maelstorm_tail.rsi
+  - sprite: _DeadSpace/Sponsor/maelstorm/customization/maelstorm_tail.rsi
     state: basic_tail_tip
 
 - type: marking
@@ -613,5 +613,5 @@
   speciesRestriction: [Human, Dwarf]
   followSkinColor: true
   sprites:
-  - sprite: DeadSpace/Sponsor/maelstorm/customization/maelstorm.rsi
+  - sprite: _DeadSpace/Sponsor/maelstorm/customization/maelstorm.rsi
     state: augtorso_m

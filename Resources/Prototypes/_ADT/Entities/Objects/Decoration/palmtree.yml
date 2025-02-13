@@ -5,7 +5,7 @@
   description: Да, это пальма. Но где под ней кокосы?
   components:
   - type: Sprite
-    sprite: ADT/Objects/Decoration/palm_tree.rsi
+    sprite: _ADT/Objects/Decoration/palm_tree.rsi
     state: palm1
 
 - type: entity
@@ -15,5 +15,5 @@
   description: Да, это пальма. Но где под ней кокосы?
   components:
   - type: Sprite
-    sprite: ADT/Objects/Decoration/palm_tree.rsi
+    sprite: _ADT/Objects/Decoration/palm_tree.rsi
     state: palm2

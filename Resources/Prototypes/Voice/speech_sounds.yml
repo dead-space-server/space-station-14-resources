@@ -151,11 +151,11 @@
 - type: speechSounds
   id: Neco
   saySound:
-    path: /Audio/DeadSpace/Voice/Neco/neco_speak1.ogg
+    path: /Audio/_DeadSpace/Voice/Neco/neco_speak1.ogg
   askSound:
-    path: /Audio/DeadSpace/Voice/Neco/neco_speak1.ogg
+    path: /Audio/_DeadSpace/Voice/Neco/neco_speak1.ogg
   exclaimSound:
-    path: /Audio/DeadSpace/Voice/Neco/neco_speak1.ogg
+    path: /Audio/_DeadSpace/Voice/Neco/neco_speak1.ogg
 
 - type: speechSounds
   id: Dog

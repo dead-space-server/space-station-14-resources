@@ -9,7 +9,7 @@
           negative: true
   speciesRestriction: [IPS]
   sprites:
-  - sprite: DeadSpace/Mobs/Customization/ips_face.rsi
+  - sprite: _DeadSpace/Mobs/Customization/ips_face.rsi
     state: blue_s
 
 - type: marking
@@ -23,7 +23,7 @@
           negative: true
   speciesRestriction: [IPS]
   sprites:
-  - sprite: DeadSpace/Mobs/Customization/ips_face.rsi
+  - sprite: _DeadSpace/Mobs/Customization/ips_face.rsi
     state: breakout_s
 
 - type: marking
@@ -37,7 +37,7 @@
           negative: true
   speciesRestriction: [IPS]
   sprites:
-  - sprite: DeadSpace/Mobs/Customization/ips_face.rsi
+  - sprite: _DeadSpace/Mobs/Customization/ips_face.rsi
     state: console_s
 
 - type: marking
@@ -51,7 +51,7 @@
           negative: true
   speciesRestriction: [IPS]
   sprites:
-  - sprite: DeadSpace/Mobs/Customization/ips_face.rsi
+  - sprite: _DeadSpace/Mobs/Customization/ips_face.rsi
     state: eight_s
 
 - type: marking
@@ -65,7 +65,7 @@
           negative: true
   speciesRestriction: [IPS]
   sprites:
-  - sprite: DeadSpace/Mobs/Customization/ips_face.rsi
+  - sprite: _DeadSpace/Mobs/Customization/ips_face.rsi
     state: goggles_hesp_alt_s
 
 - type: marking
@@ -79,7 +79,7 @@
           negative: true
   speciesRestriction: [IPS]
   sprites:
-  - sprite: DeadSpace/Mobs/Customization/ips_face.rsi
+  - sprite: _DeadSpace/Mobs/Customization/ips_face.rsi
     state: goggles_s
 
 - type: marking
@@ -93,7 +93,7 @@
           negative: true
   speciesRestriction: [IPS]
   sprites:
-  - sprite: DeadSpace/Mobs/Customization/ips_face.rsi
+  - sprite: _DeadSpace/Mobs/Customization/ips_face.rsi
     state: gol_glider_s
 
 - type: marking
@@ -107,7 +107,7 @@
           negative: true
   speciesRestriction: [IPS]
   sprites:
-  - sprite: DeadSpace/Mobs/Customization/ips_face.rsi
+  - sprite: _DeadSpace/Mobs/Customization/ips_face.rsi
     state: green_s
 
 - type: marking
@@ -121,7 +121,7 @@
           negative: true
   speciesRestriction: [IPS]
   sprites:
-  - sprite: DeadSpace/Mobs/Customization/ips_face.rsi
+  - sprite: _DeadSpace/Mobs/Customization/ips_face.rsi
     state: heart_s
 
 - type: marking
@@ -135,7 +135,7 @@
           negative: true
   speciesRestriction: [IPS]
   sprites:
-  - sprite: DeadSpace/Mobs/Customization/ips_face.rsi
+  - sprite: _DeadSpace/Mobs/Customization/ips_face.rsi
     state: monoeye_s
 
 - type: marking
@@ -149,7 +149,7 @@
           negative: true
   speciesRestriction: [IPS]
   sprites:
-  - sprite: DeadSpace/Mobs/Customization/ips_face.rsi
+  - sprite: _DeadSpace/Mobs/Customization/ips_face.rsi
     state: music_s
 
 - type: marking
@@ -163,7 +163,7 @@
           negative: true
   speciesRestriction: [IPS]
   sprites:
-  - sprite: DeadSpace/Mobs/Customization/ips_face.rsi
+  - sprite: _DeadSpace/Mobs/Customization/ips_face.rsi
     state: nature_s
 
 - type: marking
@@ -177,7 +177,7 @@
           negative: true
   speciesRestriction: [IPS]
   sprites:
-  - sprite: DeadSpace/Mobs/Customization/ips_face.rsi
+  - sprite: _DeadSpace/Mobs/Customization/ips_face.rsi
     state: off_hesp_alt_s
 
 - type: marking
@@ -191,7 +191,7 @@
           negative: true
   speciesRestriction: [IPS]
   sprites:
-  - sprite: DeadSpace/Mobs/Customization/ips_face.rsi
+  - sprite: _DeadSpace/Mobs/Customization/ips_face.rsi
     state: orange_hesp_alt_s
 
 - type: marking
@@ -205,7 +205,7 @@
           negative: true
   speciesRestriction: [IPS]
   sprites:
-  - sprite: DeadSpace/Mobs/Customization/ips_face.rsi
+  - sprite: _DeadSpace/Mobs/Customization/ips_face.rsi
     state: orange_s
 
 - type: marking
@@ -219,7 +219,7 @@
           negative: true
   speciesRestriction: [IPS]
   sprites:
-  - sprite: DeadSpace/Mobs/Customization/ips_face.rsi
+  - sprite: _DeadSpace/Mobs/Customization/ips_face.rsi
     state: pink_hesp_alt_s
 
 - type: marking
@@ -233,7 +233,7 @@
           negative: true
   speciesRestriction: [IPS]
   sprites:
-  - sprite: DeadSpace/Mobs/Customization/ips_face.rsi
+  - sprite: _DeadSpace/Mobs/Customization/ips_face.rsi
     state: pink_s
 
 - type: marking
@@ -247,7 +247,7 @@
           negative: true
   speciesRestriction: [IPS]
   sprites:
-  - sprite: DeadSpace/Mobs/Customization/ips_face.rsi
+  - sprite: _DeadSpace/Mobs/Customization/ips_face.rsi
     state: purple_s
 
 - type: marking
@@ -261,7 +261,7 @@
           negative: true
   speciesRestriction: [IPS]
   sprites:
-  - sprite: DeadSpace/Mobs/Customization/ips_face.rsi
+  - sprite: _DeadSpace/Mobs/Customization/ips_face.rsi
     state: rainbow_hesp_alt_s
 
 - type: marking
@@ -275,7 +275,7 @@
           negative: true
   speciesRestriction: [IPS]
   sprites:
-  - sprite: DeadSpace/Mobs/Customization/ips_face.rsi
+  - sprite: _DeadSpace/Mobs/Customization/ips_face.rsi
     state: rainbow_s
 
 - type: marking
@@ -289,7 +289,7 @@
           negative: true
   speciesRestriction: [IPS]
   sprites:
-  - sprite: DeadSpace/Mobs/Customization/ips_face.rsi
+  - sprite: _DeadSpace/Mobs/Customization/ips_face.rsi
     state: red_s
 
 - type: marking
@@ -303,7 +303,7 @@
           negative: true
   speciesRestriction: [IPS]
   sprites:
-  - sprite: DeadSpace/Mobs/Customization/ips_face.rsi
+  - sprite: _DeadSpace/Mobs/Customization/ips_face.rsi
     state: rgb_hesp_alt_s
 
 - type: marking
@@ -317,7 +317,7 @@
           negative: true
   speciesRestriction: [IPS]
   sprites:
-  - sprite: DeadSpace/Mobs/Customization/ips_face.rsi
+  - sprite: _DeadSpace/Mobs/Customization/ips_face.rsi
     state: rgb_s
 
 - type: marking
@@ -331,7 +331,7 @@
           negative: true
   speciesRestriction: [IPS]
   sprites:
-  - sprite: DeadSpace/Mobs/Customization/ips_face.rsi
+  - sprite: _DeadSpace/Mobs/Customization/ips_face.rsi
     state: scroll_hesp_alt_s
 
 - type: marking
@@ -345,7 +345,7 @@
           negative: true
   speciesRestriction: [IPS]
   sprites:
-  - sprite: DeadSpace/Mobs/Customization/ips_face.rsi
+  - sprite: _DeadSpace/Mobs/Customization/ips_face.rsi
     state: scroll_s
 
 - type: marking
@@ -359,7 +359,7 @@
           negative: true
   speciesRestriction: [IPS]
   sprites:
-  - sprite: DeadSpace/Mobs/Customization/ips_face.rsi
+  - sprite: _DeadSpace/Mobs/Customization/ips_face.rsi
     state: shower_s
 
 - type: marking
@@ -373,7 +373,7 @@
           negative: true
   speciesRestriction: [IPS]
   sprites:
-  - sprite: DeadSpace/Mobs/Customization/ips_face.rsi
+  - sprite: _DeadSpace/Mobs/Customization/ips_face.rsi
     state: smoking_s
 
 - type: marking
@@ -387,7 +387,7 @@
           negative: true
   speciesRestriction: [IPS]
   sprites:
-  - sprite: DeadSpace/Mobs/Customization/ips_face.rsi
+  - sprite: _DeadSpace/Mobs/Customization/ips_face.rsi
     state: static_s
 
 - type: marking
@@ -401,7 +401,7 @@
           negative: true
   speciesRestriction: [IPS]
   sprites:
-  - sprite: DeadSpace/Mobs/Customization/ips_face.rsi
+  - sprite: _DeadSpace/Mobs/Customization/ips_face.rsi
     state: test_s
 
 - type: marking
@@ -415,7 +415,7 @@
           negative: true
   speciesRestriction: [IPS]
   sprites:
-  - sprite: DeadSpace/Mobs/Customization/ips_face.rsi
+  - sprite: _DeadSpace/Mobs/Customization/ips_face.rsi
     state: waiting_s
 
 - type: marking
@@ -429,5 +429,5 @@
           negative: true
   speciesRestriction: [IPS]
   sprites:
-  - sprite: DeadSpace/Mobs/Customization/ips_face.rsi
+  - sprite: _DeadSpace/Mobs/Customization/ips_face.rsi
     state: yellow_s

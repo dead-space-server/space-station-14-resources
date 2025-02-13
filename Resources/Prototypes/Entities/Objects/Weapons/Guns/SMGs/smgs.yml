@@ -176,7 +176,6 @@
   name: Vector
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunVector
-  suffix: Deprecated use Drozd
   description: An excellent fully automatic Heavy SMG. Uses 9.19 ammo.
   components:
   - type: Sprite

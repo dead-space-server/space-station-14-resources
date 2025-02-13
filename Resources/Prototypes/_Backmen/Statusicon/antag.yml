@@ -8,5 +8,5 @@
       - ZombieBlob
       - Blobbernaut
   icon:
-    sprite: /Textures/Backmen/Interface/Misc/antag_icon.rsi
+    sprite: /Textures/_Backmen/Interface/Misc/antag_icon.rsi
     state: blob
