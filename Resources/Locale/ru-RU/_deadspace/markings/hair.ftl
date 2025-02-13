@@ -8,3 +8,4 @@ marking-ADTAllPonytail = Пышная с хвостом
 marking-ADTAllPrinceCharming = Принц
 marking-ADTAllShavedFemale = Женская с выбритым боком
 marking-ADTAllShavedFemaleUnisex = Унисекс с пучком
+marking-HumanFacialHairCorrectedman = исправленный человек

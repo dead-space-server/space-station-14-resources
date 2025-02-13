@@ -197,6 +197,13 @@
     back:
     - ClothingNeckGoldAutismPin
 
+# DS14: ClothingNeckHeteroPin
+- type: loadout
+  id: ClothingNeckHeteroPin
+  storage:
+    back:
+    - ClothingNeckHeteroPin
+
 # Towels
 - type: loadout
   id: TowelColorWhite

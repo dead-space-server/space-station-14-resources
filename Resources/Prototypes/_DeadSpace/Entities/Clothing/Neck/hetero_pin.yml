@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingNeckPinBase
+  id: ClothingNeckHeteroPin
+  name: нагрудный значок
+  description: В этом количестве разнообразия он кажется особенным.
+  components:
+  - type: Sprite
+    sprite: DeadSpace/Clothing/Neck/hetero_pin.rsi
+  - type: Clothing
+    sprite: DeadSpace/Clothing/Neck/hetero_pin.rsi
