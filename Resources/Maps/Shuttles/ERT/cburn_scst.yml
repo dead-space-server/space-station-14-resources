@@ -28,6 +28,7 @@ entities:
       name: NT-Rook-1
     - type: Transform
       pos: -0.5,-0.5
+      parent: invalid
     - type: MapGrid
       chunks:
         0,0:
@@ -6030,6 +6031,13 @@ entities:
           showEnts: False
           occludes: True
           ent: null
+- proto: CrateFoodMRE
+  entities:
+  - uid: 1802
+    components:
+    - type: Transform
+      pos: 0.5,-2.5
+      parent: 1
 - proto: CrateFreezer
   entities:
   - uid: 116

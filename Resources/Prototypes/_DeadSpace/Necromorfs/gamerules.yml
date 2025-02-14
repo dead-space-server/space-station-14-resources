@@ -129,7 +129,7 @@
     minimumPlayers: 30
     willNotStartRandomly: true
   - type: CargoGiftsRule
-    description: контейнер с артефактом
+    description: cargo-gift-artifact-container
     dest: cargo-gift-default-sender
     gifts:
       ArtifactContainerNecroobelisk: 1

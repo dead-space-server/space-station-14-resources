@@ -186,7 +186,7 @@ binds:
   mod1: Alt
 - function: OpenCharacterMenu
   type: State
-  key: C
+  key: Y
 # - function: OpenEmotesMenu
 #   type: State
 #   key: Y
@@ -584,3 +584,7 @@ binds:
   type: State
   key: MouseRight
   canFocus: true
+# DS14-binds
+- function: LieDown
+  type: State
+  key: C

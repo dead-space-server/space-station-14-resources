@@ -630,3 +630,14 @@
   - type: IdentityBlocker
     coverage: EYES
   - type: FlashImmunity
+
+# Customization
+
+- type: marking
+  id: Foxninetaildragon
+  bodyPart: Tail
+  markingCategory: Tail
+  sponsorOnly: true
+  sprites:
+  - sprite: Textures/DeadSpace/Sponsor/DragonFox/ninetails.rsi
+    state: nine_tail 

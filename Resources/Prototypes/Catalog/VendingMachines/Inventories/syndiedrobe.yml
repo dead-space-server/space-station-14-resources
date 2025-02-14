@@ -3,10 +3,9 @@
   startingInventory:
     ClothingHeadHatOutlawHat: 4
     ClothingHeadHatSyndie: 4
-    ClothingHeadHatSyndieMAA: 2
     ClothingMaskNeckGaiter: 6
-    ClothingOuterCoatLettermanS: 4
     ClothingOuterWinterSyndie: 6
+    ClothingHeadHatSyndieMAA: 2
     ClothingOuterWinterSyndieCap: 2
     ClothingOuterCoatSyndieCap: 2
     ClothingUniformJumpsuitSyndieFormal: 6
@@ -15,12 +14,17 @@
     ClothingUniformJumpskirtOperative: 6
     ClothingNeckScarfStripedSyndieGreen: 2
     ClothingNeckScarfStripedSyndieRed: 2
-    ADTClothingNeckSyndicateCloak: 2
     ClothingShoesBootsWinterSyndicate: 2
+    ClothingOuterCoatLettermanS: 4 # DS14
+    ADTClothingNeckSyndicateCloak: 2 # ADT
+  contrabandInventory:
+    ToyFigurineFootsoldier: 1
+    ToyFigurineNukieElite: 1
+    ToyFigurineNukieCommander: 1
   emaggedInventory:
     ClothingOuterCoatSyndieCapArmored: 1
     ClothingOuterWinterSyndieCapArmored: 1
-    ClothingHeadHatTacticalMaidHeadband: 2
-    ClothingUniformJumpskirtTacticalMaid: 4
-    ClothingHandsTacticalMaidGloves: 4
-    ADTClothingNeckNukeOpsCloak: 2
+    ClothingHeadHatTacticalMaidHeadband: 2 # DS14
+    ClothingUniformJumpskirtTacticalMaid: 4 # DS14
+    ClothingHandsTacticalMaidGloves: 4 # DS14
+    ADTClothingNeckNukeOpsCloak: 2 # ADT

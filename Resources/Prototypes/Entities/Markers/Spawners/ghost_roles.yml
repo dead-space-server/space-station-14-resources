@@ -19,6 +19,8 @@
     name: ghost-role-information-rat-king-name
     description: ghost-role-information-rat-king-description
     rules: ghost-role-information-rat-king-rules
+    mindRoles:
+    - MindRoleGhostRoleFreeAgent
     requirements:
     - !type:OverallPlaytimeRequirement
       time: 36000 # 10 hours
@@ -43,6 +45,8 @@
     name: ghost-role-information-remilia-name
     description: ghost-role-information-remilia-description
     rules: ghost-role-information-familiar-rules
+    mindRoles:
+    - MindRoleGhostRoleFamiliar
     raffle:
       settings: short
   - type: GhostRoleMobSpawner
@@ -64,6 +68,8 @@
     name: ghost-role-information-cerberus-name
     description: ghost-role-information-cerberus-description
     rules: ghost-role-information-familiar-rules
+    mindRoles:
+    - MindRoleGhostRoleFamiliar
     raffle:
       settings: default
   - type: GhostRoleMobSpawner
@@ -84,6 +90,8 @@
   components:
   - type: GhostRole
     rules: ghost-role-information-rules-default-team-antagonist
+    mindRoles:
+    - MindRoleGhostRoleTeamAntagonist
     requirements:
     - !type:DepartmentTimeRequirement
       department: Medical
@@ -111,6 +119,8 @@
     name: ghost-role-information-loneop-name
     description: ghost-role-information-loneop-description
     rules: ghost-role-information-loneop-rules
+    mindRoles:
+    - MindRoleGhostRoleSoloAntagonist
     requirements:
     - !type:DepartmentTimeRequirement
       department: Medical
@@ -134,6 +144,8 @@
     name: roles-antag-nuclear-operative-commander-name
     description: roles-antag-nuclear-operative-commander-objective
     rules: ghost-role-information-rules-default-team-antagonist
+    mindRoles:
+    - MindRoleGhostRoleTeamAntagonist
     requirements:
     - !type:DepartmentTimeRequirement
       department: Medical
@@ -154,6 +166,8 @@
     name: roles-antag-nuclear-operative-agent-name
     description: roles-antag-nuclear-operative-agent-objective
     rules: ghost-role-information-rules-default-team-antagonist
+    mindRoles:
+    - MindRoleGhostRoleTeamAntagonist
     requirements:
     - !type:DepartmentTimeRequirement
       department: Medical
@@ -174,6 +188,8 @@
     name: roles-antag-nuclear-operative-name
     description: roles-antag-nuclear-operative-objective
     rules: ghost-role-information-rules-default-team-antagonist
+    mindRoles:
+    - MindRoleGhostRoleTeamAntagonist
 
 - type: entity
   categories: [ HideSpawnMenu, Spawner ]
@@ -184,6 +200,8 @@
     name: ghost-role-information-space-dragon-name
     description: ghost-role-information-space-dragon-description
     rules: ghost-role-information-space-dragon-rules
+    mindRoles:
+    - MindRoleGhostRoleTeamAntagonist
     requirements:
     - !type:OverallPlaytimeRequirement
       time: 36000 # 10h overall
@@ -202,6 +220,8 @@
     name: ghost-role-information-space-ninja-name
     description: ghost-role-information-space-ninja-description
     rules: ghost-role-information-space-ninja-rules
+    mindRoles:
+    - MindRoleGhostRoleSoloAntagonist
     requirements:
     - !type:OverallPlaytimeRequirement
       time: 144000 # 40h overall

@@ -329,7 +329,6 @@ MagazineBoxLightRifleRubber: MagazineBoxLightRifle
 MagazineBoxRifleRubber: MagazineBoxRifle
 MagazineBoxRifleBigRubber: MagazineBoxRifleBig
 MagazineBoxCaselessRifleRubber: MagazineBoxCaselessRifle
-MagazineBoxCaselessRifleBigRubber: MagazineBoxCaselessRifle10x24
 BoxMagazinePistolRubber: BoxMagazinePistol
 BoxMagazinePistolHighCapacityRubber: BoxMagazinePistolHighCapacity
 BoxMagazinePistolSubMachineGunRubber: BoxMagazinePistolSubMachineGun
@@ -339,7 +338,6 @@ BoxMagazineCaselessRifleRubber: BoxMagazinePistolCaselessRifle
 BoxMagazineMagnumSubMachineGunRubber: BoxMagazineMagnumSubMachineGun
 WeaponPistolMk58Nonlethal: WeaponPistolMk58
 WeaponPistolN1984Nonlethal: WeaponPistolN1984
-WeaponSubMachineGunVectorRubber: WeaponSubMachineGunVector
 WeaponSubMachineGunDrozdRubber: WeaponSubMachineGunDrozd
 WeaponRifleLecterRubber: WeaponRifleLecter
 
@@ -374,12 +372,12 @@ GasMinerlittleSpawning: null
 GasMiniMinerPlasma: null
 ADTEncryptionKeyLawyer: EncryptionKeyLaw
 ADTClothingHeadsetLawyer: ClothingHeadsetLaw
-ADTEncryptionKeySpec: EncryptionKeySOC
-ADTClothingHeadsetSpec: ClothingHeadsetSOC
+ADTEncryptionKeySpec: null
+ADTClothingHeadsetSpec: null
 EncryptionKeyIAA: EncryptionKeyLaw
 ADTEncryptionKeyMerc: EncryptionKeyMerc
 ADTClothingHeadsetMerc: ClothingHeadsetMerc
-ClothingHeadsetCSO: ClothingHeadsetSOC
+ClothingHeadsetCSO: null
 
 # 2024-05-09 - DS14
 PrinterDoc: null
@@ -461,7 +459,7 @@ BookChefGaming: BookHowToCookForFortySpaceman
 IntercomAssesmbly: IntercomAssembly
 
 #2024-07-17 - DS14
-ClothingHeadsetAltCSO: ClothingHeadsetSOC
+ClothingHeadsetAltCSO: null
 ClothingBackpackLeaderDuffelCBURNNECROFilled: null
 ClothingBackpackDuffelCBURNNECROFilled: null
 ClothingBackpackDuffelCBURNSCSTFilled: null
@@ -742,3 +740,16 @@ ActionToggleNightVision: null
 ClothingHeadsetSOC: null
 EncryptionKeySOC: null
 
+#2024-12-28
+DrinkIrishCarBomb: DrinkIrishSlammer
+
+#2025-01-06
+ClothingMaskSexyClown: ClothingMaskBlushingClown
+ClothingMaskSexyMime: ClothingMaskBlushingMime
+
+# 2025-01-27
+FoodCondimentPacketFrostoil: FoodCondimentPacketColdsauce
+
+#2025-02-05
+WeaponSubMachineGunVector: null
+WeaponSubMachineGunVectorRubber: null

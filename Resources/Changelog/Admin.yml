@@ -1,89 +1,90 @@
-AdminOnly: true
+﻿AdminOnly: true
 Entries:
 - author: DrSmugleaf
   changes:
-  - {message: 'Добавил список обновлений исключительно для админов.', type: Add}
+  - message: Created the admin changelog.
+    type: Add
   id: 1
   time: '2023-10-08T04:26:00.0000000+00:00'
 - author: DrSmugleaf
   changes:
-  - {message: 'Добавил новый интерфейс для паник бункера в админ панели', type: Add}
-  - {message: 'Добавил кнопку автоматического включения паник бункера в зависимости от того, есть ли на сервере админы.', type: Add}
+  - message: Added a new panic bunker UI in the F7 admin panel.
+    type: Add
+  - message: Added being able to toggle the panic bunker automatically depending on
+      if admins are online or not.
+    type: Add
   id: 2
   time: '2023-10-12T22:46:00.0000000+00:00'
 - author: DrSmugleaf
   changes:
-  - {message: 'Добавил колонку с общим временем игрока в заголовке АХелпа и во вкладке «Игроки» в Админ панели.', type: Add}
+  - message: Added total playtime to the F7 player list and the AHelp window title.
+    type: Add
   id: 3
   time: '2023-10-14T08:55:00.0000000+00:00'
 - author: DrSmugleaf
   changes:
-  - {message: 'Добавил кару «Стереть», а также добавил чекбокс «Стереть из панели банов».', type: Add}
+  - message: Added admin Erase verb, add checkbox to erase from the ban panel.
+    type: Add
   id: 4
   time: '2023-10-14T09:00:00.0000000+00:00'
 - author: DrSmugleaf
   changes:
-  - {message: 'Теперь интерфейс паник бункера сам выставляет минимальное время с создания аккаунта/игровое время, когда меню ввода не в фокусе.', type: Tweak}
-  - {message: 'Added message tooltip to the erase verb.', type: Tweak}
+  - message: Made the panic bunker UI also set the minimum account age/playtime requirements
+      when the two inputs lose focus, not just when pressing enter.
+    type: Tweak
+  - message: Added message tooltip to the erase verb.
+    type: Tweak
   id: 5
   time: '2023-10-14T09:21:00.0000000+00:00'
 - author: DrSmugleaf
   changes:
-  - {message: 'Добавил чпокающий звук, когда используется кара стирания.', type: Tweak}
+  - message: Add pop sound effect when using the erase admin verb.
+    type: Tweak
   id: 5
   time: '2023-10-14T09:47:00.0000000+00:00'
 - author: DrSmugleaf
   changes:
-  - {message: 'Исправил неработающую кнопку сортировки игроков во вкладке «Игроки» по наигранному времени.', type: Fix}
+  - message: Fixed not being able to sort the F7 players tab by playtime.
+    type: Fix
   id: 6
   time: '2023-10-14T23:52:00.0000000+00:00'
 - author: DrSmugleaf
   changes:
-  - {message: 'Исправил неправильную сортировку по времени во вкладке «Игроки».', type: Fix}
+  - message: Fixed playtime being sorted incorrectly in the F7 players tab.
+    type: Fix
   id: 7
   time: '2023-10-16T04:23:00.0000000+00:00'
 - author: DrSmugleaf
   changes:
-  - {message: 'Исправлено то что комнда вайтлиста не довала фидбек если было передано 0 аргументов.', type: Fix}
-  - {message: 'Исправлено отсутствие обрезки начальных и конечных пробелов в именах команд вайтлиста.', type: Fix}
-  - {message: 'Добавлена \[player\] подсказка для команд вайтлиста.', type: Tweak}
+  - message: Fixed whitelist commands not giving feedback with 0 arguments.
+    type: Fix
+  - message: Fixed not trimming starting and trailing whitespaces within names in
+      whitelist commands.
+    type: Fix
+  - message: Added a \[player\] completion type hint to whitelist add and remove commands.
+    type: Tweak
   id: 8
   time: '2023-10-21T09:53:00.0000000+00:00'
 - author: DrSmugleaf
   changes:
-  - {message: 'Исправлено то что функция стирания в некоторых случаях не удаляла сообщения.', type: Fix}
+  - message: Fixed the Erase verb not removing all chat messages from the player in
+      some cases.
+    type: Fix
   id: 9
   time: '2023-10-30T01:28:00.0000000+00:00'
 - author: Vasilis
   changes:
-  - {message: 'ДАМ и УЧ издают звуковой эффект, когда они перегружены. Аналогично сообщению факса.', type: Add}
+  - message: AME and PA make a sound effect when they are being overloaded. Similar
+      to being sent a fax.
+    type: Add
   id: 10
   time: '2023-11-07T15:03:00.0000000+00:00'
 - author: nikthechampiongr
   changes:
-    - {message: 'Исправлено то что кнопка респауна игрока респавнила админа, а не игрока.', type: Fix}
-  time: '2023-11-22T16:39:00.0000000+00:00'
+  - message: The respawn verb now respawns the targeted player instead of the admin
+    type: Fix
   id: 11
-- author: ahahahahha
-  changes:
-  - {message: 'Добавлена метка в оверлее и в F7 отображающая то что игрок наиграл менее дня на проекте, выглядит как красная звёздочка.', type: Add}
-  id: 1000
-  time: '2023-11-29T00:00:00.0000000+00:00'
-- author: ahahahahha
-  changes:
-  - {message: 'Метка спонсора убрана из оверлея.', type: Tweak}
-  id: 1001
-  time: '2023-11-29T00:00:00.0000000+00:00'
-- author: ahahahahha
-  changes:
-  - {message: 'Исправлено то что у игроков с подпиской синдикат не было маркера спонсора.', type: Fix}
-  id: 1003
-  time: '2023-11-29T00:00:00.0000000+00:00'
-- author: ahahahahha
-  changes:
-  - {message: 'Добавлено звуковое уведмоление при подключении человека с админ наблюдением.', type: Add}
-  id: 1004
-  time: '2023-11-29T00:00:00.0000000+00:00'
+  time: '2023-11-22T16:39:00.0000000+00:00'
 - author: nikthechampiongr
   changes:
   - message: The Super Bonk smite is now available. Targets will bonk their head on
@@ -104,11 +105,6 @@ Entries:
     type: Fix
   id: 14
   time: '2024-1-4T01:30:00.0000000+00:00'
-- author: ahahahahha
-  changes:
-    - {message: 'Выдавать время теперь могут только админы с флагом хоста.', type: Fix}
-  id: 1000
-  time: '2024-02-12T00:00:00.0000000+00:00'
 - author: nikthechampiongr
   changes:
   - message: Players now leave logs when joining as observers.
@@ -668,5 +664,93 @@ Entries:
   id: 82
   time: '2024-12-24T02:25:04.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/34001
+- author: DylanWhittingham
+  changes:
+  - message: Players using the notekeeper PDA program is now logged.
+    type: Add
+  id: 83
+  time: '2025-01-02T16:16:44.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/34118
+- author: c4llv07e
+  changes:
+  - message: adminwho doesn't leak stealthmins count now!
+    type: Fix
+  id: 84
+  time: '2025-01-08T15:23:34.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/34122
+- author: Errant
+  changes:
+  - message: The Admin Menu and Admin Overlay now shows the specific role types of
+      players and antagonists, respectively. The old admin overlay can still be used
+      with cvar ui.admin_overlay_classic true
+    type: Tweak
+  id: 85
+  time: '2025-01-11T21:17:26.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/33420
+- author: Myra
+  changes:
+  - message: Added IPIntel's API to the connection code. If enabled, this will automate
+      VPN/Proxy detection.
+    type: Add
+  id: 86
+  time: '2025-01-12T19:41:26.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/33339
+- author: PJB3005
+  changes:
+  - message: Deadmin status is now synchronized to database, making it persistent
+      across server restarts and between multiple game servers.
+    type: Tweak
+  - message: Admins can now be suspended via the permissions panel. This effectively
+      removes their admin status without completely deleting their record.
+    type: Add
+  id: 87
+  time: '2025-01-14T23:46:45.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/34048
+- author: Palladinium
+  changes:
+  - message: Added Discord relay notifications when a watchlisted player connects.
+    type: Add
+  id: 88
+  time: '2025-01-15T00:32:24.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/33483
+- author: Myra
+  changes:
+  - message: Admins are by default now hidden from the reported player count on the
+      launcher.
+    type: Add
+  id: 89
+  time: '2025-01-15T21:10:54.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/34406
+- author: c4llv07e
+  changes:
+  - message: Added an option to disable the bwoink sound!
+    type: Add
+  id: 90
+  time: '2025-01-17T07:24:50.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/33782
+- author: PJB3005
+  changes:
+  - message: Introduced an option to automatically disconnect players from their current
+      server if they join another one within the same server community. Admins are
+      always exempt.
+    type: Add
+  id: 91
+  time: '2025-01-21T23:23:47.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/34563
+- author: ScarKy0
+  changes:
+  - message: Added the omni-accent smite. It adds most accents onto the target.
+    type: Add
+  id: 92
+  time: '2025-02-02T20:00:27.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/34824
+- author: Palladinium
+  changes:
+  - message: Added atmospherics device information (air alarms, vents, scrubbers)
+      to admin logs
+    type: Add
+  id: 93
+  time: '2025-02-06T05:10:21.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/33426
 Name: Admin
 Order: 1

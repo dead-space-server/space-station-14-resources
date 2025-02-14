@@ -35,5 +35,7 @@ ent-MagazinePistolSubMachineGunEmpty = магазин ПП (9х19 мм любы�
     .desc = { ent-BaseMagazinePistolSubMachineGun.desc }
 ent-MagazinePistolSubMachineGunPractice = магазин ПП (9х19 мм учебные)
     .desc = { ent-BaseMagazinePistolSubMachineGun.desc }
+ent-MagazinePistolSubMachineGunIncendiary = SMG magazine (.35 auto incendiary)
+    .desc = { ent-BaseMagazinePistolSubMachineGun.desc }
 ent-MagazinePistolSubMachineGunUranium = магазин ПП (9х19 мм урановые)
     .desc = { ent-BaseMagazinePistolSubMachineGun.desc }
