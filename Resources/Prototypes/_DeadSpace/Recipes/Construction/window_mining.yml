@@ -20,7 +20,7 @@
 - type: construction
   name: шахтёрское диагональное окно
   id: MiningWindowDiagonal
-  graph: MiningWindowDiagonal
+  graph: MiningWindow
   startNode: start
   targetNode: miningWindowDiagonal
   category: construction-category-structures

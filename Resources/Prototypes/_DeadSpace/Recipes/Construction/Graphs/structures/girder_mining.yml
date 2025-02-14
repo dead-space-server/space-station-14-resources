@@ -75,6 +75,19 @@
               amount: 2
               doAfter: 1
 
+        - to: girder
+          completed:
+            - !type:SnapToGrid
+              southRotation: true
+            - !type:SpawnPrototype
+              prototype: SheetPlasteel1
+              amount: 2
+          conditions:
+            - !type:EntityAnchored { }
+          steps:
+            - tool: Cutting
+              doAfter: 2
+
     - node: miningWall
       entity: WallMining
       edges:

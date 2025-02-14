@@ -4,22 +4,22 @@
   graph:
     - node: start
       edges:
-        - to: miningWindow
-          steps:
-          - material: ReinforcedGlass
-            amount: 2
-          - material: MetalRod
-            amount: 2
-            doAfter: 2
-        
-        - to: miningWindowDiagonal
-          steps:
-          - material: ReinforcedGlass
-            amount: 2
-          - material: MetalRod
-            amount: 1
-            doAfter: 2
-        
+      - to: miningWindow
+        steps:
+        - material: ReinforcedGlass
+          amount: 2
+        - material: MetalRod
+          amount: 2
+          doAfter: 2
+
+      - to: miningWindowDiagonal
+        steps:
+        - material: ReinforcedGlass
+          amount: 2
+        - material: MetalRod
+          amount: 1
+          doAfter: 2
+
     - node: miningWindow
       entity: MiningWindow
       edges:
