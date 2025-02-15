@@ -1526,7 +1526,7 @@
     id: SecurityPilotIDCard
     state: pda-security
   - type: PdaBorderColor
-    borderColor: "#772d32"
+    borderColor: "#2f303c"
   - type: Icon
     state: pda-security
   - type: CartridgeLoader
