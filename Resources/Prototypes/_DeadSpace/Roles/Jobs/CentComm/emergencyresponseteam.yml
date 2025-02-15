@@ -459,6 +459,8 @@
     - ERTloadoutAmberSecondary
     - ERTloadoutAmberPrimary
     - Flare
+    - RCD
+    - RCDAmmo
 
 ## Red
 - type: job
