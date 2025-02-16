@@ -42,8 +42,8 @@
 - type: entity
   parent: BaseFigurineDS14
   id: ToyFigurineERTOfficer
-  name: фигурка оффицера ОБР
-  description: Минифигурка оффицера ОБР.
+  name: фигурка офицера ОБР
+  description: Минифигурка офицера ОБР.
   components:
   - type: Sprite
     state: ertofficer

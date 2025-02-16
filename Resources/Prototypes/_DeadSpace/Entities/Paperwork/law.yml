@@ -34,13 +34,6 @@
   paperPrototype: PaperPrintedLaw
 
 - type: paperworkForm
-  id: Law5
-  category: law
-  name: paperwork-form-title-law-5
-  text: "/Paperwork/Law/5.xml"
-  paperPrototype: PaperPrintedLaw
-
-- type: paperworkForm
   id: Law8
   category: law
   name: paperwork-form-title-law-8
